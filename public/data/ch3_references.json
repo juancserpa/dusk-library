@@ -1,0 +1,1305 @@
+{
+  "chapter": "ch3",
+  "chapter_title": "The Dusk of Human Intelligence",
+  "generated": "2026-03-05",
+  "entry_count": 48,
+  "entries": [
+    {
+      "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
+      "author": "{Nature}",
+      "source": "Nature",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.nature.com/articles/d41586-024-01087-4",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "8 min read",
+      "hook": "AI crossed a threshold nobody expected this soon: it's beating humans at basic cognitive tasks faster than we can design new tests.",
+      "why_it_matters": "Demonstrates that intelligence—the premium skill underlying the cognitive aristocracy—is no longer scarce. The benchmarks humans relied on to prove their edge are falling one by one.",
+      "summary": "Nature reports that AI now surpasses humans on various cognitive benchmarks from reading comprehension to visual reasoning, and researchers struggle to create harder tests fast enough.",
+      "bibtex": "@article{nature2024aibenchmarks,\n  title={AI now beats humans at basic tasks --- new benchmarks are needed, says major report},\n  journal={Nature},\n  year={2024}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-001"
+    },
+    {
+      "title": "The Meritocracy Trap: How America's Foundational Myth Feeds Inequality, Dismantles the Middle Class, and Devours the Elite",
+      "author": "Markovits, Daniel",
+      "source": "Crown Publishing",
+      "publisher": "Penguin Random House",
+      "type": "book",
+      "year": 2019,
+      "month": 9,
+      "url": "https://www.penguinrandomhouse.com/books/548174/the-meritocracy-trap-by-daniel-markovits/",
+      "keywords": [
+        "🧠 Intelligence",
+        "💰 Inequality",
+        "🎓 Education"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "6 hr read",
+      "hook": "Meritocracy didn't break because it failed. It worked perfectly—which is exactly the problem.",
+      "why_it_matters": "The definitive analysis of the cognitive aristocracy. Markovits shows how sorting by intelligence became dynastic wealth transfer. When AI makes intelligence cheap, this whole system collapses.",
+      "summary": "Markovits argues that meritocracy concentrates privilege across generations, as elites monopolize premium opportunities demanding high intelligence credentials—a system AI now threatens to dismantle.",
+      "bibtex": "@book{markovits2019meritocracy,\n  title={The Meritocracy Trap},\n  author={Markovits, Daniel},\n  publisher={Crown},\n  year={2019}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-002"
+    },
+    {
+      "title": "Automation and New Tasks: How Technology Displaces and Reinstates Labor",
+      "author": "Acemoglu, Daron and Restrepo, Pascual",
+      "source": "Journal of Economic Perspectives",
+      "publisher": null,
+      "type": "paper",
+      "year": 2019,
+      "month": 2,
+      "url": "https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "35 min read",
+      "hook": "When machines take your job, what matters isn't whether new jobs exist—it's who gets them and whether you're trained for them.",
+      "why_it_matters": "Acemoglu's task-based framework explains scarcity migration: automation displaces workers from existing tasks, but new tasks only emerge if institutions deliberately create them.",
+      "summary": "Acemoglu and Restrepo develop a task-based model showing how automation creates displacement effects that aren't automatically offset by creation of new labor-intensive tasks.",
+      "bibtex": "@article{acemoglu2019automation,\n  title={Automation and New Tasks: How Technology Displaces and Reinstates Labor},\n  author={Acemoglu, Daron and Restrepo, Pascual},\n  journal={Journal of Economic Perspectives},\n  volume={33},\n  number={2},\n  pages={3--30},\n  year={2019}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-003"
+    },
+    {
+      "title": "Artificial Intelligence and the Modern Productivity Paradox",
+      "author": "Brynjolfsson, Erik and Rock, Daniel and Syverson, Chad",
+      "source": "NBER Working Papers",
+      "publisher": "National Bureau of Economic Research",
+      "type": "paper",
+      "year": 2017,
+      "month": 11,
+      "url": "https://www.nber.org/papers/w24001",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "40 min read",
+      "hook": "AI is everywhere, getting faster, smarter, cheaper—and somehow the economy keeps slowing down. What gives?",
+      "why_it_matters": "Explains why intelligence can be made cheap without immediate prosperity. The scarcity migration from intelligence to orchestration hasn't created new value yet—it's the gap the chapter identifies.",
+      "summary": "Brynjolfsson and colleagues explain why AI's capability improvements haven't yet translated to measurable economic gains, invoking implementation lags and the productivity J-curve.",
+      "bibtex": "@techreport{brynjolfsson2017productivity,\n  title={Artificial Intelligence and the Modern Productivity Paradox},\n  author={Brynjolfsson, Erik and Rock, Daniel and Syverson, Chad},\n  institution={NBER},\n  number={w24001},\n  year={2017}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-004"
+    },
+    {
+      "title": "Explaining Job Polarisation: Routine-Biased Technological Change and Offshoring",
+      "author": "Goos, Maarten and Manning, Alan and Salomons, Anna",
+      "source": "American Economic Review",
+      "publisher": null,
+      "type": "paper",
+      "year": 2014,
+      "month": 8,
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.8.2509",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "35 min read",
+      "hook": "Technology doesn't destroy all jobs equally. It hollows out the middle—leaving high-skill and low-skill work, and nothing in between.",
+      "why_it_matters": "Job polarization is the economic mechanism behind scarcity migration: technology eliminates middle-skill cognitive jobs, squeezing the knowledge class from both directions.",
+      "summary": "Goos, Manning, and Salomons document job polarization across 16 European countries, showing routine-biased technological change systematically eliminates middle-wage employment.",
+      "bibtex": "@article{goos2014explaining,\n  title={Explaining Job Polarisation: Routine-Biased Technological Change and Offshoring},\n  author={Goos, Maarten and Manning, Alan and Salomons, Anna},\n  journal={American Economic Review},\n  volume={104},\n  number={8},\n  pages={2509--2526},\n  year={2014}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-005"
+    },
+    {
+      "title": "To Save Entry-Level Jobs From AI, Look to the Medical Residency Model",
+      "author": "Fuller, Joseph and Raman, Manjari",
+      "source": "Brookings Institution",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.brookings.edu/articles/to-save-entry-level-jobs-from-ai-look-to-the-medical-residency-model/",
+      "keywords": [
+        "🎓 Education",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Every profession is about to face the problem medicine solved 200 years ago: how do you train experts when AI can do the entry-level work?",
+      "why_it_matters": "Captures the pyramid collapse: entry-level jobs weren't just jobs—they were training. When AI eats the base, the pipeline for creating the next generation of professionals breaks.",
+      "summary": "Fuller and Raman argue that AI's displacement of entry-level work threatens the professional development pipeline, proposing structured apprenticeship models as alternatives.",
+      "bibtex": "@article{fuller2024entrylevel,\n  title={To Save Entry-Level Jobs From AI, Look to the Medical Residency Model},\n  author={Fuller, Joseph and Raman, Manjari},\n  journal={Brookings Institution},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-006"
+    },
+    {
+      "title": "The Tyranny of Merit: What's Become of the Common Good?",
+      "author": "Sandel, Michael J.",
+      "source": "Farrar, Straus and Giroux",
+      "publisher": "Macmillan",
+      "type": "book",
+      "year": 2020,
+      "month": 9,
+      "url": "https://us.macmillan.com/books/9780374289980/thetyrannyofmerit",
+      "keywords": [
+        "🧠 Intelligence",
+        "💰 Inequality",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "8 hr read",
+      "hook": "The people who won the meritocracy forgot that luck got them there. Now AI is about to remind them.",
+      "why_it_matters": "Sandel dismantles the myth that merit equals intelligence equals virtue—the exact three myths the chapter identifies. When AI makes the cognitive aristocracy's currency cheap, the moral framework collapses too.",
+      "summary": "Sandel argues that meritocratic hubris—the belief that success is earned and failure deserved—corrodes civic life and creates resentment, a dynamic amplified when AI commodifies cognitive ability.",
+      "bibtex": "@book{sandel2020tyranny,\n  title={The Tyranny of Merit: What's Become of the Common Good?},\n  author={Sandel, Michael J.},\n  publisher={Farrar, Straus and Giroux},\n  year={2020}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-007"
+    },
+    {
+      "title": "The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment",
+      "author": "Acemoglu, Daron and Restrepo, Pascual",
+      "source": "American Economic Review",
+      "publisher": null,
+      "type": "paper",
+      "year": 2018,
+      "month": 6,
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160696",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "There's a race between humans and machines—and the machines are accelerating while we're standing still.",
+      "why_it_matters": "Formalizes the scarcity migration: when automation outpaces the creation of new tasks for humans, wages fall and inequality rises—the economic mechanism behind the chapter's thesis.",
+      "summary": "Acemoglu and Restrepo model the competition between automation (displacing labor) and new task creation (reinstating labor), showing conditions under which wages decline structurally.",
+      "bibtex": "@article{acemoglu2018race,\n  title={The Race between Man and Machine},\n  author={Acemoglu, Daron and Restrepo, Pascual},\n  journal={American Economic Review},\n  volume={108},\n  number={6},\n  pages={1488--1542},\n  year={2018}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-008"
+    },
+    {
+      "title": "ChatGPT Passes the Bar Exam",
+      "author": "Bommarito, Michael and Katz, Daniel Martin",
+      "source": "SSRN",
+      "publisher": null,
+      "type": "paper",
+      "year": 2023,
+      "month": 3,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4389233",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎓 Education",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Three years of law school, $200,000 in debt, and a machine just passed the bar on its first try.",
+      "why_it_matters": "The bar exam was the cognitive aristocracy's gatekeeping ritual. When a chatbot passes it, the entire credentialing apparatus that justified decades of training is called into question.",
+      "summary": "Bommarito and Katz demonstrate that GPT-4 passes the Uniform Bar Examination at rates exceeding the 90th percentile of human test-takers, with implications for legal education and credentialing.",
+      "bibtex": "@article{bommarito2023bar,\n  title={ChatGPT Passes the Bar Exam},\n  author={Bommarito, Michael and Katz, Daniel Martin},\n  journal={SSRN},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-009"
+    },
+    {
+      "title": "Performance of ChatGPT on USMLE: Potential for AI-Assisted Medical Education",
+      "author": "Kung, Tiffany H. and others",
+      "source": "PLOS Digital Health",
+      "publisher": null,
+      "type": "paper",
+      "year": 2023,
+      "month": 2,
+      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000198",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎓 Education"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Medical school takes four years. ChatGPT passed the licensing exam without studying.",
+      "why_it_matters": "Medicine was the cognitive aristocracy's crown jewel—the hardest exam, the longest training. When AI passes it casually, the scarcity migration from intelligence to something else becomes undeniable.",
+      "summary": "Kung et al. evaluate ChatGPT on all three parts of the USMLE, finding it achieves passing or near-passing scores without specialized training, raising questions about medical assessment validity.",
+      "bibtex": "@article{kung2023chatgpt,\n  title={Performance of ChatGPT on USMLE},\n  author={Kung, Tiffany H. and others},\n  journal={PLOS Digital Health},\n  volume={2},\n  number={2},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-010"
+    },
+    {
+      "title": "The College Essay Is Dead",
+      "author": "Marche, Stephen",
+      "source": "The Atlantic",
+      "publisher": null,
+      "type": "article",
+      "year": 2022,
+      "month": 12,
+      "url": "https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/",
+      "keywords": [
+        "🎓 Education",
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "The college essay was how we tested whether students could think. AI just made that test meaningless.",
+      "why_it_matters": "The essay was the cognitive aristocracy's sorting mechanism in education. Its death signals the collapse of assessment as a way to identify and credential intelligence.",
+      "summary": "Marche argues that AI writing tools have rendered the college essay—the cornerstone of humanities assessment—functionally obsolete, forcing a rethink of how we evaluate intelligence.",
+      "bibtex": "@article{marche2022essay,\n  title={The College Essay Is Dead},\n  author={Marche, Stephen},\n  journal={The Atlantic},\n  month={December},\n  year={2022}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-011"
+    },
+    {
+      "title": "The 2025 AI Index Report",
+      "author": "{Stanford HAI}",
+      "source": "Stanford Human-Centered AI Institute",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read (key chapters)",
+      "hook": "Every benchmark AI was supposed to struggle with for another five years, it crushed in the last twelve months.",
+      "why_it_matters": "The official scorecard on intelligence commodification. Tracks how rapidly AI closes the gap on every cognitive skill the meritocracy valued—benchmark by benchmark, year by year.",
+      "summary": "Stanford's comprehensive annual report tracks AI capabilities across domains, showing performance improvements that consistently outpace expert forecasts on professional and academic benchmarks.",
+      "bibtex": "@techreport{stanfordhai2025,\n  title={The 2025 AI Index Report},\n  author={{Stanford HAI}},\n  institution={Stanford University},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-012"
+    },
+    {
+      "title": "AI Could Replace the Equivalent of 300 Million Jobs",
+      "author": "{Goldman Sachs}",
+      "source": "Goldman Sachs Global Investment Research",
+      "publisher": null,
+      "type": "report",
+      "year": 2023,
+      "month": 3,
+      "url": "https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Goldman Sachs ran the numbers: 300 million jobs could be automated. Most of them are the ones that required a degree.",
+      "why_it_matters": "The financial industry's own analysis confirms that the cognitive aristocracy's jobs are the most exposed. When Wall Street says your intelligence premium is evaporating, the scarcity migration is real.",
+      "summary": "Goldman Sachs estimates generative AI could automate 300 million full-time jobs globally, with legal, administrative, and knowledge-intensive professions facing the highest exposure rates.",
+      "bibtex": "@techreport{goldmansachs2023ai,\n  title={The Potentially Large Effects of Artificial Intelligence on Economic Growth},\n  author={{Goldman Sachs}},\n  institution={Goldman Sachs Global Investment Research},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-013"
+    },
+    {
+      "title": "What Happened to the Promised Entry-Level Jobs?",
+      "author": "Hsu, Andrea",
+      "source": "NPR",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": 5,
+      "url": "https://www.npr.org/2024/05/14/1250958880/entry-level-jobs-hiring-ai",
+      "keywords": [
+        "💼 Jobs",
+        "🎓 Education",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "quick",
+      "time": "7 min read",
+      "hook": "You spent four years getting the degree. The entry-level job it was supposed to lead to just disappeared.",
+      "why_it_matters": "The disappearance of entry-level knowledge work is the physical manifestation of the scarcity migration: the bottom rung of the cognitive aristocracy's ladder is being pulled away.",
+      "summary": "NPR investigates why entry-level white-collar positions are vanishing as companies use AI for tasks previously assigned to junior employees, stranding new graduates.",
+      "bibtex": "@article{hsu2024entrylevel,\n  title={What Happened to the Promised Entry-Level Jobs?},\n  author={Hsu, Andrea},\n  journal={NPR},\n  month={May},\n  year={2024}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-014"
+    },
+    {
+      "title": "Students Are Likely Writing Millions of Papers With AI",
+      "author": "Liang, Weixin and others",
+      "source": "Nature",
+      "publisher": null,
+      "type": "paper",
+      "year": 2024,
+      "month": 7,
+      "url": "https://www.nature.com/articles/d41586-024-02149-7",
+      "keywords": [
+        "🎓 Education",
+        "🪞 Authenticity"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Millions of student papers are now AI-generated. The question isn't how to stop it—it's what education means when the essay isn't yours.",
+      "why_it_matters": "When students outsource the performance of intelligence to AI, the entire assessment apparatus that the cognitive aristocracy relied on to sort and credential people collapses.",
+      "summary": "Large-scale analysis estimates millions of academic papers contain substantial AI-generated content, with rates rising rapidly since ChatGPT's release, challenging traditional assessment validity.",
+      "bibtex": "@article{liang2024students,\n  title={Students Are Likely Writing Millions of Papers With AI},\n  author={Liang, Weixin and others},\n  journal={Nature},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-015"
+    },
+    {
+      "id": "ch3-016",
+      "title": "A World Without Email: Reimagining Work in an Age of Communication Overload",
+      "author": "Newport, Cal",
+      "source": "Book",
+      "publisher": "Penguin Random House",
+      "type": "book",
+      "year": 2021,
+      "month": 3,
+      "url": "https://www.penguinrandomhouse.com/books/575655/a-world-without-email-by-cal-newport/",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "🎓 Education"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "8-10 hrs read",
+      "hook": "The hyperactive hive mind killed productivity. Here's how to build knowledge work that actually works.",
+      "why_it_matters": "Challenges assumptions about what makes knowledge workers valuable in an age where AI can handle routine cognitive tasks.",
+      "summary": "Cal Newport argues that the email-driven workplace has destroyed the conditions for deep, meaningful work. Proposes process-driven alternatives for knowledge work redesign.",
+      "bibtex": "@book{newport2021worldwithout,\n  author={Newport, Cal},\n  title={A World Without Email: Reimagining Work in an Age of Communication Overload},\n  publisher={Penguin Random House},\n  year={2021}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch3-017",
+      "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
+      "author": "Lee, Kai-Fu",
+      "source": "Book",
+      "publisher": "Houghton Mifflin Harcourt",
+      "type": "book",
+      "year": 2018,
+      "month": 9,
+      "url": "https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 hrs read",
+      "hook": "An AI pioneer predicts half of US jobs could be automated by 2040. Here's why knowledge workers should worry most.",
+      "why_it_matters": "Directly addresses displacement of knowledge workers and the scarcity migration of intelligence from human to machine.",
+      "summary": "Kai-Fu Lee examines how AI development will differently impact white-collar jobs in the US vs. China. Argues knowledge workers face the greatest risk from automation.",
+      "bibtex": "@book{lee2018ai,\n  author={Lee, Kai-Fu},\n  title={AI Superpowers: China, Silicon Valley, and the New World Order},\n  publisher={Houghton Mifflin Harcourt},\n  year={2018}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-018",
+      "title": "The Potentially Large Effects of Artificial Intelligence on Economic Growth",
+      "author": "Briggs, Joseph and Kodnani, Devesh",
+      "source": "Goldman Sachs Global Investment Research",
+      "publisher": "Goldman Sachs",
+      "type": "report",
+      "year": 2023,
+      "month": 3,
+      "url": "https://www.gspublishing.com/content/research/en/reports/2023/03/27/d64e052b-0f6e-45d7-967b-d7be35fabd16.html",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "30-45 min read",
+      "hook": "Goldman Sachs runs the numbers: AI could expose 300 million jobs to automation globally. But there's a catch.",
+      "why_it_matters": "Quantifies the scarcity migration—intelligence becoming cheap—and its impact on wage distribution and professional displacement.",
+      "summary": "Analysis of AI's potential to automate 25% of work tasks globally, with estimated exposure of 300M jobs. Projects 7% GDP boost but significant labor market disruption.",
+      "bibtex": "@report{briggs2023potentially,\n  author={Briggs, Joseph and Kodnani, Devesh},\n  title={The Potentially Large Effects of Artificial Intelligence on Economic Growth},\n  publisher={Goldman Sachs Global Investment Research},\n  year={2023}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-019",
+      "title": "Tasks, Automation, and the Rise in U.S. Wage Inequality",
+      "author": "Acemoglu, Daron",
+      "source": "MIT Department of Economics",
+      "publisher": "Academic Paper",
+      "type": "paper",
+      "year": 2022,
+      "month": null,
+      "url": "https://economics.mit.edu/sites/default/files/2022-10/Tasks%20Automation%20and%20the%20Rise%20in%20US%20Wage%20Inequality.pdf",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "60+ min read",
+      "hook": "MIT economist explains why automation crushed the middle class—and why intelligent tasks don't protect you.",
+      "why_it_matters": "Core framework for understanding scarcity migration: automation displaced middle-skill workers while polarizing the wage distribution.",
+      "summary": "Acemoglu's research shows task displacement explains 50-70% of wage structure changes. Automation focused on middle-skill tasks, creating wage polarization.",
+      "bibtex": "@article{acemoglu2022tasks,\n  author={Acemoglu, Daron},\n  title={Tasks, Automation, and the Rise in U.S. Wage Inequality},\n  journal={MIT Department of Economics},\n  year={2022}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-020",
+      "title": "Lessons from Linguistics for the Future of AI",
+      "author": "Coon, Jessica",
+      "source": "TED",
+      "publisher": "TED Conferences",
+      "type": "video",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.ted.com/talks/jessica_coon_lessons_from_linguistics_for_the_future_of_ai",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min watch",
+      "hook": "A linguist explains why AI will never understand your jokes—and why that matters for the future of work.",
+      "why_it_matters": "Distinguishes between pattern-matching and understanding, central to the intelligence vs. wisdom debate in Ch3.",
+      "summary": "Linguist Jessica Coon explores what unites human languages and where AI stumbles compared to humans. Emphasizes the difference between intelligence and meaning.",
+      "bibtex": "@misc{coon2025lessons,\n  author={Coon, Jessica},\n  title={Lessons from Linguistics for the Future of AI},\n  howpublished={TED Talk},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-021",
+      "title": "Bullshit Jobs: A Theory",
+      "author": "Graeber, David",
+      "source": "Book",
+      "publisher": "Simon & Schuster",
+      "type": "book",
+      "year": 2018,
+      "month": 5,
+      "url": "https://www.amazon.com/Bullshit-Jobs-Theory-David-Graeber/dp/150114331X",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 hrs read",
+      "hook": "An anthropologist says 50% of jobs are pointless. Here's why that's about to matter a lot more.",
+      "why_it_matters": "Foundational critique of how intelligence became conflated with value and worth. Challenges meritocracy myths before AI even arrives.",
+      "summary": "Graeber documents how meaningless jobs proliferated despite productivity gains. Argues automation threatens not just employment but purpose and identity.",
+      "bibtex": "@book{graeber2018bullshit,\n  author={Graeber, David},\n  title={Bullshit Jobs: A Theory},\n  publisher={Simon & Schuster},\n  year={2018}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-022",
+      "title": "Is AI Productivity Worth Our Humanity? with Prof. Michael Sandel",
+      "author": "Harris, Tristan and Raskin, Aza",
+      "source": "Your Undivided Attention",
+      "publisher": "Center for Humane Technology",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.humanetech.com/podcast/is-ai-productivity-worth-our-humanity-with-prof-michael-sandel",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min listen",
+      "hook": "A philosopher asks: can democracy survive a world where productivity is the only thing that matters?",
+      "why_it_matters": "Philosophical grounding for the three myths of Ch3: merit=intelligence, intelligence=virtue, intelligence=value.",
+      "summary": "Michael Sandel discusses why AI-driven abundance could deepen inequality and what it means to be human when economic value disappears.",
+      "bibtex": "@misc{harris2024productivity,\n  author={Harris, Tristan and Raskin, Aza},\n  title={Is AI Productivity Worth Our Humanity? with Prof. Michael Sandel},\n  howpublished={Your Undivided Attention Podcast},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-023",
+      "title": "AI at Work in 2024: Friend and Foe",
+      "author": "Boston Consulting Group",
+      "source": "Boston Consulting Group",
+      "publisher": "BCG",
+      "type": "report",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.bcg.com/publications/2024/ai-at-work-friend-foe",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "30-40 min read",
+      "hook": "BCG's 2024 survey: Workers are getting smarter with AI but also more terrified of losing their jobs.",
+      "why_it_matters": "Documents the real-time anxiety about intelligence displacement and the collapse of the intelligence premium.",
+      "summary": "BCG 2024 research shows workers' confidence in GenAI has grown alongside their fear of job loss. Explores the paradox of AI adoption and job security.",
+      "bibtex": "@report{bcg2024aiwork,\n  author={{Boston Consulting Group}},\n  title={AI at Work in 2024: Friend and Foe},\n  publisher={Boston Consulting Group},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-024",
+      "title": "Artificial Intelligence and the Future of Productivity",
+      "author": "Lex Fridman Podcast",
+      "source": "Lex Fridman Podcast",
+      "publisher": "Independent",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://lexfridman.com/podcast",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "2-3 hrs listen",
+      "hook": "Lex talks to top AI researchers about why your skills might suddenly become worthless—and what comes next.",
+      "why_it_matters": "Explores the psychological impact of knowledge work displacement and the identity crisis facing professionals.",
+      "summary": "The Lex Fridman Podcast features deep conversations with AI researchers about how AI is reshaping work, identity, and what it means to be valuable.",
+      "bibtex": "@misc{fridman2024ai,\n  author={{Lex Fridman Podcast}},\n  title={Artificial Intelligence and the Future of Productivity},\n  howpublished={Lex Fridman Podcast},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-025",
+      "title": "A.I. Is Changing Everything. Does That Include You?",
+      "author": "Dubner, Stephen J.",
+      "source": "Freakonomics Radio",
+      "publisher": "Freakonomics",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://freakonomics.com/podcast/a-i-is-changing-everything-does-that-include-you/",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "45 min listen",
+      "hook": "An economist tackles the question everyone's asking: Will AI actually eliminate my job?",
+      "why_it_matters": "Brings economic rigor to the anxiety about intelligence displacement and knowledge worker vulnerability.",
+      "summary": "Freakonomics explores what the data actually shows about AI and job displacement, separating hype from reality.",
+      "bibtex": "@misc{dubner2024aichanging,\n  author={Dubner, Stephen J.},\n  title={A.I. Is Changing Everything. Does That Include You?},\n  howpublished={Freakonomics Radio Podcast},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-026",
+      "title": "Thinking, Fast and Slow",
+      "author": "Kahneman, Daniel",
+      "source": "Book",
+      "publisher": "Farrar, Straus and Giroux",
+      "type": "book",
+      "year": 2011,
+      "month": null,
+      "url": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-14 hrs read",
+      "hook": "Nobel Prize winner shows you how smart people are systematically irrational—and what that means for the future.",
+      "why_it_matters": "Demonstrates that high intelligence doesn't equal good judgment, wisdom, or virtue—undermining the meritocracy myth.",
+      "summary": "Kahneman's seminal work on cognitive biases and heuristics. Shows that expertise and intelligence are subject to systematic errors.",
+      "bibtex": "@book{kahneman2011thinking,\n  author={Kahneman, Daniel},\n  title={Thinking, Fast and Slow},\n  publisher={Farrar, Straus and Giroux},\n  year={2011}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-027",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Harari, Yuval Noah",
+      "source": "Book",
+      "publisher": "Harper",
+      "type": "book",
+      "year": 2014,
+      "month": null,
+      "url": "https://www.amazon.com/Sapiens-Brief-History-Humankind/dp/0062316095",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-14 hrs read",
+      "hook": "Harari traces 70,000 years of history to show what humans did before they had intelligence as their main skill.",
+      "why_it_matters": "Provides historical perspective on how value migrated across forms of capital—foundational to understanding scarcity migration.",
+      "summary": "Harari argues humans dominated through shared stories and cooperation, not raw intelligence. Explores what made us valuable before cognitive work.",
+      "bibtex": "@book{harari2014sapiens,\n  author={Harari, Yuval Noah},\n  title={Sapiens: A Brief History of Humankind},\n  publisher={Harper},\n  year={2014}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-028",
+      "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+      "author": "Haidt, Jonathan",
+      "source": "Book",
+      "publisher": "Pantheon",
+      "type": "book",
+      "year": 2012,
+      "month": null,
+      "url": "https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "11-13 hrs read",
+      "hook": "Haidt proves that intelligence doesn't make you right—it makes you better at defending what you already believe.",
+      "why_it_matters": "Directly supports Ch3's myth that intelligence = virtue. Shows intelligence serves ideology, not wisdom.",
+      "summary": "Haidt's research on moral psychology shows that intuition drives belief, while reason justifies it. Intelligence amplifies group thinking.",
+      "bibtex": "@book{haidt2012righteous,\n  author={Haidt, Jonathan},\n  title={The Righteous Mind: Why Good People Are Divided by Politics and Religion},\n  publisher={Pantheon},\n  year={2012}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-029",
+      "title": "How the US Public and AI Experts View Artificial Intelligence",
+      "author": "Pew Research Center",
+      "source": "Pew Research Center",
+      "publisher": "Pew Research",
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "20-30 min read",
+      "hook": "90% of AI experts think your job will change. Only 17% of workers use AI. The gap tells you everything.",
+      "why_it_matters": "Documents the mismatch between expert predictions and lived experience—the anxiety driving Ch3's student questions.",
+      "summary": "Pew's 2025 survey shows 52% of US workers fear AI impact on jobs, while 90% of experts predict transformation. Wide divergence in perception.",
+      "bibtex": "@report{pew2025public,\n  author={{Pew Research Center}},\n  title={How the US Public and AI Experts View Artificial Intelligence},\n  publisher={Pew Research Center},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-030",
+      "title": "Stratechery: On the business, strategy, and impact of technology",
+      "author": "Thompson, Ben",
+      "source": "Stratechery",
+      "publisher": "Independent",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://stratechery.com/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "30-45 min per issue",
+      "hook": "Ben Thompson breaks down AI's real business impact—not hype, but how it actually changes markets and jobs.",
+      "why_it_matters": "Strategic lens on intelligence commodification and the collapse of the intelligence premium in markets.",
+      "summary": "Thompson's newsletter provides ongoing analysis of AI's impact on business strategy and labor markets.",
+      "bibtex": "@misc{thompson2024stratechery,\n  author={Thompson, Ben},\n  title={Stratechery: On the business, strategy, and impact of technology},\n  howpublished={Newsletter},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-031",
+      "title": "Office Hours: Why AI Is Not Taking Your Job—How to Create Value in an Age of AI",
+      "author": "Galloway, Scott",
+      "source": "The Prof G Pod",
+      "publisher": "Independent",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://podcasts.apple.com/us/podcast/office-hours-why-ai-is-not-ta-how-to-create-value-in-an-age/id1498802610?i=1000611558972",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🎓 Education"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "30-40 min listen",
+      "hook": "Scott Galloway says AI won't take your job. Instead, it'll divide the world into two classes: AI users and the displaced.",
+      "why_it_matters": "Addresses the widening gap between knowledge workers who can leverage AI and those who can't—the new aristocracy.",
+      "summary": "Galloway discusses AI's impact on education, knowledge work, and professional identity. Focuses on how to create value post-AI.",
+      "bibtex": "@misc{galloway2024office,\n  author={Galloway, Scott},\n  title={Office Hours: Why AI Is Not Taking Your Job},\n  howpublished={The Prof G Pod Podcast},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-032",
+      "title": "The Gradient: Perspectives on AI",
+      "author": "Bashir, Daniel and Contributors",
+      "source": "The Gradient",
+      "publisher": "Stanford AI Lab",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://thegradient.pub/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "45-60 min per episode",
+      "hook": "Stanford researchers explain what AI is, what it isn't, and why your intuitions about it are probably wrong.",
+      "why_it_matters": "Rigorous but accessible exploration of intelligence, alignment, and the assumptions underlying Ch3's themes.",
+      "summary": "The Gradient is a Stanford-based publication with in-depth articles and podcast episodes on AI, ethics, and alignment.",
+      "bibtex": "@misc{gradient2024perspectives,\n  author={{The Gradient}},\n  title={The Gradient: Perspectives on AI},\n  howpublished={Podcast and Newsletter},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-033",
+      "title": "All-In: Artificial Intelligence and Economic Transformation",
+      "author": "Palihapitiya, Chamath and Calacanis, Jason and Sacks, David and Friedberg, David",
+      "source": "All-In Podcast",
+      "publisher": "Independent",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://allin.com/",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "2-3 hrs per episode",
+      "hook": "Four VCs tackle AI disruption to work, money, and society. Expect debate, disagreement, and hard truths.",
+      "why_it_matters": "Captures the real-time business and investment perspective on knowledge worker displacement and scarcity migration.",
+      "summary": "The All-In Podcast covers AI's impact on jobs, markets, and business strategy with long-form, unfiltered conversation.",
+      "bibtex": "@misc{allin2024ai,\n  author={Palihapitiya, Chamath and Calacanis, Jason and Sacks, David and Friedberg, David},\n  title={All-In: Artificial Intelligence and Economic Transformation},\n  howpublished={All-In Podcast},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-034",
+      "title": "The Narrow Path: Why AI is Our Ultimate Test and Greatest Invitation",
+      "author": "Harris, Tristan",
+      "source": "Center for Humane Technology Substack",
+      "publisher": "Center for Humane Technology",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://centerforhumanetechnology.substack.com/p/the-narrow-path-why-ai-is-our-ultimate",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "20-30 min read",
+      "hook": "Tristan Harris asks: if AI can do intelligence, what's left that makes us human? And can we build a future where that matters?",
+      "why_it_matters": "Philosophical framework for Ch3's core question: if intelligence was never what made us valuable, what was?",
+      "summary": "Harris challenges whether intelligence growth curves are inevitable, asking what defines human value beyond cognitive capability.",
+      "bibtex": "@misc{harris2024narrow,\n  author={Harris, Tristan},\n  title={The Narrow Path: Why AI is Our Ultimate Test and Greatest Invitation},\n  howpublished={Center for Humane Technology Newsletter},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-035",
+      "title": "Cognitive Atrophy Paradox of AI–Human Interaction: From Cognitive Growth and Atrophy to Balance",
+      "author": "Multiple Authors",
+      "source": "Information",
+      "publisher": "MDPI",
+      "type": "journal article",
+      "year": 2024,
+      "month": "November",
+      "url": "https://www.mdpi.com/2078-2489/16/11/1009",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How can we balance the benefits of cognitive enhancement with the risks of atrophy?",
+        "What mechanisms lead to cognitive decline in AI-assisted work?"
+      ],
+      "difficulty": "advanced",
+      "time": "12 min read",
+      "hook": "AI creates a paradox: it can elevate human thinking through scaffolding, or erode it through passive dependence—and the difference lies in design and intention.",
+      "why_it_matters": "Demonstrates that cognitive atrophy isn't inevitable but contingent on HOW AI is deployed. Some implementations amplify human thinking while others hollow it out.",
+      "summary": "Research article examining the cognitive paradox where AI interaction simultaneously offers potential for cognitive growth and risk of cognitive atrophy. Studies show outcomes depend on whether AI is used reflectively as an augmentation tool or passively as a shortcut.",
+      "bibtex": "@article{mdpi2024cognitiveai,\n  title={Cognitive Atrophy Paradox of AI–Human Interaction: From Cognitive Growth and Atrophy to Balance},\n  journal={Information},\n  publisher={MDPI},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-036",
+      "title": "Does using artificial intelligence assistance accelerate skill decay and hinder skill development without performers' awareness?",
+      "author": "Macnamara, Brooke N. et al.",
+      "source": "Cognitive Research: Principles and Implications",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": "July",
+      "url": "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-024-00572-8",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Can AI assistants cause undetected skill deterioration even while boosting performance?",
+        "How do high-level cognitive tasks differ in their vulnerability to AI-induced atrophy?",
+        "What are the risks for domains where novel problems emerge unpredictably?"
+      ],
+      "difficulty": "advanced",
+      "time": "15 min read",
+      "hook": "Your performance metrics improve while your actual expertise deteriorates—and you won't notice until it's too late.",
+      "why_it_matters": "Identifies a critical blind spot: AI can enhance apparent performance metrics while undermining the deep expertise needed for novel, high-stakes problems. Medical professionals, lawyers, and engineers face hidden skill decay.",
+      "summary": "Theoretical analysis arguing that AI assistants, unlike traditional automation, engage high-level decision-making in ways that may cause skill deterioration and impede learning without users' awareness. The paper warns that practitioners relying on AI guidance may lose judgment and problem-solving acuity while performance metrics suggest improvement.",
+      "bibtex": "@article{macnamara2024skill,\n  title={Does using artificial intelligence assistance accelerate skill decay and hinder skill development without performers' awareness?},\n  author={Macnamara, Brooke N. and others},\n  journal={Cognitive Research: Principles and Implications},\n  year={2024}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch3-037",
+      "title": "Microsoft AI chief gives it 18 months—for all white-collar work to be automated by AI",
+      "author": "Angelo, Jake",
+      "source": "Fortune",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": "February",
+      "url": "https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman/",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to human identity and purpose when computer-based work is fully automated?",
+        "If most professional tasks are automatable within 18 months, what work remains for humans?"
+      ],
+      "difficulty": "moderate",
+      "time": "6 min read",
+      "hook": "Microsoft's AI chief just predicted the cognitive aristocracy—the knowledge workers—have less than 2 years before AI achieves human-level performance on almost every professional task.",
+      "why_it_matters": "This is from an insider at the company building the tools. It's a near-term forecast that suggests the premise of the book is unfolding faster than expected.",
+      "summary": "Interview article where Mustafa Suleyman, Microsoft's AI chief, claims that AI will achieve human-level performance on most professional tasks within 12-18 months, specifically automating roles involving computer work like accounting, legal, marketing, and project management.",
+      "bibtex": "@article{angelo2026microsoft,\n  title={Microsoft AI chief gives it 18 months—for all white-collar work to be automated by AI},\n  author={Angelo, Jake},\n  journal={Fortune},\n  year={2026},\n  month={February}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch3-038",
+      "title": "De-Skilling the Knowledge Economy",
+      "author": "Multiple Authors",
+      "source": "American Enterprise Institute (AEI)",
+      "publisher": "AEI",
+      "type": "report",
+      "year": 2025,
+      "month": "June",
+      "url": "https://www.aei.org/research-products/report/de-skilling-the-knowledge-economy/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "How does AI-driven deskilling differ from traditional automation?",
+        "What happens to expertise when non-experts can perform expert-level work with AI assistance?",
+        "Does deskilling lead to permanent loss of institutional knowledge?"
+      ],
+      "difficulty": "advanced",
+      "time": "20 min read",
+      "hook": "As AI makes complex knowledge work accessible to novices, the field itself becomes hollow—experienced professionals leave, training declines, and the knowledge economy deskills from within.",
+      "why_it_matters": "Documents the mechanism by which AI doesn't just displace workers but actively degrades professional expertise and specialization, a form of intelligence decline embedded in economic structures.",
+      "summary": "AEI research report examining how AI automates knowledge work, allowing people with minimal training to perform roles previously requiring years of expertise. The result: deskilling of entire fields, deterioration of institutional knowledge, loss of mentorship networks, and erosion of the professional prestige and wages that sustained those careers.",
+      "bibtex": "@report{aei2025deskilling,\n  title={De-Skilling the Knowledge Economy},\n  organization={American Enterprise Institute},\n  year={2025},\n  month={June}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch3-039",
+      "title": "AI Adoption and Inequality",
+      "author": "Multiple Authors",
+      "source": "IMF Working Papers",
+      "publisher": "International Monetary Fund",
+      "type": "working paper",
+      "year": 2025,
+      "month": "April",
+      "url": "https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729",
+      "chapter": "ch3",
+      "keywords": [
+        "💰 Inequality",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Do high-income workers benefit more from AI than low-income workers?",
+        "How does complementarity with AI reinforce existing inequality?",
+        "What is the gender gap in AI tool adoption?"
+      ],
+      "difficulty": "advanced",
+      "time": "18 min read",
+      "hook": "AI isn't a rising tide—it's a sorting mechanism. High-income workers benefit from AI-complementary tasks while low-income workers face displacement, and women adopt these tools at significantly lower rates than men.",
+      "why_it_matters": "IMF analysis showing that AI adoption is reproducing and amplifying existing inequalities rather than disrupting them. Intelligence, once democratized through education, is being re-concentrated through technology access.",
+      "summary": "IMF working paper analyzing how AI adoption correlates with and amplifies income inequality. Findings: high-income workers have greater exposure to and benefit from AI tools; tasks of high-income workers are complementary with AI, increasing their productivity; lower-income workers face displacement; and women are significantly less likely to adopt tools like ChatGPT, creating emerging gender disparities.",
+      "bibtex": "@report{imf2025adoption,\n  title={AI Adoption and Inequality},\n  organization={International Monetary Fund},\n  series={IMF Working Papers},\n  year={2025},\n  month={April}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-040",
+      "title": "Workers Gain Hours With AI But Risk Losing Skills, According To Microsoft's New Future Of Work Report",
+      "author": "Multiple Authors",
+      "source": "AllWork",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": "January",
+      "url": "https://allwork.space/2026/01/workers-gain-hours-with-ai-but-risk-losing-skills-according-to-microsofts-new-future-of-work-report/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Is time savings from AI worth the cognitive skills lost?",
+        "Do workers understand the long-term cost of short-term efficiency gains?"
+      ],
+      "difficulty": "moderate",
+      "time": "8 min read",
+      "hook": "Workers save time with AI but trade it for expertise—they're exchanging hours for skills in a deal they don't fully understand yet.",
+      "why_it_matters": "Microsoft's own research admits the tradeoff: efficiency gains mask underlying skill deterioration, a form of intelligence loss that won't be obvious until it's needed.",
+      "summary": "Report from Microsoft Research finding that generative AI makes cognitive tasks seem easier for knowledge workers, saving them time but causing them to cede problem-solving expertise and focus instead on functional tasks like integrating responses. Short-term gains mask longer-term hollowing-out of core expertise.",
+      "bibtex": "@article{microsoft2026skills,\n  title={Workers Gain Hours With AI But Risk Losing Skills, According To Microsoft's New Future Of Work Report},\n  organization={Microsoft Research},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-041",
+      "title": "AI Could Replace the Equivalent of 300 Million Jobs",
+      "author": "Multiple Authors",
+      "source": "IMF Blog",
+      "publisher": "International Monetary Fund",
+      "type": "article",
+      "year": 2023,
+      "month": "April",
+      "url": "https://www.imf.org/en/Blogs/Articles/2023/04/14/ai-could-replace-equivalent-of-300-million-jobs",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to human cognitive identity when 300 million knowledge workers are displaced?",
+        "Will retraining exist for jobs that don't exist yet?"
+      ],
+      "difficulty": "moderate",
+      "time": "7 min read",
+      "hook": "300 million jobs. That's not just economic disruption—that's the end of work-based identity for a generation.",
+      "why_it_matters": "Establishes the scale of cognitive displacement. Not just individuals losing jobs, but entire categories of cognitive labor being rendered obsolete.",
+      "summary": "IMF analysis estimating that generative AI could affect 300 million jobs globally, with advanced economies facing 60% of the potential impact. Unlike previous automation waves, this impacts high-income knowledge workers, not just routine workers.",
+      "bibtex": "@article{imf2023jobs,\n  title={AI Could Replace the Equivalent of 300 Million Jobs},\n  organization={International Monetary Fund},\n  year={2023},\n  month={April}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-042",
+      "title": "The cognitive paradox of AI in education: between enhancement and erosion",
+      "author": "Multiple Authors",
+      "source": "Frontiers in Psychology",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "Can education systems prepare humans to resist cognitive atrophy from AI?",
+        "What pedagogy maintains human learning when AI provides instant answers?",
+        "Is the 'struggle' to learn essential to human cognitive development?"
+      ],
+      "difficulty": "advanced",
+      "time": "16 min read",
+      "hook": "AI can enhance learning or erase it—the same tool that explains everything can prevent students from ever learning to think for themselves.",
+      "why_it_matters": "Shows how AI affects human intelligence development at the foundational stage. Students who never struggle with problems may never develop robust problem-solving abilities.",
+      "summary": "Psychological research examining the dual nature of AI in education: it can scaffold learning and metacognition when used reflectively, but encourages cognitive erosion when students treat it as an oracle that replaces thinking. The paper argues that struggle and uncertainty are essential to learning.",
+      "bibtex": "@article{frontiers2025paradox,\n  title={The cognitive paradox of AI in education: between enhancement and erosion},\n  journal={Frontiers in Psychology},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch3-043",
+      "title": "Effects of generative artificial intelligence on cognitive effort and task performance: study protocol for a randomized controlled experiment among college students",
+      "author": "Multiple Authors",
+      "source": "JMIR Research Protocols",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12255134/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "How does AI assistance measurably change cognitive effort in real-time?",
+        "Do students who use AI for tasks experience reduced mental engagement?",
+        "Can this reduction in cognitive engagement be reversed or is it cumulative?"
+      ],
+      "difficulty": "advanced",
+      "time": "14 min read",
+      "hook": "Researchers are now measuring in real-time how AI reduces the mental work students put into thinking—and tracking whether that atrophy persists.",
+      "why_it_matters": "Provides empirical methodology for detecting cognitive decline. This isn't speculation; it's measurable change in how much mental effort humans expend.",
+      "summary": "Research protocol for a randomized controlled trial examining how generative AI affects cognitive effort and task performance among college students. The study measures whether AI assistance reduces the mental work individuals expend and whether these changes persist.",
+      "bibtex": "@article{jmir2024cognitive,\n  title={Effects of generative artificial intelligence on cognitive effort and task performance: study protocol for a randomized controlled experiment among college students},\n  journal={JMIR Research Protocols},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-044",
+      "title": "From tools to threats: a reflection on the impact of artificial-intelligence chatbots on cognitive health",
+      "author": "Multiple Authors",
+      "source": "BMC Psychology",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020077/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "At what point does a tool become a threat to cognitive health?",
+        "How do we measure cognitive health in the age of AI?",
+        "Is cognitive health a public health concern?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Cognitive decline from AI isn't just an individual problem—it's a public health crisis in slow motion.",
+      "why_it_matters": "Frames cognitive atrophy as a health issue, not just an economic one. This reframes the book's argument: the dusk of human intelligence is a health emergency.",
+      "summary": "Examines how AI chatbots, initially positioned as tools for augmentation, present threats to cognitive health through cognitive offloading, reduced critical thinking, learned helplessness, and psychological dependency.",
+      "bibtex": "@article{bmc2024chatbots,\n  title={From tools to threats: a reflection on the impact of artificial-intelligence chatbots on cognitive health},\n  journal={BMC Psychology},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-045",
+      "title": "Mapping the Scaffolding of Metacognition and Learning by AI Tools in STEM Classrooms: A Bibliometric–Systematic Review Approach (2005–2025)",
+      "author": "Multiple Authors",
+      "source": "Education Sciences",
+      "publisher": "MDPI",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.mdpi.com/2079-3200/13/11/148",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "Can metacognitive training prevent AI-induced cognitive decline?",
+        "What design patterns in AI tools actually enhance rather than erode thinking?",
+        "Is reflective learning the antidote to cognitive atrophy?"
+      ],
+      "difficulty": "advanced",
+      "time": "17 min read",
+      "hook": "20 years of research shows one path forward: AI tools that keep humans conscious of their own thinking, rather than replacing it.",
+      "why_it_matters": "Offers evidence-based design principles. Not all AI usage leads to atrophy; the implementation matters. This suggests the problem is solvable through conscious design.",
+      "summary": "Systematic review of 135 peer-reviewed articles (2005-2025) mapping how AI tools can scaffold metacognition (awareness of one's own thinking) in STEM education. Finds that AI tools supporting reflective learning improve outcomes, while tools providing direct solutions encourage cognitive dependency.",
+      "bibtex": "@article{mdpi2025metacognition,\n  title={Mapping the Scaffolding of Metacognition and Learning by AI Tools in STEM Classrooms: A Bibliometric–Systematic Review Approach (2005–2025)},\n  journal={Education Sciences},\n  publisher={MDPI},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-046",
+      "title": "Cognitive Consequences of Artificial Intelligence: Is Human Expertise Still Needed?",
+      "author": "Multiple Authors",
+      "source": "Indian Journal of Behavioural Sciences",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": "July",
+      "url": "https://journals.lww.com/ijbs/fulltext/2025/07000/cognitive_consequences_of_artificial_intelligence_.8.aspx",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "Will human expertise become ceremonial or ornamental?",
+        "What cognitive abilities remain exclusively human?",
+        "Is the question 'Is expertise still needed?' really asking 'Are humans still needed?'"
+      ],
+      "difficulty": "advanced",
+      "time": "13 min read",
+      "hook": "The question isn't just whether expertise is needed—it's whether experts are still needed, or whether expertise itself becomes optional.",
+      "why_it_matters": "Directly interrogates the identity question. As AI replaces cognitive labor, the meaning of being an expert—and thus much of human professional identity—dissolves.",
+      "summary": "Research article from Indian Journal of Behavioural Sciences examining the cognitive consequences of AI and whether traditional human expertise and professional identity retain meaning and value in an AI-augmented world.",
+      "bibtex": "@article{ijbs2025consequences,\n  title={Cognitive Consequences of Artificial Intelligence: Is Human Expertise Still Needed?},\n  journal={Indian Journal of Behavioural Sciences},\n  year={2025},\n  month={July}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-047",
+      "title": "AI jobs danger: Sleepwalking into a white-collar bloodbath",
+      "author": "Multiple Authors",
+      "source": "Axios",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": "May",
+      "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Why are white-collar workers unprepared for AI displacement?",
+        "How does cognitive elite status become a liability?",
+        "What happens when entire career paths evaporate?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "Anthropic's own CEO warned we're walking into a catastrophe, but the workers most affected—knowledge workers—still don't believe it applies to them.",
+      "why_it_matters": "Documents the denial and unpreparedness of cognitive workers facing displacement. The 'sleepwalking' suggests a failure of collective cognition itself.",
+      "summary": "Axios reporting on warnings from Anthropic CEO Dario Amodei that AI could eliminate up to half of all entry-level white-collar jobs, with limited societal preparation or response despite the scale of the threat.",
+      "bibtex": "@article{axios2025bloodbath,\n  title={AI jobs danger: Sleepwalking into a white-collar bloodbath},\n  journal={Axios},\n  year={2025},\n  month={May}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-048",
+      "title": "Generative AI: the risk of cognitive atrophy",
+      "author": "Multiple Authors",
+      "source": "Polytechnique Insights",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.polytechnique-insights.com/en/columns/neuroscience/generative-ai-the-risk-of-cognitive-atrophy/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What is the neuroscience of cognitive atrophy from technology?",
+        "Are there critical windows where cognitive atrophy becomes irreversible?",
+        "How does neuroscience inform our understanding of human-AI relationships?"
+      ],
+      "difficulty": "advanced",
+      "time": "12 min read",
+      "hook": "Neuroscience explains how cognitive atrophy isn't metaphorical—it's the brain literally rewiring itself away from skills it no longer uses.",
+      "why_it_matters": "Grounds the argument in neurobiology. This isn't social theory—it's how brains actually change when cognitive demands disappear.",
+      "summary": "Neuroscience perspective on how generative AI, through cognitive offloading, poses risks of cognitive atrophy—the deterioration of cognitive abilities when the brain stops exercising them, with potential neurological consequences.",
+      "bibtex": "@article{polytechnique2024atrophy,\n  title={Generative AI: the risk of cognitive atrophy},\n  journal={Polytechnique Insights},\n  year={2024}\n}",
+      "startHere": true
+    }
+  ]
+}
