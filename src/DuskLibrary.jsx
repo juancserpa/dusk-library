@@ -1,70 +1,75 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 
 // ============================================================
-// "AI AND THE DUSK OF HUMANS" — THE RESEARCH ARCHIVE
-// v2: loads from JSON, 11 questions, 20 emoji keywords,
-// chapter browsing, card anatomy per design system
+// "AI AND THE DUSK OF HUMANS" — THE AI READING LIST
+// v4: Fresh modern design — dark hero, glassmorphism cards,
+// gradient accents, Inter-style system font stack
 // ============================================================
 
-// --- PALETTE (from Visual Design System) ---
 const C = {
-  cream: "#f7f3eb",
-  softWhite: "#fffdf9",
-  fog: "#e8e2d8",
-  red: "#b83a2a",
-  redGlow: "#b83a2a0d",
-  redSoft: "#b83a2a1a",
-  ink: "#2a2118",
-  inkSoft: "#3d332a",
-  pencil: "#6b5e52",
-  pencilLight: "#9b8d7f",
-  pencilFaint: "#bfb5a8",
-  charcoal: "#1a1612",
-  gold: "#d4a853",
-  rule: "#d8cfc3",
-  ruleFaint: "#e6dfd6",
+  bg: "#f5f5f7",
+  white: "#ffffff",
+  dark: "#1d1d1f",
+  darkSoft: "#2d2d30",
+  gray900: "#1d1d1f",
+  gray800: "#3a3a3c",
+  gray600: "#6e6e73",
+  gray500: "#86868b",
+  gray400: "#aeaeb2",
+  gray300: "#d1d1d6",
+  gray200: "#e5e5ea",
+  gray100: "#f2f2f7",
+  accent: "#6366f1",      // indigo
+  accentSoft: "#6366f115",
+  accentLight: "#eef2ff",
+  accentGlow: "#6366f130",
+  accentDark: "#4f46e5",
+  warm: "#f97316",         // orange for highlights
+  warmSoft: "#fff7ed",
+  green: "#10b981",
+  rose: "#f43f5e",
+  sky: "#0ea5e9",
+  violet: "#8b5cf6",
+  amber: "#f59e0b",
 };
 
-const serif = { fontFamily: "'Georgia', 'Palatino Linotype', serif" };
-const sans = { fontFamily: "system-ui, -apple-system, 'Segoe UI', sans-serif" };
+const font = { fontFamily: "-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif" };
+const mono = { fontFamily: "'SF Mono', 'Fira Code', 'Courier New', monospace" };
 
-// --- 11 BROWSING QUESTIONS (exact strings from schema) ---
+// --- 11 BROWSING QUESTIONS ---
 const QUESTIONS = [
-  { label: "Will AI take my job?",                    icon: "💼", color: "#5a7a6b" },
-  { label: "How fast is this happening?",             icon: "⏱️", color: "#7a6a4a" },
-  { label: "What happens to meaning and purpose?",    icon: "💔", color: "#8a5a6a" },
-  { label: "Is AI actually dangerous?",               icon: "⚠️", color: "#8a5a5a" },
-  { label: "Can AI think or feel?",                   icon: "🤖", color: "#6b5e8a" },
-  { label: "How do I actually use AI well?",          icon: "🔧", color: "#4a6a8a" },
-  { label: "What happens to love and connection?",    icon: "❤️", color: "#8a5a6a" },
-  { label: "Who controls AI?",                        icon: "🏛️", color: "#5a5a7a" },
-  { label: "What happens to education?",              icon: "🎓", color: "#5a6a7a" },
-  { label: "What does AI cost the planet?",           icon: "🌍", color: "#5a7a5a" },
-  { label: "Am I still the real me?",                 icon: "🪞", color: "#7a6a4a" },
+  { label: "Will AI take my job?",                 icon: "💼", gradient: "linear-gradient(135deg, #10b981, #059669)" },
+  { label: "How fast is this happening?",          icon: "⚡", gradient: "linear-gradient(135deg, #f59e0b, #d97706)" },
+  { label: "What happens to meaning and purpose?", icon: "🔮", gradient: "linear-gradient(135deg, #8b5cf6, #7c3aed)" },
+  { label: "Is AI actually dangerous?",            icon: "🔴", gradient: "linear-gradient(135deg, #f43f5e, #e11d48)" },
+  { label: "Can AI think or feel?",                icon: "🧠", gradient: "linear-gradient(135deg, #6366f1, #4f46e5)" },
+  { label: "How do I actually use AI well?",       icon: "🛠", gradient: "linear-gradient(135deg, #0ea5e9, #0284c7)" },
+  { label: "What happens to love and connection?", icon: "💜", gradient: "linear-gradient(135deg, #ec4899, #db2777)" },
+  { label: "Who controls AI?",                     icon: "⚖️", gradient: "linear-gradient(135deg, #64748b, #475569)" },
+  { label: "What happens to education?",           icon: "📚", gradient: "linear-gradient(135deg, #14b8a6, #0d9488)" },
+  { label: "What does AI cost the planet?",        icon: "🌱", gradient: "linear-gradient(135deg, #22c55e, #16a34a)" },
+  { label: "Am I still the real me?",              icon: "🪞", gradient: "linear-gradient(135deg, #a855f7, #9333ea)" },
 ];
 
-// --- 8 MEDIA TYPES (exact strings from schema) ---
 const TYPE_META = {
-  article:  { label: "Article",  bg: "#f7f3eb", border: "#6b5e52" },
-  paper:    { label: "Research", bg: "#e8e2d8", border: "#6b5e52" },
-  podcast:  { label: "Podcast",  bg: "#f0e8f5", border: "#7b5e8a" },
-  video:    { label: "Video",    bg: "#e8eff5", border: "#4a6a8a" },
-  book:     { label: "Book",     bg: "#f5f0e0", border: "#8a7a4a" },
-  report:   { label: "Report",   bg: "#e8f0e8", border: "#5a7a5a" },
-  legal:    { label: "Legal",    bg: "#f5e8e8", border: "#8a5a5a" },
-  series:   { label: "Series",   bg: "#f5ede0", border: "#8a6a4a" },
+  article:  { label: "Article",  color: "#f43f5e", bg: "#fef2f2", icon: "📰" },
+  paper:    { label: "Research", color: "#6366f1", bg: "#eef2ff", icon: "🔬" },
+  podcast:  { label: "Podcast",  color: "#8b5cf6", bg: "#f5f3ff", icon: "🎧" },
+  video:    { label: "Video",    color: "#0ea5e9", bg: "#f0f9ff", icon: "▶️"  },
+  book:     { label: "Book",     color: "#f59e0b", bg: "#fffbeb", icon: "📖" },
+  report:   { label: "Report",   color: "#10b981", bg: "#ecfdf5", icon: "📊" },
+  legal:    { label: "Legal",    color: "#64748b", bg: "#f8fafc", icon: "⚖️"  },
+  series:   { label: "Series",   color: "#ec4899", bg: "#fdf2f8", icon: "📺" },
 };
 
-// --- 3 DIFFICULTY LEVELS (exact strings from schema) ---
 const DIFF_META = {
-  quick:    { label: "Quick read",  color: "#5a7a6b" },
-  moderate: { label: "Moderate",    color: "#8a7a4a" },
-  deep:     { label: "Deep dive",   color: "#4a6a8a" },
+  quick:    { label: "Quick read",  color: "#10b981", icon: "⚡" },
+  moderate: { label: "Moderate",    color: "#f59e0b", icon: "📖" },
+  deep:     { label: "Deep dive",   color: "#6366f1", icon: "🏊" },
 };
 
-// --- CHAPTERS ---
 const CHAPTERS = [
-  { id: "prologue", label: "Prologue", short: "Prologue" },
+  { id: "prologue", label: "Prologue", short: "Prologue", title: "Welcome to Second Place" },
   { id: "ch1",  label: "Chapter 1",  short: "Ch 1" },
   { id: "ch2",  label: "Chapter 2",  short: "Ch 2" },
   { id: "ch3",  label: "Chapter 3",  short: "Ch 3" },
@@ -85,7 +90,6 @@ const CHAPTERS = [
   { id: "ch18", label: "Chapter 18", short: "Ch 18" },
 ];
 
-// --- DATA LOADING (from JSON files per coding standards) ---
 const CHAPTER_IDS = CHAPTERS.map(c => c.id);
 
 async function loadAllEntries() {
@@ -100,7 +104,7 @@ async function loadAllEntries() {
     .flatMap(r => r.value.entries);
 }
 
-// --- MAIN COMPONENT ---
+// --- MAIN ---
 export default function DuskLibrary() {
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -114,7 +118,6 @@ export default function DuskLibrary() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [expanded, setExpanded] = useState(null);
   const [page, setPage] = useState(1);
-  const [showStartHere, setShowStartHere] = useState(true);
   const PER = 12;
 
   useEffect(() => {
@@ -157,6 +160,7 @@ export default function DuskLibrary() {
     if (selTypes.length) r = r.filter(i => selTypes.includes(i.type));
     if (selDiff.length) r = r.filter(i => selDiff.includes(i.difficulty));
     if (selChapter) r = r.filter(i => i.chapter === selChapter);
+
     r.sort((a, b) => {
       if (sort === "chapter") {
         const ci = CHAPTER_IDS.indexOf(a.chapter) - CHAPTER_IDS.indexOf(b.chapter);
@@ -167,7 +171,6 @@ export default function DuskLibrary() {
       if (sort === "title") return (a.title || "").localeCompare(b.title || "");
       return 0;
     });
-    r.sort((a, b) => (b.startHere ? 1 : 0) - (a.startHere ? 1 : 0));
     return r;
   }, [entries, debouncedSearch, selQ, selKw, selTypes, selDiff, selChapter, sort]);
 
@@ -185,228 +188,511 @@ export default function DuskLibrary() {
   const tog = (set, v) => set(p => p.includes(v) ? p.filter(x => x !== v) : [...p, v]);
 
   return (
-    <div style={{ ...serif, minHeight: "100vh", background: C.cream, color: C.ink }}>
-      {/* HERO */}
-      <header style={{ background: C.softWhite, borderBottom: `1px solid ${C.rule}` }}>
-        <div style={{ maxWidth: 800, margin: "0 auto", padding: "52px 28px 40px", textAlign: "center" }}>
-          <h1 style={{ margin: 0, lineHeight: 1.08 }}>
-            <span style={{ display: "block", fontSize: "clamp(44px, 6vw, 64px)", fontWeight: 700, color: C.red, letterSpacing: "0.02em", fontStyle: "italic" }}>AI</span>
-            <span style={{ display: "block", fontSize: "clamp(17px, 2.3vw, 24px)", fontWeight: 700, color: C.ink, letterSpacing: "0.06em", textTransform: "uppercase", marginTop: 4 }}>and the Dusk of Humans</span>
+    <div style={{ ...font, minHeight: "100vh", background: C.bg, color: C.dark }}>
+
+      {/* ===== DARK HERO ===== */}
+      <header style={{
+        background: "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)",
+        position: "relative", overflow: "hidden",
+      }}>
+        {/* Subtle grid overlay */}
+        <div style={{
+          position: "absolute", inset: 0, opacity: 0.03,
+          backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+          backgroundSize: "40px 40px",
+        }} />
+        {/* Glow accent */}
+        <div style={{
+          position: "absolute", top: "-40%", left: "50%", transform: "translateX(-50%)",
+          width: 600, height: 400, borderRadius: "50%",
+          background: "radial-gradient(ellipse, rgba(99,102,241,0.15), transparent 70%)",
+          pointerEvents: "none",
+        }} />
+
+        <div style={{ maxWidth: 960, margin: "0 auto", padding: "56px 28px 44px", position: "relative", textAlign: "center" }}>
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: 8, padding: "6px 14px",
+            borderRadius: 20, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.08)",
+            marginBottom: 24,
+          }}>
+            <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#10b981" }} />
+            <span style={{ ...font, fontSize: 12, color: "rgba(255,255,255,0.6)", fontWeight: 500, letterSpacing: "0.02em" }}>
+              {loading ? "Loading..." : `${entries.length} sources curated`}
+            </span>
+          </div>
+
+          <h1 style={{ ...font, margin: 0, lineHeight: 1.15 }}>
+            <span style={{
+              display: "block", fontSize: "clamp(28px, 5vw, 44px)", fontWeight: 700,
+              color: "#ffffff", letterSpacing: "-0.03em",
+            }}>
+              The AI Reading List
+            </span>
           </h1>
-          <p style={{ ...sans, fontSize: 13, color: C.pencilLight, fontStyle: "italic", marginTop: 14 }}>Surviving as the Second-Smartest Species</p>
-          <div style={{ width: 36, height: 2.5, background: C.red, margin: "22px auto 16px", borderRadius: 1 }} />
-          <p style={{ ...sans, fontSize: 11, color: C.pencilFaint, letterSpacing: "0.18em", textTransform: "uppercase" }}>The Research Archive</p>
-          <p style={{ ...serif, fontSize: 15, lineHeight: 1.65, color: C.pencil, maxWidth: 540, margin: "24px auto 0" }}>
-            {loading ? "Loading..." : (
-              <>
-                {entries.length.toLocaleString()} articles, podcasts, papers, and books on AI and what it means for the rest of us.
-                Browse by question, keyword, or chapter — or start with our picks below.
-              </>
-            )}
+          <p style={{
+            ...font, fontSize: "clamp(15px, 2.2vw, 18px)", lineHeight: 1.6,
+            color: "rgba(255,255,255,0.5)", maxWidth: 480, margin: "16px auto 0", fontWeight: 400,
+          }}>
+            Articles, podcasts, and research for humans figuring out what comes next.
           </p>
+
+          {/* Question pills in hero */}
+          <div style={{ maxWidth: 720, margin: "32px auto 0" }}>
+            <p style={{ ...font, fontSize: 12, fontWeight: 500, color: "rgba(255,255,255,0.35)", marginBottom: 14, letterSpacing: "0.05em", textTransform: "uppercase" }}>
+              What are you curious about?
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 8, justifyContent: "center" }}>
+              {QUESTIONS.map(q => {
+                const active = selQ.includes(q.label);
+                const count = entries.filter(i => (i.questions || []).includes(q.label)).length;
+                if (count === 0 && !loading) return null;
+                return (
+                  <button
+                    key={q.label}
+                    onClick={() => tog(setSelQ, q.label)}
+                    style={{
+                      ...font, fontSize: 13, fontWeight: active ? 600 : 450,
+                      padding: "8px 16px", borderRadius: 20,
+                      background: active ? "rgba(255,255,255,0.15)" : "rgba(255,255,255,0.04)",
+                      border: `1px solid ${active ? "rgba(255,255,255,0.3)" : "rgba(255,255,255,0.08)"}`,
+                      color: active ? "#fff" : "rgba(255,255,255,0.55)",
+                      cursor: "pointer",
+                      transition: "all 0.2s ease",
+                      display: "flex", alignItems: "center", gap: 6,
+                      backdropFilter: "blur(8px)",
+                    }}
+                    onMouseEnter={e => { if (!active) { e.target.style.background = "rgba(255,255,255,0.08)"; e.target.style.borderColor = "rgba(255,255,255,0.15)"; e.target.style.color = "rgba(255,255,255,0.8)"; }}}
+                    onMouseLeave={e => { if (!active) { e.target.style.background = "rgba(255,255,255,0.04)"; e.target.style.borderColor = "rgba(255,255,255,0.08)"; e.target.style.color = "rgba(255,255,255,0.55)"; }}}
+                  >
+                    <span style={{ fontSize: 14 }}>{q.icon}</span>
+                    {q.label}
+                    {count > 0 && (
+                      <span style={{
+                        ...mono, fontSize: 10, fontWeight: 600,
+                        background: active ? "rgba(255,255,255,0.2)" : "rgba(255,255,255,0.06)",
+                        color: active ? "#fff" : "rgba(255,255,255,0.4)",
+                        padding: "1px 6px", borderRadius: 8, marginLeft: 2,
+                      }}>{count}</span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </header>
 
-      {/* START HERE */}
-      {showStartHere && startHereItems.length > 0 && (
-        <section style={{ maxWidth: 800, margin: "0 auto", padding: "32px 28px 8px" }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-            <div>
-              <h2 style={{ ...sans, fontSize: 12, fontWeight: 600, color: C.red, letterSpacing: "0.12em", textTransform: "uppercase", margin: 0 }}>If you read nothing else</h2>
-              <p style={{ ...sans, fontSize: 11, color: C.pencilFaint, marginTop: 3 }}>{startHereItems.length} essential starting points, hand-picked</p>
-            </div>
-            <button onClick={() => setShowStartHere(false)} aria-label="Hide Start Here section" style={{ ...sans, fontSize: 11, color: C.pencilFaint, background: "none", border: "none", cursor: "pointer", textDecoration: "underline" }}>Hide</button>
+      {/* ===== START HERE ===== */}
+      {startHereItems.length > 0 && !hasFilters && (
+        <section style={{ maxWidth: 960, margin: "0 auto", padding: "36px 28px 0" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 18 }}>
+            <span style={{
+              display: "inline-flex", alignItems: "center", justifyContent: "center",
+              width: 28, height: 28, borderRadius: 8, background: C.warmSoft, fontSize: 14,
+            }}>⭐</span>
+            <h2 style={{ ...font, fontSize: 16, fontWeight: 700, color: C.dark, margin: 0, letterSpacing: "-0.02em" }}>
+              If you read nothing else
+            </h2>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 12 }}>
             {startHereItems.map(item => <StartCard key={item.id} item={item} />)}
           </div>
-          <div style={{ height: 1, background: C.rule, margin: "28px 0 0" }} />
         </section>
       )}
 
-      {/* CHAPTER TABS */}
-      {activeChapters.length > 1 && (
-        <section style={{ maxWidth: 800, margin: "0 auto", padding: "24px 28px 0" }}>
-          <h2 style={{ ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 10 }}>Browse by chapter</h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-            <button onClick={() => setSelChapter(null)} style={{ ...sans, fontSize: 11, padding: "5px 12px", borderRadius: 4, cursor: "pointer", background: !selChapter ? C.redSoft : "transparent", border: `1px solid ${!selChapter ? C.red + "40" : C.ruleFaint}`, color: !selChapter ? C.red : C.pencil }}>All</button>
-            {activeChapters.map(ch => {
-              const count = entries.filter(e => e.chapter === ch.id).length;
-              return (
-                <button key={ch.id} onClick={() => setSelChapter(selChapter === ch.id ? null : ch.id)} style={{ ...sans, fontSize: 11, padding: "5px 12px", borderRadius: 4, cursor: "pointer", background: selChapter === ch.id ? C.redSoft : "transparent", border: `1px solid ${selChapter === ch.id ? C.red + "40" : C.ruleFaint}`, color: selChapter === ch.id ? C.red : C.pencil }}>
-                  {ch.short} <span style={{ fontSize: 10, opacity: 0.6 }}>({count})</span>
-                </button>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* QUESTION BROWSE */}
-      <section style={{ maxWidth: 800, margin: "0 auto", padding: "24px 28px 0" }}>
-        <h2 style={{ ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 12 }}>Browse by question</h2>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-          {QUESTIONS.map(q => {
-            const active = selQ.includes(q.label);
-            const count = entries.filter(i => (i.questions || []).includes(q.label)).length;
-            if (count === 0) return null;
-            return (
-              <button key={q.label} onClick={() => tog(setSelQ, q.label)} style={{ ...sans, fontSize: 12, padding: "7px 14px", borderRadius: 5, background: active ? q.color + "14" : C.softWhite, border: `1px solid ${active ? q.color + "50" : C.rule}`, color: active ? q.color : C.pencil, cursor: "pointer", transition: "all 0.12s", display: "flex", alignItems: "center", gap: 6 }}>
-                <span style={{ fontSize: 13 }}>{q.icon}</span>
-                {q.label}
-                <span style={{ ...sans, fontSize: 10, color: active ? q.color : C.pencilFaint, opacity: 0.7 }}>({count})</span>
-              </button>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* SEARCH + FILTERS */}
-      <div style={{ position: "sticky", top: 0, zIndex: 50, background: `${C.cream}ee`, backdropFilter: "blur(10px)", borderBottom: `1px solid ${C.ruleFaint}`, padding: "12px 0", marginTop: 20 }}>
-        <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px" }}>
+      {/* ===== SEARCH + FILTERS (sticky) ===== */}
+      <div style={{
+        position: "sticky", top: 0, zIndex: 50,
+        background: `rgba(245,245,247,0.85)`, backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)",
+        borderBottom: `1px solid ${C.gray200}`, padding: "12px 0",
+        marginTop: 24,
+      }}>
+        <div style={{ maxWidth: 960, margin: "0 auto", padding: "0 28px" }}>
           <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
-            <div style={{ flex: 1, minWidth: 200, display: "flex", alignItems: "center", gap: 8, background: C.softWhite, border: `1px solid ${C.rule}`, borderRadius: 5, padding: "8px 12px", boxShadow: "0 1px 3px rgba(42,33,24,0.04)" }}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={C.pencilLight} strokeWidth="1.5" strokeLinecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-              <input type="text" placeholder="Search titles, authors, hooks..." value={search} onChange={e => setSearch(e.target.value)} aria-label="Search references" style={{ ...serif, flex: 1, background: "none", border: "none", fontSize: 14, color: C.ink, outline: "none" }} />
-              {search && <button onClick={() => setSearch("")} aria-label="Clear search" style={{ background: "none", border: "none", color: C.pencilLight, cursor: "pointer", fontSize: 18, lineHeight: 1 }}>&times;</button>}
+            {/* Search */}
+            <div style={{
+              flex: 1, minWidth: 220, display: "flex", alignItems: "center", gap: 10,
+              background: C.white, border: `1px solid ${C.gray200}`, borderRadius: 10,
+              padding: "10px 14px", boxShadow: "0 1px 2px rgba(0,0,0,0.04)",
+              transition: "border-color 0.2s, box-shadow 0.2s",
+            }}>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={C.gray400} strokeWidth="2" strokeLinecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input type="text" placeholder="Search by title, author, topic..."
+                value={search} onChange={e => setSearch(e.target.value)}
+                aria-label="Search references"
+                style={{ ...font, flex: 1, background: "none", border: "none", fontSize: 14, color: C.dark, outline: "none", fontWeight: 400 }}
+                onFocus={e => { e.target.parentNode.style.borderColor = C.accent; e.target.parentNode.style.boxShadow = `0 0 0 3px ${C.accentGlow}`; }}
+                onBlur={e => { e.target.parentNode.style.borderColor = C.gray200; e.target.parentNode.style.boxShadow = "0 1px 2px rgba(0,0,0,0.04)"; }}
+              />
+              {search && <button onClick={() => setSearch("")} aria-label="Clear search" style={{ background: "none", border: "none", color: C.gray400, cursor: "pointer", fontSize: 18, lineHeight: 1, padding: 2 }}>×</button>}
             </div>
-            <button onClick={() => setFiltersOpen(!filtersOpen)} style={{ ...sans, fontSize: 11, padding: "8px 12px", borderRadius: 5, cursor: "pointer", background: hasFilters ? C.redSoft : C.softWhite, border: `1px solid ${hasFilters ? C.red + "40" : C.rule}`, color: hasFilters ? C.red : C.pencil, display: "flex", alignItems: "center", gap: 5, boxShadow: "0 1px 3px rgba(42,33,24,0.04)" }}>
+
+            {/* Filters toggle */}
+            <button onClick={() => setFiltersOpen(!filtersOpen)} style={{
+              ...font, fontSize: 13, fontWeight: 500, padding: "10px 16px", borderRadius: 10, cursor: "pointer",
+              background: filtersOpen ? C.accentLight : C.white,
+              border: `1px solid ${filtersOpen ? C.accent + "40" : C.gray200}`,
+              color: filtersOpen ? C.accent : C.gray600,
+              display: "flex", alignItems: "center", gap: 6,
+              boxShadow: "0 1px 2px rgba(0,0,0,0.04)",
+              transition: "all 0.2s",
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
               Filters
-              {(selTypes.length + selDiff.length + selKw.length > 0) && <span style={{ background: C.red, color: C.softWhite, borderRadius: "50%", width: 16, height: 16, display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 700 }}>{selTypes.length + selDiff.length + selKw.length}</span>}
+              {(selTypes.length + selDiff.length + selKw.length > 0) && <span style={{
+                background: C.accent, color: "#fff", borderRadius: "50%", width: 18, height: 18,
+                display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700,
+              }}>{selTypes.length + selDiff.length + selKw.length}</span>}
             </button>
-            <select value={sort} onChange={e => setSort(e.target.value)} aria-label="Sort entries" style={{ ...sans, fontSize: 11, padding: "8px 10px", borderRadius: 5, background: C.softWhite, border: `1px solid ${C.rule}`, color: C.pencil, cursor: "pointer" }}>
+
+            {/* Sort */}
+            <select value={sort} onChange={e => setSort(e.target.value)} aria-label="Sort entries" style={{
+              ...font, fontSize: 13, padding: "10px 12px", borderRadius: 10,
+              background: C.white, border: `1px solid ${C.gray200}`, color: C.gray600, cursor: "pointer",
+              boxShadow: "0 1px 2px rgba(0,0,0,0.04)", fontWeight: 500,
+            }}>
               <option value="chapter">By chapter</option>
               <option value="year">Newest first</option>
-              <option value="title">A→Z</option>
+              <option value="title">A → Z</option>
             </select>
-            {hasFilters && <button onClick={clearAll} style={{ ...sans, fontSize: 11, color: C.red, background: "none", border: "none", cursor: "pointer" }}>Clear all</button>}
+
+            {hasFilters && (
+              <button onClick={clearAll} style={{ ...font, fontSize: 13, color: C.accent, background: "none", border: "none", cursor: "pointer", fontWeight: 600, padding: "6px 4px" }}>
+                Clear all
+              </button>
+            )}
           </div>
+
+          {/* Expanded filter panel */}
           {filtersOpen && (
-            <div style={{ marginTop: 10, padding: "14px 16px", background: C.softWhite, border: `1px solid ${C.rule}`, borderRadius: 6 }}>
-              <FRow label="Type">{Object.entries(TYPE_META).map(([t, m]) => (<FilterTag key={t} label={m.label} active={selTypes.includes(t)} color={m.border} onClick={() => tog(setSelTypes, t)} />))}</FRow>
-              <FRow label="Difficulty">{Object.entries(DIFF_META).map(([d, m]) => (<FilterTag key={d} label={m.label} active={selDiff.includes(d)} color={m.color} onClick={() => tog(setSelDiff, d)} />))}</FRow>
-              {allKeywords.length > 0 && (<FRow label="Keywords" last>{allKeywords.map(kw => (<FilterTag key={kw} label={kw} active={selKw.includes(kw)} color={C.pencil} onClick={() => tog(setSelKw, kw)} />))}</FRow>)}
+            <div style={{ marginTop: 10, padding: "18px 20px", background: C.white, border: `1px solid ${C.gray200}`, borderRadius: 12, boxShadow: "0 4px 12px rgba(0,0,0,0.06)" }}>
+              {activeChapters.length > 1 && (
+                <FRow label="Chapter">
+                  <FilterTag label="All" active={!selChapter} color={C.accent} onClick={() => setSelChapter(null)} />
+                  {activeChapters.map(ch => {
+                    const count = entries.filter(e => e.chapter === ch.id).length;
+                    return <FilterTag key={ch.id} label={`${ch.short} (${count})`} active={selChapter === ch.id} color={C.accent} onClick={() => setSelChapter(selChapter === ch.id ? null : ch.id)} />;
+                  })}
+                </FRow>
+              )}
+              <FRow label="Type">
+                {Object.entries(TYPE_META).map(([t, m]) => (
+                  <FilterTag key={t} label={`${m.icon} ${m.label}`} active={selTypes.includes(t)} color={m.color} onClick={() => tog(setSelTypes, t)} />
+                ))}
+              </FRow>
+              <FRow label="Depth">
+                {Object.entries(DIFF_META).map(([d, m]) => (
+                  <FilterTag key={d} label={`${m.icon} ${m.label}`} active={selDiff.includes(d)} color={m.color} onClick={() => tog(setSelDiff, d)} />
+                ))}
+              </FRow>
+              {allKeywords.length > 0 && (
+                <FRow label="Topics" last>
+                  {allKeywords.map(kw => (
+                    <FilterTag key={kw} label={kw} active={selKw.includes(kw)} color={C.gray600} onClick={() => tog(setSelKw, kw)} />
+                  ))}
+                </FRow>
+              )}
             </div>
           )}
         </div>
       </div>
 
-      {/* RESULTS */}
-      <main style={{ maxWidth: 800, margin: "0 auto", padding: "24px 28px 80px" }}>
-        <p style={{ ...sans, fontSize: 11, color: C.pencilFaint, marginBottom: 20 }}>
-          {loading ? "Loading references..." : results.length === entries.length ? `All ${results.length} sources` : `${results.length} of ${entries.length}`}
-        </p>
+      {/* ===== ACTIVE QUESTION TAGS ===== */}
+      {selQ.length > 0 && (
+        <div style={{ maxWidth: 960, margin: "0 auto", padding: "16px 28px 0" }}>
+          <div style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+            <span style={{ ...font, fontSize: 12, color: C.gray500, fontWeight: 500 }}>Filtering:</span>
+            {selQ.map(q => {
+              const qObj = QUESTIONS.find(x => x.label === q);
+              return (
+                <span key={q} style={{
+                  ...font, fontSize: 12, padding: "4px 10px 4px 8px", borderRadius: 8,
+                  background: C.accentLight, color: C.accent, fontWeight: 600,
+                  display: "inline-flex", alignItems: "center", gap: 4, border: `1px solid ${C.accent}20`,
+                }}>
+                  {qObj?.icon} {q}
+                  <button onClick={() => tog(setSelQ, q)} style={{ background: "none", border: "none", color: C.accent, cursor: "pointer", fontSize: 14, lineHeight: 1, marginLeft: 2 }}>×</button>
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* ===== RESULTS ===== */}
+      <main style={{ maxWidth: 960, margin: "0 auto", padding: "20px 28px 80px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
+          <p style={{ ...font, fontSize: 13, color: C.gray500, fontWeight: 500 }}>
+            {loading ? "Loading..." :
+              results.length === entries.length ? `${results.length} sources` : `${results.length} of ${entries.length} sources`}
+          </p>
+        </div>
+
         {!loading && results.length === 0 ? (
-          <div style={{ textAlign: "center", padding: "50px 0", color: C.pencilLight }}>
-            <p style={{ fontSize: 16, marginBottom: 12 }}>Nothing matches those filters.</p>
-            <button onClick={clearAll} style={{ ...sans, background: "none", border: `1px solid ${C.rule}`, color: C.red, padding: "7px 16px", borderRadius: 5, cursor: "pointer", fontSize: 12 }}>Clear all</button>
+          <div style={{ textAlign: "center", padding: "60px 20px" }}>
+            <div style={{ fontSize: 40, marginBottom: 16 }}>🔍</div>
+            <p style={{ ...font, fontSize: 18, fontWeight: 600, marginBottom: 8, color: C.dark }}>No matches</p>
+            <p style={{ fontSize: 14, color: C.gray500, marginBottom: 20 }}>Try a different question or clear your filters.</p>
+            <button onClick={clearAll} style={{ ...font, background: C.accent, border: "none", color: "#fff", padding: "10px 24px", borderRadius: 10, cursor: "pointer", fontSize: 14, fontWeight: 600 }}>Clear all filters</button>
           </div>
         ) : (
           <>
-            {visible.map((item, idx) => (
-              <Card key={item.id} item={item} isExpanded={expanded === item.id} onToggle={() => setExpanded(expanded === item.id ? null : item.id)} isLast={idx === visible.length - 1} />
-            ))}
+            <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 10 }}>
+              {visible.map(item => (
+                <Card key={item.id} item={item} isExpanded={expanded === item.id}
+                  onToggle={() => setExpanded(expanded === item.id ? null : item.id)} />
+              ))}
+            </div>
             {totalPages > 1 && (
-              <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", gap: 4, marginTop: 32 }}>
-                {page > 1 && <PgBtn label="←" onClick={() => setPage(page - 1)} />}
-                {Array.from({ length: Math.min(totalPages, 10) }, (_, i) => {
-                  let p;
-                  if (totalPages <= 10) p = i + 1;
-                  else { const start = Math.max(1, Math.min(page - 4, totalPages - 9)); p = start + i; }
-                  return <PgBtn key={p} label={p} active={p === page} onClick={() => setPage(p)} />;
-                })}
-                {page < totalPages && <PgBtn label="→" onClick={() => setPage(page + 1)} />}
+              <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", gap: 4, marginTop: 36 }}>
+                {page > 1 && <PgBtn label="← Prev" onClick={() => setPage(page - 1)} />}
+                <span style={{ ...font, fontSize: 13, color: C.gray500, padding: "8px 14px", display: "flex", alignItems: "center", fontWeight: 500 }}>
+                  {page} of {totalPages}
+                </span>
+                {page < totalPages && <PgBtn label="Next →" onClick={() => setPage(page + 1)} />}
               </nav>
             )}
           </>
         )}
       </main>
 
-      {/* FOOTER */}
-      <footer style={{ borderTop: `1px solid ${C.rule}`, background: C.charcoal, padding: "32px 28px", textAlign: "center" }}>
-        <div style={{ width: 30, height: 2, background: C.red, margin: "0 auto 12px", borderRadius: 1 }} />
-        <p style={{ ...sans, fontSize: 11, color: C.pencilLight, letterSpacing: "0.15em", textTransform: "uppercase" }}>Juan Camilo Bastin</p>
-        <p style={{ fontSize: 13, color: C.pencilFaint, marginTop: 6, fontStyle: "italic", maxWidth: 440, margin: "6px auto 0" }}>A living database that fed the book — built without writing a single line of code.</p>
-        <p style={{ ...sans, fontSize: 10, color: C.pencil, marginTop: 10 }}>McGill University · Master of Management in Analytics</p>
+      {/* ===== FOOTER ===== */}
+      <footer style={{
+        background: "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%)",
+        padding: "48px 28px", textAlign: "center",
+      }}>
+        <p style={{ ...font, fontSize: 18, fontWeight: 700, color: "rgba(255,255,255,0.9)", letterSpacing: "-0.02em" }}>
+          AI and the Dusk of Humans
+        </p>
+        <p style={{ ...font, fontSize: 13, color: "rgba(255,255,255,0.4)", marginTop: 8 }}>
+          A living reading list, curated by Juan Camilo Serpa
+        </p>
+        <p style={{ ...font, fontSize: 11, color: "rgba(255,255,255,0.2)", marginTop: 14 }}>
+          McGill University · Master of Management in Analytics
+        </p>
       </footer>
     </div>
   );
 }
 
+
 // ===== SUB-COMPONENTS =====
 
 function StartCard({ item }) {
-  const tm = TYPE_META[item.type] || { label: item.type, bg: C.fog, border: C.pencil };
+  const [hover, setHover] = useState(false);
+  const tm = TYPE_META[item.type] || { label: item.type, color: C.gray600, icon: "📄" };
   return (
-    <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
-      <article style={{ padding: "16px 18px", borderRadius: 6, background: C.softWhite, border: `1px solid ${C.rule}`, borderLeft: item.startHere ? `2px solid ${C.red}` : `1px solid ${C.rule}`, transition: "all 0.15s", cursor: "pointer", minHeight: 140, display: "flex", flexDirection: "column" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
-          <span style={{ ...sans, fontSize: 9, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: tm.border, display: "flex", alignItems: "center", gap: 3 }}>
-            <span style={{ width: 5, height: 5, borderRadius: "50%", background: tm.border, opacity: 0.5 }} />{tm.label}
-          </span>
-          <span style={{ ...sans, fontSize: 9, color: C.pencilFaint }}>{item.time}</span>
+    <a href={item.url} target="_blank" rel="noopener noreferrer"
+      onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+      style={{ textDecoration: "none", color: "inherit" }}>
+      <article style={{
+        borderRadius: 14, overflow: "hidden",
+        background: C.white,
+        border: `1px solid ${hover ? C.accent + "40" : C.gray200}`,
+        boxShadow: hover ? `0 8px 24px rgba(99,102,241,0.1)` : `0 1px 3px rgba(0,0,0,0.05)`,
+        transition: "all 0.25s ease",
+        transform: hover ? "translateY(-2px)" : "none",
+        display: "flex", flexDirection: "column",
+      }}>
+        {/* Gradient bar */}
+        <div style={{ height: 3, background: `linear-gradient(90deg, ${tm.color}, ${tm.color}60)` }} />
+
+        <div style={{ padding: "18px 20px", flex: 1, display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+            <span style={{
+              ...font, fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em",
+              color: tm.color, padding: "2px 8px", borderRadius: 4, background: tm.bg,
+            }}>
+              {tm.icon} {tm.label}
+            </span>
+            <span style={{ ...font, fontSize: 11, color: C.gray400, fontWeight: 500 }}>{item.time}</span>
+          </div>
+
+          <h3 style={{ ...font, fontSize: 15, fontWeight: 700, lineHeight: 1.35, margin: "0 0 8px", color: C.dark, letterSpacing: "-0.01em" }}>
+            {item.title}
+          </h3>
+
+          <p style={{ ...font, fontSize: 13, color: C.gray600, margin: "0 0 12px", lineHeight: 1.55, flex: 1 }}>
+            {item.hook}
+          </p>
+
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <span style={{ ...font, fontSize: 11, color: C.gray400 }}>
+              {item.source} · {item.year}
+            </span>
+            <span style={{ ...font, fontSize: 11, color: C.warm, fontWeight: 700 }}>⭐ Start Here</span>
+          </div>
         </div>
-        <h3 style={{ ...serif, fontSize: 14, fontWeight: 600, lineHeight: 1.35, margin: "0 0 6px", color: C.ink, flex: 1 }}>{item.title}</h3>
-        <p style={{ ...sans, fontSize: 11, color: C.pencilLight, margin: "0 0 6px" }}>{item.author ? `${item.author} · ` : ""}{item.source}{item.year ? ` · ${item.year}` : ""}</p>
-        <div style={{ ...sans, fontSize: 10, color: C.gold, fontWeight: 600, display: "flex", alignItems: "center", gap: 3 }}>★ Start Here</div>
       </article>
     </a>
   );
 }
 
-function Card({ item, isExpanded, onToggle, isLast }) {
-  const tm = TYPE_META[item.type] || { label: item.type, bg: C.fog, border: C.pencil };
-  const dm = DIFF_META[item.difficulty] || { label: "", color: C.pencil };
-  const qs = QUESTIONS.filter(q => (item.questions || []).includes(q.label));
-  const chapterLabel = CHAPTERS.find(c => c.id === item.chapter)?.short || item.chapter;
+
+function Card({ item, isExpanded, onToggle }) {
+  const [hover, setHover] = useState(false);
+  const tm = TYPE_META[item.type] || { label: item.type, color: C.gray600, icon: "📄", bg: C.gray100 };
+  const dm = DIFF_META[item.difficulty] || { label: "", color: C.gray500, icon: "" };
+  const chapterObj = CHAPTERS.find(c => c.id === item.chapter);
+  const chapterLabel = chapterObj?.short || item.chapter;
 
   return (
-    <article onClick={onToggle} style={{ padding: "20px 0 18px", borderBottom: isLast ? "none" : `1px solid ${C.ruleFaint}`, borderLeft: item.startHere ? `2px solid ${C.red}` : "2px solid transparent", paddingLeft: item.startHere ? 16 : 0, cursor: "pointer", transition: "background 0.15s" }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 7, flexWrap: "wrap" }}>
-        <span style={{ ...sans, fontSize: 9, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", padding: "2px 8px", borderRadius: 3, background: tm.bg, border: `1px solid ${tm.border}25`, color: tm.border }}>{tm.label}</span>
-        <span style={{ ...sans, fontSize: 9, padding: "2px 8px", borderRadius: 3, background: dm.color + "12", color: dm.color, border: `1px solid ${dm.color}25` }}>{dm.label}</span>
-        <span style={{ ...sans, fontSize: 10, color: C.pencilFaint }}>{item.time}</span>
-        <span style={{ flex: 1 }} />
-        <span style={{ ...sans, fontSize: 10, color: C.pencilFaint }}>{chapterLabel}</span>
-        {item.year && <span style={{ ...sans, fontSize: 10, color: C.pencilFaint }}>· {item.year}</span>}
-      </div>
-      <h3 style={{ ...serif, fontSize: 17, fontWeight: 600, lineHeight: 1.35, margin: "0 0 4px", color: C.ink }}>{item.title}</h3>
-      <p style={{ ...sans, fontSize: 12, color: C.pencilLight, margin: "0 0 10px" }}>{item.author ? `${item.author} · ` : ""}{item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}</p>
-      <p style={{ ...serif, fontSize: 14.5, lineHeight: 1.6, color: C.inkSoft, margin: "0 0 8px", fontStyle: "italic" }}>"{item.hook}"</p>
-      {item.why_it_matters && (<p style={{ ...sans, fontSize: 12.5, lineHeight: 1.5, color: C.pencil, margin: "0 0 10px" }}><span style={{ fontWeight: 600, color: C.pencilLight }}>Why it matters: </span>{item.why_it_matters}</p>)}
-      {(item.keywords || []).length > 0 && (<div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginBottom: 6 }}>{item.keywords.map(kw => (<span key={kw} style={{ ...sans, fontSize: 10, padding: "2px 8px", borderRadius: 3, background: C.fog, color: C.pencil }}>{kw}</span>))}</div>)}
-      {qs.length > 0 && (<div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>{qs.map(q => (<span key={q.label} style={{ ...sans, fontSize: 10, padding: "2px 8px", borderRadius: 3, background: C.cream, border: `1px solid ${C.ruleFaint}`, color: C.red, display: "inline-flex", alignItems: "center", gap: 3 }}><span style={{ fontSize: 10 }}>{q.icon}</span> {q.label}</span>))}</div>)}
-      {item.startHere && (<div style={{ ...sans, fontSize: 10, color: C.gold, fontWeight: 600, marginTop: 6, display: "flex", alignItems: "center", gap: 3 }}>★ Start Here</div>)}
-      {isExpanded && (
-        <div style={{ marginTop: 14, paddingTop: 14, borderTop: `1px dashed ${C.rule}` }}>
-          {item.summary && (<p style={{ ...sans, fontSize: 12, lineHeight: 1.55, color: C.pencil, margin: "0 0 12px" }}>{item.summary}</p>)}
-          <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()} style={{ ...sans, fontSize: 12, color: C.red, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 5, padding: "7px 14px", borderRadius: 4, border: `1px solid ${C.red}30`, background: C.redGlow }}>
-            {item.type === "podcast" ? "Listen" : item.type === "video" ? "Watch" : "Read"} source
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
+    <article
+      onClick={onToggle}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      style={{
+        padding: "20px 22px",
+        borderRadius: 14,
+        background: C.white,
+        border: `1px solid ${isExpanded ? C.accent + "30" : (hover ? C.gray300 : C.gray200)}`,
+        boxShadow: hover || isExpanded ? `0 4px 16px rgba(0,0,0,0.06)` : "0 1px 2px rgba(0,0,0,0.03)",
+        cursor: "pointer",
+        transition: "all 0.2s ease",
+        transform: hover && !isExpanded ? "translateY(-1px)" : "none",
+      }}
+    >
+      <div style={{ display: "flex", gap: 16 }}>
+        {/* Type icon badge */}
+        <div style={{
+          width: 48, minWidth: 48, height: 48, borderRadius: 12,
+          background: tm.bg, border: `1px solid ${tm.color}15`,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          fontSize: 20, flexShrink: 0,
+        }}>
+          {tm.icon}
         </div>
-      )}
+
+        {/* Content */}
+        <div style={{ flex: 1, minWidth: 0 }}>
+          {/* Meta row */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, flexWrap: "wrap" }}>
+            <span style={{
+              ...font, fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.04em",
+              color: tm.color,
+            }}>
+              {tm.label}
+            </span>
+            <span style={{ color: C.gray300 }}>·</span>
+            <span style={{ ...font, fontSize: 12, color: C.gray500 }}>{item.time}</span>
+            <span style={{ color: C.gray300 }}>·</span>
+            <span style={{ ...font, fontSize: 12, color: dm.color, fontWeight: 500 }}>{dm.label}</span>
+            <span style={{ flex: 1 }} />
+            <span style={{ ...font, fontSize: 11, color: C.gray400, fontWeight: 500 }}>{chapterLabel} · {item.year}</span>
+          </div>
+
+          {/* Title */}
+          <h3 style={{ ...font, fontSize: 17, fontWeight: 700, lineHeight: 1.35, margin: "0 0 2px", color: C.dark, letterSpacing: "-0.02em" }}>
+            {item.title}
+            {item.startHere && <span style={{ marginLeft: 8, fontSize: 13, color: C.warm }}>⭐</span>}
+          </h3>
+
+          {/* Author line */}
+          <p style={{ ...font, fontSize: 12, color: C.gray500, margin: "0 0 8px", fontWeight: 500 }}>
+            {item.author}{item.source ? ` · ${item.source}` : ""}
+          </p>
+
+          {/* Hook */}
+          <p style={{ ...font, fontSize: 14, lineHeight: 1.6, color: C.gray800, margin: 0, fontWeight: 400 }}>
+            {item.hook}
+          </p>
+
+          {/* Expanded content */}
+          {isExpanded && (
+            <div style={{ marginTop: 18 }}>
+              {/* Why it matters */}
+              {item.why_it_matters && (
+                <div style={{
+                  padding: "14px 16px", background: C.accentLight, borderRadius: 10,
+                  marginBottom: 14, borderLeft: `3px solid ${C.accent}`,
+                }}>
+                  <p style={{ ...font, fontSize: 11, fontWeight: 700, color: C.accent, textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 5 }}>Why it matters for the book</p>
+                  <p style={{ ...font, fontSize: 13, lineHeight: 1.6, color: C.gray800, margin: 0 }}>{item.why_it_matters}</p>
+                </div>
+              )}
+
+              {/* Summary */}
+              {item.summary && (
+                <p style={{ ...font, fontSize: 13, lineHeight: 1.65, color: C.gray600, margin: "0 0 14px" }}>
+                  {item.summary}
+                </p>
+              )}
+
+              {/* Tags */}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 5, marginBottom: 16 }}>
+                {(item.keywords || []).map(kw => (
+                  <span key={kw} style={{
+                    ...font, fontSize: 11, padding: "3px 10px", borderRadius: 6,
+                    background: C.gray100, color: C.gray600, fontWeight: 500,
+                  }}>{kw}</span>
+                ))}
+                {(item.questions || []).map(q => {
+                  const qObj = QUESTIONS.find(x => x.label === q);
+                  return (
+                    <span key={q} style={{
+                      ...font, fontSize: 11, padding: "3px 10px", borderRadius: 6,
+                      background: C.accentLight, color: C.accent, fontWeight: 500,
+                      display: "inline-flex", alignItems: "center", gap: 3,
+                    }}>
+                      {qObj?.icon} {q}
+                    </span>
+                  );
+                })}
+              </div>
+
+              {/* CTA button */}
+              <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}
+                style={{
+                  ...font, fontSize: 13, fontWeight: 600, color: "#fff", textDecoration: "none",
+                  display: "inline-flex", alignItems: "center", gap: 7,
+                  padding: "10px 22px", borderRadius: 10, background: C.accent,
+                  transition: "background 0.2s", boxShadow: `0 2px 8px ${C.accentGlow}`,
+                }}
+                onMouseEnter={e => e.target.style.background = C.accentDark}
+                onMouseLeave={e => e.target.style.background = C.accent}
+              >
+                {item.type === "podcast" ? "🎧 Listen" : item.type === "video" ? "▶️ Watch" : "📖 Read"} the source
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          )}
+        </div>
+      </div>
     </article>
   );
 }
 
+
 function FRow({ label, children, last }) {
   return (
-    <fieldset style={{ marginBottom: last ? 0 : 12, border: "none", padding: 0 }}>
-      <legend style={{ ...sans, fontSize: 9, color: C.pencilFaint, marginBottom: 5, textTransform: "uppercase", letterSpacing: "0.12em" }}>{label}</legend>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 5 }}>{children}</div>
+    <fieldset style={{ marginBottom: last ? 0 : 14, border: "none", padding: 0 }}>
+      <legend style={{ ...font, fontSize: 11, color: C.gray500, marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 700 }}>{label}</legend>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>{children}</div>
     </fieldset>
   );
 }
 
 function FilterTag({ label, active, onClick, color }) {
   return (
-    <button onClick={onClick} style={{ ...sans, fontSize: 11, padding: "3px 10px", borderRadius: 3, background: active ? (color + "14") : "transparent", border: `1px solid ${active ? color + "40" : C.ruleFaint}`, color: active ? color : C.pencil, cursor: "pointer", transition: "all 0.12s" }}>{label}</button>
+    <button onClick={onClick} style={{
+      ...font, fontSize: 12, padding: "5px 12px", borderRadius: 8,
+      background: active ? (color + "12") : "transparent",
+      border: `1px solid ${active ? color + "30" : C.gray200}`,
+      color: active ? color : C.gray600, cursor: "pointer",
+      transition: "all 0.15s", fontWeight: active ? 600 : 500,
+    }}>{label}</button>
   );
 }
 
-function PgBtn({ label, active, onClick }) {
+function PgBtn({ label, onClick }) {
   return (
-    <button onClick={onClick} style={{ ...sans, minWidth: 30, height: 30, borderRadius: 4, background: active ? C.redSoft : "transparent", border: `1px solid ${active ? C.red + "30" : C.ruleFaint}`, color: active ? C.red : C.pencilLight, cursor: "pointer", fontSize: 12 }}>{label}</button>
+    <button onClick={onClick} style={{
+      ...font, padding: "8px 18px", borderRadius: 10,
+      background: C.white,
+      border: `1px solid ${C.gray200}`,
+      color: C.gray800, cursor: "pointer", fontSize: 13, fontWeight: 600,
+      transition: "all 0.15s",
+      boxShadow: "0 1px 2px rgba(0,0,0,0.04)",
+    }}>{label}</button>
   );
 }
