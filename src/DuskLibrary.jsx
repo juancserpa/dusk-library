@@ -190,6 +190,17 @@ export default function DuskLibrary() {
   return (
     <div style={{ ...font, minHeight: "100vh", background: C.bg, color: C.dark }}>
 
+      {/* Responsive sidebar hide + custom scrollbar */}
+      <style>{`
+        @media (max-width: 960px) {
+          .dusk-sidebar { display: none !important; }
+          .dusk-main-flex { display: block !important; }
+        }
+        .dusk-sidebar::-webkit-scrollbar { width: 4px; }
+        .dusk-sidebar::-webkit-scrollbar-track { background: transparent; }
+        .dusk-sidebar::-webkit-scrollbar-thumb { background: ${C.gray300}; border-radius: 4px; }
+      `}</style>
+
       {/* ===== DARK HERO ===== */}
       <header style={{
         background: "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)",
@@ -234,6 +245,14 @@ export default function DuskLibrary() {
             color: "rgba(255,255,255,0.5)", maxWidth: 480, margin: "16px auto 0", fontWeight: 400,
           }}>
             Articles, podcasts, and research for humans figuring out what comes next.
+          </p>
+          <p style={{
+            ...font, fontSize: 13, color: "rgba(255,255,255,0.35)", marginTop: 12, fontWeight: 500,
+            letterSpacing: "0.01em",
+          }}>
+            Curated by <span style={{ color: "rgba(255,255,255,0.55)", fontWeight: 600 }}>Juan Camilo Serpa</span>
+            <span style={{ margin: "0 6px", opacity: 0.4 }}>·</span>
+            <span style={{ fontWeight: 400 }}>McGill University</span>
           </p>
 
           {/* Question pills in hero */}
@@ -282,24 +301,6 @@ export default function DuskLibrary() {
         </div>
       </header>
 
-      {/* ===== START HERE ===== */}
-      {startHereItems.length > 0 && !hasFilters && (
-        <section style={{ maxWidth: 960, margin: "0 auto", padding: "36px 28px 0" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 18 }}>
-            <span style={{
-              display: "inline-flex", alignItems: "center", justifyContent: "center",
-              width: 28, height: 28, borderRadius: 8, background: C.warmSoft, fontSize: 14,
-            }}>⭐</span>
-            <h2 style={{ ...font, fontSize: 16, fontWeight: 700, color: C.dark, margin: 0, letterSpacing: "-0.02em" }}>
-              If you read nothing else
-            </h2>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 12 }}>
-            {startHereItems.map(item => <StartCard key={item.id} item={item} />)}
-          </div>
-        </section>
-      )}
-
       {/* ===== SEARCH + FILTERS (sticky) ===== */}
       <div style={{
         position: "sticky", top: 0, zIndex: 50,
@@ -307,7 +308,7 @@ export default function DuskLibrary() {
         borderBottom: `1px solid ${C.gray200}`, padding: "12px 0",
         marginTop: 24,
       }}>
-        <div style={{ maxWidth: 960, margin: "0 auto", padding: "0 28px" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 28px" }}>
           <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
             {/* Search */}
             <div style={{
@@ -399,7 +400,7 @@ export default function DuskLibrary() {
 
       {/* ===== ACTIVE QUESTION TAGS ===== */}
       {selQ.length > 0 && (
-        <div style={{ maxWidth: 960, margin: "0 auto", padding: "16px 28px 0" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "16px 28px 0" }}>
           <div style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
             <span style={{ ...font, fontSize: 12, color: C.gray500, fontWeight: 500 }}>Filtering:</span>
             {selQ.map(q => {
@@ -419,41 +420,91 @@ export default function DuskLibrary() {
         </div>
       )}
 
-      {/* ===== RESULTS ===== */}
-      <main style={{ maxWidth: 960, margin: "0 auto", padding: "20px 28px 80px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
-          <p style={{ ...font, fontSize: 13, color: C.gray500, fontWeight: 500 }}>
-            {loading ? "Loading..." :
-              results.length === entries.length ? `${results.length} sources` : `${results.length} of ${entries.length} sources`}
-          </p>
-        </div>
+      {/* ===== RESULTS + SIDEBAR ===== */}
+      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "20px 28px 80px" }}>
+        <div className="dusk-main-flex" style={{ display: "flex", gap: 28, alignItems: "flex-start" }}>
 
-        {!loading && results.length === 0 ? (
-          <div style={{ textAlign: "center", padding: "60px 20px" }}>
-            <div style={{ fontSize: 40, marginBottom: 16 }}>🔍</div>
-            <p style={{ ...font, fontSize: 18, fontWeight: 600, marginBottom: 8, color: C.dark }}>No matches</p>
-            <p style={{ fontSize: 14, color: C.gray500, marginBottom: 20 }}>Try a different question or clear your filters.</p>
-            <button onClick={clearAll} style={{ ...font, background: C.accent, border: "none", color: "#fff", padding: "10px 24px", borderRadius: 10, cursor: "pointer", fontSize: 14, fontWeight: 600 }}>Clear all filters</button>
-          </div>
-        ) : (
-          <>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 10 }}>
-              {visible.map(item => (
-                <Card key={item.id} item={item} isExpanded={expanded === item.id}
-                  onToggle={() => setExpanded(expanded === item.id ? null : item.id)} />
-              ))}
+          {/* --- LEFT: Main card list --- */}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
+              <p style={{ ...font, fontSize: 13, color: C.gray500, fontWeight: 500 }}>
+                {loading ? "Loading..." :
+                  results.length === entries.length ? `${results.length} sources` : `${results.length} of ${entries.length} sources`}
+              </p>
             </div>
-            {totalPages > 1 && (
-              <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", gap: 4, marginTop: 36 }}>
-                {page > 1 && <PgBtn label="← Prev" onClick={() => setPage(page - 1)} />}
-                <span style={{ ...font, fontSize: 13, color: C.gray500, padding: "8px 14px", display: "flex", alignItems: "center", fontWeight: 500 }}>
-                  {page} of {totalPages}
-                </span>
-                {page < totalPages && <PgBtn label="Next →" onClick={() => setPage(page + 1)} />}
-              </nav>
+
+            {!loading && results.length === 0 ? (
+              <div style={{ textAlign: "center", padding: "60px 20px" }}>
+                <div style={{ fontSize: 40, marginBottom: 16 }}>🔍</div>
+                <p style={{ ...font, fontSize: 18, fontWeight: 600, marginBottom: 8, color: C.dark }}>No matches</p>
+                <p style={{ fontSize: 14, color: C.gray500, marginBottom: 20 }}>Try a different question or clear your filters.</p>
+                <button onClick={clearAll} style={{ ...font, background: C.accent, border: "none", color: "#fff", padding: "10px 24px", borderRadius: 10, cursor: "pointer", fontSize: 14, fontWeight: 600 }}>Clear all filters</button>
+              </div>
+            ) : (
+              <>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 10 }}>
+                  {visible.map(item => (
+                    <Card key={item.id} item={item} isExpanded={expanded === item.id}
+                      onToggle={() => setExpanded(expanded === item.id ? null : item.id)} />
+                  ))}
+                </div>
+                {totalPages > 1 && (
+                  <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", gap: 4, marginTop: 36 }}>
+                    {page > 1 && <PgBtn label="← Prev" onClick={() => setPage(page - 1)} />}
+                    <span style={{ ...font, fontSize: 13, color: C.gray500, padding: "8px 14px", display: "flex", alignItems: "center", fontWeight: 500 }}>
+                      {page} of {totalPages}
+                    </span>
+                    {page < totalPages && <PgBtn label="Next →" onClick={() => setPage(page + 1)} />}
+                  </nav>
+                )}
+              </>
             )}
-          </>
-        )}
+          </div>
+
+          {/* --- RIGHT: Start Here sticky sidebar --- */}
+          {startHereItems.length > 0 && (
+            <aside className="dusk-sidebar" style={{
+              width: 300, minWidth: 300, flexShrink: 0,
+              position: "sticky", top: 72, alignSelf: "flex-start",
+              maxHeight: "calc(100vh - 92px)", overflowY: "auto",
+            }}>
+              <div style={{
+                background: C.white, borderRadius: 16,
+                border: `1px solid ${C.gray200}`,
+                boxShadow: "0 2px 12px rgba(0,0,0,0.04)",
+                overflow: "hidden",
+              }}>
+                {/* Sidebar header */}
+                <div style={{
+                  padding: "18px 20px 14px",
+                  borderBottom: `1px solid ${C.gray100}`,
+                  background: `linear-gradient(135deg, ${C.warmSoft}, #fff8f0)`,
+                }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span style={{
+                      display: "inline-flex", alignItems: "center", justifyContent: "center",
+                      width: 26, height: 26, borderRadius: 7, background: "rgba(249,115,22,0.12)", fontSize: 13,
+                    }}>⭐</span>
+                    <h2 style={{ ...font, fontSize: 14, fontWeight: 700, color: C.dark, margin: 0, letterSpacing: "-0.01em" }}>
+                      If you read nothing else
+                    </h2>
+                  </div>
+                  <p style={{ ...font, fontSize: 11, color: C.gray500, margin: "8px 0 0", lineHeight: 1.4 }}>
+                    {startHereItems.length} essential picks to start with
+                  </p>
+                </div>
+
+                {/* Sidebar items */}
+                <div style={{ padding: "6px 0" }}>
+                  {startHereItems.map((item, idx) => (
+                    <SidebarItem key={item.id} item={item} isLast={idx === startHereItems.length - 1} />
+                  ))}
+                </div>
+              </div>
+            </aside>
+          )}
+
+        </div>
       </main>
 
       {/* ===== FOOTER ===== */}
@@ -524,6 +575,58 @@ function StartCard({ item }) {
           </div>
         </div>
       </article>
+    </a>
+  );
+}
+
+
+function SidebarItem({ item, isLast }) {
+  const [hover, setHover] = useState(false);
+  const tm = TYPE_META[item.type] || { label: item.type, color: C.gray600, icon: "📄" };
+  const chapterObj = CHAPTERS.find(c => c.id === item.chapter);
+  return (
+    <a href={item.url} target="_blank" rel="noopener noreferrer"
+      onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+      style={{
+        display: "block", textDecoration: "none", color: "inherit",
+        padding: "12px 18px",
+        borderBottom: isLast ? "none" : `1px solid ${C.gray100}`,
+        background: hover ? C.gray100 + "80" : "transparent",
+        transition: "background 0.15s",
+      }}>
+      <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+        <span style={{
+          fontSize: 14, width: 28, height: 28, borderRadius: 8,
+          background: tm.bg, display: "flex", alignItems: "center", justifyContent: "center",
+          flexShrink: 0, marginTop: 1,
+        }}>
+          {tm.icon}
+        </span>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <h3 style={{
+            ...font, fontSize: 13, fontWeight: 650, lineHeight: 1.35,
+            margin: 0, color: hover ? C.accent : C.dark,
+            transition: "color 0.15s",
+            letterSpacing: "-0.01em",
+          }}>
+            {item.title}
+          </h3>
+          <p style={{
+            ...font, fontSize: 11, color: C.gray500, margin: "3px 0 0",
+            lineHeight: 1.4, fontWeight: 450,
+          }}>
+            {chapterObj?.short || item.chapter} · {item.source} · {item.time}
+          </p>
+        </div>
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none"
+          stroke={hover ? C.accent : C.gray400}
+          strokeWidth="2.5" strokeLinecap="round"
+          style={{ flexShrink: 0, marginTop: 4, transition: "stroke 0.15s" }}>
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/>
+          <line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+      </div>
     </a>
   );
 }
