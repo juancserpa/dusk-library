@@ -60,6 +60,56 @@ const TYPE_META = {
   series:   { label: "Series",   icon: "📺", bg: "#f5ede0", border: "#8a6a4a" },
 };
 
+// --- SOURCE → DOMAIN MAP (for favicons) ---
+const SOURCE_DOMAIN = {
+  "The New York Times": "nytimes.com",
+  "The Atlantic": "theatlantic.com",
+  "The Atlantic Festival": "theatlantic.com",
+  "The Economist": "economist.com",
+  "The Guardian": "theguardian.com",
+  "CNBC": "cnbc.com",
+  "NPR Consider This": "npr.org",
+  "MIT News": "mit.edu",
+  "MIT Technology Review": "technologyreview.com",
+  "MIT Press / Knopf": "mitpress.mit.edu",
+  "Science": "science.org",
+  "Science Advances": "science.org",
+  "Scientific Reports (Nature)": "nature.com",
+  "Frontiers in Psychology": "frontiersin.org",
+  "Trends in Ecology & Evolution": "cell.com",
+  "Behavioral and Brain Sciences": "cambridge.org",
+  "Technological Forecasting and Social Change": "sciencedirect.com",
+  "The Quarterly Journal of Economics": "academic.oup.com",
+  "arXiv": "arxiv.org",
+  "arXiv (Google Research)": "arxiv.org",
+  "arXiv (NeurIPS 2017)": "arxiv.org",
+  "arXiv (Stanford, NeurIPS 2023)": "arxiv.org",
+  "TED Talks": "ted.com",
+  "Lex Fridman Podcast": "lexfridman.com",
+  "Freakonomics Radio": "freakonomics.com",
+  "The Ezra Klein Show": "nytimes.com",
+  "Hard Fork": "nytimes.com",
+  "Making Sense with Sam Harris": "samharris.org",
+  "Your Undivided Attention": "humanetech.com",
+  "Edge.org": "edge.org",
+  "Brookings Institution": "brookings.edu",
+  "World Economic Forum": "weforum.org",
+  "Boston Consulting Group": "bcg.com",
+  "PwC Global AI Jobs Barometer": "pwc.com",
+  "Air Street Capital": "airstreet.com",
+  "Houghton Mifflin Harcourt": "hmhco.com",
+  "PublicAffairs (Hachette)": "hachettebookgroup.com",
+  "Personal Essay (Dario Amodei)": "darioamodei.com",
+  "National Security Archive": "nsarchive.gwu.edu",
+  "U.S. District Court, Southern District of New York": "uscourts.gov",
+};
+
+function sourceFavicon(source) {
+  const domain = SOURCE_DOMAIN[source];
+  if (!domain) return null;
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+}
+
 // --- 3 DIFFICULTY LEVELS ---
 const DIFF_META = {
   quick:    { label: "Quick read",  color: "#5a7a6b", icon: "⚡" },
@@ -845,8 +895,16 @@ function StartCard({ item, index }) {
           {item.author && <span style={{ opacity: 0.4 }}>·</span>}
           <span style={{
             fontSize: 13, fontWeight: 700, color: "#8b6914",
-            background: "#d4a85318", padding: "1px 7px", borderRadius: 3,
-          }}>{item.source}</span>
+            background: "#d4a85318", padding: "2px 8px", borderRadius: 4,
+            display: "inline-flex", alignItems: "center", gap: 5,
+          }}>
+            {sourceFavicon(item.source) && (
+              <img src={sourceFavicon(item.source)} alt="" width="14" height="14"
+                style={{ borderRadius: 2, flexShrink: 0 }}
+                onError={e => { e.target.style.display = "none"; }} />
+            )}
+            {item.source}
+          </span>
           {item.year && <span style={{ opacity: 0.4 }}>·</span>}
           {item.year && <span style={{ fontWeight: 600, color: C.pencil }}>{item.year}</span>}
         </div>
@@ -935,22 +993,28 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
         {item.title}
       </h3>
 
-      {/* Source & Date — prominent */}
+      {/* Source & Date — prominent with favicon */}
       <div style={{
-        display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap",
+        display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap",
         margin: "0 0 12px",
       }}>
         <span style={{
           ...sans, fontSize: 14, fontWeight: 700, color: "#8b6914",
-          padding: "3px 12px", borderRadius: 4,
-          background: "#d4a85320", border: `1px solid #d4a85330`,
+          padding: "4px 14px", borderRadius: 6,
+          background: "#d4a85318", border: `1px solid #d4a85328`,
+          display: "inline-flex", alignItems: "center", gap: 8,
         }}>
+          {sourceFavicon(item.source) && (
+            <img src={sourceFavicon(item.source)} alt="" width="18" height="18"
+              style={{ borderRadius: 3, flexShrink: 0 }}
+              onError={e => { e.target.style.display = "none"; }} />
+          )}
           {item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}
         </span>
         {item.year && (
           <span style={{
             ...sans, fontSize: 13, fontWeight: 700, color: C.inkSoft,
-            padding: "3px 10px", borderRadius: 4,
+            padding: "4px 10px", borderRadius: 6,
             background: C.fog, border: `1px solid ${C.rule}`,
           }}>
             {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
@@ -1126,22 +1190,28 @@ function GridCard({ item, index, isExpanded, onToggle }) {
         {item.title}
       </h3>
 
-      {/* Source & Date — prominent */}
+      {/* Source & Date — prominent with favicon */}
       <div style={{
         display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap",
         margin: "0 0 10px",
       }}>
         <span style={{
           ...sans, fontSize: 12, fontWeight: 700, color: "#8b6914",
-          padding: "2px 8px", borderRadius: 4,
-          background: "#d4a85320", border: `1px solid #d4a85330`,
+          padding: "3px 10px", borderRadius: 5,
+          background: "#d4a85318", border: `1px solid #d4a85328`,
+          display: "inline-flex", alignItems: "center", gap: 6,
         }}>
+          {sourceFavicon(item.source) && (
+            <img src={sourceFavicon(item.source)} alt="" width="14" height="14"
+              style={{ borderRadius: 2, flexShrink: 0 }}
+              onError={e => { e.target.style.display = "none"; }} />
+          )}
           {item.source}
         </span>
         {item.year && (
           <span style={{
             ...sans, fontSize: 11, fontWeight: 700, color: C.inkSoft,
-            padding: "2px 6px", borderRadius: 4,
+            padding: "3px 8px", borderRadius: 5,
             background: C.fog, border: `1px solid ${C.rule}`,
           }}>
             {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
