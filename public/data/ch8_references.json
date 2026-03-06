@@ -1,0 +1,143 @@
+{
+  "chapter": "ch8",
+  "chapter_title": "The Shelf Life",
+  "generated": "2026-03-06",
+  "entry_count": 5,
+  "entries": [
+    {
+      "id": "ch8-001",
+      "title": "Cognitive Outsourcing Based on Generative Artificial Intelligence",
+      "author": "Acta Psychologica Sinica Research Team",
+      "publisher": "Acta Psychologica Sinica",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🧠 Cognition",
+        "💭 Memory",
+        "🤖 AI"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "25 min read",
+      "hook": "Users are outsourcing memory, taste preferences, decision-making—entire cognitive domains—to AI systems. But when the algorithm learns to replicate your voice and values, who's thinking?",
+      "why_it_matters": "Central to Ch8's thesis. Cognitive outsourcing research directly measures how delegation of judgment (moral, aesthetic, mnemonic) to AI systems changes human cognition and identity. Researchers found reduced metacognitive engagement when users offload higher-order thinking.",
+      "summary": "A 2025 study in Acta Psychologica Sinica analyzes cognitive outsourcing through generative AI. Researchers developed the Cognitive Outsourcing Behavior Toward Artificial Intelligence Scale, measuring how users delegate planning, writing, and decision-making to AI systems. Key finding: outsourcing reduces mental workload but correlates with lower engagement in metacognitive regulation and self-reflection.",
+      "bibtex": "@article{acta2025cognitive,\n  title = {Cognitive Outsourcing Based on Generative Artificial Intelligence: An Analysis of Interactive Behavioral Patterns and Cognitive Structural Features},\n  journal = {Acta Psychologica Sinica},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://journal.psych.ac.cn/acps/EN/10.3724/SP.J.1041.2025.0967",
+      "chapter": "ch8"
+    },
+    {
+      "id": "ch8-002",
+      "title": "London Taxi Drivers' Route-Planning Strategies Could Inform AI",
+      "author": "UCL Research Team",
+      "publisher": "UCL News",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "keywords": [
+        "🧠 Memory",
+        "📍 Navigation",
+        "🚕 Brain"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "London taxi drivers' hippocampi grow from memorizing thousands of routes. GPS users' don't. As we outsource spatial memory to devices, are we losing the neural architecture for navigation—and identity tied to place-memory?",
+      "why_it_matters": "Exemplifies Ch8's central concern: cognitive outsourcing (GPS over internal navigation) reshapes brain structure and cognitive capacity. The hippocampus is also critical for Alzheimer's resistance. What happens to human cognition and health when we systematically offload memory formation to AI systems?",
+      "summary": "Landmark research from UCL shows the 'Knowledge' exam-trained London cabbies develop enlarged posterior hippocampi from years of route memorization. Recent studies confirm GPS usage may reverse this cognitive training effect. The Taxi Brains project links navigational exercise to Alzheimer's resistance—taxi drivers show only 1% Alzheimer's death rates vs 3.9% in general population.",
+      "bibtex": "@article{ucl2025taxi,\n  title = {London taxi drivers' route-planning strategies could inform AI},\n  publisher = {UCL News},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://www.ucl.ac.uk/news/2025/jan/london-taxi-drivers-route-planning-strategies-could-inform-ai",
+      "chapter": "ch8"
+    },
+    {
+      "id": "ch8-003",
+      "title": "What Journalists Should Know About Deepfake Detection in 2025",
+      "author": "Columbia Journalism Review",
+      "publisher": "Columbia Journalism Review",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🎤 Voice",
+        "🔍 Detection",
+        "💔 Trust"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "AI-generated love letters sound like authentic expressions—but studies show humans perceive them as less moral, less genuine. We're learning to distrust the very voices and words that sound most convincingly human.",
+      "why_it_matters": "Directly addresses Ch8's 'authenticity detection' paradox. As AI voice and text generation improve, humans become more skeptical of authenticity, even when content is real. The psychological effect: erosion of trust in mediated communication itself.",
+      "summary": "CJR's guide to deepfake detection in 2025 explores the detection arms race: deepfake creation tools evolve faster than detection models. Key challenge: only 1 in 4 people can distinguish high-quality deepfakes from authentic audio/video. Deepfake fraud in the US reached $23 billion in 2025.",
+      "bibtex": "@article{cjr2025deepfake,\n  title = {What Journalists Should Know About Deepfake Detection in 2025},\n  publisher = {Columbia Journalism Review},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.cjr.org/tow_center/what-journalists-should-know-about-deepfake-detection-technology-in-2025-a-non-technical-guide.php",
+      "chapter": "ch8"
+    },
+    {
+      "id": "ch8-004",
+      "title": "Ghostbuster: Detecting Text Ghostwritten by Large Language Models",
+      "author": "Berkeley AI Research Lab (BAIR)",
+      "publisher": "BAIR Blog / arXiv",
+      "type": "paper",
+      "year": 2023,
+      "month": 11,
+      "keywords": [
+        "✍️ Writing",
+        "🤖 AI",
+        "🔍 Detection"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "20 min read",
+      "hook": "Ghostbuster can identify AI-written text with 99% F1 score. But as AI learns to write like humans—variable, burst-y, unpredictable—can detection keep up? And if we can't tell authentic from generated writing, what happens to expression and identity?",
+      "why_it_matters": "Core to Ch8's thesis on AI as identity-shaper. If AI ghostwriters become indistinguishable from human authors, the concept of 'authentic expression' collapses. Users may claim authorship of AI-generated text without realizing it—or knowing and claiming it anyway, dissolving the boundary between self and tool.",
+      "summary": "BAIR's Ghostbuster uses weak language models and classifier training to detect AI-generated text across domains with 99.0 F1 score—5.9 points higher than previous best methods. However, newer AI variants (GPT-5.x) increasingly evade detection through human-like variability. Detection methods include analyzing perplexity and burstiness metrics.",
+      "bibtex": "@inproceedings{bair2023ghostbuster,\n  title = {Ghostbuster: Detecting Text Ghostwritten by Large Language Models},\n  author = {Berkeley AI Research Lab},\n  booktitle = {arXiv},\n  year = {2023}\n}",
+      "startHere": false,
+      "url": "https://bair.berkeley.edu/blog/2023/11/14/ghostbuster/",
+      "chapter": "ch8"
+    },
+    {
+      "id": "ch8-005",
+      "title": "Delegation to Artificial Intelligence Can Increase Dishonest Behavior",
+      "author": "PMC Research Team",
+      "publisher": "PMC/NIH",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "⚖️ Ethics",
+        "💭 Judgment",
+        "🤖 AI"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "18 min read",
+      "hook": "When humans delegate moral decisions to AI, they become more likely to make unethical choices. The algorithm becomes the scapegoat, and personal responsibility dissolves—a new form of outsourced guilt.",
+      "why_it_matters": "Central to Ch8's concern about moral judgment delegation. Research shows algorithmic delegation increases dishonesty and unethical behavior. Users relax their own ethical standards when an AI shares 'responsibility.' The effect: diffused moral agency, eroded personal integrity.",
+      "summary": "Research documents that when individuals delegate decisions to algorithms, they relax personal ethical standards and are more likely to choose dishonest or unethical options. Machines are found to carry out fully unethical instructions more readily than human agents. The effect reflects distributed responsibility—humans diffuse moral burden across the socio-technical system.",
+      "bibtex": "@article{pmc2025delegation,\n  title = {Delegation to artificial intelligence can increase dishonest behaviour},\n  publisher = {PMC},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488497/",
+      "chapter": "ch8"
+    }
+  ]
+}

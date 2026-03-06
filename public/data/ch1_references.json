@@ -2,7 +2,7 @@
   "chapter": "ch1",
   "chapter_title": "How We Accidentally Re-Created Evolution in Silicon",
   "generated": "2026-03-05",
-  "entry_count": 61,
+  "entry_count": 66,
   "entries": [
     {
       "id": "ch1-001",
@@ -1712,6 +1712,141 @@
       "summary": "This article explores open-ended learning systems that pursue novelty and complexity without fixed objectives, mirroring biological evolution's open-ended nature. Recent approaches using foundation models to discover artificial life structures demonstrate how AI can autonomously generate novel behaviors and emergent phenomena.",
       "bibtex": "@article{suwandi2025openended,\n  title={Open-Ended Learning: Self-Evolving Intelligence Beyond Supervised Objectives},\n  author={Suwandi, Richard Cornelius},\n  journal={Personal Research Blog},\n  year={2025}\n}",
       "startHere": true
+    },
+    {
+      "title": "What is the future of intelligence? The answer could lie in the story of its evolution",
+      "author": "Blaise Agüera y Arcas",
+      "source": "Nature",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.nature.com/articles/d41586-025-03857-0",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "Evolution"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "AI development mirrors biological evolution: symbiogenesis shows how intelligence emerges from merging simple parts into complex wholes.",
+      "why_it_matters": "Directly parallels the book's central thesis that AI evolution mirrors biological evolution (senses→language→learning→brains→creation), exploring how intelligence emerges through the same computational scaling process across biology and AI.",
+      "summary": "Chief AI strategist at Google argues that AI's rise mirrors the evolutionary process of life itself. Rather than intelligence being a unique property of biology, it emerges when computational systems merge and scale—a process visible in symbiogenesis (how simple organisms combined to form complex life) and now in the emergence of artificial intelligence.",
+      "bibtex": null,
+      "startHere": true,
+      "chapter": "ch1",
+      "id": "ch1-062"
+    },
+    {
+      "title": "How AlexNet Transformed AI and Computer Vision Forever",
+      "author": "{IEEE Spectrum}",
+      "source": "IEEE Spectrum",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://spectrum.ieee.org/alexnet-source-code",
+      "keywords": [
+        "🤖 How AI Works",
+        "AI History",
+        "Deep Learning"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "In 2012, AlexNet achieved a 15.3% error rate while previous methods scored 26.2%—a watershed moment that sparked the deep learning revolution.",
+      "why_it_matters": "Essential historical milestone in the chapter's narrative arc from spam filters to self-driving cars to LLMs. AlexNet represents the turning point where neural networks became dominant, enabling the cascade of AI breakthroughs that followed.",
+      "summary": "AlexNet's 2012 victory in the ImageNet competition marked the convergence of three crucial elements: large-scale labeled datasets, GPU computing, and improved training methods. The dramatic performance gap (11 percentage points) shocked the field and established deep convolutional neural networks as the path forward, leading directly to all subsequent architectures that power modern AI.",
+      "bibtex": null,
+      "startHere": false,
+      "chapter": "ch1",
+      "id": "ch1-063"
+    },
+    {
+      "title": "Artificial Intelligence History and Timeline: From 1940s to 2025",
+      "author": "{EdrawMind}",
+      "source": "EdrawMind",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://edrawmind.wondershare.com/history/ai-history-timeline.html",
+      "keywords": [
+        "AI History",
+        "Timeline",
+        "Evolution"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "7 min read",
+      "hook": "From the abacus (3000 BC) through Turing's Bombe and the 1956 Dartmouth Conference to ChatGPT: 85 years of accelerating intelligence breakthroughs.",
+      "why_it_matters": "Comprehensive historical arc exactly matching the book's scope: 'history of AI from abacus to GPT.' Tracks how AI capabilities progressed through discrete eras—from symbolic AI to expert systems to machine learning to deep learning to generative AI.",
+      "summary": "A detailed timeline spanning from early computational devices through the founding of modern AI in 1956, the AI winters and recoveries, the rise of machine learning, and the recent explosion of generative AI. Documents the acceleration of progress: major breakthroughs that took decades in the 1950s-60s now occur in months.",
+      "bibtex": null,
+      "startHere": true,
+      "chapter": "ch1",
+      "id": "ch1-064"
+    },
+    {
+      "title": "Brain-inspired learning in artificial neural networks: A review",
+      "author": "{AIP Publishing / APL Machine Learning}",
+      "source": "APL Machine Learning",
+      "publisher": null,
+      "type": "paper",
+      "year": 2024,
+      "month": 6,
+      "url": "https://pubs.aip.org/aip/aml/article/2/2/021501/3291446/Brain-inspired-learning-in-artificial-neural",
+      "keywords": [
+        "🧠 Intelligence",
+        "Biological Evolution",
+        "Neural Networks"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "20 min read",
+      "hook": "Modern ANNs and biological brains are converging onto shared representational principles—suggesting that intelligence itself emerges from universal computational structures.",
+      "why_it_matters": "Explores the senses→language→learning→brains arc that the book emphasizes. Shows how biological and artificial neural networks implement equivalent learning mechanisms, supporting the thesis that the path to AI mirrors the evolutionary path in nature.",
+      "summary": "A peer-reviewed survey examining how artificial neural networks increasingly incorporate biologically-inspired mechanisms like synaptic plasticity and distributed representations. Recent research shows that ANNs and biological brains converge on universal representational axes—suggesting that intelligence arises from fundamental principles that manifest identically in carbon and silicon.",
+      "bibtex": null,
+      "startHere": false,
+      "chapter": "ch1",
+      "id": "ch1-065"
+    },
+    {
+      "title": "The History of AI: A Timeline of Artificial Intelligence",
+      "author": "{Coursera}",
+      "source": "Coursera",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.coursera.org/articles/history-of-ai",
+      "keywords": [
+        "AI History",
+        "Timeline",
+        "Milestones"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "From the Turing Test in 1950 to ChatGPT in 2022: watch how AI evolved through expert systems, machine learning, and deep learning to finally achieve human-like reasoning.",
+      "why_it_matters": "Accessible, authoritative timeline covering the exact progression the chapter describes: from early symbolic AI through the era of spam filters and pattern recognition, to autonomous systems and finally foundation models.",
+      "summary": "A clear chronological narrative from Alan Turing's foundational theoretical work through the birth of AI at Dartmouth (1956), the boom-and-bust cycles of AI hype, and the recent explosion driven by deep learning. Shows how each era built on previous breakthroughs, with modern LLMs being the culmination of 70 years of incremental progress.",
+      "bibtex": null,
+      "startHere": true,
+      "chapter": "ch1",
+      "id": "ch1-066"
     }
   ]
 }

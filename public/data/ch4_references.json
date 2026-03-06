@@ -2,7 +2,7 @@
   "chapter": "ch4",
   "chapter_title": "The Next Scarcity: The Conductor",
   "generated": "2026-03-05",
-  "entry_count": 53,
+  "entry_count": 58,
   "entries": [
     {
       "id": "ch4-001",
@@ -1469,6 +1469,147 @@
       "why_it_matters": "Catalogs the technical infrastructure conductors use to orchestrate AI systems, showing the concrete tooling around the role.",
       "summary": "Reviews 2026's leading AI orchestration platforms and frameworks, helping conductors choose the right stack for their organization's needs and complexity level.",
       "bibtex": "@article{newstack2026orchestration,\n  title={Choosing Your AI Orchestration Stack for 2026},\n  author={{The New Stack}},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-054",
+      "title": "Unlocking Exponential Value with AI Agent Orchestration",
+      "author": "{Deloitte}",
+      "source": "Deloitte Insights",
+      "publisher": "Deloitte",
+      "type": "report",
+      "year": 2026,
+      "month": null,
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html",
+      "chapter": "ch4",
+      "keywords": [
+        "🛠️ Using AI",
+        "💼 Future of Work",
+        "⚡ Orchestration"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "AI orchestration moves from experimental to enterprise—organizations now design workflows that coordinate multiple specialized agents to handle complex business processes.",
+      "why_it_matters": "Core to ch4's premise: the conductor skill isn't about replacing humans with agents, but about coordinating agent teams for exponential value creation. Demonstrates market validation of orchestration as critical business function.",
+      "summary": "Deloitte's 2026 technology predictions focus on AI agent orchestration as the defining enterprise challenge. Organizations transitioning from single-agent experiments to multi-agent systems need conductors who can coordinate specialized agents, manage handoffs between systems, and maintain oversight across autonomous workflows.",
+      "bibtex": "@techreport{deloitte2026orchestration,\n  title={Unlocking Exponential Value with AI Agent Orchestration},\n  author={{Deloitte}},\n  institution={Deloitte Insights},\n  year={2026}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-055",
+      "title": "AI Agents, Robots, and Us: Skill Partnerships in the Age of AI",
+      "author": "{McKinsey Global Institute}",
+      "source": "McKinsey Global Institute",
+      "publisher": "McKinsey",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤝 Collaboration",
+        "📚 Skills"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Skill partnerships between humans and AI agents are the competitive advantage: organizations that master complementary human-agent teams outperform those pursuing pure automation.",
+      "why_it_matters": "Directly validates ch4's thesis that the scarcest resource post-AI isn't labor, it's the ability to orchestrate human-AI partnerships. Shows organizational winners are those building conductor capabilities.",
+      "summary": "McKinsey research explores how complementary human-AI teams create competitive advantage. The focus shifts from 'will AI replace workers?' to 'how do we partner humans with agents?' Organizations that develop internal expertise in orchestrating agent teams, understanding their strengths/limitations, and designing workflows for human-agent handoffs demonstrate measurably better outcomes.",
+      "bibtex": "@techreport{mckinsey2025agents,\n  title={AI Agents, Robots, and Us: Skill Partnerships in the Age of AI},\n  author={{McKinsey Global Institute}},\n  institution={McKinsey},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-056",
+      "title": "7 Agentic AI Trends to Watch in 2026",
+      "author": "Jason Brownlee",
+      "source": "Machine Learning Mastery",
+      "publisher": "Machine Learning Mastery",
+      "type": "article",
+      "year": 2026,
+      "month": null,
+      "url": "https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "⚡ Orchestration",
+        "🛠️ Using AI",
+        "💼 Future of Work"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "From single agents to orchestrated teams: 2026 marks the year when multi-agent systems become the default architecture, requiring new skills in coordination and oversight.",
+      "why_it_matters": "Provides concrete trends in agentic AI development that support ch4's narrative about the shift toward orchestration. Identifies orchestration, memory management, and tool coordination as key 2026 developments.",
+      "summary": "Synthesizes key trends shaping agentic AI in 2026, including the emergence of multi-agent orchestration patterns, standardized protocols (MCP, A2A) enabling agent interoperability, and the shift from prompt engineering to system architecture. Highlights that conductors—those who can coordinate specialized agents—become the valuable role, not the individual agent builders.",
+      "bibtex": "@article{brownlee2026agentic,\n  title={7 Agentic AI Trends to Watch in 2026},\n  author={Brownlee, Jason},\n  journal={Machine Learning Mastery},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-057",
+      "title": "Measuring US Workers' Capacity to Adapt to AI-Driven Job Displacement",
+      "author": "{Brookings Institution}",
+      "source": "Brookings Institution",
+      "publisher": "Brookings",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "📚 Skills",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "40 min read",
+      "hook": "Worker adaptation capacity is unevenly distributed: financial security, age, skills, and local labor markets determine who thrives and who struggles as AI agents reshape employment.",
+      "why_it_matters": "Supports ch4's claim about career disruption and adaptation. Shows concrete data on which workers have capacity to adapt, validating the narrative that conductor skills become essential for workforce resilience.",
+      "summary": "Brookings research quantifies worker capacity to adapt to AI displacement, finding that ability to transition isn't universal. Financial security, existing skill base, geographic location, and age significantly influence who can successfully pivot to conductor or AI-adjacent roles. Organizations and individuals with resources adapt faster; policy must address gaps.",
+      "bibtex": "@article{brookings2025adaptation,\n  title={Measuring US Workers' Capacity to Adapt to AI-Driven Job Displacement},\n  author={{Brookings Institution}},\n  journal={Brookings Institution},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-058",
+      "title": "Complementarity in Human-AI Collaboration: Concept, Sources, and Evidence",
+      "author": "{Academic Research}",
+      "source": "Taylor & Francis Online",
+      "publisher": "Taylor & Francis",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0960085X.2025.2475962",
+      "chapter": "ch4",
+      "keywords": [
+        "🤝 Collaboration",
+        "💡 Understanding",
+        "🛠️ Using AI"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "True complementarity in human-AI teams means each side handles what it does best: humans excel at judgment, ethics, and novel problems; AI excels at information synthesis and pattern matching.",
+      "why_it_matters": "Provides theoretical foundation for ch4's conductor concept. Complementarity—not replacement—is the key insight. Conductors design workflows exploiting human-AI complementarity rather than trying to make AI fully autonomous.",
+      "summary": "Recent research examines what true human-AI complementarity looks like. Teams achieve superior performance when they leverage specialized strengths: AI handles information synthesis and pattern detection at scale, while humans contribute judgment, context, ethical reasoning, and novel problem-solving. The conductor orchestrates these complementary strengths rather than trying to eliminate human involvement.",
+      "bibtex": "@article{complement2025,\n  title={Complementarity in Human-AI Collaboration: Concept, Sources, and Evidence},\n  journal={Taylor & Francis Online},\n  year={2025}\n}",
       "startHere": false
     }
   ]
