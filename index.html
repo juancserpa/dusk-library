@@ -85,6 +85,18 @@
 
       /* Selection color */
       ::selection { background: rgba(184,58,42,0.15); color: #2a2118; }
+
+      /* Responsive: collapse sidebar on narrow screens */
+      @media (max-width: 860px) {
+        .sidebar-layout { flex-direction: column !important; }
+        .sidebar-layout > aside {
+          position: relative !important;
+          top: auto !important;
+          width: 100% !important;
+          min-width: 0 !important;
+          max-height: none !important;
+        }
+      }
     </style>
   </head>
   <body>

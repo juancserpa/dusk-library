@@ -2,7 +2,7 @@
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
   "generated": "2026-03-04",
-  "entry_count": 51,
+  "entry_count": 47,
   "entries": [
     {
       "id": "prologue-001",
@@ -173,62 +173,6 @@
       "chapter": "prologue"
     },
     {
-      "id": "prologue-007",
-      "title": "Will AI Investments Pay Off?",
-      "author": "The Economist",
-      "publisher": "The Economist",
-      "type": "article",
-      "year": 2024,
-      "month": 11,
-      "keywords": [
-        "⏱️ Speed",
-        "💰 Inequality",
-        "🤖 How AI Works"
-      ],
-      "questions": [
-        "How fast is this happening?",
-        "Is AI actually dangerous?"
-      ],
-      "difficulty": "moderate",
-      "time": "18 min read",
-      "hook": "Tech companies have bet trillions on AI paying off soon, but we might hit an energy wall or data shortage before it actually works — or it might not.",
-      "why_it_matters": "Questions whether the Prologue's confident timeline has economic constraints that could delay or derail it entirely.",
-      "summary": "The Economist examines whether massive AI investments will deliver returns or burst, highlighting energy demands, data shortages, and high training costs as key hurdles. The piece notes that \"agentic\" AI systems — capable of autonomous end-to-end task completion — are the next frontier.",
-      "bibtex": "@article{economist2024gamble,\n  author = {{The Economist}},\n  title = {History's Biggest Business Gamble: Will AI Start Delivering in 2025?},\n  journal = {The Economist},\n  year = {2024},\n  month = nov\n}",
-      "startHere": false,
-      "url": "https://www.theatlantic.com/technology/archive/2025/01/ai-bubble-investment/681234/",
-      "source": "The Atlantic",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-008",
-      "title": "AI's Transformation of Society",
-      "author": "Korinek, Anton",
-      "publisher": "TIME Magazine",
-      "type": "article",
-      "year": 2024,
-      "month": 1,
-      "keywords": [
-        "💼 Jobs",
-        "💰 Inequality",
-        "💔 Meaning"
-      ],
-      "questions": [
-        "Will AI take my job?",
-        "What happens to meaning and purpose?"
-      ],
-      "difficulty": "moderate",
-      "time": "20 min read",
-      "hook": "The transformation AI is bringing isn't like the internet or electricity — it's more like fire, and we're still living in wooden houses.",
-      "why_it_matters": "Frames the scale of transformation the Prologue insists upon: this isn't an upgrade, it's a species-level event.",
-      "summary": "Economist Anton Korinek warns that AI's labor displacement and wealth concentration effects may be structurally different from previous technological revolutions. His analysis, prominently featured in The Economist, argues that without deliberate redistribution, AI could hollow out the middle class entirely.",
-      "bibtex": "@article{korinek2024economist,\n  author = {Korinek, Anton},\n  title = {Breaking Ranks to Sound the Alarm on AI},\n  journal = {TIME Magazine (covering The Economist)},\n  year = {2024},\n  note = {Coverage of Korinek's warnings featured in The Economist}\n}",
-      "startHere": false,
-      "url": "https://www.economist.com/leaders/2024/03/28/how-ai-will-transform-the-world",
-      "source": "The Economist",
-      "chapter": "prologue"
-    },
-    {
       "id": "prologue-009",
       "title": "A Better Way to Think About AI",
       "author": "Autor, David and Manyika, James",
@@ -310,34 +254,6 @@
       "startHere": false,
       "url": "https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/",
       "source": "The Atlantic",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-012",
-      "title": "The Doomsday Scenario for AI and Jobs",
-      "author": "Thompson, Derek",
-      "publisher": "The Atlantic",
-      "type": "article",
-      "year": 2024,
-      "month": 1,
-      "keywords": [
-        "💼 Jobs",
-        "⏱️ Speed",
-        "💔 Meaning"
-      ],
-      "questions": [
-        "Will AI take my job?",
-        "How fast is this happening?"
-      ],
-      "difficulty": "moderate",
-      "time": "19 min read",
-      "hook": "Experts predict catastrophic job losses, but the economy isn't showing it yet — and that gap between prediction and data is where the real question lives.",
-      "why_it_matters": "The Prologue's timing question: is AI the fastest transition we've ever made, or are we misreading the signals?",
-      "summary": "Thompson examines three scenarios for AI's labor market impact and notes the troubling disconnect between dire expert predictions and present economic data. He argues that how we \"play\" with AI today will shape future work in ways current models cannot predict.",
-      "bibtex": "@article{thompson2024doomsday,\n  author = {Thompson, Derek},\n  title = {The Doomsday Scenario for AI and Jobs},\n  journal = {The Atlantic},\n  year = {2024}\n}",
-      "startHere": false,
-      "url": "https://www.nytimes.com/2024/05/21/opinion/ai-jobs-economy.html",
-      "source": "The New York Times",
       "chapter": "prologue"
     },
     {
@@ -510,7 +426,7 @@
     },
     {
       "id": "prologue-019",
-      "title": "AI Job Displacement on Wall Street",
+      "title": "Jack Dorsey Made the Loudest Case Yet That AI Is Already Replacing Jobs",
       "author": "Wall Street Journal",
       "publisher": "Wall Street Journal",
       "type": "article",
@@ -532,7 +448,7 @@
       "summary": "Financial services firms are projected to cut 200,000 positions as AI automates trading, analysis, and compliance functions that previously required large teams of knowledge workers. The cuts represent one of the first large-scale sector disruptions where \"good enough\" AI replaces credentialed professionals — the dynamic the Prologue predicts.",
       "bibtex": "@article{wsj2025walljobs,\n  author = {{Wall Street Journal}},\n  title = {AI Job Cuts Expected on Wall Street},\n  journal = {Wall Street Journal},\n  year = {2025},\n  note = {Reports 200,000 job cuts expected in financial services due to AI}\n}",
       "startHere": false,
-      "url": "https://www.cnbc.com/2026/02/27/ai-replacing-wall-street-jobs.html",
+      "url": "https://www.cnbc.com/2026/02/27/jack-dorsey-made-the-loudest-case-yet-ai-is-already-replacing-jobs.html",
       "source": "CNBC",
       "chapter": "prologue"
     },
@@ -1070,7 +986,7 @@
     },
     {
       "id": "prologue-040",
-      "title": "TED 2025: Tristan Harris on AI as Humanity's Wisdom Test",
+      "title": "Tristan Harris: Why AI Is Our Ultimate Test and Greatest Invitation",
       "author": "Harris, Tristan",
       "publisher": "TED2025: Humanity Reimagined",
       "type": "video",
@@ -1092,7 +1008,7 @@
       "summary": "Harris frames AI deployment as humanity's ultimate test of collective wisdom, warning that repeating social media's mistakes — adopting without understanding — would be catastrophic at AI's scale. Directly echoes the Prologue's iPhone analogy: \"we learned to swipe, not to sleep.\"",
       "bibtex": "@misc{harris2025ted,\n  author = {Harris, Tristan},\n  title = {AI as Humanity's Ultimate Wisdom Test},\n  howpublished = {TED2025: Humanity Reimagined},\n  year = {2025},\n  month = apr\n}",
       "startHere": false,
-      "url": "https://www.ted.com/talks/tristan_harris_why_ai_is_our_ultimate_test",
+      "url": "https://www.ted.com/talks/tristan_harris_why_ai_is_our_ultimate_test_and_greatest_invitation",
       "source": "TED Talks",
       "chapter": "prologue"
     },
@@ -1120,36 +1036,8 @@
       "summary": "Investigates the paradox of AI's massive energy consumption and environmental footprint alongside its potential for climate solutions. The episode highlights how the same technology being developed to solve planetary-scale problems is simultaneously accelerating them.",
       "bibtex": "@misc{npr2025aienvironment,\n  author = {{NPR}},\n  title = {AI and the Environment},\n  howpublished = {Consider This (NPR)},\n  year = {2025},\n  month = mar,\n  day = {30},\n  url = {https://www.npr.org/2025/03/30/1241844391/ai-and-the-environment}\n}",
       "startHere": false,
-      "url": "https://www.npr.org/2025/03/30/ai-and-the-environment",
+      "url": "https://www.npr.org/2025/03/30/1241844391/ai-and-the-environment",
       "source": "NPR Consider This",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-042",
-      "title": "All-In Podcast: AI Moratorium Debate",
-      "author": "Palihapitiya, Chamath et al.",
-      "publisher": "All-In Podcast",
-      "type": "podcast",
-      "year": 2025,
-      "month": 12,
-      "keywords": [
-        "🏛️ Power",
-        "⏱️ Speed",
-        "💰 Inequality"
-      ],
-      "questions": [
-        "Who controls AI?",
-        "Is AI actually dangerous?"
-      ],
-      "difficulty": "moderate",
-      "time": "1.5 hrs listen",
-      "hook": "Four tech billionaires debate whether to pause AI development. Spoiler: they can't agree, and neither can anyone else.",
-      "why_it_matters": "The Prologue's governance paradox: collective action problems prevent us from choosing slower, safer paths.",
-      "summary": "Four prominent venture capitalists debate the merits of an AI development moratorium, weighing economic impact, job displacement, and the tension between competitive advantage and societal readiness. The debate crystallizes the \"race nobody can stop\" dynamic the book later addresses in Chapter 2.",
-      "bibtex": "@misc{allin2025moratorium,\n  author = {Palihapitiya, Chamath and Calacanis, Jason and Sacks, David and Friedberg, David},\n  title = {AI Moratorium Debate},\n  howpublished = {All-In Podcast, Episode 255},\n  year = {2025},\n  month = dec,\n  day = {19}\n}",
-      "startHere": false,
-      "url": "https://www.youtube.com/watch?v=allin-ai-moratorium",
-      "source": "All-In Podcast",
       "chapter": "prologue"
     },
     {

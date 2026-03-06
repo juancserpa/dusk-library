@@ -428,201 +428,178 @@ export default function DuskLibrary() {
         </div>
       </section>
 
-      {/* SEARCH + FILTERS */}
-      <div ref={resultsRef} style={{
-        position: "sticky", top: 0, zIndex: 50,
-        background: `${C.cream}f0`,
-        backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)",
-        borderBottom: `1px solid ${C.ruleFaint}`,
-        padding: "14px 0", marginTop: 24,
-        boxShadow: "0 2px 12px rgba(42,33,24,0.04)",
+      {/* SIDEBAR + RESULTS LAYOUT */}
+      <div ref={resultsRef} className="sidebar-layout" style={{
+        maxWidth: 1200, margin: "0 auto", padding: "28px 32px 0",
+        display: "flex", gap: 28, alignItems: "flex-start",
       }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 32px" }}>
-          <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-            {/* Search input */}
+        {/* LEFT SIDEBAR */}
+        <aside style={{
+          width: 260, minWidth: 260, flexShrink: 0,
+          position: "sticky", top: 16, zIndex: 40,
+          maxHeight: "calc(100vh - 32px)", overflowY: "auto",
+          background: C.softWhite,
+          border: `1px solid ${C.rule}`,
+          borderRadius: 12,
+          padding: "20px 18px",
+          boxShadow: "0 2px 12px rgba(42,33,24,0.05)",
+          display: "flex", flexDirection: "column", gap: 16,
+        }}>
+          {/* Search input */}
+          <div>
             <div style={{
-              flex: 1, minWidth: 220, display: "flex", alignItems: "center", gap: 10,
-              background: C.softWhite, border: `1.5px solid ${C.rule}`,
-              borderRadius: 8, padding: "10px 14px",
-              boxShadow: "0 1px 4px rgba(42,33,24,0.04)",
-              transition: "all 0.2s",
+              display: "flex", alignItems: "center", gap: 8,
+              background: C.cream, border: `1.5px solid ${C.rule}`,
+              borderRadius: 8, padding: "9px 12px",
             }}>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={C.pencilLight} strokeWidth="2" strokeLinecap="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={C.pencilLight} strokeWidth="2" strokeLinecap="round">
                 <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
               </svg>
-              <input type="text" placeholder="Search titles, authors, sources..."
+              <input type="text" placeholder="Search..."
                 value={search} onChange={e => setSearch(e.target.value)}
                 aria-label="Search references"
                 style={{
                   ...sans, flex: 1, background: "none", border: "none",
-                  fontSize: 14, color: C.ink, outline: "none",
-                  fontWeight: 400,
+                  fontSize: 13, color: C.ink, outline: "none",
+                  fontWeight: 400, width: "100%",
                 }}
               />
               {search && (
                 <button onClick={() => setSearch("")} aria-label="Clear search"
                   style={{
                     background: C.fog, border: "none", color: C.pencil,
-                    cursor: "pointer", fontSize: 14, lineHeight: 1,
-                    width: 22, height: 22, borderRadius: "50%",
+                    cursor: "pointer", fontSize: 13, lineHeight: 1,
+                    width: 20, height: 20, borderRadius: "50%",
                     display: "flex", alignItems: "center", justifyContent: "center",
-                    transition: "all 0.15s",
                   }}>
                   ×
                 </button>
               )}
             </div>
+          </div>
 
-            {/* Filter toggle */}
-            <button className="filter-btn" onClick={() => setFiltersOpen(!filtersOpen)}
-              style={{
-                ...sans, fontSize: 12, fontWeight: 500,
-                padding: "10px 16px", borderRadius: 8, cursor: "pointer",
-                background: filtersOpen ? C.redSoft : C.softWhite,
-                border: `1.5px solid ${filtersOpen ? C.red + "40" : C.rule}`,
-                color: filtersOpen ? C.red : C.pencil,
-                display: "flex", alignItems: "center", gap: 7,
-                boxShadow: "0 1px 4px rgba(42,33,24,0.04)",
-              }}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/>
-              </svg>
-              Filters
-              {activeFilterCount > 0 && (
-                <span style={{
-                  background: C.red, color: "#fff", borderRadius: 10,
-                  minWidth: 20, height: 20, display: "inline-flex",
-                  alignItems: "center", justifyContent: "center",
-                  fontSize: 10, fontWeight: 700, padding: "0 6px",
-                }}>
-                  {activeFilterCount}
-                </span>
-              )}
-            </button>
-
-            {/* View mode toggle */}
+          {/* View + Sort row */}
+          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
             <div style={{
-              display: "flex", borderRadius: 8, overflow: "hidden",
-              border: `1.5px solid ${C.rule}`,
+              display: "flex", borderRadius: 6, overflow: "hidden",
+              border: `1.5px solid ${C.rule}`, flex: "0 0 auto",
             }}>
               <button onClick={() => setViewMode("list")} aria-label="List view"
                 style={{
-                  ...sans, padding: "9px 12px", cursor: "pointer",
-                  background: viewMode === "list" ? C.redSoft : C.softWhite,
+                  ...sans, padding: "7px 10px", cursor: "pointer",
+                  background: viewMode === "list" ? C.redSoft : "transparent",
                   border: "none", color: viewMode === "list" ? C.red : C.pencilLight,
                   display: "flex", alignItems: "center",
                 }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                   <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
                 </svg>
               </button>
               <button onClick={() => setViewMode("grid")} aria-label="Grid view"
                 style={{
-                  ...sans, padding: "9px 12px", cursor: "pointer",
-                  background: viewMode === "grid" ? C.redSoft : C.softWhite,
+                  ...sans, padding: "7px 10px", cursor: "pointer",
+                  background: viewMode === "grid" ? C.redSoft : "transparent",
                   border: "none", borderLeft: `1px solid ${C.rule}`,
                   color: viewMode === "grid" ? C.red : C.pencilLight,
                   display: "flex", alignItems: "center",
                 }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                   <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
                 </svg>
               </button>
             </div>
-
-            {/* Sort */}
             <select value={sort} onChange={e => setSort(e.target.value)}
               aria-label="Sort entries"
               style={{
-                ...sans, fontSize: 12, padding: "10px 28px 10px 12px", borderRadius: 8,
-                background: C.softWhite, border: `1.5px solid ${C.rule}`,
-                color: C.pencil, cursor: "pointer", fontWeight: 500,
+                ...sans, fontSize: 11, padding: "8px 24px 8px 10px", borderRadius: 6,
+                background: "transparent", border: `1.5px solid ${C.rule}`,
+                color: C.pencil, cursor: "pointer", fontWeight: 500, flex: 1,
                 appearance: "none",
                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 10px center",
+                backgroundPosition: "right 8px center",
               }}>
               <option value="chapter">By chapter</option>
               <option value="year">Newest first</option>
               <option value="title">A → Z</option>
             </select>
-
-            {hasFilters && (
-              <button onClick={clearAll}
-                style={{
-                  ...sans, fontSize: 12, fontWeight: 600,
-                  color: C.red, background: "none",
-                  border: "none", cursor: "pointer",
-                  padding: "8px 4px",
-                  textDecoration: "underline", textUnderlineOffset: 3,
-                }}>
-                Clear all
-              </button>
-            )}
           </div>
+
+          {/* Divider */}
+          <div style={{ height: 1, background: C.ruleFaint }} />
+
+          {/* Type filters */}
+          <FRow label="Type">
+            {Object.entries(TYPE_META).map(([t, m]) => (
+              <FilterTag key={t} label={`${m.icon} ${m.label}`} active={selTypes.includes(t)} color={m.border} onClick={() => tog(setSelTypes, t)} />
+            ))}
+          </FRow>
+
+          {/* Difficulty filters */}
+          <FRow label="Difficulty">
+            {Object.entries(DIFF_META).map(([d, m]) => (
+              <FilterTag key={d} label={`${m.icon} ${m.label}`} active={selDiff.includes(d)} color={m.color} onClick={() => tog(setSelDiff, d)} />
+            ))}
+          </FRow>
+
+          {/* Keyword filters */}
+          {allKeywords.length > 0 && (
+            <FRow label="Keywords" last>
+              {allKeywords.map(kw => (
+                <FilterTag key={kw} label={kw} active={selKw.includes(kw)} color={C.pencil} onClick={() => tog(setSelKw, kw)} />
+              ))}
+            </FRow>
+          )}
 
           {/* Active filter chips */}
           {hasFilters && (
-            <div style={{
-              display: "flex", flexWrap: "wrap", gap: 6, marginTop: 10,
-              animation: "fadeIn 0.2s ease-out",
-            }}>
-              {selChapter && (
-                <ActiveChip label={CHAPTERS.find(c => c.id === selChapter)?.short || selChapter}
-                  onRemove={() => setSelChapter(null)} color={C.red} />
-              )}
-              {selQ.map(q => {
-                const qd = QUESTIONS.find(x => x.label === q);
-                return <ActiveChip key={q} label={`${qd?.icon || ""} ${q}`} onRemove={() => tog(setSelQ, q)} color={qd?.color || C.pencil} />;
-              })}
-              {selTypes.map(t => (
-                <ActiveChip key={t} label={TYPE_META[t]?.label || t} onRemove={() => tog(setSelTypes, t)} color={TYPE_META[t]?.border || C.pencil} />
-              ))}
-              {selDiff.map(d => (
-                <ActiveChip key={d} label={DIFF_META[d]?.label || d} onRemove={() => tog(setSelDiff, d)} color={DIFF_META[d]?.color || C.pencil} />
-              ))}
-              {selKw.map(kw => (
-                <ActiveChip key={kw} label={kw} onRemove={() => tog(setSelKw, kw)} color={C.pencil} />
-              ))}
-              {search && (
-                <ActiveChip label={`"${search}"`} onRemove={() => setSearch("")} color={C.ink} />
-              )}
-            </div>
-          )}
-
-          {/* Expanded filter panel */}
-          {filtersOpen && (
-            <div style={{
-              marginTop: 12, padding: "18px 20px",
-              background: C.softWhite, border: `1px solid ${C.rule}`,
-              borderRadius: 10,
-              boxShadow: "0 4px 16px rgba(42,33,24,0.06)",
-              animation: "fadeIn 0.2s ease-out",
-            }}>
-              <FRow label="Type">
-                {Object.entries(TYPE_META).map(([t, m]) => (
-                  <FilterTag key={t} label={`${m.icon} ${m.label}`} active={selTypes.includes(t)} color={m.border} onClick={() => tog(setSelTypes, t)} />
-                ))}
-              </FRow>
-              <FRow label="Difficulty">
-                {Object.entries(DIFF_META).map(([d, m]) => (
-                  <FilterTag key={d} label={`${m.icon} ${m.label}`} active={selDiff.includes(d)} color={m.color} onClick={() => tog(setSelDiff, d)} />
-                ))}
-              </FRow>
-              {allKeywords.length > 0 && (
-                <FRow label="Keywords" last>
-                  {allKeywords.map(kw => (
-                    <FilterTag key={kw} label={kw} active={selKw.includes(kw)} color={C.pencil} onClick={() => tog(setSelKw, kw)} />
+            <>
+              <div style={{ height: 1, background: C.ruleFaint }} />
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+                  <span style={{ ...sans, fontSize: 10, fontWeight: 600, color: C.pencilLight, textTransform: "uppercase", letterSpacing: "0.14em" }}>Active filters</span>
+                  <button onClick={clearAll}
+                    style={{
+                      ...sans, fontSize: 10, fontWeight: 600,
+                      color: C.red, background: "none",
+                      border: "none", cursor: "pointer",
+                      textDecoration: "underline", textUnderlineOffset: 2,
+                    }}>
+                    Clear all
+                  </button>
+                </div>
+                <div style={{
+                  display: "flex", flexWrap: "wrap", gap: 5,
+                  animation: "fadeIn 0.2s ease-out",
+                }}>
+                  {selChapter && (
+                    <ActiveChip label={CHAPTERS.find(c => c.id === selChapter)?.short || selChapter}
+                      onRemove={() => setSelChapter(null)} color={C.red} />
+                  )}
+                  {selQ.map(q => {
+                    const qd = QUESTIONS.find(x => x.label === q);
+                    return <ActiveChip key={q} label={`${qd?.icon || ""} ${q}`} onRemove={() => tog(setSelQ, q)} color={qd?.color || C.pencil} />;
+                  })}
+                  {selTypes.map(t => (
+                    <ActiveChip key={t} label={TYPE_META[t]?.label || t} onRemove={() => tog(setSelTypes, t)} color={TYPE_META[t]?.border || C.pencil} />
                   ))}
-                </FRow>
-              )}
-            </div>
+                  {selDiff.map(d => (
+                    <ActiveChip key={d} label={DIFF_META[d]?.label || d} onRemove={() => tog(setSelDiff, d)} color={DIFF_META[d]?.color || C.pencil} />
+                  ))}
+                  {selKw.map(kw => (
+                    <ActiveChip key={kw} label={kw} onRemove={() => tog(setSelKw, kw)} color={C.pencil} />
+                  ))}
+                  {search && (
+                    <ActiveChip label={`"${search}"`} onRemove={() => setSearch("")} color={C.ink} />
+                  )}
+                </div>
+              </div>
+            </>
           )}
-        </div>
-      </div>
+        </aside>
 
-      {/* RESULTS */}
-      <main style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 80px" }}>
+        {/* RESULTS */}
+        <main style={{ flex: 1, minWidth: 0, paddingBottom: 80 }}>
         {/* Results count bar */}
         <div style={{
           display: "flex", justifyContent: "space-between", alignItems: "center",
@@ -738,6 +715,7 @@ export default function DuskLibrary() {
           </>
         )}
       </main>
+      </div>
 
       {/* FOOTER */}
       <footer style={{
@@ -934,10 +912,6 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
         }}>
           {chapterLabel}
         </span>
-        {item.year && <span style={{
-          ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
-          fontSize: 11, color: C.pencilFaint,
-        }}>{item.year}</span>}
         {/* Expand indicator */}
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={C.pencilFaint} strokeWidth="2" strokeLinecap="round"
           style={{ transition: "transform 0.25s", transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)" }}>
@@ -949,18 +923,38 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
       <h3 style={{
         ...{ fontFamily: "'Playfair Display', Georgia, serif" },
         fontSize: 18, fontWeight: 700, lineHeight: 1.35,
-        margin: "0 0 6px", color: C.ink,
+        margin: "0 0 8px", color: C.ink,
       }}>
         {item.title}
       </h3>
 
-      {/* Author / Source */}
-      <p style={{
-        ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
-        fontSize: 13, color: C.pencilLight, margin: "0 0 12px",
+      {/* Source & Date — prominent */}
+      <div style={{
+        display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap",
+        margin: "0 0 12px",
       }}>
-        {item.author ? `${item.author} · ` : ""}{item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}
-      </p>
+        <span style={{
+          ...sans, fontSize: 12, fontWeight: 600, color: C.red,
+          padding: "2px 10px", borderRadius: 4,
+          background: C.redGlow, border: `1px solid ${C.red}18`,
+        }}>
+          {item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}
+        </span>
+        {item.year && (
+          <span style={{
+            ...sans, fontSize: 12, fontWeight: 600, color: C.ink,
+            padding: "2px 8px", borderRadius: 4,
+            background: C.fog, border: `1px solid ${C.ruleFaint}`,
+          }}>
+            {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
+          </span>
+        )}
+        {item.author && (
+          <span style={{ ...sans, fontSize: 12, color: C.pencil }}>
+            {item.author}
+          </span>
+        )}
+      </div>
 
       {/* Hook quote */}
       <div style={{
@@ -1120,18 +1114,38 @@ function GridCard({ item, index, isExpanded, onToggle }) {
       <h3 style={{
         ...{ fontFamily: "'Playfair Display', Georgia, serif" },
         fontSize: 15, fontWeight: 700, lineHeight: 1.35,
-        margin: "0 0 6px", color: C.ink,
+        margin: "0 0 8px", color: C.ink,
       }}>
         {item.title}
       </h3>
 
-      {/* Author */}
-      <p style={{
-        ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
-        fontSize: 11, color: C.pencilLight, margin: "0 0 10px",
+      {/* Source & Date — prominent */}
+      <div style={{
+        display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap",
+        margin: "0 0 10px",
       }}>
-        {item.author ? `${item.author} · ` : ""}{item.source}{item.year ? ` · ${item.year}` : ""}
-      </p>
+        <span style={{
+          ...sans, fontSize: 10, fontWeight: 600, color: C.red,
+          padding: "2px 8px", borderRadius: 4,
+          background: C.redGlow, border: `1px solid ${C.red}18`,
+        }}>
+          {item.source}
+        </span>
+        {item.year && (
+          <span style={{
+            ...sans, fontSize: 10, fontWeight: 600, color: C.ink,
+            padding: "2px 6px", borderRadius: 4,
+            background: C.fog, border: `1px solid ${C.ruleFaint}`,
+          }}>
+            {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
+          </span>
+        )}
+        {item.author && (
+          <span style={{ ...sans, fontSize: 10, color: C.pencil }}>
+            {item.author}
+          </span>
+        )}
+      </div>
 
       {/* Hook (truncated in grid) */}
       <p style={{
