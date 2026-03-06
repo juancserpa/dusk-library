@@ -357,44 +357,6 @@ export default function DuskLibrary() {
         </div>
       </header>
 
-      {/* START HERE */}
-      {showStartHere && startHereItems.length > 0 && (
-        <section style={{
-          maxWidth: 900, margin: "0 auto", padding: "40px 32px 8px",
-          animation: "fadeInUp 0.5s ease-out 0.2s both",
-        }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 20 }}>
-            <div>
-              <h2 style={{
-                ...sans, fontSize: 11, fontWeight: 600, color: C.red,
-                letterSpacing: "0.14em", textTransform: "uppercase", margin: 0,
-                display: "flex", alignItems: "center", gap: 6,
-              }}>
-                <span style={{ fontSize: 14 }}>★</span> If you read nothing else
-              </h2>
-              <p style={{ ...sans, fontSize: 12, color: C.pencilLight, marginTop: 5 }}>
-                {startHereItems.length} essential starting points, hand-picked from the archive
-              </p>
-            </div>
-            <button onClick={() => setShowStartHere(false)} aria-label="Hide Start Here section"
-              style={{
-                ...sans, fontSize: 11, color: C.pencilFaint, background: "none",
-                border: `1px solid ${C.ruleFaint}`, borderRadius: 4,
-                padding: "5px 12px", cursor: "pointer", transition: "all 0.2s",
-              }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = C.rule; e.currentTarget.style.color = C.pencil; }}
-              onMouseLeave={e => { e.currentTarget.style.borderColor = C.ruleFaint; e.currentTarget.style.color = C.pencilFaint; }}
-            >
-              Hide section
-            </button>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 16 }}>
-            {startHereItems.map((item, idx) => <StartCard key={item.id} item={item} index={idx} />)}
-          </div>
-          <div style={{ height: 1, background: `linear-gradient(90deg, transparent, ${C.rule}, transparent)`, margin: "36px 0 0" }} />
-        </section>
-      )}
-
       {/* CHAPTER TABS */}
       {activeChapters.length > 1 && (
         <section style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
@@ -765,6 +727,89 @@ export default function DuskLibrary() {
           </>
         )}
       </main>
+
+        {/* RIGHT SIDEBAR: Start Here */}
+        {startHereItems.length > 0 && (
+          <aside className="dusk-sidebar" style={{
+            width: 280, minWidth: 280, flexShrink: 0,
+            position: "sticky", top: 16, alignSelf: "flex-start",
+            maxHeight: "calc(100vh - 32px)", overflowY: "auto",
+          }}>
+            <div style={{
+              background: C.softWhite, borderRadius: 12,
+              border: `1px solid ${C.rule}`,
+              boxShadow: "0 2px 12px rgba(42,33,24,0.05)",
+              overflow: "hidden",
+            }}>
+              {/* Sidebar header */}
+              <div style={{
+                padding: "16px 18px 12px",
+                borderBottom: `1px solid ${C.ruleFaint}`,
+                background: C.goldSoft,
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <span style={{
+                    display: "inline-flex", alignItems: "center", justifyContent: "center",
+                    width: 26, height: 26, borderRadius: 7,
+                    background: `${C.gold}20`, fontSize: 13,
+                  }}>⭐</span>
+                  <h2 style={{ ...sans, fontSize: 13, fontWeight: 700, color: C.ink, margin: 0 }}>
+                    If you read nothing else
+                  </h2>
+                </div>
+                <p style={{ ...sans, fontSize: 11, color: C.pencilLight, margin: "6px 0 0" }}>
+                  {startHereItems.length} essential picks to start with
+                </p>
+              </div>
+
+              {/* Sidebar items */}
+              <div style={{ padding: "8px 0" }}>
+                {startHereItems.map((item, idx) => (
+                  <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: "flex", gap: 10, padding: "10px 18px",
+                      textDecoration: "none", color: "inherit",
+                      borderBottom: idx < startHereItems.length - 1 ? `1px solid ${C.ruleFaint}` : "none",
+                      transition: "background 0.15s",
+                    }}
+                    onMouseEnter={e => e.currentTarget.style.background = C.cream}
+                    onMouseLeave={e => e.currentTarget.style.background = "transparent"}
+                  >
+                    {sourceFavicon(item.source) ? (
+                      <img src={sourceFavicon(item.source)} alt="" width="20" height="20"
+                        style={{ borderRadius: 3, flexShrink: 0, marginTop: 2 }}
+                        onError={e => { e.target.style.display = "none"; }} />
+                    ) : (
+                      <span style={{ fontSize: 16, flexShrink: 0, marginTop: 1 }}>
+                        {(TYPE_META[item.type] || {}).icon || "📄"}
+                      </span>
+                    )}
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <h3 style={{
+                        ...serif, fontSize: 13, fontWeight: 700, lineHeight: 1.35,
+                        margin: 0, color: C.ink,
+                      }}>
+                        {item.title}
+                      </h3>
+                      <p style={{
+                        ...sans, fontSize: 10, color: C.pencilLight, margin: "4px 0 0",
+                        lineHeight: 1.3,
+                      }}>
+                        {CHAPTERS.find(c => c.id === item.chapter)?.short || item.chapter}
+                        {item.source ? ` · ${item.source}` : ""}
+                        {item.time ? ` · ${item.time}` : ""}
+                      </p>
+                    </div>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke={C.pencilFaint} strokeWidth="2" strokeLinecap="round"
+                      style={{ flexShrink: 0, marginTop: 4 }}>
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </aside>
+        )}
       </div>
 
       {/* FOOTER */}
