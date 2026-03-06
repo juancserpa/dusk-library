@@ -1,0 +1,1329 @@
+{
+  "chapter": "ch6",
+  "chapter_title": "The Meaning Recession",
+  "generated": "2026-03-05",
+  "entry_count": 49,
+  "entries": [
+    {
+      "id": "ch6-001",
+      "title": "AI Is an Existential Threat—Just Not the Way You Think",
+      "author": "Hicks, Michael and Humphries, Saiph",
+      "source": "Scientific American",
+      "type": "article",
+      "year": 2024,
+      "month": 3,
+      "url": "https://www.scientificamerican.com/article/ai-is-an-existential-threat-just-not-the-way-you-think/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The real danger of AI isn't killer robots—it's that we'll quietly forget how to think, judge, and care for ourselves.",
+      "why_it_matters": "Directly mirrors the chapter's core argument that the meaning recession isn't a sudden catastrophe but a slow erosion of the capacities that make life feel worth living.",
+      "summary": "The authors argue that AI's existential threat is philosophical rather than apocalyptic, as automation of daily judgment calls gradually degrades human decision-making capacity. They contend that progressive cognitive offloading to algorithms fundamentally alters how people view themselves and their agency.",
+      "bibtex": "@article{hicks2024existential,\n  author = {Hicks, Michael and Humphries, Saiph},\n  title = {AI Is an Existential Threat---Just Not the Way You Think},\n  journal = {Scientific American},\n  year = {2024},\n  month = {3},\n  url = {https://www.scientificamerican.com/article/ai-is-an-existential-threat-just-not-the-way-you-think/}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-002",
+      "title": "The Psychological Crisis of AI-Driven Identity Loss",
+      "author": "Relationship Staff",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.psychologytoday.com/us/blog/click-here-for-happiness/202512/the-psychological-crisis-of-ai-driven-identity-loss",
+      "chapter": "ch6",
+      "keywords": [
+        "🎭 Identity",
+        "💔 Meaning",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "When AI devalues the skills you spent decades building, the crisis isn't about your paycheck—it's about who you are.",
+      "why_it_matters": "Frames the meaning recession as a breach in the psychological contract of work: invest in your mind, and society will need you—until AI voids that agreement.",
+      "summary": "This article examines how AI-driven displacement triggers occupational identity crisis, analyzing the psychological mechanisms through which professional obsolescence leads to existential distress. The authors argue the threat is not exploitation but irrelevance—a competence crisis rather than an employment one.",
+      "bibtex": "@article{psychtoday2025identity,\n  author = {{Psychology Today Staff}},\n  title = {The Psychological Crisis of AI-Driven Identity Loss},\n  journal = {Psychology Today},\n  year = {2025},\n  month = {12},\n  url = {https://www.psychologytoday.com/us/blog/click-here-for-happiness/202512/the-psychological-crisis-of-ai-driven-identity-loss}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-003",
+      "title": "Will AI Solve the Existential Crisis, or Make It Worse?",
+      "author": "Relationship Staff",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "month": 5,
+      "url": "https://www.psychologytoday.com/us/blog/the-healthy-journey/202505/will-ai-solve-the-existential-crisis-or-make-it-worse",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "How will you find meaning in a world where even the best human can be humbled by the worst AI?",
+      "why_it_matters": "Asks the chapter's central question head-on: what happens to achievement, community, and religion when AI makes traditional sources of meaning obsolete?",
+      "summary": "Examines how AI threatens the pillars of human meaning—career achievement, community contribution, and personal growth—while exploring whether liberation from survival-based labor could enable rediscovery of creativity, connection, and consciousness.",
+      "bibtex": "@article{psychtoday2025existential,\n  author = {{Psychology Today Staff}},\n  title = {Will AI Solve the Existential Crisis, or Make It Worse?},\n  journal = {Psychology Today},\n  year = {2025},\n  month = {5},\n  url = {https://www.psychologytoday.com/us/blog/the-healthy-journey/202505/will-ai-solve-the-existential-crisis-or-make-it-worse}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-004",
+      "title": "The Overlooked Global Risk of the AI Precariat",
+      "author": "{World Economic Forum}",
+      "source": "World Economic Forum",
+      "type": "report",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.weforum.org/stories/2025/08/the-overlooked-global-risk-of-the-ai-precariat/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Beyond paychecks, jobs provide structure, identity, and belonging—so what happens when the global assembly line of meaning shuts down?",
+      "why_it_matters": "Maps the meaning recession onto a global scale, showing how the loss of occupational identity threatens not just individuals but entire social structures.",
+      "summary": "The WEF report identifies a growing 'AI precariat'—workers displaced not just from employment but from the social belonging that work provides. It argues that the global occupational identity crisis will be a greater governance challenge than unemployment statistics suggest.",
+      "bibtex": "@article{wef2025precariat,\n  author = {{World Economic Forum}},\n  title = {The Overlooked Global Risk of the AI Precariat},\n  journal = {World Economic Forum Stories},\n  year = {2025},\n  month = {8},\n  url = {https://www.weforum.org/stories/2025/08/the-overlooked-global-risk-of-the-ai-precariat/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-005",
+      "title": "Future of Jobs Report 2025",
+      "author": "{World Economic Forum}",
+      "source": "World Economic Forum",
+      "type": "report",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "📉 Deskilling",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "3 hr read",
+      "hook": "By 2030, 92 million jobs will vanish and 170 million new ones will appear—but will the people in the old jobs be the ones in the new ones?",
+      "why_it_matters": "Provides the hard data behind the chapter's claim that the meaning recession isn't hypothetical: 59% of the global workforce needs retraining by 2030.",
+      "summary": "The WEF's survey of 1,000 global employers projects net creation of 78 million jobs by 2030, with 41% of employers planning AI-driven workforce reductions. The report identifies analytical thinking and AI literacy as the most critical emerging skills, while noting that half of employers plan to transition displaced staff internally.",
+      "bibtex": "@techreport{wef2025futurejobs,\n  author = {{World Economic Forum}},\n  title = {Future of Jobs Report 2025},\n  institution = {World Economic Forum},\n  year = {2025},\n  month = {1},\n  url = {https://www.weforum.org/publications/the-future-of-jobs-report-2025/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-006",
+      "title": "The AI Deskilling Paradox",
+      "author": "{ACM Staff}",
+      "source": "Communications of the ACM",
+      "type": "article",
+      "year": 2025,
+      "url": "https://cacm.acm.org/news/the-ai-deskilling-paradox/",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "💔 Meaning",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "AI makes you faster today but hollower tomorrow—the paradox nobody in your office wants to talk about.",
+      "why_it_matters": "Names the core mechanism of the meaning recession: short-term productivity gains masking a long-term hollowing-out of the expertise that gave workers their sense of purpose.",
+      "summary": "This ACM report examines how AI tools boost immediate productivity while eroding the core expertise that gives knowledge workers professional identity. Drawing on research from Microsoft and multiple industry surveys, it documents how automation complacency leads to skill atrophy across fields.",
+      "bibtex": "@article{acm2025deskilling,\n  author = {{ACM Staff}},\n  title = {The AI Deskilling Paradox},\n  journal = {Communications of the ACM},\n  year = {2025},\n  url = {https://cacm.acm.org/news/the-ai-deskilling-paradox/}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-007",
+      "title": "De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design",
+      "author": "Multiple Authors",
+      "source": "arXiv / CHI 2025",
+      "publisher": "ACM",
+      "type": "paper",
+      "year": 2025,
+      "month": 3,
+      "url": "https://arxiv.org/abs/2503.03924",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧘 Attention",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "When designers let AI brainstorm for them, they don't just save time—they slowly forget how to think.",
+      "why_it_matters": "Provides empirical evidence for the chapter's claim that cognitive offloading isn't just a convenience but an erosion of the skills that anchor professional identity.",
+      "summary": "Analyzing 120+ articles and Reddit discussions from UX communities, the authors document how AI-assisted design introduces 'ironies of automation'—where reliability breeds complacency and cognitive task delegation leads to measurable skill erosion. The paper draws parallels to aviation automation failures.",
+      "bibtex": "@inproceedings{deskilling2025chi,\n  author = {Multiple Authors},\n  title = {De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design},\n  booktitle = {Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},\n  year = {2025},\n  publisher = {ACM},\n  url = {https://arxiv.org/abs/2503.03924}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-008",
+      "title": "Workers Gain Hours With AI But Risk Losing Skills",
+      "author": "{AllWork.Space Staff}",
+      "source": "AllWork.Space",
+      "publisher": "Microsoft",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://allwork.space/2026/01/workers-gain-hours-with-ai-but-risk-losing-skills-according-to-microsofts-new-future-of-work-report/",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Microsoft's own research admits it: their AI tools are making workers faster but dumber.",
+      "why_it_matters": "Even the companies selling AI are now documenting the deskilling the chapter warns about—a remarkable admission from inside the machine.",
+      "summary": "Microsoft's Future of Work report finds that while AI tools save workers significant hours, they simultaneously weaken judgment, diminish diagnostic abilities, and erode social interaction skills. The report warns that short-term efficiency gains may introduce 'more profound problems' including hollowed-out expertise.",
+      "bibtex": "@article{microsoft2026deskilling,\n  author = {{Microsoft Research}},\n  title = {Workers Gain Hours With AI But Risk Losing Skills},\n  journal = {AllWork.Space},\n  year = {2026},\n  month = {1},\n  url = {https://allwork.space/2026/01/workers-gain-hours-with-ai-but-risk-losing-skills-according-to-microsofts-new-future-of-work-report/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-009",
+      "title": "Deskilling Is Appearing in Several Industries Because of AI",
+      "author": "{The Week Staff}",
+      "source": "The Week",
+      "type": "article",
+      "year": 2025,
+      "url": "https://theweek.com/tech/deskilling-ai-technology",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "After just three months using an AI colonoscopy tool, experienced doctors got worse at a procedure they'd done for a decade.",
+      "why_it_matters": "The colonoscopy study is the kind of concrete, visceral example the chapter uses to show that deskilling isn't abstract—it's measurable in real expertise lost.",
+      "summary": "Reports on deskilling across industries including medicine, where gastroenterologists using AI-assisted colonoscopy tools showed measurable skill decline within three months. Draws on Lancet Gastroenterology research to document how automation complacency degrades expert judgment in high-stakes fields.",
+      "bibtex": "@article{theweek2025deskilling,\n  author = {{The Week Staff}},\n  title = {Deskilling Is Appearing in Several Industries Because of AI},\n  journal = {The Week},\n  year = {2025},\n  url = {https://theweek.com/tech/deskilling-ai-technology}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-010",
+      "title": "Will AI Make Humans Useless?",
+      "author": "Awad, Akram",
+      "source": "TED",
+      "type": "video",
+      "year": 2025,
+      "url": "https://www.ted.com/talks/akram_awad_will_ai_make_humans_useless",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min watch",
+      "hook": "As jobs disappear, so will job titles—and the identity crisis that follows could reshape society more than any recession.",
+      "why_it_matters": "Proposes a blueprint for a society built on purpose rather than job titles, offering a constructive response to the meaning recession the chapter diagnoses.",
+      "summary": "Awad argues that AI-driven job displacement will trigger a collective identity crisis as work-defined selfhood dissolves. He introduces a framework for reimagining social value based on purpose and societal contributions rather than employment and wealth.",
+      "bibtex": "@misc{awad2025useless,\n  author = {Awad, Akram},\n  title = {Will AI Make Humans Useless?},\n  howpublished = {TED Talk},\n  year = {2025},\n  url = {https://www.ted.com/talks/akram_awad_will_ai_make_humans_useless}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-011",
+      "title": "The Narrow Path: Why AI Is Our Ultimate Test and Greatest Invitation",
+      "author": "Harris, Tristan",
+      "source": "TED",
+      "type": "video",
+      "year": 2025,
+      "url": "https://www.betaworks.com/event/tristan-harris-2025-ted-talk-on-ai-discussion",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "20 min watch",
+      "hook": "The co-founder of the Center for Humane Technology says AI isn't a runaway train—it's a test of whether humanity has grown up enough to pass.",
+      "why_it_matters": "Reframes the meaning recession not as inevitable doom but as an invitation—the chapter's tension between despair and possibility.",
+      "summary": "Harris provides a moral framework for navigating the AI crisis, introducing the 'Narrow Path' as a tangible alternative to dystopian outcomes. He argues that AI is not an inevitable technological disaster but humanity's ultimate test of wisdom and maturity.",
+      "bibtex": "@misc{harris2025narrowpath,\n  author = {Harris, Tristan},\n  title = {The Narrow Path: Why AI Is Our Ultimate Test and Greatest Invitation},\n  howpublished = {TED Talk},\n  year = {2025},\n  url = {https://www.betaworks.com/event/tristan-harris-2025-ted-talk-on-ai-discussion}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-012",
+      "title": "The Rise of the Useless Class",
+      "author": "Harari, Yuval Noah",
+      "source": "TED Ideas",
+      "type": "article",
+      "year": 2017,
+      "month": 2,
+      "url": "https://ideas.ted.com/the-rise-of-the-useless-class/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The historian who predicted we'd need to invent new religions to cope with mass technological unemployment hasn't been proven wrong yet.",
+      "why_it_matters": "Harari's 'useless class' concept is the intellectual ancestor of the chapter's meaning recession—and his proposed solutions (drugs and VR) are exactly the dystopian endpoints the chapter resists.",
+      "summary": "Harari argues that AI and biotechnology will create a 'useless class' of economically and militarily irrelevant humans. He contends that keeping them occupied—not employed—will become the central political challenge, potentially requiring new forms of meaning-making including religion, drugs, and virtual reality.",
+      "bibtex": "@article{harari2017useless,\n  author = {Harari, Yuval Noah},\n  title = {The Rise of the Useless Class},\n  journal = {TED Ideas},\n  year = {2017},\n  month = {2},\n  url = {https://ideas.ted.com/the-rise-of-the-useless-class/}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-013",
+      "title": "Surviving Within Artificial Intelligence's Useless Class",
+      "author": "Relationship Staff",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.psychologytoday.com/us/blog/word-less/202502/surviving-within-artificial-intelligences-useless-class",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "What does survival look like when the threat isn't poverty but purposelessness?",
+      "why_it_matters": "Updates Harari's prediction with 2025 evidence, asking the practical psychological question at the heart of the chapter: how do you survive a meaning recession?",
+      "summary": "Explores psychological survival strategies for workers facing AI-driven obsolescence, drawing on Harari's 'useless class' framework and contemporary clinical evidence. Argues that meaning-making must shift from productivity-based identity to purpose-based identity.",
+      "bibtex": "@article{psychtoday2025surviving,\n  author = {{Psychology Today Staff}},\n  title = {Surviving Within Artificial Intelligence's Useless Class},\n  journal = {Psychology Today},\n  year = {2025},\n  month = {2},\n  url = {https://www.psychologytoday.com/us/blog/word-less/202502/surviving-within-artificial-intelligences-useless-class}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-014",
+      "title": "Bullshit Jobs: A Theory",
+      "author": "Graeber, David",
+      "source": "Simon & Schuster",
+      "type": "book",
+      "year": 2018,
+      "month": 5,
+      "url": "https://davidgraeber.org/books/bullshit-jobs/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "8 hr read",
+      "hook": "An anthropologist discovered that millions of people secretly believe their jobs are pointless—and then AI arrived to prove them right.",
+      "why_it_matters": "Graeber showed that meaningless work was already epidemic before AI. The meaning recession the chapter describes isn't new—it's accelerated.",
+      "summary": "Graeber argues that a significant portion of modern employment consists of jobs even their holders consider meaningless, analyzing how a combination of corporate culture and managerial feudalism creates purposeless labor. The book provides a pre-AI baseline for understanding the meaning recession now being amplified by automation.",
+      "bibtex": "@book{graeber2018bullshit,\n  author = {Graeber, David},\n  title = {Bullshit Jobs: A Theory},\n  publisher = {Simon \\& Schuster},\n  year = {2018},\n  isbn = {978-1501143311}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-015",
+      "title": "AI May Produce Even More 'Bullshit Jobs'",
+      "author": "{Cybernews Staff}",
+      "source": "Cybernews",
+      "type": "article",
+      "year": 2024,
+      "url": "https://cybernews.com/ai-news/ai-bullshit-jobs/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Plot twist: AI won't eliminate meaningless jobs—it'll create new ones, complete with a fancy new word: 'workslop.'",
+      "why_it_matters": "Complicates the chapter's narrative: the meaning recession might not come from losing work but from work becoming even more hollow, as 'workslop' replaces genuine contribution.",
+      "summary": "Drawing on David Spencer's research from Leeds University, this article argues that AI could paradoxically increase meaningless work rather than eliminating it. Introduces the concept of 'workslop'—AI-generated content that masquerades as productivity—as a new form of bullshit jobs.",
+      "bibtex": "@article{cybernews2024bullshit,\n  author = {{Cybernews Staff}},\n  title = {AI May Produce Even More `Bullshit Jobs'},\n  journal = {Cybernews},\n  year = {2024},\n  url = {https://cybernews.com/ai-news/ai-bullshit-jobs/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-016",
+      "title": "Deaths of Despair and the Future of Capitalism",
+      "author": "Case, Anne and Deaton, Angus",
+      "source": "Princeton University Press",
+      "type": "book",
+      "year": 2020,
+      "month": 3,
+      "url": "https://press.princeton.edu/books/hardcover/9780691190785/deaths-of-despair-and-the-future-of-capitalism",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "10 hr read",
+      "hook": "Two Nobel-adjacent economists traced rising suicide, overdose, and alcoholism to one cause: Americans losing the meaning that work once gave them.",
+      "why_it_matters": "Case and Deaton documented the first meaning recession—among non-college white Americans after deindustrialization. The chapter argues AI will extend this pattern to the knowledge class.",
+      "summary": "Case and Deaton demonstrate that rising mortality from suicide, drug overdose, and alcoholism among non-college-educated Americans stems from the destruction of working-class economic and social structures. They connect persistent wage loss to disintegration of communities, marriages, and the sense of purpose that organized work once provided.",
+      "bibtex": "@book{case2020despair,\n  author = {Case, Anne and Deaton, Angus},\n  title = {Deaths of Despair and the Future of Capitalism},\n  publisher = {Princeton University Press},\n  year = {2020},\n  isbn = {978-0691190785}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-017",
+      "title": "Do Robots Cause Deaths of Despair?",
+      "author": "Mishra, Abhilash and Nafuna, Sharon and Abi, Apollinaire",
+      "source": "SSRN",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4762118",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "1 hr read",
+      "hook": "Researchers went looking for a direct line from robots to rising death rates—and found the story is more complicated and more unsettling than a simple causal link.",
+      "why_it_matters": "Tests the causal claim at the chapter's foundation: does technological displacement actually kill people, or is the mechanism more indirect and insidious?",
+      "summary": "This 2024 SSRN working paper examines whether industrial automation causally drives 'deaths of despair.' While the results do not conclusively establish a direct causal link, they suggest that the interaction between automation-driven displacement, opioid supply, and community collapse creates a lethal ecosystem.",
+      "bibtex": "@article{mishra2024robots,\n  author = {Mishra, Abhilash and Nafuna, Sharon and Abi, Apollinaire},\n  title = {Do Robots Cause Deaths of Despair?},\n  journal = {SSRN Working Paper},\n  year = {2024},\n  url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4762118}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-018",
+      "title": "State of the Global Workplace 2025",
+      "author": "{Gallup}",
+      "source": "Gallup",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "2 hr read",
+      "hook": "Global employee engagement just hit its lowest point since the pandemic—and the $438 billion cost is just the money part.",
+      "why_it_matters": "The Gallup data shows the meaning recession in real-time numbers: engagement fell to 21% as AI reshapes work, and the biggest decline is among managers—the people supposed to give others purpose.",
+      "summary": "Gallup's 2025 report documents a decline in global employee engagement from 23% to 21%, the first annual fall since 2020, costing the world economy an estimated $438 billion. Manager engagement fell even more sharply (30% to 27%), with AI adoption identified as a key driver of workplace disruption.",
+      "bibtex": "@techreport{gallup2025workplace,\n  author = {{Gallup}},\n  title = {State of the Global Workplace 2025},\n  institution = {Gallup},\n  year = {2025},\n  url = {https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-019",
+      "title": "The Burnout Society",
+      "author": "Han, Byung-Chul",
+      "source": "Stanford University Press",
+      "type": "book",
+      "year": 2015,
+      "url": "https://www.sup.org/books/theory-and-philosophy/burnout-society",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧘 Attention",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "3 hr read",
+      "hook": "A philosopher argues that we're not being oppressed by bosses anymore—we're exploiting ourselves to death, and AI is about to turbocharge the cycle.",
+      "why_it_matters": "Han's 'achievement society' diagnosed the pre-AI version of the meaning recession: burnout from self-exploitation. The chapter builds on this to show how AI accelerates the exhaustion.",
+      "summary": "Han argues that modern society has shifted from Foucault's disciplinary model to an 'achievement society' where individuals exploit themselves through an imperative to produce. The resulting epidemic of depression and burnout stems not from external oppression but from the absence of the contemplative life.",
+      "bibtex": "@book{han2015burnout,\n  author = {Han, Byung-Chul},\n  title = {The Burnout Society},\n  publisher = {Stanford University Press},\n  year = {2015},\n  isbn = {978-0804795098}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-020",
+      "title": "Man's Search for Meaning",
+      "author": "Frankl, Viktor E.",
+      "source": "Beacon Press",
+      "type": "book",
+      "year": 1946,
+      "url": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "5 hr read",
+      "hook": "A Holocaust survivor discovered that humans can endure anything—except the feeling that their suffering has no purpose. Now imagine that lesson applied to a world where AI removes the need for any suffering at all.",
+      "why_it_matters": "Frankl's 'will to meaning' is the philosophical foundation the chapter draws on: if meaning requires struggle, what happens when AI eliminates the struggle?",
+      "summary": "Frankl develops logotherapy from his concentration camp experiences, arguing that the primary human drive is not pleasure or power but the search for meaning. His three sources of meaning—creative work, experience, and attitude toward suffering—provide a framework for understanding what AI threatens and what might survive.",
+      "bibtex": "@book{frankl1946meaning,\n  author = {Frankl, Viktor E.},\n  title = {Man's Search for Meaning},\n  publisher = {Beacon Press},\n  year = {1946},\n  isbn = {978-0807014271}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-021",
+      "title": "AI's Hidden Recession: How Fewer Jobs and Cultural Backlash Create a Governance Crisis",
+      "author": "Multiple Authors",
+      "source": "Fortune",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://fortune.com/2025/11/08/ai-hidden-recession-gender-inequality-patriarchy/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "The AI recession is already here—it's just hidden inside job statistics that haven't caught up to reality.",
+      "why_it_matters": "Names the 'hidden recession' that the chapter argues is simultaneously economic and existential, showing how AI-driven displacement creates cascading governance failures.",
+      "summary": "Fortune reports on how AI-driven job displacement is creating a 'hidden recession' obscured by aggregate employment statistics. The article examines how this displacement intersects with cultural backlash and gender inequality to produce a governance crisis that traditional economic metrics fail to capture.",
+      "bibtex": "@article{fortune2025hidden,\n  author = {{Fortune Staff}},\n  title = {AI's Hidden Recession: How Fewer Jobs and Cultural Backlash Create a Governance Crisis},\n  journal = {Fortune},\n  year = {2025},\n  month = {11},\n  url = {https://fortune.com/2025/11/08/ai-hidden-recession-gender-inequality-patriarchy/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-022",
+      "title": "'Ghost GDP,' a White-Collar Recession, and the Death of Friction",
+      "author": "Val Geelen, James",
+      "source": "Fortune",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://fortune.com/2026/02/23/will-ai-take-my-job-cause-recession-crash-james-val-geelen-citrini/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "💔 Meaning",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Substack's top finance writer predicts a 2028 crisis nobody sees coming—because AI is producing 'Ghost GDP' that looks like growth but feels like emptiness.",
+      "why_it_matters": "'Ghost GDP' is a perfect metaphor for the meaning recession: economic output that rises even as the human experience of contributing to it disappears.",
+      "summary": "Finance writer James Val Geelen introduces 'Ghost GDP'—economic output generated by AI that inflates productivity metrics while the white-collar workers who once produced it face displacement. He warns of a 2028 crisis where the gap between statistical prosperity and lived precarity becomes unsustainable.",
+      "bibtex": "@article{valgeelen2026ghost,\n  author = {Val Geelen, James},\n  title = {'Ghost GDP,' a White-Collar Recession, and the Death of Friction},\n  journal = {Fortune},\n  year = {2026},\n  month = {2},\n  url = {https://fortune.com/2026/02/23/will-ai-take-my-job-cause-recession-crash-james-val-geelen-citrini/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-023",
+      "title": "Generative-AI, the Media Industries, and the Disappearance of Human Creative Labour",
+      "author": "Multiple Authors",
+      "source": "Creative Industries Journal",
+      "publisher": "Taylor & Francis",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/25741136.2024.2355597",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "1 hr read",
+      "hook": "Voice actors report 80% less work. Entry-level writers can't get hired. The creative meaning recession has already begun.",
+      "why_it_matters": "Provides the data behind the chapter's claim that creative work—once thought safe from automation—is where the meaning recession hits hardest, because creative identity is most tightly bound to self-worth.",
+      "summary": "This academic study documents AI's impact across creative industries, finding voice actors reporting up to 80% work reduction and entry-level writers and journalists struggling to find opportunities. The paper argues that generative AI doesn't just eliminate jobs but transforms creative authorship itself.",
+      "bibtex": "@article{creativeindustries2024,\n  author = {{Multiple Authors}},\n  title = {Generative-AI, the Media Industries, and the Disappearance of Human Creative Labour},\n  journal = {Creative Industries Journal},\n  publisher = {Taylor \\& Francis},\n  year = {2024},\n  url = {https://www.tandfonline.com/doi/full/10.1080/25741136.2024.2355597}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-024",
+      "title": "Artists Are Losing Work, Wages, and Hope as Bosses and Clients Embrace AI",
+      "author": "Merchant, Brian",
+      "source": "Blood in the Machine",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.bloodinthemachine.com/p/artists-are-losing-work-wages-and",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "The artists aren't just losing money—they're losing hope, and that might be the scarier headline.",
+      "why_it_matters": "Hope is the leading indicator the chapter tracks: when creative workers lose hope before they lose their last paycheck, the meaning recession is already in full swing.",
+      "summary": "Drawing on interviews with working artists and illustrators, Merchant documents how AI-generated art is not just reducing wages but eroding the sense of creative agency and hope that sustains artistic careers. The piece functions as ground-level reporting on the meaning recession in the creative economy.",
+      "bibtex": "@article{merchant2025artists,\n  author = {Merchant, Brian},\n  title = {Artists Are Losing Work, Wages, and Hope as Bosses and Clients Embrace AI},\n  journal = {Blood in the Machine},\n  year = {2025},\n  url = {https://www.bloodinthemachine.com/p/artists-are-losing-work-wages-and}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-025",
+      "title": "AI Is Threatening More Than Just Creative Jobs—It's Undermining Our Humanity",
+      "author": "Multiple Authors",
+      "source": "Social Europe",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.socialeurope.eu/ai-is-threatening-more-than-just-creative-jobs-its-undermining-our-humanity",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "💔 Meaning",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "If the creative class loses its livelihood, your children's music lessons vanish too—and with them, the idea that investing in human faculties is worthwhile.",
+      "why_it_matters": "Extends the meaning recession beyond individual workers to the entire cultural infrastructure that teaches societies the value of human creativity and skill.",
+      "summary": "Argues that AI threatens not just individual creative livelihoods but the broader cultural ecosystem—music education, community art programs, college creative courses—that sustains society's belief that investing in human creative faculties is worthwhile. The loss cascades from individual displacement to institutional collapse.",
+      "bibtex": "@article{socialeurope2025humanity,\n  author = {{Social Europe}},\n  title = {AI Is Threatening More Than Just Creative Jobs---It's Undermining Our Humanity},\n  journal = {Social Europe},\n  year = {2025},\n  url = {https://www.socialeurope.eu/ai-is-threatening-more-than-just-creative-jobs-its-undermining-our-humanity}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-026",
+      "title": "AI, Universal Basic Income, and Power: Symbolic Violence in the Tech Elite's Narrative",
+      "author": "Multiple Authors",
+      "source": "Frontiers in Artificial Intelligence",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1488457/full",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "When billionaires offer you a monthly check as consolation for making your job obsolete, that's not charity—it's what one researcher calls 'symbolic violence.'",
+      "why_it_matters": "Unmasks the UBI-as-solution narrative the chapter critiques: a financial Band-Aid that doesn't address the deeper wound of lost purpose and agency.",
+      "summary": "This peer-reviewed paper analyzes how tech elites frame UBI as a progressive solution to AI displacement while obscuring the power dynamics that created the crisis. The authors apply Bourdieu's concept of symbolic violence to show how UBI narratives normalize a permanent 'useless class' rather than challenging the distribution of AI's benefits.",
+      "bibtex": "@article{frontiers2025ubi,\n  author = {{Multiple Authors}},\n  title = {AI, Universal Basic Income, and Power: Symbolic Violence in the Tech Elite's Narrative},\n  journal = {Frontiers in Artificial Intelligence},\n  year = {2025},\n  url = {https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1488457/full}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-027",
+      "title": "Universal Basic Income as a New Social Contract for the Age of AI",
+      "author": "Multiple Authors",
+      "source": "LSE Business Review",
+      "publisher": "London School of Economics",
+      "type": "article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://blogs.lse.ac.uk/businessreview/2025/04/29/universal-basic-income-as-a-new-social-contract-for-the-age-of-ai-1/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Can a monthly government check replace the meaning that work once gave you? The answer matters more than the amount.",
+      "why_it_matters": "Directly engages the chapter's question of whether financial security without purpose is a solution or a new form of the problem.",
+      "summary": "The LSE analysis explores UBI as a potential new social contract in response to AI-driven displacement, examining whether financial security can substitute for the structure, identity, and purpose that employment provides. The authors argue that UBI design must address psychological and social outcomes alongside economic ones.",
+      "bibtex": "@article{lse2025ubi,\n  author = {{LSE Business Review}},\n  title = {Universal Basic Income as a New Social Contract for the Age of AI},\n  journal = {LSE Business Review},\n  year = {2025},\n  month = {4},\n  url = {https://blogs.lse.ac.uk/businessreview/2025/04/29/universal-basic-income-as-a-new-social-contract-for-the-age-of-ai-1/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-028",
+      "title": "The Mental Health Implications of Artificial Intelligence Adoption",
+      "author": "Multiple Authors",
+      "source": "Humanities and Social Sciences Communications",
+      "publisher": "Nature",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://www.nature.com/articles/s41599-024-04018-w",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "1 hr read",
+      "hook": "New research shows AI doesn't directly cause burnout—it works through job stress, like a poison that needs a carrier.",
+      "why_it_matters": "Identifies the psychological mechanism behind the meaning recession: AI adoption increases job stress, which mediates the path to burnout, with self-efficacy as the only buffer.",
+      "summary": "Published in Nature's Humanities and Social Sciences Communications, this study finds that AI adoption significantly increases job stress and indirectly drives burnout, with self-efficacy in AI learning moderating the relationship. Workers worry that AI threatens their job stability, work identity, and ability to execute their roles well.",
+      "bibtex": "@article{nature2024mentalhealth,\n  author = {{Multiple Authors}},\n  title = {The Mental Health Implications of Artificial Intelligence Adoption},\n  journal = {Humanities and Social Sciences Communications},\n  publisher = {Nature},\n  year = {2024},\n  url = {https://www.nature.com/articles/s41599-024-04018-w}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-029",
+      "title": "AI Can Help People Feel Heard, but an AI Label Diminishes This Impact",
+      "author": "Multiple Authors",
+      "source": "Proceedings of the National Academy of Sciences",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2319112121",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🤝 Trust",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "People feel genuinely heard by AI responses—until they learn they're talking to a machine. Then the meaning evaporates.",
+      "why_it_matters": "Captures the chapter's paradox: AI can simulate the conditions of meaning (being heard, being understood) but the meaning itself requires believing a human is on the other end.",
+      "summary": "This PNAS study demonstrates that AI-generated responses can make people feel as heard as human responses—but this effect vanishes when the AI source is revealed. The finding illuminates the role of perceived human agency in meaning-making, suggesting that simulated empathy cannot substitute for authentic human connection.",
+      "bibtex": "@article{pnas2024heard,\n  author = {{Multiple Authors}},\n  title = {AI Can Help People Feel Heard, but an AI Label Diminishes This Impact},\n  journal = {Proceedings of the National Academy of Sciences},\n  volume = {121},\n  number = {14},\n  year = {2024},\n  url = {https://www.pnas.org/doi/abs/10.1073/pnas.2319112121}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-030",
+      "title": "Reclaiming Conversation in the Age of AI",
+      "author": "Turkle, Sherry",
+      "source": "After Babel",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.afterbabel.com/p/reclaiming-conversation-age-of-ai",
+      "chapter": "ch6",
+      "keywords": [
+        "❤️ Relationships",
+        "🎭 Identity",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "MIT's leading technology sociologist says AI chatbots offer 'artificial intimacy'—a hollowed-out empathy that feels real until you notice what's missing.",
+      "why_it_matters": "Turkle's 'artificial intimacy' is the relationship corollary to the meaning recession: when even connection can be simulated, what remains authentically meaningful?",
+      "summary": "Turkle argues that generative AI's conversational capabilities create 'artificial intimacy'—a simulated connection that undermines the effortful, reciprocal relationships where meaning is actually made. Drawing on decades of research at MIT, she contends that AI companions offer a 'hollowed-out version of empathy.'",
+      "bibtex": "@article{turkle2024reclaiming,\n  author = {Turkle, Sherry},\n  title = {Reclaiming Conversation in the Age of AI},\n  journal = {After Babel},\n  year = {2024},\n  url = {https://www.afterbabel.com/p/reclaiming-conversation-age-of-ai}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-031",
+      "title": "Technology Experts Worry About the Future of Being Human in the AI Age",
+      "author": "Anderson, Janna and Rainie, Lee",
+      "source": "Elon University / Pew Research",
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.elon.edu/u/news/2025/04/02/report-technology-experts-worry-about-the-future-of-being-human-in-the-ai-age/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "2 hr read",
+      "hook": "Nearly 200 technology experts were asked what AI means for being human. An overwhelming majority wrote about the problems.",
+      "why_it_matters": "When the people building AI are the ones most worried about the meaning recession, the chapter's argument becomes harder to dismiss as Luddite anxiety.",
+      "summary": "This Elon University/Pew Research survey compiled nearly 200 expert essays on 'Being Human in the Age of AI.' An overwhelming majority focused on potential problems, with experts predicting significant negative alterations to sense of purpose, thinking patterns, and human relationships by 2035.",
+      "bibtex": "@techreport{elon2025experts,\n  author = {Anderson, Janna and Rainie, Lee},\n  title = {Technology Experts Worry About the Future of Being Human in the AI Age},\n  institution = {Elon University / Pew Research},\n  year = {2025},\n  month = {4},\n  url = {https://www.elon.edu/u/news/2025/04/02/report-technology-experts-worry-about-the-future-of-being-human-in-the-ai-age/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-032",
+      "title": "How Quickly Will A.I. Agents Rip Through the Economy?",
+      "author": "Klein, Ezra",
+      "source": "The Ezra Klein Show",
+      "publisher": "The New York Times",
+      "type": "podcast",
+      "year": 2025,
+      "url": "https://open.spotify.com/episode/6aeTJQPEXYHITci8d0wfdp",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "1 hr listen",
+      "hook": "Ezra Klein asks the question your boss is afraid to: how fast will AI agents replace the jobs that define the economy—and the people in them?",
+      "why_it_matters": "Klein's framing of AI agents as an economic wrecking ball connects the chapter's philosophical argument about meaning to the concrete timeline of displacement.",
+      "summary": "Klein explores the transition from chatbot-era AI to autonomous AI agents, examining how agentic AI systems capable of independent task completion will accelerate economic disruption. The episode investigates timelines, policy responses, and the human cost of displacement.",
+      "bibtex": "@misc{klein2025agents,\n  author = {Klein, Ezra},\n  title = {How Quickly Will A.I. Agents Rip Through the Economy?},\n  howpublished = {The Ezra Klein Show, The New York Times},\n  year = {2025},\n  url = {https://open.spotify.com/episode/6aeTJQPEXYHITci8d0wfdp}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-033",
+      "title": "Status Anxiety",
+      "author": "de Botton, Alain",
+      "source": "Vintage International",
+      "type": "book",
+      "year": 2004,
+      "url": "https://www.alaindebotton.com/status/",
+      "chapter": "ch6",
+      "keywords": [
+        "🎭 Identity",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "6 hr read",
+      "hook": "A philosopher diagnosed our obsession with job-title-as-identity twenty years before AI threatened to make every job title meaningless.",
+      "why_it_matters": "De Botton's analysis of how modern societies tie dignity to professional achievement explains why AI displacement feels like an identity crisis, not just an economic one.",
+      "summary": "De Botton examines how modern meritocratic societies generate pervasive anxiety by tying personal worth to professional achievement. His analysis of five philosophical remedies—through philosophy, art, politics, religion, and bohemia—provides a historical framework for understanding the identity crisis AI displacement now triggers.",
+      "bibtex": "@book{debotton2004status,\n  author = {de Botton, Alain},\n  title = {Status Anxiety},\n  publisher = {Vintage International},\n  year = {2004},\n  isbn = {978-0375725357}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-034",
+      "title": "Superagency in the Workplace: Empowering People to Unlock AI's Full Potential at Work",
+      "author": "{McKinsey & Company}",
+      "source": "McKinsey & Company",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "McKinsey's latest report says 32% of companies expect AI workforce reductions—but frames it as 'empowerment.' Read between the lines.",
+      "why_it_matters": "The gap between McKinsey's optimistic framing ('superagency') and the data they report (32% expect reductions) perfectly illustrates the chapter's argument that the meaning recession hides behind productivity language.",
+      "summary": "McKinsey's 2025 report finds that 32% of organizations expect AI-related workforce reductions, while 17% have already reduced headcount. Despite framing AI as empowering 'superagency,' the data reveals growing displacement concerns with workforce reduction cited as a top-three AI risk by 35% of respondents.",
+      "bibtex": "@techreport{mckinsey2025superagency,\n  author = {{McKinsey \\& Company}},\n  title = {Superagency in the Workplace: Empowering People to Unlock AI's Full Potential at Work},\n  institution = {McKinsey \\& Company},\n  year = {2025},\n  url = {https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-035",
+      "title": "Cognitive Offloading: Using AI Reduces New Skill Formation",
+      "author": "Multiple Authors",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202602/cognitive-offloading-using-ai-reduces-new-skill-formation",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧘 Attention",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "It's not just that AI replaces what you know—it prevents you from learning what you don't know yet.",
+      "why_it_matters": "Reveals the forward-looking dimension of the meaning recession: it's not just about losing existing skills but about the skills you'll never develop because AI got there first.",
+      "summary": "Drawing on recent cognitive science research, this article examines how AI-assisted work prevents the formation of new skills by eliminating the productive struggle that learning requires. The findings suggest that cognitive offloading to AI tools may create a generation of workers who never develop the expertise that once provided professional identity.",
+      "bibtex": "@article{psychtoday2026offloading,\n  author = {{Psychology Today Staff}},\n  title = {Cognitive Offloading: Using AI Reduces New Skill Formation},\n  journal = {Psychology Today},\n  year = {2026},\n  month = {2},\n  url = {https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202602/cognitive-offloading-using-ai-reduces-new-skill-formation}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-036",
+      "title": "The Algorithmic Self: How AI Is Reshaping Human Identity, Introspection, and Agency",
+      "author": "Not individually listed",
+      "source": "Frontiers in Psychology",
+      "publisher": "Frontiers",
+      "type": "journal_article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/full",
+      "chapter": "ch6",
+      "keywords": [
+        "🎭 Identity",
+        "💔 Meaning",
+        "🤖 Algorithmic Mediation"
+      ],
+      "questions": [
+        "How do algorithmic systems determine our identities?",
+        "What happens to introspection when AI mediates self-awareness?",
+        "Can emotional conformity undermine authentic selfhood?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Your identity is being written by algorithms—recommendation engines now tell you who you should be, how you should feel, and what you should think.",
+      "why_it_matters": "Directly addresses the identity crisis at the heart of the meaning recession: when AIs mediate self-awareness and self-categorization, humans lose agency over the fundamental question 'Who am I?'",
+      "summary": "This research examines how AI systems fundamentally reshape identity formation. Rather than deriving identity from family, culture, or introspection, people now have their self-concept algorithmically determined through recommendation systems, predictive models, and behavioral monitoring. The paper details how outsourcing introspection to AI leads to emotional conformity and self-distrust, as users begin trusting algorithmic readings of their emotions over their own intuitions.",
+      "bibtex": "@article{algorithmic_self_2025,\n  journal = {Frontiers in Psychology},\n  title = {The Algorithmic Self: How AI Is Reshaping Human Identity, Introspection, and Agency},\n  year = {2025},\n  month = {3},\n  url = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/full}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-037",
+      "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+      "author": "Not individually listed",
+      "source": "Algorithms",
+      "publisher": "MDPI",
+      "type": "journal_article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.mdpi.com/2075-4698/15/1/6",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧠 Cognitive Decline",
+        "💔 Meaning Loss"
+      ],
+      "questions": [
+        "Does relying on AI tools erode our capacity for critical thought?",
+        "What is the correlation between AI dependency and reasoning ability?",
+        "Can cognitive offloading lead to permanent skill atrophy?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "A sharp negative correlation: the more you use AI tools, the worse you become at thinking for yourself.",
+      "why_it_matters": "Provides empirical evidence for the deskilling paradox—the more capable AI becomes, the less capable humans become at the cognitive work that once defined their expertise and purpose.",
+      "summary": "This study documents a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by cognitive offloading. Younger participants showed higher AI dependence and lower critical thinking scores than older cohorts. The research reveals that while some cognitive tasks improve with AI assistance, overall reasoning and independent judgment deteriorate with heavy reliance on automated systems.",
+      "bibtex": "@article{cognitive_offloading_2025,\n  journal = {Algorithms},\n  title = {AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking},\n  year = {2025},\n  month = {2},\n  url = {https://www.mdpi.com/2075-4698/15/1/6}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-038",
+      "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task",
+      "author": "MIT Media Lab",
+      "source": "MIT Media Lab",
+      "publisher": "MIT",
+      "type": "research_paper",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.media.mit.edu/publications/your-brain-on-chatgpt/",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧠 Neural Atrophy",
+        "💼 Skill Loss"
+      ],
+      "questions": [
+        "What happens to the brain when we outsource thinking to AI?",
+        "Does AI assistance accumulate cognitive debt over time?",
+        "Can LLM-assisted work create permanent mental degradation?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "Four months of ChatGPT use: neural activity declining, writing quality declining, cognitive performance declining—but the AI kept improving.",
+      "why_it_matters": "Provides neuroscientific evidence that cognitive offloading isn't just behavioral—it physically changes the brain, accumulating what the authors call 'cognitive debt' that manifests in declining performance across multiple measures.",
+      "summary": "This MIT research tracks cognitive changes in users who relied on LLM assistance for essay writing over a four-month period. Results show that cognitive activity decreased consistently with AI tool use. LLM users exhibited measurable declines across neural, linguistic, and behavioral measures. The study introduces the concept of 'cognitive debt'—the accumulated deficit in thinking capacity that results from sustained reliance on AI assistance.",
+      "bibtex": "@article{cognitive_debt_2025,\n  author = {MIT Media Lab},\n  title = {Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task},\n  year = {2025},\n  month = {1},\n  url = {https://www.media.mit.edu/publications/your-brain-on-chatgpt/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-039",
+      "title": "The White-Collar Recession of 2025: AI and the Great Professional Displacement",
+      "author": "Not individually listed",
+      "source": "SalesforceDevops.net",
+      "publisher": "SalesforceDevops",
+      "type": "analysis",
+      "year": 2025,
+      "month": 2,
+      "url": "https://salesforcedevops.net/index.php/2025/02/28/the-white-collar-recession-of-2025/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "📉 Deskilling",
+        "💔 Meaning Loss"
+      ],
+      "questions": [
+        "Can an economy have a 'recession' without economic collapse?",
+        "What happens when profits soar but professional jobs vanish?",
+        "Is a white-collar recession a crisis of meaning as much as economics?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "Corporate profits are up, GDP is climbing, yet hiring for professional roles has stopped—a new kind of economic crisis has arrived.",
+      "why_it_matters": "Describes the paradoxical 'meaning recession' where economic indicators remain strong but the psychological devastation of job loss among knowledge workers is profound and unprecedented.",
+      "summary": "This analysis documents the emergence of a white-collar recession—not a traditional economic downturn but a fundamental structural shift in professional employment. Despite strong corporate profits and GDP growth, hiring for white-collar roles in finance, technology, consulting, marketing, and law has dramatically slowed or stopped. The crisis is uniquely painful because it decouples economic growth from professional opportunity, leaving skilled workers stranded.",
+      "bibtex": "@article{whitecollar_recession_2025,\n  title = {The White-Collar Recession of 2025: AI and the Great Professional Displacement},\n  journal = {SalesforceDevops.net},\n  year = {2025},\n  month = {2},\n  url = {https://salesforcedevops.net/index.php/2025/02/28/the-white-collar-recession-of-2025/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-040",
+      "title": "Industrial AI: How Human Purpose Can Guide This Next Wave of Intelligent Systems",
+      "author": "Not individually listed",
+      "source": "World Economic Forum",
+      "publisher": "WEF",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2026/01/agentic-ai-how-human-purpose-can-guide-the-next-wave-of-intelligent-systems/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "🤖 Purpose"
+      ],
+      "questions": [
+        "Can purpose guide AI if humans themselves lack purpose?",
+        "What does it mean for AI to have human values without humans having values?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Agentic AI has speed and scale but only human leadership can give it purpose—yet humans are drowning in purposelessness.",
+      "why_it_matters": "Articulates the paradox of the meaning recession: we are delegating purpose to machines precisely because we've lost our own sense of purpose.",
+      "summary": "This WEF piece explores how agentic AI systems require human purpose to guide them ethically. However, the deeper implication is troubling: if meaning is increasingly found in guiding AI systems rather than in our own work, what happens when we're no longer needed to do even that? The article implicitly highlights the meaning recession by assuming purpose should guide technology—but leaves unresolved where that purpose comes from for humans.",
+      "bibtex": "@article{industrial_ai_2026,\n  title = {Industrial AI: How Human Purpose Can Guide This Next Wave of Intelligent Systems},\n  journal = {World Economic Forum},\n  year = {2026},\n  month = {1},\n  url = {https://www.weforum.org/stories/2026/01/agentic-ai-how-human-purpose-can-guide-the-next-wave-of-intelligent-systems/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-041",
+      "title": "Inspired by Intelligence: Rediscovering Human Purpose in the Age of AI",
+      "author": "Long Now Foundation",
+      "source": "Long Now Foundation Ideas",
+      "publisher": "Long Now",
+      "type": "essay",
+      "year": 2025,
+      "month": 6,
+      "url": "https://longnow.org/ideas/inspired-by-intelligence-rediscovering-human-purpose-in-the-age-of-ai/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "🌍 Human Values"
+      ],
+      "questions": [
+        "How can we rediscover purpose when machines can do what we once thought made us special?",
+        "What is the essential human value that AI cannot replicate?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "The machine may offer countless suggestions, but it cannot tell you what truly matters—purpose is something discovered, not assigned.",
+      "why_it_matters": "Offers philosophical counterweight to the meaning recession by asserting that purpose is not something algorithms can determine for us—yet the chapter itself wrestles with whether humans can still discover purpose when capability is no longer theirs.",
+      "summary": "This Long Now essay grapples with how humans can rediscover purpose in an age where AI rivals or exceeds human capabilities. It argues that while AI can suggest, pattern-match, and optimize, it cannot provide the internal compass that is purpose. The essay suggests purpose is an essential, irreducible human capacity—but also acknowledges the meaning recession by noting how difficult it is to access that purpose when your skills are obsolete.",
+      "bibtex": "@article{rediscovering_purpose_2025,\n  author = {Long Now Foundation},\n  title = {Inspired by Intelligence: Rediscovering Human Purpose in the Age of AI},\n  journal = {Long Now Foundation Ideas},\n  year = {2025},\n  month = {6},\n  url = {https://longnow.org/ideas/inspired-by-intelligence-rediscovering-human-purpose-in-the-age-of-ai/}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-042",
+      "title": "The Crisis of Entry-Level Labor in the Age of AI (2024–2026)",
+      "author": "Rezi AI",
+      "source": "Rezi AI Blog",
+      "publisher": "Rezi",
+      "type": "report",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.rezi.ai/posts/entry-level-jobs-and-ai-2026-report",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "📉 Deskilling",
+        "🎭 Identity Loss"
+      ],
+      "questions": [
+        "What happens to young professionals when the learning curve itself is automated?",
+        "Can a career ladder exist when the entry rungs have been removed?"
+      ],
+      "difficulty": "quick",
+      "time": "11 min read",
+      "hook": "The learning curve is being automated—entry-level workers are stranded between AI agents and senior workers, with no way to acquire the experience they need.",
+      "why_it_matters": "Highlights a specific crisis of meaning for younger workers: they cannot build identity or purpose through career progression because the foundational experiences that once taught judgment and skill are now algorithmically optimized.",
+      "summary": "This Rezi report analyzes the collapse of entry-level job opportunities, showing that between 2024-2025, the learning curve itself has been largely automated. Early-career professionals face an unprecedented trap: too junior for senior roles, too expensive compared to AI for junior roles. This removes not just jobs but the entire pathway through which workers once developed expertise, judgment, and professional identity.",
+      "bibtex": "@report{entry_level_crisis_2025,\n  author = {Rezi AI},\n  title = {The Crisis of Entry-Level Labor in the Age of AI (2024–2026)},\n  journal = {Rezi AI Blog},\n  year = {2025},\n  month = {11},\n  url = {https://www.rezi.ai/posts/entry-level-jobs-and-ai-2026-report\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-043",
+      "title": "Safeguarding Worker Psychosocial Well-being in the Age of AI: The Critical Role of Decision Control",
+      "author": "Not individually listed",
+      "source": "ScienceDirect / Journal of AI and Society",
+      "publisher": "Elsevier",
+      "type": "journal_article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.sciencedirect.com/science/article/pii/S107158192500206X",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Does autonomy in decision-making matter more than job preservation?",
+        "Can you have meaning without agency?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "Keep your job but lose decision-making authority—and you lose something more fundamental than employment: you lose your sense that your choices matter.",
+      "why_it_matters": "Provides psychological research showing that the meaning recession isn't just about job loss—it's about losing agency. Workers who retain positions but cede decision-making to AI report diminished meaning and motivation.",
+      "summary": "This research demonstrates that worker well-being depends critically on decision control, not merely employment. As AI systems assume decision-making responsibilities, workers experience reduced autonomy, diminished motivation, and eroded sense of meaning—even when they keep their jobs. The study shows that psychological consequences of AI integration extend beyond unemployment to affect anyone whose decisions are algorithmic directed.",
+      "bibtex": "@article{decision_control_2025,\n  title = {Safeguarding Worker Psychosocial Well-being in the Age of AI: The Critical Role of Decision Control},\n  journal = {Journal of AI and Society},\n  year = {2025},\n  month = {4},\n  url = {https://www.sciencedirect.com/science/article/pii/S107158192500206X}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-044",
+      "title": "Cognitive Consequences of Artificial Intelligence: Is Human Cognition Becoming Obsolete?",
+      "author": "Not individually listed",
+      "source": "Indian Journal of Behavioural Sciences",
+      "publisher": "Wolters Kluwer",
+      "type": "journal_article",
+      "year": 2025,
+      "month": 7,
+      "url": "https://journals.lww.com/ijbs/fulltext/2025/07000/cognitive_consequences_of_artificial_intelligence_.8.aspx",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🎭 Identity",
+        "🧠 Cognitive Decline"
+      ],
+      "questions": [
+        "Is human cognition becoming obsolete?",
+        "What remains distinctly human when AI exceeds human thinking?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "The question is no longer whether AI will replace human jobs—it's whether human cognition itself will become irrelevant.",
+      "why_it_matters": "Directly confronts the existential meaning crisis: if the thing that made humans valuable (our intelligence) can be replicated by machines, what remains of human identity and purpose?",
+      "summary": "This journal article examines whether sustained AI use results in cognitive obsolescence. It explores whether outsourcing cognition to AI creates a permanent degradation of human thinking capacity that cannot be easily reversed. The piece considers both the immediate effects of cognitive offloading and longer-term consequences for human cognitive development and identity.",
+      "bibtex": "@article{cognitive_obsolescence_2025,\n  journal = {Indian Journal of Behavioural Sciences},\n  title = {Cognitive Consequences of Artificial Intelligence: Is Human Cognition Becoming Obsolete?},\n  year = {2025},\n  month = {7},\n  url = {https://journals.lww.com/ijbs/fulltext/2025/07000/cognitive_consequences_of_artificial_intelligence_.8.aspx}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-045",
+      "title": "The Cognitive Paradox of AI in Education: Between Enhancement and Erosion",
+      "author": "Not individually listed",
+      "source": "Frontiers in Psychology",
+      "publisher": "Frontiers",
+      "type": "journal_article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧠 Learning Paradox",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Can learning tools that enhance performance in the moment erode capacity in the long term?",
+        "Is education about performance or development?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "AI makes you better at your immediate task but worse at developing the capacity to do those tasks yourself—a cognitive paradox that undermines the purpose of learning.",
+      "why_it_matters": "Articulates the central paradox of the meaning recession: AI tools that boost short-term productivity erode the long-term human capacity that gives work its meaning.",
+      "summary": "This research explores the paradox whereby AI tools demonstrably enhance immediate task performance while simultaneously eroding the cognitive development that enables independent mastery. Students and workers perform better on assessments while using AI but develop less capacity for independent problem-solving. The paper suggests this creates a dependent relationship where humans become increasingly unable to function without algorithmic support.",
+      "bibtex": "@article{cognitive_paradox_2025,\n  journal = {Frontiers in Psychology},\n  title = {The Cognitive Paradox of AI in Education: Between Enhancement and Erosion},\n  year = {2025},\n  month = {3},\n  url = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-046",
+      "title": "Microsoft AI Chief: 'All White-Collar Work Will Be Automated in 18 Months'",
+      "author": "Mustafa Suleyman (Microsoft)",
+      "source": "Fortune",
+      "publisher": "Fortune Media",
+      "type": "interview",
+      "year": 2026,
+      "month": 2,
+      "url": "https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "🎭 Identity",
+        "⏰ Professional Obsolescence"
+      ],
+      "questions": [
+        "What happens to professional identity when the work is gone?",
+        "Can meaning exist without the role that defined you for decades?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Not 'some day'—Microsoft's AI chief says it will happen in 18 months. All white-collar work, automated. The meaning recession becomes an avalanche.",
+      "why_it_matters": "Captures the shocking immediacy of white-collar displacement as articulated by a leader at the industry's center. Forces confrontation with what meaning recession means when the timeline is months, not decades.",
+      "summary": "In this Fortune interview, Microsoft's Mustafa Suleyman makes a striking claim: agentic AI will automate all white-collar work within 18 months. While this may prove hyperbolic, the statement reflects the rapid acceleration of AI capability and the genuine terror it creates for knowledge workers. The article highlights the psychological implications: if your professional identity is tied to work that will vanish, what remains?",
+      "bibtex": "@article{suleyman_whitecollar_2026,\n  author = {Suleyman, Mustafa},\n  title = {Microsoft AI Chief: 'All White-Collar Work Will Be Automated in 18 Months'},\n  journal = {Fortune},\n  year = {2026},\n  month = {2},\n  url = {https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-047",
+      "title": "Your Job Is Now Competing With a $20 AI Subscription",
+      "author": "InvestorPlace",
+      "source": "InvestorPlace",
+      "publisher": "InvestorPlace Media",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://investorplace.com/hypergrowthinvesting/2026/02/ai-job-loss-why-5-million-white-collar-jobs-face-extinction/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "📉 Deskilling",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Can human labor compete with algorithms?",
+        "What is the human cost of a $20 monthly subscription?"
+      ],
+      "difficulty": "quick",
+      "time": "9 min read",
+      "hook": "Your salary, your benefits, your years of expertise—all of it now has to justify itself against a $20 AI subscription.",
+      "why_it_matters": "Crystallizes the economic absurdity at the heart of the meaning recession: the value of human knowledge work collapses not because humans become less capable, but because machines become cheap enough to eliminate the entire category of employment.",
+      "summary": "This piece explores the economics of AI job displacement, focusing on how even highly paid white-collar workers find their labor underpriced by AI alternatives costing $20-50 per month. It estimates 5 million white-collar jobs face extinction as the calculation becomes simple: companies will choose the algorithm over the employee. The article details which job categories face highest risk and the speed of transition.",
+      "bibtex": "@article{ai_subscription_2026,\n  title = {Your Job Is Now Competing With a $20 AI Subscription},\n  journal = {InvestorPlace},\n  year = {2026},\n  month = {2},\n  url = {https://investorplace.com/hypergrowthinvesting/2026/02/ai-job-loss-why-5-million-white-collar-jobs-face-extinction/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-048",
+      "title": "Companies Are Laying Off Workers Because of AI's Potential—Not Its Performance",
+      "author": "Harvard Business Review",
+      "source": "Harvard Business Review",
+      "publisher": "HBR",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "🎭 Identity",
+        "⏰ Precarity"
+      ],
+      "questions": [
+        "Does it matter if AI can actually do the job if employers believe it will?",
+        "What is the psychological toll of losing a job to technology that doesn't yet work?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The cruelest paradox: you're being replaced not because the technology works, but because your employer believes it might—someday.",
+      "why_it_matters": "Reveals the psychological dimension of the meaning recession: even the threat of technological obsolescence is enough to eliminate jobs and destroy identities, regardless of actual capability.",
+      "summary": "This HBR article investigates a troubling trend: companies are laying off workers based on AI's future potential rather than demonstrated capability. About 4.5% of 2025 layoffs cited AI, but the actual performance of these tools in replacing displaced roles remains unproven. The article argues that employers are making irreversible decisions about human employment based on speculative technology futures—creating meaning crises whether or not the AI ultimately delivers.",
+      "bibtex": "@article{ai_potential_layoffs_2026,\n  title = {Companies Are Laying Off Workers Because of AI's Potential—Not Its Performance},\n  journal = {Harvard Business Review},\n  year = {2026},\n  month = {1},\n  url = {https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-049",
+      "title": "Top 50 AI Predictions for 2026: How Intelligence Will Redefine Humanity, Power, Money, Truth, and Purpose",
+      "author": "Tech Startups",
+      "source": "Tech Startups Blog",
+      "publisher": "TechStartups",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://techstartups.com/2025/11/26/top-50-ai-predictions-for-2026/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎭 Identity",
+        "🌍 Civilization"
+      ],
+      "questions": [
+        "How will AI redefine what it means to be human?",
+        "Can purpose survive the obsolescence of capability?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min read",
+      "hook": "AI doesn't just change what we do—it's redefining humanity itself, from how we experience power to how we find meaning.",
+      "why_it_matters": "Provides a comprehensive prospective view of how the meaning recession extends beyond economics into the fundamental question of what human identity becomes when intelligence itself is no longer distinctly ours.",
+      "summary": "This compilation of 50 AI predictions from industry experts explores how AI advancement will reshape humanity at multiple levels: cognitively, socially, economically, and existentially. Key predictions address how humans will find purpose when capability-based meaning is no longer available, how identity will be reconstructed, and what social cohesion looks like when shared human purposes fragment.",
+      "bibtex": "@article{ai_predictions_2026,\n  author = {Tech Startups},\n  title = {Top 50 AI Predictions for 2026: How Intelligence Will Redefine Humanity, Power, Money, Truth, and Purpose},\n  journal = {Tech Startups Blog},\n  year = {2025},\n  month = {11},\n  url = {https://techstartups.com/2025/11/26/top-50-ai-predictions-for-2026/}\n}",
+      "startHere": false
+    }
+  ]
+}

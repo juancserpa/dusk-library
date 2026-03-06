@@ -4,48 +4,20 @@ import { useState, useMemo, useEffect, useCallback, useRef } from "react";
 // "AI AND THE DUSK OF HUMANS" — THE RESEARCH ARCHIVE
 // v3: Enhanced UI/UX with animations, grid layout, better
 // typography, improved filtering, and visual polish
-// ============================================================
-
-// --- PALETTE (from Visual Design System, extended) ---
-const C = {
-  cream: "#f7f3eb",
-  softWhite: "#fffdf9",
-  fog: "#e8e2d8",
-  red: "#b83a2a",
-  redGlow: "#b83a2a0d",
-  redSoft: "#b83a2a1a",
-  redHover: "#a03020",
-  ink: "#2a2118",
-  inkSoft: "#3d332a",
-  pencil: "#6b5e52",
-  pencilLight: "#9b8d7f",
-  pencilFaint: "#bfb5a8",
-  charcoal: "#1a1612",
-  charcoalSoft: "#2a231c",
-  gold: "#d4a853",
-  goldSoft: "#d4a85320",
-  rule: "#d8cfc3",
-  ruleFaint: "#e6dfd6",
-  shadow: "rgba(42,33,24,0.06)",
-  shadowMd: "rgba(42,33,24,0.1)",
-};
-
-const serif = { fontFamily: "'Playfair Display', Georgia, 'Palatino Linotype', serif" };
-const sans = { fontFamily: "'Source Sans 3', system-ui, -apple-system, 'Segoe UI', sans-serif" };
-
+// =====================================================
 // --- 11 BROWSING QUESTIONS ---
 const QUESTIONS = [
-  { label: "Will AI take my job?",                    icon: "💼", color: "#5a7a6b" },
-  { label: "How fast is this happening?",             icon: "⏱️", color: "#7a6a4a" },
-  { label: "What happens to meaning and purpose?",    icon: "💔", color: "#8a5a6a" },
-  { label: "Is AI actually dangerous?",               icon: "⚠️", color: "#8a5a5a" },
-  { label: "Can AI think or feel?",                   icon: "🤖", color: "#6b5e8a" },
-  { label: "How do I actually use AI well?",          icon: "🔧", color: "#4a6a8a" },
-  { label: "What happens to love and connection?",    icon: "❤️", color: "#8a5a6a" },
-  { label: "Who controls AI?",                        icon: "🏛️", color: "#5a5a7a" },
-  { label: "What happens to education?",              icon: "🎓", color: "#5a6a7a" },
-  { label: "What does AI cost the planet?",           icon: "🌍", color: "#5a7a5a" },
-  { label: "Am I still the real me?",                 icon: "🪞", color: "#7a6a4a" },
+  { label: "Will AI take my job?",                 icon: "💼", gradient: "linear-gradient(135deg, #10b981, #059669)" },
+  { label: "How fast is this happening?",          icon: "⚡", gradient: "linear-gradient(135deg, #f59e0b, #d97706)" },
+  { label: "What happens to meaning and purpose?", icon: "🔮", gradient: "linear-gradient(135deg, #8b5cf6, #7c3aed)" },
+  { label: "Is AI actually dangerous?",            icon: "🔴", gradient: "linear-gradient(135deg, #f43f5e, #e11d48)" },
+  { label: "Can AI think or feel?",                icon: "🧠", gradient: "linear-gradient(135deg, #6366f1, #4f46e5)" },
+  { label: "How do I actually use AI well?",       icon: "🛠", gradient: "linear-gradient(135deg, #0ea5e9, #0284c7)" },
+  { label: "What happens to love and connection?", icon: "💜", gradient: "linear-gradient(135deg, #ec4899, #db2777)" },
+  { label: "Who controls AI?",                     icon: "⚖️", gradient: "linear-gradient(135deg, #64748b, #475569)" },
+  { label: "What happens to education?",           icon: "📚", gradient: "linear-gradient(135deg, #14b8a6, #0d9488)" },
+  { label: "What does AI cost the planet?",        icon: "🌱", gradient: "linear-gradient(135deg, #22c55e, #16a34a)" },
+  { label: "Am I still the real me?",              icon: "🪞", gradient: "linear-gradient(135deg, #a855f7, #9333ea)" },
 ];
 
 // --- 8 MEDIA TYPES ---
@@ -117,9 +89,8 @@ const DIFF_META = {
   deep:     { label: "Deep dive",   color: "#4a6a8a", icon: "🔍" },
 };
 
-// --- CHAPTERS ---
 const CHAPTERS = [
-  { id: "prologue", label: "Prologue", short: "Prologue" },
+  { id: "prologue", label: "Prologue", short: "Prologue", title: "Welcome to Second Place" },
   { id: "ch1",  label: "Chapter 1",  short: "Ch 1" },
   { id: "ch2",  label: "Chapter 2",  short: "Ch 2" },
   { id: "ch3",  label: "Chapter 3",  short: "Ch 3" },
@@ -154,7 +125,7 @@ async function loadAllEntries() {
     .flatMap(r => r.value.entries);
 }
 
-// --- MAIN COMPONENT ---
+// --- MAIN ---
 export default function DuskLibrary() {
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -213,6 +184,7 @@ export default function DuskLibrary() {
     if (selTypes.length) r = r.filter(i => selTypes.includes(i.type));
     if (selDiff.length) r = r.filter(i => selDiff.includes(i.difficulty));
     if (selChapter) r = r.filter(i => i.chapter === selChapter);
+
     r.sort((a, b) => {
       if (sort === "chapter") {
         const ci = CHAPTER_IDS.indexOf(a.chapter) - CHAPTER_IDS.indexOf(b.chapter);
@@ -223,7 +195,6 @@ export default function DuskLibrary() {
       if (sort === "title") return (a.title || "").localeCompare(b.title || "");
       return 0;
     });
-    r.sort((a, b) => (b.startHere ? 1 : 0) - (a.startHere ? 1 : 0));
     return r;
   }, [entries, debouncedSearch, selQ, selKw, selTypes, selDiff, selChapter, sort]);
 
@@ -476,7 +447,7 @@ export default function DuskLibrary() {
             );
           })}
         </div>
-      </section>
+      </header>
 
       {/* SIDEBAR + RESULTS LAYOUT */}
       <div ref={resultsRef} className="sidebar-layout" style={{
@@ -762,8 +733,52 @@ export default function DuskLibrary() {
                 <PgBtn label="Next →" onClick={() => { setPage(page + 1); scrollToResults(); }} disabled={page >= totalPages} />
               </nav>
             )}
-          </>
-        )}
+          </div>
+
+          {/* --- RIGHT: Start Here sticky sidebar --- */}
+          {startHereItems.length > 0 && (
+            <aside className="dusk-sidebar" style={{
+              width: 300, minWidth: 300, flexShrink: 0,
+              position: "sticky", top: 72, alignSelf: "flex-start",
+              maxHeight: "calc(100vh - 92px)", overflowY: "auto",
+            }}>
+              <div style={{
+                background: C.white, borderRadius: 16,
+                border: `1px solid ${C.gray200}`,
+                boxShadow: "0 2px 12px rgba(0,0,0,0.04)",
+                overflow: "hidden",
+              }}>
+                {/* Sidebar header */}
+                <div style={{
+                  padding: "18px 20px 14px",
+                  borderBottom: `1px solid ${C.gray100}`,
+                  background: `linear-gradient(135deg, ${C.warmSoft}, #fff8f0)`,
+                }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span style={{
+                      display: "inline-flex", alignItems: "center", justifyContent: "center",
+                      width: 26, height: 26, borderRadius: 7, background: "rgba(249,115,22,0.12)", fontSize: 13,
+                    }}>⭐</span>
+                    <h2 style={{ ...font, fontSize: 14, fontWeight: 700, color: C.dark, margin: 0, letterSpacing: "-0.01em" }}>
+                      If you read nothing else
+                    </h2>
+                  </div>
+                  <p style={{ ...font, fontSize: 11, color: C.gray500, margin: "8px 0 0", lineHeight: 1.4 }}>
+                    {startHereItems.length} essential picks to start with
+                  </p>
+                </div>
+
+                {/* Sidebar items */}
+                <div style={{ padding: "6px 0" }}>
+                  {startHereItems.map((item, idx) => (
+                    <SidebarItem key={item.id} item={item} isLast={idx === startHereItems.length - 1} />
+                  ))}
+                </div>
+              </div>
+            </aside>
+          )}
+
+        </div>
       </main>
       </div>
 
@@ -805,6 +820,7 @@ export default function DuskLibrary() {
     </div>
   );
 }
+
 
 // ===== SUB-COMPONENTS =====
 
@@ -928,6 +944,10 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
   const qs = QUESTIONS.filter(q => (item.questions || []).includes(q.label));
   const chapterLabel = CHAPTERS.find(c => c.id === item.chapter)?.short || item.chapter;
 
+function SidebarItem({ item, isLast }) {
+  const [hover, setHover] = useState(false);
+  const tm = TYPE_META[item.type] || { label: item.type, color: C.gray600, icon: "📄" };
+  const chapterObj = CHAPTERS.find(c => c.id === item.chapter);
   return (
     <article onClick={onToggle}
       style={{
@@ -1305,10 +1325,106 @@ function GridCard({ item, index, isExpanded, onToggle }) {
             </svg>
           </a>
         </div>
-      )}
+
+        {/* Content */}
+        <div style={{ flex: 1, minWidth: 0 }}>
+          {/* Meta row */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4, flexWrap: "wrap" }}>
+            <span style={{
+              ...font, fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.04em",
+              color: tm.color,
+            }}>
+              {tm.label}
+            </span>
+            <span style={{ color: C.gray300 }}>·</span>
+            <span style={{ ...font, fontSize: 12, color: C.gray500 }}>{item.time}</span>
+            <span style={{ color: C.gray300 }}>·</span>
+            <span style={{ ...font, fontSize: 12, color: dm.color, fontWeight: 500 }}>{dm.label}</span>
+            <span style={{ flex: 1 }} />
+            <span style={{ ...font, fontSize: 11, color: C.gray400, fontWeight: 500 }}>{chapterLabel} · {item.year}</span>
+          </div>
+
+          {/* Title */}
+          <h3 style={{ ...font, fontSize: 17, fontWeight: 700, lineHeight: 1.35, margin: "0 0 2px", color: C.dark, letterSpacing: "-0.02em" }}>
+            {item.title}
+            {item.startHere && <span style={{ marginLeft: 8, fontSize: 13, color: C.warm }}>⭐</span>}
+          </h3>
+
+          {/* Author line */}
+          <p style={{ ...font, fontSize: 12, color: C.gray500, margin: "0 0 8px", fontWeight: 500 }}>
+            {item.author}{item.source ? ` · ${item.source}` : ""}
+          </p>
+
+          {/* Hook */}
+          <p style={{ ...font, fontSize: 14, lineHeight: 1.6, color: C.gray800, margin: 0, fontWeight: 400 }}>
+            {item.hook}
+          </p>
+
+          {/* Expanded content */}
+          {isExpanded && (
+            <div style={{ marginTop: 18 }}>
+              {/* Why it matters */}
+              {item.why_it_matters && (
+                <div style={{
+                  padding: "14px 16px", background: C.accentLight, borderRadius: 10,
+                  marginBottom: 14, borderLeft: `3px solid ${C.accent}`,
+                }}>
+                  <p style={{ ...font, fontSize: 11, fontWeight: 700, color: C.accent, textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 5 }}>Why it matters for the book</p>
+                  <p style={{ ...font, fontSize: 13, lineHeight: 1.6, color: C.gray800, margin: 0 }}>{item.why_it_matters}</p>
+                </div>
+              )}
+
+              {/* Summary */}
+              {item.summary && (
+                <p style={{ ...font, fontSize: 13, lineHeight: 1.65, color: C.gray600, margin: "0 0 14px" }}>
+                  {item.summary}
+                </p>
+              )}
+
+              {/* Tags */}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 5, marginBottom: 16 }}>
+                {(item.keywords || []).map(kw => (
+                  <span key={kw} style={{
+                    ...font, fontSize: 11, padding: "3px 10px", borderRadius: 6,
+                    background: C.gray100, color: C.gray600, fontWeight: 500,
+                  }}>{kw}</span>
+                ))}
+                {(item.questions || []).map(q => {
+                  const qObj = QUESTIONS.find(x => x.label === q);
+                  return (
+                    <span key={q} style={{
+                      ...font, fontSize: 11, padding: "3px 10px", borderRadius: 6,
+                      background: C.accentLight, color: C.accent, fontWeight: 500,
+                      display: "inline-flex", alignItems: "center", gap: 3,
+                    }}>
+                      {qObj?.icon} {q}
+                    </span>
+                  );
+                })}
+              </div>
+
+              {/* CTA button */}
+              <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}
+                style={{
+                  ...font, fontSize: 13, fontWeight: 600, color: "#fff", textDecoration: "none",
+                  display: "inline-flex", alignItems: "center", gap: 7,
+                  padding: "10px 22px", borderRadius: 10, background: C.accent,
+                  transition: "background 0.2s", boxShadow: `0 2px 8px ${C.accentGlow}`,
+                }}
+                onMouseEnter={e => e.target.style.background = C.accentDark}
+                onMouseLeave={e => e.target.style.background = C.accent}
+              >
+                {item.type === "podcast" ? "🎧 Listen" : item.type === "video" ? "▶️ Watch" : "📖 Read"} the source
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          )}
+        </div>
+      </div>
     </article>
   );
 }
+
 
 function FRow({ label, children, last }) {
   return (

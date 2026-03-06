@@ -1,0 +1,1475 @@
+{
+  "chapter": "ch4",
+  "chapter_title": "The Next Scarcity: The Conductor",
+  "generated": "2026-03-05",
+  "entry_count": 53,
+  "entries": [
+    {
+      "id": "ch4-001",
+      "title": "2025: The Year the Frontier Firm Is Born",
+      "author": "{Microsoft}",
+      "source": "Microsoft Work Trend Index",
+      "publisher": "Microsoft",
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "82% of business leaders plan to hire AI agents as digital employees within 18 months — and the new boss skill is managing them.",
+      "why_it_matters": "Directly validates ch4's thesis that the next scarce skill is the conductor: someone who can orchestrate human-agent teams rather than do the work themselves.",
+      "summary": "Microsoft's annual survey of 31,000 workers finds organizations transitioning from experimenting with AI to restructuring around it. The report introduces the concept of 'Frontier Firms' where human-agent teams collaborate fluidly, with 78% of leaders considering hiring for AI-specific orchestration roles.",
+      "bibtex": "@techreport{microsoft2025wti,\n  title={2025: The Year the Frontier Firm Is Born},\n  author={{Microsoft}},\n  institution={Microsoft WorkLab},\n  year={2025},\n  month={April}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-002",
+      "title": "From Coder to Orchestrator: The Future of Software Engineering with AI",
+      "author": "Zakas, Nicholas C.",
+      "source": "Human Who Codes",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://humanwhocodes.com/blog/2026/01/coder-orchestrator-future-software-engineering/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Software engineers aren't writing code anymore — they're conducting orchestras of AI agents that write it for them.",
+      "why_it_matters": "Traces the exact trajectory ch4 describes: from individual craftsperson to conductor, where the scarce skill shifts from execution to orchestration.",
+      "summary": "Describes the evolution from coder to conductor to orchestrator. In 2025 coders gave LLMs instructions and reviewed output; by late 2025 fully autonomous agents enabled orchestrating multiple parallel AI sessions simultaneously.",
+      "bibtex": "@article{zakas2026coder,\n  title={From Coder to Orchestrator: The Future of Software Engineering with AI},\n  author={Zakas, Nicholas C.},\n  journal={Human Who Codes},\n  year={2026},\n  month={January}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-003",
+      "title": "Unlocking Exponential Value with AI Agent Orchestration",
+      "author": "{Deloitte}",
+      "source": "Deloitte Insights",
+      "publisher": "Deloitte",
+      "type": "report",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "💼 Jobs",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Without a human conductor, your fleet of AI agents doesn't produce a symphony — it produces a digital riot.",
+      "why_it_matters": "Uses the exact orchestra metaphor of ch4: AI orchestration is the conductor guiding the performance, and companies with mature orchestration capture 2-3x more value.",
+      "summary": "Deloitte predicts that by mid-2026 organizations with mature AI agent orchestration will capture 2-3x more value than competitors due to network effects. The report outlines a progressive autonomy spectrum from human-in-the-loop to human-on-the-loop orchestration.",
+      "bibtex": "@techreport{deloitte2025orchestration,\n  title={Unlocking Exponential Value with AI Agent Orchestration},\n  author={{Deloitte}},\n  institution={Deloitte Insights},\n  year={2025},\n  month={November}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-004",
+      "title": "The Most Important Job of 2026 Is the AI Agent Orchestration Specialist",
+      "author": "{Eightfold AI}",
+      "source": "Eightfold AI Blog",
+      "publisher": "Eightfold AI",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://eightfold.ai/blog/most-important-job-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The hottest job in 2026 didn't exist two years ago: agent orchestration specialist, the person who manages your AI workforce.",
+      "why_it_matters": "The literal embodiment of ch4's 'conductor' — a new role defined entirely by the ability to orchestrate AI agents rather than do the underlying work.",
+      "summary": "Eightfold AI identifies the AI agent orchestration specialist as the most critical hire of 2026, citing Microsoft data showing 82% of executives expect AI agents in their workforce within 18 months. Organizations with dedicated orchestration specialists achieve full agent productivity 65% faster.",
+      "bibtex": "@article{eightfold2025job,\n  title={The Most Important Job of 2026 Is the AI Agent Orchestration Specialist},\n  author={{Eightfold AI}},\n  journal={Eightfold AI Blog},\n  year={2025},\n  month={November}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-005",
+      "title": "Applying AI to Rebuild Middle Class Jobs",
+      "author": "Autor, David",
+      "source": "NBER Working Papers",
+      "publisher": "National Bureau of Economic Research",
+      "type": "paper",
+      "year": 2024,
+      "month": 2,
+      "url": "https://www.nber.org/papers/w32140",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "1 hr read",
+      "hook": "60% of today's American jobs didn't exist in 1940 — and the economist who discovered that thinks AI could rebuild the hollowed-out middle class.",
+      "why_it_matters": "Autor's argument that AI can extend the reach of human expertise is ch4's optimistic case: the conductor role could democratize access to expert judgment.",
+      "summary": "David Autor argues that AI's unique opportunity is to extend the relevance, reach, and value of human expertise, potentially restoring middle-skill jobs hollowed out by previous automation waves. He warns the real risk is expertise devaluation, not technological unemployment.",
+      "bibtex": "@techreport{autor2024applying,\n  title={Applying AI to Rebuild Middle Class Jobs},\n  author={Autor, David},\n  institution={National Bureau of Economic Research},\n  type={Working Paper},\n  number={32140},\n  year={2024},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-006",
+      "title": "The Simple Macroeconomics of AI",
+      "author": "Acemoglu, Daron",
+      "source": "Economic Policy",
+      "publisher": "Oxford University Press",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "url": "https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "2 hr read",
+      "hook": "The Nobel laureate who poured cold water on AI hype: productivity gains will be real but modest — no more than 0.66% over a decade.",
+      "why_it_matters": "Challenges ch4's urgency by arguing the conductor's value may be limited if AI's task-level gains don't compound into macroeconomic transformation.",
+      "summary": "Acemoglu models AI's macroeconomic impact through task-level cost savings, estimating a modest 0.66% TFP increase over 10 years. He finds AI may widen the capital-labor income gap without creating the new task categories needed to offset displacement.",
+      "bibtex": "@article{acemoglu2025simple,\n  title={The Simple Macroeconomics of AI},\n  author={Acemoglu, Daron},\n  journal={Economic Policy},\n  volume={40},\n  number={121},\n  pages={13--58},\n  year={2025},\n  publisher={Oxford University Press}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-007",
+      "title": "Agents, Robots, and Us: Skill Partnerships in the Age of AI",
+      "author": "{McKinsey Global Institute}",
+      "source": "McKinsey & Company",
+      "publisher": "McKinsey Global Institute",
+      "type": "report",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "1.5 hr read",
+      "hook": "AI agents and robots can already automate over 57% of U.S. work hours — but that doesn't mean half of all jobs are doomed.",
+      "why_it_matters": "McKinsey's data on 'skill partnerships' maps directly onto ch4's conductor metaphor: the future isn't replacement, it's a new kind of collaboration that requires orchestration.",
+      "summary": "McKinsey estimates AI agents and robots can currently automate 57% of U.S. work hours. However, they argue the future is skill partnership rather than replacement, with the work shifting from execution to orchestration, judgment, and human-AI collaboration design.",
+      "bibtex": "@techreport{mckinsey2025agents,\n  title={Agents, Robots, and Us: Skill Partnerships in the Age of AI},\n  author={{McKinsey Global Institute}},\n  institution={McKinsey and Company},\n  year={2025},\n  month={November}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-008",
+      "title": "AI at Work 2025: Momentum Builds, but Gaps Remain",
+      "author": "{BCG}",
+      "source": "Boston Consulting Group",
+      "publisher": "BCG",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Frontline employees have hit a 'silicon ceiling' — half of them still don't regularly use AI, while their bosses race ahead.",
+      "why_it_matters": "Reveals that the conductor skill gap isn't just about technical mastery but about access: ch4's scarcity has an inequality dimension.",
+      "summary": "BCG's global survey finds a widening gap between AI-literate leaders and frontline workers, with only half of frontline employees regularly using AI tools. The report identifies the journey from adoption to impact as fundamentally about reshaping human-machine collaboration patterns.",
+      "bibtex": "@techreport{bcg2025aiwork,\n  title={AI at Work 2025: Momentum Builds, but Gaps Remain},\n  author={{BCG}},\n  institution={Boston Consulting Group},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-009",
+      "title": "Effective Generative AI: The Human-Algorithm Centaur",
+      "author": "Mollick, Ethan and Jaeger, Lilach",
+      "source": "arXiv",
+      "publisher": "Harvard Kennedy School",
+      "type": "paper",
+      "year": 2024,
+      "month": 6,
+      "url": "https://arxiv.org/abs/2406.10942",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🧠 Intelligence",
+        "🤝 Trust"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "1 hr read",
+      "hook": "The best results don't come from AI alone or humans alone — they come from centaurs who know exactly when to hand the reins back and forth.",
+      "why_it_matters": "Provides the empirical foundation for ch4's conductor: the centaur model is essentially the conductor in action, blending human intuition with machine computation.",
+      "summary": "Mollick and Jaeger formalize the centaur model — hybrid human-algorithm systems that combine formal analytics with human intuition in a symbiotic learning and reasoning process. They show these systems outperform either component alone across multiple professional domains.",
+      "bibtex": "@article{mollick2024centaur,\n  title={Effective Generative AI: The Human-Algorithm Centaur},\n  author={Mollick, Ethan and Jaeger, Lilach},\n  journal={arXiv preprint arXiv:2406.10942},\n  year={2024},\n  month={June}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-010",
+      "title": "Modeling the Centaur: Human-Machine Synergy in Sequential Decision Making",
+      "author": "McIlroy-Young, Reid and others",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2024,
+      "month": 12,
+      "url": "https://arxiv.org/abs/2412.18593",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🧠 Intelligence",
+        "🤝 Trust"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "1.5 hr read",
+      "hook": "In 2005, two amateur chess players with three laptops beat the world's best grandmasters and the world's best computers — by conducting better.",
+      "why_it_matters": "The centaur chess origin story is ch4's founding parable: weak human + machine + better process beats strong human + machine + inferior process.",
+      "summary": "Researchers model human-machine centaur teams in chess using a Mixture of Experts architecture combining a human behavioral clone (Maia) with a self-play engine (Leela). Results confirm high synergy potential, echoing the 2005 freestyle tournaments where amateur-computer teams defeated grandmasters.",
+      "bibtex": "@article{mcilroyyoung2024centaur,\n  title={Modeling the Centaur: Human-Machine Synergy in Sequential Decision Making},\n  author={McIlroy-Young, Reid and others},\n  journal={arXiv preprint arXiv:2412.18593},\n  year={2024},\n  month={December}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-011",
+      "title": "From Augmentation to Symbiosis: A Review of Human-AI Collaboration Frameworks",
+      "author": "Various",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2026,
+      "month": 1,
+      "url": "https://arxiv.org/html/2601.06030",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🤝 Trust",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "2 hr read",
+      "hook": "When humans and AI collaborate on creative tasks, the team outperforms either one alone — but only if someone's conducting the collaboration.",
+      "why_it_matters": "Maps the evolution from augmentation to symbiosis that ch4 describes, showing that positive synergy requires active human orchestration, not passive delegation.",
+      "summary": "This comprehensive review examines human-AI collaboration frameworks across multiple domains, finding clear positive synergy in content creation and problem formulation tasks. The authors identify active human orchestration as the key variable distinguishing successful from unsuccessful human-AI teams.",
+      "bibtex": "@article{various2026augmentation,\n  title={From Augmentation to Symbiosis: A Review of Human-AI Collaboration Frameworks, Performance, and Perils},\n  author={Various},\n  journal={arXiv preprint arXiv:2601.06030},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-012",
+      "title": "Taming Agent Sprawl: 3 Pillars of AI Orchestration",
+      "author": "{CIO}",
+      "source": "CIO",
+      "publisher": "IDG Communications",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://www.cio.com/article/4132287/taming-agent-sprawl-3-pillars-of-ai-orchestration.html",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🏛️ Power",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "When your marketing AI, supply chain AI, and HR bot all operate in silos, you don't have an automated workforce — you have a digital riot.",
+      "why_it_matters": "Illustrates ch4's negative case: without a conductor, the orchestra descends into cacophony. The three pillars are essentially a conductor's training manual.",
+      "summary": "CIO identifies agent sprawl as a critical 2026 challenge, where independently deployed AI agents create governance vacuums and conflicting actions. The article proposes three pillars of orchestration: unified governance, inter-agent communication protocols, and human oversight frameworks.",
+      "bibtex": "@article{cio2026taming,\n  title={Taming Agent Sprawl: 3 Pillars of AI Orchestration},\n  author={{CIO}},\n  journal={CIO},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-013",
+      "title": "A Cognitive Approach to Human-AI Complementarity in Dynamic Decision-Making",
+      "author": "Various",
+      "source": "Nature Reviews Psychology",
+      "publisher": "Nature",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.nature.com/articles/s44159-025-00499-x",
+      "chapter": "ch4",
+      "keywords": [
+        "🧠 Intelligence",
+        "🔧 Using AI",
+        "🤝 Trust"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "1.5 hr read",
+      "hook": "AI crunches data like nothing else, but humans still navigate uncertainty and novelty better — the conductor knows which skill to deploy when.",
+      "why_it_matters": "Provides the cognitive science backbone for ch4: the conductor's value lies in knowing when to trust human intuition and when to defer to AI's pattern recognition.",
+      "summary": "Published in Nature Reviews Psychology, this paper develops a cognitive framework for human-AI complementarity in dynamic environments. AI excels at processing large datasets and identifying patterns while humans navigate uncertainty, novelty, and interpersonal challenges.",
+      "bibtex": "@article{various2025cognitive,\n  title={A Cognitive Approach to Human-AI Complementarity in Dynamic Decision-Making},\n  author={Various},\n  journal={Nature Reviews Psychology},\n  year={2025},\n  publisher={Nature}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-014",
+      "title": "Roles of Artificial Intelligence in Collaboration with Humans",
+      "author": "Various",
+      "source": "Management Science",
+      "publisher": "INFORMS",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05684",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "1.5 hr read",
+      "hook": "In most complex decisions, human-AI teams beat both humans and AI working alone — but someone has to decide who leads each task.",
+      "why_it_matters": "The Management Science evidence that human-AI collaboration outperforms either alone is ch4's core economic argument for why the conductor role has value.",
+      "summary": "This paper demonstrates that in environments requiring complex decision-making, human-AI collaboration achieves better performance than either working independently. It distinguishes between automation (replacing human tasks) and augmentation (enhancing human capability) roles for AI.",
+      "bibtex": "@article{various2024roles,\n  title={Roles of Artificial Intelligence in Collaboration with Humans: Automation, Augmentation, and the Future of Work},\n  author={Various},\n  journal={Management Science},\n  year={2024},\n  publisher={INFORMS}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-015",
+      "title": "David Autor: How Is AI Shaping the Future of Work?",
+      "author": "Autor, David",
+      "source": "Issues in Science and Technology",
+      "publisher": "National Academies of Sciences",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://issues.org/david-autor-economist-ai-future-work/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "🎓 Education"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "The MIT economist who studies what AI means for your paycheck says the real risk isn't losing your job — it's losing the value of your expertise.",
+      "why_it_matters": "Autor's expertise devaluation thesis is ch4's warning: the conductor role is valuable precisely because it preserves and extends human expertise rather than replacing it.",
+      "summary": "Autor discusses how AI could either commodify or complement human expertise, arguing the outcome depends on institutional choices about deployment. He emphasizes that AI's unique opportunity is extending expert judgment to broader populations.",
+      "bibtex": "@article{autor2025shaping,\n  title={How Is AI Shaping the Future of Work?},\n  author={Autor, David},\n  journal={Issues in Science and Technology},\n  year={2025},\n  publisher={National Academies of Sciences}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-016",
+      "title": "Superagency in the Workplace: Empowering People to Unlock AI's Full Potential",
+      "author": "{McKinsey}",
+      "source": "McKinsey & Company",
+      "publisher": "McKinsey",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "💼 Jobs",
+        "🎭 Identity"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "McKinsey calls it 'superagency' — when you stop being replaced by AI and start being amplified by it. But it doesn't happen automatically.",
+      "why_it_matters": "The concept of 'superagency' is ch4's conductor rebranded: the human who can orchestrate AI gains outsized power, while those who can't get left behind.",
+      "summary": "McKinsey introduces 'superagency' as the state where employees leverage AI to dramatically amplify their capabilities. The report argues achieving this requires deliberate organizational design, skills development, and cultural change.",
+      "bibtex": "@techreport{mckinsey2025superagency,\n  title={Superagency in the Workplace: Empowering People to Unlock AI's Full Potential at Work},\n  author={{McKinsey}},\n  institution={McKinsey and Company},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-017",
+      "title": "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI",
+      "author": "Fridman, Lex",
+      "source": "Lex Fridman Podcast",
+      "publisher": null,
+      "type": "podcast",
+      "year": 2026,
+      "month": null,
+      "url": "https://lexfridman.com/ai-sota-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "3 hr listen",
+      "hook": "Lex Fridman gathers the top AI researchers to take stock: where are we actually, and how fast are we going?",
+      "why_it_matters": "Provides the technical landscape ch4 assumes: understanding what's under the hood is part of the conductor's required knowledge.",
+      "summary": "Fridman convenes AI researchers to assess the state of the field in early 2026, covering LLM architectures, scaling laws, agentic systems, US-China competition, and AGI timelines.",
+      "bibtex": "@misc{fridman2026sota,\n  title={State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI},\n  author={Fridman, Lex},\n  howpublished={Lex Fridman Podcast \\#490},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-018",
+      "title": "New Technologies Always Scare Us. Is A.I. Any Different?",
+      "author": "Davidson, Adam",
+      "source": "Freakonomics Radio",
+      "publisher": "Freakonomics",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://freakonomics.com/podcast/new-technologies-always-scare-us-is-a-i-any-different/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "45 min listen",
+      "hook": "Every technological revolution triggered panic about mass unemployment — and every time, new work cropped up. Is AI really the exception?",
+      "why_it_matters": "Presents the historical counter-argument to ch4's urgency: previous technology transitions always created new conductor-like roles.",
+      "summary": "Adam Davidson examines the historical pattern of technological displacement and reinvention, interviewing economists who show that automation consistently eliminated one type of work while creating new categories.",
+      "bibtex": "@misc{davidson2024technologies,\n  title={New Technologies Always Scare Us. Is A.I. Any Different?},\n  author={Davidson, Adam},\n  howpublished={Freakonomics Radio},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-019",
+      "title": "The Future of Skills in the Age of AI",
+      "author": "Timis, David",
+      "source": "TED",
+      "publisher": "TED Conferences",
+      "type": "video",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.ted.com/talks/david_timi_the_future_of_skills_in_the_age_of_ai",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🎓 Education",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min watch",
+      "hook": "This TED talk makes the case that the skills AI can't replace aren't the ones you'd expect — and learning them requires a completely different education system.",
+      "why_it_matters": "Connects ch4's conductor concept to education: if orchestration is the next scarcity, how do we train people for a skill that barely exists yet?",
+      "summary": "Timis argues that AI is shifting labor toward functions requiring adaptability and emotional/relational intelligence alongside specialized knowledge. He proposes education systems must adapt to cultivate orchestration skills.",
+      "bibtex": "@misc{timis2024skills,\n  title={The Future of Skills in the Age of AI},\n  author={Timis, David},\n  howpublished={TED Talk},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-020",
+      "title": "The Future of Work: AI-Proofing Your Career",
+      "author": "Wells, Matthew",
+      "source": "TED",
+      "publisher": "TED Conferences",
+      "type": "video",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.ted.com/talks/matthew_wells_the_future_of_work_ai_proofing_your_career",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "🎓 Education"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min watch",
+      "hook": "You can't AI-proof your career by learning to code — you AI-proof it by learning to conduct.",
+      "why_it_matters": "A practical companion to ch4's theory: here's what it actually looks like to develop the conductor skill in your own career.",
+      "summary": "Wells presents strategies for career adaptation in the AI era, arguing that AI-proofing requires developing meta-skills like orchestration, judgment, and creative synthesis rather than competing with AI on technical tasks.",
+      "bibtex": "@misc{wells2024aiproofing,\n  title={The Future of Work: AI-Proofing Your Career},\n  author={Wells, Matthew},\n  howpublished={TED Talk},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-021",
+      "title": "AI Is Already Taking White-Collar Jobs. Economists Warn There's 'Much More in the Tank'",
+      "author": "Korn, Jennifer",
+      "source": "CNBC",
+      "publisher": "CNBC",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.cnbc.com/2025/10/22/ai-taking-white-collar-jobs-economists-warn-much-more-in-the-tank.html",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "The white-collar recession isn't coming — it's already here, and economists say we've barely seen the beginning.",
+      "why_it_matters": "Provides the real-world evidence for ch4's urgency: the conductor role is becoming scarce because the old roles are already disappearing.",
+      "summary": "CNBC reports on early signs of AI-driven white-collar displacement, with about 55,000 AI-related job cuts in 2025. Economists warn the current wave represents just the beginning.",
+      "bibtex": "@article{korn2025whitecollar,\n  title={AI Is Already Taking White-Collar Jobs. Economists Warn There's 'Much More in the Tank'},\n  author={Korn, Jennifer},\n  journal={CNBC},\n  year={2025},\n  month={October}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-022",
+      "title": "MIT Report: AI Can Already Replace Nearly 12% of the U.S. Workforce",
+      "author": "{MIT}",
+      "source": "Fortune",
+      "publisher": "Fortune Media",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://fortune.com/2025/11/27/mit-report-ai-can-already-replace-nearly-12-of-the-us-workforce/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "6 min read",
+      "hook": "MIT put a hard number on it: AI can already take over tasks tied to 11.7% of the U.S. labor market, worth $1.2 trillion in pay.",
+      "why_it_matters": "The MIT data gives ch4's conductor argument economic stakes: $1.2 trillion in tasks that need to be orchestrated rather than performed manually.",
+      "summary": "MIT research estimates current AI systems could take over tasks tied to 11.7% of the U.S. labor market, representing roughly $1.2 trillion in wages. However, researchers caution that capability doesn't automatically translate into job losses.",
+      "bibtex": "@article{mit2025replace,\n  title={MIT Report: AI Can Already Replace Nearly 12 Percent of the U.S. Workforce},\n  author={{MIT}},\n  journal={Fortune},\n  year={2025},\n  month={November}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-023",
+      "title": "How to Become a Centaur",
+      "author": "Case, Nicky",
+      "source": "Journal of Design and Science",
+      "publisher": "MIT Press",
+      "type": "article",
+      "year": 2018,
+      "month": null,
+      "url": "https://jods.mitpress.mit.edu/pub/issue3-case",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🧠 Intelligence",
+        "🤝 Trust"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min read",
+      "hook": "An interactive essay that turns Kasparov's centaur chess insight into a practical guide for human-AI collaboration in any field.",
+      "why_it_matters": "The most accessible introduction to ch4's conductor concept: an interactive, visual guide to becoming the human half of a human-AI team.",
+      "summary": "Nicky Case's interactive essay traces the centaur concept from Kasparov's advanced chess experiments to broader human-AI collaboration, using interactive examples to demonstrate complementary strengths in decision-making.",
+      "bibtex": "@article{case2018centaur,\n  title={How to Become a Centaur},\n  author={Case, Nicky},\n  journal={Journal of Design and Science},\n  publisher={MIT Press},\n  year={2018}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-024",
+      "title": "Garry Kasparov on AI, Chess, and the Future of Creativity",
+      "author": "Kasparov, Garry and Cowen, Tyler",
+      "source": "Conversations with Tyler",
+      "publisher": "Mercatus Center, George Mason University",
+      "type": "podcast",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.kasparov.com/garry-kasparov-on-ai-chess-and-the-future-of-creativity-conversation-with-tyler-cowen/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "1.5 hr listen",
+      "hook": "The man who lost to a machine and then invented a way to beat machines with machines — Kasparov on what it means to be the conductor.",
+      "why_it_matters": "Kasparov is ch4's origin story personified: he went from being beaten by Deep Blue to inventing centaur chess, the first conductor role.",
+      "summary": "Kasparov discusses his evolution from AI skeptic to pioneer of human-machine collaboration, tracing the arc from his 1997 loss to Deep Blue through the invention of advanced chess.",
+      "bibtex": "@misc{kasparov2024ai,\n  title={Garry Kasparov on AI, Chess, and the Future of Creativity},\n  author={Kasparov, Garry and Cowen, Tyler},\n  howpublished={Conversations with Tyler, Mercatus Center},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-025",
+      "title": "How We Can Balance AI Overcapacity and Talent Shortages",
+      "author": "{World Economic Forum}",
+      "source": "World Economic Forum",
+      "publisher": "World Economic Forum",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.weforum.org/stories/2025/10/ai-s-new-dual-workforce-challenge-balancing-overcapacity-and-talent-shortages/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🎓 Education",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "94% of leaders face AI skills shortages today — the paradox is AI makes some workers redundant while people who can manage AI are impossibly rare.",
+      "why_it_matters": "Perfectly captures ch4's scarcity argument: the dual challenge where AI creates overcapacity in execution while creating desperate shortage of conductors.",
+      "summary": "The WEF examines the paradox of simultaneous AI overcapacity and talent shortages, with 94% of leaders reporting gaps in AI-critical roles including governance, prompt engineering, and human-AI collaboration specialists.",
+      "bibtex": "@article{wef2025balance,\n  title={How We Can Balance AI Overcapacity and Talent Shortages},\n  author={{World Economic Forum}},\n  journal={World Economic Forum Stories},\n  year={2025},\n  month={October}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-026",
+      "title": "Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity",
+      "author": "Acemoglu, Daron and Johnson, Simon",
+      "source": "PublicAffairs",
+      "publisher": "Hachette Book Group",
+      "type": "book",
+      "year": 2023,
+      "month": 5,
+      "url": "https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530",
+      "chapter": "ch4",
+      "keywords": [
+        "🏛️ Power",
+        "💰 Inequality",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "deep",
+      "time": "12 hr read",
+      "hook": "Two MIT economists show that for a thousand years, new technology has enriched the powerful — unless ordinary people fought to redirect it.",
+      "why_it_matters": "The historical backdrop for ch4: the conductor role won't emerge naturally — it has to be deliberately created against the interests of those who profit from pure automation.",
+      "summary": "Acemoglu and Johnson trace a thousand years of technology and prosperity to argue that innovation doesn't automatically benefit everyone. Redirecting AI toward broad prosperity requires deliberate institutional choices.",
+      "bibtex": "@book{acemoglu2023power,\n  title={Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity},\n  author={Acemoglu, Daron and Johnson, Simon},\n  publisher={PublicAffairs},\n  year={2023},\n  month={May}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-027",
+      "title": "Microsoft AI Chief Gives It 18 Months for All White-Collar Work to Be Automated",
+      "author": "Bove, Tristan",
+      "source": "Fortune",
+      "publisher": "Fortune Media",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "5 min read",
+      "hook": "Microsoft's AI chief says every white-collar task will be automated in 18 months — making the conductor the only role left standing.",
+      "why_it_matters": "If Suleyman is even half right, ch4's scarcity isn't gradual — it's a cliff.",
+      "summary": "Microsoft AI CEO Mustafa Suleyman predicts human-level AI performance on most professional tasks within 18 months. The article contextualizes this alongside other executive predictions about white-collar automation pace.",
+      "bibtex": "@article{bove2026microsoft,\n  title={Microsoft AI Chief Gives It 18 Months for All White-Collar Work to Be Automated by AI},\n  author={Bove, Tristan},\n  journal={Fortune},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-028",
+      "title": "61% of White Collar Workers Think AI Will Replace Their Role in 3 Years",
+      "author": "Prater, Andrew",
+      "source": "Fortune",
+      "publisher": "Fortune Media",
+      "type": "article",
+      "year": 2025,
+      "month": 7,
+      "url": "https://fortune.com/2025/07/31/most-white-collar-workers-think-ai-will-kill-their-job-in-3-years-but-too-busy-enjoying-less-stress-to-worry/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🎭 Identity",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "5 min read",
+      "hook": "Most white-collar workers think AI will kill their job in three years — but they're too busy enjoying less stress to worry about it.",
+      "why_it_matters": "Captures the psychological paradox of ch4: people know the conductor shift is coming but can't bring themselves to prepare while things still feel normal.",
+      "summary": "A survey finds 61% of white-collar workers believe AI could replace their current role within three years. Paradoxically, most report reduced stress from AI tools, creating complacency about preparing for deeper transformation.",
+      "bibtex": "@article{prater2025whitecollar,\n  title={61 Percent of White Collar Workers Think AI Will Replace Their Current Role in 3 Years},\n  author={Prater, Andrew},\n  journal={Fortune},\n  year={2025},\n  month={July}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-029",
+      "title": "The Core Skills AI Practitioners Need for Agentic AI in 2026",
+      "author": "{ODSC}",
+      "source": "Open Data Science",
+      "publisher": "ODSC",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://opendatascience.com/agentic-ai-skills-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "🎓 Education",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Managing AI agents is quickly becoming a baseline skill, not a niche specialization — and most people haven't even started learning.",
+      "why_it_matters": "Lists the specific competencies ch4's conductor needs: agent coordination, orchestration patterns, shared memory management, and task graph design.",
+      "summary": "ODSC identifies the technical skills needed for agentic AI systems in 2026, including agent coordination, orchestration patterns, task graphs, and shared memory stores.",
+      "bibtex": "@article{odsc2026skills,\n  title={The Core Skills AI Practitioners Need for Agentic AI in 2026},\n  author={{ODSC}},\n  journal={Open Data Science},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-030",
+      "title": "'We Have to Really Rethink the Purpose of Education'",
+      "author": "Klein, Ezra and Winthrop, Rebecca",
+      "source": "The Ezra Klein Show",
+      "publisher": "The New York Times",
+      "type": "podcast",
+      "year": 2025,
+      "month": null,
+      "url": "https://muckrack.com/podcast/TheEzraKleinShow/episodes/2638420-we-have-to-really-rethink-the-purpose-of-e/",
+      "chapter": "ch4",
+      "keywords": [
+        "🎓 Education",
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "1 hr listen",
+      "hook": "If AI can do the homework, what's the point of school? A Brookings scholar says we need to completely rethink what education is for.",
+      "why_it_matters": "Addresses ch4's downstream question: if the conductor is the scarce skill, how does education need to change to produce conductors instead of executors?",
+      "summary": "Klein interviews Rebecca Winthrop of Brookings on how AI transforms education's purpose. Education must shift from knowledge transfer to cultivating orchestration skills, judgment, and the ability to direct AI effectively.",
+      "bibtex": "@misc{klein2025education,\n  title={We Have to Really Rethink the Purpose of Education},\n  author={Klein, Ezra and Winthrop, Rebecca},\n  howpublished={The Ezra Klein Show, The New York Times},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-031",
+      "title": "The Fearless Future: 2025 Global AI Jobs Barometer",
+      "author": "{PwC}",
+      "source": "PwC",
+      "publisher": "PricewaterhouseCoopers",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🎓 Education"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "PwC's global barometer tracks AI's real-time impact on hiring — and the premium for AI skills is growing faster than for any other competency.",
+      "why_it_matters": "Quantifies the wage premium for ch4's conductor: workers with AI orchestration skills command significantly higher pay, proving the scarcity is already priced in.",
+      "summary": "PwC's AI Jobs Barometer analyzes hiring data across multiple economies to track AI's real-time labor market impact. It finds a growing wage premium for AI skills, with demand for orchestration competencies outpacing supply.",
+      "bibtex": "@techreport{pwc2025barometer,\n  title={The Fearless Future: 2025 Global AI Jobs Barometer},\n  author={{PwC}},\n  institution={PricewaterhouseCoopers},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-032",
+      "title": "AI Is Moving Faster Than Your Workforce Strategy. Are You Ready?",
+      "author": "{BCG}",
+      "source": "Boston Consulting Group",
+      "publisher": "BCG",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.bcg.com/publications/2025/ai-is-outpacing-your-workforce-strategy-are-you-ready",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "By 2030, 70% of the skills used in most jobs will change — and BCG says most companies aren't moving fast enough to keep up.",
+      "why_it_matters": "Puts a timeline on ch4's argument: the conductor skill is scarce now, and the window to develop it is shrinking faster than organizations realize.",
+      "summary": "BCG warns that AI is radically changing required workforce skills faster than companies can adapt. By 2030, 70% of skills in most jobs will change, creating urgency for conductor-style orchestration training.",
+      "bibtex": "@article{bcg2025moving,\n  title={AI Is Moving Faster Than Your Workforce Strategy. Are You Ready?},\n  author={{BCG}},\n  journal={Boston Consulting Group},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-033",
+      "title": "AI Doesn't Reduce Work—It Intensifies It",
+      "author": "Ranganathan, Aruna and Ye, Xingqi Maggie",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Publishing",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "A study of 200 tech workers found that AI didn't save them time — it made them work faster, take on more, and blur the line between day and night.",
+      "why_it_matters": "Directly challenges ch4's premise that the conductor works smarter, not harder — this study shows conductors may just end up doing more, raising the question of whether orchestration is liberation or a new kind of treadmill.",
+      "summary": "UC Berkeley researchers studied 200 employees at a U.S. tech firm from April to December 2025 and found AI adoption led to faster work pace, broader task scope, and extended hours — often self-imposed rather than mandated. The phenomenon, termed 'workload creep,' suggests AI raises performance baselines rather than reducing effort.",
+      "bibtex": "@article{ranganathan2026ai,\n  title={AI Doesn't Reduce Work---It Intensifies It},\n  author={Ranganathan, Aruna and Ye, Xingqi Maggie},\n  journal={Harvard Business Review},\n  year={2026},\n  month={February},\n  url={https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-034",
+      "title": "To Thrive in the AI Era, Companies Need Agent Managers",
+      "author": "Fountaine, Tim and Marangunić, Nikolina and Henke, Nicolaus",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Publishing",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Just as the software revolution created product managers, the AI revolution is creating a new essential role: the agent manager who runs a team of AI workers.",
+      "why_it_matters": "This is ch4's 'conductor' given a corporate job title — HBR's formalization of the role validates that orchestrating AI agents is becoming a recognized profession, not just a metaphor.",
+      "summary": "The article argues that as autonomous AI agents move from experimentation to core operations, companies need dedicated 'agent managers' who translate strategic intent into reliable AI agent outcomes. Drawing parallels to the rise of product managers in the software era, the authors outline the role's responsibilities spanning agent workflow design, performance monitoring, and human-agent team governance.",
+      "bibtex": "@article{fountaine2026agent,\n  title={To Thrive in the AI Era, Companies Need Agent Managers},\n  author={Fountaine, Tim and Marangunić, Nikolina and Henke, Nicolaus},\n  journal={Harvard Business Review},\n  year={2026},\n  month={February},\n  url={https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-035",
+      "title": "The Future of Agentic Coding: Conductors to Orchestrators",
+      "author": "Osmani, Addy",
+      "source": "AddyOsmani.com",
+      "publisher": "O'Reilly Media",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://addyosmani.com/blog/future-agentic-coding/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "⏱️ Speed",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Google's engineering lead maps the three-stage evolution of every knowledge worker: from hands-on coder, to conductor of a single AI, to orchestrator running a fleet of agents in parallel.",
+      "why_it_matters": "Osmani's coder → conductor → orchestrator framework is essentially ch4's thesis mapped onto software engineering — the conductor isn't the final form; it's a transitional stage before full orchestration.",
+      "summary": "Osmani argues that the role of software engineers is evolving through three stages: coder (AI as autocomplete), conductor (directing one AI session), and orchestrator (managing fleets of autonomous agents). The article details how orchestrator workflows produce persistent artifacts, shift effort from middle-of-task to front-loaded specs and back-loaded review, and fundamentally change what engineering management means.",
+      "bibtex": "@article{osmani2026agentic,\n  title={The Future of Agentic Coding: Conductors to Orchestrators},\n  author={Osmani, Addy},\n  howpublished={AddyOsmani.com / O'Reilly Radar},\n  year={2026},\n  month={February},\n  url={https://addyosmani.com/blog/future-agentic-coding/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-036",
+      "title": "Rise of the Orchestrator: Reshaping Work for 2026 and Beyond",
+      "author": "{SmartRecruiters}",
+      "source": "SmartRecruiters",
+      "publisher": "SmartRecruiters",
+      "type": "report",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.smartrecruiters.com/resources/article/the-rise-of-the-orchestrator/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Job postings mentioning 'orchestration' jumped 25% in one year, and 40% of new roles now demand end-to-end ownership — the conductor is already a real job title.",
+      "why_it_matters": "Provides hard labor-market data for ch4's claim that 'the conductor' is the next scarce resource: it's not hypothetical — recruiters are already tracking the shift in real-time hiring patterns.",
+      "summary": "SmartRecruiters' analysis of global hiring data names 'The Orchestrator' as job title of the year for 2026, finding that roles referencing orchestration, coordination, or cross-system ownership increased 25% year-on-year. Job descriptions are 40% more likely to reference end-to-end accountability, with AI-related language paired with workflow design and governance rather than model development.",
+      "bibtex": "@techreport{smartrecruiters2026orchestrator,\n  title={Rise of the Orchestrator: Reshaping Work for 2026 and Beyond},\n  author={{SmartRecruiters}},\n  institution={SmartRecruiters},\n  year={2026},\n  month={January},\n  url={https://www.smartrecruiters.com/resources/article/the-rise-of-the-orchestrator/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-037",
+      "title": "Six Shifts to Build the Agentic Organization of the Future",
+      "author": "{McKinsey & Company}",
+      "source": "McKinsey & Company",
+      "publisher": "McKinsey & Company",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/six-shifts-to-build-the-agentic-organization-of-the-future",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🏛️ Power",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "McKinsey identifies six organizational shifts for the AI era — and every single one is about how humans manage agents, not how agents replace humans.",
+      "why_it_matters": "Validates ch4's argument that the scarcity has moved from execution to orchestration: McKinsey's six shifts are essentially a management playbook for becoming the conductor the chapter describes.",
+      "summary": "McKinsey outlines six organizational shifts required for the agentic era: new roles like agent orchestrators and hybrid managers, redesigned workflows for human-agent collaboration, agentic AI literacy as a leadership baseline, and governance structures for responsible agent deployment. The report emphasizes that AI fluency demand has grown sevenfold in two years.",
+      "bibtex": "@techreport{mckinsey2025sixshifts,\n  title={Six Shifts to Build the Agentic Organization of the Future},\n  author={{McKinsey \\& Company}},\n  institution={McKinsey \\& Company},\n  year={2025},\n  url={https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/six-shifts-to-build-the-agentic-organization-of-the-future}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-038",
+      "title": "The Agentic Organization: Contours of the Next Paradigm for the AI Era",
+      "author": "{McKinsey & Company}",
+      "source": "McKinsey & Company",
+      "publisher": "McKinsey & Company",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🏛️ Power",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "deep",
+      "time": "30 min read",
+      "hook": "75% of current roles will need reshaping for the AI era — not because the work disappears, but because who (or what) does which part of it is being completely rewritten.",
+      "why_it_matters": "Provides the macroeconomic backdrop for ch4's conductor thesis: when three-quarters of roles need redesign, the people who can architect human-agent workflows become the most valuable players in the organization.",
+      "summary": "McKinsey's comprehensive analysis argues that the AI era demands a new organizational paradigm where 75% of roles require reshaping with new skill mixes emphasizing technological, socio-emotional, and higher cognitive capabilities. The report projects that capturing AI's potential $2.9 trillion U.S. economic value by 2030 depends entirely on human guidance and organizational redesign, not technology adoption alone.",
+      "bibtex": "@techreport{mckinsey2025agentic,\n  title={The Agentic Organization: Contours of the Next Paradigm for the AI Era},\n  author={{McKinsey \\& Company}},\n  institution={McKinsey \\& Company},\n  year={2025},\n  url={https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-039",
+      "title": "How Do Workers Develop Good Judgment in the AI Era?",
+      "author": "Lakhani, Karim R. and Iansiti, Marco",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Publishing",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+      "chapter": "ch4",
+      "keywords": [
+        "📉 Deskilling",
+        "🔧 Using AI",
+        "🎓 Education"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "If AI handles the routine work that once trained junior employees, how does anyone learn enough to have good judgment when it actually matters?",
+      "why_it_matters": "Raises the dark side of ch4's conductor model: if you skip the apprenticeship of doing the work yourself, you may never develop the judgment needed to orchestrate it well — the conductor's paradox.",
+      "summary": "The authors examine how AI-driven automation of routine tasks threatens the traditional pathway through which workers develop expertise and judgment. They argue that organizations must deliberately redesign learning and development to ensure that future 'conductors' of AI systems develop the deep domain knowledge needed for effective oversight, even as AI handles the tasks that once built that knowledge.",
+      "bibtex": "@article{lakhani2026judgment,\n  title={How Do Workers Develop Good Judgment in the AI Era?},\n  author={Lakhani, Karim R. and Iansiti, Marco},\n  journal={Harvard Business Review},\n  year={2026},\n  month={February},\n  url={https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-040",
+      "title": "The Rise of Cognitive Augmentation: How AI-Powered Thought Partners Will Transform Decision-Making in 2026",
+      "author": "Ian Khan",
+      "source": "FutureSHIFT",
+      "publisher": "Ian Khan",
+      "type": "article",
+      "year": 2026,
+      "month": 0,
+      "url": "https://iankhan.com/the-rise-of-cognitive-augmentation-how-ai-powered-thought-partners-will-transform-decision-making-in-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How will AI become a thought partner in decision-making?",
+        "What is cognitive augmentation?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "AI is evolving from task automation to cognitive partnership—augmenting human judgment rather than replacing it.",
+      "why_it_matters": "Explores how the conductor role extends beyond task orchestration into strategic decision-making, with AI as a thought partner that enhances rather than supplants human judgment.",
+      "summary": "Examines cognitive augmentation as a framework where AI systems serve as thought partners, enhancing human decision-making by providing data, analysis, and perspective while humans maintain strategic judgment and final authority.",
+      "bibtex": "@article{khan2026cognitive,\n  title={The Rise of Cognitive Augmentation: How AI-Powered Thought Partners Will Transform Decision-Making in 2026},\n  author={Khan, Ian},\n  journal={FutureSHIFT},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-041",
+      "title": "How Do Workers Develop Good Judgment in the AI Era?",
+      "author": "Harvard Business Review",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Review",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What skills develop judgment in an AI-augmented workplace?",
+        "How do you evaluate AI outputs effectively?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "When AI handles analysis, human judgment becomes the scarcest resource. Here's how to cultivate it.",
+      "why_it_matters": "Directly addresses the core thesis of ch4: as AI automates knowledge work, developing judgment and discernment becomes the conductor's primary skill.",
+      "summary": "Explores how judgment—the ability to assess AI recommendations, spot flaws, and make nuanced decisions—becomes a learnable skill that distinguishes high performers from those merely implementing AI suggestions.",
+      "bibtex": "@article{hbr2026judgment,\n  title={How Do Workers Develop Good Judgment in the AI Era?},\n  journal={Harvard Business Review},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-042",
+      "title": "AI Agents in 2025: Expectations vs. Reality",
+      "author": "IBM",
+      "source": "IBM Think",
+      "publisher": "IBM",
+      "type": "article",
+      "year": 2025,
+      "month": 0,
+      "url": "https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What are the limitations of autonomous AI agents?",
+        "When do AI agents still need human oversight?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "77% of companies deployed AI agents in 2025, but most underestimated the need for human guidance and governance.",
+      "why_it_matters": "Reveals the practical realities of autonomous systems: they need orchestration. Conductors are essential not because AI can't do the work, but because it needs direction, oversight, and course correction.",
+      "summary": "Surveys real-world AI agent deployments in 2025, showing gaps between hype and reality. Key finding: autonomous agents still require humans to handle edge cases, make judgment calls, and ensure alignment with business goals.",
+      "bibtex": "@article{ibm2025agents,\n  title={AI Agents in 2025: Expectations vs. Reality},\n  author={{IBM}},\n  journal={IBM Think},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-043",
+      "title": "Agentic AI in 2026: The Year Autonomous Agents Crossed the Chasm",
+      "author": "Mohit Aggarwal",
+      "source": "Medium",
+      "publisher": "Medium",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://medium.com/@mohit15856/agentic-ai-in-2026-the-year-autonomous-agents-crossed-the-chasm-a24b4ace3df7",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What makes 2026 a pivotal year for agentic AI?",
+        "How are teams structured around autonomous agents?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "2026 is the year when agentic AI moved from experimental projects to enterprise backbone—requiring new organizational structures.",
+      "why_it_matters": "Documents the structural shifts that demand conductor roles: as agents handle execution, humans shift to orchestration, governance, and strategic oversight.",
+      "summary": "Analyzes 2026's crossing point where agentic AI systems matured enough to become core infrastructure, requiring organizations to fundamentally rethink team composition and human roles from execution to orchestration.",
+      "bibtex": "@article{aggarwal2026agentic,\n  title={Agentic AI in 2026: The Year Autonomous Agents Crossed the Chasm},\n  author={Aggarwal, Mohit},\n  journal={Medium},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-044",
+      "title": "7 Agentic AI Trends to Watch in 2026",
+      "author": "Machine Learning Mastery",
+      "source": "Machine Learning Mastery",
+      "publisher": "Machine Learning Mastery",
+      "type": "article",
+      "year": 2026,
+      "month": 0,
+      "url": "https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What are the emerging patterns in agentic AI deployment?",
+        "How are decision boundaries changing between humans and agents?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "The gap between autonomous agent capability and human comfort with delegation is where the conductor role becomes essential.",
+      "why_it_matters": "Outlines the technical and organizational trends that create demand for conductors who can manage uncertainty, set boundaries, and maintain strategic control.",
+      "summary": "Provides a technical overview of 2026's agentic AI developments, including multi-agent coordination, bounded autonomy patterns, and human-AI decision boundaries—all requiring orchestration expertise.",
+      "bibtex": "@article{mlm2026agentic,\n  title={7 Agentic AI Trends to Watch in 2026},\n  author={{Machine Learning Mastery}},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-045",
+      "title": "AI at Work 2025: Momentum Builds, but Gaps Remain",
+      "author": "Boston Consulting Group",
+      "source": "BCG Publications",
+      "publisher": "Boston Consulting Group",
+      "type": "report",
+      "year": 2025,
+      "month": 0,
+      "url": "https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What percentage of organizations are scaling AI vs. piloting?",
+        "Where are the gaps between AI adoption and value creation?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "62% of organizations are scaling AI, but only 31% have found repeatable, high-value use cases—those leading are the ones with strong orchestrators.",
+      "why_it_matters": "BCG's research shows the value gap between companies that deploy AI and those that orchestrate it effectively. Conductors close that gap.",
+      "summary": "Tracks organizational progress in 2025 from AI piloting to scaling, highlighting that value creation depends not on AI capability but on orchestration: how well humans guide, integrate, and govern AI systems.",
+      "bibtex": "@report{bcg2025aiwork,\n  title={AI at Work 2025: Momentum Builds, but Gaps Remain},\n  author={{Boston Consulting Group}},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-046",
+      "title": "Superagency in the Workplace: Empowering People to Unlock AI's Full Potential at Work",
+      "author": "McKinsey",
+      "source": "McKinsey & Company",
+      "publisher": "McKinsey & Company",
+      "type": "article",
+      "year": 2025,
+      "month": 0,
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What is superagency and how does it relate to human-AI collaboration?",
+        "How do organizations achieve multiplier effects with AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Superagency: when humans amplify their capabilities through AI orchestration, enabling 10x impact instead of incremental gains.",
+      "why_it_matters": "McKinsey's framework for superagency is essentially describing the conductor role at scale—humans who orchestrate AI to achieve capabilities neither could reach alone.",
+      "summary": "Outlines McKinsey's superagency framework: how humans partnering with AI—rather than replacing it or being displaced by it—create exponential productivity and impact.",
+      "bibtex": "@article{mckinsey2025superagency,\n  title={Superagency in the Workplace: Empowering People to Unlock AI's Full Potential at Work},\n  author={{McKinsey & Company}},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-047",
+      "title": "From Context Engineers to Chief AI Officers: Emerging AI Job Roles for 2026",
+      "author": "ODSC (Open Data Science)",
+      "source": "Medium",
+      "publisher": "Open Data Science Community",
+      "type": "article",
+      "year": 2026,
+      "month": 0,
+      "url": "https://odsc.medium.com/from-context-engineers-to-chief-ai-officers-emerging-ai-job-roles-for-2026-9f757603f547",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What are the new job titles emerging around AI orchestration?",
+        "How do context engineers fit into the conductor model?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "From Context Engineers to Chief AI Officers—the new job market is creating roles specifically for orchestrating AI systems and decision-making.",
+      "why_it_matters": "Catalogs concrete new roles that validate ch4's thesis: jobs are shifting from doing work to orchestrating systems that do the work.",
+      "summary": "Maps the new organizational roles emerging in 2026 around AI governance, orchestration, and decision-making, including context engineers, workflow specialists, and governance roles.",
+      "bibtex": "@article{odsc2026roles,\n  title={From Context Engineers to Chief AI Officers: Emerging AI Job Roles for 2026},\n  author={{ODSC}},\n  journal={Medium},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-048",
+      "title": "Human-in-the-Loop has hit the wall. It's time for AI to oversee AI",
+      "author": "SiliconANGLE",
+      "source": "SiliconANGLE",
+      "publisher": "SiliconANGLE",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://siliconangle.com/2026/01/18/human-loop-hit-wall-time-ai-oversee-ai/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What is the limitation of traditional human-in-the-loop systems?",
+        "How do modern governance systems manage autonomous agents?"
+      ],
+      "difficulty": "hard",
+      "time": "20 min read",
+      "hook": "At scale, humans can't review individual AI decisions—the conductor's role shifts to setting guardrails, governance frameworks, and escalation protocols.",
+      "why_it_matters": "Articulates why traditional human oversight fails with agentic AI, and why the conductor model—setting frameworks rather than approving individual actions—becomes necessary.",
+      "summary": "Argues that traditional human-in-the-loop review is unsustainable at scale with autonomous agents making millions of decisions. Modern governance requires humans to design the guardrails and escalation protocols that agents operate within.",
+      "bibtex": "@article{siliconangle2026hitl,\n  title={Human-in-the-loop has hit the wall. It's time for AI to oversee AI},\n  author={{SiliconANGLE}},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-049",
+      "title": "The 2026 Guide to Prompt Engineering",
+      "author": "IBM",
+      "source": "IBM Think",
+      "publisher": "IBM",
+      "type": "guide",
+      "year": 2026,
+      "month": 0,
+      "url": "https://www.ibm.com/think/prompt-engineering",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What are the core skills of prompt engineering in 2026?",
+        "How has prompt engineering evolved beyond simple instruction-giving?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Prompt engineering is no longer about getting one AI to do one task—it's about orchestrating multi-agent systems and complex workflows with precision.",
+      "why_it_matters": "Shows how prompt engineering has evolved from a tactical skill to a core orchestration competency—the conductor's toolkit for directing AI systems.",
+      "summary": "IBM's updated guide to prompt engineering in 2026, covering advanced techniques for multi-agent systems, context management, and workflow design that enable conductors to orchestrate complex AI workflows.",
+      "bibtex": "@guide{ibm2026prompt,\n  title={The 2026 Guide to Prompt Engineering},\n  author={{IBM}},\n  publisher={IBM},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-050",
+      "title": "AI Workflow Automation: Boost Productivity by 4.8x",
+      "author": "Master of Code",
+      "source": "Master of Code Blog",
+      "publisher": "Master of Code",
+      "type": "guide",
+      "year": 2026,
+      "month": 0,
+      "url": "https://masterofcode.com/blog/ai-workflow-automation",
+      "chapter": "ch4",
+      "keywords": [
+        "⏱️ Speed",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What are concrete productivity gains from AI workflow orchestration?",
+        "How do you structure workflows to maximize AI effectiveness?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Organizations that orchestrate AI workflows see 4.8x greater labor efficiency—speed becomes the ultimate validator of conductor expertise.",
+      "why_it_matters": "Quantifies the speed and efficiency advantage of proper orchestration, directly supporting ch4's thesis that the conductor's job is to unlock AI's speed.",
+      "summary": "Provides concrete examples and metrics for AI workflow orchestration, showing how conductors can structure systems to achieve 4.8x productivity improvements through effective AI integration.",
+      "bibtex": "@article{masterofcode2026workflow,\n  title={AI Workflow Automation: Boost Productivity by 4.8x},\n  author={{Master of Code}},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-051",
+      "title": "Are You Generating Value from AI? The Widening Gap",
+      "author": "Boston Consulting Group",
+      "source": "BCG Publications",
+      "publisher": "Boston Consulting Group",
+      "type": "report",
+      "year": 2025,
+      "month": 0,
+      "url": "https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "Why are many organizations not seeing AI value?",
+        "What separates high performers from the rest in AI value creation?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "60% of companies see no material AI value despite investments. The difference? High performers have orchestrators—people who guide strategy, not just tool deployment.",
+      "why_it_matters": "BCG's analysis shows the value gap is not a technology problem—it's an orchestration problem. Conductors are the missing ingredient.",
+      "summary": "BCG's 2025 study reveals a massive gap between AI spending and actual value creation. The firms winning are those with strong human orchestration: people who can strategically guide AI deployment, evaluate outputs, and integrate them into business workflows.",
+      "bibtex": "@report{bcg2025value,\n  title={Are You Generating Value from AI? The Widening Gap},\n  author={{Boston Consulting Group}},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-052",
+      "title": "Human-AI Collaboration: Designing Workflows for Augmented Intelligence",
+      "author": "KISWORKS",
+      "source": "KISWORKS Blog",
+      "publisher": "KISWORKS",
+      "type": "article",
+      "year": 2026,
+      "month": 0,
+      "url": "https://www.kisworks.com/blog/human-ai-collaboration-in-2026-designing-workflows-for-augmented-intelligence/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What does augmented intelligence workflow design look like?",
+        "How do you structure teams for human-AI collaboration?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Augmented intelligence requires designing workflows where human judgment and AI capability are tightly integrated—the conductor's core responsibility.",
+      "why_it_matters": "Provides practical frameworks for the conductor role: how to design workflows that leverage both human and AI strengths.",
+      "summary": "Outlines practical approaches to designing workflows for augmented intelligence in 2026, focusing on where humans and AI contribute and how to structure decision points.",
+      "bibtex": "@article{kisworks2026collaboration,\n  title={Human-AI Collaboration: Designing Workflows for Augmented Intelligence},\n  author={{KISWORKS}},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-053",
+      "title": "Choosing Your AI Orchestration Stack for 2026",
+      "author": "The New Stack",
+      "source": "The New Stack",
+      "publisher": "The New Stack",
+      "type": "article",
+      "year": 2026,
+      "month": 0,
+      "url": "https://thenewstack.io/choosing-your-ai-orchestration-stack-for-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "🔧 Using AI"
+      ],
+      "questions": [
+        "What tools do conductors use to orchestrate AI?",
+        "How do you evaluate orchestration platforms?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "The 2026 orchestration stack is the conductor's toolkit—frameworks, platforms, and tools that enable human-guided autonomous systems.",
+      "why_it_matters": "Catalogs the technical infrastructure conductors use to orchestrate AI systems, showing the concrete tooling around the role.",
+      "summary": "Reviews 2026's leading AI orchestration platforms and frameworks, helping conductors choose the right stack for their organization's needs and complexity level.",
+      "bibtex": "@article{newstack2026orchestration,\n  title={Choosing Your AI Orchestration Stack for 2026},\n  author={{The New Stack}},\n  year={2026}\n}",
+      "startHere": false
+    }
+  ]
+}
