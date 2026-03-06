@@ -269,31 +269,31 @@ export default function DuskLibrary() {
           backgroundSize: "60px 60px, 80px 80px",
         }} />
         <div style={{
-          maxWidth: 900, margin: "0 auto", padding: "64px 32px 56px",
+          maxWidth: 900, margin: "0 auto", padding: "36px 32px 32px",
           textAlign: "center", position: "relative", zIndex: 1,
           animation: "fadeInUp 0.6s ease-out",
         }}>
           <div style={{
             display: "inline-block", padding: "6px 20px", borderRadius: 20,
             background: `${C.red}20`, border: `1px solid ${C.red}30`,
-            marginBottom: 24,
+            marginBottom: 16,
           }}>
             <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: C.red, letterSpacing: "0.15em", textTransform: "uppercase" }}>
               The Research Archive
             </span>
           </div>
 
-          <h1 style={{ margin: "0 0 8px", lineHeight: 1.1 }}>
+          <h1 style={{ margin: "0 0 6px", lineHeight: 1.1 }}>
             <span style={{
               ...serif, display: "block",
-              fontSize: "clamp(48px, 7vw, 72px)", fontWeight: 700,
+              fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700,
               color: "#fff", letterSpacing: "-0.01em",
             }}>
               AI <span style={{ color: C.red, fontStyle: "italic" }}>&</span> the Dusk
             </span>
             <span style={{
               ...serif, display: "block",
-              fontSize: "clamp(24px, 3.5vw, 36px)", fontWeight: 400,
+              fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: 400,
               color: C.pencilLight, letterSpacing: "0.02em",
               marginTop: 4, fontStyle: "italic",
             }}>
@@ -308,10 +308,10 @@ export default function DuskLibrary() {
             Surviving as the Second-Smartest Species
           </p>
 
-          <div style={{ width: 48, height: 2, background: `linear-gradient(90deg, transparent, ${C.red}, transparent)`, margin: "28px auto", borderRadius: 1 }} />
+          <div style={{ width: 40, height: 2, background: `linear-gradient(90deg, transparent, ${C.red}, transparent)`, margin: "16px auto", borderRadius: 1 }} />
 
           <p style={{
-            ...serif, fontSize: 17, lineHeight: 1.7,
+            ...serif, fontSize: 15, lineHeight: 1.6,
             color: C.pencilLight, maxWidth: 560, margin: "0 auto",
             fontStyle: "italic",
           }}>
@@ -329,7 +329,7 @@ export default function DuskLibrary() {
           {!loading && entries.length > 0 && (
             <div style={{
               display: "flex", justifyContent: "center", gap: 16,
-              marginTop: 28, flexWrap: "wrap",
+              marginTop: 16, flexWrap: "wrap",
               animation: "fadeIn 0.8s ease-out 0.3s both",
             }}>
               {Object.entries(TYPE_META).map(([type, meta]) => {
