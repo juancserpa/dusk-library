@@ -2,7 +2,7 @@
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
   "generated": "2026-03-04",
-  "entry_count": 47,
+  "entry_count": 46,
   "entries": [
     {
       "id": "prologue-001",
@@ -57,34 +57,6 @@
       "bibtex": "@article{metz2025agi,\n  author = {Metz, Cade},\n  title = {Why We're Unlikely to Get Artificial General Intelligence Anytime Soon},\n  journal = {The New York Times},\n  year = {2025},\n  month = may\n}",
       "startHere": false,
       "url": "https://www.nytimes.com/2025/05/16/technology/what-is-agi.html",
-      "source": "The New York Times",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-003",
-      "title": "US-China AI Cooperation and High-Tech Feudalism",
-      "author": "Friedman, Thomas L.",
-      "publisher": "The New York Times",
-      "type": "article",
-      "year": 2024,
-      "month": 10,
-      "keywords": [
-        "🏛️ Power",
-        "⏱️ Speed",
-        "💰 Inequality"
-      ],
-      "questions": [
-        "Who controls AI?",
-        "How fast is this happening?"
-      ],
-      "difficulty": "moderate",
-      "time": "18 min read",
-      "hook": "Thomas Friedman warns we're heading toward high-tech feudalism unless two superpowers stop racing to build the smartest machine on Earth.",
-      "why_it_matters": "Frames geopolitical AI competition as the central threat the Prologue warns about — a race nobody can stop.",
-      "summary": "Friedman argues AGI will substantially emerge within four years and warns of \"high-tech feudalism\" if geopolitical competition dominates over cooperation. He frames AI safety as the nuclear arms control equivalent of our era.",
-      "bibtex": "@article{friedman2024ai,\n  author = {Friedman, Thomas L.},\n  title = {U.S. and China Must Cooperate on AI},\n  journal = {The New York Times},\n  year = {2024},\n  month = oct\n}",
-      "startHere": false,
-      "url": "https://www.nytimes.com/2024/10/01/opinion/ai-us-china-cooperation.html",
       "source": "The New York Times",
       "chapter": "prologue"
     },
@@ -168,7 +140,7 @@
       "summary": "Early analysis of how generative AI models like ChatGPT will disrupt creative work and reshape labor markets, affecting both independent and salaried workers in knowledge-intensive fields. The piece identifies creative and analytical roles — long considered automation-proof — as newly vulnerable.",
       "bibtex": "@article{economist2023labor,\n  author = {{The Economist}},\n  title = {Large, Creative AI Models Will Transform Lives and Labour Markets},\n  journal = {The Economist},\n  year = {2023},\n  month = apr,\n  day = {22}\n}",
       "startHere": false,
-      "url": "https://www.science.org/doi/10.1126/sciadv.adg3764",
+      "url": "https://www.economist.com/interactive/science-and-technology/2023/04/22/large-creative-ai-models-will-transform-how-we-live-and-work",
       "source": "Science Advances",
       "chapter": "prologue"
     },
@@ -336,7 +308,7 @@
       "summary": "Hassabis warns that generative AI will bring about change \"10 times bigger than the Industrial Revolution, and maybe 10 times faster.\" The wide-ranging conversation covers workplace disruption, scientific opportunity, and the environmental cost of training large models.",
       "bibtex": "@article{guardian2024hassabis,\n  author = {{The Guardian}},\n  title = {Demis Hassabis Interview},\n  journal = {The Guardian},\n  year = {2024},\n  note = {Interview with CEO of Google DeepMind}\n}",
       "startHere": true,
-      "url": "https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future",
+      "url": "https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future-10-times-bigger-than-industrial-revolution-and-10-times-faster",
       "source": "The Guardian",
       "chapter": "prologue"
     },
@@ -728,7 +700,7 @@
       "summary": "Comprehensive exploration of how AGI might reshape civilization, examining implications for employment, inequality, warfare, meaning, and what it means to be human alongside superintelligent AI. One of the first books to frame the \"second species\" question the Prologue now takes as its starting point.",
       "bibtex": "@book{tegmark2017life,\n  author = {Tegmark, Max},\n  title = {Life 3.0: Being Human in the Age of Artificial Intelligence},\n  publisher = {Knopf},\n  year = {2017}\n}",
       "startHere": false,
-      "url": "https://mitpress.mit.edu/9780525562344/life-3-0/",
+      "url": "https://www.penguinrandomhouse.com/books/530584/life-30-by-max-tegmark/",
       "source": "MIT Press / Knopf",
       "chapter": "prologue"
     },
@@ -784,7 +756,7 @@
       "summary": "Surveys AI applications in biodiversity monitoring, species identification, habitat analysis, and conservation planning — the academic context for the Prologue's MonoSOS monkey bridge project. Also highlights risks of AI colonialism and the marginalization of indigenous ecological knowledge.",
       "bibtex": "@article{conservation2024horizon,\n  author = {{Current Biology Contributors}},\n  title = {The Potential for AI to Revolutionize Conservation: A Horizon Scan},\n  journal = {Current Biology / Trends in Ecology & Evolution},\n  year = {2024},\n  url = {https://www.sciencedirect.com/science/article/pii/S0169534724002866}\n}",
       "startHere": false,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0169534724002866",
+      "url": "https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(24)00286-6",
       "source": "Trends in Ecology & Evolution",
       "chapter": "prologue"
     },
@@ -840,7 +812,7 @@
       "summary": "Yudkowsky and Soares discuss their book \"If Anyone Builds It, Everyone Dies,\" covering alignment impossibility arguments and superintelligence timelines. The episode asks why many tech leaders remain skeptical of existential risk despite mathematical arguments for concern — the strongest \"doomsday\" counterpoint to the Prologue's measured optimism.",
       "bibtex": "@misc{harris2025survive,\n  author = {Harris, Sam},\n  title = {#434 — Can We Survive AI?},\n  howpublished = {Making Sense Podcast},\n  year = {2025},\n  month = sep,\n  day = {16},\n  note = {Guests: Eliezer Yudkowsky, Nate Soares}\n}",
       "startHere": false,
-      "url": "https://www.samharris.org/podcasts/making-sense-episodes/can-we-survive-ai",
+      "url": "https://www.samharris.org/podcasts/making-sense-episodes/434-can-we-survive-ai",
       "source": "Making Sense with Sam Harris",
       "chapter": "prologue"
     },
@@ -1180,7 +1152,7 @@
       "type": "paper",
       "year": 2024,
       "month": 8,
-      "url": "https://doi.org/10.1093/qje/qjae030",
+      "url": "https://doi.org/10.1093/qje/qjae008",
       "chapter": "prologue",
       "keywords": [
         "💼 Jobs",
