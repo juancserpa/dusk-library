@@ -2,7 +2,7 @@
   "chapter": "ch6",
   "chapter_title": "The Meaning Recession",
   "generated": "2026-03-05",
-  "entry_count": 49,
+  "entry_count": 54,
   "entries": [
     {
       "id": "ch6-001",
@@ -1323,6 +1323,144 @@
       "why_it_matters": "Provides a comprehensive prospective view of how the meaning recession extends beyond economics into the fundamental question of what human identity becomes when intelligence itself is no longer distinctly ours.",
       "summary": "This compilation of 50 AI predictions from industry experts explores how AI advancement will reshape humanity at multiple levels: cognitively, socially, economically, and existentially. Key predictions address how humans will find purpose when capability-based meaning is no longer available, how identity will be reconstructed, and what social cohesion looks like when shared human purposes fragment.",
       "bibtex": "@article{ai_predictions_2026,\n  author = {Tech Startups},\n  title = {Top 50 AI Predictions for 2026: How Intelligence Will Redefine Humanity, Power, Money, Truth, and Purpose},\n  journal = {Tech Startups Blog},\n  year = {2025},\n  month = {11},\n  url = {https://techstartups.com/2025/11/26/top-50-ai-predictions-for-2026/}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-050",
+      "title": "All Play and No Work? AI and Existential Unemployment",
+      "author": "Journal of Ethics",
+      "source": "Journal of Ethics",
+      "publisher": "Springer Nature",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s10892-025-09522-y",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "📉 Deskilling",
+        "💼 Work"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "20 min",
+      "hook": "What happens to human existence when work itself becomes existentially pointless?",
+      "why_it_matters": "Directly addresses the philosophical core of the meaning recession—that AI threatens not just jobs but the existential function work provides, echoing Frankl and Camus through the lens of technological unemployment.",
+      "summary": "Philosophical analysis of AI-driven unemployment as an existential crisis rather than merely economic disruption. Examines how the loss of work as humanity's primary source of meaning and identity creates a crisis comparable to existential philosophy's confrontation with meaninglessness.",
+      "bibtex": null,
+      "startHere": true
+    },
+    {
+      "id": "ch6-051",
+      "title": "It's Not Just Jobs That AI Is Taking—It's Our Purpose",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.psychologytoday.com/us/blog/tech-happy-life/202506/its-not-just-jobs-that-ai-is-taking-its-our-purpose",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Identity",
+        "📉 Deskilling"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min",
+      "hook": "When AI can do your job better than you, what remains of who you are?",
+      "why_it_matters": "Bridges psychological and philosophical dimensions of the meaning recession, arguing that work loss triggers identity collapse. Aligns with the chapter's argument that productivity addiction masks deeper existential fragility.",
+      "summary": "Explores how AI displacement threatens human purpose beyond economics. Argues that work provides not just income but evolutionary purpose, social role, and identity—and AI's displacement forces a reckoning with whether we can find meaning outside productivity.",
+      "bibtex": null,
+      "startHere": false
+    },
+    {
+      "id": "ch6-052",
+      "title": "The AI Deskilling Paradox",
+      "author": "Communications of the ACM",
+      "source": "Communications of the ACM",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://cacm.acm.org/news/the-ai-deskilling-paradox/",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧠 Cognitive Decline",
+        "💼 Work"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min",
+      "hook": "AI promises to elevate us but instead atrophies the skills that made us valuable.",
+      "why_it_matters": "Directly mirrors the chapter's core argument about cognitive offloading and the conductor's illusion—we feel productive while outsourcing the mental work that builds competence and mastery.",
+      "summary": "Examines the paradox where AI tools that boost short-term productivity cause long-term skill decay. When knowledge workers offload thinking to AI, they cease building the foundational expertise that distinguishes mastery from mere task completion.",
+      "bibtex": null,
+      "startHere": true
+    },
+    {
+      "id": "ch6-053",
+      "title": "Cognitive Offloading: Using AI Reduces New Skill Formation",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202602/cognitive-offloading-using-ai-reduces-new-skill-formation",
+      "chapter": "ch6",
+      "keywords": [
+        "📉 Deskilling",
+        "🧠 Cognitive Decline",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min",
+      "hook": "When you outsource your thinking, you outsource your growth.",
+      "why_it_matters": "Provides psychological mechanism for the conductor's illusion: why we feel competent while becoming incompetent. The cognitive ease of AI masks the atrophy of the mental effort required for actual mastery.",
+      "summary": "Research on how cognitive offloading to AI reduces the mental engagement necessary for skill acquisition and retention. Demonstrates that the seeming efficiency of AI assistance paradoxically impairs the development of new competencies.",
+      "bibtex": null,
+      "startHere": false
+    },
+    {
+      "id": "ch6-054",
+      "title": "I Analyzed 76,000 AI Job Losses in 2025 — Your Entry-Level Job is Disappearing Faster Than You Think",
+      "author": "Jari Mattlar",
+      "source": "Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://medium.com/@mattlar.jari/i-analyzed-76-000-ai-job-losses-in-2025-your-entry-level-job-is-disappearing-faster-than-you-b801a71d50dd",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Work",
+        "📉 Deskilling",
+        "🚀 Displacement"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min",
+      "hook": "76,000 jobs gone in 2025 alone—and it's accelerating.",
+      "why_it_matters": "Provides concrete data for the skill decay story. Entry-level positions are disappearing first, which means the pipeline for developing mastery is being severed. Without entry-level roles, how do people build the foundational expertise required for skilled work?",
+      "summary": "Data-driven analysis of AI-driven job displacement across 2025, showing that entry-level positions are vanishing at accelerating rates. Demonstrates that AI is not just replacing workers but dismantling the pathways through which new workers acquire skills.",
+      "bibtex": null,
       "startHere": false
     }
   ]

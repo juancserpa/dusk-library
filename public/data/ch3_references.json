@@ -2,7 +2,7 @@
   "chapter": "ch3",
   "chapter_title": "The Dusk of Human Intelligence",
   "generated": "2026-03-05",
-  "entry_count": 48,
+  "entry_count": 53,
   "entries": [
     {
       "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
@@ -12,7 +12,7 @@
       "type": "article",
       "year": 2024,
       "month": null,
-      "url": "https://www.nature.com/articles/41586-024-01087-4",
+      "url": "https://www.nature.com/articles/d41586-024-01087-4",
       "keywords": [
         "🧠 Intelligence",
         "🤖 How AI Works"
@@ -360,14 +360,14 @@
       "id": "ch3-013"
     },
     {
-      "title": "What Happened to the Promised Entry-Level Jobs?",
-      "author": "Hsu, Andrea",
+      "title": "AI Could Widen the Wealth Gap and Wipe Out Entry-Level Jobs, Expert Says",
+      "author": "{NPR}",
       "source": "NPR",
       "publisher": null,
       "type": "article",
-      "year": 2024,
-      "month": 5,
-      "url": "https://www.npr.org/2024/05/14/1250958880/entry-level-jobs-hiring-ai",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.npr.org/2025/08/05/nx-s1-5485286/ai-jobs-economy-wealth-gap",
       "keywords": [
         "💼 Jobs",
         "🎓 Education",
@@ -381,8 +381,8 @@
       "time": "7 min read",
       "hook": "You spent four years getting the degree. The entry-level job it was supposed to lead to just disappeared.",
       "why_it_matters": "The disappearance of entry-level knowledge work is the physical manifestation of the scarcity migration: the bottom rung of the cognitive aristocracy's ladder is being pulled away.",
-      "summary": "NPR investigates why entry-level white-collar positions are vanishing as companies use AI for tasks previously assigned to junior employees, stranding new graduates.",
-      "bibtex": "@article{hsu2024entrylevel,\n  title={What Happened to the Promised Entry-Level Jobs?},\n  author={Hsu, Andrea},\n  journal={NPR},\n  month={May},\n  year={2024}\n}",
+      "summary": "NPR reports on how AI is widening the wealth gap and eliminating entry-level white-collar positions, as companies use AI for tasks previously assigned to junior employees.",
+      "bibtex": "@article{npr2025entrylevel,\n  title={AI Could Widen the Wealth Gap and Wipe Out Entry-Level Jobs, Expert Says},\n  journal={NPR},\n  month={August},\n  year={2025}\n}",
       "startHere": true,
       "chapter": "ch3",
       "id": "ch3-014"
@@ -1079,29 +1079,29 @@
     },
     {
       "id": "ch3-041",
-      "title": "AI Could Replace the Equivalent of 300 Million Jobs",
-      "author": "Multiple Authors",
+      "title": "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity.",
+      "author": "Georgieva, Kristalina",
       "source": "IMF Blog",
       "publisher": "International Monetary Fund",
       "type": "article",
-      "year": 2023,
-      "month": "April",
-      "url": "https://www.imf.org/en/Blogs/Articles/2023/04/14/ai-could-replace-equivalent-of-300-million-jobs",
+      "year": 2024,
+      "month": 1,
+      "url": "https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
       "chapter": "ch3",
       "keywords": [
         "💼 Jobs",
         "💰 Inequality"
       ],
       "questions": [
-        "What happens to human cognitive identity when 300 million knowledge workers are displaced?",
+        "What happens to human cognitive identity when knowledge workers are displaced?",
         "Will retraining exist for jobs that don't exist yet?"
       ],
       "difficulty": "moderate",
       "time": "7 min read",
-      "hook": "300 million jobs. That's not just economic disruption—that's the end of work-based identity for a generation.",
-      "why_it_matters": "Establishes the scale of cognitive displacement. Not just individuals losing jobs, but entire categories of cognitive labor being rendered obsolete.",
-      "summary": "IMF analysis estimating that generative AI could affect 300 million jobs globally, with advanced economies facing 60% of the potential impact. Unlike previous automation waves, this impacts high-income knowledge workers, not just routine workers.",
-      "bibtex": "@article{imf2023jobs,\n  title={AI Could Replace the Equivalent of 300 Million Jobs},\n  organization={International Monetary Fund},\n  year={2023},\n  month={April}\n}",
+      "hook": "Forty percent of jobs worldwide. That's not just economic disruption—that's the end of work-based identity for a generation.",
+      "why_it_matters": "The IMF's own analysis confirms the scale: AI will affect ~40% of jobs globally, with advanced economies facing 60% exposure. Unlike previous automation waves, this impacts high-income knowledge workers, not just routine workers.",
+      "summary": "IMF Managing Director Kristalina Georgieva's analysis warns that AI will affect almost 40% of jobs worldwide, with advanced economies facing 60% exposure. Calls for proactive policies to prevent AI from further stoking social tensions and worsening inequality.",
+      "bibtex": "@article{georgieva2024imf,\n  title={AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity},\n  author={Georgieva, Kristalina},\n  journal={IMF Blog},\n  year={2024},\n  month={January}\n}",
       "startHere": false
     },
     {
@@ -1300,6 +1300,144 @@
       "summary": "Neuroscience perspective on how generative AI, through cognitive offloading, poses risks of cognitive atrophy—the deterioration of cognitive abilities when the brain stops exercising them, with potential neurological consequences.",
       "bibtex": "@article{polytechnique2024atrophy,\n  title={Generative AI: the risk of cognitive atrophy},\n  journal={Polytechnique Insights},\n  year={2024}\n}",
       "startHere": true
+    },
+    {
+      "title": "Four ways AI and talent trends could reshape jobs by 2030",
+      "author": "World Economic Forum",
+      "source": "World Economic Forum",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2026/01/four-ways-ai-impact-job-markets/",
+      "keywords": [
+        "💼 Future of Work",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "The WEF outlines four distinct futures: a supercharged progress scenario where AI creates new jobs as fast as it displaces them, versus an 'age of displacement' where automation outpaces society's ability to retrain workers.",
+      "why_it_matters": "Directly addresses the scarcity migration framework—when intelligence becomes commodified, the question becomes not whether jobs disappear but how quickly institutions can create new value. Shows cognitive aristocracy is not permanent.",
+      "summary": "WEF describes four possible futures for jobs by 2030: exponential progress creating new roles, rapid displacement outpacing reskilling capacity, an AI co-pilot economy focusing on augmentation, or stalled progress with conservative adoption. 92 million jobs will be displaced while 170 million new ones created—but timing and distribution are uneven.",
+      "bibtex": "@article{wef2026fourways,\n  title={Four ways AI and talent trends could reshape jobs by 2030},\n  organization={World Economic Forum},\n  year={2026},\n  month={1}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-049"
+    },
+    {
+      "title": "AI has already added 1.3 million new jobs, according to LinkedIn data",
+      "author": "World Economic Forum / LinkedIn",
+      "source": "World Economic Forum",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2026/01/ai-has-already-added-1-3-million-new-jobs-according-to-linkedin-data/",
+      "keywords": [
+        "💼 Future of Work",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "6 min read",
+      "hook": "While headlines scream about job losses, LinkedIn's labor market data shows AI has already created 1.3 million new jobs—but they're concentrated in AI-focused roles, leaving traditional knowledge workers behind.",
+      "why_it_matters": "Demonstrates the commodification paradox: intelligence itself becomes cheap, but AI-literacy becomes premium. The cognitive aristocracy doesn't vanish; it relocates to those who can manage the commodity, not those who provide it.",
+      "summary": "LinkedIn data reveals 1.3 million new AI-related jobs created in two years, including AI engineers and data annotators, while traditional entry-level professional work erodes. 70% of skills used in most jobs will change by 2030. Concerns persist that entry-level roles—historically the launch pad for professional careers in finance, law, and consulting—are disappearing.",
+      "bibtex": "@article{wef2026linkedin,\n  title={AI has already added 1.3 million new jobs, according to LinkedIn data},\n  organization={World Economic Forum},\n  year={2026},\n  month={1}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-050"
+    },
+    {
+      "title": "Your Job Disappears in 18 Months: The AI Elimination List (2026 Edition)",
+      "author": "Rohan Mistry",
+      "source": "Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://medium.com/@rohanmistry231/your-job-disappears-in-18-months-the-ai-elimination-list-2026-edition-fbb1144fe4cc",
+      "keywords": [
+        "💼 Future of Work",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "By end of 2026, 37% of companies will have replaced jobs with AI. Generative AI alone displaced approximately 76,000 positions in 2025. The elimination isn't coming—it's already here.",
+      "why_it_matters": "Provides concrete evidence that the scarcity migration is happening in real-time. What was intellectual labor (requiring expensive human training and credentials) becomes a reproducible commodity, destabilizing the entire credentialing system that protected professional monopolies.",
+      "summary": "Analysis showing 37% of companies planning AI-driven job replacement by end of 2026, with 76,000 documented positions already lost to generative AI in 2025. Highlights that cognitive labor—unlike previous automation waves—is hitting professionals first, not factory workers. Knowledge workers are experiencing automation for the first time at scale.",
+      "bibtex": "@article{mistry2025aiemliminationlist,\n  title={Your Job Disappears in 18 Months: The AI Elimination List (2026 Edition)},\n  author={Mistry, Rohan},\n  journal={Medium},\n  year={2025},\n  month={12}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-051"
+    },
+    {
+      "title": "Is AI really killing finance and banking jobs? Wall Street's layoffs may be more hype than takeover",
+      "author": "Fortune",
+      "source": "Fortune",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://fortune.com/2025/12/21/is-ai-killing-finance-and-banking-jobs-experts-say-wall-street-layoffs-hype-than-takeover/",
+      "keywords": [
+        "💼 Future of Work",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Bloomberg Intelligence predicts 200,000 bank jobs will be axed in five years as AI takes over—yet employment in AI-exposed roles grew 1.7%, suggesting the real story is task commodification, not mass unemployment.",
+      "why_it_matters": "Exemplifies the scarcity migration: when banking tasks become automatable, banks don't vanish. Instead, the value shifts from the person doing the task to whoever understands the AI system managing it. Intelligence becomes cheap; AI literacy becomes scarce.",
+      "summary": "Bloomberg warns of 200,000 job cuts in banking due to AI, with back office and operations roles most at risk. However, employment in occupations with high AI exposure grew 1.7%, contradicting pure displacement narratives. The pattern mirrors the ATM effect: technology reduces task costs, increases task volume, but fundamentally transforms the profession.",
+      "bibtex": "@article{fortune2025aifinance,\n  title={Is AI really killing finance and banking jobs? Wall Street's layoffs may be more hype than takeover},\n  journal={Fortune},\n  year={2025},\n  month={12}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-052"
+    },
+    {
+      "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
+      "author": "Acemoglu, Duranton, and Lee",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 7,
+      "url": "https://arxiv.org/abs/2507.08244",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Future of Work",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "40 min read",
+      "hook": "College-educated workers experience smaller employment declines but larger shifts in job intensity and structure. The AI revolution targets brainpower first—and college-educated professionals feel it most acutely.",
+      "why_it_matters": "Provides empirical evidence for the central argument of Chapter 3: intelligence as a commodity. Shows that workers in complex reasoning and problem-solving roles experience larger disruptions because those are precisely the roles AI can now commodify. The 'dusk of human intelligence' begins with the knowledge elite.",
+      "summary": "Research comparing labor outcomes October 2022-March 2023 versus October 2024-March 2025 shows higher AI exposure correlates with reduced employment, higher unemployment, and shorter work hours—effects magnified for college-educated workers. Occupations relying on complex reasoning see larger declines in full-time work. Suggests AI's labor impact is most severe where human intelligence commanded the highest premium.",
+      "bibtex": "@article{acemoglu2025ailab,\n  title={Advancing AI Capabilities and Evolving Labor Outcomes},\n  author={Acemoglu, Daron and Duranton, Gilles and Lee, Hyeok Jeong},\n  journal={arXiv},\n  year={2025},\n  month={7}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-053"
     }
   ]
 }
