@@ -837,12 +837,19 @@ function StartCard({ item, index }) {
           {item.title}
         </h3>
 
-        <p style={{
-          ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
-          fontSize: 12, color: C.pencilLight, margin: "0 0 8px", lineHeight: 1.4,
+        <div style={{
+          ...sans, fontSize: 12, color: C.pencilLight, margin: "0 0 8px", lineHeight: 1.4,
+          display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap",
         }}>
-          {item.author ? `${item.author} · ` : ""}{item.source}{item.year ? ` · ${item.year}` : ""}
-        </p>
+          {item.author && <span>{item.author}</span>}
+          {item.author && <span style={{ opacity: 0.4 }}>·</span>}
+          <span style={{
+            fontSize: 13, fontWeight: 700, color: "#8b6914",
+            background: "#d4a85318", padding: "1px 7px", borderRadius: 3,
+          }}>{item.source}</span>
+          {item.year && <span style={{ opacity: 0.4 }}>·</span>}
+          {item.year && <span style={{ fontWeight: 600, color: C.pencil }}>{item.year}</span>}
+        </div>
 
         <div style={{
           ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
@@ -934,17 +941,17 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
         margin: "0 0 12px",
       }}>
         <span style={{
-          ...sans, fontSize: 12, fontWeight: 600, color: C.red,
-          padding: "2px 10px", borderRadius: 4,
-          background: C.redGlow, border: `1px solid ${C.red}18`,
+          ...sans, fontSize: 14, fontWeight: 700, color: "#8b6914",
+          padding: "3px 12px", borderRadius: 4,
+          background: "#d4a85320", border: `1px solid #d4a85330`,
         }}>
           {item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}
         </span>
         {item.year && (
           <span style={{
-            ...sans, fontSize: 12, fontWeight: 600, color: C.ink,
-            padding: "2px 8px", borderRadius: 4,
-            background: C.fog, border: `1px solid ${C.ruleFaint}`,
+            ...sans, fontSize: 13, fontWeight: 700, color: C.inkSoft,
+            padding: "3px 10px", borderRadius: 4,
+            background: C.fog, border: `1px solid ${C.rule}`,
           }}>
             {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
           </span>
@@ -1125,17 +1132,17 @@ function GridCard({ item, index, isExpanded, onToggle }) {
         margin: "0 0 10px",
       }}>
         <span style={{
-          ...sans, fontSize: 10, fontWeight: 600, color: C.red,
+          ...sans, fontSize: 12, fontWeight: 700, color: "#8b6914",
           padding: "2px 8px", borderRadius: 4,
-          background: C.redGlow, border: `1px solid ${C.red}18`,
+          background: "#d4a85320", border: `1px solid #d4a85330`,
         }}>
           {item.source}
         </span>
         {item.year && (
           <span style={{
-            ...sans, fontSize: 10, fontWeight: 600, color: C.ink,
+            ...sans, fontSize: 11, fontWeight: 700, color: C.inkSoft,
             padding: "2px 6px", borderRadius: 4,
-            background: C.fog, border: `1px solid ${C.ruleFaint}`,
+            background: C.fog, border: `1px solid ${C.rule}`,
           }}>
             {item.month ? `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][item.month - 1]} ` : ""}{item.year}
           </span>
