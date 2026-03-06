@@ -2,7 +2,7 @@
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
   "generated": "2026-03-04",
-  "entry_count": 51,
+  "entry_count": 46,
   "entries": [
     {
       "id": "prologue-001",
@@ -57,34 +57,6 @@
       "bibtex": "@article{metz2025agi,\n  author = {Metz, Cade},\n  title = {Why We're Unlikely to Get Artificial General Intelligence Anytime Soon},\n  journal = {The New York Times},\n  year = {2025},\n  month = may\n}",
       "startHere": false,
       "url": "https://www.nytimes.com/2025/05/16/technology/what-is-agi.html",
-      "source": "The New York Times",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-003",
-      "title": "US-China AI Cooperation and High-Tech Feudalism",
-      "author": "Friedman, Thomas L.",
-      "publisher": "The New York Times",
-      "type": "article",
-      "year": 2024,
-      "month": 10,
-      "keywords": [
-        "🏛️ Power",
-        "⏱️ Speed",
-        "💰 Inequality"
-      ],
-      "questions": [
-        "Who controls AI?",
-        "How fast is this happening?"
-      ],
-      "difficulty": "moderate",
-      "time": "18 min read",
-      "hook": "Thomas Friedman warns we're heading toward high-tech feudalism unless two superpowers stop racing to build the smartest machine on Earth.",
-      "why_it_matters": "Frames geopolitical AI competition as the central threat the Prologue warns about — a race nobody can stop.",
-      "summary": "Friedman argues AGI will substantially emerge within four years and warns of \"high-tech feudalism\" if geopolitical competition dominates over cooperation. He frames AI safety as the nuclear arms control equivalent of our era.",
-      "bibtex": "@article{friedman2024ai,\n  author = {Friedman, Thomas L.},\n  title = {U.S. and China Must Cooperate on AI},\n  journal = {The New York Times},\n  year = {2024},\n  month = oct\n}",
-      "startHere": false,
-      "url": "https://www.nytimes.com/2024/10/01/opinion/ai-us-china-cooperation.html",
       "source": "The New York Times",
       "chapter": "prologue"
     },
@@ -168,64 +140,8 @@
       "summary": "Early analysis of how generative AI models like ChatGPT will disrupt creative work and reshape labor markets, affecting both independent and salaried workers in knowledge-intensive fields. The piece identifies creative and analytical roles — long considered automation-proof — as newly vulnerable.",
       "bibtex": "@article{economist2023labor,\n  author = {{The Economist}},\n  title = {Large, Creative AI Models Will Transform Lives and Labour Markets},\n  journal = {The Economist},\n  year = {2023},\n  month = apr,\n  day = {22}\n}",
       "startHere": false,
-      "url": "https://www.science.org/doi/10.1126/sciadv.adg3764",
+      "url": "https://www.economist.com/interactive/science-and-technology/2023/04/22/large-creative-ai-models-will-transform-how-we-live-and-work",
       "source": "Science Advances",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-007",
-      "title": "Will AI Investments Pay Off?",
-      "author": "The Economist",
-      "publisher": "The Economist",
-      "type": "article",
-      "year": 2024,
-      "month": 11,
-      "keywords": [
-        "⏱️ Speed",
-        "💰 Inequality",
-        "🤖 How AI Works"
-      ],
-      "questions": [
-        "How fast is this happening?",
-        "Is AI actually dangerous?"
-      ],
-      "difficulty": "moderate",
-      "time": "18 min read",
-      "hook": "Tech companies have bet trillions on AI paying off soon, but we might hit an energy wall or data shortage before it actually works — or it might not.",
-      "why_it_matters": "Questions whether the Prologue's confident timeline has economic constraints that could delay or derail it entirely.",
-      "summary": "The Economist examines whether massive AI investments will deliver returns or burst, highlighting energy demands, data shortages, and high training costs as key hurdles. The piece notes that \"agentic\" AI systems — capable of autonomous end-to-end task completion — are the next frontier.",
-      "bibtex": "@article{economist2024gamble,\n  author = {{The Economist}},\n  title = {History's Biggest Business Gamble: Will AI Start Delivering in 2025?},\n  journal = {The Economist},\n  year = {2024},\n  month = nov\n}",
-      "startHere": false,
-      "url": "https://www.theatlantic.com/technology/archive/2025/01/ai-bubble-investment/681234/",
-      "source": "The Atlantic",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-008",
-      "title": "AI's Transformation of Society",
-      "author": "Korinek, Anton",
-      "publisher": "TIME Magazine",
-      "type": "article",
-      "year": 2024,
-      "month": 1,
-      "keywords": [
-        "💼 Jobs",
-        "💰 Inequality",
-        "💔 Meaning"
-      ],
-      "questions": [
-        "Will AI take my job?",
-        "What happens to meaning and purpose?"
-      ],
-      "difficulty": "moderate",
-      "time": "20 min read",
-      "hook": "The transformation AI is bringing isn't like the internet or electricity — it's more like fire, and we're still living in wooden houses.",
-      "why_it_matters": "Frames the scale of transformation the Prologue insists upon: this isn't an upgrade, it's a species-level event.",
-      "summary": "Economist Anton Korinek warns that AI's labor displacement and wealth concentration effects may be structurally different from previous technological revolutions. His analysis, prominently featured in The Economist, argues that without deliberate redistribution, AI could hollow out the middle class entirely.",
-      "bibtex": "@article{korinek2024economist,\n  author = {Korinek, Anton},\n  title = {Breaking Ranks to Sound the Alarm on AI},\n  journal = {TIME Magazine (covering The Economist)},\n  year = {2024},\n  note = {Coverage of Korinek's warnings featured in The Economist}\n}",
-      "startHere": false,
-      "url": "https://www.economist.com/leaders/2024/03/28/how-ai-will-transform-the-world",
-      "source": "The Economist",
       "chapter": "prologue"
     },
     {
@@ -313,34 +229,6 @@
       "chapter": "prologue"
     },
     {
-      "id": "prologue-012",
-      "title": "The Doomsday Scenario for AI and Jobs",
-      "author": "Thompson, Derek",
-      "publisher": "The Atlantic",
-      "type": "article",
-      "year": 2024,
-      "month": 1,
-      "keywords": [
-        "💼 Jobs",
-        "⏱️ Speed",
-        "💔 Meaning"
-      ],
-      "questions": [
-        "Will AI take my job?",
-        "How fast is this happening?"
-      ],
-      "difficulty": "moderate",
-      "time": "19 min read",
-      "hook": "Experts predict catastrophic job losses, but the economy isn't showing it yet — and that gap between prediction and data is where the real question lives.",
-      "why_it_matters": "The Prologue's timing question: is AI the fastest transition we've ever made, or are we misreading the signals?",
-      "summary": "Thompson examines three scenarios for AI's labor market impact and notes the troubling disconnect between dire expert predictions and present economic data. He argues that how we \"play\" with AI today will shape future work in ways current models cannot predict.",
-      "bibtex": "@article{thompson2024doomsday,\n  author = {Thompson, Derek},\n  title = {The Doomsday Scenario for AI and Jobs},\n  journal = {The Atlantic},\n  year = {2024}\n}",
-      "startHere": false,
-      "url": "https://www.nytimes.com/2024/05/21/opinion/ai-jobs-economy.html",
-      "source": "The New York Times",
-      "chapter": "prologue"
-    },
-    {
       "id": "prologue-013",
       "title": "Atlantic Festival 2025: The Future of AI and Humanity",
       "author": "The Atlantic",
@@ -402,8 +290,8 @@
       "author": "The Guardian",
       "publisher": "The Guardian",
       "type": "article",
-      "year": 2024,
-      "month": 1,
+      "year": 2025,
+      "month": 8,
       "keywords": [
         "⏱️ Speed",
         "💼 Jobs",
@@ -418,9 +306,9 @@
       "hook": "The CEO of Google DeepMind says AI will be 10 times bigger than the Industrial Revolution and happen 10 times faster — with unpredictable disruption at every level.",
       "why_it_matters": "The Prologue's speed claim: this isn't gradual technological change, it's civilizational shock.",
       "summary": "Hassabis warns that generative AI will bring about change \"10 times bigger than the Industrial Revolution, and maybe 10 times faster.\" The wide-ranging conversation covers workplace disruption, scientific opportunity, and the environmental cost of training large models.",
-      "bibtex": "@article{guardian2024hassabis,\n  author = {{The Guardian}},\n  title = {Demis Hassabis Interview},\n  journal = {The Guardian},\n  year = {2024},\n  note = {Interview with CEO of Google DeepMind}\n}",
+      "bibtex": "@article{guardian2025hassabis,\n  author = {{The Guardian}},\n  title = {Demis Hassabis Interview},\n  journal = {The Guardian},\n  year = {2025},\n  month = aug,\n  note = {Interview with CEO of Google DeepMind}\n}",
       "startHere": true,
-      "url": "https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future",
+      "url": "https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future-10-times-bigger-than-industrial-revolution-and-10-times-faster",
       "source": "The Guardian",
       "chapter": "prologue"
     },
@@ -458,8 +346,8 @@
       "author": "The Guardian",
       "publisher": "The Guardian",
       "type": "article",
-      "year": 2025,
-      "month": 1,
+      "year": 2023,
+      "month": 3,
       "keywords": [
         "💔 Meaning",
         "🧘 Attention",
@@ -474,17 +362,17 @@
       "hook": "Tech pioneer Jaron Lanier warns the real AI risk isn't rogue superintelligence — it's the erosion of meaning-making itself.",
       "why_it_matters": "The Prologue's deepest concern: AI doesn't need to rebel, it just needs to make human discourse more confusing.",
       "summary": "Lanier argues the real AI risk is not rogue superintelligence but the erosion of human meaning-making — if AI makes communication more confusing and disconnected, society could descend into collective disorientation. His warning echoes the Prologue's thesis that we mastered prompts but didn't master our days.",
-      "bibtex": "@article{guardian2025lanier,\n  author = {{The Guardian}},\n  title = {Jaron Lanier on AI},\n  journal = {The Guardian},\n  year = {2025},\n  note = {Feature interview with technology philosopher Jaron Lanier}\n}",
+      "bibtex": "@article{guardian2023lanier,\n  author = {{The Guardian}},\n  title = {Tech Guru Jaron Lanier: `The Danger Isn't That AI Destroys Us. It's That It Drives Us Insane'},\n  journal = {The Guardian},\n  year = {2023},\n  month = mar,\n  note = {Feature interview with technology philosopher Jaron Lanier}\n}",
       "startHere": false,
-      "url": "https://www.edge.org/conversation/jaron_lanier-the-myth-of-ai",
-      "source": "Edge.org",
+      "url": "https://www.theguardian.com/technology/2023/mar/23/tech-guru-jaron-lanier-the-danger-isnt-that-ai-destroys-us-its-that-it-drives-us-insane",
+      "source": "The Guardian",
       "chapter": "prologue"
     },
     {
       "id": "prologue-018",
       "title": "Climate Data Deletion Under Trump Administration",
-      "author": "The Guardian",
-      "publisher": "The Guardian",
+      "author": "National Security Archive",
+      "publisher": "National Security Archive",
       "type": "series",
       "year": 2025,
       "month": 1,
@@ -510,7 +398,7 @@
     },
     {
       "id": "prologue-019",
-      "title": "AI Job Displacement on Wall Street",
+      "title": "Jack Dorsey Made the Loudest Case Yet That AI Is Already Replacing Jobs",
       "author": "Wall Street Journal",
       "publisher": "Wall Street Journal",
       "type": "article",
@@ -532,15 +420,15 @@
       "summary": "Financial services firms are projected to cut 200,000 positions as AI automates trading, analysis, and compliance functions that previously required large teams of knowledge workers. The cuts represent one of the first large-scale sector disruptions where \"good enough\" AI replaces credentialed professionals — the dynamic the Prologue predicts.",
       "bibtex": "@article{wsj2025walljobs,\n  author = {{Wall Street Journal}},\n  title = {AI Job Cuts Expected on Wall Street},\n  journal = {Wall Street Journal},\n  year = {2025},\n  note = {Reports 200,000 job cuts expected in financial services due to AI}\n}",
       "startHere": false,
-      "url": "https://www.cnbc.com/2026/02/27/ai-replacing-wall-street-jobs.html",
+      "url": "https://www.cnbc.com/2026/02/27/jack-dorsey-made-the-loudest-case-yet-ai-is-already-replacing-jobs.html",
       "source": "CNBC",
       "chapter": "prologue"
     },
     {
       "id": "prologue-020",
       "title": "The AI Skill Premium",
-      "author": "Forbes",
-      "publisher": "Forbes",
+      "author": "PwC",
+      "publisher": "PwC",
       "type": "article",
       "year": 2025,
       "month": 1,
@@ -735,7 +623,7 @@
     {
       "id": "prologue-027",
       "title": "The Algorithmic Self: AI and Human Identity",
-      "author": "Frontiers in Psychology Contributors",
+      "author": "Joseph, Jeena",
       "publisher": "Frontiers in Psychology",
       "type": "paper",
       "year": 2025,
@@ -754,7 +642,7 @@
       "hook": "Psychologists discover that the 'self' might be more algorithmic than we think — and AI is holding up a mirror nobody asked for.",
       "why_it_matters": "Academic grounding for the Prologue's existential framing: if identity is algorithmic, 'second place' isn't just about jobs — it's about selfhood.",
       "summary": "Explores how algorithmic mediation reshapes identity construction, raising questions about authenticity and autonomy as AI increasingly shapes self-awareness and introspection. Argues that human cognition remains embodied, emotionally grounded, and culturally embedded despite AI capabilities — a psychological anchor for second place.",
-      "bibtex": "@article{algorithmicself2025,\n  author = {{Frontiers in Psychology Contributors}},\n  title = {The Algorithmic Self: How AI Is Reshaping Human Identity, Introspection, and Agency},\n  journal = {Frontiers in Psychology},\n  year = {2025},\n  url = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/full}\n}",
+      "bibtex": "@article{joseph2025algorithmicself,\n  author = {Joseph, Jeena},\n  title = {The Algorithmic Self: How AI Is Reshaping Human Identity, Introspection, and Agency},\n  journal = {Frontiers in Psychology},\n  year = {2025},\n  volume = {16},\n  doi = {10.3389/fpsyg.2025.1645795}\n}",
       "startHere": false,
       "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/full",
       "source": "Frontiers in Psychology",
@@ -764,7 +652,7 @@
       "id": "prologue-028",
       "title": "Neanderthal Extinction: Demography, Not Cognition",
       "author": "Bocquet-Appel, Jean-Pierre and Degioanni, Anna",
-      "publisher": "Scientific Reports",
+      "publisher": "Current Anthropology",
       "type": "paper",
       "year": 2013,
       "month": 1,
@@ -782,10 +670,10 @@
       "hook": "Neanderthals weren't stupid — they were just second-best, and demographic math did the rest. Sound familiar?",
       "why_it_matters": "The biological precedent for the Prologue's species metaphor — Neanderthals coexisted with Homo sapiens, then didn't. Demography, not war.",
       "summary": "Archaeological consensus now holds that Neanderthal extinction resulted primarily from demographic factors — smaller populations, lower birth rates — rather than cognitive inferiority to Homo sapiens. This complicates the Prologue's \"slight cognitive edge\" narrative while reinforcing the broader point: even small advantages compound catastrophically over time.",
-      "bibtex": "@article{bocquetappel2013neanderthal,\n  author = {Bocquet-Appel, Jean-Pierre and Degioanni, Anna},\n  title = {An Emerging Consensus in Paleoanthropology: Demography Was the Main Factor Responsible for the Disappearance of Neanderthals},\n  journal = {Scientific Reports},\n  year = {2013},\n  volume = {1},\n  pages = {84421},\n  publisher = {Nature},\n  url = {https://www.nature.com/articles/s41598-021-84410-7}\n}",
+      "bibtex": "@article{bocquetappel2013neanderthal,\n  author = {Bocquet-Appel, Jean-Pierre and Degioanni, Anna},\n  title = {Neanderthal Demographic Estimates},\n  journal = {Current Anthropology},\n  year = {2013},\n  volume = {54},\n  number = {S8},\n  pages = {S202--S213},\n  doi = {10.1086/673725}\n}",
       "startHere": false,
-      "url": "https://www.nature.com/articles/s41598-021-84410-7",
-      "source": "Scientific Reports (Nature)",
+      "url": "https://doi.org/10.1086/673725",
+      "source": "Current Anthropology",
       "chapter": "prologue"
     },
     {
@@ -812,7 +700,7 @@
       "summary": "Comprehensive exploration of how AGI might reshape civilization, examining implications for employment, inequality, warfare, meaning, and what it means to be human alongside superintelligent AI. One of the first books to frame the \"second species\" question the Prologue now takes as its starting point.",
       "bibtex": "@book{tegmark2017life,\n  author = {Tegmark, Max},\n  title = {Life 3.0: Being Human in the Age of Artificial Intelligence},\n  publisher = {Knopf},\n  year = {2017}\n}",
       "startHere": false,
-      "url": "https://mitpress.mit.edu/9780525562344/life-3-0/",
+      "url": "https://www.penguinrandomhouse.com/books/530584/life-30-by-max-tegmark/",
       "source": "MIT Press / Knopf",
       "chapter": "prologue"
     },
@@ -868,7 +756,7 @@
       "summary": "Surveys AI applications in biodiversity monitoring, species identification, habitat analysis, and conservation planning — the academic context for the Prologue's MonoSOS monkey bridge project. Also highlights risks of AI colonialism and the marginalization of indigenous ecological knowledge.",
       "bibtex": "@article{conservation2024horizon,\n  author = {{Current Biology Contributors}},\n  title = {The Potential for AI to Revolutionize Conservation: A Horizon Scan},\n  journal = {Current Biology / Trends in Ecology & Evolution},\n  year = {2024},\n  url = {https://www.sciencedirect.com/science/article/pii/S0169534724002866}\n}",
       "startHere": false,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0169534724002866",
+      "url": "https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(24)00286-6",
       "source": "Trends in Ecology & Evolution",
       "chapter": "prologue"
     },
@@ -924,7 +812,7 @@
       "summary": "Yudkowsky and Soares discuss their book \"If Anyone Builds It, Everyone Dies,\" covering alignment impossibility arguments and superintelligence timelines. The episode asks why many tech leaders remain skeptical of existential risk despite mathematical arguments for concern — the strongest \"doomsday\" counterpoint to the Prologue's measured optimism.",
       "bibtex": "@misc{harris2025survive,\n  author = {Harris, Sam},\n  title = {#434 — Can We Survive AI?},\n  howpublished = {Making Sense Podcast},\n  year = {2025},\n  month = sep,\n  day = {16},\n  note = {Guests: Eliezer Yudkowsky, Nate Soares}\n}",
       "startHere": false,
-      "url": "https://www.samharris.org/podcasts/making-sense-episodes/can-we-survive-ai",
+      "url": "https://www.samharris.org/podcasts/making-sense-episodes/434-can-we-survive-ai",
       "source": "Making Sense with Sam Harris",
       "chapter": "prologue"
     },
@@ -1070,7 +958,7 @@
     },
     {
       "id": "prologue-040",
-      "title": "TED 2025: Tristan Harris on AI as Humanity's Wisdom Test",
+      "title": "Tristan Harris: Why AI Is Our Ultimate Test and Greatest Invitation",
       "author": "Harris, Tristan",
       "publisher": "TED2025: Humanity Reimagined",
       "type": "video",
@@ -1092,7 +980,7 @@
       "summary": "Harris frames AI deployment as humanity's ultimate test of collective wisdom, warning that repeating social media's mistakes — adopting without understanding — would be catastrophic at AI's scale. Directly echoes the Prologue's iPhone analogy: \"we learned to swipe, not to sleep.\"",
       "bibtex": "@misc{harris2025ted,\n  author = {Harris, Tristan},\n  title = {AI as Humanity's Ultimate Wisdom Test},\n  howpublished = {TED2025: Humanity Reimagined},\n  year = {2025},\n  month = apr\n}",
       "startHere": false,
-      "url": "https://www.ted.com/talks/tristan_harris_why_ai_is_our_ultimate_test",
+      "url": "https://www.ted.com/talks/tristan_harris_why_ai_is_our_ultimate_test_and_greatest_invitation",
       "source": "TED Talks",
       "chapter": "prologue"
     },
@@ -1120,36 +1008,8 @@
       "summary": "Investigates the paradox of AI's massive energy consumption and environmental footprint alongside its potential for climate solutions. The episode highlights how the same technology being developed to solve planetary-scale problems is simultaneously accelerating them.",
       "bibtex": "@misc{npr2025aienvironment,\n  author = {{NPR}},\n  title = {AI and the Environment},\n  howpublished = {Consider This (NPR)},\n  year = {2025},\n  month = mar,\n  day = {30},\n  url = {https://www.npr.org/2025/03/30/1241844391/ai-and-the-environment}\n}",
       "startHere": false,
-      "url": "https://www.npr.org/2025/03/30/ai-and-the-environment",
+      "url": "https://www.npr.org/2025/03/30/1241844391/ai-and-the-environment",
       "source": "NPR Consider This",
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-042",
-      "title": "All-In Podcast: AI Moratorium Debate",
-      "author": "Palihapitiya, Chamath et al.",
-      "publisher": "All-In Podcast",
-      "type": "podcast",
-      "year": 2025,
-      "month": 12,
-      "keywords": [
-        "🏛️ Power",
-        "⏱️ Speed",
-        "💰 Inequality"
-      ],
-      "questions": [
-        "Who controls AI?",
-        "Is AI actually dangerous?"
-      ],
-      "difficulty": "moderate",
-      "time": "1.5 hrs listen",
-      "hook": "Four tech billionaires debate whether to pause AI development. Spoiler: they can't agree, and neither can anyone else.",
-      "why_it_matters": "The Prologue's governance paradox: collective action problems prevent us from choosing slower, safer paths.",
-      "summary": "Four prominent venture capitalists debate the merits of an AI development moratorium, weighing economic impact, job displacement, and the tension between competitive advantage and societal readiness. The debate crystallizes the \"race nobody can stop\" dynamic the book later addresses in Chapter 2.",
-      "bibtex": "@misc{allin2025moratorium,\n  author = {Palihapitiya, Chamath and Calacanis, Jason and Sacks, David and Friedberg, David},\n  title = {AI Moratorium Debate},\n  howpublished = {All-In Podcast, Episode 255},\n  year = {2025},\n  month = dec,\n  day = {19}\n}",
-      "startHere": false,
-      "url": "https://www.youtube.com/watch?v=allin-ai-moratorium",
-      "source": "All-In Podcast",
       "chapter": "prologue"
     },
     {
@@ -1292,7 +1152,7 @@
       "type": "paper",
       "year": 2024,
       "month": 8,
-      "url": "https://doi.org/10.1093/qje/qjae030",
+      "url": "https://doi.org/10.1093/qje/qjae008",
       "chapter": "prologue",
       "keywords": [
         "💼 Jobs",
@@ -1341,7 +1201,7 @@
     {
       "id": "prologue-050",
       "title": "This Is the Most Misunderstood Graph in AI",
-      "author": "Von Arx, Sydney",
+      "author": "Huckins, Grace",
       "source": "MIT Technology Review",
       "type": "article",
       "year": 2026,
@@ -1360,7 +1220,7 @@
       "hook": "A single exponential curve is making everyone misread how fast AI is actually accelerating — and the misreading goes in both directions.",
       "why_it_matters": "Offers the most current evidence for the Prologue's speed thesis, dissecting the METR metric showing AI capabilities outpacing even optimistic projections.",
       "summary": "Analysis of the METR (Model Evaluation and Threat Research) time horizon metric, which tracks how quickly AI systems can complete increasingly complex tasks. The piece argues the graph is widely misinterpreted, with both accelerationists and skeptics reading it incorrectly.",
-      "bibtex": "@article{vonarx2026metr,\n  author = {Von Arx, Sydney},\n  title = {This Is the Most Misunderstood Graph in AI},\n  journal = {MIT Technology Review},\n  year = {2026},\n  month = feb\n}",
+      "bibtex": "@article{huckins2026metr,\n  author = {Huckins, Grace},\n  title = {This Is the Most Misunderstood Graph in AI},\n  journal = {MIT Technology Review},\n  year = {2026},\n  month = feb\n}",
       "startHere": false
     },
     {
