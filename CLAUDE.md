@@ -55,6 +55,16 @@ Each entry has these fields:
 10. What does AI cost the planet?
 11. Am I still the real me?
 ## Common Tasks
+### Deploy references ("deploy references" or "update references")
+The reference JSON files are maintained in Dropbox and updated daily by a Cowork scheduled task. When asked to deploy:
+1. Copy all `*_references.json` from `~/Library/CloudStorage/Dropbox/Book/Book Deal/Database/` into `public/data/` in this repo
+2. Create a new branch `claude/ref-update-YYYY-MM-DD` (today's date)
+3. Commit with a message describing what changed (entry counts, new chapters, etc.)
+4. Push and create a PR via `gh pr create`
+5. Return the PR link so it can be merged
+
+**Note:** This only works in local sessions where Dropbox is mounted. The repo lives at `~/Desktop/dusk-library`. GitHub CLI (`gh`) is authenticated.
+
 ### Adding a new reference
 1. Edit the relevant `public/data/{chapter}_references.json`
 2. Add an entry to the `entries` array with all required fields
