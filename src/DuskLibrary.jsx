@@ -313,7 +313,7 @@ const SOURCE_DOMAIN = {
 
 function sourceFavicon(source) {
   const domain = SOURCE_DOMAIN[source];
-  if (domain) return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+  if (domain) return `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://${domain}&size=32`;
   return null;
 }
 
