@@ -675,18 +675,27 @@ export default function DuskLibrary() {
             {activeChapters.map(ch => {
               const count = entries.filter(e => e.chapter === ch.id).length;
               const active = selChapter === ch.id;
+              const cartoon = CHAPTER_CARTOONS[ch.id];
               return (
                 <button key={ch.id} className="ch-tab"
                   onClick={() => setSelChapter(active ? null : ch.id)}
                   style={{
-                    ...sans, fontSize: 12, padding: "7px 14px", borderRadius: 6,
+                    ...sans, fontSize: 12, padding: "5px 12px", borderRadius: 6,
                     cursor: "pointer", fontWeight: active ? 600 : 400,
                     background: active ? C.redSoft : "transparent",
                     border: `1px solid ${active ? C.red + "50" : C.ruleFaint}`,
                     color: active ? C.red : C.pencil,
+                    display: "flex", alignItems: "center", gap: 6,
                   }}>
+                  {cartoon && (
+                    <img src={cartoon.src} alt="" style={{
+                      width: 22, height: 22, borderRadius: "50%",
+                      objectFit: "cover", flexShrink: 0,
+                      border: `1.5px solid ${active ? C.red + "40" : C.ruleFaint}`,
+                    }} />
+                  )}
                   {ch.short}
-                  <span style={{ fontSize: 10, opacity: 0.5, marginLeft: 4 }}>({count})</span>
+                  <span style={{ fontSize: 10, opacity: 0.5 }}>({count})</span>
                 </button>
               );
             })}
@@ -728,14 +737,18 @@ export default function DuskLibrary() {
       )}
 
       {/* QUESTION BROWSE */}
-      <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
+      <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "16px 32px 0" }}>
         <h2 style={{
           ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint,
-          letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 14,
+          letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 10,
         }}>
           Browse by question
         </h2>
-        <div className="q-chips-row" style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+        <div className="q-chips-row" style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
+          gap: 6,
+        }}>
           {QUESTIONS.map(q => {
             const active = selQ.includes(q.label);
             const count = entries.filter(i => (i.questions || []).includes(q.label)).length;
@@ -744,21 +757,20 @@ export default function DuskLibrary() {
               <button key={q.label} className="q-chip"
                 onClick={() => tog(setSelQ, q.label)}
                 style={{
-                  ...sans, fontSize: 12.5, padding: "8px 16px", borderRadius: 20,
+                  ...sans, fontSize: 11.5, padding: "6px 10px", borderRadius: 6,
                   background: active ? q.color + "18" : C.softWhite,
-                  border: `1.5px solid ${active ? q.color + "60" : C.rule}`,
+                  border: `1px solid ${active ? q.color + "50" : C.rule}`,
                   color: active ? q.color : C.pencil,
-                  cursor: "pointer", display: "flex", alignItems: "center", gap: 7,
+                  cursor: "pointer", display: "flex", alignItems: "center", gap: 5,
                   fontWeight: active ? 600 : 400,
-                  boxShadow: active ? `0 2px 8px ${q.color}15` : "0 1px 3px rgba(42,33,24,0.04)",
+                  textAlign: "left",
                 }}>
-                <span style={{ fontSize: 15 }}>{q.icon}</span>
-                {q.label}
+                <span style={{ fontSize: 13, flexShrink: 0 }}>{q.icon}</span>
+                <span style={{ flex: 1, lineHeight: 1.3 }}>{q.label}</span>
                 <span style={{
-                  ...sans, fontSize: 10, fontWeight: 600,
+                  ...sans, fontSize: 9, fontWeight: 600,
                   color: active ? q.color : C.pencilFaint,
-                  background: active ? q.color + "15" : C.fog,
-                  padding: "1px 6px", borderRadius: 8,
+                  flexShrink: 0,
                 }}>
                   {count}
                 </span>
