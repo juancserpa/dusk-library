@@ -1457,9 +1457,9 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
         background: C.redGlow,
       }}>
         <p style={{
-          ...{ fontFamily: "'Playfair Display', Georgia, serif" },
-          fontSize: 14.5, lineHeight: 1.65, color: C.inkSoft,
-          margin: 0, fontStyle: "italic",
+          ...sans,
+          fontSize: 13.5, lineHeight: 1.65, color: C.inkSoft,
+          margin: 0,
         }}>
           "{item.hook}"
         </p>
@@ -1648,9 +1648,9 @@ function GridCard({ item, index, isExpanded, onToggle }) {
 
       {/* Hook (truncated in grid) */}
       <p style={{
-        ...{ fontFamily: "'Playfair Display', Georgia, serif" },
-        fontSize: 13, lineHeight: 1.55, color: C.inkSoft,
-        margin: "0 0 10px", fontStyle: "italic",
+        ...sans,
+        fontSize: 12.5, lineHeight: 1.6, color: C.inkSoft,
+        margin: "0 0 10px",
         display: "-webkit-box", WebkitLineClamp: 3,
         WebkitBoxOrient: "vertical", overflow: "hidden",
         flex: 1,
