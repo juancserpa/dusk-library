@@ -578,11 +578,18 @@ export default function DuskLibrary() {
               by <span style={{ fontWeight: 700, color: "#fff", fontSize: 18, letterSpacing: "0.02em" }}>Juan Camilo Serpa</span>
             </p>
 
+            <p style={{
+              ...sans, fontSize: 14, color: "rgba(255,255,255,0.6)", marginTop: 16,
+              lineHeight: 1.6, maxWidth: 520,
+            }}>
+              A searchable collection of articles, research papers, podcasts, videos, and books on artificial intelligence — curated as the companion archive for the book. Browse by chapter, topic, or media type.
+            </p>
+
             {!loading && entries.length > 0 && (
               <p style={{
                 ...sans, fontSize: 13, color: "rgba(255,255,255,0.45)", marginTop: 14,
               }}>
-                <span style={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>{entries.length.toLocaleString()}</span> curated sources — articles, podcasts, papers & books
+                <span style={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>{entries.length.toLocaleString()}</span> curated sources and counting
               </p>
             )}
           </div>
