@@ -1,8 +1,8 @@
 {
   "chapter": "ch6",
   "chapter_title": "The Meaning Recession",
-  "generated": "2026-03-05",
-  "entry_count": 54,
+  "generated": "2026-03-07",
+  "entry_count": 58,
   "entries": [
     {
       "id": "ch6-001",
@@ -1461,6 +1461,115 @@
       "why_it_matters": "Provides concrete data for the skill decay story. Entry-level positions are disappearing first, which means the pipeline for developing mastery is being severed. Without entry-level roles, how do people build the foundational expertise required for skilled work?",
       "summary": "Data-driven analysis of AI-driven job displacement across 2025, showing that entry-level positions are vanishing at accelerating rates. Demonstrates that AI is not just replacing workers but dismantling the pathways through which new workers acquire skills.",
       "bibtex": null,
+      "startHere": false
+    },
+    {
+      "id": "ch6-055",
+      "title": "AI Exposure Predicts Unemployment Risk: A New Approach to Technology-Driven Job Loss",
+      "author": "PNAS Nexus Research Team",
+      "source": "PNAS Nexus / Oxford Academic",
+      "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf107/8104152",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "20 min",
+      "chapter": "ch6",
+      "hook": "A predictive model shows AI exposure accounts for 18% additional variation in unemployment risk, confirming automation is reshaping occupational futures.",
+      "why_it_matters": "Moves beyond economic impact to identity crisis: workers losing not just jobs but meaning, social structure, and community belonging.",
+      "summary": "Systematic research quantifying how AI exposure predicts unemployment across occupations and time, with implications for worker identity and meaning.",
+      "keywords": [
+        "AI unemployment",
+        "occupational risk",
+        "identity crisis",
+        "meaning loss"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch6-057",
+      "title": "Does Using AI Assistance Accelerate Skill Decay and Hinder Skill Development?",
+      "author": "PMC Research Collective",
+      "source": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11239631/",
+      "type": "paper",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "15 min",
+      "chapter": "ch6",
+      "hook": "Endoscopists using AI showed 22% decline in performance when AI was removed — skill decay happens faster than we think and users don't notice.",
+      "why_it_matters": "Provides concrete evidence of the 'AI deskilling paradox': cognitive offloading reduces skill formation even while productivity increases.",
+      "summary": "Research documenting measurable skill erosion from AI assistance, including medical and legal domains where critical errors increase without AI.",
+      "keywords": [
+        "skill decay",
+        "deskilling",
+        "cognitive offloading",
+        "skill erosion",
+        "competency illusion"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch6-058",
+      "title": "The Will to Live in a Post-Work World: Can We Thrive Without Struggle?",
+      "author": "iNthacity",
+      "source": "iNthacity Philosophy Blog",
+      "url": "https://www.inthacity.com/blog/tech/ai/the-will-to-live-in-a-post-work-world-inspired-by-viktor-frankl/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2025,
+      "time": "8 min",
+      "chapter": "ch6",
+      "hook": "Viktor Frankl found meaning in concentration camps; can we find it in a world where AI removes the struggle that once gave work its existential weight?",
+      "why_it_matters": "Directly applies Frankl's logotherapy to AI-driven unemployment, addressing the philosophical core of the meaning recession.",
+      "summary": "Applies existentialist philosophy (Frankl, Camus) to post-work scenarios, exploring how humans can maintain the 'will to live' when traditional work becomes obsolete.",
+      "keywords": [
+        "Frankl",
+        "logotherapy",
+        "existentialism",
+        "meaning-making",
+        "post-work"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch6-059",
+      "title": "When Autonomy Breaks: The Hidden Existential Risk of AI",
+      "author": "AI & SOCIETY Journal",
+      "source": "Springer Nature",
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02397-5",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "22 min",
+      "chapter": "ch6",
+      "hook": "When AI removes the conditions necessary for human autonomy, existential risks emerge that go beyond job loss — they strike at identity itself.",
+      "why_it_matters": "Reframes automation as an existential threat to autonomy and identity, not just employment.",
+      "summary": "Academic exploration of how AI-driven automation can erode human autonomy and agency, creating existential risks that are deeply philosophical.",
+      "keywords": [
+        "existential risk",
+        "autonomy",
+        "human agency",
+        "identity",
+        "existential crisis"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
       "startHere": false
     }
   ]

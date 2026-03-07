@@ -1,8 +1,8 @@
 {
   "chapter": "ch2",
   "chapter_title": "What Happens When You're Not the Smartest Thing in the Room?",
-  "generated": "2026-03-05",
-  "entry_count": 58,
+  "generated": "2026-03-07",
+  "entry_count": 60,
   "entries": [
     {
       "id": "ch2-001",
@@ -1562,6 +1562,58 @@
       "why_it_matters": "This paper reframes Chapter 2's conclusion. The question isn't just 'will superintelligence kill us?' but 'what survives if it doesn't?' This addresses the shadow scenario from the 'three doors' metaphor in Chapter 2. Even if AI alignment succeeds and superintelligence remains controlled, humans may face a slower existential erosion: the loss of meaning, agency, and purpose in a world where intelligence is no longer a human attribute. It validates Chapter 2's refusal to resolve into simple optimism or pessimism.",
       "summary": "This 2025 academic paper examines existential-risk narratives in AI discourse during a year when superintelligence timelines accelerated dramatically. Rather than endorsing or dismissing doomsday scenarios, it argues the most significant existential question isn't about survival but about human flourishing in post-superintelligence conditions. The paper reviews three scenarios: plateau (AI development stalls), extinction (catastrophic misalignment), and shadow (AI success but human meaninglessness). It argues the shadow scenario—where humans survive but lose relevance, agency, and sense of purpose—deserves equal consideration to extinction scenarios. The work suggests Chapter 2's anxiety reflects a legitimate concern about human status that may persist regardless of whether superintelligence becomes aligned.",
       "bibtex": "@paper{multiple2025humanity,\n  title = {Humanity in the Age of AI: Reassessing 2025's Existential-Risk Narratives},\n  year = {2025},\n  month = {December},\n  url = {https://arxiv.org/abs/2512.04119}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch2-061",
+      "title": "2025 AI Safety Index",
+      "author": "Future of Life Institute",
+      "source": "Future of Life Institute",
+      "url": "https://futureoflife.org/ai-safety-index-summer-2025/",
+      "type": "report",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "40 min",
+      "chapter": "ch2",
+      "hook": "Leading AI companies are failing safety benchmarks on existential risk management, with no credible plans for controlling superintelligent systems. This is the official scorecard.",
+      "why_it_matters": "Evidence-based assessment of whether humanity has built adequate governance structures for dangerous AI. The verdict: we haven't.",
+      "summary": "Independent evaluation of seven leading AI companies across multiple safety dimensions, revealing no company has adequate existential risk management frameworks.",
+      "keywords": [
+        "AI safety assessment",
+        "existential risk",
+        "governance gaps",
+        "corporate accountability"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch2-062",
+      "title": "The ethics of creating artificial superintelligence: a global risk perspective",
+      "author": "AI and Ethics Journal",
+      "source": "Springer Nature",
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00793-7",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "20 min",
+      "chapter": "ch2",
+      "hook": "Creating superintelligent AI without solving alignment is an ethical crisis — forcing future humans to live under systems they didn't authorize and can't control.",
+      "why_it_matters": "Reframes alignment from a technical problem to an existential ethical question about what humans have the moral right to create.",
+      "summary": "Philosophical paper examining the ethics of building superintelligent systems without adequate safety mechanisms, exploring moral responsibility to future generations.",
+      "keywords": [
+        "superintelligence ethics",
+        "global risk",
+        "moral responsibility",
+        "alignment requirements"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
       "startHere": false
     }
   ]
