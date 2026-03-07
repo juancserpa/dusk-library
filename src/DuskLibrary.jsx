@@ -376,7 +376,7 @@ export default function DuskLibrary() {
   const [expanded, setExpanded] = useState(null);
   const [page, setPage] = useState(1);
   const [showStartHere, setShowStartHere] = useState(true);
-  const [viewMode, setViewMode] = useState("list"); // "list" or "grid"
+  const [viewMode, setViewMode] = useState("grid"); // "list" or "grid"
   const [showAbout, setShowAbout] = useState(false);
   const resultsRef = useRef(null);
   const PER = 12;
@@ -971,7 +971,7 @@ export default function DuskLibrary() {
             {viewMode === "grid" ? (
               <div style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
                 gap: 16,
               }}>
                 {visible.map((item, idx) => (
