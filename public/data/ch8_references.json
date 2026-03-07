@@ -1,8 +1,8 @@
 {
   "chapter": "ch8",
   "chapter_title": "The Shelf Life",
-  "generated": "2026-03-07",
-  "entry_count": 10,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 17,
   "entries": [
     {
       "id": "ch8-001",
@@ -270,6 +270,90 @@
         "Am I still the real me?",
         "What happens to meaning and purpose?"
       ],
+      "startHere": false
+    },
+    {
+      "id": "ch8-012",
+      "chapter": "ch8",
+      "title": "Delegation to artificial intelligence can increase dishonest behaviour",
+      "url": "https://www.nature.com/articles/s41586-025-09505-x",
+      "source": "Nature",
+      "date": "2025-01",
+      "authors": "Multi-institution study",
+      "relevance": "judgment delegation, authenticity, identity in AI era, dishonesty through AI intermediation",
+      "searchQuestion": "Am I still the real me?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-015",
+      "chapter": "ch8",
+      "title": "Beyond Detection: Redesigning Authentic Assessment in an AI-Mediated World",
+      "url": "https://www.mdpi.com/2227-7102/15/11/1537",
+      "source": "MDPI Education Sciences",
+      "date": "2025-11",
+      "authors": "Multi-author study",
+      "relevance": "authentic voice, AI-generated vs human authorship, identity authenticity in education",
+      "searchQuestion": "Am I still the real me?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-016",
+      "chapter": "ch8",
+      "title": "Deepfakes leveled up in 2025 – here's what's coming next",
+      "url": "https://theconversation.com/deepfakes-leveled-up-in-2025-heres-whats-coming-next-271391",
+      "source": "The Conversation",
+      "date": "2025-01",
+      "authors": "Academic contributors",
+      "relevance": "deepfakes and authenticity, identity fraud, voice cloning threats, authentic self",
+      "searchQuestion": "Am I still the real me?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-017",
+      "chapter": "ch8",
+      "title": "Big Tech sees C2PA content credentials as a way to combat deepfakes, but it risks user privacy",
+      "url": "https://fortune.com/2025/09/18/big-techs-c2pa-content-credentials-standard-for-fighting-deepfakes-puts-privacy-on-the-line/",
+      "source": "Fortune",
+      "date": "2025-09",
+      "authors": "Fortune staff",
+      "relevance": "authenticity verification, deepfakes, trust erosion, identity in digital age",
+      "searchQuestion": "Am I still the real me?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-018",
+      "chapter": "ch8",
+      "title": "Increased AI use linked to eroding critical thinking skills",
+      "url": "https://phys.org/news/2025-01-ai-linked-eroding-critical-skills.html",
+      "source": "Phys.org",
+      "date": "2025-01",
+      "authors": "Michael Gerlich, SBS Swiss Business School",
+      "relevance": "cognitive offloading, judgment delegation, critical thinking erosion",
+      "searchQuestion": "How do I actually use AI well?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-019",
+      "chapter": "ch8",
+      "title": "TikTok's political landscape: Examining echo chambers and political expression dynamics",
+      "url": "https://journals.sagepub.com/doi/10.1177/14614448251339755",
+      "source": "Sage Journals - New Media & Society",
+      "date": "2025-01",
+      "authors": "Li, Yanlin; Cheng, Zicheng; Gil de Zúñiga, Homero",
+      "relevance": "algorithmic taste formation, filter bubbles, identity curation, preference delegation",
+      "searchQuestion": "Am I still the real me?",
+      "startHere": false
+    },
+    {
+      "id": "ch8-020",
+      "chapter": "ch8",
+      "title": "Liveness Detection: A Complete Guide for Fraud Prevention and Compliance in 2025",
+      "url": "https://sumsub.com/blog/face-liveness-detection/",
+      "source": "Sumsub",
+      "date": "2025-01",
+      "authors": "Sumsub security team",
+      "relevance": "deepfakes, biometric identity verification, authenticity, identity theft via AI",
+      "searchQuestion": "Am I still the real me?",
       "startHere": false
     }
   ]

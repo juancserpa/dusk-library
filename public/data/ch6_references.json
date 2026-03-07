@@ -1,8 +1,8 @@
 {
   "chapter": "ch6",
   "chapter_title": "The Meaning Recession",
-  "generated": "2026-03-07",
-  "entry_count": 58,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 65,
   "entries": [
     {
       "id": "ch6-001",
@@ -1571,6 +1571,137 @@
         "Am I still the real me?"
       ],
       "startHere": false
+    },
+    {
+      "id": "ch6-063",
+      "title": "How Addiction Fuels Innovation: A Mixed-Methods Study on the Psychological Trade-Offs of Digital Labor in Gig Economy",
+      "authors": "Bingnan Liu, Vincenzo Liu, Kai He, Jiayu Ou",
+      "publication": "Frontiers in Psychology",
+      "date": "2025-12-16",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1701187/full",
+      "chapter_field": "ch6",
+      "relevance": "Empirical research on productivity addiction and platform-induced psychological strain; demonstrates how gamification creates addictive work patterns while eroding skill development",
+      "keywords": [
+        "productivity addiction",
+        "skill decay",
+        "psychological impact",
+        "gig economy precariat"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-064",
+      "title": "Addictive Intelligence: Understanding Psychological, Legal, and Technical Dimensions of AI Companionship",
+      "authors": "Robert Mahari and Pat Pataranutaporn",
+      "publication": "MIT Social and Ethical Responsibilities of Computing (SERC)",
+      "date": "2025-03-24",
+      "url": "https://mit-serc.pubpub.org/pub/iopjyxcx",
+      "chapter_field": "ch6",
+      "relevance": "Examines AI dependency and psychological vulnerability; explores how AI creates meaning-substitutes while undermining authentic human connection",
+      "keywords": [
+        "productivity addiction",
+        "AI dependence",
+        "identity displacement",
+        "psychological crisis",
+        "meaning substitution"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-065",
+      "title": "Psychological Impacts of AI-Induced Job Displacement Among Indian IT Professionals: A Delphi-Validated Thematic Analysis",
+      "authors": "Research team from Symbiosis Centre for Management and Human Resource Development",
+      "publication": "International Journal of Qualitative Studies on Health and Well-being",
+      "date": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12409910/",
+      "chapter_field": "ch6",
+      "relevance": "Rigorously validated research documenting six psychological themes: emotional shock, identity erosion, anticipatory anxiety, social withdrawal; directly addresses existential crisis",
+      "keywords": [
+        "existential crisis from AI",
+        "identity loss",
+        "psychological impact",
+        "meaning recession",
+        "Frankl existential psychology"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-066",
+      "title": "Could AI Drive the Economy into Recession?",
+      "authors": "Sebastian Siemiatkowski and other industry voices",
+      "publication": "International Banker",
+      "date": "2024",
+      "url": "https://internationalbanker.com/technology/could-ai-drive-the-economy-into-recession/",
+      "chapter_field": "ch6",
+      "relevance": "Documents specific economic scenarios of AI-driven recession with verified claims from corporate leaders; connects economic disruption to labor meaning crisis",
+      "keywords": [
+        "meaning recession",
+        "existential crisis from AI",
+        "employment displacement",
+        "skill decay economic impact"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-067",
+      "title": "The Value of Work in the Age of Artificial Intelligence: Meaning, Social Contribution, and Recognition Amid Productive Dehumanization",
+      "authors": "Alfredina dos Santos Araújo and Luiz Fernando Lira Bacelar",
+      "publication": "Open Journal of Social Sciences",
+      "date": "2025-07",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=143962",
+      "chapter_field": "ch6",
+      "relevance": "Philosophical and sociological analysis of work's role in identity and meaning; directly engages Frankl, Arendt, Honneth on meaning-making through labor",
+      "keywords": [
+        "meaning recession",
+        "identity without work",
+        "post-work society",
+        "Frankl existential psychology",
+        "skill decay recognition"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-068",
+      "title": "AI-Driven Worker Displacement Is a Serious Threat",
+      "authors": "Holly Buck and Matt Huber",
+      "publication": "Jacobin Magazine",
+      "date": "2025-07-14",
+      "url": "https://jacobin.com/2025/07/artificial-intelligence-worker-displacement-jobs",
+      "chapter_field": "ch6",
+      "relevance": "Analyzes AI displacement as structural economic threat with policy implications; connects labor loss to identity crisis and meaning deficit",
+      "keywords": [
+        "existential unemployment",
+        "skill decay",
+        "identity without work",
+        "meaning recession",
+        "post-work society"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
+    },
+    {
+      "id": "ch6-069",
+      "title": "Searching for Meaning in a Post-Scarcity Society: Implications for Creativity and Job Design",
+      "authors": "Pelligra and Sacco",
+      "publication": "Frontiers in Psychology",
+      "date": "2023",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1198424/full",
+      "chapter_field": "ch6",
+      "relevance": "Psychological and philosophical examination of meaning-making when survival-based work becomes obsolete; directly applies Frankl's meaning principles to post-work scenarios",
+      "keywords": [
+        "meaning recession",
+        "post-work society",
+        "Frankl existential psychology",
+        "identity without work",
+        "existential crisis from AI"
+      ],
+      "startHere": false,
+      "chapter": "ch6"
     }
   ]
 }

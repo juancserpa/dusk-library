@@ -1,8 +1,8 @@
 {
   "chapter": "ch4",
   "chapter_title": "The Next Scarcity: The Conductor",
-  "generated": "2026-03-07",
-  "entry_count": 60,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 69,
   "entries": [
     {
       "id": "ch4-001",
@@ -1665,6 +1665,155 @@
         "What happens to meaning and purpose?"
       ],
       "startHere": false
+    },
+    {
+      "id": "ch4-064",
+      "title": "The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI",
+      "source": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/projects/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/",
+      "publish_date": "2026",
+      "relevance": "Addresses strategic tensions, workflow redesign, governance, and roles required for agentic AI adoption—core to conductor/orchestrator models",
+      "topics": [
+        "AI orchestration",
+        "organizational change",
+        "governance",
+        "human-AI collaboration",
+        "workflow redesign"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-065",
+      "title": "The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption",
+      "source": "arXiv",
+      "url": "https://arxiv.org/html/2601.13671v1",
+      "publish_date": "2026",
+      "relevance": "Technical deep-dive on multi-agent orchestration architectures, protocols (MCP, A2A), and supervisor vs. adaptive patterns",
+      "topics": [
+        "multi-agent systems",
+        "orchestration protocols",
+        "architecture patterns",
+        "enterprise adoption"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-066",
+      "title": "2026 May Be the Year of Human and AI Agent Collaboration",
+      "source": "No Jitter",
+      "url": "https://www.nojitter.com/contact-centers/2026-may-be-year-of-human-and-ai-agent-collaboration",
+      "publish_date": "2026",
+      "relevance": "Examines human-AI agent teaming, technical infrastructure (MCP/A2A protocols), and how collaboration enhances customer experience",
+      "topics": [
+        "human-AI collaboration",
+        "agent teaming",
+        "orchestration protocols",
+        "workflow coordination"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-067",
+      "title": "How Multi-Agent Orchestration Powers Enterprise AI",
+      "source": "Kore.ai",
+      "url": "https://www.kore.ai/blog/what-is-multi-agent-orchestration",
+      "publish_date": "2025",
+      "relevance": "Explains six-stage orchestration process (intent capture, planning, role assignment, collaboration, monitoring, learning) essential for conductor models",
+      "topics": [
+        "multi-agent orchestration",
+        "enterprise AI",
+        "workflow coordination",
+        "governance",
+        "learning systems"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-068",
+      "title": "Agentic AI Strategy: Why Many Implementations Fail and How Leading Organizations Succeed",
+      "source": "Deloitte Insights",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+      "publish_date": "2026",
+      "relevance": "Identifies obstacles (legacy systems, data architecture, governance gaps) and success patterns for treating agents as silicon-based workforce",
+      "topics": [
+        "agentic strategy",
+        "implementation patterns",
+        "governance",
+        "workforce integration",
+        "operational redesign"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-069",
+      "title": "Agentic Workflow Automation: Enterprise Decision OS (2026 Guide)",
+      "source": "AmpCome",
+      "url": "https://www.ampcome.com/post/agentic-workflow-automation--the-new-operating-system-for-enterprise-decision-making-2026-guide",
+      "publish_date": "2026",
+      "relevance": "Frames agentic automation as operating system for continuous decision-making with execution capability, replacing traditional BI dashboards",
+      "topics": [
+        "workflow automation",
+        "decision-making systems",
+        "execution governance",
+        "enterprise operations"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-071",
+      "title": "Future of AI Agents: Top Trends in 2026",
+      "source": "SS&C Blue Prism",
+      "url": "https://www.blueprism.com/resources/blog/future-ai-agents-trends/",
+      "publish_date": "2026",
+      "relevance": "Covers ROI measurement, human-AI collaboration (38% will have agents as team members), orchestration, and governance frameworks for agent teams",
+      "topics": [
+        "AI agent trends",
+        "human-AI teams",
+        "agent orchestration",
+        "governance",
+        "workforce collaboration"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-072",
+      "title": "AI Agent Orchestration Patterns",
+      "source": "Microsoft Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+      "publish_date": "2026",
+      "relevance": "Technical documentation on sequential, concurrent, group chat, handoff, and magentic orchestration patterns for multi-agent systems",
+      "topics": [
+        "orchestration patterns",
+        "agent design",
+        "multi-agent workflows",
+        "architecture patterns"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
+    },
+    {
+      "id": "ch4-073",
+      "title": "Comparing AI and Human Decision-Making Mechanisms in Collaborative Experiments",
+      "source": "PMC/NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167486/",
+      "publish_date": "2025",
+      "relevance": "Research on complementarity in human-AI decision-making showing combined teams outperform either alone—foundation for centaur team effectiveness",
+      "topics": [
+        "human-AI collaboration",
+        "decision-making",
+        "complementarity",
+        "team performance",
+        "cognitive augmentation"
+      ],
+      "startHere": false,
+      "chapter": "ch4"
     }
   ]
 }

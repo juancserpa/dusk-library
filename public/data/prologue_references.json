@@ -1,8 +1,8 @@
 {
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
-  "generated": "2026-03-07",
-  "entry_count": 65,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 73,
   "entries": [
     {
       "id": "prologue-001",
@@ -1711,6 +1711,134 @@
         "Will AI take my job?"
       ],
       "startHere": false
+    },
+    {
+      "id": "prologue-066",
+      "title": "17 predictions for AI in 2026",
+      "url": "https://www.understandingai.org/p/17-predictions-for-ai-in-2026",
+      "source": "Understanding AI Newsletter",
+      "year": 2025,
+      "topics": [
+        "transformative AI",
+        "capability predictions",
+        "2026 timeline",
+        "economic impact"
+      ],
+      "relevance": "Directly addresses transformative AI capability predictions (software engineering tasks, autonomous vehicles, reasoning) with specific confidence levels, challenging the assumption of dramatic economic change.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-067",
+      "title": "Shrinking AGI timelines: a review of expert forecasts",
+      "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/",
+      "source": "80,000 Hours",
+      "year": 2025,
+      "topics": [
+        "AGI timeline",
+        "expert forecasts",
+        "superintelligence",
+        "governance readiness"
+      ],
+      "relevance": "Comprehensive analysis of expert predictions on AGI arrival dates from five distinct groups (industry leaders, academic researchers, forecasters, superforecasters), showing timeline compression and governance implications.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-068",
+      "title": "Artificial nervous systems—A new paradigm for artificial intelligence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8212122/",
+      "source": "PMC/PubMed Central",
+      "year": 2021,
+      "topics": [
+        "AI architecture",
+        "nervous system",
+        "biological inspiration",
+        "alternatives to transformers"
+      ],
+      "relevance": "Proposes artificial nervous systems (ANS) as a paradigm distinct from traditional machine learning, addressing the core concept of AI as nervous system rather than brain—directly aligns with prologue themes.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-069",
+      "title": "Policy and Governance | The 2025 AI Index Report",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/policy-and-governance",
+      "source": "Stanford Human-Centered AI Institute",
+      "year": 2025,
+      "topics": [
+        "AI governance",
+        "policy innovation",
+        "institutional readiness",
+        "global coordination"
+      ],
+      "relevance": "Stanford's authoritative annual AI Index examines governance capacity, policy gaps, and institutional frameworks needed for responsible AI development—directly addresses governance readiness.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-070",
+      "title": "2025: The Year AI Reasoning Models Took Over—A Month-by-Month Review of Frontier Breakthroughs",
+      "url": "https://www.gleech.org/ai2025",
+      "source": "Gleech Blog",
+      "year": 2025,
+      "topics": [
+        "AI reasoning",
+        "frontier models",
+        "benchmark performance",
+        "scaling paradigms"
+      ],
+      "relevance": "Detailed analysis of 2025's transformative breakthroughs in reasoning models, shifts from pretraining to inference-time compute, and models achieving gold-medal performance at International Math Olympiad—demonstrates AI surpassing humans.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-071",
+      "title": "New Skills and AI Are Reshaping the Future of Work",
+      "url": "https://www.imf.org/en/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work",
+      "source": "International Monetary Fund",
+      "year": 2026,
+      "topics": [
+        "labor markets",
+        "AI disruption",
+        "economic transformation",
+        "workforce adaptation"
+      ],
+      "relevance": "IMF analysis of AI's transformative economic impact on global workforce, addressing labor displacement, job creation paradoxes, and 15% productivity gains when AI is fully adopted.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-072",
+      "title": "Global AI Governance in 2025",
+      "url": "https://blog.worldsummit.ai/global-ai-governance-in-2025",
+      "source": "World Summit AI",
+      "year": 2025,
+      "topics": [
+        "AI governance",
+        "international coordination",
+        "regional approaches",
+        "regulatory frameworks"
+      ],
+      "relevance": "Comprehensive review of 2025 global AI governance landscape, including EU-US-China approaches, Paris AI Action Summit, and emerging international coordination mechanisms for AI safety.",
+      "startHere": false,
+      "chapter": "prologue"
+    },
+    {
+      "id": "prologue-074",
+      "title": "Identifying indicators of consciousness in AI systems",
+      "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00286-4",
+      "source": "Trends in Cognitive Sciences",
+      "year": 2025,
+      "topics": [
+        "AI consciousness",
+        "sentience",
+        "moral status",
+        "assessment methods"
+      ],
+      "relevance": "Peer-reviewed research on detecting consciousness in AI systems, addressing whether current or future AI might possess experiences warranting ethical consideration—relevant to transformation narrative.",
+      "startHere": false,
+      "chapter": "prologue"
     }
   ]
 }
