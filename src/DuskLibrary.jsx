@@ -520,19 +520,19 @@ export default function DuskLibrary() {
           {/* Text — right side */}
           <div style={{ flex: 1, minWidth: 280, textAlign: "left" }}>
             <div style={{
-              display: "inline-block", padding: "6px 20px", borderRadius: 20,
-              background: `${C.red}20`, border: `1px solid ${C.red}30`,
-              marginBottom: 16,
+              display: "inline-block", padding: "5px 16px", borderRadius: 4,
+              background: `${C.red}25`, border: `1px solid ${C.red}40`,
+              marginBottom: 20,
             }}>
-              <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: C.red, letterSpacing: "0.15em", textTransform: "uppercase" }}>
+              <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: "#e8a090", letterSpacing: "0.15em", textTransform: "uppercase" }}>
                 Companion Research Archive
               </span>
             </div>
 
-            <h1 style={{ margin: "0 0 6px", lineHeight: 1.1 }}>
+            <h1 style={{ margin: "0 0 8px", lineHeight: 1.1 }}>
               <span style={{
                 ...serif, display: "block",
-                fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 700,
+                fontSize: "clamp(34px, 4.5vw, 52px)", fontWeight: 700,
                 color: "#fff", letterSpacing: "-0.01em",
               }}>
                 AI <span style={{ color: C.red, fontStyle: "italic" }}>&</span> the Dusk of Humans
@@ -540,23 +540,23 @@ export default function DuskLibrary() {
             </h1>
 
             <p style={{
-              ...sans, fontSize: 16, color: C.pencilFaint,
-              fontWeight: 300, marginTop: 14, letterSpacing: "0.05em",
+              ...sans, fontSize: 17, color: "rgba(255,255,255,0.55)",
+              fontWeight: 400, marginTop: 6, letterSpacing: "0.04em",
             }}>
               Surviving as the Second-Smartest Species
             </p>
 
             <p style={{
-              ...sans, fontSize: 15, color: C.pencilLight, marginTop: 10,
+              ...sans, fontSize: 15, color: "rgba(255,255,255,0.5)", marginTop: 14,
             }}>
-              by <span style={{ fontWeight: 700, color: "#fff", fontSize: 17, letterSpacing: "0.02em" }}>Juan Camilo Serpa</span>
+              by <span style={{ fontWeight: 700, color: "#fff", fontSize: 18, letterSpacing: "0.02em" }}>Juan Camilo Serpa</span>
             </p>
 
-            <div style={{ width: 50, height: 2, background: `linear-gradient(90deg, ${C.red}, transparent)`, margin: "20px 0", borderRadius: 1 }} />
+            <div style={{ width: 50, height: 1.5, background: `linear-gradient(90deg, ${C.red}80, transparent)`, margin: "22px 0", borderRadius: 1 }} />
 
             <p style={{
-              ...sans, fontSize: 15, lineHeight: 1.7,
-              color: C.pencilLight, maxWidth: 500,
+              ...sans, fontSize: 15, lineHeight: 1.75,
+              color: "rgba(255,255,255,0.65)", maxWidth: 500,
             }}>
               {loading ? (
                 <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
@@ -571,7 +571,7 @@ export default function DuskLibrary() {
             {/* Stats ribbon */}
             {!loading && entries.length > 0 && (
               <div style={{
-                display: "flex", gap: 16, marginTop: 16, flexWrap: "wrap",
+                display: "flex", gap: 6, marginTop: 20, flexWrap: "wrap",
                 animation: "fadeIn 0.8s ease-out 0.3s both",
               }}>
                 {Object.entries(TYPE_META).map(([type, meta]) => {
@@ -580,17 +580,17 @@ export default function DuskLibrary() {
                   return (
                     <button key={type} onClick={() => { tog(setSelTypes, type); scrollToResults(); }}
                       style={{
-                        ...sans, fontSize: 11, color: C.pencilFaint, background: "none",
-                        border: "none", cursor: "pointer", display: "flex", alignItems: "center",
-                        gap: 5, padding: "4px 8px", borderRadius: 4,
+                        ...sans, fontSize: 11, color: "rgba(255,255,255,0.5)", background: "rgba(255,255,255,0.05)",
+                        border: "1px solid rgba(255,255,255,0.08)", cursor: "pointer", display: "flex", alignItems: "center",
+                        gap: 5, padding: "5px 10px", borderRadius: 6,
                         transition: "all 0.2s",
                       }}
-                      onMouseEnter={e => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.background = `${C.red}20`; }}
-                      onMouseLeave={e => { e.currentTarget.style.color = C.pencilFaint; e.currentTarget.style.background = "none"; }}
+                      onMouseEnter={e => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.background = `${C.red}30`; e.currentTarget.style.borderColor = `${C.red}50`; }}
+                      onMouseLeave={e => { e.currentTarget.style.color = "rgba(255,255,255,0.5)"; e.currentTarget.style.background = "rgba(255,255,255,0.05)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"; }}
                     >
                       <span style={{ fontSize: 13 }}>{meta.icon}</span>
-                      <span style={{ fontWeight: 600, color: "inherit" }}>{count}</span>
-                      <span style={{ opacity: 0.7 }}>{meta.label}s</span>
+                      <span style={{ fontWeight: 600, color: "rgba(255,255,255,0.8)" }}>{count}</span>
+                      <span>{meta.label}s</span>
                     </button>
                   );
                 })}
