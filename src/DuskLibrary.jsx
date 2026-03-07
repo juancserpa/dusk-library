@@ -468,6 +468,29 @@ export default function DuskLibrary() {
     }
   };
 
+  // Inject CSS animations and hover styles once
+  useEffect(() => {
+    if (document.getElementById("dusk-gallery-styles")) return;
+    const style = document.createElement("style");
+    style.id = "dusk-gallery-styles";
+    style.textContent = `
+      @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+      @keyframes fadeInUp { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: translateY(0) } }
+      @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: 0.5 } }
+      .cartoon-card:hover { transform: translateY(-4px) !important; box-shadow: 0 6px 20px rgba(42,33,24,0.10) !important; }
+      .cartoon-card:hover img { transform: scale(1.05); }
+      .cartoon-gallery::-webkit-scrollbar { height: 6px; }
+      .cartoon-gallery::-webkit-scrollbar-track { background: transparent; }
+      .cartoon-gallery::-webkit-scrollbar-thumb { background: #d8cfc3; border-radius: 3px; }
+      .cartoon-gallery::-webkit-scrollbar-thumb:hover { background: #bfb5a8; }
+      @media (max-width: 640px) {
+        .cartoon-card { width: 160px !important; }
+        .cartoon-card > div:first-child { height: 100px !important; }
+      }
+    `;
+    document.head.appendChild(style);
+  }, []);
+
   // Type stats for the stats bar
   const typeStats = useMemo(() => {
     const counts = {};
@@ -489,21 +512,21 @@ export default function DuskLibrary() {
           backgroundImage: `radial-gradient(circle at 20% 50%, ${C.red} 1px, transparent 1px), radial-gradient(circle at 80% 20%, ${C.red} 1px, transparent 1px)`,
           backgroundSize: "60px 60px, 80px 80px",
         }} />
-        <div style={{
-          maxWidth: 1000, margin: "0 auto", padding: "48px 32px 40px",
+        <div className="hero-inner" style={{
+          maxWidth: 1000, margin: "0 auto", padding: "40px 32px 32px",
           position: "relative", zIndex: 1,
-          display: "flex", alignItems: "center", gap: 48,
+          display: "flex", alignItems: "center", gap: 36,
           animation: "fadeInUp 0.6s ease-out",
           flexWrap: "wrap", justifyContent: "center",
         }}>
           {/* Book cover — left side */}
-          <div style={{
+          <div className="hero-cover" style={{
             flexShrink: 0, position: "relative",
             perspective: "800px",
           }}>
             <img src="/cover.jpg" alt="AI and the Dusk of Humans — book cover"
               style={{
-                width: 200, height: "auto", borderRadius: 6,
+                width: 160, height: "auto", borderRadius: 6,
                 boxShadow: `8px 8px 30px rgba(0,0,0,0.4), 0 0 60px ${C.red}15`,
                 transition: "transform 0.4s ease",
               }}
@@ -511,12 +534,6 @@ export default function DuskLibrary() {
               onMouseLeave={e => e.currentTarget.style.transform = "rotateY(0) scale(1)"}
               onError={e => { e.target.style.display = "none"; }}
             />
-            {/* Subtle glow behind cover */}
-            <div style={{
-              position: "absolute", inset: -20, borderRadius: 20,
-              background: `radial-gradient(ellipse, ${C.red}08 0%, transparent 70%)`,
-              zIndex: -1, animation: "pulse 4s ease-in-out infinite",
-            }} />
           </div>
 
           {/* Text — right side */}
@@ -554,206 +571,85 @@ export default function DuskLibrary() {
               by <span style={{ fontWeight: 700, color: "#fff", fontSize: 18, letterSpacing: "0.02em" }}>Juan Camilo Serpa</span>
             </p>
 
-            <div style={{ width: 50, height: 1.5, background: `linear-gradient(90deg, ${C.red}80, transparent)`, margin: "22px 0", borderRadius: 1 }} />
-
-            <p style={{
-              ...sans, fontSize: 15, lineHeight: 1.75,
-              color: "rgba(255,255,255,0.65)", maxWidth: 500,
-            }}>
-              {loading ? (
-                <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
-              ) : (
-                <>
-                  The companion archive to the upcoming book — <span style={{ color: "#fff", fontWeight: 600 }}>{entries.length.toLocaleString()}</span>
-                  {" "}curated sources. Every article, podcast, paper & book that shaped the arguments, so you can follow the trail yourself.
-                </>
-              )}
-            </p>
-
-            {/* Stats ribbon */}
             {!loading && entries.length > 0 && (
-              <div style={{
-                display: "flex", gap: 6, marginTop: 20, flexWrap: "wrap",
-                animation: "fadeIn 0.8s ease-out 0.3s both",
+              <p style={{
+                ...sans, fontSize: 13, color: "rgba(255,255,255,0.45)", marginTop: 14,
               }}>
-                {Object.entries(TYPE_META).map(([type, meta]) => {
-                  const count = typeStats[type];
-                  if (!count) return null;
-                  return (
-                    <button key={type} onClick={() => { tog(setSelTypes, type); scrollToResults(); }}
-                      style={{
-                        ...sans, fontSize: 11, color: "rgba(255,255,255,0.5)", background: "rgba(255,255,255,0.05)",
-                        border: "1px solid rgba(255,255,255,0.08)", cursor: "pointer", display: "flex", alignItems: "center",
-                        gap: 5, padding: "5px 10px", borderRadius: 6,
-                        transition: "all 0.2s",
-                      }}
-                      onMouseEnter={e => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.background = `${C.red}30`; e.currentTarget.style.borderColor = `${C.red}50`; }}
-                      onMouseLeave={e => { e.currentTarget.style.color = "rgba(255,255,255,0.5)"; e.currentTarget.style.background = "rgba(255,255,255,0.05)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"; }}
-                    >
-                      <span style={{ fontSize: 13 }}>{meta.icon}</span>
-                      <span style={{ fontWeight: 600, color: "rgba(255,255,255,0.8)" }}>{count}</span>
-                      <span>{meta.label}s</span>
-                    </button>
-                  );
-                })}
-              </div>
+                <span style={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>{entries.length.toLocaleString()}</span> curated sources — articles, podcasts, papers & books
+              </p>
             )}
           </div>
         </div>
       </header>
 
-      {/* ABOUT THIS ARCHIVE — expandable */}
+      {/* COMPACT TOOLBAR — About + Browse toggles */}
       <section style={{
-        maxWidth: 900, margin: "0 auto", padding: "24px 32px 0",
+        maxWidth: 900, margin: "0 auto", padding: "16px 32px 0",
+        display: "flex", gap: 8, flexWrap: "wrap",
       }}>
         <button onClick={() => setShowAbout(!showAbout)}
           style={{
-            ...sans, fontSize: 13, fontWeight: 600, color: C.pencil,
-            background: "none", border: `1px solid ${C.rule}`,
-            padding: "10px 20px", borderRadius: 8, cursor: "pointer",
-            display: "flex", alignItems: "center", gap: 8,
+            ...sans, fontSize: 12, fontWeight: 600, color: C.pencil,
+            background: showAbout ? C.softWhite : "none",
+            border: `1px solid ${showAbout ? C.red + "40" : C.rule}`,
+            padding: "8px 16px", borderRadius: 8, cursor: "pointer",
+            display: "flex", alignItems: "center", gap: 6,
             transition: "all 0.2s",
-            width: "100%", justifyContent: "center",
-          }}
-          onMouseEnter={e => { e.currentTarget.style.background = C.softWhite; e.currentTarget.style.borderColor = C.red + "40"; }}
-          onMouseLeave={e => { e.currentTarget.style.background = "none"; e.currentTarget.style.borderColor = C.rule; }}
-        >
-          <span style={{ fontSize: 15 }}>📖</span>
-          {showAbout ? "Hide" : "About this archive"}
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2" strokeLinecap="round"
+          }}>
+          <span style={{ fontSize: 13 }}>📖</span> About
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2.5" strokeLinecap="round"
             style={{ transition: "transform 0.25s", transform: showAbout ? "rotate(180deg)" : "rotate(0deg)" }}>
             <polyline points="6 9 12 15 18 9"/>
           </svg>
         </button>
-
-        {showAbout && (
-          <div style={{
-            marginTop: 16, padding: "28px 24px",
-            background: C.softWhite, borderRadius: 12,
-            border: `1px solid ${C.rule}`,
-            animation: "fadeIn 0.3s ease-out",
-          }}>
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-              gap: 20,
-            }}>
-              <AboutCard
-                icon="🧠"
-                title="What is this?"
-                text="This is the living bibliography behind 'AI and the Dusk of Humans.' Every source that shaped the book's arguments — from landmark papers to contrarian podcasts — curated and annotated so you can follow the trail."
-              />
-              <AboutCard
-                icon="🧭"
-                title="How to explore"
-                text={`Browse by the ${QUESTIONS.length} questions the book tackles, filter by chapter, media type, or difficulty. The 'Start Here' picks are a curated on-ramp if you're short on time.`}
-              />
-              <AboutCard
-                icon="📊"
-                title="By the numbers"
-                text={loading ? "Loading..." : `${entries.length} sources across ${activeChapters.length} chapters. ${startHereItems.length} essential picks. Updated regularly as new research appears.`}
-              />
-            </div>
-          </div>
-        )}
-      </section>
-
-      {/* ILLUSTRATIONS GALLERY STRIP */}
-      <section style={{ maxWidth: 1000, margin: "0 auto", padding: "36px 0 0" }}>
-        <h2 style={{
-          ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint,
-          letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 16,
-          paddingLeft: 32,
-        }}>
-          Illustrations from the book
-        </h2>
-        <div className="cartoon-gallery" style={{
-          display: "flex", gap: 16, overflowX: "auto", overflowY: "hidden",
-          padding: "0 32px 16px", scrollSnapType: "x mandatory",
-          WebkitOverflowScrolling: "touch",
-          scrollbarWidth: "thin", scrollbarColor: `${C.rule} transparent`,
-        }}>
-          {CARTOON_CHAPTERS.map(chId => {
-            const cartoon = CHAPTER_CARTOONS[chId];
-            const ch = CHAPTERS.find(c => c.id === chId);
-            const isActive = selChapter === chId;
-            return (
-              <button key={chId}
-                onClick={() => setSelChapter(isActive ? null : chId)}
-                className="cartoon-card"
-                style={{
-                  flex: "0 0 auto", width: 200, cursor: "pointer",
-                  background: isActive ? C.redSoft : C.softWhite,
-                  border: `1.5px solid ${isActive ? C.red + "60" : C.rule}`,
-                  borderRadius: 12, overflow: "hidden",
-                  scrollSnapAlign: "start",
-                  transition: "all 0.25s ease",
-                  boxShadow: isActive
-                    ? `0 4px 16px ${C.red}15`
-                    : "0 2px 8px rgba(42,33,24,0.04)",
-                  padding: 0, textAlign: "left",
-                  transform: isActive ? "translateY(-2px)" : "none",
-                }}>
-                <div style={{
-                  width: "100%", height: 130, overflow: "hidden",
-                  background: C.cream,
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                }}>
-                  <img src={cartoon.src} alt={cartoon.alt} loading="lazy"
-                    style={{
-                      width: "100%", height: "100%",
-                      objectFit: "cover",
-                      filter: "grayscale(0.05) contrast(1.05)",
-                      transition: "transform 0.3s ease",
-                    }}
-                  />
-                </div>
-                <div style={{ padding: "10px 12px 12px" }}>
-                  <div style={{
-                    ...sans, fontSize: 10, fontWeight: 600,
-                    color: isActive ? C.red : C.pencilLight,
-                    textTransform: "uppercase", letterSpacing: "0.1em",
-                    marginBottom: 4,
-                  }}>
-                    {ch?.label || chId}
-                  </div>
-                  <div style={{
-                    ...serif, fontSize: 12.5, fontWeight: 500,
-                    color: C.ink, lineHeight: 1.35,
-                    display: "-webkit-box", WebkitLineClamp: 2,
-                    WebkitBoxOrient: "vertical", overflow: "hidden",
-                  }}>
-                    {cartoon.title}
-                  </div>
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* BROWSE & FILTER TOGGLE */}
-      <section style={{ maxWidth: 900, margin: "0 auto", padding: "20px 32px 0" }}>
         <button onClick={() => setShowBrowse(!showBrowse)}
           style={{
-            ...sans, fontSize: 13, fontWeight: 600, color: C.pencil,
-            background: "none", border: `1px solid ${C.rule}`,
-            padding: "10px 20px", borderRadius: 8, cursor: "pointer",
-            display: "flex", alignItems: "center", gap: 8,
+            ...sans, fontSize: 12, fontWeight: 600, color: C.pencil,
+            background: showBrowse ? C.softWhite : "none",
+            border: `1px solid ${showBrowse ? C.red + "40" : C.rule}`,
+            padding: "8px 16px", borderRadius: 8, cursor: "pointer",
+            display: "flex", alignItems: "center", gap: 6,
             transition: "all 0.2s",
-            width: "100%", justifyContent: "center",
-          }}
-          onMouseEnter={e => { e.currentTarget.style.background = C.softWhite; e.currentTarget.style.borderColor = C.red + "40"; }}
-          onMouseLeave={e => { e.currentTarget.style.background = "none"; e.currentTarget.style.borderColor = C.rule; }}
-        >
-          <span style={{ fontSize: 15 }}>🔍</span>
-          {showBrowse ? "Hide filters" : "Browse by chapter, question & filters"}
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2" strokeLinecap="round"
+          }}>
+          <span style={{ fontSize: 13 }}>🔍</span> Browse & Filter
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2.5" strokeLinecap="round"
             style={{ transition: "transform 0.25s", transform: showBrowse ? "rotate(180deg)" : "rotate(0deg)" }}>
             <polyline points="6 9 12 15 18 9"/>
           </svg>
         </button>
       </section>
+
+      {/* ABOUT — expandable */}
+      {showAbout && (
+        <section style={{
+          maxWidth: 900, margin: "0 auto", padding: "12px 32px 0",
+          animation: "fadeIn 0.3s ease-out",
+        }}>
+          <div style={{
+            padding: "20px", background: C.softWhite, borderRadius: 10,
+            border: `1px solid ${C.rule}`,
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+            gap: 16,
+          }}>
+            <AboutCard
+              icon="🧠"
+              title="What is this?"
+              text="The living bibliography behind the book. Every source that shaped the arguments — curated and annotated so you can follow the trail."
+            />
+            <AboutCard
+              icon="🧭"
+              title="How to explore"
+              text={`Browse by the ${QUESTIONS.length} questions the book tackles, filter by chapter, media type, or difficulty. 'Start Here' picks are a curated on-ramp.`}
+            />
+            <AboutCard
+              icon="📊"
+              title="By the numbers"
+              text={loading ? "Loading..." : `${entries.length} sources across ${activeChapters.length} chapters. ${startHereItems.length} essential picks.`}
+            />
+          </div>
+        </section>
+      )}
 
       {showBrowse && (<>
       {/* CHAPTER TABS */}
@@ -798,49 +694,35 @@ export default function DuskLibrary() {
         </section>
       )}
 
-      {/* CHAPTER CARTOON BANNER */}
+      {/* CHAPTER CARTOON — compact inline preview */}
       {selChapter && CHAPTER_CARTOONS[selChapter] && (
-        <div className="cartoon-banner" style={{
-          maxWidth: 900, margin: "0 auto", padding: "24px 32px 0",
-          animation: "fadeIn 0.4s ease-out",
+        <div style={{
+          maxWidth: 900, margin: "0 auto", padding: "12px 32px 0",
+          animation: "fadeIn 0.3s ease-out",
         }}>
           <div style={{
-            position: "relative",
-            background: C.softWhite,
-            border: `1px solid ${C.rule}`,
-            borderRadius: 14,
-            overflow: "hidden",
-            display: "flex",
-            justifyContent: "center",
-            padding: "24px 24px 16px",
+            display: "flex", alignItems: "center", gap: 14,
+            background: C.softWhite, border: `1px solid ${C.rule}`,
+            borderRadius: 10, padding: "10px 16px", overflow: "hidden",
           }}>
             <img
               src={CHAPTER_CARTOONS[selChapter].src}
               alt={CHAPTER_CARTOONS[selChapter].alt}
               loading="lazy"
               style={{
-                maxWidth: "100%",
-                maxHeight: 340,
-                objectFit: "contain",
-                borderRadius: 8,
+                width: 80, height: 60, objectFit: "cover",
+                borderRadius: 6, flexShrink: 0,
                 filter: "grayscale(0.1) contrast(1.05)",
               }}
             />
-            <div style={{
-              position: "absolute", bottom: 0, left: 0, right: 0,
-              height: 48,
-              background: `linear-gradient(transparent, ${C.softWhite})`,
-              pointerEvents: "none",
-            }} />
-            <span style={{
-              ...sans, position: "absolute", top: 12, right: 16,
-              fontSize: 9, fontWeight: 600, letterSpacing: "0.12em",
-              textTransform: "uppercase", color: C.pencilFaint,
-              background: `${C.cream}dd`, padding: "3px 10px",
-              borderRadius: 6, backdropFilter: "blur(4px)",
-            }}>
-              From the book
-            </span>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <span style={{ ...sans, fontSize: 10, fontWeight: 600, color: C.pencilLight, textTransform: "uppercase", letterSpacing: "0.1em" }}>
+                Illustration from the book
+              </span>
+              <div style={{ ...serif, fontSize: 13, fontWeight: 500, color: C.ink, lineHeight: 1.35, marginTop: 2 }}>
+                {CHAPTER_CARTOONS[selChapter].title}
+              </div>
+            </div>
           </div>
         </div>
       )}
