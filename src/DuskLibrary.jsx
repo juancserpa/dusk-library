@@ -383,6 +383,7 @@ export default function DuskLibrary() {
   const [selTypes, setSelTypes] = useState([]);
   const [selDiff, setSelDiff] = useState([]);
   const [selChapter, setSelChapter] = useState(null);
+  const [selYear, setSelYear] = useState("");
   const [sort, setSort] = useState("chapter");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [expanded, setExpanded] = useState(null);
@@ -411,6 +412,11 @@ export default function DuskLibrary() {
     return CHAPTERS.filter(c => set.has(c.id));
   }, [entries]);
 
+  const availableYears = useMemo(() => {
+    const set = new Set(entries.map(e => e.year).filter(Boolean));
+    return [...set].sort((a, b) => b - a);
+  }, [entries]);
+
   const [debouncedSearch, setDebouncedSearch] = useState("");
   useEffect(() => {
     const t = setTimeout(() => setDebouncedSearch(search), 200);
@@ -433,6 +439,7 @@ export default function DuskLibrary() {
     if (selKw.length) r = r.filter(i => selKw.some(k => (i.keywords || []).includes(k)));
     if (selTypes.length) r = r.filter(i => selTypes.includes(i.type));
     if (selDiff.length) r = r.filter(i => selDiff.includes(i.difficulty));
+    if (selYear) r = r.filter(i => i.year === Number(selYear));
     if (selChapter) r = r.filter(i => i.chapter === selChapter);
     r.sort((a, b) => {
       if (sort === "chapter") {
@@ -446,18 +453,18 @@ export default function DuskLibrary() {
     });
     r.sort((a, b) => (b.startHere ? 1 : 0) - (a.startHere ? 1 : 0));
     return r;
-  }, [entries, debouncedSearch, selQ, selKw, selTypes, selDiff, selChapter, sort]);
+  }, [entries, debouncedSearch, selQ, selKw, selTypes, selDiff, selYear, selChapter, sort]);
 
   const totalPages = Math.ceil(results.length / PER);
   const visible = results.slice((page - 1) * PER, page * PER);
-  useEffect(() => setPage(1), [debouncedSearch, selQ, selKw, selTypes, selDiff, selChapter]);
+  useEffect(() => setPage(1), [debouncedSearch, selQ, selKw, selTypes, selDiff, selYear, selChapter]);
 
   const startHereItems = useMemo(() => entries.filter(i => i.startHere), [entries]);
-  const hasFilters = selQ.length > 0 || selKw.length > 0 || selTypes.length > 0 || selDiff.length > 0 || selChapter || search;
-  const activeFilterCount = selQ.length + selKw.length + selTypes.length + selDiff.length + (selChapter ? 1 : 0);
+  const hasFilters = selQ.length > 0 || selKw.length > 0 || selTypes.length > 0 || selDiff.length > 0 || selYear || selChapter || search;
+  const activeFilterCount = selQ.length + selKw.length + selTypes.length + selDiff.length + (selYear ? 1 : 0) + (selChapter ? 1 : 0);
 
   const clearAll = useCallback(() => {
-    setSelQ([]); setSelKw([]); setSelTypes([]); setSelDiff([]); setSelChapter(null); setSearch("");
+    setSelQ([]); setSelKw([]); setSelTypes([]); setSelDiff([]); setSelYear(""); setSelChapter(null); setSearch("");
   }, []);
 
   const tog = (set, v) => set(p => p.includes(v) ? p.filter(x => x !== v) : [...p, v]);
@@ -895,6 +902,25 @@ export default function DuskLibrary() {
             ))}
           </FRow>
 
+          {/* Year filter */}
+          {availableYears.length > 0 && (
+            <div>
+              <div style={{ ...sans, fontSize: 10, fontWeight: 600, color: C.pencilLight, textTransform: "uppercase", letterSpacing: "0.14em", marginBottom: 8 }}>Year</div>
+              <select value={selYear} onChange={e => setSelYear(e.target.value)}
+                style={{
+                  ...sans, fontSize: 12, padding: "7px 28px 7px 10px", borderRadius: 6,
+                  background: "transparent", border: `1.5px solid ${C.rule}`,
+                  color: C.pencil, cursor: "pointer", fontWeight: 500, width: "100%",
+                  appearance: "none",
+                  backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
+                  backgroundRepeat: "no-repeat", backgroundPosition: "right 8px center",
+                }}>
+                <option value="">All years</option>
+                {availableYears.map(y => <option key={y} value={y}>{y}</option>)}
+              </select>
+            </div>
+          )}
+
           {/* Keyword filters */}
           {allKeywords.length > 0 && (
             <FRow label="Keywords" last>
@@ -929,6 +955,10 @@ export default function DuskLibrary() {
                     <ActiveChip label={CHAPTERS.find(c => c.id === selChapter)?.short || selChapter}
                       onRemove={() => setSelChapter(null)} color={C.red} />
                   )}
+                  {selYear && (
+                    <ActiveChip label={`Year: ${selYear}`}
+                      onRemove={() => setSelYear("")} color={C.pencil} />
+                  )}
                   {selQ.map(q => {
                     const qd = QUESTIONS.find(x => x.label === q);
                     return <ActiveChip key={q} label={`${qd?.icon || ""} ${q}`} onRemove={() => tog(setSelQ, q)} color={qd?.color || C.pencil} />;
@@ -956,10 +986,11 @@ export default function DuskLibrary() {
 
         {/* Mobile search bar — hidden on desktop, shown <=860px */}
         <div className="mobile-search-bar" style={{
-          display: "none", gap: 8, marginBottom: 16, alignItems: "center",
+          display: "none", flexDirection: "column", gap: 8, marginBottom: 16,
         }}>
+          {/* Row 1: Search */}
           <div style={{
-            display: "flex", alignItems: "center", gap: 8, flex: 1,
+            display: "flex", alignItems: "center", gap: 8,
             background: C.softWhite, border: `1.5px solid ${C.rule}`,
             borderRadius: 8, padding: "8px 12px",
           }}>
@@ -983,46 +1014,61 @@ export default function DuskLibrary() {
                 }}>×</button>
             )}
           </div>
-          <select value={sort} onChange={e => setSort(e.target.value)}
-            style={{
-              ...sans, fontSize: 11, padding: "8px 24px 8px 10px", borderRadius: 6,
-              background: C.softWhite, border: `1.5px solid ${C.rule}`,
-              color: C.pencil, cursor: "pointer", fontWeight: 500,
-              appearance: "none",
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
-              backgroundRepeat: "no-repeat", backgroundPosition: "right 8px center",
+          {/* Row 2: Sort + Year + View */}
+          <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+            <select value={sort} onChange={e => setSort(e.target.value)}
+              style={{
+                ...sans, fontSize: 11, padding: "7px 22px 7px 8px", borderRadius: 6,
+                background: C.softWhite, border: `1.5px solid ${C.rule}`,
+                color: C.pencil, cursor: "pointer", fontWeight: 500, flex: 1,
+                appearance: "none",
+                backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
+                backgroundRepeat: "no-repeat", backgroundPosition: "right 6px center",
+              }}>
+              <option value="chapter">By chapter</option>
+              <option value="year">Newest first</option>
+              <option value="title">A → Z</option>
+            </select>
+            <select value={selYear} onChange={e => setSelYear(e.target.value)}
+              style={{
+                ...sans, fontSize: 11, padding: "7px 22px 7px 8px", borderRadius: 6,
+                background: C.softWhite, border: `1.5px solid ${selYear ? C.red + "50" : C.rule}`,
+                color: selYear ? C.red : C.pencil, cursor: "pointer", fontWeight: 500, flex: 1,
+                appearance: "none",
+                backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
+                backgroundRepeat: "no-repeat", backgroundPosition: "right 6px center",
+              }}>
+              <option value="">All years</option>
+              {availableYears.map(y => <option key={y} value={y}>{y}</option>)}
+            </select>
+            <div style={{
+              display: "flex", borderRadius: 6, overflow: "hidden",
+              border: `1.5px solid ${C.rule}`, flexShrink: 0,
             }}>
-            <option value="chapter">By chapter</option>
-            <option value="year">Newest first</option>
-            <option value="title">A → Z</option>
-          </select>
-          <div style={{
-            display: "flex", borderRadius: 6, overflow: "hidden",
-            border: `1.5px solid ${C.rule}`,
-          }}>
-            <button onClick={() => setViewMode("list")}
-              style={{
-                ...sans, padding: "7px 9px", cursor: "pointer",
-                background: viewMode === "list" ? C.redSoft : "transparent",
-                border: "none", color: viewMode === "list" ? C.red : C.pencilLight,
-                display: "flex", alignItems: "center",
-              }}>
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
-              </svg>
-            </button>
-            <button onClick={() => setViewMode("grid")}
-              style={{
-                ...sans, padding: "7px 9px", cursor: "pointer",
-                background: viewMode === "grid" ? C.redSoft : "transparent",
-                border: "none", borderLeft: `1px solid ${C.rule}`,
-                color: viewMode === "grid" ? C.red : C.pencilLight,
-                display: "flex", alignItems: "center",
-              }}>
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
-              </svg>
-            </button>
+              <button onClick={() => setViewMode("list")}
+                style={{
+                  ...sans, padding: "6px 8px", cursor: "pointer",
+                  background: viewMode === "list" ? C.redSoft : "transparent",
+                  border: "none", color: viewMode === "list" ? C.red : C.pencilLight,
+                  display: "flex", alignItems: "center",
+                }}>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+              </button>
+              <button onClick={() => setViewMode("grid")}
+                style={{
+                  ...sans, padding: "6px 8px", cursor: "pointer",
+                  background: viewMode === "grid" ? C.redSoft : "transparent",
+                  border: "none", borderLeft: `1px solid ${C.rule}`,
+                  color: viewMode === "grid" ? C.red : C.pencilLight,
+                  display: "flex", alignItems: "center",
+                }}>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 

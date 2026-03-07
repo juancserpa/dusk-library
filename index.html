@@ -93,9 +93,18 @@
         }
       }
       @media (max-width: 860px) {
-        .sidebar-layout { flex-direction: column !important; }
+        .sidebar-layout {
+          flex-direction: column !important;
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
         .sidebar-layout > aside.left-sidebar {
           display: none !important;
+        }
+        .sidebar-layout > main {
+          width: 100% !important;
+          min-width: 0 !important;
+          overflow-x: hidden !important;
         }
         .mobile-search-bar { display: flex !important; }
       }
@@ -110,7 +119,9 @@
         .q-chips-row::-webkit-scrollbar, .ch-tabs-row::-webkit-scrollbar { display: none; }
         .q-chips-row .q-chip { white-space: nowrap; flex-shrink: 0; }
         .ch-tabs-row .ch-tab { white-space: nowrap; flex-shrink: 0; }
-        .mobile-collapse-section { padding-top: 12px !important; }
+        .mobile-collapse-section { padding-top: 12px !important; padding-left: 16px !important; padding-right: 16px !important; }
+        .hero-inner { padding: 28px 16px 24px !important; gap: 24px !important; }
+        .hero-cover img { width: 120px !important; }
         .mobile-collapse-section h2 { margin-bottom: 8px !important; }
       }
     </style>
