@@ -1,8 +1,8 @@
 {
   "chapter": "ch4",
   "chapter_title": "The Next Scarcity: The Conductor",
-  "generated": "2026-03-05",
-  "entry_count": 58,
+  "generated": "2026-03-07",
+  "entry_count": 60,
   "entries": [
     {
       "id": "ch4-001",
@@ -1610,6 +1610,60 @@
       "why_it_matters": "Provides theoretical foundation for ch4's conductor concept. Complementarity—not replacement—is the key insight. Conductors design workflows exploiting human-AI complementarity rather than trying to make AI fully autonomous.",
       "summary": "Recent research examines what true human-AI complementarity looks like. Teams achieve superior performance when they leverage specialized strengths: AI handles information synthesis and pattern detection at scale, while humans contribute judgment, context, ethical reasoning, and novel problem-solving. The conductor orchestrates these complementary strengths rather than trying to eliminate human involvement.",
       "bibtex": "@article{complement2025,\n  title={Complementarity in Human-AI Collaboration: Concept, Sources, and Evidence},\n  journal={Taylor & Francis Online},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-062",
+      "title": "Agentic AI Is Already Changing the Workforce",
+      "author": "Harvard Business Review",
+      "source": "HBR",
+      "url": "https://hbr.org/2025/05/agentic-ai-is-already-changing-the-workforce",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "18 min",
+      "chapter": "ch4",
+      "hook": "Organizations must treat AI agents as team members with defined roles and reporting lines — this is no longer speculation, it's happening now.",
+      "why_it_matters": "Shows how the Conductor model is reshaping organizational structure and workforce planning in real time.",
+      "summary": "Describes how leading organizations are incorporating AI agents into organizational charts, managing them with talent management processes applied to humans.",
+      "keywords": [
+        "AI team members",
+        "organizational structure",
+        "human-AI teams",
+        "workforce integration"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch4-063",
+      "title": "The 2026 Guide to Agentic Workflow Architectures",
+      "author": "Stack AI",
+      "source": "Stack AI Blog",
+      "url": "https://www.stackai.com/blog/the-2026-guide-to-agentic-workflow-architectures",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2026,
+      "time": "22 min",
+      "chapter": "ch4",
+      "hook": "The architecture of orchestrated AI systems reveals how to actually build the Conductor model: modular agents, clear interfaces, strategic handoff.",
+      "why_it_matters": "Practical architectural patterns for implementing orchestrated agent teams, bridging theory and implementation of the Conductor concept.",
+      "summary": "Guide covering orchestration patterns, agent communication, task decomposition, and workflow design for multi-agent systems requiring human strategic oversight.",
+      "keywords": [
+        "agent architecture",
+        "workflow design",
+        "orchestration patterns",
+        "modular agents"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
       "startHere": false
     }
   ]

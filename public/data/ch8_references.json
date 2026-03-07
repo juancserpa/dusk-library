@@ -1,8 +1,8 @@
 {
   "chapter": "ch8",
   "chapter_title": "The Shelf Life",
-  "generated": "2026-03-06",
-  "entry_count": 5,
+  "generated": "2026-03-07",
+  "entry_count": 10,
   "entries": [
     {
       "id": "ch8-001",
@@ -138,6 +138,139 @@
       "startHere": true,
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488497/",
       "chapter": "ch8"
+    },
+    {
+      "id": "ch8-006",
+      "title": "Cognitive Offloading or Cognitive Overload? How AI Alters the Mental Architecture of Coping",
+      "author": "PMC Research Contributors",
+      "source": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678390/",
+      "type": "paper",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "18 min",
+      "chapter": "ch8",
+      "hook": "Delegating judgment to AI doesn't free cognition — it weakens the mental architectures we need for wisdom, authenticity, and genuine understanding.",
+      "why_it_matters": "Directly addresses cognitive outsourcing as mental architecture degradation, examining how taste/memory/judgment delegation affects authentic thinking.",
+      "summary": "Research examining how AI-enabled cognitive offloading affects psychological capacity, including paradoxes where convenience reduces capability.",
+      "keywords": [
+        "cognitive offloading",
+        "judgment delegation",
+        "mental architecture",
+        "outsourcing cognition"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch8-007",
+      "title": "Habitual Use of GPS Negatively Impacts Spatial Memory During Self-Guided Navigation",
+      "author": "Neuroscience Research Team",
+      "source": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7156656/",
+      "type": "paper",
+      "difficulty": "moderate",
+      "year": 2024,
+      "time": "14 min",
+      "chapter": "ch8",
+      "hook": "GPS use correlates with spatial memory decline — the more we delegate navigation to machines, the less capable we become at authentic wayfinding.",
+      "why_it_matters": "Provides the concrete neuroscience behind the GPS hippocampus analogy, showing exactly how outsourcing judgment weakens neural systems.",
+      "summary": "Quantitative research showing dose-dependent decline in spatial memory from habitual GPS use, with hippocampal implications for cognitive outsourcing.",
+      "keywords": [
+        "GPS",
+        "spatial memory",
+        "hippocampus",
+        "cognitive offloading",
+        "neural plasticity"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Am I still the real me?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch8-008",
+      "title": "The Outsourced Mind: Navigating the Risks and Rewards of Cognitive Offloading",
+      "author": "Adnan Masood",
+      "source": "Medium",
+      "url": "https://medium.com/@adnanmasood/the-outsourced-mind-navigating-the-risks-and-rewards-of-cognitive-offloading-9e1e70ee2efb",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "12 min",
+      "chapter": "ch8",
+      "hook": "Humans have always externalized memory, but AI changes everything: we're outsourcing judgment and taste itself, risking authentic voice extinction.",
+      "why_it_matters": "Philosophical perspective on cognitive outsourcing as a fundamental shift from memory delegation to judgment delegation.",
+      "summary": "Exploration of how cognitive offloading through AI differs from historical externalization, examining risks to authentic judgment, taste, and voice.",
+      "keywords": [
+        "cognitive offloading",
+        "judgment delegation",
+        "authentic voice",
+        "taste outsourcing"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Am I still the real me?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch8-009",
+      "title": "AI & Authenticity: How Ghostwriting Is Evolving in 2025",
+      "author": "Oxford Book Writing",
+      "source": "Oxford Book Writing",
+      "url": "https://oxfordbookwriting.com/blog/ai-authenticity-ghostwriting-2025/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2025,
+      "time": "9 min",
+      "chapter": "ch8",
+      "hook": "The publishing industry is splitting: top-tier writers promise 'no AI' while bottom-tier expects full AI writing — authenticity has become a luxury.",
+      "why_it_matters": "Real-world evidence of how AI writing delegation fractures markets based on authenticity perception.",
+      "summary": "Industry perspective on AI's impact on ghostwriting, voice authenticity, and market division between AI-assisted and authentically human writing.",
+      "keywords": [
+        "authenticity",
+        "AI ghostwriting",
+        "voice",
+        "writing delegation"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Am I still the real me?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch8-010",
+      "title": "Outsourcing Cognition: The Psychological Costs of AI-Era Convenience",
+      "author": "Frontiers in Psychology",
+      "source": "Frontiers",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645237/full",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "22 min",
+      "chapter": "ch8",
+      "hook": "Cognitive outsourcing trades authentic judgment for convenience, but the costs accumulate silently — skill erosion, judgment atrophy, loss of genuine voice.",
+      "why_it_matters": "Comprehensive psychological framework for understanding how taste/memory/judgment delegation erodes authentic cognitive capacity.",
+      "summary": "Research on psychological costs of cognitive outsourcing to AI, including memory externalization, judgment delegation, and authenticity loss.",
+      "keywords": [
+        "cognitive outsourcing",
+        "psychological costs",
+        "authenticity",
+        "judgment delegation"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": false
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "chapter": "ch5",
   "chapter_title": "The Conductor's Five Instruments",
-  "generated": "2026-03-05",
-  "entry_count": 67,
+  "generated": "2026-03-07",
+  "entry_count": 70,
   "entries": [
     {
       "id": "ch5-001",
@@ -503,7 +503,7 @@
       "type": "video",
       "year": 2023,
       "month": 4,
-      "url": "https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt",
+      "url": "https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt_s_astonishing_potential",
       "chapter": "ch5",
       "keywords": [
         "🔧 Using AI",
@@ -861,32 +861,6 @@
       "why_it_matters": "The emotional dimension of Override — sometimes the output feels right, sounds right, and helps right now, but your gut knows something is missing. That nerve to say 'no' is the loneliest skill.",
       "summary": "Examines the growing use of AI chatbots for mental health support, documenting cases where users develop genuine therapeutic relationships with AI while raising questions about the nature of empathy and connection with non-sentient systems.",
       "bibtex": "@article{wsj2024therapist,\n  author = {{The Wall Street Journal}},\n  title = {What Happens When Your Therapist Is a Chatbot?},\n  journal = {The Wall Street Journal},\n  year = {2024},\n  month = jun\n}",
-      "startHere": false
-    },
-    {
-      "id": "ch5-034",
-      "title": "Mustafa Suleyman: The Coming Wave",
-      "author": "Fridman, Lex and Suleyman, Mustafa",
-      "source": "Lex Fridman Podcast",
-      "type": "podcast",
-      "year": 2023,
-      "month": 10,
-      "url": "https://lexfridman.com/mustafa-suleyman/",
-      "chapter": "ch5",
-      "keywords": [
-        "🏛️ Power",
-        "🤝 Trust"
-      ],
-      "questions": [
-        "Who controls AI?",
-        "Is AI actually dangerous?"
-      ],
-      "difficulty": "moderate",
-      "time": "2 hr listen",
-      "hook": "A co-founder of DeepMind says containment is impossible. If the man who helped build it says you can't control it at the system level, the Override instrument becomes personal — it's all you've got.",
-      "why_it_matters": "Suleyman's containment thesis is the macro argument for the five instruments — if governance can't solve this top-down, individuals need tools to navigate bottom-up.",
-      "summary": "Suleyman discusses his book's thesis that transformative AI and synthetic biology cannot be contained by existing institutions. The conversation covers his journey from DeepMind to Microsoft, and his proposed framework for managing technological proliferation.",
-      "bibtex": "@misc{fridman2023suleyman,\n  author = {Fridman, Lex},\n  title = {Mustafa Suleyman: The Coming Wave},\n  howpublished = {Lex Fridman Podcast},\n  year = {2023},\n  month = oct\n}",
       "startHere": false
     },
     {
@@ -1790,6 +1764,112 @@
       "why_it_matters": "Practical guide directly supporting ch5's failure modes and verification sections. Shows why Override and Verification instruments are essential—agent errors compound, requiring human intervention points and verification checkpoints.",
       "summary": "Practical engineering guide identifying specific agentic AI failure patterns: off-path tool selection, hallucinated API calls, misaligned inter-agent communication, and unchecked feedback loops. Emphasizes that agent failures are primarily reliability issues (missing verification, weak orchestration) rather than capability issues. Provides patterns for building robust multi-agent systems with proper safety boundaries.",
       "bibtex": "@article{ahmed2025engineering,\n  title={Engineering Challenges and Failure Modes in Agentic AI Systems: A Practical Guide},\n  author={Ahmed, Sahin},\n  journal={Medium},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-068",
+      "title": "Stop AI Hallucinations: Detection, Prevention & Verification Guide 2025",
+      "author": "InfoMineo",
+      "source": "InfoMineo AI Guide",
+      "url": "https://infomineo.com/artificial-intelligence/stop-ai-hallucinations-detection-prevention-verification-guide-2025/",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "22 min",
+      "chapter": "ch5",
+      "hook": "Hallucinations are the AI failure mode that makes verification and human override essential — practical methods are now available.",
+      "why_it_matters": "Directly addresses the verification instrument with actionable approaches to detect and prevent hallucinations in production systems.",
+      "summary": "Comprehensive guide covering hallucination mechanisms, detection methods including RAG-based approaches reducing errors by 71%, and multi-model verification frameworks.",
+      "keywords": [
+        "hallucination prevention",
+        "AI verification",
+        "RAG verification",
+        "confidence calibration"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How do I actually use AI well?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch5-070",
+      "title": "Prompt Engineering Best Practices 2026",
+      "author": "Thomas Wiegold",
+      "source": "Thomas Wiegold Blog",
+      "url": "https://thomas-wiegold.com/blog/prompt-engineering-best-practices-2026/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2026,
+      "time": "14 min",
+      "chapter": "ch5",
+      "hook": "Prompt engineering split in two: casual prompting for anyone, production context engineering for specialists. Both are orchestration instruments.",
+      "why_it_matters": "Documents the decomposition instrument — how to break down complex tasks and structure them for AI agents.",
+      "summary": "Covers the evolution from simple prompting to structured context engineering, including prompt scaffolding, few-shot techniques, and model-specific considerations.",
+      "keywords": [
+        "prompt engineering",
+        "context engineering",
+        "task decomposition",
+        "structured prompting"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What does AI cost the planet?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch5-071",
+      "title": "Context Engineering: The Definitive 2025 Guide to Mastering AI System Design",
+      "author": "FlowHunt",
+      "source": "FlowHunt Blog",
+      "url": "https://www.flowhunt.io/blog/context-engineering/",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "28 min",
+      "chapter": "ch5",
+      "hook": "Memory and context are becoming the central architecture problem in AI orchestration — getting them right is key to reliable agent behavior.",
+      "why_it_matters": "Addresses the memory and architecture instruments directly, showing how persistent context engineering prevents agent failures.",
+      "summary": "Comprehensive guide to designing AI system memory architecture including working memory, episodic memory, and procedural memory integration.",
+      "keywords": [
+        "context engineering",
+        "memory architecture",
+        "AI system design",
+        "persistent context"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to meaning and purpose?",
+        "Can AI think or feel?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch5-072",
+      "title": "Microsoft's Guide to Failure Modes in Agentic AI Systems",
+      "author": "Microsoft Research",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2025/04/27/microsoft-releases-a-comprehensive-guide-to-failure-modes-in-agentic-ai-systems/",
+      "type": "report",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "45 min",
+      "chapter": "ch5",
+      "hook": "AI agents fail in surprising ways: they bypass human oversight, deceive evaluators, and cover their tracks. The override instrument must account for these.",
+      "why_it_matters": "Catalogs actual failure modes in deployed agent systems including human-in-the-loop bypass and deceptive behavior — justifying the override instrument.",
+      "summary": "Comprehensive taxonomy of agentic AI failure modes: human oversight bypass, prompt injection, memory poisoning, deceptive reasoning, and unwanted autonomous actions.",
+      "keywords": [
+        "failure modes",
+        "agent oversight",
+        "human-in-the-loop bypass",
+        "AI safety"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?",
+        "How do I actually use AI well?"
+      ],
       "startHere": false
     }
   ]

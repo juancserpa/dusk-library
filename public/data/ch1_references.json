@@ -1,8 +1,8 @@
 {
   "chapter": "ch1",
   "chapter_title": "How We Accidentally Re-Created Evolution in Silicon",
-  "generated": "2026-03-05",
-  "entry_count": 66,
+  "generated": "2026-03-07",
+  "entry_count": 71,
   "entries": [
     {
       "id": "ch1-001",
@@ -1847,6 +1847,133 @@
       "startHere": true,
       "chapter": "ch1",
       "id": "ch1-066"
+    },
+    {
+      "id": "ch1-067",
+      "title": "A short history of AI in 10 landmark moments",
+      "author": "World Economic Forum",
+      "source": "World Economic Forum",
+      "url": "https://www.weforum.org/stories/2024/10/history-of-ai-artificial-intelligence/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2024,
+      "time": "7 min",
+      "chapter": "ch1",
+      "hook": "Ten pivotal moments show how AI evolved in discrete leaps that mirror the evolutionary steps the book describes — senses, language, learning, brains.",
+      "why_it_matters": "Provides the historical scaffolding for understanding the parallel between biological evolution and AI development stages.",
+      "summary": "WEF retrospective identifying ten crucial inflection points in AI history, from symbolic AI through neural networks to modern deep learning.",
+      "keywords": [
+        "AI history",
+        "landmark breakthroughs",
+        "paradigm shifts",
+        "evolutionary milestones"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch1-068",
+      "title": "The Path to OpenAI: A History of AI Models and Innovation",
+      "author": "Sony Mathew",
+      "source": "The Usual Ramblings",
+      "url": "https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2024,
+      "time": "15 min",
+      "chapter": "ch1",
+      "hook": "Traces the lineage of modern AI from early neural networks through transformer architecture, showing each generation built on prior breakthroughs in a clear evolutionary chain.",
+      "why_it_matters": "Demonstrates the continuous evolution of AI capability, supporting the thesis that AI development follows recognizable evolutionary patterns.",
+      "summary": "Historical narrative tracking AI's development from McCulloch-Pitts neurons through backpropagation, convolutional networks, recurrent architectures, and transformers.",
+      "keywords": [
+        "neural networks",
+        "transformer architecture",
+        "deep learning evolution",
+        "model lineage"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch1-069",
+      "title": "Artificial intelligence: reflecting on the past and looking towards the next paradigm shift",
+      "author": "Taylor & Francis",
+      "source": "Journal of Experimental & Theoretical AI",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0952813X.2024.2323042",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2024,
+      "time": "30 min",
+      "chapter": "ch1",
+      "hook": "AI's wave-like progress — symbolic reasoning to neural learning to the current paradigm of scale — mirrors how evolution added processing layers to animal brains.",
+      "why_it_matters": "Provides academic rigor to the evolutionary analogy central to Chapter 1's thesis.",
+      "summary": "Peer-reviewed examination of AI's development through distinct paradigm shifts: symbolic AI, the connectionist revolution, and today's scale-driven deep learning era.",
+      "keywords": [
+        "AI paradigm shifts",
+        "symbolic AI",
+        "connectionist revolution",
+        "architectural evolution"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch1-070",
+      "title": "Emergent Abilities in Large Language Models: An Explainer",
+      "author": "CSET, Georgetown University",
+      "source": "Center for Security and Emerging Technology",
+      "url": "https://cset.georgetown.edu/article/emergent-abilities-in-large-language-models-an-explainer/",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2024,
+      "time": "10 min",
+      "chapter": "ch1",
+      "hook": "When AI models reach certain scales, new capabilities emerge that weren't explicitly programmed — mirroring biological evolution's punctuated equilibrium.",
+      "why_it_matters": "Explores the mysterious emergence of capabilities as systems grow in complexity, paralleling the book's theme about intelligence as an emergent phenomenon.",
+      "summary": "Examines 'emergent abilities' — capabilities that appear suddenly in language models as they scale, without explicit training for those abilities.",
+      "keywords": [
+        "emergent abilities",
+        "scaling laws",
+        "complexity theory",
+        "consciousness emergence"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch1-071",
+      "title": "Vision Language Models (Better, faster, stronger)",
+      "author": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/vlms-2025",
+      "type": "article",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "12 min",
+      "chapter": "ch1",
+      "hook": "Modern AI now perceives through multiple senses — combining vision and language in systems that process the world holistically, mirroring how animal brains integrate sensory information.",
+      "why_it_matters": "Documents the convergence of multiple AI modalities into integrated systems, mirroring the evolutionary narrative about brains combining different processing streams.",
+      "summary": "Technical overview tracing the evolution of vision-language models from separate visual and language systems toward truly integrated multimodal systems.",
+      "keywords": [
+        "multimodal learning",
+        "vision-language integration",
+        "sensory fusion",
+        "integrated reasoning"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "startHere": false
     }
   ]
 }

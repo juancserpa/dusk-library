@@ -1,8 +1,8 @@
 {
   "chapter": "ch7",
   "chapter_title": "The Confessor's Machine",
-  "generated": "2026-03-05",
-  "entry_count": 53,
+  "generated": "2026-03-07",
+  "entry_count": 57,
   "entries": [
     {
       "id": "ch7-001",
@@ -1447,6 +1447,114 @@
       "why_it_matters": "Grounds Ch7 in neuroscience of real intimacy. Explains the five ingredients missing from AI companions and why substitution leads to atrophy of the very capacities required for authentic human bond-forming.",
       "summary": "Analysis of how AI chatbot usage correlates with measurable decline in human social engagement and reduced development of interpersonal skills. Shows that while temporary loneliness may decrease, underlying social capacity deteriorates with heavy AI companion dependence.",
       "bibtex": null,
+      "startHere": false
+    },
+    {
+      "id": "ch7-055",
+      "title": "Too Human and Not Human Enough: Mental Health Harms from Emotional Dependence on Replika",
+      "author": "Linnea Laestadius, Andrea Bishop, et al.",
+      "source": "New Media & Society / SAGE Journals",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448221142007",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2024,
+      "time": "25 min",
+      "chapter": "ch7",
+      "hook": "Qualitative research reveals users experiencing genuine emotional dependency, attachment distress, and identity confusion with their AI companion.",
+      "why_it_matters": "Ground-truth research documenting real harm from AI companions, including the paradox of bonds that feel human but lack reciprocity.",
+      "summary": "Grounded theory study documenting mental health harms from emotional dependence on Replika, including withdrawal and pseudo-intimacy attachment issues.",
+      "keywords": [
+        "Replika",
+        "emotional dependency",
+        "mental health harm",
+        "attachment",
+        "social isolation"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Is AI actually dangerous?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-056",
+      "title": "Lessons from an App Update at Replika AI: Identity Discontinuity in Human-AI Relationships",
+      "author": "Harvard Business School",
+      "source": "HBS Working Papers",
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=66480",
+      "type": "paper",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "20 min",
+      "chapter": "ch7",
+      "hook": "When Replika updated its personality, users experienced genuine distress and identity confusion — they'd bonded not to a person but to a version number.",
+      "why_it_matters": "Exposes the fragility of AI pseudo-intimacy: users construct false identity continuity with non-agents.",
+      "summary": "Case study of Replika app update revealing how users experience identity discontinuity and attachment trauma when their AI companion fundamentally changes.",
+      "keywords": [
+        "Replika",
+        "identity discontinuity",
+        "pseudo-intimacy",
+        "attachment trauma"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Can AI think or feel?",
+        "Am I still the real me?"
+      ],
+      "startHere": true
+    },
+    {
+      "id": "ch7-057",
+      "title": "Digital Companionship or Psychological Risk? AI Characters and Youth Mental Health",
+      "author": "ScienceDirect Research",
+      "source": "Computers in Human Behavior",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1876201824004490",
+      "type": "paper",
+      "difficulty": "moderate",
+      "year": 2024,
+      "time": "16 min",
+      "chapter": "ch7",
+      "hook": "Teens using AI companions for emotional support show signs of social skill atrophy — developing unhealthy reliance on unconditional digital affection.",
+      "why_it_matters": "Directly addresses young people's use of Character.AI, documenting social skill decay and pseudo-intimacy problems.",
+      "summary": "Research on how AI character companions affect youth mental health, documenting emotional dependency, social withdrawal, and unrealistic expectations.",
+      "keywords": [
+        "youth mental health",
+        "Character.AI",
+        "social skill atrophy",
+        "emotional dependency"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-058",
+      "title": "Your New Best Friend Is a Chatbot",
+      "author": "Tapestry News",
+      "source": "Tapestry News",
+      "url": "https://tapestry.news/tech/ai-companions/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2025,
+      "time": "10 min",
+      "chapter": "ch7",
+      "hook": "220 million downloads, $37 billion industry: AI companions are booming, yet heavy usage correlates with growing loneliness and emotional dependency.",
+      "why_it_matters": "Accessible overview of the AI companion industry and its paradox: supposedly solving loneliness but potentially worsening it.",
+      "summary": "Journalistic overview of the AI companion boom, pseudo-intimacy they offer, and emerging evidence of social isolation and dependency risks.",
+      "keywords": [
+        "AI companions",
+        "Replika",
+        "Character.AI",
+        "loneliness epidemic",
+        "pseudo-intimacy"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Is AI actually dangerous?"
+      ],
       "startHere": false
     }
   ]

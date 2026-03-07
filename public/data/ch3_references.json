@@ -1,8 +1,8 @@
 {
   "chapter": "ch3",
   "chapter_title": "The Dusk of Human Intelligence",
-  "generated": "2026-03-05",
-  "entry_count": 53,
+  "generated": "2026-03-07",
+  "entry_count": 57,
   "entries": [
     {
       "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
@@ -1438,6 +1438,114 @@
       "startHere": false,
       "chapter": "ch3",
       "id": "ch3-053"
+    },
+    {
+      "id": "ch3-055",
+      "title": "AI: Work partnerships between people, agents, and robots",
+      "author": "McKinsey Global Institute",
+      "source": "McKinsey Report",
+      "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+      "type": "report",
+      "difficulty": "moderate",
+      "year": 2025,
+      "time": "22 min",
+      "chapter": "ch3",
+      "hook": "Intelligence isn't disappearing — it's being redistributed across humans and machines in entirely new economic configurations.",
+      "why_it_matters": "Frames cognitive displacement as part of a larger shift toward complementary skill partnerships rather than pure replacement.",
+      "summary": "McKinsey's research on skill partnerships shows how organizations are restructuring around human-AI teams rather than wholesale replacement.",
+      "keywords": [
+        "skill partnerships",
+        "human-AI teams",
+        "workforce complementarity",
+        "cognitive reorganization"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch3-056",
+      "title": "The Human Advantage: Stronger Brains in the Age of AI",
+      "author": "World Economic Forum",
+      "source": "WEF Report 2026",
+      "url": "https://reports.weforum.org/docs/WEF_The_Human_Advantage_Stronger_Brains_in_the_Age_of_AI_2026.pdf",
+      "type": "report",
+      "difficulty": "moderate",
+      "year": 2026,
+      "time": "28 min",
+      "chapter": "ch3",
+      "hook": "Brain capital — cognitive, interpersonal, and adaptive skills — is emerging as the defining economic asset of the AI era.",
+      "why_it_matters": "Redefines intelligence in economic terms: not raw processing power but the human capacities for creativity, context, and judgment.",
+      "summary": "Positions 'brain capital' as the new scarce resource, noting that of the top 10 most desired attributes for 2030, six are brain skills.",
+      "keywords": [
+        "brain capital",
+        "human cognition",
+        "adaptive skills",
+        "meaning of intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?",
+        "Am I still the real me?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch3-057",
+      "title": "Displacement or Complementarity? The Labor Market Impacts of AI",
+      "author": "Harvard Business School",
+      "source": "HBS Working Paper 25-039",
+      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "type": "paper",
+      "difficulty": "deep",
+      "year": 2025,
+      "time": "45 min",
+      "chapter": "ch3",
+      "hook": "New empirical evidence suggests the displacement-versus-complementarity debate may be framed wrong — the real story is rapid structural reorganization.",
+      "why_it_matters": "Rigorous empirical analysis of whether AI displaces or complements human labor, with implications for understanding scarcity migration.",
+      "summary": "Harvard research examining real labor market data post-ChatGPT to distinguish between temporary disruption and structural displacement.",
+      "keywords": [
+        "labor market displacement",
+        "AI complementarity",
+        "structural economic change",
+        "empirical labor analysis"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch3-058",
+      "title": "Morgan Stanley: Your Future Job Might Not Exist Yet",
+      "author": "Morgan Stanley Equity Research",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/26/morgan-stanley-predicts-ai-wont-let-you-retire-early-instead-youll-have-to-train-for-jobs-that-dont-exist-yet/",
+      "type": "article",
+      "difficulty": "quick",
+      "year": 2026,
+      "time": "10 min",
+      "chapter": "ch3",
+      "hook": "The job you train for today may not exist in five years — rapid retraining and adaptive capacity are becoming core survival skills.",
+      "why_it_matters": "Captures the implications of intelligence commoditization at the individual level: continuous reskilling becomes necessary.",
+      "summary": "Morgan Stanley's 2026 analysis projects workers will face continuous transitions into newly emerging roles rather than early retirement.",
+      "keywords": [
+        "job disruption",
+        "reskilling",
+        "career instability",
+        "future of work"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?",
+        "What happens to meaning and purpose?"
+      ],
+      "startHere": false
     }
   ]
 }
