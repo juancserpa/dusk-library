@@ -525,7 +525,7 @@ export default function DuskLibrary() {
               marginBottom: 16,
             }}>
               <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: C.red, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                The Research Archive
+                Companion Research Archive
               </span>
             </div>
 
@@ -562,8 +562,8 @@ export default function DuskLibrary() {
                 <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
               ) : (
                 <>
-                  The intellectual backbone of the book — <span style={{ color: "#fff", fontWeight: 600 }}>{entries.length.toLocaleString()}</span>
-                  {" "}curated articles, podcasts, papers & books on AI and what it means for the rest of us.
+                  The companion archive to the upcoming book — <span style={{ color: "#fff", fontWeight: 600 }}>{entries.length.toLocaleString()}</span>
+                  {" "}curated sources. Every article, podcast, paper & book that shaped the arguments, so you can follow the trail yourself.
                 </>
               )}
             </p>
