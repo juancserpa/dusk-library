@@ -94,13 +94,10 @@
       }
       @media (max-width: 860px) {
         .sidebar-layout { flex-direction: column !important; }
-        .sidebar-layout > aside {
-          position: relative !important;
-          top: auto !important;
-          width: 100% !important;
-          min-width: 0 !important;
-          max-height: none !important;
+        .sidebar-layout > aside.left-sidebar {
+          display: none !important;
         }
+        .mobile-search-bar { display: flex !important; }
       }
       @media (max-width: 768px) {
         .q-chips-row, .ch-tabs-row {

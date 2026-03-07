@@ -787,7 +787,7 @@ export default function DuskLibrary() {
         display: "flex", gap: 28, alignItems: "flex-start",
       }}>
         {/* LEFT SIDEBAR */}
-        <aside style={{
+        <aside className="left-sidebar" style={{
           width: 260, minWidth: 260, flexShrink: 0,
           position: "sticky", top: 16, zIndex: 40,
           maxHeight: "calc(100vh - 32px)", overflowY: "auto",
@@ -953,6 +953,79 @@ export default function DuskLibrary() {
 
         {/* RESULTS */}
         <main style={{ flex: 1, minWidth: 0, paddingBottom: 80 }}>
+
+        {/* Mobile search bar — hidden on desktop, shown <=860px */}
+        <div className="mobile-search-bar" style={{
+          display: "none", gap: 8, marginBottom: 16, alignItems: "center",
+        }}>
+          <div style={{
+            display: "flex", alignItems: "center", gap: 8, flex: 1,
+            background: C.softWhite, border: `1.5px solid ${C.rule}`,
+            borderRadius: 8, padding: "8px 12px",
+          }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={C.pencilLight} strokeWidth="2" strokeLinecap="round">
+              <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+            </svg>
+            <input type="text" placeholder="Search sources..."
+              value={search} onChange={e => setSearch(e.target.value)}
+              style={{
+                ...sans, flex: 1, background: "none", border: "none",
+                fontSize: 13, color: C.ink, outline: "none", width: "100%",
+              }}
+            />
+            {search && (
+              <button onClick={() => setSearch("")}
+                style={{
+                  background: C.fog, border: "none", color: C.pencil,
+                  cursor: "pointer", fontSize: 13, lineHeight: 1,
+                  width: 20, height: 20, borderRadius: "50%",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>×</button>
+            )}
+          </div>
+          <select value={sort} onChange={e => setSort(e.target.value)}
+            style={{
+              ...sans, fontSize: 11, padding: "8px 24px 8px 10px", borderRadius: 6,
+              background: C.softWhite, border: `1.5px solid ${C.rule}`,
+              color: C.pencil, cursor: "pointer", fontWeight: 500,
+              appearance: "none",
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%239b8d7f' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E")`,
+              backgroundRepeat: "no-repeat", backgroundPosition: "right 8px center",
+            }}>
+            <option value="chapter">By chapter</option>
+            <option value="year">Newest first</option>
+            <option value="title">A → Z</option>
+          </select>
+          <div style={{
+            display: "flex", borderRadius: 6, overflow: "hidden",
+            border: `1.5px solid ${C.rule}`,
+          }}>
+            <button onClick={() => setViewMode("list")}
+              style={{
+                ...sans, padding: "7px 9px", cursor: "pointer",
+                background: viewMode === "list" ? C.redSoft : "transparent",
+                border: "none", color: viewMode === "list" ? C.red : C.pencilLight,
+                display: "flex", alignItems: "center",
+              }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+              </svg>
+            </button>
+            <button onClick={() => setViewMode("grid")}
+              style={{
+                ...sans, padding: "7px 9px", cursor: "pointer",
+                background: viewMode === "grid" ? C.redSoft : "transparent",
+                border: "none", borderLeft: `1px solid ${C.rule}`,
+                color: viewMode === "grid" ? C.red : C.pencilLight,
+                display: "flex", alignItems: "center",
+              }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
         {/* Results count bar */}
         <div style={{
           display: "flex", justifyContent: "space-between", alignItems: "center",
