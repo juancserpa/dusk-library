@@ -351,14 +351,15 @@ const CHAPTER_IDS = CHAPTERS.map(c => c.id);
 
 // --- CHAPTER CARTOONS (from the book's illustrations) ---
 const CHAPTER_CARTOONS = {
-  prologue: { src: "/cartoons/prologue.jpg", alt: "Robot on winner's podium, human in second, third place marked 'EXTINCT'" },
-  ch1:      { src: "/cartoons/ch1.jpg", alt: "Frog lecturing cameras: 'Catching Flies — A Masterclass in Pattern Recognition Without Understanding'" },
-  ch2:      { src: "/cartoons/ch2.jpg", alt: "Robot arm reaching for emergency phone while man lies helpless on floor" },
-  ch3:      { src: "/cartoons/ch3.jpg", alt: "Museum exhibit: 'Knowledge Worker c. 2020' — 'What's he doing?' 'Nobody remembers.'" },
-  ch4:      { src: "/cartoons/ch4.jpg", alt: "Couple in bed — cables and wires hidden under the blankets. 'News to her.'" },
-  ch5:      { src: "/cartoons/ch5.jpg", alt: "TED talk: 'The real danger of AI is that it will make human thought feel optional'" },
-  ch6:      { src: "/cartoons/ch6.jpg", alt: "AI chef cooking a 'Perfect Manuscript' — 'You hoped you were Coca-Cola. You're instant coffee.'" },
+  prologue: { src: "/cartoons/prologue.jpg", title: "Welcome to Second Place", alt: "Robot on winner's podium, human in second, third place marked 'EXTINCT'" },
+  ch1:      { src: "/cartoons/ch1.jpg", title: "How We Accidentally Re-Created Evolution in Silicon", alt: "Frog lecturing cameras about pattern recognition without understanding" },
+  ch2:      { src: "/cartoons/ch2.jpg", title: "What Happens When You're Not the Smartest Thing in the Room?", alt: "Robot arm reaching for emergency phone while man lies helpless" },
+  ch3:      { src: "/cartoons/ch3.jpg", title: "The Dusk of Human Intelligence", alt: "Museum exhibit: Knowledge Worker c. 2020" },
+  ch4:      { src: "/cartoons/ch4.jpg", title: "The Next Scarcity: The Conductor", alt: "Couple in bed with cables and wires hidden under the blankets" },
+  ch5:      { src: "/cartoons/ch5.jpg", title: "The Conductor's Five Instruments", alt: "TED talk about human thought feeling optional" },
+  ch6:      { src: "/cartoons/ch6.jpg", title: "The Meaning Recession", alt: "AI chef cooking a Perfect Manuscript" },
 };
+const CARTOON_CHAPTERS = Object.keys(CHAPTER_CARTOONS);
 
 async function loadAllEntries() {
   const results = await Promise.allSettled(
@@ -389,6 +390,7 @@ export default function DuskLibrary() {
   const [showStartHere, setShowStartHere] = useState(true);
   const [viewMode, setViewMode] = useState("grid"); // "list" or "grid"
   const [showAbout, setShowAbout] = useState(false);
+  const [showBrowse, setShowBrowse] = useState(window.innerWidth > 768);
   const resultsRef = useRef(null);
   const PER = 12;
 
@@ -656,6 +658,104 @@ export default function DuskLibrary() {
         )}
       </section>
 
+      {/* ILLUSTRATIONS GALLERY STRIP */}
+      <section style={{ maxWidth: 1000, margin: "0 auto", padding: "36px 0 0" }}>
+        <h2 style={{
+          ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint,
+          letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 16,
+          paddingLeft: 32,
+        }}>
+          Illustrations from the book
+        </h2>
+        <div className="cartoon-gallery" style={{
+          display: "flex", gap: 16, overflowX: "auto", overflowY: "hidden",
+          padding: "0 32px 16px", scrollSnapType: "x mandatory",
+          WebkitOverflowScrolling: "touch",
+          scrollbarWidth: "thin", scrollbarColor: `${C.rule} transparent`,
+        }}>
+          {CARTOON_CHAPTERS.map(chId => {
+            const cartoon = CHAPTER_CARTOONS[chId];
+            const ch = CHAPTERS.find(c => c.id === chId);
+            const isActive = selChapter === chId;
+            return (
+              <button key={chId}
+                onClick={() => setSelChapter(isActive ? null : chId)}
+                className="cartoon-card"
+                style={{
+                  flex: "0 0 auto", width: 200, cursor: "pointer",
+                  background: isActive ? C.redSoft : C.softWhite,
+                  border: `1.5px solid ${isActive ? C.red + "60" : C.rule}`,
+                  borderRadius: 12, overflow: "hidden",
+                  scrollSnapAlign: "start",
+                  transition: "all 0.25s ease",
+                  boxShadow: isActive
+                    ? `0 4px 16px ${C.red}15`
+                    : "0 2px 8px rgba(42,33,24,0.04)",
+                  padding: 0, textAlign: "left",
+                  transform: isActive ? "translateY(-2px)" : "none",
+                }}>
+                <div style={{
+                  width: "100%", height: 130, overflow: "hidden",
+                  background: C.cream,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>
+                  <img src={cartoon.src} alt={cartoon.alt} loading="lazy"
+                    style={{
+                      width: "100%", height: "100%",
+                      objectFit: "cover",
+                      filter: "grayscale(0.05) contrast(1.05)",
+                      transition: "transform 0.3s ease",
+                    }}
+                  />
+                </div>
+                <div style={{ padding: "10px 12px 12px" }}>
+                  <div style={{
+                    ...sans, fontSize: 10, fontWeight: 600,
+                    color: isActive ? C.red : C.pencilLight,
+                    textTransform: "uppercase", letterSpacing: "0.1em",
+                    marginBottom: 4,
+                  }}>
+                    {ch?.label || chId}
+                  </div>
+                  <div style={{
+                    ...serif, fontSize: 12.5, fontWeight: 500,
+                    color: C.ink, lineHeight: 1.35,
+                    display: "-webkit-box", WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical", overflow: "hidden",
+                  }}>
+                    {cartoon.title}
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* BROWSE & FILTER TOGGLE */}
+      <section style={{ maxWidth: 900, margin: "0 auto", padding: "20px 32px 0" }}>
+        <button onClick={() => setShowBrowse(!showBrowse)}
+          style={{
+            ...sans, fontSize: 13, fontWeight: 600, color: C.pencil,
+            background: "none", border: `1px solid ${C.rule}`,
+            padding: "10px 20px", borderRadius: 8, cursor: "pointer",
+            display: "flex", alignItems: "center", gap: 8,
+            transition: "all 0.2s",
+            width: "100%", justifyContent: "center",
+          }}
+          onMouseEnter={e => { e.currentTarget.style.background = C.softWhite; e.currentTarget.style.borderColor = C.red + "40"; }}
+          onMouseLeave={e => { e.currentTarget.style.background = "none"; e.currentTarget.style.borderColor = C.rule; }}
+        >
+          <span style={{ fontSize: 15 }}>🔍</span>
+          {showBrowse ? "Hide filters" : "Browse by chapter, question & filters"}
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2" strokeLinecap="round"
+            style={{ transition: "transform 0.25s", transform: showBrowse ? "rotate(180deg)" : "rotate(0deg)" }}>
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+      </section>
+
+      {showBrowse && (<>
       {/* CHAPTER TABS */}
       {activeChapters.length > 1 && (
         <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
@@ -785,6 +885,7 @@ export default function DuskLibrary() {
           })}
         </div>
       </section>
+      </>)}
 
       {/* SIDEBAR + RESULTS LAYOUT */}
       <div ref={resultsRef} className="sidebar-layout" style={{
