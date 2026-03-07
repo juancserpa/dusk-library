@@ -1263,7 +1263,7 @@ export default function DuskLibrary() {
                         lineHeight: 1.3,
                       }}>
                         {CHAPTERS.find(c => c.id === item.chapter)?.short || item.chapter}
-                        {item.source ? ` · ${item.source}` : ""}
+                        {(item.source || item.publisher) ? ` · ${item.source || item.publisher}` : ""}
                         {item.time ? ` · ${item.time}` : ""}
                       </p>
                     </div>
@@ -1446,7 +1446,7 @@ function StartCard({ item, index }) {
                 style={{ borderRadius: 2, flexShrink: 0 }}
                 onError={e => { e.target.style.display = "none"; }} />
             )}
-            {item.source}
+            {item.source || item.publisher}
           </span>
           {item.year && <span style={{ opacity: 0.4 }}>·</span>}
           {item.year && <span style={{ fontWeight: 600, color: C.pencil }}>{item.year}</span>}
@@ -1552,7 +1552,7 @@ function Card({ item, isExpanded, onToggle, isLast, index }) {
               style={{ borderRadius: 3, flexShrink: 0 }}
               onError={e => { e.target.style.display = "none"; }} />
           )}
-          {item.source}{item.publisher && item.publisher !== item.source ? ` (${item.publisher})` : ""}
+          {item.source || item.publisher}{item.publisher && item.source && item.publisher !== item.source ? ` (${item.publisher})` : ""}
         </span>
         {item.year && (
           <span style={{
@@ -1749,7 +1749,7 @@ function GridCard({ item, index, isExpanded, onToggle }) {
               style={{ borderRadius: 2, flexShrink: 0 }}
               onError={e => { e.target.style.display = "none"; }} />
           )}
-          {item.source}
+          {item.source || item.publisher}
         </span>
         {item.year && (
           <span style={{
