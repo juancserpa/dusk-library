@@ -377,6 +377,7 @@ export default function DuskLibrary() {
   const [page, setPage] = useState(1);
   const [showStartHere, setShowStartHere] = useState(true);
   const [viewMode, setViewMode] = useState("list"); // "list" or "grid"
+  const [showAbout, setShowAbout] = useState(false);
   const resultsRef = useRef(null);
   const PER = 12;
 
@@ -463,7 +464,7 @@ export default function DuskLibrary() {
 
   return (
     <div style={{ ...sans, minHeight: "100vh", background: C.cream, color: C.ink }}>
-      {/* HERO */}
+      {/* HERO — Split layout with book cover */}
       <header style={{
         background: `linear-gradient(180deg, ${C.charcoal} 0%, ${C.charcoalSoft} 100%)`,
         position: "relative",
@@ -476,104 +477,185 @@ export default function DuskLibrary() {
           backgroundSize: "60px 60px, 80px 80px",
         }} />
         <div style={{
-          maxWidth: 900, margin: "0 auto", padding: "36px 32px 32px",
-          textAlign: "center", position: "relative", zIndex: 1,
+          maxWidth: 1000, margin: "0 auto", padding: "48px 32px 40px",
+          position: "relative", zIndex: 1,
+          display: "flex", alignItems: "center", gap: 48,
           animation: "fadeInUp 0.6s ease-out",
+          flexWrap: "wrap", justifyContent: "center",
         }}>
+          {/* Book cover — left side */}
           <div style={{
-            display: "inline-block", padding: "6px 20px", borderRadius: 20,
-            background: `${C.red}20`, border: `1px solid ${C.red}30`,
-            marginBottom: 16,
+            flexShrink: 0, position: "relative",
+            perspective: "800px",
           }}>
-            <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: C.red, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-              The Research Archive
-            </span>
+            <img src="/cover.jpg" alt="AI and the Dusk of Humans — book cover"
+              style={{
+                width: 200, height: "auto", borderRadius: 6,
+                boxShadow: `8px 8px 30px rgba(0,0,0,0.4), 0 0 60px ${C.red}15`,
+                transition: "transform 0.4s ease",
+              }}
+              onMouseEnter={e => e.currentTarget.style.transform = "rotateY(-5deg) scale(1.03)"}
+              onMouseLeave={e => e.currentTarget.style.transform = "rotateY(0) scale(1)"}
+              onError={e => { e.target.style.display = "none"; }}
+            />
+            {/* Subtle glow behind cover */}
+            <div style={{
+              position: "absolute", inset: -20, borderRadius: 20,
+              background: `radial-gradient(ellipse, ${C.red}08 0%, transparent 70%)`,
+              zIndex: -1, animation: "pulse 4s ease-in-out infinite",
+            }} />
           </div>
 
-          <h1 style={{ margin: "0 0 6px", lineHeight: 1.1 }}>
-            <span style={{
-              ...serif, display: "block",
-              fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700,
-              color: "#fff", letterSpacing: "-0.01em",
-            }}>
-              AI <span style={{ color: C.red, fontStyle: "italic" }}>&</span> the Dusk
-            </span>
-            <span style={{
-              ...serif, display: "block",
-              fontSize: "clamp(18px, 2.5vw, 26px)", fontWeight: 400,
-              color: C.pencilLight, letterSpacing: "0.02em",
-              marginTop: 4, fontStyle: "italic",
-            }}>
-              of Humans
-            </span>
-          </h1>
-
-          <p style={{
-            ...sans, fontSize: 14, color: C.pencilFaint,
-            fontWeight: 300, marginTop: 20, letterSpacing: "0.04em",
-          }}>
-            Surviving as the Second-Smartest Species
-          </p>
-
-          <div style={{ width: 40, height: 2, background: `linear-gradient(90deg, transparent, ${C.red}, transparent)`, margin: "16px auto", borderRadius: 1 }} />
-
-          <p style={{
-            ...serif, fontSize: 15, lineHeight: 1.6,
-            color: C.pencilLight, maxWidth: 560, margin: "0 auto",
-            fontStyle: "italic",
-          }}>
-            {loading ? (
-              <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
-            ) : (
-              <>
-                <span style={{ color: "#fff", fontWeight: 600, fontSize: 20 }}>{entries.length.toLocaleString()}</span>
-                {" "}articles, podcasts, papers & books on AI and what it means for the rest of us.
-              </>
-            )}
-          </p>
-
-          {/* Stats ribbon */}
-          {!loading && entries.length > 0 && (
+          {/* Text — right side */}
+          <div style={{ flex: 1, minWidth: 280, textAlign: "left" }}>
             <div style={{
-              display: "flex", justifyContent: "center", gap: 16,
-              marginTop: 16, flexWrap: "wrap",
-              animation: "fadeIn 0.8s ease-out 0.3s both",
+              display: "inline-block", padding: "6px 20px", borderRadius: 20,
+              background: `${C.red}20`, border: `1px solid ${C.red}30`,
+              marginBottom: 16,
             }}>
-              {Object.entries(TYPE_META).map(([type, meta]) => {
-                const count = typeStats[type];
-                if (!count) return null;
-                return (
-                  <button key={type} onClick={() => { tog(setSelTypes, type); scrollToResults(); }}
-                    style={{
-                      ...sans, fontSize: 11, color: C.pencilFaint, background: "none",
-                      border: "none", cursor: "pointer", display: "flex", alignItems: "center",
-                      gap: 5, padding: "4px 8px", borderRadius: 4,
-                      transition: "all 0.2s",
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.background = `${C.red}20`; }}
-                    onMouseLeave={e => { e.currentTarget.style.color = C.pencilFaint; e.currentTarget.style.background = "none"; }}
-                  >
-                    <span style={{ fontSize: 13 }}>{meta.icon}</span>
-                    <span style={{ fontWeight: 600, color: "inherit" }}>{count}</span>
-                    <span style={{ opacity: 0.7 }}>{meta.label}s</span>
-                  </button>
-                );
-              })}
+              <span style={{ ...sans, fontSize: 11, fontWeight: 600, color: C.red, letterSpacing: "0.15em", textTransform: "uppercase" }}>
+                The Research Archive
+              </span>
             </div>
-          )}
+
+            <h1 style={{ margin: "0 0 6px", lineHeight: 1.1 }}>
+              <span style={{
+                ...serif, display: "block",
+                fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 700,
+                color: "#fff", letterSpacing: "-0.01em",
+              }}>
+                AI <span style={{ color: C.red, fontStyle: "italic" }}>&</span> the Dusk of Humans
+              </span>
+            </h1>
+
+            <p style={{
+              ...sans, fontSize: 14, color: C.pencilFaint,
+              fontWeight: 300, marginTop: 12, letterSpacing: "0.04em",
+            }}>
+              Surviving as the Second-Smartest Species
+            </p>
+
+            <p style={{
+              ...sans, fontSize: 12, color: C.pencilLight, marginTop: 6,
+            }}>
+              by <span style={{ fontWeight: 600, color: "#fff" }}>Juan Camilo Serpa</span>
+            </p>
+
+            <div style={{ width: 40, height: 2, background: `linear-gradient(90deg, ${C.red}, transparent)`, margin: "16px 0", borderRadius: 1 }} />
+
+            <p style={{
+              ...serif, fontSize: 15, lineHeight: 1.6,
+              color: C.pencilLight, maxWidth: 480,
+              fontStyle: "italic",
+            }}>
+              {loading ? (
+                <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
+              ) : (
+                <>
+                  The intellectual backbone of the book — <span style={{ color: "#fff", fontWeight: 600 }}>{entries.length.toLocaleString()}</span>
+                  {" "}curated articles, podcasts, papers & books on AI and what it means for the rest of us.
+                </>
+              )}
+            </p>
+
+            {/* Stats ribbon */}
+            {!loading && entries.length > 0 && (
+              <div style={{
+                display: "flex", gap: 16, marginTop: 16, flexWrap: "wrap",
+                animation: "fadeIn 0.8s ease-out 0.3s both",
+              }}>
+                {Object.entries(TYPE_META).map(([type, meta]) => {
+                  const count = typeStats[type];
+                  if (!count) return null;
+                  return (
+                    <button key={type} onClick={() => { tog(setSelTypes, type); scrollToResults(); }}
+                      style={{
+                        ...sans, fontSize: 11, color: C.pencilFaint, background: "none",
+                        border: "none", cursor: "pointer", display: "flex", alignItems: "center",
+                        gap: 5, padding: "4px 8px", borderRadius: 4,
+                        transition: "all 0.2s",
+                      }}
+                      onMouseEnter={e => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.background = `${C.red}20`; }}
+                      onMouseLeave={e => { e.currentTarget.style.color = C.pencilFaint; e.currentTarget.style.background = "none"; }}
+                    >
+                      <span style={{ fontSize: 13 }}>{meta.icon}</span>
+                      <span style={{ fontWeight: 600, color: "inherit" }}>{count}</span>
+                      <span style={{ opacity: 0.7 }}>{meta.label}s</span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
+      {/* ABOUT THIS ARCHIVE — expandable */}
+      <section style={{
+        maxWidth: 900, margin: "0 auto", padding: "24px 32px 0",
+      }}>
+        <button onClick={() => setShowAbout(!showAbout)}
+          style={{
+            ...sans, fontSize: 13, fontWeight: 600, color: C.pencil,
+            background: "none", border: `1px solid ${C.rule}`,
+            padding: "10px 20px", borderRadius: 8, cursor: "pointer",
+            display: "flex", alignItems: "center", gap: 8,
+            transition: "all 0.2s",
+            width: "100%", justifyContent: "center",
+          }}
+          onMouseEnter={e => { e.currentTarget.style.background = C.softWhite; e.currentTarget.style.borderColor = C.red + "40"; }}
+          onMouseLeave={e => { e.currentTarget.style.background = "none"; e.currentTarget.style.borderColor = C.rule; }}
+        >
+          <span style={{ fontSize: 15 }}>📖</span>
+          {showAbout ? "Hide" : "About this archive"}
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={C.pencil} strokeWidth="2" strokeLinecap="round"
+            style={{ transition: "transform 0.25s", transform: showAbout ? "rotate(180deg)" : "rotate(0deg)" }}>
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+
+        {showAbout && (
+          <div style={{
+            marginTop: 16, padding: "28px 24px",
+            background: C.softWhite, borderRadius: 12,
+            border: `1px solid ${C.rule}`,
+            animation: "fadeIn 0.3s ease-out",
+          }}>
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: 20,
+            }}>
+              <AboutCard
+                icon="🧠"
+                title="What is this?"
+                text="This is the living bibliography behind 'AI and the Dusk of Humans.' Every source that shaped the book's arguments — from landmark papers to contrarian podcasts — curated and annotated so you can follow the trail."
+              />
+              <AboutCard
+                icon="🧭"
+                title="How to explore"
+                text={`Browse by the ${QUESTIONS.length} questions the book tackles, filter by chapter, media type, or difficulty. The 'Start Here' picks are a curated on-ramp if you're short on time.`}
+              />
+              <AboutCard
+                icon="📊"
+                title="By the numbers"
+                text={loading ? "Loading..." : `${entries.length} sources across ${activeChapters.length} chapters. ${startHereItems.length} essential picks. Updated regularly as new research appears.`}
+              />
+            </div>
+          </div>
+        )}
+      </section>
+
       {/* CHAPTER TABS */}
       {activeChapters.length > 1 && (
-        <section style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
+        <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
           <h2 style={{
             ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint,
             letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 12,
           }}>
             Browse by chapter
           </h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+          <div className="ch-tabs-row" style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
             <button className="ch-tab" onClick={() => setSelChapter(null)}
               style={{
                 ...sans, fontSize: 12, padding: "7px 16px", borderRadius: 6,
@@ -607,14 +689,14 @@ export default function DuskLibrary() {
       )}
 
       {/* QUESTION BROWSE */}
-      <section style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
+      <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
         <h2 style={{
           ...sans, fontSize: 11, fontWeight: 500, color: C.pencilFaint,
           letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 14,
         }}>
           Browse by question
         </h2>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+        <div className="q-chips-row" style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
           {QUESTIONS.map(q => {
             const active = selQ.includes(q.label);
             const count = entries.filter(i => (i.questions || []).includes(q.label)).length;
@@ -1019,39 +1101,70 @@ export default function DuskLibrary() {
         )}
       </div>
 
-      {/* FOOTER */}
+      {/* FOOTER — Enhanced with book promo */}
       <footer style={{
         borderTop: `1px solid ${C.rule}`,
         background: `linear-gradient(180deg, ${C.charcoal} 0%, #0f0d0a 100%)`,
-        padding: "48px 32px", textAlign: "center",
+        padding: "56px 32px 40px",
       }}>
         <div style={{
-          width: 40, height: 2,
-          background: `linear-gradient(90deg, transparent, ${C.red}, transparent)`,
-          margin: "0 auto 20px", borderRadius: 1,
-        }} />
-        <p style={{
-          ...sans, fontSize: 12, color: C.pencilLight,
-          letterSpacing: "0.18em", textTransform: "uppercase", fontWeight: 600,
+          maxWidth: 700, margin: "0 auto",
+          display: "flex", alignItems: "center", gap: 32,
+          flexWrap: "wrap", justifyContent: "center",
         }}>
-          Juan Camilo Serpa
-        </p>
-        <p style={{
-          ...serif, fontSize: 15, color: C.pencilFaint,
-          marginTop: 10, fontStyle: "italic",
-          maxWidth: 480, margin: "10px auto 0",
-          lineHeight: 1.6,
-        }}>
-          A living database that fed the book — built without writing a single line of code.
-        </p>
-        <p style={{ ...sans, fontSize: 11, color: C.pencil, marginTop: 16 }}>
-          McGill University · Master of Management in Analytics
-        </p>
+          {/* Small book cover */}
+          <img src="/cover.jpg" alt="AI and the Dusk of Humans"
+            style={{
+              width: 100, height: "auto", borderRadius: 4,
+              boxShadow: "4px 4px 20px rgba(0,0,0,0.4)",
+              flexShrink: 0,
+            }}
+            onError={e => { e.target.style.display = "none"; }}
+          />
+
+          {/* Footer text */}
+          <div style={{ flex: 1, minWidth: 240, textAlign: "left" }}>
+            <p style={{
+              ...serif, fontSize: 18, fontWeight: 700, color: "#fff",
+              margin: "0 0 4px", lineHeight: 1.3,
+            }}>
+              AI & the Dusk of Humans
+            </p>
+            <p style={{
+              ...sans, fontSize: 12, color: C.pencilLight,
+              margin: "0 0 12px",
+            }}>
+              by <span style={{ fontWeight: 600, color: C.pencilFaint }}>Juan Camilo Serpa</span>
+              <span style={{ opacity: 0.5 }}> · McGill University</span>
+            </p>
+            <p style={{
+              ...serif, fontSize: 13, color: C.pencilFaint,
+              fontStyle: "italic", lineHeight: 1.5, margin: "0 0 16px",
+            }}>
+              The living bibliography behind the book — {entries.length > 0 ? `${entries.length.toLocaleString()} sources across ${activeChapters.length} chapters` : "curated and annotated"}.
+            </p>
+            <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+              <a href="mailto:juancserpa@gmail.com?subject=AI%20and%20the%20Dusk%20of%20Humans"
+                style={{
+                  ...sans, fontSize: 12, fontWeight: 600, color: "#fff",
+                  textDecoration: "none", padding: "8px 18px", borderRadius: 6,
+                  background: C.red, display: "inline-flex", alignItems: "center", gap: 6,
+                  transition: "opacity 0.2s",
+                }}
+                onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
+                onMouseLeave={e => e.currentTarget.style.opacity = "1"}
+              >
+                Get notified when it launches
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div style={{
-          ...sans, fontSize: 10, color: C.pencilFaint, marginTop: 20,
-          opacity: 0.5,
+          ...sans, fontSize: 10, color: C.pencilFaint, marginTop: 32,
+          opacity: 0.4, textAlign: "center",
         }}>
-          {entries.length > 0 && `${entries.length.toLocaleString()} sources across ${activeChapters.length} chapters`}
+          Built without writing a single line of code.
         </div>
       </footer>
     </div>
@@ -1609,5 +1722,25 @@ function PgBtn({ label, active, onClick, disabled }) {
       }}>
       {label}
     </button>
+  );
+}
+
+function AboutCard({ icon, title, text }) {
+  return (
+    <div style={{
+      padding: "20px 18px", borderRadius: 10,
+      background: C.cream, border: `1px solid ${C.ruleFaint}`,
+    }}>
+      <div style={{ fontSize: 24, marginBottom: 10 }}>{icon}</div>
+      <h3 style={{
+        ...{ fontFamily: "'Playfair Display', Georgia, serif" },
+        fontSize: 15, fontWeight: 700, color: C.ink,
+        margin: "0 0 8px",
+      }}>{title}</h3>
+      <p style={{
+        ...{ fontFamily: "'Source Sans 3', system-ui, sans-serif" },
+        fontSize: 13, lineHeight: 1.55, color: C.pencil, margin: 0,
+      }}>{text}</p>
+    </div>
   );
 }
