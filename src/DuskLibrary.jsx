@@ -349,6 +349,17 @@ const CHAPTERS = [
 
 const CHAPTER_IDS = CHAPTERS.map(c => c.id);
 
+// --- CHAPTER CARTOONS (from the book's illustrations) ---
+const CHAPTER_CARTOONS = {
+  prologue: { src: "/cartoons/prologue.jpg", alt: "Robot on winner's podium, human in second, third place marked 'EXTINCT'" },
+  ch1:      { src: "/cartoons/ch1.jpg", alt: "Frog lecturing cameras: 'Catching Flies — A Masterclass in Pattern Recognition Without Understanding'" },
+  ch2:      { src: "/cartoons/ch2.jpg", alt: "Robot arm reaching for emergency phone while man lies helpless on floor" },
+  ch3:      { src: "/cartoons/ch3.jpg", alt: "Museum exhibit: 'Knowledge Worker c. 2020' — 'What's he doing?' 'Nobody remembers.'" },
+  ch4:      { src: "/cartoons/ch4.jpg", alt: "Couple in bed — cables and wires hidden under the blankets. 'News to her.'" },
+  ch5:      { src: "/cartoons/ch5.jpg", alt: "TED talk: 'The real danger of AI is that it will make human thought feel optional'" },
+  ch6:      { src: "/cartoons/ch6.jpg", alt: "AI chef cooking a 'Perfect Manuscript' — 'You hoped you were Coca-Cola. You're instant coffee.'" },
+};
+
 async function loadAllEntries() {
   const results = await Promise.allSettled(
     CHAPTER_IDS.map(ch =>
@@ -529,24 +540,23 @@ export default function DuskLibrary() {
             </h1>
 
             <p style={{
-              ...sans, fontSize: 14, color: C.pencilFaint,
-              fontWeight: 300, marginTop: 12, letterSpacing: "0.04em",
+              ...sans, fontSize: 16, color: C.pencilFaint,
+              fontWeight: 300, marginTop: 14, letterSpacing: "0.05em",
             }}>
               Surviving as the Second-Smartest Species
             </p>
 
             <p style={{
-              ...sans, fontSize: 12, color: C.pencilLight, marginTop: 6,
+              ...sans, fontSize: 15, color: C.pencilLight, marginTop: 10,
             }}>
-              by <span style={{ fontWeight: 600, color: "#fff" }}>Juan Camilo Serpa</span>
+              by <span style={{ fontWeight: 700, color: "#fff", fontSize: 17, letterSpacing: "0.02em" }}>Juan Camilo Serpa</span>
             </p>
 
-            <div style={{ width: 40, height: 2, background: `linear-gradient(90deg, ${C.red}, transparent)`, margin: "16px 0", borderRadius: 1 }} />
+            <div style={{ width: 50, height: 2, background: `linear-gradient(90deg, ${C.red}, transparent)`, margin: "20px 0", borderRadius: 1 }} />
 
             <p style={{
-              ...serif, fontSize: 15, lineHeight: 1.6,
-              color: C.pencilLight, maxWidth: 480,
-              fontStyle: "italic",
+              ...sans, fontSize: 15, lineHeight: 1.7,
+              color: C.pencilLight, maxWidth: 500,
             }}>
               {loading ? (
                 <span style={{ animation: "pulse 1.5s infinite" }}>Loading the archive...</span>
@@ -688,6 +698,53 @@ export default function DuskLibrary() {
         </section>
       )}
 
+      {/* CHAPTER CARTOON BANNER */}
+      {selChapter && CHAPTER_CARTOONS[selChapter] && (
+        <div className="cartoon-banner" style={{
+          maxWidth: 900, margin: "0 auto", padding: "24px 32px 0",
+          animation: "fadeIn 0.4s ease-out",
+        }}>
+          <div style={{
+            position: "relative",
+            background: C.softWhite,
+            border: `1px solid ${C.rule}`,
+            borderRadius: 14,
+            overflow: "hidden",
+            display: "flex",
+            justifyContent: "center",
+            padding: "24px 24px 16px",
+          }}>
+            <img
+              src={CHAPTER_CARTOONS[selChapter].src}
+              alt={CHAPTER_CARTOONS[selChapter].alt}
+              loading="lazy"
+              style={{
+                maxWidth: "100%",
+                maxHeight: 340,
+                objectFit: "contain",
+                borderRadius: 8,
+                filter: "grayscale(0.1) contrast(1.05)",
+              }}
+            />
+            <div style={{
+              position: "absolute", bottom: 0, left: 0, right: 0,
+              height: 48,
+              background: `linear-gradient(transparent, ${C.softWhite})`,
+              pointerEvents: "none",
+            }} />
+            <span style={{
+              ...sans, position: "absolute", top: 12, right: 16,
+              fontSize: 9, fontWeight: 600, letterSpacing: "0.12em",
+              textTransform: "uppercase", color: C.pencilFaint,
+              background: `${C.cream}dd`, padding: "3px 10px",
+              borderRadius: 6, backdropFilter: "blur(4px)",
+            }}>
+              From the book
+            </span>
+          </div>
+        </div>
+      )}
+
       {/* QUESTION BROWSE */}
       <section className="mobile-collapse-section" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 32px 0" }}>
         <h2 style={{
@@ -731,7 +788,7 @@ export default function DuskLibrary() {
 
       {/* SIDEBAR + RESULTS LAYOUT */}
       <div ref={resultsRef} className="sidebar-layout" style={{
-        maxWidth: 1200, margin: "0 auto", padding: "28px 32px 0",
+        maxWidth: 1400, margin: "0 auto", padding: "28px 32px 0",
         display: "flex", gap: 28, alignItems: "flex-start",
       }}>
         {/* LEFT SIDEBAR */}
@@ -971,7 +1028,7 @@ export default function DuskLibrary() {
             {viewMode === "grid" ? (
               <div style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+                gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
                 gap: 16,
               }}>
                 {visible.map((item, idx) => (
