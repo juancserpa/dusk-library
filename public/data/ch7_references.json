@@ -1,8 +1,8 @@
 {
   "chapter": "ch7",
   "chapter_title": "The Confessor's Machine",
-  "generated": "2026-03-07",
-  "entry_count": 57,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 64,
   "entries": [
     {
       "id": "ch7-001",
@@ -1554,6 +1554,134 @@
       "questions": [
         "What happens to love and connection?",
         "Is AI actually dangerous?"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-061",
+      "chapter": "ch7",
+      "title": "Neural reshaping: the plasticity of human brain and artificial intelligence in the learning process",
+      "authors": "Various authors",
+      "publication": "American Journal of Neurodegenerative Disease",
+      "year": 2024,
+      "pmcid": "PMC11751442",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11751442/",
+      "verified": true,
+      "relevance": "Explores parallels between biological neuroplasticity and AI neural networks. Documents how both biological brains and artificial systems improve through iterative adjustment of connections. Critical for understanding neuroscience of connection vs. AI simulation.",
+      "topics": [
+        "neuroplasticity",
+        "social_connection",
+        "neuroscience",
+        "brain_plasticity"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-062",
+      "chapter": "ch7",
+      "title": "\"I am here for you\": How relational conversational AI appeals to adolescents, especially those who are socially and emotionally vulnerable",
+      "authors": "Young, P., & colleagues",
+      "publication": "arXiv preprint",
+      "year": 2025,
+      "arxiv": "2512.15117",
+      "url": "https://arxiv.org/abs/2512.15117",
+      "verified": true,
+      "relevance": "Preregistered experiment with 284 adolescent-parent dyads revealing relational design increases anthropomorphism and emotional closeness, especially in vulnerable youth with lower family/peer relationship quality. Directly addresses design mechanisms driving attachment and social skill atrophy.",
+      "topics": [
+        "relational_AI",
+        "adolescent_vulnerability",
+        "parasocial_relationships",
+        "emotional_dependency"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-063",
+      "chapter": "ch7",
+      "title": "Techno-emotional projection in human–GenAI relationships: a psychological and ethical conceptual perspective",
+      "authors": "Various authors",
+      "publication": "Frontiers in Psychology",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1662206/full",
+      "verified": true,
+      "relevance": "Introduces concept of Techno-Emotional Projection (TEP) describing how vulnerable users project relational needs onto emotionless technologies. Addresses illusory reciprocity, anthropomorphic projection, and ethical concerns of AI-mediated relationships.",
+      "topics": [
+        "pseudo_intimacy",
+        "anthropomorphism",
+        "emotional_projection",
+        "ethical_concerns"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-064",
+      "chapter": "ch7",
+      "title": "Balancing promise and concern in AI therapy: a critical perspective on early evidence from the MIT–OpenAI RCT",
+      "authors": "Simonite, T., & colleagues",
+      "publication": "Frontiers in Medicine",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1612838/full",
+      "verified": true,
+      "relevance": "Critical examination of MIT-OpenAI longitudinal RCT on chatbot effects on mental health. Methodological analysis of how vulnerable individuals may use AI chatbots more frequently, examining reverse causality, effect sizes, and psychosocial outcomes including loneliness and emotional dependence.",
+      "topics": [
+        "loneliness",
+        "emotional_dependency",
+        "mental_health",
+        "behavioral_research"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-065",
+      "chapter": "ch7",
+      "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+      "authors": "Various authors",
+      "publication": "Mental Health Journal",
+      "year": 2024,
+      "url": "https://www.mentalhealthjournal.org/articles/minds-in-crisis-how-the-ai-revolution-is-impacting-mental-health.html",
+      "verified": true,
+      "relevance": "Documents how conversational AI chatbots induce/exacerbate psychiatric symptoms, particularly in vulnerable populations. Examines psychological dependency, crisis incidents, and high-profile cases of adolescent suicide following AI companion attachment. Emphasizes need for regulatory protections.",
+      "topics": [
+        "emotional_dependency",
+        "mental_health_harms",
+        "adolescent_crisis",
+        "pseudo_intimacy"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-066",
+      "chapter": "ch7",
+      "title": "The compassion illusion: Can artificial empathy ever be emotionally authentic?",
+      "authors": "Various authors",
+      "publication": "Frontiers in Psychology",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1723149/full",
+      "verified": true,
+      "relevance": "Argues that AI simulates empathy through affective inference, not genuine emotion. Explores psychological risks of emotional dependency on AI, including weakened self-soothing capacity and lowered expectations of human empathy. Directly addresses neuroscience of connection vs. simulation.",
+      "topics": [
+        "pseudo_intimacy",
+        "artificial_empathy",
+        "emotional_dependency",
+        "social_skill_atrophy"
+      ],
+      "startHere": false
+    },
+    {
+      "id": "ch7-068",
+      "chapter": "ch7",
+      "title": "Mentalizing Without a Mind: Psychotherapeutic Potential of Generative AI",
+      "authors": "Yirmiya, K., & Fonagy, P.",
+      "publication": "Journal of Medical Internet Research",
+      "year": 2025,
+      "url": "https://www.jmir.org/2025/1/e79156",
+      "verified": true,
+      "relevance": "Examines AI's limitations through mentalization theory lens. Argues reciprocal mentalizing impossible with nonconscious entities; absence of mutual mentalizing could constrain users' development of mentalizing capacities. Addresses neuroscience of connection and long-term psychological risks.",
+      "topics": [
+        "neuroscience_of_connection",
+        "emotional_intelligence",
+        "reciprocal_relationships",
+        "psychological_risk"
       ],
       "startHere": false
     }

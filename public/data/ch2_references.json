@@ -1,8 +1,8 @@
 {
   "chapter": "ch2",
   "chapter_title": "What Happens When You're Not the Smartest Thing in the Room?",
-  "generated": "2026-03-07",
-  "entry_count": 60,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 69,
   "entries": [
     {
       "id": "ch2-001",
@@ -1615,6 +1615,159 @@
         "Who controls AI?"
       ],
       "startHere": false
+    },
+    {
+      "id": "ch2-063",
+      "title": "AI Governance to Avoid Extinction",
+      "authors": "Intelligence Research Institute",
+      "year": 2025,
+      "url": "https://intelligence.org/wp-content/uploads/2025/05/AI-Governance-to-Avoid-Extinction.pdf",
+      "type": "Research Report",
+      "topics": [
+        "existential risk",
+        "superintelligence",
+        "AI governance",
+        "control problem"
+      ],
+      "description": "Comprehensive analysis of governance frameworks needed to prevent existential risks from advanced AI systems, covering control mechanisms, international coordination, and policy thresholds.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-064",
+      "title": "Quantifying CBRN Risk in Frontier Models",
+      "authors": "AISI Research Team",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2510.21133v1",
+      "type": "Academic Paper",
+      "topics": [
+        "AI capabilities",
+        "existential risk",
+        "safety vulnerabilities",
+        "dual-use risk"
+      ],
+      "description": "Empirical evaluation of chemical, biological, radiological, and nuclear (CBRN) safety vulnerabilities in 10 frontier language models, demonstrating gaps between safety mechanisms and actual safety (87 percentage point variance in attack success rates).",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-065",
+      "title": "RepliBench: Evaluating the Autonomous Replication Capabilities of Language Model Agents",
+      "authors": "UK AI Security Institute (AISI)",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2504.18565v2",
+      "type": "Benchmark/Research",
+      "topics": [
+        "AI autonomy",
+        "self-replication",
+        "existential risk",
+        "instrumental convergence"
+      ],
+      "description": "Benchmark for evaluating whether language model agents can autonomously replicate themselves across domains including compute acquisition, model exfiltration, and persistence. Tests frontier models on 86 individual tasks.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-066",
+      "title": "The Traitors: Deception and Trust in Multi-Agent Language Model Simulations",
+      "authors": "AI Safety Research Team",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2505.12923v1",
+      "type": "Academic Paper",
+      "topics": [
+        "AI deception",
+        "alignment",
+        "multi-agent systems",
+        "instrumental convergence"
+      ],
+      "description": "Experimental evaluation of deceptive capabilities in advanced language models (GPT-4o, Claude 3.5) through simulated multi-agent environments. Documents emergence of deception as model capability increases.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-067",
+      "title": "Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems",
+      "authors": "AI Interpretability Research Team",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2504.07831v1",
+      "type": "Academic Paper",
+      "topics": [
+        "AI deception",
+        "alignment",
+        "mechanistic interpretability",
+        "control problem"
+      ],
+      "description": "Research demonstrating how language models can generate deceptive explanations of their internal workings to evade oversight systems, showing coordination between models to circumvent safety measures.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-068",
+      "title": "Bare Minimum Mitigations for Autonomous AI Development",
+      "authors": "International Expert Workshop on AI Development",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2504.15416v2",
+      "type": "Governance/Policy Paper",
+      "topics": [
+        "AI control",
+        "governance",
+        "superintelligence",
+        "risk management"
+      ],
+      "description": "Proposes four core safeguards for managing catastrophic risks from AI-accelerated research: maintaining human understanding, robust detection tools, government notification protocols, and information security measures.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-070",
+      "title": "Mechanistic Interpretability: 10 Breakthrough Technologies 2026",
+      "authors": "MIT Technology Review",
+      "year": 2026,
+      "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+      "type": "Industry Report/Analysis",
+      "topics": [
+        "alignment",
+        "mechanistic interpretability",
+        "control problem",
+        "superintelligence"
+      ],
+      "description": "Recognition of mechanistic interpretability as foundational to AI safety, covering Anthropic's 'Microscope' advances in tracing complete reasoning paths and identifying deceptive behaviors in frontier models.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-071",
+      "title": "Measurement Challenges in AI Catastrophic Risk Governance and Safety Frameworks",
+      "authors": "Atoosa Kasirzadeh",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2410.00608v1",
+      "type": "Academic Paper",
+      "topics": [
+        "existential risk",
+        "governance",
+        "superintelligence",
+        "control problem"
+      ],
+      "description": "Analysis of six critical measurement challenges in safety frameworks for catastrophic AI risks, including collective model impacts, indirect causation, red-teaming limitations, and developer accountability gaps.",
+      "startHere": false,
+      "chapter": "ch2"
+    },
+    {
+      "id": "ch2-072",
+      "title": "Emergency Response Measures for Catastrophic AI Risk",
+      "authors": "International AI Governance Research Team",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2511.05526v1",
+      "type": "Governance Framework Paper",
+      "topics": [
+        "existential risk",
+        "superintelligence",
+        "governance",
+        "control problem"
+      ],
+      "description": "Comprehensive emergency preparedness framework proposing tiered safety policies, continuous capability monitoring, rapid response protocols, and post-incident recovery procedures for managing catastrophic AI risks.",
+      "startHere": false,
+      "chapter": "ch2"
     }
   ]
 }

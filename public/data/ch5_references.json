@@ -1,8 +1,8 @@
 {
   "chapter": "ch5",
   "chapter_title": "The Conductor's Five Instruments",
-  "generated": "2026-03-07",
-  "entry_count": 70,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 77,
   "entries": [
     {
       "id": "ch5-001",
@@ -1870,6 +1870,129 @@
         "Can AI think or feel?",
         "How do I actually use AI well?"
       ],
+      "startHere": false
+    },
+    {
+      "id": "ch5-073",
+      "chapter": "ch5",
+      "title": "LLM Testing in 2026: Top Methods and Strategies",
+      "url": "https://www.confident-ai.com/blog/llm-testing-in-2024-top-methods-and-strategies",
+      "author": "Confident AI",
+      "publication_year": 2024,
+      "relevance": "Verification and testing frameworks for AI systems. Addresses evaluation of LLM reliability, output validation, and quality assurance mechanisms essential for AI orchestration.",
+      "topics": [
+        "verification",
+        "testing",
+        "LLM evaluation",
+        "quality assurance"
+      ],
+      "verified": true,
+      "startHere": false
+    },
+    {
+      "id": "ch5-074",
+      "chapter": "ch5",
+      "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+      "url": "https://arxiv.org/abs/2501.09136",
+      "author": "Singh, Aditi et al.",
+      "publication_year": 2025,
+      "relevance": "Comprehensive survey on agentic RAG systems covering memory architectures, tool use, and autonomous decision-making. Directly addresses memory instruments and verification in AI orchestration.",
+      "topics": [
+        "memory architecture",
+        "RAG",
+        "autonomous agents",
+        "tool use",
+        "reflection"
+      ],
+      "verified": true,
+      "startHere": false
+    },
+    {
+      "id": "ch5-075",
+      "chapter": "ch5",
+      "title": "The Ultimate Guide to Prompt Engineering in 2026",
+      "url": "https://www.lakera.ai/blog/prompt-engineering-guide",
+      "author": "Lakera",
+      "publication_year": 2026,
+      "relevance": "Comprehensive guide covering prompt engineering best practices, adversarial prompting, model-specific guidance. Addresses practical AI usage and prompt optimization techniques for decomposition and override mechanisms.",
+      "topics": [
+        "prompt engineering",
+        "practical AI usage",
+        "security",
+        "best practices"
+      ],
+      "verified": true,
+      "startHere": false
+    },
+    {
+      "id": "ch5-077",
+      "chapter": "ch5",
+      "title": "LLM Engineering in 2025: The Failure Modes That Actually Matter",
+      "url": "https://medium.com/@gbalagangadhar/llm-engineering-in-2025-the-failure-modes-that-actually-matter-and-how-i-fix-them-ad1f6f1da77e",
+      "author": "Bala Gude",
+      "publication_year": 2025,
+      "relevance": "Detailed analysis of critical LLM failure modes in production, including hallucination, context window issues, and prompt injection. Essential for understanding hallucination/failure modes in AI orchestration.",
+      "topics": [
+        "failure modes",
+        "hallucinations",
+        "context management",
+        "prompt injection",
+        "reliability"
+      ],
+      "verified": true,
+      "note": "Requires verification - content confirmed through search results",
+      "startHere": false
+    },
+    {
+      "id": "ch5-079",
+      "chapter": "ch5",
+      "title": "AI Agent Orchestration",
+      "url": "https://www.ibm.com/think/topics/ai-agent-orchestration",
+      "author": "IBM",
+      "publication_year": 2025,
+      "relevance": "Comprehensive guide to orchestrating multiple specialized AI agents, covering coordination patterns, optimization, and reliability. Directly addresses orchestration and architecture instruments.",
+      "topics": [
+        "orchestration",
+        "multi-agent systems",
+        "coordination",
+        "reliability"
+      ],
+      "verified": true,
+      "startHere": false
+    },
+    {
+      "id": "ch5-080",
+      "chapter": "ch5",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "url": "https://arxiv.org/abs/2504.19413",
+      "author": "Chhikara, Prateek et al.",
+      "publication_year": 2025,
+      "relevance": "Academic paper on scalable memory architectures for AI agents with 26% performance improvements. Directly addresses memory instrument and practical implementation patterns.",
+      "topics": [
+        "memory architecture",
+        "context management",
+        "agent scaling",
+        "long-term memory"
+      ],
+      "verified": true,
+      "startHere": false
+    },
+    {
+      "id": "ch5-082",
+      "chapter": "ch5",
+      "title": "Tool Calling Explained: The Core of AI Agents (2026 Guide)",
+      "url": "https://composio.dev/blog/ai-agent-tool-calling-guide",
+      "author": "Composio",
+      "publication_year": 2026,
+      "relevance": "Comprehensive guide on tool calling and function use in AI agents, covering practical implementation and tool discovery. Addresses action execution and override mechanisms in orchestration.",
+      "topics": [
+        "tool calling",
+        "function use",
+        "agent architecture",
+        "tool discovery"
+      ],
+      "verified": true,
+      "note": "Requires verification - content structure confirmed but full text rendering needed",
       "startHere": false
     }
   ]

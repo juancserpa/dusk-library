@@ -1,8 +1,8 @@
 {
   "chapter": "ch1",
   "chapter_title": "How We Accidentally Re-Created Evolution in Silicon",
-  "generated": "2026-03-07",
-  "entry_count": 71,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 81,
   "entries": [
     {
       "id": "ch1-001",
@@ -1973,6 +1973,106 @@
         "How fast is this happening?",
         "Can AI think or feel?"
       ],
+      "startHere": false
+    },
+    {
+      "id": "ch1-072",
+      "chapter": "ch1",
+      "title": "What is an attention mechanism?",
+      "url": "https://www.ibm.com/think/topics/attention-mechanism",
+      "source": "IBM Think Topics",
+      "year": 2024,
+      "relevance": "Foundational explanation of attention mechanisms that power modern transformers, essential for understanding neural network evolution and language learning architecture",
+      "startHere": false
+    },
+    {
+      "id": "ch1-073",
+      "chapter": "ch1",
+      "title": "Few-Shot Learning",
+      "url": "https://www.ibm.com/think/topics/few-shot-learning",
+      "source": "IBM Think Topics",
+      "year": 2024,
+      "relevance": "Covers learning paradigm shift from supervised to few-shot learning, demonstrates how AI systems learn from minimal examples like biological brains",
+      "startHere": false
+    },
+    {
+      "id": "ch1-074",
+      "chapter": "ch1",
+      "title": "Neuromorphic Computing",
+      "url": "https://www.ibm.com/think/topics/neuromorphic-computing",
+      "source": "IBM Think Topics",
+      "year": 2024,
+      "relevance": "Explains brain-inspired hardware and spiking neural networks, directly parallels biological neural computation to AI systems",
+      "startHere": false
+    },
+    {
+      "id": "ch1-075",
+      "chapter": "ch1",
+      "title": "Multimodality and Large Multimodal Models (LMMs)",
+      "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+      "source": "Huyen Chip Blog",
+      "year": 2024,
+      "relevance": "Technical exploration of multimodal AI systems processing vision, text, and audio—mirrors biological sensory integration and language-perception coupling",
+      "startHere": false
+    },
+    {
+      "id": "ch1-076",
+      "chapter": "ch1",
+      "title": "Efficient Attention Mechanisms for Large Language Models: A Survey",
+      "url": "https://arxiv.org/pdf/2507.19595",
+      "source": "arXiv",
+      "year": 2025,
+      "relevance": "Comprehensive survey of attention optimization techniques showing paradigm evolution in transformer architectures and scaling strategies",
+      "startHere": false
+    },
+    {
+      "id": "ch1-077",
+      "chapter": "ch1",
+      "title": "Biologically plausible local synaptic learning rules robustly implement deep supervised learning",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1160899/full",
+      "source": "Frontiers in Neuroscience",
+      "year": 2023,
+      "relevance": "Bridges biological learning mechanisms and artificial neural networks, shows how brain-inspired rules can achieve deep learning without backpropagation",
+      "startHere": false
+    },
+    {
+      "id": "ch1-078",
+      "chapter": "ch1",
+      "title": "A Visual Guide to Mixture of Experts (MoE)",
+      "url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts",
+      "source": "Maarten Grootendorst Newsletter",
+      "year": 2024,
+      "relevance": "Explains sparse mixture-of-experts architecture paradigm shift enabling massive model scaling with reduced compute",
+      "startHere": false
+    },
+    {
+      "id": "ch1-079",
+      "chapter": "ch1",
+      "title": "Quantum Machine Learning: Real-World Impact & Applications (2024-2025)",
+      "url": "https://dev.to/vaib/quantum-machine-learning-real-world-impact-applications-2024-2025-381",
+      "source": "DEV Community",
+      "year": 2025,
+      "relevance": "Explores integration of quantum computing with machine learning, representing next frontier in computational paradigm shifts for AI",
+      "startHere": false
+    },
+    {
+      "id": "ch1-080",
+      "chapter": "ch1",
+      "title": "Strategic Data Ordering: Enhancing Large Language Model Performance through Curriculum Learning",
+      "url": "https://arxiv.org/html/2405.07490v1",
+      "source": "arXiv",
+      "year": 2024,
+      "relevance": "Demonstrates curriculum learning paradigm mirroring biological development—simple-to-complex task progression improving model performance",
+      "startHere": false
+    },
+    {
+      "id": "ch1-081",
+      "chapter": "ch1",
+      "title": "Understanding the Architecture of Transformer Models",
+      "url": "https://archovavisuals.com/understanding-the-architecture-of-transformer/",
+      "source": "Archova Visuals",
+      "year": 2024,
+      "relevance": "Detailed technical explanation of transformer architecture evolution, fundamental to understanding modern AI's parallels to neural systems",
       "startHere": false
     }
   ]

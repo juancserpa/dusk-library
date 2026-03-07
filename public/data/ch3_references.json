@@ -1,8 +1,8 @@
 {
   "chapter": "ch3",
   "chapter_title": "The Dusk of Human Intelligence",
-  "generated": "2026-03-07",
-  "entry_count": 57,
+  "generated": "2026-03-07T13:09:55",
+  "entry_count": 61,
   "entries": [
     {
       "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
@@ -1546,6 +1546,72 @@
         "What happens to meaning and purpose?"
       ],
       "startHere": false
+    },
+    {
+      "id": "ch3-061",
+      "title": "Intelligence as a Commodity",
+      "url": "https://lifetime.fi/blog/2025/10/21/lsj-intelligence-as-a-commodity",
+      "authors": "Unknown",
+      "publication": "Lifetime.fi",
+      "year": 2025,
+      "topics": [
+        "intelligence becoming cheap",
+        "scarcity migration framework",
+        "meaning of intelligence",
+        "commodification of expertise"
+      ],
+      "key_insight": "Explores how AI transforms intelligence from scarce resource into commodity, reducing costs from $20 per million tokens (2022) to $0.07 (2024), while arguing tacit knowledge, judgment, and contextual understanding remain valuable",
+      "startHere": false,
+      "chapter": "ch3"
+    },
+    {
+      "id": "ch3-062",
+      "title": "Expertise as a Commodity in the AI Era",
+      "url": "https://blog.ciaops.com/2025/05/28/expertise-as-a-commodity-in-the-ai-era/",
+      "authors": "Unknown",
+      "publication": "CIAOPS",
+      "year": 2025,
+      "topics": [
+        "intelligence becoming cheap",
+        "meaning of intelligence",
+        "professional credential devaluation",
+        "expertise stratification"
+      ],
+      "key_insight": "Demonstrates how AI diagnostics, robo-advisors, and tutoring systems commodify expert knowledge across healthcare, finance, and education while emphasizing remaining value in human creativity and interpersonal connection",
+      "startHere": false,
+      "chapter": "ch3"
+    },
+    {
+      "id": "ch3-064",
+      "title": "AI Jobs in 2025: Essential Insights for Software Engineers",
+      "url": "https://spectrum.ieee.org/ai-jobs-in-2025",
+      "authors": "Gwendolyn Rak",
+      "publication": "IEEE Spectrum",
+      "year": 2025,
+      "topics": [
+        "knowledge worker displacement",
+        "intelligence becoming cheap",
+        "skills stratification"
+      ],
+      "key_insight": "Documents AI job demand acceleration (1.8% of postings in 2025 vs. 1.4% in 2023) while noting GitHub Copilot adoption reduces advanced programming skill requirements, enabling less experienced workers to achieve expert-level output",
+      "startHere": false,
+      "chapter": "ch3"
+    },
+    {
+      "id": "ch3-067",
+      "title": "On the Crisis and Democratization of Knowledge: The Sociopolitical Impact of AI and Knowledge Hierarchy",
+      "url": "https://jfsdigital.org/2025-2/vol-30-no-1-september-2025/on-the-crisis-and-democratization-of-knowledge-the-sociopolitical-impact-of-ai-and-knowledge-hierarchy/",
+      "authors": "Aina García Mestre",
+      "publication": "Journal of Futures Studies",
+      "year": 2025,
+      "topics": [
+        "cognitive aristocracy disrupted",
+        "meaning of intelligence",
+        "scarcity migration framework"
+      ],
+      "key_insight": "Analyzes how Big Data and AI compress knowledge verification, creating 'contaminated information' and 'trendy knowledge' where majority rule replaces expert consensus, dissolving traditional knowledge hierarchies into fragmented competing frameworks",
+      "startHere": false,
+      "chapter": "ch3"
     }
   ]
 }
