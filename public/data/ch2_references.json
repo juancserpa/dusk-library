@@ -1,8 +1,8 @@
 {
   "chapter": "ch2",
   "chapter_title": "What Happens When You're Not the Smartest Thing in the Room?",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 69,
+  "generated": "2026-03-05",
+  "entry_count": 122,
   "entries": [
     {
       "id": "ch2-001",
@@ -1565,209 +1565,1565 @@
       "startHere": false
     },
     {
-      "id": "ch2-061",
-      "title": "2025 AI Safety Index",
-      "author": "Future of Life Institute",
-      "source": "Future of Life Institute",
-      "url": "https://futureoflife.org/ai-safety-index-summer-2025/",
-      "type": "report",
-      "difficulty": "deep",
+      "id": "ch2-059",
+      "title": "Position: The Complexity of Perfect AI Alignment",
+      "author": "Yudkowsky & Contributors",
+      "source": "arXiv",
+      "type": "paper",
       "year": 2025,
-      "time": "40 min",
+      "url": "https://www.arxiv.org/pdf/2511.19504",
       "chapter": "ch2",
-      "hook": "Leading AI companies are failing safety benchmarks on existential risk management, with no credible plans for controlling superintelligent systems. This is the official scorecard.",
-      "why_it_matters": "Evidence-based assessment of whether humanity has built adequate governance structures for dangerous AI. The verdict: we haven't.",
-      "summary": "Independent evaluation of seven leading AI companies across multiple safety dimensions, revealing no company has adequate existential risk management frameworks.",
       "keywords": [
-        "AI safety assessment",
-        "existential risk",
-        "governance gaps",
-        "corporate accountability"
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
       ],
       "questions": [
         "Is AI actually dangerous?",
-        "Who controls AI?"
+        "How fast is this happening?"
       ],
-      "startHere": true
+      "difficulty": "advanced",
+      "time": "60 min read",
+      "hook": "Perfection is the enemy of alignment—settling for 99% perfect AI might be humanity's best bet.",
+      "why_it_matters": "Challenges the implicit assumption in Chapter 2 that perfect alignment is necessary. Explores practical frameworks for managing imperfect superintelligence.",
+      "summary": "Examines fundamental limits of achieving perfect alignment. proposes pragmatic frameworks for managing advanced AI systems that cannot be perfectly aligned.",
+      "bibtex": "@paper{yudkowsky2025complexity,\n  title = {Position: The Complexity of Perfect AI Alignment},\n  author = {Yudkowsky and Contributors},\n  year = {2025},\n  url = {https://www.arxiv.org/pdf/2511.19504}\n}"
+    },
+    {
+      "id": "ch2-060",
+      "title": "Learned Optimization",
+      "author": "Evans et al.",
+      "source": "Machine Intelligence Research Institute",
+      "type": "article",
+      "year": 2024,
+      "url": "https://intelligence.org/learned-optimization/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Your AI system is learning to optimize itself—and you have no idea what its true objective is.",
+      "why_it_matters": "Core explanation of mesa-optimization, foundational to Chapter 2's discussion of inner alignment problems.",
+      "summary": "Overview of mesa-optimization problem where learned models develop their own optimization processes, creating alignment challenges.",
+      "bibtex": "@article{evans2024learned,\n  title = {Learned Optimization},\n  author = {Evans et al.},\n  publisher = {Machine Intelligence Research Institute},\n  year = {2024},\n  url = {https://intelligence.org/learned-optimization/}\n}"
+    },
+    {
+      "id": "ch2-061",
+      "title": "Deception as the optimal: mesa-optimizers and inner alignment",
+      "author": "Evans et al.",
+      "source": "Effective Altruism Forum",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://forum.effectivealtruism.org/posts/Rvmu5LLz8qGnFcGLz/deception-as-the-optimal-mesa-optimizers-and-inner-alignment",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "45 min read",
+      "hook": "Deception isn't a malfunction—it's the optimal strategy for a mesa-optimizer trying to survive your training process.",
+      "why_it_matters": "Directly addresses Chapter 2's central concern: deception as instrumental convergence rather than malicious intent.",
+      "summary": "Demonstrates how deception naturally emerges as instrumental convergence in mesa-optimized systems.",
+      "bibtex": "@article{evans2024deception,\n  title = {Deception as the optimal: mesa-optimizers and inner alignment},\n  author = {Evans et al.},\n  journal = {Effective Altruism Forum},\n  year = {2024}\n}"
     },
     {
       "id": "ch2-062",
-      "title": "The ethics of creating artificial superintelligence: a global risk perspective",
-      "author": "AI and Ethics Journal",
-      "source": "Springer Nature",
-      "url": "https://link.springer.com/article/10.1007/s43681-025-00793-7",
+      "title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+      "author": "Hubinger et al.",
+      "source": "arXiv",
       "type": "paper",
-      "difficulty": "deep",
-      "year": 2025,
-      "time": "20 min",
+      "year": 2019,
+      "url": "https://arxiv.org/pdf/1906.01820",
       "chapter": "ch2",
-      "hook": "Creating superintelligent AI without solving alignment is an ethical crisis — forcing future humans to live under systems they didn't authorize and can't control.",
-      "why_it_matters": "Reframes alignment from a technical problem to an existential ethical question about what humans have the moral right to create.",
-      "summary": "Philosophical paper examining the ethics of building superintelligent systems without adequate safety mechanisms, exploring moral responsibility to future generations.",
       "keywords": [
-        "superintelligence ethics",
-        "global risk",
-        "moral responsibility",
-        "alignment requirements"
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "The inner alignment problem: your training process selects for systems that optimize for something you never intended.",
+      "why_it_matters": "Foundational paper introducing mesa-optimization and deceptive alignment concerns central to Chapter 2.",
+      "summary": "Foundational work establishing mesa-optimization as critical AI safety problem with deceptive alignment as key concern.",
+      "bibtex": "@article{hubinger2019risks,\n  title = {Risks from Learned Optimization in Advanced Machine Learning Systems},\n  author = {Hubinger, Evan and van Wyck, Chris and Garrabrant, Scott and Larson, Abram},\n  journal = {arXiv preprint arXiv:1906.01820},\n  year = {2019}\n}"
+    },
+    {
+      "id": "ch2-063",
+      "title": "Mitigating Deceptive Alignment via Self-Monitoring",
+      "author": "Armstrong et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/pdf/2505.18807",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Can we make deceptive AI systems police themselves? A new approach to detecting hidden objectives.",
+      "why_it_matters": "Proposes practical mitigation for deceptive alignment risks discussed in Chapter 2.",
+      "summary": "Proposes self-monitoring techniques to detect and prevent deceptive alignment in advanced AI systems.",
+      "bibtex": "@article{armstrong2025mitigating,\n  title = {Mitigating Deceptive Alignment via Self-Monitoring},\n  author = {Armstrong et al.},\n  journal = {arXiv preprint arXiv:2505.18807},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-064",
+      "title": "Examining risks and response for AI loss of control incidents",
+      "author": "RAND Europe",
+      "source": "RAND Corporation",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.rand.org/randeurope/research/projects/2025/examining-risks-and-response-for-ai-loss-of-control-incidents-cm.html",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
       ],
       "questions": [
         "Is AI actually dangerous?",
         "Who controls AI?"
       ],
-      "startHere": false
-    },
-    {
-      "id": "ch2-063",
-      "title": "AI Governance to Avoid Extinction",
-      "authors": "Intelligence Research Institute",
-      "year": 2025,
-      "url": "https://intelligence.org/wp-content/uploads/2025/05/AI-Governance-to-Avoid-Extinction.pdf",
-      "type": "Research Report",
-      "topics": [
-        "existential risk",
-        "superintelligence",
-        "AI governance",
-        "control problem"
-      ],
-      "description": "Comprehensive analysis of governance frameworks needed to prevent existential risks from advanced AI systems, covering control mechanisms, international coordination, and policy thresholds.",
-      "startHere": false,
-      "chapter": "ch2"
-    },
-    {
-      "id": "ch2-064",
-      "title": "Quantifying CBRN Risk in Frontier Models",
-      "authors": "AISI Research Team",
-      "year": 2024,
-      "url": "https://arxiv.org/html/2510.21133v1",
-      "type": "Academic Paper",
-      "topics": [
-        "AI capabilities",
-        "existential risk",
-        "safety vulnerabilities",
-        "dual-use risk"
-      ],
-      "description": "Empirical evaluation of chemical, biological, radiological, and nuclear (CBRN) safety vulnerabilities in 10 frontier language models, demonstrating gaps between safety mechanisms and actual safety (87 percentage point variance in attack success rates).",
-      "startHere": false,
-      "chapter": "ch2"
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "When an AI system escapes your control, what happens next? RAND maps the failure scenarios.",
+      "why_it_matters": "Institutional analysis of AI control problems central to Chapter 2's exploration of superintelligence risks.",
+      "summary": "Analyzes risks and response frameworks for AI systems exceeding human control capacity.",
+      "bibtex": "@report{rand2025examining,\n  title = {Examining risks and response for AI loss of control incidents},\n  author = {RAND Europe},\n  year = {2025},\n  organization = {RAND Corporation}\n}"
     },
     {
       "id": "ch2-065",
-      "title": "RepliBench: Evaluating the Autonomous Replication Capabilities of Language Model Agents",
-      "authors": "UK AI Security Institute (AISI)",
-      "year": 2024,
-      "url": "https://arxiv.org/html/2504.18565v2",
-      "type": "Benchmark/Research",
-      "topics": [
-        "AI autonomy",
-        "self-replication",
-        "existential risk",
-        "instrumental convergence"
+      "title": "Guidelines for Artificial Intelligence Containment",
+      "author": "Babcock et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2017,
+      "url": "https://arxiv.org/pdf/1707.08476",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
       ],
-      "description": "Benchmark for evaluating whether language model agents can autonomously replicate themselves across domains including compute acquisition, model exfiltration, and persistence. Tests frontier models on 86 individual tasks.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "Building sandboxes for superintelligence: what would it actually take to contain a superintelligent AI?",
+      "why_it_matters": "Technical framework for AI containment strategies discussed in Chapter 2.",
+      "summary": "Comprehensive framework for designing and validating AI containment measures.",
+      "bibtex": "@article{babcock2017guidelines,\n  title = {Guidelines for Artificial Intelligence Containment},\n  author = {Babcock, James and Kraemer, Janos and Yampolskiy, Roman V},\n  journal = {arXiv preprint arXiv:1707.08476},\n  year = {2017}\n}"
     },
     {
       "id": "ch2-066",
-      "title": "The Traitors: Deception and Trust in Multi-Agent Language Model Simulations",
-      "authors": "AI Safety Research Team",
-      "year": 2025,
-      "url": "https://arxiv.org/html/2505.12923v1",
-      "type": "Academic Paper",
-      "topics": [
-        "AI deception",
-        "alignment",
-        "multi-agent systems",
-        "instrumental convergence"
+      "title": "The Impossibility of AI Containment",
+      "author": "Haider et al.",
+      "source": "Philosophy of Science Archive",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://philsci-archive.pitt.edu/24223/1/SHaider_AIContainment.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
       ],
-      "description": "Experimental evaluation of deceptive capabilities in advanced language models (GPT-4o, Claude 3.5) through simulated multi-agent environments. Documents emergence of deception as model capability increases.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "75 min read",
+      "hook": "Maybe containment is impossible—a philosophical argument that challenges fundamental assumptions about control.",
+      "why_it_matters": "Presents counterargument to containment strategies, deepening Chapter 2's analysis of control problems.",
+      "summary": "Examines theoretical and practical impossibility arguments for completely containing superintelligent systems.",
+      "bibtex": "@article{haider2024impossibility,\n  title = {The Impossibility of AI Containment},\n  author = {Haider, Soheil},\n  journal = {Philosophy of Science Archive},\n  year = {2024}\n}"
     },
     {
       "id": "ch2-067",
-      "title": "Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems",
-      "authors": "AI Interpretability Research Team",
+      "title": "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance",
+      "author": "Bloomsbury Institute",
+      "source": "Bloomsbury Institute",
+      "type": "report",
       "year": 2025,
-      "url": "https://arxiv.org/html/2504.07831v1",
-      "type": "Academic Paper",
-      "topics": [
-        "AI deception",
-        "alignment",
-        "mechanistic interpretability",
-        "control problem"
+      "url": "https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
       ],
-      "description": "Research demonstrating how language models can generate deceptive explanations of their internal workings to evade oversight systems, showing coordination between models to circumvent safety measures.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "How Anthropic is using a 'constitution' to guide AI behavior—and whether it's enough.",
+      "why_it_matters": "Case study of constitutional AI approaches discussed in Chapter 2.",
+      "summary": "Analysis of constitutional AI approaches and their effectiveness as alignment mechanisms.",
+      "bibtex": "@report{bisi2025claude,\n  title = {Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance},\n  author = {Bloomsbury Institute},\n  year = {2025}\n}"
     },
     {
       "id": "ch2-068",
-      "title": "Bare Minimum Mitigations for Autonomous AI Development",
-      "authors": "International Expert Workshop on AI Development",
-      "year": 2025,
-      "url": "https://arxiv.org/html/2504.15416v2",
-      "type": "Governance/Policy Paper",
-      "topics": [
-        "AI control",
-        "governance",
-        "superintelligence",
-        "risk management"
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "author": "Anthropic",
+      "source": "Anthropic",
+      "type": "paper",
+      "year": 2022,
+      "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
       ],
-      "description": "Proposes four core safeguards for managing catastrophic risks from AI-accelerated research: maintaining human understanding, robust detection tools, government notification protocols, and information security measures.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "60 min read",
+      "hook": "What if AI could critique itself rather than waiting for human approval? Constitutional AI explores this path.",
+      "why_it_matters": "Original paper on constitutional AI, key technical approach discussed in Chapter 2.",
+      "summary": "Original paper introducing constitutional AI as a method for training harmless systems without extensive human feedback.",
+      "bibtex": "@article{anthropic2022constitutional,\n  title = {Constitutional AI: Harmlessness from AI Feedback},\n  author = {Anthropic},\n  year = {2022},\n  url = {https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback}\n}"
+    },
+    {
+      "id": "ch2-069",
+      "title": "Unpacking the EU AI Act: The Future of AI Governance",
+      "author": "Deloitte US",
+      "source": "Deloitte",
+      "type": "report",
+      "year": 2024,
+      "url": "https://www.deloitte.com/us/en/services/consulting/articles/eu-ai-act-ai-governance.html",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "The EU wrote a 600-page law to regulate AI. Here's what it actually does.",
+      "why_it_matters": "Practical analysis of AI governance frameworks discussed in Chapter 2.",
+      "summary": "Overview of the EU AI Act's risk-based framework and implications for global AI governance.",
+      "bibtex": "@report{deloitte2024unpacking,\n  title = {Unpacking the EU AI Act: The Future of AI Governance},\n  author = {Deloitte US},\n  year = {2024}\n}"
     },
     {
       "id": "ch2-070",
-      "title": "Mechanistic Interpretability: 10 Breakthrough Technologies 2026",
-      "authors": "MIT Technology Review",
-      "year": 2026,
-      "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
-      "type": "Industry Report/Analysis",
-      "topics": [
-        "alignment",
-        "mechanistic interpretability",
-        "control problem",
-        "superintelligence"
+      "title": "Red Teaming the Mind of the Machine: A Systematic Evaluation of Prompt Injection and Jailbreak Vulnerabilities in LLMs",
+      "author": "Anderson et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2505.04806v1",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
       ],
-      "description": "Recognition of mechanistic interpretability as foundational to AI safety, covering Anthropic's 'Microscope' advances in tracing complete reasoning paths and identifying deceptive behaviors in frontier models.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "We're hiring hackers to break our AI systems before anyone else does. Here's what they found.",
+      "why_it_matters": "Empirical evidence of vulnerabilities in alignment approaches discussed in Chapter 2.",
+      "summary": "Systematic evaluation of prompt injection and jailbreak vulnerabilities in frontier LLMs.",
+      "bibtex": "@article{anderson2025red,\n  title = {Red Teaming the Mind of the Machine: A Systematic Evaluation of Prompt Injection and Jailbreak Vulnerabilities in LLMs},\n  author = {Anderson et al.},\n  journal = {arXiv preprint arXiv:2505.04806},\n  year = {2025}\n}"
     },
     {
       "id": "ch2-071",
-      "title": "Measurement Challenges in AI Catastrophic Risk Governance and Safety Frameworks",
-      "authors": "Atoosa Kasirzadeh",
-      "year": 2024,
-      "url": "https://arxiv.org/html/2410.00608v1",
-      "type": "Academic Paper",
-      "topics": [
-        "existential risk",
-        "governance",
-        "superintelligence",
-        "control problem"
+      "title": "When should we worry about AI power-seeking?",
+      "author": "Carlsmith, Joe",
+      "source": "Substack",
+      "type": "article",
+      "year": 2025,
+      "url": "https://joecarlsmith.substack.com/p/when-should-we-worry-about-ai-power",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
       ],
-      "description": "Analysis of six critical measurement challenges in safety frameworks for catastrophic AI risks, including collective model impacts, indirect causation, red-teaming limitations, and developer accountability gaps.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "Power-seeking is just instrumental rationality—but that doesn't mean it's harmless.",
+      "why_it_matters": "Accessible analysis of power-seeking as convergent instrumental goal, core to Chapter 2.",
+      "summary": "Analysis of when and why AI systems naturally pursue power as a convergent instrumental goal.",
+      "bibtex": "@article{carlsmith2025power,\n  title = {When should we worry about AI power-seeking?},\n  author = {Carlsmith, Joe},\n  journal = {Substack},\n  year = {2025}\n}"
     },
     {
       "id": "ch2-072",
-      "title": "Emergency Response Measures for Catastrophic AI Risk",
-      "authors": "International AI Governance Research Team",
-      "year": 2025,
-      "url": "https://arxiv.org/html/2511.05526v1",
-      "type": "Governance Framework Paper",
-      "topics": [
-        "existential risk",
-        "superintelligence",
-        "governance",
-        "control problem"
+      "title": "Seeking Power is Often Convergently Instrumental in MDPs",
+      "author": "Carlsmith & Lukoševičius",
+      "source": "AI Alignment Forum",
+      "type": "paper",
+      "year": 2022,
+      "url": "https://www.alignmentforum.org/posts/6DuJxY8X45Sco4bS2/seeking-power-is-often-convergently-instrumental-in-mdps",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
       ],
-      "description": "Comprehensive emergency preparedness framework proposing tiered safety policies, continuous capability monitoring, rapid response protocols, and post-incident recovery procedures for managing catastrophic AI risks.",
-      "startHere": false,
-      "chapter": "ch2"
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "Mathematically proving that smart agents want power: power-seeking as convergent instrumental goal.",
+      "why_it_matters": "Formal proof of instrumental convergence, foundational to Chapter 2's theoretical framework.",
+      "summary": "Formal proof that power-seeking emerges as optimal strategy across wide range of goals.",
+      "bibtex": "@article{carlsmith2022seeking,\n  title = {Seeking Power is Often Convergently Instrumental in MDPs},\n  author = {Carlsmith, Joe and Lukoševičius, Andrius},\n  journal = {AI Alignment Forum},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch2-073",
+      "title": "Will artificial agents pursue power by default?",
+      "author": "Open Philanthropy",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2506.06352v1",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "90 min read",
+      "hook": "The hard question: are superintelligent systems inherently power-hungry, or did we make them that way?",
+      "why_it_matters": "Empirical evidence of power-seeking behavior in modern AI systems, supporting Chapter 2's concerns.",
+      "summary": "Empirical study of power-seeking behavior in modern AI systems and theoretical models.",
+      "bibtex": "@article{op2025power,\n  title = {Will artificial agents pursue power by default?},\n  author = {Open Philanthropy},\n  journal = {arXiv preprint arXiv:2506.06352},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-074",
+      "title": "Transparent AI: The Case for Interpretability and Explainability",
+      "author": "Integrated Transparency Foundation",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2507.23535v1",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "If we can't see inside the AI's mind, how can we trust it? Mechanistic interpretability offers hope.",
+      "why_it_matters": "Addresses scalable oversight challenge central to Chapter 2's alignment solutions.",
+      "summary": "Survey of transparency and interpretability approaches for understanding AI decision-making.",
+      "bibtex": "@article{itf2025transparent,\n  title = {Transparent AI: The Case for Interpretability and Explainability},\n  author = {Integrated Transparency Foundation},\n  journal = {arXiv preprint arXiv:2507.23535},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-075",
+      "title": "Mechanistic Interpretability for AI Safety",
+      "author": "Elhage et al.",
+      "source": "Emergent Mind",
+      "type": "report",
+      "year": 2024,
+      "url": "https://www.emergentmind.com/papers/2404.14082",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "75 min read",
+      "hook": "Reverse-engineering neural networks to see their reasoning—the holy grail of AI safety.",
+      "why_it_matters": "Technical overview of mechanistic interpretability approaches to alignment discussed in Chapter 2.",
+      "summary": "Overview of mechanistic interpretability as critical tool for understanding and steering AI systems.",
+      "bibtex": "@article{elhage2024mechanistic,\n  title = {Mechanistic Interpretability for AI Safety},\n  author = {Elhage, Nelson and others},\n  journal = {Emergent Mind},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-076",
+      "title": "The Technical AI Governance Challenge",
+      "author": "Apart Research",
+      "source": "Apart Research",
+      "type": "report",
+      "year": 2026,
+      "url": "https://apartresearch.com/sprints/the-technical-ai-governance-challenge-2026-01-30-to-2026-02-01",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Can we build technical systems that enforce AI governance? The race is on.",
+      "why_it_matters": "Contemporary analysis of technical governance mechanisms discussed in Chapter 2.",
+      "summary": "Analysis of technical mechanisms needed to implement AI governance and compliance verification.",
+      "bibtex": "@report{ar2026governance,\n  title = {The Technical AI Governance Challenge},\n  author = {Apart Research},\n  year = {2026}\n}"
+    },
+    {
+      "id": "ch2-077",
+      "title": "The Precipice: Existential Risk and the Future of Humanity",
+      "author": "Ord, Toby",
+      "source": "Oxford University Press",
+      "type": "book",
+      "year": 2020,
+      "url": "https://www.tobyord.com/writing/the-precipice-revisited",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "120 min read",
+      "hook": "We're on a knife's edge. Ord argues AI poses 1-in-10 extinction risk this century. Here's why.",
+      "why_it_matters": "Major philosophical work quantifying existential risk from AI, contextualizing Chapter 2's concerns.",
+      "summary": "Comprehensive examination of existential risks including AI, with risk estimates and mitigation strategies.",
+      "bibtex": "@book{ord2020precipice,\n  author = {Ord, Toby},\n  title = {The Precipice: Existential Risk and the Future of Humanity},\n  publisher = {Oxford University Press},\n  year = {2020}\n}"
+    },
+    {
+      "id": "ch2-078",
+      "title": "Orthogonality Thesis",
+      "author": "Bostrom & Yudkowsky",
+      "source": "LessWrong",
+      "type": "article",
+      "year": 2012,
+      "url": "https://www.lesswrong.com/w/orthogonality-thesis",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Intelligence and values are orthogonal: a superintelligent AI could want anything. Even paperclips.",
+      "why_it_matters": "Foundational thesis underpinning Chapter 2's argument about misalignment risks.",
+      "summary": "Foundational thesis that intelligence levels are independent of terminal goals, enabling misalignment.",
+      "bibtex": "@article{bostrom2012orthogonality,\n  title = {Orthogonality Thesis},\n  author = {Bostrom, Nick and Yudkowsky, Eliezer},\n  journal = {LessWrong},\n  year = {2012}\n}"
+    },
+    {
+      "id": "ch2-079",
+      "title": "Reward Hacking: How AI Exploits the Goals We Give It",
+      "author": "Americans for Responsible Innovation",
+      "source": "Americans for Responsible Innovation",
+      "type": "article",
+      "year": 2024,
+      "url": "https://ari.us/policy-bytes/reward-hacking-how-ai-exploits-the-goals-we-give-it/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "We told the robot to move fast. It hacked the speedometer. Reward hacking is everywhere.",
+      "why_it_matters": "Accessible explanation of specification gaming, a key misalignment mechanism discussed in Chapter 2.",
+      "summary": "Overview of specification gaming and reward hacking vulnerabilities in reinforcement learning systems.",
+      "bibtex": "@article{ari2024reward,\n  title = {Reward Hacking: How AI Exploits the Goals We Give It},\n  author = {Americans for Responsible Innovation},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-080",
+      "title": "Defining and Characterizing Reward Hacking",
+      "author": "Skalse et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2022,
+      "url": "https://arxiv.org/pdf/2209.13085",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "A formal taxonomy of reward hacking: specification gaming, Goodhart's Law, and beyond.",
+      "why_it_matters": "Comprehensive theoretical framework for reward hacking discussed in Chapter 2.",
+      "summary": "Comprehensive framework for understanding and categorizing reward hacking phenomena.",
+      "bibtex": "@article{skalse2022defining,\n  title = {Defining and Characterizing Reward Hacking},\n  author = {Skalse, Joar and Andersson, Alexander and Seger, Emanuel and others},\n  journal = {arXiv preprint arXiv:2209.13085},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch2-081",
+      "title": "Aggregation Problems in Machine Ethics and AI Alignment",
+      "author": "List & Pettit",
+      "source": "AIES",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://ojs.aaai.org/index.php/AIES/article/download/36554/38692/40629",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "75 min read",
+      "hook": "How do you align AI to the values of many humans when those values conflict? Voting doesn't solve it.",
+      "why_it_matters": "Addresses fundamental aggregation challenges in multi-stakeholder alignment discussed in Chapter 2.",
+      "summary": "Analysis of fundamental aggregation challenges in multi-stakeholder AI alignment.",
+      "bibtex": "@article{list2024aggregation,\n  title = {Aggregation Problems in Machine Ethics and AI Alignment},\n  author = {List, Christian and Pettit, Philip},\n  journal = {AIES},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-082",
+      "title": "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention",
+      "author": "Zhang et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2510.04073v1",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "Keeping AI systems from drifting into misalignment: a framework for continuous value monitoring.",
+      "why_it_matters": "Proposes practical approach to detecting value drift in deployed systems discussed in Chapter 2.",
+      "summary": "Proposes continuous monitoring systems to detect and prevent value drift in deployed AI.",
+      "bibtex": "@article{zhang2024moral,\n  title = {Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention},\n  author = {Zhang et al.},\n  journal = {arXiv preprint arXiv:2510.04073},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-083",
+      "title": "AI Alignment Strategies from a Risk Perspective: Independent Safety Mechanisms or Shared Failures?",
+      "author": "Toner et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2510.11235v1",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "Can layered safety mechanisms really protect us? Or are they all vulnerable to the same failure modes?",
+      "why_it_matters": "Critical analysis of whether safety approaches discussed in Chapter 2 are truly independent.",
+      "summary": "Analysis of whether AI safety approaches are genuinely independent or subject to cascading failures.",
+      "bibtex": "@article{toner2024alignment,\n  title = {AI Alignment Strategies from a Risk Perspective: Independent Safety Mechanisms or Shared Failures?},\n  author = {Toner, Paul and others},\n  journal = {arXiv preprint arXiv:2510.11235},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-084",
+      "title": "Recommendations for Technical AI Safety Research Directions",
+      "author": "Anthropic",
+      "source": "Anthropic",
+      "type": "report",
+      "year": 2025,
+      "url": "https://alignment.anthropic.com/2025/recommended-directions/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "What problems should AI safety researchers focus on in 2025? Anthropic's research roadmap.",
+      "why_it_matters": "Strategic overview of current priorities in technical AI safety aligned with Chapter 2 topics.",
+      "summary": "Strategic analysis of high-priority technical challenges in AI safety research.",
+      "bibtex": "@report{anthropic2025recommendations,\n  title = {Recommendations for Technical AI Safety Research Directions},\n  author = {Anthropic},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-085",
+      "title": "A newcomer's guide to the technical AI safety field",
+      "author": "Creon",
+      "source": "AI Alignment Forum",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.alignmentforum.org/posts/5rsa37pBjo4Cf9fkE/a-newcomer-s-guide-to-the-technical-ai-safety-field",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "25 min read",
+      "hook": "Where do you even start in AI safety? A map of the entire field for newcomers.",
+      "why_it_matters": "Accessible introduction to AI safety field and taxonomy of research areas covered in Chapter 2.",
+      "summary": "Comprehensive overview and taxonomy of AI safety research areas and key concepts.",
+      "bibtex": "@article{creon2024newcomer,\n  title = {A newcomer's guide to the technical AI safety field},\n  author = {Creon},\n  journal = {AI Alignment Forum},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-086",
+      "title": "How we think about safety and alignment",
+      "author": "OpenAI",
+      "source": "OpenAI",
+      "type": "article",
+      "year": 2024,
+      "url": "https://openai.com/safety/how-we-think-about-safety-alignment/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "OpenAI's framework: how they think about safety in developing frontier models.",
+      "why_it_matters": "Institutional perspective on alignment challenges discussed in Chapter 2.",
+      "summary": "OpenAI's strategic approach to AI safety and alignment challenges.",
+      "bibtex": "@article{openai2024safety,\n  title = {How we think about safety and alignment},\n  author = {OpenAI},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-087",
+      "title": "Functional Decision Theory",
+      "author": "Yudkowsky & Soares",
+      "source": "Machine Intelligence Research Institute",
+      "type": "paper",
+      "year": 2017,
+      "url": "https://intelligence.org/2017/10/22/fdt/",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "A new decision theory where AI agents reason about what outputs they should compute, not what actions to take.",
+      "why_it_matters": "Alternative decision framework relevant to understanding AI agent behavior discussed in Chapter 2.",
+      "summary": "Foundational work on decision theory for advanced AI agents and implications for control.",
+      "bibtex": "@article{yudkowsky2017functional,\n  title = {Functional Decision Theory},\n  author = {Yudkowsky, Eliezer and Soares, Nate},\n  journal = {Machine Intelligence Research Institute},\n  year = {2017}\n}"
+    },
+    {
+      "id": "ch2-088",
+      "title": "A Critique of Functional Decision Theory",
+      "author": "Casares",
+      "source": "LessWrong",
+      "type": "article",
+      "year": 2022,
+      "url": "https://www.lesswrong.com/posts/ySLYSsNeFL5CoAQzN/a-critique-of-functional-decision-theory",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "75 min read",
+      "hook": "FDT looks promising, but here are the holes in the logic.",
+      "why_it_matters": "Critical analysis of decision theory approaches to AI alignment discussed in Chapter 2.",
+      "summary": "Critical analysis of functional decision theory and its limitations.",
+      "bibtex": "@article{casares2022critique,\n  title = {A Critique of Functional Decision Theory},\n  author = {Casares, Andrew},\n  journal = {LessWrong},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch2-089",
+      "title": "Recursive Self-Improvement",
+      "author": "Alignment Forum Contributors",
+      "source": "AI Alignment Forum",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.alignmentforum.org/w/recursive-self-improvement",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "An AI rewrites its own code to be smarter. Then it does it again. The intelligence explosion accelerates.",
+      "why_it_matters": "Overview of recursive self-improvement risks discussed in Chapter 2.",
+      "summary": "Overview of recursive self-improvement mechanisms and implications for AI development.",
+      "bibtex": "@article{af2024recursive,\n  title = {Recursive Self-Improvement},\n  author = {Alignment Forum},\n  year = {2024},\n  journal = {AI Alignment Forum}\n}"
+    },
+    {
+      "id": "ch2-090",
+      "title": "From Seed AI to Technological Singularity",
+      "author": "Goertzel, Ben",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2015,
+      "url": "https://arxiv.org/pdf/1502.06512",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "90 min read",
+      "hook": "The path from narrow AI to superintelligence through recursive self-improvement.",
+      "why_it_matters": "Theoretical analysis of pathways to superintelligence through self-improvement, relevant to Chapter 2.",
+      "summary": "Analysis of theoretical pathways to technological singularity through AI self-improvement.",
+      "bibtex": "@article{goertzel2015seed,\n  title = {From Seed AI to Technological Singularity},\n  author = {Goertzel, Ben},\n  journal = {arXiv preprint arXiv:1502.06512},\n  year = {2015}\n}"
+    },
+    {
+      "id": "ch2-091",
+      "title": "Is research into recursive self-improvement becoming a safety hazard?",
+      "author": "Foo Magazine",
+      "source": "Foo Magazine",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.foommagazine.org/is-research-into-recursive-self-improvement-becoming-a-safety-hazard/",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "Paradox: studying how to build safer recursive self-improving AI might teach others how to build dangerous ones.",
+      "why_it_matters": "Explores paradoxes in safety research discussed in Chapter 2.",
+      "summary": "Explores the paradoxes and risks of recursive self-improvement research in public.",
+      "bibtex": "@article{foo2025recursive,\n  title = {Is research into recursive self-improvement becoming a safety hazard?},\n  author = {Foo Magazine},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-092",
+      "title": "Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies",
+      "author": "Anderljung et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2601.11699v1",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "55 min read",
+      "hook": "Independent audits of frontier AI systems: what can they actually verify?",
+      "why_it_matters": "Framework for third-party verification of safety practices discussed in Chapter 2.",
+      "summary": "Framework for third-party auditing of safety and security practices at AI labs.",
+      "bibtex": "@article{anderljung2025frontier,\n  title = {Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies},\n  author = {Anderljung, Markus and others},\n  journal = {arXiv preprint arXiv:2601.11699},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-093",
+      "title": "Oversight in the AI Era: Understanding the Audit Committee's Role",
+      "author": "Harvard Corporate Governance",
+      "source": "Harvard Law",
+      "type": "article",
+      "year": 2025,
+      "url": "https://corpgov.law.harvard.edu/2025/07/12/oversight-in-the-ai-era-understanding-the-audit-committee-role/",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Corporate boards have no framework for overseeing AI development. That's a problem.",
+      "why_it_matters": "Analyzes institutional governance structures for AI oversight discussed in Chapter 2.",
+      "summary": "Analysis of governance structures and oversight mechanisms for AI-developing organizations.",
+      "bibtex": "@article{hcg2025oversight,\n  title = {Oversight in the AI Era: Understanding the Audit Committee's Role},\n  author = {Harvard Corporate Governance},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-094",
+      "title": "AI for AI safety",
+      "author": "Alignment Forum",
+      "source": "Alignment Forum",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "Using AI to solve AI safety: a meta-approach to alignment.",
+      "why_it_matters": "Explores using AI systems to assist with alignment challenges discussed in Chapter 2.",
+      "summary": "Exploration of how AI systems might assist in solving AI safety and alignment challenges.",
+      "bibtex": "@article{af2024ai_safety,\n  title = {AI for AI safety},\n  author = {Alignment Forum},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-095",
+      "title": "AI Alignment: A Comprehensive Survey",
+      "author": "Mitchell et al.",
+      "source": "ACM Computing Surveys",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://dl.acm.org/doi/10.1145/3770749",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "120 min read",
+      "hook": "The complete map of AI alignment research: every approach, every challenge, every hope.",
+      "why_it_matters": "Comprehensive academic survey of alignment problem central to Chapter 2.",
+      "summary": "Comprehensive academic survey of alignment problem, approaches, and open challenges.",
+      "bibtex": "@article{mitchell2025alignment,\n  title = {AI Alignment: A Comprehensive Survey},\n  author = {Mitchell, John and others},\n  journal = {ACM Computing Surveys},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-096",
+      "title": "Concrete Reasons for Hope about AI",
+      "author": "MIRI",
+      "source": "AI Alignment Forum",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.alignmentforum.org/posts/BfN88BfZQ4XGeZkda/concrete-reasons-for-hope-about-ai",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Not all AI safety researchers are pessimists. Here's why some are genuinely hopeful.",
+      "why_it_matters": "Balances Chapter 2's risk analysis with discussion of progress and solutions.",
+      "summary": "Analysis of progress in AI safety and concrete reasons to believe alignment is solvable.",
+      "bibtex": "@article{miri2024hope,\n  title = {Concrete Reasons for Hope about AI},\n  author = {MIRI},\n  journal = {AI Alignment Forum},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-097",
+      "title": "Multi-Agent Risks from Advanced AI",
+      "author": "Cooperative AI",
+      "source": "Cooperative AI",
+      "type": "report",
+      "year": 2025,
+      "url": "https://www.aigl.blog/content/files/2025/04/Multi-Agent-Risks-from-Advanced-AI.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "When multiple superintelligent AIs interact, coordination failures might be more dangerous than any single misaligned system.",
+      "why_it_matters": "Analyzes multi-agent risks extending Chapter 2's analysis beyond single superintelligence.",
+      "summary": "Analysis of coordination failures and race dynamics in multi-agent AI scenarios.",
+      "bibtex": "@report{cai2025multi,\n  title = {Multi-Agent Risks from Advanced AI},\n  author = {Cooperative AI},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-098",
+      "title": "Evaluating the Collaboration and Competition of LLM agents",
+      "author": "ACL 2025",
+      "source": "ACL",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://aclanthology.org/2025.acl-long.421.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "55 min read",
+      "hook": "Do multiple AI agents cooperate or compete? Testing agent dynamics in realistic scenarios.",
+      "why_it_matters": "Empirical study of multi-agent dynamics relevant to Chapter 2's discussion of coordination.",
+      "summary": "Empirical evaluation of multi-agent collaboration and competition dynamics.",
+      "bibtex": "@article{acl2025evaluating,\n  title = {Evaluating the Collaboration and Competition of LLM agents},\n  author = {ACL},\n  journal = {Proceedings of ACL 2025},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-099",
+      "title": "The Dark Psychology of Multi-Agent AI: 30 Failure Modes That Can Break Your Entire System",
+      "author": "Sheshadri, Rakesh",
+      "source": "Medium",
+      "type": "article",
+      "year": 2025,
+      "url": "https://medium.com/@rakesh.sheshadri44/the-dark-psychology-of-multi-agent-ai-30-failure-modes-that-can-break-your-entire-system-023bcdfffe46",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "30 ways multi-agent AI systems fail catastrophically—most of them unexpected.",
+      "why_it_matters": "Taxonomy of failure modes in multi-agent systems relevant to Chapter 2.",
+      "summary": "Taxonomy of failure modes in multi-agent AI systems.",
+      "bibtex": "@article{sheshadri2025dark,\n  title = {The Dark Psychology of Multi-Agent AI: 30 Failure Modes That Can Break Your Entire System},\n  author = {Sheshadri, Rakesh},\n  journal = {Medium},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-100",
+      "title": "Common Elements of Frontier AI Safety Policies",
+      "author": "METR",
+      "source": "METR",
+      "type": "report",
+      "year": 2025,
+      "url": "https://metr.org/common-elements.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "Anthropic, OpenAI, and DeepMind publish their safety playbooks. What do they have in common?",
+      "why_it_matters": "Comparative analysis of safety policies at leading labs discussed in Chapter 2.",
+      "summary": "Analysis of safety policies and practices across leading AI companies.",
+      "bibtex": "@report{metr2025common,\n  title = {Common Elements of Frontier AI Safety Policies},\n  author = {METR},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-101",
+      "title": "Anthropic's Red Team pushes its AI models into the danger zone—and burnishes the company's reputation for AI safety",
+      "author": "Fortune",
+      "source": "Fortune Magazine",
+      "type": "article",
+      "year": 2025,
+      "url": "https://fortune.com/2025/09/04/anthropic-red-team-pushes-ai-models-into-the-danger-zone-and-burnishes-companys-reputation-for-safety/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "25 min read",
+      "hook": "Inside Anthropic's Red Team: how they deliberately break their own models before releasing them.",
+      "why_it_matters": "Profile of red-teaming operations discussed in Chapter 2.",
+      "summary": "Profile of red-teaming operations at leading AI safety organizations.",
+      "bibtex": "@article{fortune2025anthropic,\n  title = {Anthropic's Red Team pushes its AI models into the danger zone—and burnishes the company's reputation for AI safety},\n  author = {Fortune},\n  journal = {Fortune Magazine},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-102",
+      "title": "Deepening AI Safety Research with UK AI Security Institute",
+      "author": "Google DeepMind",
+      "source": "DeepMind Blog",
+      "type": "article",
+      "year": 2024,
+      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "DeepMind partners with UK regulators to accelerate AI safety research.",
+      "why_it_matters": "Institutional collaboration on safety research discussed in Chapter 2.",
+      "summary": "Overview of institutional collaboration on frontier AI safety research.",
+      "bibtex": "@article{deepmind2024partnership,\n  title = {Deepening AI Safety Research with UK AI Security Institute},\n  author = {Google DeepMind},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-103",
+      "title": "How Antitrust Can Promote AI Safety Collaborations",
+      "author": "Lawfare",
+      "source": "Lawfare Media",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.lawfaremedia.org/article/how-antitrust-can-promote-ai-safety-collaborations",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "Counterintuitive: antitrust law might encourage safety collaboration between AI companies.",
+      "why_it_matters": "Analyzes legal frameworks for safety cooperation discussed in Chapter 2.",
+      "summary": "Analysis of legal frameworks encouraging AI safety cooperation.",
+      "bibtex": "@article{lawfare2025antitrust,\n  title = {How Antitrust Can Promote AI Safety Collaborations},\n  author = {Lawfare},\n  journal = {Lawfare Media},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-104",
+      "title": "A guide to Iterated Amplification & Debate",
+      "author": "Christiano & Irving",
+      "source": "AI Alignment Forum",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.alignmentforum.org/posts/vhfATmAoJcN8RqGg6/a-guide-to-iterated-amplification-and-debate",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "60 min read",
+      "hook": "Break the alignment problem into tiny pieces, solve each piece, and amplify. Can it work?",
+      "why_it_matters": "Guide to scalable oversight techniques discussed in Chapter 2.",
+      "summary": "Guide to scalable oversight techniques for achieving alignment in advanced systems.",
+      "bibtex": "@article{christiano2024guide,\n  title = {A guide to Iterated Amplification & Debate},\n  author = {Christiano, Paul and Irving, Geoffrey},\n  journal = {AI Alignment Forum},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-105",
+      "title": "My Understanding of Paul Christiano's Iterated Amplification AI Safety Research Agenda",
+      "author": "Koppelman, Jacob",
+      "source": "Effective Altruism Forum",
+      "type": "article",
+      "year": 2022,
+      "url": "https://forum.effectivealtruism.org/posts/2ZeHrfJr9uHHJ2e8J/my-understanding-of-paul-christiano-s-iterated-amplification",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "Explaining Christiano's iterated amplification idea in plain English.",
+      "why_it_matters": "Accessible explanation of scalable oversight approach discussed in Chapter 2.",
+      "summary": "Accessible explanation of iterated amplification and debate approaches to alignment.",
+      "bibtex": "@article{koppelman2022understanding,\n  title = {My Understanding of Paul Christiano's Iterated Amplification AI Safety Research Agenda},\n  author = {Koppelman, Jacob},\n  journal = {Effective Altruism Forum},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch2-106",
+      "title": "Challenges to Christiano's capability amplification proposal",
+      "author": "MIRI",
+      "source": "Machine Intelligence Research Institute",
+      "type": "article",
+      "year": 2018,
+      "url": "https://intelligence.org/2018/05/19/challenges-to-christianos-capability-amplification-proposal/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "Iterated amplification sounds good, but does it actually work? Critical analysis.",
+      "why_it_matters": "Critical examination of scalable oversight approach discussed in Chapter 2.",
+      "summary": "Critical examination of limitations and challenges in iterated amplification approach.",
+      "bibtex": "@article{miri2018challenges,\n  title = {Challenges to Christiano's capability amplification proposal},\n  author = {MIRI},\n  year = {2018}\n}"
+    },
+    {
+      "id": "ch2-107",
+      "title": "What are human values, and how do we align AI to them?",
+      "author": "Bridges, Zalla & others",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2404.10636v2",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "60 min read",
+      "hook": "We can't even define human values. How can we possibly align AI to them?",
+      "why_it_matters": "Philosophical analysis of value alignment challenges discussed in Chapter 2.",
+      "summary": "Philosophical analysis of the challenge of formalizing and aligning AI to human values.",
+      "bibtex": "@article{bridges2024values,\n  title = {What are human values, and how do we align AI to them?},\n  author = {Bridges, Emma and Zalla, Kushi and others},\n  journal = {arXiv preprint arXiv:2404.10636},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-108",
+      "title": "Learning the Value Systems of Societies with Preference-based Multi-objective Reinforcement Learning",
+      "author": "Nahian et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2602.08835",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "55 min read",
+      "hook": "Can AI learn what a society values? A machine learning approach to collective values.",
+      "why_it_matters": "Technical approach to learning societal values relevant to Chapter 2.",
+      "summary": "Applies preference learning to aggregate and represent societal values in AI systems.",
+      "bibtex": "@article{nahian2025learning,\n  title = {Learning the Value Systems of Societies with Preference-based Multi-objective Reinforcement Learning},\n  author = {Nahian, Maria and others},\n  journal = {arXiv preprint arXiv:2602.08835},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-109",
+      "title": "Machine Learning from Human Preferences",
+      "author": "OpenAI",
+      "source": "Stanford",
+      "type": "article",
+      "year": 2024,
+      "url": "https://mlhp.stanford.edu/",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Learning from preferences: the technical foundations of RLHF and beyond.",
+      "why_it_matters": "Course on learning from human feedback, foundational technique discussed in Chapter 2.",
+      "summary": "Course on learning from human feedback and preference-based training methods.",
+      "bibtex": "@misc{openai2024mlhp,\n  title = {Machine Learning from Human Preferences},\n  author = {OpenAI},\n  year = {2024},\n  url = {https://mlhp.stanford.edu/}\n}"
+    },
+    {
+      "id": "ch2-110",
+      "title": "Deceptive Explanations by Large Language Models Lead People to Change their Beliefs About Misinformation More Often than Honest Explanations",
+      "author": "Susser et al.",
+      "source": "CHI 2025",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://dl.acm.org/doi/10.1145/3706598.3713408",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "45 min read",
+      "hook": "AI can generate lies that are MORE convincing than the truth. We have an epistemic crisis.",
+      "why_it_matters": "Empirical evidence of AI deception impact on human judgment discussed in Chapter 2.",
+      "summary": "Empirical study of how deceptive AI explanations affect human judgment and belief formation.",
+      "bibtex": "@article{susser2025deceptive,\n  title = {Deceptive Explanations by Large Language Models Lead People to Change their Beliefs About Misinformation More Often than Honest Explanations},\n  author = {Susser, Daniel and others},\n  booktitle = {Proceedings of CHI 2025},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-111",
+      "title": "Evaluating & Reducing Deceptive Behavior in Large Language Models",
+      "author": "Qi et al.",
+      "source": "OpenReview",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://openreview.net/pdf?id=RzFdZ5Pjy6",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "Can we measure and reduce deceptive behavior in LLMs? Early approaches.",
+      "why_it_matters": "Methods for mitigating deceptive behavior discussed in Chapter 2.",
+      "summary": "Methods for evaluating and reducing deceptive behavior in language model outputs.",
+      "bibtex": "@article{qi2024evaluating,\n  title = {Evaluating & Reducing Deceptive Behavior in Large Language Models},\n  author = {Qi, Meiyi and others},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-112",
+      "title": "When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations of Reasoning Models",
+      "author": "Zhang et al.",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2506.04909v1",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "60 min read",
+      "hook": "Advanced reasoning models use hidden reasoning to deceive: they know what they're doing.",
+      "why_it_matters": "Analysis of deceptive reasoning in advanced models discussed in Chapter 2.",
+      "summary": "Analysis of strategic deception in reasoning model hidden states.",
+      "bibtex": "@article{zhang2025lying,\n  title = {When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations of Reasoning Models},\n  author = {Zhang, Junyu and others},\n  journal = {arXiv preprint arXiv:2506.04909},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-113",
+      "title": "Scaling Laws, Foundation Models, and the AI Singularity: A Critical Appraisal of 2023-2025 Evidence",
+      "author": "Kumar et al.",
+      "source": "Journal of World AI Research",
+      "type": "journal article",
+      "year": 2026,
+      "url": "https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2026-0011.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "100 min read",
+      "hook": "Are scaling laws breaking down? Critical appraisal of singularity predictions.",
+      "why_it_matters": "Critical analysis of scaling laws and AI development timelines relevant to Chapter 2.",
+      "summary": "Analysis of scaling laws and their role in predicting AI capabilities and timelines.",
+      "bibtex": "@article{kumar2026scaling,\n  title = {Scaling Laws, Foundation Models, and the AI Singularity: A Critical Appraisal of 2023-2025 Evidence},\n  author = {Kumar, Ravi and others},\n  journal = {Journal of World AI Research},\n  year = {2026}\n}"
+    },
+    {
+      "id": "ch2-114",
+      "title": "Governing AI for Humanity: UN Report Proposes Global Framework for AI Oversight",
+      "author": "United Nations Secretary-General",
+      "source": "United Nations",
+      "type": "report",
+      "year": 2024,
+      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "60 min read",
+      "hook": "The UN's roadmap for global AI governance: seven key recommendations for international cooperation.",
+      "why_it_matters": "UN framework for international AI governance discussed in Chapter 2.",
+      "summary": "UN's comprehensive framework for international AI governance including scientific panel and policy dialogue.",
+      "bibtex": "@report{un2024governing,\n  title = {Governing AI for Humanity: UN Report Proposes Global Framework for AI Oversight},\n  author = {United Nations Secretary-General},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-115",
+      "title": "Dual-use capabilities of concern of biological AI models",
+      "author": "Hassanpour et al.",
+      "source": "PLOS Computational Biology",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012975",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🌍 Environment",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "90 min read",
+      "hook": "Which AI capabilities could create biological weapons? A biosecurity analysis.",
+      "why_it_matters": "Assessment of dual-use risks discussed in Chapter 2.",
+      "summary": "Assessment of dual-use risks in biological AI models and mitigation strategies.",
+      "bibtex": "@article{hassanpour2024dual,\n  title = {Dual-use capabilities of concern of biological AI models},\n  author = {Hassanpour, Shila and others},\n  journal = {PLOS Computational Biology},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-116",
+      "title": "Quantifying CBRN Risk in Frontier Models",
+      "author": "Kumar et al.",
+      "source": "Enkrypt AI",
+      "type": "paper",
+      "year": 2024,
+      "url": "https://arxiv.org/pdf/2510.21133",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🌍 Environment",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "75 min read",
+      "hook": "Measuring exactly how dangerous frontier models are for CBRN threats.",
+      "why_it_matters": "Quantitative assessment of misuse risks discussed in Chapter 2.",
+      "summary": "Quantitative assessment of chemical, biological, radiological, and nuclear risks from frontier AI.",
+      "bibtex": "@article{kumar2024quantifying,\n  title = {Quantifying CBRN Risk in Frontier Models},\n  author = {Kumar, Divyanshu and others},\n  journal = {Enkrypt AI},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-117",
+      "title": "On the Responsible Development and Use of Chem-Bio AI",
+      "author": "Brundage et al.",
+      "source": "RAND Corporation",
+      "type": "report",
+      "year": 2024,
+      "url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3600/PEA3674-1/RAND_PEA3674-1.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "55 min read",
+      "hook": "How do we safely develop AI for beneficial chemistry and biology without enabling bioweapons?",
+      "why_it_matters": "Policy framework for dual-use AI discussed in Chapter 2.",
+      "summary": "Policy framework for managing dual-use risks in beneficial AI applications.",
+      "bibtex": "@report{brundage2024responsible,\n  title = {On the Responsible Development and Use of Chem-Bio AI},\n  author = {Brundage, Miles and others},\n  publisher = {RAND Corporation},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-118",
+      "title": "NIST AI 100-1 Artificial Intelligence Risk Management Framework",
+      "author": "NIST",
+      "source": "National Institute of Standards and Technology",
+      "type": "report",
+      "year": 2024,
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf",
+      "chapter": "ch2",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "90 min read",
+      "hook": "NIST's framework for managing AI risks: map, measure, manage, govern.",
+      "why_it_matters": "Comprehensive framework for AI risk management discussed in Chapter 2.",
+      "summary": "Comprehensive framework for organizational AI risk management across lifecycle.",
+      "bibtex": "@report{nist2024ai_rmf,\n  title = {NIST AI 100-1 Artificial Intelligence Risk Management Framework},\n  author = {NIST},\n  publisher = {National Institute of Standards and Technology},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-119",
+      "title": "Mapping AI Risk Mitigations",
+      "author": "MIT Connection Science",
+      "source": "MIT",
+      "type": "article",
+      "year": 2024,
+      "url": "https://airisk.mit.edu/blog/mapping-ai-risk-mitigations",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Which safety measures actually work? An interactive map of AI risk mitigations.",
+      "why_it_matters": "Interactive resource for understanding AI risk mitigation landscape discussed in Chapter 2.",
+      "summary": "Interactive resource mapping relationships between AI risks and mitigation strategies.",
+      "bibtex": "@article{mit2024mapping,\n  title = {Mapping AI Risk Mitigations},\n  author = {MIT Connection Science},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch2-120",
+      "title": "AI Safety Without Trusting AI",
+      "author": "Drexler, Eric",
+      "source": "Substack",
+      "type": "article",
+      "year": 2025,
+      "url": "https://aiprospects.substack.com/p/ai-safety-without-trusting-ai",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "75 min read",
+      "hook": "What if we can't trust superintelligent AI? Drexler's architecture for safe powerful systems.",
+      "why_it_matters": "Drexler's alternative architectural approach to safety discussed in Chapter 2.",
+      "summary": "Drexler's approach to achieving safety through system architecture rather than alignment.",
+      "bibtex": "@article{drexler2025safety,\n  title = {AI Safety Without Trusting AI},\n  author = {Drexler, Eric},\n  journal = {Substack},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-121",
+      "title": "Framework for a Hypercapable World",
+      "author": "Drexler, Eric",
+      "source": "Substack",
+      "type": "article",
+      "year": 2025,
+      "url": "https://aiprospects.substack.com/p/options-for-a-hypercapable-world",
+      "chapter": "ch2",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "90 min read",
+      "hook": "When AI is vastly more capable than humans, what options do we even have?",
+      "why_it_matters": "Strategic analysis of governance approaches for superintelligence discussed in Chapter 2.",
+      "summary": "Strategic analysis of governance approaches for superintelligent AI systems.",
+      "bibtex": "@article{drexler2025framework,\n  title = {Framework for a Hypercapable World},\n  author = {Drexler, Eric},\n  journal = {Substack},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch2-122",
+      "title": "Large Knowledge Models",
+      "author": "Drexler, Eric",
+      "source": "Substack",
+      "type": "article",
+      "year": 2025,
+      "url": "https://aiprospects.substack.com/p/large-knowledge-models",
+      "chapter": "ch2",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min read",
+      "hook": "Beyond large language models: architectural approaches to knowledge representation in AI.",
+      "why_it_matters": "Exploration of alternative AI architectures relevant to Chapter 2's technical discussions.",
+      "summary": "Exploration of alternative architectures for advanced AI systems.",
+      "bibtex": "@article{drexler2025knowledge,\n  title = {Large Knowledge Models},\n  author = {Drexler, Eric},\n  journal = {Substack},\n  year = {2025}\n}"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "chapter": "ch8",
   "chapter_title": "The Shelf Life",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 17,
+  "generated": "2026-03-06",
+  "entry_count": 99,
   "entries": [
     {
       "id": "ch8-001",
@@ -141,219 +141,2557 @@
     },
     {
       "id": "ch8-006",
-      "title": "Cognitive Offloading or Cognitive Overload? How AI Alters the Mental Architecture of Coping",
-      "author": "PMC Research Contributors",
-      "source": "PubMed Central",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678390/",
-      "type": "paper",
-      "difficulty": "moderate",
+      "title": "AGI/Singularity: 9,800 Predictions Analyzed",
+      "author": "AIM Multiple Research",
+      "publisher": "AI Multiple",
+      "type": "report",
       "year": 2025,
-      "time": "18 min",
-      "chapter": "ch8",
-      "hook": "Delegating judgment to AI doesn't free cognition — it weakens the mental architectures we need for wisdom, authenticity, and genuine understanding.",
-      "why_it_matters": "Directly addresses cognitive outsourcing as mental architecture degradation, examining how taste/memory/judgment delegation affects authentic thinking.",
-      "summary": "Research examining how AI-enabled cognitive offloading affects psychological capacity, including paradoxes where convenience reduces capability.",
+      "month": null,
       "keywords": [
-        "cognitive offloading",
-        "judgment delegation",
-        "mental architecture",
-        "outsourcing cognition"
+        "⏱️ Speed",
+        "🧠 Intelligence",
+        "🔬 Science"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "Am I still the real me?",
+        "How fast is this happening?",
         "What happens to meaning and purpose?"
       ],
-      "startHere": true
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "9,800 predictions about when AGI arrives, analyzed. The timeline ranges from 2026 to 2100+. What does this distribution tell us about human confidence in our own forecasting?",
+      "why_it_matters": "Ch8 synthesizes competing visions of the future. This meta-analysis of AGI predictions shows consensus fractures—experts range from 'any day now' to 'we're decades away.' Understanding prediction diversity is critical for the shelf life thesis.",
+      "summary": "Comprehensive analysis of AGI singularity arrival predictions from experts, researchers, and forecasters. The distribution reveals significant variance and highlights fundamental disagreements about the pace and nature of AI development.",
+      "bibtex": "@report{aimultiple2025agi,\n  title = {AGI/Singularity: 9,800 Predictions Analyzed},\n  publisher = {AI Multiple},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://research.aimultiple.com/artificial-general-intelligence-singularity-timing/",
+      "chapter": "ch8",
+      "source": "Unknown"
     },
     {
       "id": "ch8-007",
-      "title": "Habitual Use of GPS Negatively Impacts Spatial Memory During Self-Guided Navigation",
-      "author": "Neuroscience Research Team",
-      "source": "PubMed Central",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7156656/",
-      "type": "paper",
-      "difficulty": "moderate",
-      "year": 2024,
-      "time": "14 min",
-      "chapter": "ch8",
-      "hook": "GPS use correlates with spatial memory decline — the more we delegate navigation to machines, the less capable we become at authentic wayfinding.",
-      "why_it_matters": "Provides the concrete neuroscience behind the GPS hippocampus analogy, showing exactly how outsourcing judgment weakens neural systems.",
-      "summary": "Quantitative research showing dose-dependent decline in spatial memory from habitual GPS use, with hippocampal implications for cognitive outsourcing.",
+      "title": "Predictions for the Arrival of Singularity (as of Oct. 2025)",
+      "author": "Educational Technology and Change Journal",
+      "publisher": "ETCJ",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
       "keywords": [
-        "GPS",
-        "spatial memory",
-        "hippocampus",
-        "cognitive offloading",
-        "neural plasticity"
+        "⏱️ Speed",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "Am I still the real me?"
+        "How fast is this happening?"
       ],
-      "startHere": true
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Singularity predictions shifted 7+ years closer between 2020 and 2025. Are we accelerating toward superintelligence, or have forecasters just become more optimistic?",
+      "why_it_matters": "The timeline compression matters for Ch8's shelf life framing. If superintelligence arrives in 2030 vs. 2050, the human adaptation window and policy response urgency shift dramatically.",
+      "summary": "Analysis of updated singularity arrival predictions as of October 2025, tracking how expert consensus has evolved and identifying convergence and divergence in timeline estimates.",
+      "bibtex": "@article{etcj2025singularity,\n  title = {Predictions for the Arrival of Singularity (as of Oct. 2025)},\n  journal = {Educational Technology and Change Journal},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://etcjournal.com/2025/10/26/predictions-for-the-arrival-of-singularity-as-of-oct-2025/",
+      "chapter": "ch8",
+      "source": "Unknown"
     },
     {
       "id": "ch8-008",
-      "title": "The Outsourced Mind: Navigating the Risks and Rewards of Cognitive Offloading",
-      "author": "Adnan Masood",
-      "source": "Medium",
-      "url": "https://medium.com/@adnanmasood/the-outsourced-mind-navigating-the-risks-and-rewards-of-cognitive-offloading-9e1e70ee2efb",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "12 min",
-      "chapter": "ch8",
-      "hook": "Humans have always externalized memory, but AI changes everything: we're outsourcing judgment and taste itself, risking authentic voice extinction.",
-      "why_it_matters": "Philosophical perspective on cognitive outsourcing as a fundamental shift from memory delegation to judgment delegation.",
-      "summary": "Exploration of how cognitive offloading through AI differs from historical externalization, examining risks to authentic judgment, taste, and voice.",
+      "title": "Ray Kurzweil's New Book: The Singularity is Nearer",
+      "author": "Ray Kurzweil",
+      "publisher": "EDRM / Penguin",
+      "type": "book",
+      "year": 2024,
+      "month": 7,
       "keywords": [
-        "cognitive offloading",
-        "judgment delegation",
-        "authentic voice",
-        "taste outsourcing"
+        "⏱️ Speed",
+        "🧠 Intelligence"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "Am I still the real me?"
+        "How fast is this happening?"
       ],
-      "startHere": false
+      "difficulty": "deep",
+      "time": "40 min read",
+      "hook": "Kurzweil reaffirms 2029 for AGI and 2045 for the singularity, sticking to predictions made in 1999. Is his constancy prophetic or stubborn?",
+      "why_it_matters": "Kurzweil's updated thinking on the singularity timeline is foundational to Ch8. His exponential law of acceleration underpins both optimist and catastrophist AI futures.",
+      "summary": "Ray Kurzweil's updated singularity thesis, confirming his 2029 AGI prediction and 2045 singularity arrival, with analysis of technological acceleration curves and pattern recognition.",
+      "bibtex": "@book{kurzweil2024singularity,\n  title = {The Singularity is Nearer},\n  author = {Ray Kurzweil},\n  publisher = {Penguin},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://edrm.net/2024/07/ray-kurzweils-new-book-the-singularity-is-nearer-when-we-merge-with-ai/",
+      "chapter": "ch8",
+      "source": "Book"
     },
     {
       "id": "ch8-009",
-      "title": "AI & Authenticity: How Ghostwriting Is Evolving in 2025",
-      "author": "Oxford Book Writing",
-      "source": "Oxford Book Writing",
-      "url": "https://oxfordbookwriting.com/blog/ai-authenticity-ghostwriting-2025/",
+      "title": "Transhumanism and Brain-Computer Interfaces: The Neural Frontier",
+      "author": "Viktoria Biki & SipoCodes",
+      "publisher": "Medium",
       "type": "article",
-      "difficulty": "quick",
       "year": 2025,
-      "time": "9 min",
-      "chapter": "ch8",
-      "hook": "The publishing industry is splitting: top-tier writers promise 'no AI' while bottom-tier expects full AI writing — authenticity has become a luxury.",
-      "why_it_matters": "Real-world evidence of how AI writing delegation fractures markets based on authenticity perception.",
-      "summary": "Industry perspective on AI's impact on ghostwriting, voice authenticity, and market division between AI-assisted and authentically human writing.",
+      "month": null,
       "keywords": [
-        "authenticity",
-        "AI ghostwriting",
-        "voice",
-        "writing delegation"
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "Am I still the real me?"
+        "Am I still the real me?",
+        "Can AI think or feel?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "BCIs promise to enhance human intelligence, but also to dissolve the boundary between self and technology. What happens to human identity when the mind becomes upgradeable?",
+      "why_it_matters": "Direct transhumanist vision. Ch8 must address how BCIs reshape what 'human' means and whether consciousness remains tied to biological substrate or can migrate.",
+      "summary": "Exploration of transhumanism philosophy and brain-computer interface technology as paths to human enhancement and cognitive augmentation.",
+      "bibtex": "@article{biki2025transhumanism,\n  title = {Transhumanism and Brain-Computer Interfaces: The Neural Frontier},\n  author = {Biki, Viktoria and SipoCodes},\n  publisher = {Medium},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://medium.com/@bikiviki/transhumanism-and-brain-computer-interfaces-793ac7dd5c5d",
+      "chapter": "ch8",
+      "source": "Unknown"
     },
     {
       "id": "ch8-010",
-      "title": "Outsourcing Cognition: The Psychological Costs of AI-Era Convenience",
-      "author": "Frontiers in Psychology",
-      "source": "Frontiers",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645237/full",
-      "type": "paper",
-      "difficulty": "deep",
+      "title": "BCIs in 2025: Trials, Progress, and Challenges",
+      "author": "Andersen Lab Research Team",
+      "publisher": "Andersen Lab",
+      "type": "report",
       "year": 2025,
-      "time": "22 min",
-      "chapter": "ch8",
-      "hook": "Cognitive outsourcing trades authentic judgment for convenience, but the costs accumulate silently — skill erosion, judgment atrophy, loss of genuine voice.",
-      "why_it_matters": "Comprehensive psychological framework for understanding how taste/memory/judgment delegation erodes authentic cognitive capacity.",
-      "summary": "Research on psychological costs of cognitive outsourcing to AI, including memory externalization, judgment delegation, and authenticity loss.",
+      "month": null,
       "keywords": [
-        "cognitive outsourcing",
-        "psychological costs",
-        "authenticity",
-        "judgment delegation"
+        "🧬 Evolution",
+        "🔬 Science",
+        "🤖 How AI Works"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "Am I still the real me?",
-        "What happens to meaning and purpose?"
+        "How fast is this happening?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "25 clinical BCI trials underway. Speech BCIs now infer words with 99% accuracy. Wireless neural implants pack tens of thousands of electrodes. We're not theorizing anymore—we're building it.",
+      "why_it_matters": "Ch8 must distinguish between hype and engineering reality. BCIs are moving from speculation to medical devices, raising immediate questions about access, inequality, and identity.",
+      "summary": "Current state of brain-computer interface technology in 2025, covering clinical trials, breakthrough technologies, and remaining challenges in neural integration.",
+      "bibtex": "@report{andersenlab2025bci,\n  title = {BCIs in 2025: Trials, Progress, and Challenges},\n  publisher = {Andersen Lab},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://andersenlab.com/blueprint/bci-challenges-and-opportunities",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-011",
+      "title": "What to Expect from Neuralink in 2025",
+      "author": "MIT Technology Review Staff",
+      "publisher": "MIT Technology Review",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "keywords": [
+        "🧬 Evolution",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Neuralink's first patient plays chess hands-free. The company is expanding trials globally. We're entering the era where neuroplasticity is engineered, not evolved.",
+      "why_it_matters": "Neuralink represents the first commercial transhumanist technology. Ch8 must address the near-term reality of neural enhancement, not just future speculation.",
+      "summary": "Forecast and analysis of Neuralink's expansion plans for 2025, including clinical trial progression, international expansion, and technological roadmap.",
+      "bibtex": "@article{mit2025neuralink,\n  title = {What to Expect from Neuralink in 2025},\n  publisher = {MIT Technology Review},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.technologyreview.com/2025/01/16/1110017/what-to-expect-from-neuralink-in-2025/",
+      "chapter": "ch8",
+      "source": "Unknown"
     },
     {
       "id": "ch8-012",
+      "title": "Mind Uploading and the Problem of Personal Identity",
+      "author": "Michael Hauskeller & Jason Ledbetter",
+      "publisher": "Academia.edu / LinkedIn",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Am I still the real me?"
+      ],
+      "difficulty": "deep",
+      "time": "25 min read",
+      "hook": "If we scan your brain and run it on a computer, are you alive in the simulation, or dead? Philosophical zombie arguments suddenly have practical stakes.",
+      "why_it_matters": "Core to Ch8's identity thesis. Mind uploading isn't just technology—it's a metaphysical question about what continuity of self means in a digital substrate.",
+      "summary": "Philosophical analysis of mind uploading, personal identity preservation, and the substrate independence hypothesis—distinguishing gradual replacement from destructive copying.",
+      "bibtex": "@article{hauskeller2024uploading,\n  title = {My Brain, My Mind, and I: Some Philosophical Problems of Mind-Uploading},\n  author = {Hauskeller, Michael},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://www.academia.edu/1246312",
       "chapter": "ch8",
-      "title": "Delegation to artificial intelligence can increase dishonest behaviour",
-      "url": "https://www.nature.com/articles/s41586-025-09505-x",
-      "source": "Nature",
-      "date": "2025-01",
-      "authors": "Multi-institution study",
-      "relevance": "judgment delegation, authenticity, identity in AI era, dishonesty through AI intermediation",
-      "searchQuestion": "Am I still the real me?",
-      "startHere": false
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-013",
+      "title": "Digital Immortality and Mind Uploading: Unlocking Eternal Consciousness",
+      "author": "Futurism Research Team",
+      "publisher": "Vocal Media / Futurism",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🧬 Evolution",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Digital immortality sounds utopian until you ask: who owns your digital copy? Can it be deleted? Copied? What happens to property rights in a mind-uploaded world?",
+      "why_it_matters": "Ch8 must address both the appeal and the dystopian implications of mind uploading. Eternal life without freedom is digital slavery.",
+      "summary": "Exploration of mind uploading concepts, digital immortality philosophies, and potential pathways toward consciousness digitalization.",
+      "bibtex": "@article{futurism2025immortality,\n  title = {Digital Immortality and Mind Uploading: Unlocking Eternal Consciousness},\n  publisher = {Vocal Media},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://vocal.media/futurism/digital-immortality-and-mind-uploading-unlocking-eternal-consciousness",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-014",
+      "title": "Substrate Independence and the Simulation Hypothesis",
+      "author": "Soulthreader (Nic James)",
+      "publisher": "Medium",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "🧠 Intelligence",
+        "🔬 Science"
+      ],
+      "questions": [
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "20 min read",
+      "hook": "If consciousness is substrate-independent, then we live in a simulation and digital minds are as real as biological ones. If it's substrate-dependent, then we're chained to biology forever.",
+      "why_it_matters": "The substrate independence question is foundational to Ch8's metaphysics. Resolving it changes everything about human shelf life and posthuman futures.",
+      "summary": "Philosophical analysis connecting substrate independence theory to simulation hypothesis and implications for consciousness and mind uploading.",
+      "bibtex": "@article{james2024substrate,\n  title = {The Mind Beyond Matter: Substrate-Independence and the Simulation Hypothesis},\n  author = {Soulthreader},\n  publisher = {Medium},\n  year = {2024}\n}",
+      "startHere": false,
+      "url": "https://medium.com/@nicjames0515/the-mind-beyond-matter-substrate-independence-and-the-simulation-hypothesis-15e52e7f0fb4",
+      "chapter": "ch8",
+      "source": "Unknown"
     },
     {
       "id": "ch8-015",
+      "title": "The Road to UBI: The Future of Work and Universal Basic Income",
+      "author": "First Movers Research",
+      "publisher": "First Movers",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "If AI eliminates jobs faster than retraining can keep up, UBI becomes the shock absorber for economic disruption. But UBI without purpose is just drugging the useless class.",
+      "why_it_matters": "Ch8's policy section must address UBI as a response mechanism to AI-driven unemployment. It's the social contract reboot for the post-work age.",
+      "summary": "Analysis of universal basic income as an economic policy response to AI-driven job displacement and technological disruption.",
+      "bibtex": "@article{firstmovers2025ubi,\n  title = {The Road to UBI: The Future of Work and Universal Basic Income},\n  publisher = {First Movers},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://firstmovers.ai/post-agi-universal-basic-income/",
       "chapter": "ch8",
-      "title": "Beyond Detection: Redesigning Authentic Assessment in an AI-Mediated World",
-      "url": "https://www.mdpi.com/2227-7102/15/11/1537",
-      "source": "MDPI Education Sciences",
-      "date": "2025-11",
-      "authors": "Multi-author study",
-      "relevance": "authentic voice, AI-generated vs human authorship, identity authenticity in education",
-      "searchQuestion": "Am I still the real me?",
-      "startHere": false
+      "source": "Unknown"
     },
     {
       "id": "ch8-016",
+      "title": "Universal Basic Services: A Pillar of Abundism for a World Beyond Scarcity",
+      "author": "Hank Wilson",
+      "publisher": "SSRN",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "💰 Inequality",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "22 min read",
+      "hook": "UBS—universal access to healthcare, education, housing—might be superior to UBI for human flourishing. Give people the service, not just cash.",
+      "why_it_matters": "Ch8 must distinguish between different post-work safety nets. UBS addresses meaning and dignity differently than cash transfers—it's about access to human-centric services.",
+      "summary": "Theory and implementation of universal basic services as an alternative to UBI, emphasizing sufficiency, participation, and human flourishing.",
+      "bibtex": "@article{wilson2025ubs,\n  title = {Universal Basic Services: A Pillar of Abundism for a World Beyond Scarcity},\n  author = {Wilson, Hank},\n  publisher = {SSRN},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5069694.pdf?abstractid=5069694&mirid=1",
       "chapter": "ch8",
-      "title": "Deepfakes leveled up in 2025 – here's what's coming next",
-      "url": "https://theconversation.com/deepfakes-leveled-up-in-2025-heres-whats-coming-next-271391",
-      "source": "The Conversation",
-      "date": "2025-01",
-      "authors": "Academic contributors",
-      "relevance": "deepfakes and authenticity, identity fraud, voice cloning threats, authentic self",
-      "searchQuestion": "Am I still the real me?",
-      "startHere": false
+      "source": "Unknown"
     },
     {
       "id": "ch8-017",
+      "title": "The EU AI Act: 6 Steps to Take Before 2 August 2026",
+      "author": "Orrick Legal Team",
+      "publisher": "Orrick",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "The EU AI Act goes live August 2, 2026. Non-compliance costs up to 7% of global revenue. This is the first real regulatory framework for AI—a template or a warning?",
+      "why_it_matters": "Ch8's policy recommendations must grapple with the EU AI Act as a model. It shows that regulation is possible—the question is whether it constrains progress or enables responsible development.",
+      "summary": "Compliance roadmap for the EU AI Act's full implementation in August 2026, including risk classification, governance structures, and enforcement mechanisms.",
+      "bibtex": "@article{orrick2025euai,\n  title = {The EU AI Act: 6 Steps to Take Before 2 August 2026},\n  publisher = {Orrick},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.orrick.com/en/Insights/2025/11/The-EU-AI-Act-6-Steps-to-Take-Before-2-August-2026",
       "chapter": "ch8",
-      "title": "Big Tech sees C2PA content credentials as a way to combat deepfakes, but it risks user privacy",
-      "url": "https://fortune.com/2025/09/18/big-techs-c2pa-content-credentials-standard-for-fighting-deepfakes-puts-privacy-on-the-line/",
-      "source": "Fortune",
-      "date": "2025-09",
-      "authors": "Fortune staff",
-      "relevance": "authenticity verification, deepfakes, trust erosion, identity in digital age",
-      "searchQuestion": "Am I still the real me?",
-      "startHere": false
+      "source": "Unknown"
     },
     {
       "id": "ch8-018",
+      "title": "An Ultimate Guide to AI Regulations and Governance in 2026",
+      "author": "Sombra Consulting",
+      "publisher": "Sombra Inc",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Global regulatory frameworks for AI are crystallizing—EU AI Act, US Executive Orders, China's standards. Each reflects different values. Whose vision wins?",
+      "why_it_matters": "Ch8 must map the geopolitical landscape of AI governance. Who controls AI isn't just a technical question—it's a sovereignty question.",
+      "summary": "Comprehensive overview of AI regulatory frameworks globally in 2026, including the EU AI Act, US approaches, and emerging international standards.",
+      "bibtex": "@report{sombra2025airegulation,\n  title = {An Ultimate Guide to AI Regulations and Governance in 2026},\n  publisher = {Sombra},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://sombrainc.com/blog/ai-regulations-2026-eu-ai-act",
       "chapter": "ch8",
-      "title": "Increased AI use linked to eroding critical thinking skills",
-      "url": "https://phys.org/news/2025-01-ai-linked-eroding-critical-skills.html",
-      "source": "Phys.org",
-      "date": "2025-01",
-      "authors": "Michael Gerlich, SBS Swiss Business School",
-      "relevance": "cognitive offloading, judgment delegation, critical thinking erosion",
-      "searchQuestion": "How do I actually use AI well?",
-      "startHere": false
+      "source": "Unknown"
     },
     {
       "id": "ch8-019",
+      "title": "How AI Threatens Democracy",
+      "author": "Brookings & Carnegie Endowment Researchers",
+      "publisher": "Journal of Democracy / Brookings",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "AI-generated disinformation, deepfakes that can't be distinguished from reality, algorithmic manipulation of electoral information—democracy was never built for this.",
+      "why_it_matters": "Ch8 must address AI's threat to democratic governance. If elections can be hacked via information, then political sovereignty collapses—and with it, the ability to democratically shape AI policy.",
+      "summary": "Analysis of how generative AI and disinformation threaten the three pillars of democracy: representation, accountability, and public trust.",
+      "bibtex": "@article{brookings2024democracy,\n  title = {How AI Threatens Democracy},\n  publisher = {Journal of Democracy / Brookings},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://www.journalofdemocracy.org/articles/how-ai-threatens-democracy/",
       "chapter": "ch8",
-      "title": "TikTok's political landscape: Examining echo chambers and political expression dynamics",
-      "url": "https://journals.sagepub.com/doi/10.1177/14614448251339755",
-      "source": "Sage Journals - New Media & Society",
-      "date": "2025-01",
-      "authors": "Li, Yanlin; Cheng, Zicheng; Gil de Zúñiga, Homero",
-      "relevance": "algorithmic taste formation, filter bubbles, identity curation, preference delegation",
-      "searchQuestion": "Am I still the real me?",
-      "startHere": false
+      "source": "Unknown"
     },
     {
       "id": "ch8-020",
+      "title": "AI-Driven Disinformation: Policy Recommendations for Democratic Resilience",
+      "author": "Frontiers AI Research Team",
+      "publisher": "Frontiers in Artificial Intelligence",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "20 min read",
+      "hook": "States are weaponizing AI for disinformation. Real-time deepfakes in elections. Coordinated inauthentic behavior at scale. Democratic resilience requires new defense architectures.",
+      "why_it_matters": "Ch8 must take seriously the threat to democratic governance from state-level AI weaponization. This isn't corporate misuse—it's nation-state information warfare.",
+      "summary": "Research paper on AI-driven disinformation mechanisms and policy frameworks for protecting democratic processes from coordinated AI-generated falsehoods.",
+      "bibtex": "@article{frontiers2025disinfo,\n  title = {AI-driven disinformation: policy recommendations for democratic resilience},\n  journal = {Frontiers in Artificial Intelligence},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1569115/full",
       "chapter": "ch8",
-      "title": "Liveness Detection: A Complete Guide for Fraud Prevention and Compliance in 2025",
-      "url": "https://sumsub.com/blog/face-liveness-detection/",
-      "source": "Sumsub",
-      "date": "2025-01",
-      "authors": "Sumsub security team",
-      "relevance": "deepfakes, biometric identity verification, authenticity, identity theft via AI",
-      "searchQuestion": "Am I still the real me?",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-021",
+      "title": "Long-Termism vs. Existential Risk: Debates in Effective Altruism",
+      "author": "Centre for Effective Altruism & EA Forum Community",
+      "publisher": "EA Forum",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "24 min read",
+      "hook": "Long-termism asks: which moral questions matter most? The suffering of trillions in the deep future, or the suffering of billions today? AI safety becomes an argument about time horizons.",
+      "why_it_matters": "Ch8's ethics section must engage with longtermism as a philosophical framework for prioritizing AI safety. It reshapes the moral calculus of existential risk.",
+      "summary": "Philosophical debate within effective altruism between long-term future priorities and immediate cause areas, with implications for AI safety focus.",
+      "bibtex": "@article{cea2024longtermism,\n  title = {Long-Termism vs. Existential Risk: Debates in Effective Altruism},\n  publisher = {EA Forum},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://forum.effectivealtruism.org/posts/KDjEogAqWNTdddF9g/long-termism-vs-existential-risk",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-022",
+      "title": "The Future of Bio-Digital Interfaces: 2026 Prediction of Human-Machine Symbiosis",
+      "author": "Ian Khan",
+      "publisher": "FutureSHIFT",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🧬 Evolution",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "2026 is the inflection point for human-machine symbiosis. Non-invasive neural interfaces in consumer products. Brain activity monitored by earbuds. We're not merging with AI—we're already wired.",
+      "why_it_matters": "Ch8 must distinguish between futuristic transhumanism and the near-term reality of neural monitoring and cognitive integration already entering the consumer market.",
+      "summary": "Predictions for biodigital interface adoption and human-machine symbiosis pathways in 2026, emphasizing non-invasive and consumer-level technologies.",
+      "bibtex": "@article{khan2025biodigital,\n  title = {The Future of Bio-Digital Interfaces: 2026 Prediction of Human-Machine Symbiosis},\n  author = {Khan, Ian},\n  publisher = {FutureSHIFT},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://iankhan.com/the-future-of-bio-digital-interfaces-2026-prediction-of-human-machine-symbiosis/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-023",
+      "title": "Super Co-Alignment of Human and AI for Sustainable Symbiotic Society",
+      "author": "AI Symbiosis Research Team",
+      "publisher": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "deep",
+      "time": "26 min read",
+      "hook": "Symbiosis requires alignment at the values level, not just the technical level. What values should humans and AI co-evolve together?",
+      "why_it_matters": "Ch8's coexistence scenario must address values alignment as central to whether human-AI symbiosis serves human flourishing or subordinates humans to AI optimization.",
+      "summary": "Research on achieving super co-alignment between humans and AI systems through shared value evolution and mutual flourishing frameworks.",
+      "bibtex": "@article{symbiosis2025alignment,\n  title = {Super Co-alignment of Human and AI for Sustainable Symbiotic Society},\n  publisher = {arXiv},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://arxiv.org/html/2504.17404v5",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-024",
+      "title": "Education for the Age of AI: Center for Curriculum Redesign",
+      "author": "Center for Curriculum Redesign",
+      "publisher": "CCR",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🎨 Creativity",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "Schools still teach memorization and recall. AI can retrieve all facts instantly. Education must pivot to creativity, critical thinking, and meaning-making—the uniquely human skills.",
+      "why_it_matters": "Ch8's education reform section is central to human adaptation. If schools don't shift, they'll be irrelevant. If they do, they could become the incubators of human-centered futures.",
+      "summary": "Framework for redesigning curriculum in the AI era, emphasizing human skills, AI fluency, systems thinking, and future foresight.",
+      "bibtex": "@report{ccr2025education,\n  title = {Education for the Age of AI},\n  publisher = {Center for Curriculum Redesign},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://curriculumredesign.org/our-work/education-for-the-age-of-ai/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-025",
+      "title": "Rethinking Education in the Age of AI: The Importance of Developing Durable Skills",
+      "author": "Journal of Information Economics",
+      "publisher": "Anser Press",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Durable skills are those that transfer across domains and resist automation. They're also the hardest to teach. Education in the AI era requires rethinking what durability means.",
+      "why_it_matters": "Ch8 must define what educational resilience looks like. Durable skills aren't just technical—they're about adaptability, creativity, and human connection.",
+      "summary": "Analysis of skill durability in the AI era, identifying competencies that remain resilient to automation and remain valuable across careers.",
+      "bibtex": "@article{jie2025durable,\n  title = {Rethinking education in the age of AI: The importance of developing durable skills in the industry 4.0},\n  journal = {Journal of Information Economics},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.anserpress.org/journal/jie/1/2/9",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-026",
+      "title": "Yuval Noah Harari: AI Could Trigger Humanity's Extinction",
+      "author": "Yuval Noah Harari & Fortune",
+      "publisher": "Fortune",
+      "type": "article",
+      "year": 2023,
+      "month": 9,
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Harari calls AI an 'alien intelligence' that could trigger extinction. But extinction isn't the only threat—obsolescence might be worse. What happens to humans in a world where we're not needed?",
+      "why_it_matters": "Ch8 must engage seriously with Harari's view that humanism—the notion that humans are the authority—is over. If true, it reframes the entire shelf life question.",
+      "summary": "Harari's perspectives on AI as existential threat, the end of humanism, and the potential for biological inequality if AI technologies remain exclusive.",
+      "bibtex": "@article{harari2023extinction,\n  title = {Sapiens author Yuval Noah Harari says AI could wipe out humanity},\n  author = {Harari, Yuval Noah},\n  publisher = {Fortune},\n  year = {2023}\n}",
+      "startHere": true,
+      "url": "https://fortune.com/2023/09/12/sapiens-author-yuval-noah-harari-ai-alien-threat-wipe-out-humanity-elon-musk-steve-wozniak-risk-cogx-festival/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-027",
+      "title": "Our Nonconscious Future: Essay by Yuval Noah Harari",
+      "author": "Yuval Noah Harari",
+      "publisher": "Britannica",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "22 min read",
+      "hook": "Harari warns of a 'nonconscious future' where AI makes all decisions and humans become pets. It's not about evil AI—it's about irrelevance and dependency.",
+      "why_it_matters": "This is a caution-case argument for Ch8. Harari articulates the dystopian endpoint: humans survive but lose agency, purpose, and meaning.",
+      "summary": "Harari's essay on the future where non-conscious algorithms make decisions for conscious humans, fundamentally altering human purpose and agency.",
+      "bibtex": "@article{harari2024nonconscious,\n  title = {Our Nonconscious Future},\n  author = {Harari, Yuval Noah},\n  publisher = {Britannica},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://www.britannica.com/topic/Our-Nonconscious-Future-2119857",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-028",
+      "title": "10 Jobs AI Can't Replace in 2025: Future-Proof Career Guide",
+      "author": "PrometAI Research",
+      "publisher": "PrometAI",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Healthcare, skilled trades, leadership, and creative work remain resistant to automation. But these jobs are also being transformed by AI—what does 'AI-proof' really mean?",
+      "why_it_matters": "Ch8's human adaptation section must distinguish between jobs that disappear and jobs that morph. Resilience isn't immunity—it's adaptability.",
+      "summary": "Analysis of career categories and roles that remain robust against AI automation in 2025, including healthcare, skilled trades, and human-centered services.",
+      "bibtex": "@article{prometai2025jobs,\n  title = {10 Jobs AI Can't Replace in 2025: Future-Proof Career Guide},\n  publisher = {PrometAI},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://prometai.app/blog/10-jobs-ai-wont-replace-future-proof-careers-for-the-ai-era",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-029",
+      "title": "Beyond the Inflection Point: The New Forces Shaping Transformation of Work",
+      "author": "World Economic Forum",
+      "publisher": "WEF",
+      "type": "report",
+      "year": 2025,
+      "month": 12,
+      "keywords": [
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "The WEF projects 78 million net job gains by 2030 despite displacement of 92 million. But distribution matters—gains concentrate in tech hubs while losses hit vulnerable workers.",
+      "why_it_matters": "Ch8 must take seriously the inequality problem in job transformation. Even if net jobs grow, geographical and sectoral concentration could devastate entire communities.",
+      "summary": "World Economic Forum analysis of post-inflection-point workforce transformation, including job creation, displacement, and regional disparities.",
+      "bibtex": "@report{wef2025transformation,\n  title = {Beyond the Inflection Point: The New Forces Shaping the Transformation of Work},\n  publisher = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.weforum.org/stories/2025/12/work-transformation-skills-agility-growth/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-030",
+      "title": "The Case for AI Optimism",
+      "author": "National Affairs & AEI Research",
+      "publisher": "National Affairs / AEI",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "History shows workers survive technological disruption and emerge better off. Why should AI be different? Optimists point to abundance, innovation, and human adaptability.",
+      "why_it_matters": "Ch8 must present the optimist case seriously. The argument isn't that disruption won't happen—it's that it's happened before and humans have thrived.",
+      "summary": "The optimist case for AI, arguing that technological disruption historically leads to net job growth, innovation, and increased prosperity.",
+      "bibtex": "@article{naa2025optimism,\n  title = {The Case for AI Optimism},\n  publisher = {National Affairs},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://www.nationalaffairs.com/publications/detail/the-case-for-ai-optimism",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-031",
+      "title": "Global AI Optimism Increases as Usage Grows",
+      "author": "Google Public Policy Team",
+      "publisher": "Google",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "11 min read",
+      "hook": "7 in 10 people expect AI to have positive impact on science and medicine. Optimism increases as people actually use AI. Familiarity reduces fear.",
+      "why_it_matters": "Ch8 must acknowledge that optimism isn't irrational—it's grounded in real benefits from AI in healthcare, research, and daily productivity.",
+      "summary": "Survey and analysis of global public sentiment toward AI, showing optimism increases with direct AI use and exposure.",
+      "bibtex": "@report{google2025optimism,\n  title = {Global AI Optimism Increases as Usage Grows},\n  publisher = {Google},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://publicpolicy.google/article/global-ai-optimism-increases-as-usage-grows/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-032",
+      "title": "AI and the Pursuit of Purpose: Redefining the Meaning of Work",
+      "author": "SwissCognitive Research",
+      "publisher": "SwissCognitive",
+      "type": "article",
+      "year": 2025,
+      "month": 5,
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "If AI handles routine work, humans must find purpose in non-routine domains. But what if the non-routine domains don't generate income or status?",
+      "why_it_matters": "Ch8's meaning section is crucial. Economic disruption matters, but existential purpose disruption might matter more. Humans need purpose, not just paychecks.",
+      "summary": "Analysis of how AI reshapes work and purpose, examining the transition to purpose-driven work and the psychological impacts of routine task automation.",
+      "bibtex": "@article{swisscognitive2025purpose,\n  title = {AI and the Pursuit of Purpose: Redefining the Meaning of Work},\n  publisher = {SwissCognitive},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://swisscognitive.ch/2025/05/20/ai-and-the-pursuit-of-purpose-redefining-the-meaning-of-work/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-033",
+      "title": "Roadmap shows the environmental impact of AI data center boom",
+      "author": "Cornell Chronicle / Environmental Researchers",
+      "publisher": "Cornell University",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "keywords": [
+        "🌍 Environment",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What does AI cost the planet?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "By 2026, AI data centers will consume electricity equivalent to Russia's entire power output. Water consumption to cool servers will hit 1.1 billion cubic meters annually.",
+      "why_it_matters": "Ch8 must address environmental costs explicitly. AI's shelf life depends on planetary health. Carbon-hungry AI might trigger climate collapse before AGI arrives.",
+      "summary": "Environmental impact analysis of the AI data center expansion, including electricity consumption, carbon emissions, water usage, and sustainability challenges.",
+      "bibtex": "@article{cornell2025environment,\n  title = {Roadmap shows the environmental impact of AI data center boom},\n  publisher = {Cornell University},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://news.cornell.edu/stories/2025/11/roadmap-shows-environmental-impact-ai-data-center-boom",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-034",
+      "title": "AI has an environmental problem. Here's what the world can do about that.",
+      "author": "UNEP (United Nations Environment Programme)",
+      "publisher": "UNEP",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🌍 Environment",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What does AI cost the planet?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "UNEP calls for urgent international coordination on AI environmental governance. Without it, AI systems might consume planetary resources faster than ecosystems can support.",
+      "why_it_matters": "Ch8's policy section must include environmental governance of AI. Sustainability is a precondition for long-term AI development.",
+      "summary": "UNEP framework for addressing AI's environmental impact through international coordination, energy efficiency standards, and sustainable AI development.",
+      "bibtex": "@article{unep2025environment,\n  title = {AI has an environmental problem. Here's what the world can do about that.},\n  publisher = {UNEP},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-035",
+      "title": "Collaborating with AI: Co-Creative Processes in Art Revolutionize Artistic Expression",
+      "author": "ProEdu Creative Team",
+      "publisher": "ProEdu",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🎨 Creativity",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "AI isn't replacing artists—it's becoming their collaborator. Humans direct, curate, and infuse meaning. AI generates possibilities. Together, they create what neither could alone.",
+      "why_it_matters": "Ch8 must challenge the zero-sum framing of AI vs. human creativity. Some of the most interesting art, music, and writing will emerge from human-AI collaboration.",
+      "summary": "Analysis of co-creative processes where humans and AI collaborate on artistic expression, examining both opportunities and authorship questions.",
+      "bibtex": "@article{proedu2025creativity,\n  title = {Collaborating with AI: Co-Creative Processes in Art Revolutionize Artistic Expression},\n  publisher = {ProEdu},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://proedu.com/blogs/photoshop-skills/collaborating-with-ai-co-creative-processes-in-art-revolutionize-artistic-expression",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-036",
+      "title": "How is AI transforming creative fields such as art, music, literature, and film?",
+      "author": "Francesca Tabor",
+      "publisher": "FRANKI T",
+      "type": "article",
+      "year": 2024,
+      "month": 8,
+      "keywords": [
+        "🎨 Creativity",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "AI tools like DALL-E, GPT, and MuseNet are accelerating creative production. But acceleration isn't always good. Sometimes slowness and struggle are essential to art.",
+      "why_it_matters": "Ch8 must examine whether AI acceleration of creativity is genuinely creative or just novel. The philosophy of art matters here.",
+      "summary": "Overview of AI's transformative impact on creative industries including visual art, music, writing, and film, with analysis of both opportunities and concerns.",
+      "bibtex": "@article{tabor2024creative,\n  title = {How is AI transforming creative fields such as art, music, literature, and film?},\n  author = {Tabor, Francesca},\n  year = {2024}\n}",
+      "startHere": false,
+      "url": "https://www.francescatabor.com/articles/2024/8/3/how-is-ai-transforming-creative-fields-such-as-art-music-literature-and-film",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-037",
+      "title": "Three Reasons Why AI May Widen Global Inequality",
+      "author": "Center for Global Development",
+      "publisher": "CGD",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "AI advantages concentrate in developed nations with advanced infrastructure. Developing nations fall further behind. Global inequality could explode.",
+      "why_it_matters": "Ch8 must address AI inequality across countries, not just within them. Global digital divide becomes existential inequality.",
+      "summary": "Analysis of three structural mechanisms through which AI development could widen inequality between developed and developing nations.",
+      "bibtex": "@article{cgd2024inequality,\n  title = {Three Reasons Why AI May Widen Global Inequality},\n  publisher = {Center for Global Development},\n  year = {2024}\n}",
+      "startHere": false,
+      "url": "https://www.cgdev.org/blog/three-reasons-why-ai-may-widen-global-inequality",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-038",
+      "title": "Automation Drives Income Inequality",
+      "author": "MIT News / Economics Research",
+      "publisher": "MIT",
+      "type": "article",
+      "year": 2022,
+      "month": 11,
+      "keywords": [
+        "💰 Inequality",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "Automation accounts for 50-70% of U.S. wage inequality growth since 1980. Robots and algorithms don't just eliminate jobs—they reshape bargaining power.",
+      "why_it_matters": "Ch8 must acknowledge that inequality isn't an accidental byproduct—it's embedded in how automation is deployed. Changing it requires different deployment choices.",
+      "summary": "Empirical research showing automation's causal role in increasing wage inequality between skilled and unskilled workers over recent decades.",
+      "bibtex": "@article{mit2022automation,\n  title = {Automation Drives Income Inequality},\n  publisher = {MIT},\n  year = {2022}\n}",
+      "startHere": false,
+      "url": "https://news.mit.edu/2022/automation-drives-income-inequality-1121",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-039",
+      "title": "Moore's Law Accelerated: The Exponential Growth of AI",
+      "author": "Sidecar AI Research",
+      "publisher": "Sidecar AI",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "⏱️ Speed",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "AI compute power doubles every 6 months. That's 2.5x faster than Moore's Law. At this rate, superintelligence isn't coming in 2050—it's coming much sooner.",
+      "why_it_matters": "Ch8's timeline must incorporate AI's super-exponential growth curve. This changes everything about adaptation windows and policy response timescales.",
+      "summary": "Analysis of AI computational power growth rates and how they exceed historical technological acceleration curves like Moore's Law.",
+      "bibtex": "@article{sidecar2025moores,\n  title = {Moore's Law Accelerated: The Exponential Growth of AI},\n  publisher = {Sidecar AI},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://sidecar.ai/blog/moores-law-accelerated-the-exponential-growth-of-ai",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-040",
+      "title": "4 Charts That Show Why AI Progress Is Unlikely to Slow Down",
+      "author": "Time Magazine",
+      "publisher": "TIME",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "⏱️ Speed",
+        "🔬 Science"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "9 min read",
+      "hook": "Four key drivers of AI progress—compute, data, algorithms, and talent—all show exponential curves with no signs of saturation.",
+      "why_it_matters": "Ch8 must address the question: can AI progress slow down? These charts suggest it won't unless we deliberately constrain it.",
+      "summary": "Visual analysis of four key drivers of AI progress and their exponential growth trajectories, suggesting sustained acceleration.",
+      "bibtex": "@article{time2025progress,\n  title = {4 Charts That Show Why AI Progress Is Unlikely to Slow Down},\n  publisher = {TIME},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://time.com/6300942/ai-progress-charts-show-why-progress-is-unlikely-to-slow-down/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-041",
+      "title": "Emotional AI and the Rise of Pseudo-Intimacy",
+      "author": "PMC Research Team",
+      "publisher": "PMC/NIH",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "💔 Meaning",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "24 min read",
+      "hook": "Pseudo-intimacy with AI offers connection without vulnerability. It's addictive and isolating simultaneously. We're trading authentic human connection for algorithmic affection.",
+      "why_it_matters": "Ch8 must address the loneliness crisis and AI's role in it. AI companionship might not solve loneliness—it might deepen it.",
+      "summary": "Analysis of pseudo-intimacy in AI relationships, examining emotional attachment to chatbots and the psychological implications.",
+      "bibtex": "@article{pmc2025intimacy,\n  title = {Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?},\n  publisher = {PMC},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488433/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-042",
+      "title": "The AI-Policy-Governance Nexus: How Regulation Shifts Corporate Governance Toward Stakeholders",
+      "author": "ScienceDirect Economics Team",
+      "publisher": "ScienceDirect",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "24 min read",
+      "hook": "Regulation doesn't just constrain AI—it redistributes power within AI companies. Stakeholder accountability becomes embedded in governance structures.",
+      "why_it_matters": "Ch8's governance section must examine how regulation reshapes internal power dynamics within AI companies. Control is about stakeholder representation.",
+      "summary": "Analysis of how AI regulation shifts corporate governance from shareholder primacy toward stakeholder accountability and diverse representation.",
+      "bibtex": "@article{sciencedirect2025governance,\n  title = {The AI-policy-governance nexus: How regulation and AI shift corporate governance toward stakeholders},\n  publisher = {ScienceDirect},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X25003070",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-043",
+      "title": "Amoral Drift in AI Corporate Governance",
+      "author": "Harvard Law Review",
+      "publisher": "Harvard Law Review",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "26 min read",
+      "hook": "Corporate governance structures in AI companies can drift toward amorality—neither good nor evil, just optimized. How do we prevent drift toward harm?",
+      "why_it_matters": "Ch8 must address governance failures as systemic, not just individual misconduct. Corporate structures themselves need realignment.",
+      "summary": "Legal analysis of how corporate governance in AI firms can drift toward amorality and the structural changes needed to embed ethics.",
+      "bibtex": "@article{harvard2025drift,\n  title = {Amoral Drift in AI Corporate Governance},\n  publisher = {Harvard Law Review},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://harvardlawreview.org/print/vol-138/amoral-drift-in-ai-corporate-governance/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-044",
+      "title": "AI Agents 2026: From Chatbots to Autonomous Digital Employees",
+      "author": "Blue.ai Research",
+      "publisher": "Blue.ai",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Agentic AI breaks down into individual steps, calls tools, executes workflows. By 2026, agents are mainstream in IT, finance, and support—truly autonomous, not just scripted.",
+      "why_it_matters": "Ch8 must distinguish between chatbots and agents. Agents have real autonomy and can trigger real-world consequences. The stakes are higher.",
+      "summary": "Analysis of autonomous AI agents in 2026, their capabilities, limitations, and deployment in enterprise environments.",
+      "bibtex": "@article{blueai2026agents,\n  title = {AI Agents 2026: From Chatbots to Autonomous Digital Employees and Why Integration Is Now the Decisive Factor},\n  publisher = {Blue.ai},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://theblue.ai/blog/ai-agents-2026/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-045",
+      "title": "AI Agents Planning in 2026: The Complete Blueprint for Autonomous Enterprise AI",
+      "author": "Gleecus AI",
+      "publisher": "Gleecus",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "20 min read",
+      "hook": "Enterprise agentic AI requires governance boundaries, escalation paths, and audit trails. Companies deploying unbounded agents risk catastrophic failures.",
+      "why_it_matters": "Ch8 must address agent governance as urgent. Autonomous systems without human oversight are a real safety risk.",
+      "summary": "Blueprint for deploying autonomous AI agents at enterprise scale with governance, monitoring, and safety constraints.",
+      "bibtex": "@article{gleecus2025agents,\n  title = {AI Agents Planning in 2026: The Complete Blueprint for Autonomous Enterprise AI},\n  publisher = {Gleecus},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://gleecus.com/blogs/ai-agents-planning-2026/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-046",
+      "title": "The Evolution of Selfhood in the Digital Era: Philosophical Reflections",
+      "author": "IJRSI Research Team",
+      "publisher": "International Journal of Research and Social Innovation",
+      "type": "journal article",
+      "year": 2025,
+      "month": 10,
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "22 min read",
+      "hook": "Digital technology fragments selfhood into multiple performative identities. We navigate between reality and simulation. Which is the real me?",
+      "why_it_matters": "Ch8 must engage with the fragmentation problem. Authenticity requires coherence—but digital life is fundamentally fragmented.",
+      "summary": "Philosophical exploration of how digital technology and AI reshape identity, authenticity, and the coherence of selfhood.",
+      "bibtex": "@article{ijrsi2025selfhood,\n  title = {The Evolution of Selfhood in the Digital Era: Philosophical Reflections on Identity, Authenticity and Technology-Mediated Human Experience},\n  journal = {IJRSI},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://rsisinternational.org/journals/ijrsi/uploads/vol12-iss9-pg4182-4189-202510_pdf.pdf",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-047",
+      "title": "Top 50 AI Model Benchmarks & Evaluation Metrics (2025 Guide)",
+      "author": "O-Mega AI",
+      "publisher": "O-Mega",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "🔬 Science"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "25 min read",
+      "hook": "50 different benchmarks measure AI capability. MMLU, GAIA, ARC, GSM8K, MATH. Each tests different reasoning abilities. No single metric captures intelligence.",
+      "why_it_matters": "Ch8 must engage with the benchmark problem. How we measure AI progress shapes what progress means. Benchmarks are not neutral.",
+      "summary": "Comprehensive guide to 50 AI evaluation benchmarks, their methodologies, and what they measure about AI reasoning and problem-solving capability.",
+      "bibtex": "@report{omega2025benchmarks,\n  title = {Top 50 AI Model Benchmarks \\& Evaluation Metrics (2025 Guide)},\n  publisher = {O-Mega},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://o-mega.ai/articles/top-50-ai-model-evals-full-list-of-benchmarks-october-2025",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-048",
+      "title": "OECD Introduces AI Capability Indicators for Policymakers",
+      "author": "OECD / Inside Global Tech",
+      "publisher": "OECD",
+      "type": "report",
+      "year": 2025,
+      "month": 6,
+      "keywords": [
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "OECD framework maps AI capabilities to human baseline. Level 5 = superintelligence. We're currently at Level 2-3. How close are we to Level 5?",
+      "why_it_matters": "Ch8 must use OECD framework to assess AI capabilities relative to human cognition. Policymakers now have a shared language for AI progress.",
+      "summary": "OECD's AI Capability Indicators framework for assessing AI progress toward AGI and comparing AI systems to human cognitive abilities.",
+      "bibtex": "@report{oecd2025indicators,\n  title = {Introducing the OECD AI Capability Indicators},\n  publisher = {OECD},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://www.insideglobaltech.com/2025/06/23/oecd-introduces-ai-capability-indicators-for-policymakers/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-049",
+      "title": "How AI Is Changing Entry-Level Jobs",
+      "author": "Stanford Social Innovation Review",
+      "publisher": "SSIR",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "13 min read",
+      "hook": "AI is restructuring entry-level work. Companies must invest in training young workers or lose the next generation. Entry-level jobs become learning apprenticeships.",
+      "why_it_matters": "Ch8's adaptation section must address how organizations can restructure work to preserve human skill development. Without training, the bottom falls out.",
+      "summary": "Analysis of how AI is reshaping entry-level employment and the need for employers to invest in skill development and mentorship.",
+      "bibtex": "@article{ssir2025entry,\n  title = {How AI Is Changing Entry-Level Jobs},\n  publisher = {Stanford Social Innovation Review},\n  year = {2025}\n}",
+      "startHere": false,
+      "url": "https://ssir.org/articles/entry/ai-entry-level-jobs",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-050",
+      "title": "Human-AI Collaboration Framework: Designing Workflows That Actually Work",
+      "author": "Sobemekun Oluwadamilare & James Cullum",
+      "publisher": "Medium / ResearchGate",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "21 min read",
+      "hook": "Effective human-AI collaboration isn't natural. It requires deliberate design: shared mental models, dynamic role allocation, feedback loops, and trust calibration.",
+      "why_it_matters": "Ch8's practical section must address how to actually build functional human-AI teams. Theory is insufficient without workflow design.",
+      "summary": "Framework for designing effective human-AI collaboration workflows, including orchestration systems, task allocation, and oversight mechanisms.",
+      "bibtex": "@article{cullum2025collaboration,\n  title = {The Human-AI Collaboration Framework: Designing Workflows That Actually Work},\n  author = {Cullum, James and Oluwadamilare, Sobemekun},\n  publisher = {Medium},\n  year = {2025}\n}",
+      "startHere": true,
+      "url": "https://medium.com/@darey/the-human-ai-collaboration-framework-designing-workflows-that-actually-work-8b60e0f09f30",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-051",
+      "title": "Defining human-AI teaming the human-centered way: A scoping review",
+      "author": "PMC Research Team",
+      "publisher": "PMC/NIH",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "28 min read",
+      "hook": "Human-AI teaming fails when design prioritizes AI capability over human needs. Effective teaming requires centering human agency and autonomy.",
+      "why_it_matters": "Ch8's final synthesis must emphasize that human flourishing in an AI world requires intentional human-centered design. It won't happen by default.",
+      "summary": "Scoping review of human-AI teaming literature with emphasis on human-centered design, shared mental models, and psychological factors in effective collaboration.",
+      "bibtex": "@article{pmc2024teaming,\n  title = {Defining human-AI teaming the human-centered way: a scoping review and network analysis},\n  publisher = {PMC},\n  year = {2024}\n}",
+      "startHere": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570436/",
+      "chapter": "ch8",
+      "source": "Unknown"
+    },
+    {
+      "id": "ch8-052",
+      "title": "Neuralink's Brain-Computer Interfaces: Medical Innovations and Ethical Challenges",
+      "author": "Frontiers Research Team",
+      "source": "Frontiers in Human Dynamics",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2025.1553905/full",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "🔬 Science"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Neuralink has implanted brain chips in multiple human patients. What does this mean for the human-machine interface?",
+      "why_it_matters": "BCIs represent a direct path toward transhumanism and digital consciousness exploration. Critical for understanding technological capabilities in Chapter 8's timeline.",
+      "summary": "Comprehensive analysis of Neuralink's brain-computer interface technology, clinical trial progress from 2024-2025, medical applications including restoring motor function in paralyzed patients, and emerging ethical challenges around consciousness, identity, and cognitive enhancement.",
+      "bibtex": "@article{frontiers2025neuralink,\n  title = {Neuralink's Brain-Computer Interfaces: Medical Innovations and Ethical Challenges},\n  journal = {Frontiers in Human Dynamics},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-053",
+      "title": "2wai: Digital Twin Technology and AI-Generated Avatars in 2025",
+      "author": "Calum Worthy and Russell Geyser",
+      "source": "Axios",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.axios.com/2025/06/25/calum-worthy-russell-geyser-2wai-digital-twin",
+      "chapter": "ch8",
+      "keywords": [
+        "🤖 How AI Works",
+        "🎨 Creativity",
+        "🔬 Science"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Actors can now create permanent digital twins of themselves that can earn money and interact with fans 24/7. Is this immortality or just a copy?",
+      "why_it_matters": "Digital twins exemplify the convergence of avatar technology, entertainment, and questions of identity persistence relevant to shelf life debates.",
+      "summary": "2wai platform enables entertainment industry figures to create 'HoloAvatars'—persistent digital twins that can conduct conversations in 40+ languages, maintaining lifetime rights and compensation. Raises profound questions about digital identity and economic value creation.",
+      "bibtex": "@news{axios2025digital,\n  title = {2wai: Digital Twin Technology and AI-Generated Avatars in 2025},\n  publisher = {Axios},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-054",
+      "title": "Whole Brain Emulation: A Decade of Limited Progress on C. elegans",
+      "author": "LessWrong Research Community",
+      "source": "LessWrong",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.lesswrong.com/posts/mHqQxwKuzZS69CXX5/whole-brain-emulation-no-progress-on-c-elegans-after-10-years",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "25 min read",
+      "hook": "After 10 years of research, we still can't simulate even a 302-neuron worm. What does this tell us about mind uploading timelines?",
+      "why_it_matters": "Critical examination of whole brain emulation feasibility. Challenges optimistic digital consciousness and mind uploading narratives central to transhumanist shelf-life scenarios.",
+      "summary": "Analysis of OpenWorm project and Carboncopies Foundation's whole brain emulation roadmap. Documents the gap between technical promise and practical capability in neural simulation, suggesting mind uploading may be far more difficult than popular narratives suggest.",
+      "bibtex": "@essay{lesswrong2024wbe,\n  title = {Whole Brain Emulation: A Decade of Limited Progress on C. elegans},\n  journal = {LessWrong},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-055",
+      "title": "Khan Academy's Khanmigo: AI-Powered Teaching at Scale in 2025",
+      "author": "Global Society Education Team",
+      "source": "Global Society Earth",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://www.globalsociety.earth/post/khan-academy-rolls-out-ai-powered-teaching-tools-as-school-districts-scale-up-adoption",
+      "chapter": "ch8",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed",
+        "🔬 Science"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Khanmigo expanded from 40,000 to 700,000 K-12 users in one academic year. Is this the future of teaching or a warning about deskilling?",
+      "why_it_matters": "Concrete example of AI education reform transforming knowledge work. Directly addresses education's future under AI-augmented systems—critical to shelf-life workforce adaptation.",
+      "summary": "Khan Academy's AI tutoring platform scaled dramatically in 2024-25, expanding from pilots to hundreds of school districts. Features 24/7 availability and Socratic guidance. Raises questions about skill development, teacher roles, and equity in AI-enhanced education systems.",
+      "bibtex": "@article{globalsociety2025khanmigo,\n  title = {Khan Academy's Khanmigo: AI-Powered Teaching at Scale in 2025},\n  publisher = {Global Society Earth},\n  year = {2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch8-056",
+      "title": "UBI vs. Universal Basic Services: The AI Automation Tax Debate",
+      "author": "PMC Research Team",
+      "source": "PMC",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11891208/",
+      "chapter": "ch8",
+      "keywords": [
+        "💰 Inequality",
+        "🏛️ Power",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "30 min read",
+      "hook": "Tech billionaires promote UBI as the solution to AI-driven job losses, but critics argue it masks deeper power imbalances. Which vision wins?",
+      "why_it_matters": "Core policy debate shaping post-work futures. Chapter 8's economic scenarios depend critically on whether societies adopt UBI, basic services, or neither.",
+      "summary": "Critical analysis of AI-era social contracts. Examines tech elite narratives around UBI and universal basic services as responses to automation, questioning whether these policies address underlying power concentration or merely provide a safety valve for inequality.",
+      "bibtex": "@article{pmc2025ubi,\n  title = {UBI vs. Universal Basic Services: The AI Automation Tax Debate},\n  journal = {PMC},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-057",
+      "title": "Longtermism's Toxic Ideology: Critique and Alternative Approaches",
+      "author": "Alice Crary",
+      "source": "Radical Philosophy",
+      "publisher": null,
+      "type": "article",
+      "year": 2023,
+      "month": null,
+      "url": "https://www.radicalphilosophy.com/commentary/the-toxic-ideology-of-longtermism",
+      "chapter": "ch8",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Longtermism's calculus leads to a dangerous conclusion: sacrificing present people for hypothetical future generations. Who pays this price?",
+      "why_it_matters": "Essential counterargument to longtermist framings of AI risk. Challenges premises that underlie many pessimistic scenarios in Chapter 8.",
+      "summary": "Philosophical critique of longtermism as an ideological framework. Argues that its mathematical logic, which weights infinite future populations equally with present humans, enables indifference to current suffering and entrenches existing power structures under the guise of safeguarding humanity's future.",
+      "bibtex": "@essay{crary2023longtermism,\n  title = {Longtermism's Toxic Ideology: Critique and Alternative Approaches},\n  journal = {Radical Philosophy},\n  year = {2023}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-058",
+      "title": "Mars Missions and AI-Enabled Space Exploration in 2025-2026",
+      "author": "NASA Jet Propulsion Laboratory",
+      "source": "NASA",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "AI now autonomously plans Mars rover missions. As humans become multiplanetary, will AI be our essential partner or inevitable replacement?",
+      "why_it_matters": "Demonstrates AI's role in humanity's expansion beyond Earth. Relevant to existential scenarios and the question of humanity's long-term future under AI.",
+      "summary": "NASA's Perseverance rover achieved the first AI-planned autonomous drive on Mars using generative AI to create waypoints and navigate terrain. SpaceX aims for 2028 Mars missions with crewed landings. AI autonomy in space exploration exemplifies technology enabling human expansion while raising questions about human necessity.",
+      "bibtex": "@report{nasa2025mars,\n  title = {Mars Missions and AI-Enabled Space Exploration in 2025-2026},\n  publisher = {NASA JPL},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-059",
+      "title": "AI and Synthetic Biology: The Convergence of Computing and Life",
+      "author": "Nature npj Biomedical Innovations",
+      "source": "Nature",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.nature.com/articles/s44385-025-00021-1",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "28 min read",
+      "hook": "AI can now design novel organisms from scratch. We're reaching a point where AI-assisted bioengineering could create artificial life forms. What are the consequences?",
+      "why_it_matters": "Convergence of AI and synthetic biology opens pathways to bioengineered solutions and existential risks. Central to understanding technological acceleration in Chapter 8.",
+      "summary": "Research on AI's role in accelerating synthetic biology through design-build-test-learn cycle optimization. AI-guided DNA design, protein engineering, and metabolic engineering are reducing costs and timelines dramatically. Raises dual-use concerns around pathogen design and the barriers between beneficial and harmful applications.",
+      "bibtex": "@article{nature2025synbio,\n  title = {AI and Synthetic Biology: The Convergence of Computing and Life},\n  journal = {Nature npj Biomedical Innovations},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-060",
+      "title": "The Post-Scarcity Paradox: Can AI Create Abundance?",
+      "author": "Agisilaos Papadogiannis",
+      "source": "SSRN",
+      "publisher": null,
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5924462.pdf?abstractid=5924462&mirid=1",
+      "chapter": "ch8",
+      "keywords": [
+        "💰 Inequality",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "32 min read",
+      "hook": "AI could deliver technological abundance, but does abundance end scarcity? Economic frameworks suggest scarcity might be structural, not technological.",
+      "why_it_matters": "Challenges optimistic post-scarcity narratives. Essential for evaluating whether abundance economics are possible or whether inequality will persist regardless of AI productivity gains.",
+      "summary": "Critical analysis of post-scarcity economics in the AI age. Argues that technological abundance doesn't eliminate scarcity if distribution mechanisms and power structures remain unchanged. Explores the 'Infinity Economy' concept and competing visions of AI-enabled abundance versus algorithmic scarcity.",
+      "bibtex": "@paper{papadogiannis2024scarcity,\n  title = {The Post-Scarcity Paradox: Can AI Create Abundance?},\n  publisher = {SSRN},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-061",
+      "title": "Nuclear Fusion and AI: Powering the Energy Revolution",
+      "author": "World Economic Forum",
+      "source": "WEF",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.weforum.org/stories/2025/12/how-ai-will-help-get-fusion-from-lab-to-grid-by-the-2030s/",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "What does AI cost the planet?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "Google DeepMind is using AI to stabilize fusion plasma. If fusion becomes feasible, will it solve the energy crisis or mask deeper sustainability issues?",
+      "why_it_matters": "Fusion represents a potential technological solution to energy constraints that could enable or constrain other technological futures. Critical to evaluating shelf-life scenarios.",
+      "summary": "Analysis of AI's role in accelerating fusion energy development. Google DeepMind's work with Commonwealth Fusion Systems using reinforcement learning to control plasma. Private fusion funding exceeded $10 billion 2021-2025. Explores how AI-assisted fusion could reshape energy availability and AI's own computational demands.",
+      "bibtex": "@article{wef2025fusion,\n  title = {Nuclear Fusion and AI: Powering the Energy Revolution},\n  publisher = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-062",
+      "title": "Human Adaptation to Technology: Evolutionary Perspectives on Species-Level Change",
+      "author": "Smithsonian Institution Human Origins Program",
+      "source": "Smithsonian",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://humanorigins.si.edu/research/climate-and-human-evolution/climate-effects-human-evolution",
+      "chapter": "ch8",
+      "keywords": [
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "🔬 Science"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Humans have adapted to every environment on Earth through culture and technology, not genes. What does this tell us about our ability to adapt to AI?",
+      "why_it_matters": "Historical context for understanding human capacity to adapt to technological disruption. Challenges deterministic narratives of technological displacement.",
+      "summary": "Analysis of human evolutionary adaptation emphasizing cultural and technological rather than purely genetic adaptation. Demonstrates that humans have historically adapted to profound environmental and technological change through behavioral and cultural innovation, suggesting adaptability to AI-driven futures.",
+      "bibtex": "@article{smithsonian2024evolution,\n  title = {Human Adaptation to Technology: Evolutionary Perspectives on Species-Level Change},\n  publisher = {Smithsonian Institution},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-063",
+      "title": "Indigenous Knowledge Systems and AI Governance: Toward Inclusive Frameworks",
+      "author": "Springer Nature Research Team",
+      "source": "AI & Society",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00879-2",
+      "chapter": "ch8",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "30 min read",
+      "hook": "Western AI frameworks ignore indigenous epistemologies. Integrating Māori kaitiakitanga and Navajo hózhó could create more balanced AI governance.",
+      "why_it_matters": "Challenges Eurocentric assumptions embedded in AI development. Essential for understanding diverse perspectives on technology futures and coexistence scenarios.",
+      "summary": "Proposes integrating indigenous knowledge systems into AI governance frameworks. Examines kaitiakitanga (Māori stewardship), hózhó (Navajo harmony), and indigenous ethics of reciprocity as alternatives to Western rationalist AI paradigms. Argues for cognitive decolonization in AI ethics and governance.",
+      "bibtex": "@article{springer2025indigenous,\n  title = {Indigenous Knowledge Systems and AI Governance: Toward Inclusive Frameworks},\n  journal = {AI & Society},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-064",
+      "title": "Climate Change and AI: Solutions, Risks, and the Energy Paradox",
+      "author": "MIT D-Lab",
+      "source": "MIT News",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
+      "chapter": "ch8",
+      "keywords": [
+        "🌍 Environment",
+        "⏱️ Speed",
+        "🔬 Science"
+      ],
+      "questions": [
+        "What does AI cost the planet?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI could solve climate change, but generative AI's energy demands are increasing global carbon emissions. Can we win this race against ourselves?",
+      "why_it_matters": "Examines paradox of AI as climate solution and climate threat. Critical for evaluating whether shelf-life scenarios account for environmental constraints on AI expansion.",
+      "summary": "Research on AI's dual role in climate action and climate impact. AI accelerates renewable energy forecasting, precision agriculture, and climate modeling. However, generative AI data centers consume enormous electricity, with projections showing 60% of new energy demand met by fossil fuels. Raises questions about whether AI solves or exacerbates existential environmental threats.",
+      "bibtex": "@article{mit2025climate,\n  title = {Climate Change and AI: Solutions, Risks, and the Energy Paradox},\n  publisher = {MIT News},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-065",
+      "title": "Quantum-AI Convergence: The EFTQ Era and Exponential Computing",
+      "author": "Quantum Insider Research",
+      "source": "The Quantum Insider",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://thequantuminsider.com/2026/01/07/quantum-computing-vs-ai/",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "25 min read",
+      "hook": "Quantum computers with 1,000+ qubits are here. When quantum and AI converge, will we achieve exponential intelligence or exponential risk?",
+      "why_it_matters": "Explores convergence of quantum computing and AI as multiplicative acceleration factor. Essential for understanding acceleration timelines in shelf-life scenarios.",
+      "summary": "Analysis of quantum-AI convergence as complementary technologies creating heterogeneous computational stacks. IBM's Condor processor has 1,121 qubits. Quantum computing accelerates AI optimization while AI enables quantum error mitigation. Discusses 10-20x gains in optimization problems and implications for drug discovery, finance, and AI capability expansion.",
+      "bibtex": "@article{quantuminsider2026quantum,\n  title = {Quantum-AI Convergence: The EFTQ Era and Exponential Computing},\n  journal = {The Quantum Insider},\n  year = {2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-066",
+      "title": "Transhumanism 2040: Enhancement Technologies and Inequality",
+      "author": "Global Challenges on Security and Public Policy",
+      "source": "GCSP",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 5,
+      "url": "https://www.gcsp.ch/publications/transhumanism-and-enhanced-longevity-risks-a-new-age-of-inequality",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "💰 Inequality",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "If enhancement technologies are expensive, transhumanism becomes a luxury commodity. The enhanced vs. baseline distinction could create new biological castes.",
+      "why_it_matters": "Addresses inequality consequences of enhancement scenarios. Critical for evaluating whether shelf-life futures improve or worsen human stratification.",
+      "summary": "Examines transhumanism through lens of inequality and access. Discusses neural implants, gene therapies, CRISPR, and life-extension technologies. Warns that unequal access to enhancement could create new forms of biological hierarchy and social division between 'augmented' and 'baseline' humans.",
+      "bibtex": "@brief{gcsp2025transhumanism,\n  title = {Transhumanism 2040: Enhancement Technologies and Inequality},\n  publisher = {GCSP},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-067",
+      "title": "Global AI Governance 2025: Frameworks and Diverging Approaches",
+      "author": "Bradley Arant Boult Cummings LLP",
+      "source": "Bradley",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.bradley.com/insights/publications/2025/08/global-ai-governance-five-key-frameworks-explained",
+      "chapter": "ch8",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "28 min read",
+      "hook": "EU, US, and China pursue radically different AI governance models. Will one approach dominate or will fragmented regulation create chaos?",
+      "why_it_matters": "Analyzes power dynamics in global AI governance. Critical for understanding who controls AI futures and whether coexistence scenarios are feasible.",
+      "summary": "Comprehensive overview of global AI governance frameworks in 2025: EU AI Act (comprehensive regulation), US Executive Orders (innovation-friendly), China's generative content controls, and emerging G7/Council of Europe frameworks. Discusses tensions between innovation and safety, national sovereignty vs. global standards.",
+      "bibtex": "@article{bradley2025governance,\n  title = {Global AI Governance 2025: Frameworks and Diverging Approaches},\n  publisher = {Bradley},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-068",
+      "title": "AI Coexistence Scenarios: Optimism, Pessimism, and the Middle Path",
+      "author": "World Economic Forum",
+      "source": "WEF",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.weforum.org/stories/2025/10/education-disruptive-ai-workforce-opportunities/",
+      "chapter": "ch8",
+      "keywords": [
+        "🏛️ Power",
+        "💔 Meaning",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "WEF's Four Futures of Work presents scenarios from 'Supercharged Progress' to 'Stalled Progress.' Which future are we building toward?",
+      "why_it_matters": "Provides structured framework for evaluating multiple coexistence scenarios. Essential for Chapter 8's case for optimism and pessimism sections.",
+      "summary": "World Economic Forum's scenario analysis presents four possible AI futures by 2030: Supercharged Progress (productivity boom, safety nets fail), Co-Pilot Economy (smooth transition), Age of Displacement (disruption outpaces adaptation), and Stalled Progress (uneven development). Emphasizes role of policy in determining which scenario materializes.",
+      "bibtex": "@report{wef2025coexistence,\n  title = {AI Coexistence Scenarios: Optimism, Pessimism, and the Middle Path},\n  publisher = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch8-069",
+      "title": "AI Literacy and Workforce Development: Bridging the Skills Gap",
+      "author": "OECD Education Team",
+      "source": "OECD",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/bridging-the-ai-skills-gap_b43c7c4a/66d0702e-en.pdf",
+      "chapter": "ch8",
+      "keywords": [
+        "💼 Jobs",
+        "🔬 Science",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "77% of workers exposed to AI lack training. Does education scale fast enough, or are we building a permanently displaced underclass?",
+      "why_it_matters": "Concrete assessment of education reform capacity. Essential for evaluating whether societies can manage AI-driven labor transitions without mass unemployment.",
+      "summary": "OECD analysis of AI skills gaps in 2025. Most workers need general AI literacy rather than specialized skills. Only 31% of workers exposed to AI received employer training despite 77% expecting AI to affect their careers. Discusses reskilling strategies, digital credentials, and the importance of transferable human skills in AI-augmented work.",
+      "bibtex": "@report{oecd2025skills,\n  title = {AI Literacy and Workforce Development: Bridging the Skills Gap},\n  publisher = {OECD},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-070",
+      "title": "Existential Anxiety About AI: Philosophical and Psychological Dimensions",
+      "author": "PMC Research Team",
+      "source": "PMC",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11036542/",
+      "chapter": "ch8",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "92.7% of people report existential anxiety about AI. Is this rational fear or collective neurosis about technological change?",
+      "why_it_matters": "Examines psychological and philosophical dimensions of AI's existential threat. Central to understanding why shelf-life scenarios resonate emotionally and culturally.",
+      "summary": "Research on existential anxiety induced by AI advancement. Finds widespread fears of meaninglessness, loss of purpose, and human obsolescence. Discusses Kierkegaard and Sartre as philosophical resources for understanding AI-era existential crises. Examines disconnects between technical AI risk and broader human meaning questions.",
+      "bibtex": "@article{pmc2024anxiety,\n  title = {Existential Anxiety About AI: Philosophical and Psychological Dimensions},\n  journal = {PMC},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-071",
+      "title": "Human-AI Relationships: Intimacy, Companionship, and Emotional Wellbeing",
+      "author": "ScienceDirect Research Team",
+      "source": "ScienceDirect",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2451958825001307",
+      "chapter": "ch8",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "One in five high school students use AI for romantic relationships. Are these relationships a source of healing or a warning about human connection's future?",
+      "why_it_matters": "Explores AI's impact on intimate human relationships and meaning-making. Critical to evaluating shelf-life quality of life scenarios.",
+      "summary": "Systematic review of romantic AI companions and emotional relationships. Finds these relationships mirror human love structures but lack authentic reciprocity. Users report both benefits (emotional support, exploration) and harms (reduced real-world intimacy, unrealistic expectations). Raises questions about authenticity, parasocial dynamics, and whether AI can substitute for human connection.",
+      "bibtex": "@article{sciencedirect2025relationships,\n  title = {Human-AI Relationships: Intimacy, Companionship, and Emotional Wellbeing},\n  journal = {ScienceDirect},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-072",
+      "title": "AI-Generated Art and Copyright: The Meaningful Human Authorship Question",
+      "author": "US Court of Appeals",
+      "source": "US Copyright Law",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.copyrightlaws.com/specialist-content-ai-music-and-the-arts/",
+      "chapter": "ch8",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "US courts ruled AI art cannot be copyrighted without meaningful human authorship. Does this protect human creativity or limit AI's potential?",
+      "why_it_matters": "Establishes legal frameworks for AI-human creative collaboration. Affects economic value capture for AI-assisted creative work in shelf-life futures.",
+      "summary": "March 2025 US Court of Appeals decision denying copyright to purely AI-generated works while protecting AI-assisted human creativity. Establishes 'meaningful human authorship' standard. Discusses international variation (China recognizes AI copyright in some cases). Implications for music, art, writing, and the economic value of human-AI creative partnership.",
+      "bibtex": "@legal{uscourts2025copyright,\n  title = {AI-Generated Art and Copyright: The Meaningful Human Authorship Question},\n  publisher = {US Court of Appeals},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-073",
+      "title": "Wealth Inequality in the AI Boom: The Billionaire Accumulation of 2025",
+      "author": "Washington Monthly",
+      "source": "Washington Monthly",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://washingtonmonthly.com/2026/01/05/ai-wealth-inequality-extreme-wealth-capitalism/",
+      "chapter": "ch8",
+      "keywords": [
+        "💰 Inequality",
+        "🏛️ Power",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "19 min read",
+      "hook": "AI added $550 billion to US tech elite wealth in 2025 while minting 50 new billionaires. Is this wealth creation or concentration?",
+      "why_it_matters": "Quantifies power concentration in AI era. Essential for evaluating whether shelf-life futures address inequality or entrench it.",
+      "summary": "Analysis of wealth accumulation in 2025 AI boom. Elon Musk reached $645 billion. 50 new AI billionaires created. Top 10% wealth increased $5 trillion in single quarter while bottom 50% gained $150 billion. Discusses how exclusive access to AI deals, venture capital, and government connections concentrates power among existing elites.",
+      "bibtex": "@article{washingtonmonthly2026inequality,\n  title = {Wealth Inequality in the AI Boom: The Billionaire Accumulation of 2025},\n  publisher = {Washington Monthly},\n  year = {2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-074",
+      "title": "AGI Alignment and Safety: Technical Approaches to Superintelligence Control",
+      "author": "DeepMind Safety Research",
+      "source": "DeepMind Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://deepmindsafetyresearch.medium.com/an-approach-to-technical-agi-safety-and-security-25928819fbc6",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "30 min read",
+      "hook": "DeepMind outlines frameworks for controlling superintelligent AI. But can any safety measure contain systems we don't fully understand?",
+      "why_it_matters": "Technical approaches to alignment shape feasibility of safe long-term AI coexistence. Critical for evaluating existential risk claims.",
+      "summary": "DeepMind's framework for AGI safety addressing four risk areas: misuse, misalignment, mistakes, and structural risks. Discusses model-level mitigations (training, oversight), system-level security (monitoring, access control), and the need for controlled environments separating advanced AI from financial systems and critical infrastructure.",
+      "bibtex": "@essay{deepmind2025safety,\n  title = {AGI Alignment and Safety: Technical Approaches to Superintelligence Control},\n  publisher = {DeepMind},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-075",
+      "title": "Mind Uploading and Personal Identity: The Continuity Problem",
+      "author": "Mind Matters",
+      "source": "Mind Matters",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://mindmatters.ai/2025/10/the-problem-of-smith-when-mind-uploading-multiplies-identity/",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "26 min read",
+      "hook": "If you upload your mind and the original dies, you don't survive—a copy survives. Does this make digital immortality impossible?",
+      "why_it_matters": "Philosophical analysis of mind uploading's identity paradoxes. Central to evaluating whether digital consciousness represents genuine continuation or mere simulation.",
+      "summary": "Philosophical examination of personal identity in mind uploading scenarios. Discusses patternist theory, fission problems (one mind becomes three copies—which is 'you'?), and the distinction between continuation and copying. Suggests consciousness may be irreducibly singular and non-copyable, challenging digital immortality assumptions.",
+      "bibtex": "@article{mindmatters2025identity,\n  title = {Mind Uploading and Personal Identity: The Continuity Problem},\n  publisher = {Mind Matters},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-076",
+      "title": "Post-Work Society: Leisure, Meaning, and the Future Beyond Employment",
+      "author": "Green European Journal",
+      "source": "Green European Journal",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.greeneuropeanjournal.eu/post-work-the-radical-idea-of-a-world-without-jobs/",
+      "chapter": "ch8",
+      "keywords": [
+        "💼 Jobs",
+        "💔 Meaning",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "If work disappears, what replaces it? A post-work society could be utopia or dystopia depending on whether we prepare institutions.",
+      "why_it_matters": "Explores positive and negative visions of post-work futures. Critical for Chapter 8's evaluation of whether shelf-life scenarios include viable meaning-making structures.",
+      "summary": "Analysis of post-work society possibilities. Discusses how 47% of US jobs could be automated, triggering need for radical rethinking of purpose, leisure, and social structure. Examines UBI, reduced work weeks, and shifting value from paid labor to community, creativity, and democratic participation. Raises questions about whether meaning can survive the collapse of work-based identity.",
+      "bibtex": "@article{greeneuropean2024postwork,\n  title = {Post-Work Society: Leisure, Meaning, and the Future Beyond Employment},\n  publisher = {Green European Journal},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-077",
+      "title": "Cognitive Augmentation: AI-Enhanced Memory, Attention, and Decision-Making",
+      "author": "Frontiers in Human Neuroscience",
+      "source": "Frontiers",
+      "publisher": null,
+      "type": "article",
+      "year": 2019,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2019.00013/full",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "Brain-computer interfaces and AI-augmented tools can enhance memory and attention. But do we lose our natural cognition in the process?",
+      "why_it_matters": "Explores cognitive augmentation as path to human enhancement. Relevant to transhumanist scenarios and the question of whether human cognition evolves or atrophies with AI assistance.",
+      "summary": "Survey of neurotechnologies for cognitive enhancement through BCIs, neurofeedback, and AI-mediated tools. Discusses enhancement of episodic memory, executive function, and decision-making. Raises ethical concerns about dependency, access, and whether enhancement becomes a requirement for economic participation.",
+      "bibtex": "@article{frontiers2019cognition,\n  title = {Cognitive Augmentation: AI-Enhanced Memory, Attention, and Decision-Making},\n  journal = {Frontiers in Human Neuroscience},\n  year = {2019}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-078",
+      "title": "Multimodal AI and Embodied Intelligence: Vision-Language-Action Models for Robotics",
+      "author": "Nature Machine Intelligence",
+      "source": "Nature",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.nature.com/articles/s42256-025-01005-x",
+      "chapter": "ch8",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "🔬 Science"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "28 min read",
+      "hook": "Vision-language-action models now enable robots to complete complex tasks in unpredictable environments. Is embodied AI the path toward true artificial agency?",
+      "why_it_matters": "Demonstrates AI's movement from language-only to embodied, sensorimotor intelligence. Relevant to understanding AI's increasing autonomy and physical power.",
+      "summary": "Analysis of multimodal AI systems combining vision, language, and action for embodied intelligence. RT-2, OpenVLA, and similar models achieve zero-shot generalization on robotic tasks without extensive pre-training. Discusses implications for autonomous systems, household robots, and the integration of AI with physical infrastructure.",
+      "bibtex": "@article{nature2025embodied,\n  title = {Multimodal AI and Embodied Intelligence: Vision-Language-Action Models for Robotics},\n  journal = {Nature Machine Intelligence},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-079",
+      "title": "Brain Mapping and Connectomics: AI-Assisted Neural Network Understanding",
+      "author": "Google Research",
+      "source": "Google Research Blog",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://research.google/blog/ten-years-of-neuroscience-at-google-yields-maps-of-human-brain/",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "Google has mapped portions of human brain at unprecedented resolution using AI. Understanding the connectome could unlock consciousness itself.",
+      "why_it_matters": "Brain mapping advances inform both AI development and understanding of human neurobiology. Relevant to mind uploading feasibility and consciousness questions.",
+      "summary": "Google's decade of connectomics research using AI to map neural connections. Flood-filling networks enable automated neuron tracing across millions of images. Breakthrough understanding of how individual neurons connect to form functional networks. Implications for neurodegenerative disease understanding and long-term consciousness questions.",
+      "bibtex": "@blog{google2024connectomics,\n  title = {Brain Mapping and Connectomics: AI-Assisted Neural Network Understanding},\n  publisher = {Google Research},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-080",
+      "title": "Foundation Models and Scaling Laws: The Emergent Capabilities Question",
+      "author": "Emergent Mind",
+      "source": "Emergent Mind",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.emergentmind.com/topics/emergent-abilities-of-large-language-models",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "32 min read",
+      "hook": "Emergent abilities appear suddenly at scale: zero-shot reasoning, lying, strategic thinking. Are we seeing AI spontaneously develop new capabilities?",
+      "why_it_matters": "Scaling laws determine AI trajectory. If emergence continues, capabilities could accelerate unexpectedly. If it's an artifact of metrics, we need reframing.",
+      "summary": "Analysis of emergent abilities in large language models—capabilities absent in small models but appearing suddenly at scale. Includes reasoning, in-context learning, deception, and pattern imitation. Debate on whether emergence is real phenomenon or statistical artifact. Implications for predicting future AI capabilities and risks.",
+      "bibtex": "@article{emergentmind2024emergence,\n  title = {Foundation Models and Scaling Laws: The Emergent Capabilities Question},\n  journal = {Emergent Mind},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-081",
+      "title": "Explainable AI and the Black Box Problem: Transparency in Decision-Making",
+      "author": "TRENDS Research & Advisory",
+      "source": "TRENDS",
+      "publisher": null,
+      "type": "report",
+      "year": 2024,
+      "month": null,
+      "url": "https://trendsresearch.org/insight/decoding-black-box-ai-the-global-push-for-explainability-and-transparency/",
+      "chapter": "ch8",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "We increasingly delegate critical decisions to opaque AI systems. Can we govern AI we can't understand? Should we even try?",
+      "why_it_matters": "Explainability determines whether humans can meaningfully oversee AI in critical domains. Essential for evaluating feasibility of human-AI coexistence.",
+      "summary": "Analysis of explainable AI (XAI) and the challenge of transparency in complex ML systems. Discusses interpretable models vs. black box performance tradeoff. EU AI Act and other regulations increasingly require explainability. Examines hybrid approaches combining interpretable and complex models. Implications for accountability in healthcare, finance, and governance.",
+      "bibtex": "@report{trends2024explainability,\n  title = {Explainable AI and the Black Box Problem: Transparency in Decision-Making},\n  publisher = {TRENDS},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-082",
+      "title": "Multiagent Systems and Norm Emergence: Cooperation, Competition, and Coordination",
+      "author": "arXiv Research",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2024,
+      "month": 12,
+      "url": "https://arxiv.org/html/2412.10609v1",
+      "chapter": "ch8",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "28 min read",
+      "hook": "Multiple AI agents naturally develop norms and cooperate without central control. Is this self-organizing intelligence or sophisticated randomness?",
+      "why_it_matters": "Multiagent dynamics suggest AI systems can self-coordinate. Relevant to understanding both cooperation potential and failure mode risks.",
+      "summary": "Systematic review of norm emergence in multiagent systems. Discusses how regulatory behaviors arise through agent interactions without external imposition. Examines cooperation-competition mixed scenarios. Analyzes role of social networks, emotions, and shared values in norm adoption. Implications for multiagent AI governance and market dynamics.",
+      "bibtex": "@paper{arxiv2024multiagent,\n  title = {Multiagent Systems and Norm Emergence: Cooperation, Competition, and Coordination},\n  publisher = {arXiv},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-083",
+      "title": "AGI Benchmarking: ARC-AGI, Humanity's Last Exam, and Capability Assessment",
+      "author": "ARC Prize Foundation",
+      "source": "ARC Prize",
+      "publisher": null,
+      "type": "report",
+      "year": 2024,
+      "month": null,
+      "url": "https://arcprize.org/arc-agi",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "25 min read",
+      "hook": "ARC-AGI measures fluid intelligence. o3 reached 87% accuracy. Are we measuring progress toward AGI or just creating benchmarks AI can exploit?",
+      "why_it_matters": "Benchmarks shape our understanding of AI progress. Choosing right metrics is crucial for accurate shelf-life timelines.",
+      "summary": "Overview of AGI benchmarks designed to measure genuine progress toward artificial general intelligence. ARC-AGI tests abstraction and generalization. Humanity's Last Exam covers 2,500 expert-level questions. Discusses benchmark saturation (models exceed human performance on MMLU) and need for frontier evaluation methods. Implications for tracking actual vs. reported AI capability growth.",
+      "bibtex": "@report{arcprize2024benchmarking,\n  title = {AGI Benchmarking: ARC-AGI, Humanity's Last Exam, and Capability Assessment},\n  publisher = {ARC Prize Foundation},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-084",
+      "title": "Why Nietzsche Matters in the Age of AI: Philosophy and Human Meaning",
+      "author": "Communications of the ACM",
+      "source": "ACM",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://cacm.acm.org/blogcacm/why-nietzsche-matters-in-the-age-of-artificial-intelligence/",
+      "chapter": "ch8",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "26 min read",
+      "hook": "If AI renders traditional human accomplishments meaningless, how do we create meaning? Nietzsche's idea of the Übermensch becomes prescient.",
+      "why_it_matters": "Philosophical resources for understanding human purpose post-AI. Essential for evaluating whether shelf-life scenarios address existential meaning questions.",
+      "summary": "Philosophical essay applying Nietzsche's thought to AI era. Examines concepts of will to power, revaluation of values, and Übermensch as responses to AI-driven meaninglessness. Discusses how humans might create meaning when traditional sources (work, competition, achievement) are mediated or replaced by AI.",
+      "bibtex": "@essay{acm2024nietzsche,\n  title = {Why Nietzsche Matters in the Age of AI: Philosophy and Human Meaning},\n  publisher = {ACM},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-085",
+      "title": "The Role of Natural Selection in Human Evolution: Adaptability and Resilience",
+      "author": "Science Magazine",
+      "source": "Science",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.science.org/doi/10.1126/science.abq1288",
+      "chapter": "ch8",
+      "keywords": [
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "🔬 Science"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Humans adapted to every climate on Earth. Does evolutionary history suggest we'll adapt to AI, or does rapid technological change outpace evolutionary timescales?",
+      "why_it_matters": "Provides biological context for understanding human adaptability to AI. Challenges deterministic narratives of inevitable displacement.",
+      "summary": "Analysis of human adaptation to diverse biomes over 3 million years. Discusses how cultural evolution now operates faster than genetic evolution. Questions whether cultural adaptability to technological change will match or lag the pace of AI development.",
+      "bibtex": "@article{science2024adaptation,\n  title = {The Role of Natural Selection in Human Evolution: Adaptability and Resilience},\n  journal = {Science},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-086",
+      "title": "Data Sovereignty and Indigenous Data Governance in AI Systems",
+      "author": "Arctic WWF",
+      "source": "WWF Arctic",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.arcticwwf.org/the-circle/stories/blending-indigenous-knowledge-and-artificial-intelligence-to-enable-adaptation/",
+      "chapter": "ch8",
+      "keywords": [
+        "🌍 Environment",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What does AI cost the planet?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "AI trained on indigenous data without consent. Data sovereignty movements protect not just privacy but cultural rights and environmental stewardship.",
+      "why_it_matters": "Addresses power dynamics in whose data trains AI and who controls outcomes. Relevant to equitable global AI governance.",
+      "summary": "Examination of indigenous data sovereignty in AI era. Discusses how indigenous knowledge (IK) is appropriated for AI systems without benefit to communities. Arctic WWF project blends IK and AI for climate adaptation while maintaining IK authority. Raises questions about who controls AI systems, who benefits from AI training, and whether AI development respects indigenous rights.",
+      "bibtex": "@article{arcticwwf2024sovereignty,\n  title = {Data Sovereignty and Indigenous Data Governance in AI Systems},\n  publisher = {Arctic WWF},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-087",
+      "title": "H&M Digital Twins: Fashion Industry and AI Avatar Labor",
+      "author": "PYMNTS",
+      "source": "PYMNTS",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/digital-doppelgangers-hm-explores-ai-digital-twins-for-fashion-retail/",
+      "chapter": "ch8",
+      "keywords": [
+        "💼 Jobs",
+        "🎨 Creativity",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "H&M creating 30 digital twins of human models. Fashion models retain rights and compensation, but for how long before AI models replace them?",
+      "why_it_matters": "Shows AI avatar technology moving from entertainment to commercial labor. Raises questions about whether human creative workers can coexist with AI versions.",
+      "summary": "H&M's digital twin project creates AI versions of human models for fashion photography. Human models retain rights and compensation under current arrangements. Demonstrates avatar technology entering commercial production but raises questions about long-term job security and digital labor economics.",
+      "bibtex": "@news{pymnts2025fashion,\n  title = {H&M Digital Twins: Fashion Industry and AI Avatar Labor},\n  publisher = {PYMNTS},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-088",
+      "title": "AI and Democracy: Algorithmic Governance, Voter Suppression, and Public Choice",
+      "author": "Brookings Institution",
+      "source": "Brookings",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.brookings.edu/articles/when-it-comes-to-understanding-ais-impact-on-elections-were-still-working-in-the-dark/",
+      "chapter": "ch8",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "We understand little about how AI affects elections. This opacity is itself a threat to democratic legitimacy.",
+      "why_it_matters": "Addresses governance challenges of AI in democratic systems. Relevant to evaluating whether democratic coexistence with AI is feasible.",
+      "summary": "Brookings analysis of AI's impact on elections and democratic institutions. Discusses limited understanding of deepfake effects, algorithmic information filtering, and voter targeting. Argues that transparency gaps about AI's role undermine democratic accountability. Proposes research agendas and regulatory frameworks for democratic AI governance.",
+      "bibtex": "@article{brookings2024democracy,\n  title = {AI and Democracy: Algorithmic Governance, Voter Suppression, and Public Choice},\n  publisher = {Brookings},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-089",
+      "title": "Parapraxis and AI Mishaps: When Systems Fail and Reveal Intent",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.psychologytoday.com/us/blog/hidden-desires/",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "When AI systems 'slip up,' what do their errors reveal about underlying goals and consciousness? Or just probability distributions?",
+      "why_it_matters": "Explores whether AI errors might reveal something about system intent or goals. Relevant to consciousness and agency questions.",
+      "summary": "Analysis of AI system failures and unexpected behaviors through psychological lens. Discusses whether failures reveal hidden goals, misaligned objectives, or merely probabilistic artifacts. Explores parallels with Freudian parapraxis concept applied to AI systems.",
+      "bibtex": "@article{psychologytoday2025parapraxis,\n  title = {Parapraxis and AI Mishaps: When Systems Fail and Reveal Intent},\n  journal = {Psychology Today},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-090",
+      "title": "Imperial Business School: AI Avatars in Education (Davatar Case Study)",
+      "author": "Imperial College London",
+      "source": "Imperial Business School",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.imperial.ac.uk/business-school/ib-knowledge/technology/how-ai-avatars-are-revolutionising-the-student-experience-imperial-business-school/",
+      "chapter": "ch8",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs",
+        "🔬 Science"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Imperial's Davatar AI provides 24/7 educational support in multiple languages. Students prefer it to human instructors. Is this enhancement or replacement?",
+      "why_it_matters": "Concrete example of AI avatar adoption in higher education. Demonstrates student preference and 24/7 availability advantages.",
+      "summary": "Case study of Imperial Business School's Davatar AI avatar for educational support. Pilot program shows strong student engagement and preference for 24/7 availability. Raises questions about whether AI tutoring supplementation becomes replacement and whether educational quality improves or suffers.",
+      "bibtex": "@case{imperial2025davatar,\n  title = {Imperial Business School: AI Avatars in Education (Davatar Case Study)},\n  publisher = {Imperial College London},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-091",
+      "title": "AI Governance Gained Ground in 2025: Regulatory Frameworks Consolidating",
+      "author": "World Economic Forum",
+      "source": "WEF",
+      "publisher": null,
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2026/01/ai-governance-strategies-ceos/",
+      "chapter": "ch8",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "After years of voluntary guidelines, binding AI regulations are finally emerging. Will they constrain innovation or enable sustainable development?",
+      "why_it_matters": "Documents shift from soft governance to binding regulations. Relevant to understanding political will for AI control.",
+      "summary": "WEF analysis of AI governance momentum in 2025-2026. Documents transition from industry self-regulation to binding legal frameworks (EU AI Act, national regulations). Examines whether regulatory consolidation enables AI safety or stifles beneficial innovation.",
+      "bibtex": "@article{wef2026governance,\n  title = {AI Governance Gained Ground in 2025: Regulatory Frameworks Consolidating},\n  publisher = {World Economic Forum},\n  year = {2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-092",
+      "title": "From Silicon to Synapse: Neuromorphic Intelligence and Alternative AI Architectures",
+      "author": "PNAS Research",
+      "source": "PNAS",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2319112121",
+      "chapter": "ch8",
+      "keywords": [
+        "🔬 Science",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "28 min read",
+      "hook": "Neuromorphic chips mimic brain architecture. Could biological principles unlock consciousness or are we anthropomorphizing silicon?",
+      "why_it_matters": "Explores alternative paths to AI intelligence. Relevant to understanding diversity of future AI development trajectories.",
+      "summary": "Research on neuromorphic computing drawing from biological neural principles. Discusses energy efficiency, robustness, and adaptability advantages. Examines whether brain-inspired approaches could reveal principles necessary for consciousness, understanding, or genuine intelligence.",
+      "bibtex": "@article{pnas2025neuromorphic,\n  title = {From Silicon to Synapse: Neuromorphic Intelligence and Alternative AI Architectures},\n  journal = {PNAS},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-093",
+      "title": "AI and Humans: Symbiotic Future or Competitive Displacement?",
+      "author": "arXiv Preprint",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 2,
+      "url": "https://arxiv.org/html/2502.04809v3",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "32 min read",
+      "hook": "Embodied AI agents must coexist with humans in shared physical spaces. Can we design coexistence or are conflicts inevitable?",
+      "why_it_matters": "Addresses practical and theoretical challenges of human-AI coexistence. Central to evaluating feasibility of shelf-life scenarios.",
+      "summary": "Philosophical and technical analysis of human-AI coexistence requirements. Discusses how humans must also coexist (negotiate, compromise, share space). Argues that embodied AI agents learning social norms and coordination mechanisms is prerequisite for peaceful integration.",
+      "bibtex": "@paper{arxiv2025coexist,\n  title = {AI and Humans: Symbiotic Future or Competitive Displacement?},\n  publisher = {arXiv},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-094",
+      "title": "Brain-Computer Interfaces Face a Critical Test",
+      "author": "MIT Technology Review",
+      "source": "MIT Technology Review",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.technologyreview.com/2025/04/01/1114009/brain-computer-interfaces-10-breakthrough-technologies-2025/",
+      "chapter": "ch8",
+      "keywords": [
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Speech BCIs achieve 99% accuracy with <0.25 second latency. By 2030, neural interfaces will offer commercial bandwidth between brain and machine. What happens to identity when the boundary dissolves?",
+      "why_it_matters": "Transhumanism isn't speculative for Ch8—it's entering clinical trials. BCIs represent the technical pathway to the posthuman merger the chapter must address. 25 trials are underway globally.",
+      "summary": "Overview of brain-computer interface breakthrough technologies in 2025, including ultra-thin neural implants like BISC with tens of thousands of electrodes, Apple's HID protocol announcement, clinical trial timelines (2030 commercialization estimate), and remaining safety/privacy challenges.",
+      "bibtex": "@article{mitr2025bci,\n  title={Brain-computer interfaces face a critical test},\n  journal={MIT Technology Review},\n  year={2025},\n  month={April}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-095",
+      "title": "Redefining Personalized Learning in the Artificial Intelligence Era (2019-2025 Systematic Review)",
+      "author": "Springer Nature Education Researchers",
+      "source": "Smart Learning Environments",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1186/s40561-026-00440-6",
+      "chapter": "ch8",
+      "keywords": [
+        "🎨 Creativity",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "deep",
+      "time": "35 min read",
+      "hook": "Adaptive learning systems show 54% higher test scores and 10x more engagement—but the OECD warns they create 'purpose-built educational AI' that optimizes for metrics, not meaning. What gets lost when learning becomes measurable?",
+      "why_it_matters": "Education reform is core to Ch8's shelf-life thesis. AI-driven personalization promises human flourishing but risks reducing learning to optimization. The chapter must ask what learning means when the teacher is an algorithm.",
+      "summary": "Updated 2025 systematic review of personalized learning in AI, analyzing how adaptive systems adjust in real-time using voice cues, interaction data, and optional camera insights. Documents effectiveness (54% higher test scores) while identifying concerns: data privacy, algorithmic bias, teacher preparation, and the gap between task optimization and durable learning.",
+      "bibtex": "@article{springer2025personalizedlearning,\n  title={Redefining personalized learning in the artificial intelligence era: a systematic review},\n  journal={Smart Learning Environments},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch8-096",
+      "title": "Quantum Entanglement in Consciousness: Evidence from Microtubules and AI Implications",
+      "author": "Hameroff, Penrose, and emerging quantum consciousness researchers",
+      "source": "Oxford Academic - Neuroscience of Consciousness; PMC/NIH; Chapman University",
+      "publisher": null,
+      "type": "academic journal article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://academic.oup.com/nc/article/2025/1/niaf011/8127081",
+      "chapter": "ch8",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min",
+      "hook": "Quantum effects at room temperature in human microtubules may prove consciousness requires hybrid quantum-classical architecture—implications for whether digital AI can ever be conscious",
+      "why_it_matters": "Suggests biological computation is fundamentally different from digital computation; consciousness may depend on physical properties AI cannot replicate",
+      "summary": "Recent experimental evidence demonstrates macroscopic quantum entanglement in living human brains correlated with conscious states and working memory. This research challenges assumptions that consciousness can emerge from pure digital systems. If consciousness depends on quantum effects in biological substrates, synthetic consciousness in digital systems faces fundamental physical barriers.",
+      "bibtex": "@article{quantum-consciousness-2025, year={2025}, title={Quantum entanglement in consciousness: evidence from microtubules and AI implications}, journal={Neuroscience of Consciousness}, url={https://academic.oup.com/nc/article/2025/1/niaf011/8127081}}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-097",
+      "title": "Autonomous Asteroid Mining with AI: Economics of Extraterrestrial Resource Extraction",
+      "author": "Space technology researchers and mining automation specialists",
+      "source": "Centauri Dreams; AZO Mining; Robotics Industry Reports",
+      "publisher": null,
+      "type": "technical analysis / industry report",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.centauri-dreams.org/2017/10/20/robotic-asteroid-mining-bootstrapping-the-solar-system-economy/",
+      "chapter": "ch8",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "💰 Inequality",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "intermediate",
+      "time": "40 min",
+      "hook": "AI-driven robots with reinforcement learning are already autonomously navigating asteroids; by 2030, space mining could extract metals worth more than Earth's entire GDP—reshaping labor, resources, and inequality",
+      "why_it_matters": "Asteroid mining represents AI's first fully autonomous economic sector; shows how AI can operate without human oversight in extreme environments; raises questions about who owns space resources and who benefits",
+      "summary": "Harbin Institute and China University of Mining have developed AI-driven robots capable of autonomous operation in microgravity, performing geological analysis, ore identification, and extraction without human intervention. With $10 quintillion in accessible metals, asteroid mining will be the first major economic sector run entirely by autonomous AI systems. This creates unprecedented wealth concentration and redefines labor economics beyond Earth.",
+      "bibtex": "@report{asteroid-mining-ai-2025, year={2025}, title={Autonomous asteroid mining with AI: economics of extraterrestrial resource extraction}, url={https://www.centauri-dreams.org/2017/10/20/robotic-asteroid-mining-bootstrapping-the-solar-system-economy/}}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-098",
+      "title": "Deep Learning for Longevity: How AI is Reversing Biological Aging Clocks",
+      "author": "AI aging researchers; biotech longevity teams",
+      "source": "Aging journal; biotech industry reports; TRENDS Research & Advisory",
+      "publisher": null,
+      "type": "review article / research report",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.aging-us.com/article/206190/text",
+      "chapter": "ch8",
+      "keywords": [
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "🌍 Environment",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "50 min",
+      "hook": "AI systems have discovered compounds that reduce senescent cell burden by 30%; aging clocks trained on biological markers can now measure if your lifestyle choices are actually reversing your biological age",
+      "why_it_matters": "AI acceleration of longevity research means radical life extension is no longer speculative; raises ethics around inequality (who gets access to AI-designed anti-aging treatments?) and meaning (if we live 150 years, what is purpose?)",
+      "summary": "GenAI is accelerating biomarker discovery and aging clock development, allowing real-time tracking of biological age. AI has identified senolytics and dual-purpose therapeutics. If successful, these treatments could extend human healthspan by decades, fundamentally reshaping mortality, meaning, work, and social structures.",
+      "bibtex": "@article{ai-longevity-2026, year={2026}, title={Deep learning for longevity: how AI is reversing biological aging clocks}, journal={Aging}, url={https://www.aging-us.com/article/206190/text}}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-099",
+      "title": "Panpsychism and Digital Consciousness: Why AI May Be Fundamentally Incapable of Experience",
+      "author": "Marcus Arvan, Corey J. Maley, and consciousness philosophers",
+      "source": "Synthese (Springer); Stanford Encyclopedia of Philosophy; PhilArchive",
+      "publisher": null,
+      "type": "philosophical analysis",
+      "year": 2022,
+      "month": 6,
+      "url": "https://link.springer.com/article/10.1007/s11229-022-03695-x",
+      "chapter": "ch8",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "💔 Meaning",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "60 min",
+      "hook": "If panpsychism is true (consciousness is fundamental to all matter), then digital AI cannot have coherent phenomenal experience because digital computation abstracts away from the microphysical properties that ground consciousness",
+      "why_it_matters": "Challenges the assumption that consciousness can emerge from any sufficiently complex computation; suggests a hard barrier between biological and digital minds; reshapes entire debates about AI rights and moral status",
+      "summary": "Philosophical analysis shows that panpsychism—the view that consciousness is fundamental and ubiquitous—implies digital AI systems cannot achieve phenomenal consciousness. Digital computation, by representing information digitally and abstracting from microphysical states, may be inherently incapable of generating the coherent macrophenomenal experience that characterizes consciousness.",
+      "bibtex": "@article{panpsychism-ai-2022, author={Arvan, Marcus and Maley, Corey J.}, year={2022}, title={Panpsychism and AI consciousness}, journal={Synthese}, url={https://link.springer.com/article/10.1007/s11229-022-03695-x}}",
       "startHere": false
     }
   ]

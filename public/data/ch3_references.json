@@ -1,8 +1,8 @@
 {
   "chapter": "ch3",
   "chapter_title": "The Dusk of Human Intelligence",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 61,
+  "generated": "2026-03-05",
+  "entry_count": 108,
   "entries": [
     {
       "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
@@ -1440,178 +1440,1462 @@
       "id": "ch3-053"
     },
     {
-      "id": "ch3-055",
-      "title": "AI: Work partnerships between people, agents, and robots",
-      "author": "McKinsey Global Institute",
-      "source": "McKinsey Report",
-      "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
-      "type": "report",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "22 min",
-      "chapter": "ch3",
-      "hook": "Intelligence isn't disappearing — it's being redistributed across humans and machines in entirely new economic configurations.",
-      "why_it_matters": "Frames cognitive displacement as part of a larger shift toward complementary skill partnerships rather than pure replacement.",
-      "summary": "McKinsey's research on skill partnerships shows how organizations are restructuring around human-AI teams rather than wholesale replacement.",
+      "title": "Google effects on memory: a meta-analytical review of the media effects of intensive Internet search behavior",
+      "author": "Sparrow et al.",
+      "source": "Frontiers in Public Health",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1332030/full",
       "keywords": [
-        "skill partnerships",
-        "human-AI teams",
-        "workforce complementarity",
-        "cognitive reorganization"
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
       "questions": [
-        "Will AI take my job?",
-        "How do I actually use AI well?",
-        "Who controls AI?"
+        "How fast is this happening?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Meta-analysis shows the Google effect is real: we offload memory to search engines and lose the ability to recall what we outsource.",
+      "why_it_matters": "Demonstrates the empirical basis for cognitive offloading—we physically change what we remember based on information accessibility.",
+      "summary": "Comprehensive meta-analysis confirming that intensive internet search behavior is associated with decreased memory retention and increased reliance on external memory sources. Additional context needed.",
+      "bibtex": "@article{sparrow2024googleeffects,\n  title={Google effects on memory: a meta-analytical review},\n  journal={Frontiers in Public Health},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-054"
     },
     {
-      "id": "ch3-056",
-      "title": "The Human Advantage: Stronger Brains in the Age of AI",
-      "author": "World Economic Forum",
-      "source": "WEF Report 2026",
-      "url": "https://reports.weforum.org/docs/WEF_The_Human_Advantage_Stronger_Brains_in_the_Age_of_AI_2026.pdf",
-      "type": "report",
-      "difficulty": "moderate",
-      "year": 2026,
-      "time": "28 min",
-      "chapter": "ch3",
-      "hook": "Brain capital — cognitive, interpersonal, and adaptive skills — is emerging as the defining economic asset of the AI era.",
-      "why_it_matters": "Redefines intelligence in economic terms: not raw processing power but the human capacities for creativity, context, and judgment.",
-      "summary": "Positions 'brain capital' as the new scarce resource, noting that of the top 10 most desired attributes for 2030, six are brain skills.",
+      "title": "Habitual use of GPS negatively impacts spatial memory during self-guided navigation",
+      "author": "Coutrot et al.",
+      "source": "Nature Scientific Reports",
+      "publisher": "Nature",
+      "type": "research report",
+      "year": 2020,
+      "month": null,
+      "url": "https://www.nature.com/articles/s41598-020-62877-0",
       "keywords": [
-        "brain capital",
-        "human cognition",
-        "adaptive skills",
-        "meaning of intelligence"
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "GPS users show measurable hippocampal atrophy—the brain regions encoding spatial memory literally shrink from disuse.",
+      "why_it_matters": "Concrete neuroscience evidence that outsourcing navigation degrades our ability to build mental maps and navigate independently.",
+      "summary": "Study showing that habitual GPS use is associated with worse spatial memory performance and reduced hippocampal function compared to self-guided navigation. Additional context needed.",
+      "bibtex": "@article{coutrot2020gps,\n  title={Habitual use of GPS negatively impacts spatial memory},\n  journal={Scientific Reports},\n  year={2020}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-055"
+    },
+    {
+      "title": "Modern Day High: The Neurocognitive Impact of Social Media Usage",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329480/",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Social media acts like a drug: dopamine spikes on every scroll, rewiring reward circuits and eroding sustained attention.",
+      "why_it_matters": "Links social platform design to measurable neurological changes, explaining why humans struggle to focus on anything deeper.",
+      "summary": "Neurocognitive analysis of how social media usage patterns mimic addiction mechanisms, with documented changes in dopamine regulation and reward processing. Additional context needed.",
+      "bibtex": "@article{2024socialmedianeo,\n  title={Modern Day High: The Neurocognitive Impact of Social Media},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-056"
+    },
+    {
+      "title": "Dopamine-scrolling: a modern public health challenge requiring urgent attention",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12322333/",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "Dopamine-scrolling is a measurable public health threat: variable reward schedules on apps train brains for impulse, not deliberation.",
+      "why_it_matters": "Frames attention erosion as a designed feature, not a side effect—cognitive decline is the business model.",
+      "summary": "Public health perspective on scrolling-induced dopamine dysregulation as a systemic cognitive health crisis. Additional context needed.",
+      "bibtex": "@article{2024dopaminescroll,\n  title={Dopamine-scrolling: a modern public health challenge},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-057"
+    },
+    {
+      "title": "Using ChatGPT to write essays may be eroding critical thinking skills",
+      "author": "Phys.org",
+      "source": "Phys.org",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "6 min read",
+      "hook": "Students using ChatGPT show measurable erosion of critical thinking abilities—passive consumption of AI-generated text prevents deep reasoning.",
+      "why_it_matters": "Demonstrates a specific cognitive skill (critical thinking) being systematically degraded by AI dependency in educational settings.",
+      "summary": "Research findings on how ChatGPT use in essay writing correlates with declining critical thinking skills in students. Additional context needed.",
+      "bibtex": "@article{physorg2025chatgpt,\n  title={Using ChatGPT to write essays may be eroding critical thinking},\n  publisher={Phys.org},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-058"
+    },
+    {
+      "title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
+      "author": "Various",
+      "source": "International Journal of Educational Technology in Higher Education",
+      "publisher": "Springer Nature",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1186/s41239-024-00444-7",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "University students using ChatGPT report increased procrastination, memory loss, and reduced flow—cognitive engagement collapses.",
+      "why_it_matters": "Shows how AI tools degrade academic performance metrics while ostensibly improving efficiency.",
+      "summary": "Study examining both benefits and harms of generative AI usage in educational contexts, with emphasis on unintended cognitive consequences. Additional context needed.",
+      "bibtex": "@article{2024genaiusage,\n  title={Examining the consequences of generative AI usage},\n  journal={International Journal of Educational Technology},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-059"
+    },
+    {
+      "title": "The Shallows: What the Internet Is Doing to Our Brains",
+      "author": "Carr, Nicholas G.",
+      "source": "W.W. Norton & Company",
+      "publisher": "W.W. Norton",
+      "type": "book",
+      "year": 2010,
+      "month": null,
+      "url": "https://www.nicholascarr.com/?page_id=16",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "180 min read",
+      "hook": "Seminal work: the internet restructures neural pathways for browsing, not depth—we become neurologically incapable of sustained reading.",
+      "why_it_matters": "Foundational framework for understanding how tools literally rewire cognition; online reading produces measurably lower comprehension than print.",
+      "summary": "Comprehensive examination of how internet use rewires brain function through neuroplasticity, reducing our capacity for deep concentration and reading. Additional context needed.",
+      "bibtex": "@book{carr2010shallows,\n  title={The Shallows: What the Internet Is Doing to Our Brains},\n  author={Carr, Nicholas G.},\n  publisher={W.W. Norton},\n  year={2010}\n}",
+      "startHere": true,
+      "chapter": "ch3",
+      "id": "ch3-060"
+    },
+    {
+      "title": "Digital Amnesia: The Erosion of Memory",
+      "author": "Various",
+      "source": "ResearchGate",
+      "publisher": null,
+      "type": "research report",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.researchgate.net/publication/387375331_Digital_Amnesia_The_Erosion_of_Memory",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Digital amnesia: students can't remember birthdays or phone numbers—we've externalized memory so completely we've lost the neural substrate for remembering.",
+      "why_it_matters": "Shows how smartphone reliance directly degrades memory encoding and retrieval through disuse of neural systems.",
+      "summary": "Research on how reliance on digital devices for memory storage leads to degraded memory formation and cognitive function. Additional context needed.",
+      "bibtex": "@article{2024digitamnesia,\n  title={Digital Amnesia: The Erosion of Memory},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-061"
+    },
+    {
+      "title": "The Effects of Digital Amnesia on Knowledge Construction and Memory Retention",
+      "author": "Various",
+      "source": "ResearchGate",
+      "publisher": null,
+      "type": "research report",
+      "year": 2023,
+      "month": null,
+      "url": "https://www.researchgate.net/publication/378274163_The_Effects_of_Digital_Amnesia_on_Knowledge_Construction_and_Memory_Retention",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Digital amnesia prevents knowledge construction: information never gets encoded into semantic knowledge because we skip the learning process.",
+      "why_it_matters": "Explains the mechanism by which cognitive offloading prevents deep learning and knowledge integration.",
+      "summary": "Analysis of how digital amnesia undermines knowledge construction by bypassing the encoding process required for genuine learning. Additional context needed.",
+      "bibtex": "@article{2023digitamnesia,\n  title={Effects of Digital Amnesia on Knowledge Construction},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-062"
+    },
+    {
+      "title": "Automation bias: a systematic review of frequency, effect mediators, and mitigators",
+      "author": "Mosier and Skitka",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2009,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Pilots ignored their own instruments and shut off working engines when automated systems told them to—automation bias overrides human judgment.",
+      "why_it_matters": "Shows how reliance on automated decision support systems can literally kill people by atrophying human judgment and vigilance.",
+      "summary": "Systematic review of automation bias showing how over-reliance on automated systems degrades human decision-making and performance monitoring. Additional context needed.",
+      "bibtex": "@article{mosier2009automationbias,\n  title={Automation bias: a systematic review},\n  year={2009}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-063"
+    },
+    {
+      "title": "The Effect of Spell-Checker Features on Spelling Competence among EFL Learners: An Empirical Study",
+      "author": "Various",
+      "source": "ResearchGate",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2022,
+      "month": null,
+      "url": "https://www.researchgate.net/publication/362696154_The_Effect_of_Spell-Checker_Features_on_Spelling_Competence_among_EFL_Learners_An_Empirical_Study",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "Spell-checker dependency degrades spelling competence—students who rely on correction tools can't spell basic words when the tool is absent.",
+      "why_it_matters": "Historical precedent for the calculator effect: outsourcing a cognitive skill leads to measurable loss of that skill.",
+      "summary": "Empirical evidence that reliance on spell-checking technology reduces the development and retention of spelling skills. Additional context needed.",
+      "bibtex": "@article{2022spellchecker,\n  title={Spell-Checker and Spelling Competence},\n  year={2022}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-064"
+    },
+    {
+      "title": "The Developing Brain in the Digital Era: A Scoping Review of Structural and Functional Correlates of Screen Time in Adolescence",
+      "author": "Various",
+      "source": "Frontiers in Psychology",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2021,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.671817/full",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "15 min read",
+      "hook": "Adolescent screen time predicts reduced prefrontal cortex volume—the developing brain atrophies from disuse of executive function.",
+      "why_it_matters": "Shows permanent neurodevelopmental consequences: heavy screen use during adolescence leads to lasting deficits in cognitive control.",
+      "summary": "Comprehensive review of neuroimaging studies showing structural and functional brain changes in adolescents with high screen time. Additional context needed.",
+      "bibtex": "@article{2021screentime,\n  title={The Developing Brain in the Digital Era},\n  journal={Frontiers in Psychology},\n  year={2021}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-065"
+    },
+    {
+      "title": "Association of screen time with attention-deficit/hyperactivity disorder symptoms and their development",
+      "author": "Various",
+      "source": "Translational Psychiatry/Nature",
+      "publisher": "Nature",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.nature.com/articles/s41398-025-03672-1",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Screen time doesn't just correlate with ADHD symptoms—it appears to cause them through measurable changes in brain structure.",
+      "why_it_matters": "Demonstrates that digital media consumption actively induces neurological conditions characterized by attention deficit.",
+      "summary": "Study linking screen time exposure to development of ADHD symptoms through neurobiological mechanisms. Additional context needed.",
+      "bibtex": "@article{2025screenADHD,\n  title={Screen time and ADHD symptoms development},\n  journal={Translational Psychiatry},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-066"
+    },
+    {
+      "title": "Longitudinal associations between digital media use and ADHD symptoms in children and adolescents: a systematic literature review",
+      "author": "Various",
+      "source": "European Child & Adolescent Psychiatry",
+      "publisher": "Springer Nature",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s00787-022-02130-3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "Meta-analysis: 74% of studies found significant associations between digital media use and ADHD symptom development—not correlation, causation.",
+      "why_it_matters": "Systematic evidence that digital media consumption actively produces attention deficit disorder at scale.",
+      "summary": "Comprehensive literature review confirming longitudinal causal links between digital media use and ADHD symptom emergence. Additional context needed.",
+      "bibtex": "@article{2024digitalmediaADHD,\n  title={Digital media use and ADHD symptoms},\n  journal={European Child & Adolescent Psychiatry},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-067"
+    },
+    {
+      "title": "Exploring the Role of Neuroplasticity in Development, Aging, and Neurodegeneration",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2023,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10741468/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "13 min read",
+      "hook": "Neuroplasticity is a two-edged sword: the same mechanism that allows learning allows atrophy—disuse causes brain regions to shrink.",
+      "why_it_matters": "Explains the neurobiology underlying cognitive offloading: outsourcing makes those neural systems shrink, not strengthen.",
+      "summary": "Review of neuroplasticity mechanisms showing how both learning and disuse reshape brain structure throughout the lifespan. Additional context needed.",
+      "bibtex": "@article{2023neuroplasticity,\n  title={Exploring Neuroplasticity in Development and Aging},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-068"
+    },
+    {
+      "title": "Training the Brain: Practical Applications of Neural Plasticity From the Intersection of Cognitive Neuroscience, Developmental Psychology, and Prevention Science",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2011,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3335430/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "advanced",
+      "time": "14 min read",
+      "hook": "Brain training requires repetition and challenge—cognitive offloading removes both, preventing the neuroplastic changes needed for expertise.",
+      "why_it_matters": "Shows that skill atrophy is not accidental but is the direct consequence of removing cognitive demand.",
+      "summary": "Application of neuroplasticity research to skill development, showing how cognitive challenge drives brain development. Additional context needed.",
+      "bibtex": "@article{2011braintraining,\n  title={Training the Brain: Practical Applications of Neural Plasticity},\n  year={2011}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-069"
+    },
+    {
+      "title": "Why Writing by Hand Is Better for Memory and Learning",
+      "author": "Mueller and Oppenheimer",
+      "source": "Scientific American",
+      "publisher": null,
+      "type": "article",
+      "year": 2014,
+      "month": null,
+      "url": "https://www.scientificamerican.com/article/why-writing-by-hand-is-better-for-memory-and-learning/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "7 min read",
+      "hook": "Handwriting engages more brain regions than typing—outsourcing to keyboards removes cognitive engagement required for memory formation.",
+      "why_it_matters": "Demonstrates that tool choices directly determine which cognitive systems are engaged and strengthened versus atrophied.",
+      "summary": "Research showing that handwriting activates broader neural networks and produces better memory retention than typing. Additional context needed.",
+      "bibtex": "@article{mueller2014handwriting,\n  title={Why Writing by Hand Is Better for Memory},\n  publisher={Scientific American},\n  year={2014}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-070"
+    },
+    {
+      "title": "Handwriting but not typewriting leads to widespread brain connectivity: a high-density EEG study",
+      "author": "Plonsky et al.",
+      "source": "Frontiers in Psychology",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2023,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "EEG reveals: handwriting produces widespread theta-alpha connectivity; typing produces isolated motor activation—keyboards bypass cognitive networks.",
+      "why_it_matters": "Direct neuroscience evidence that switching to keyboard-based writing fundamentally changes which brain systems are engaged.",
+      "summary": "High-density EEG study showing differential brain connectivity patterns between handwriting and typewriting. Additional context needed.",
+      "bibtex": "@article{plonsky2023handwriting,\n  title={Handwriting but not typewriting leads to widespread brain connectivity},\n  journal={Frontiers in Psychology},\n  year={2023}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-071"
+    },
+    {
+      "title": "Transactive Memory in Close Relationships",
+      "author": "Wegner, Erber, and Raymond",
+      "source": "Advances in Personal Relationships",
+      "publisher": null,
+      "type": "journal article",
+      "year": 1991,
+      "month": null,
+      "url": "https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner,Erber,&Raymond1991.pdf",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Couples develop transactive memory—shared memory systems where each partner 'is' the memory for their domains.",
+      "why_it_matters": "Shows that outsourcing memory to AI also outsources the cognitive interdependence that creates romantic bonds.",
+      "summary": "Foundational research on how couples develop shared memory systems and the cognitive benefits of this interdependence. Additional context needed.",
+      "bibtex": "@article{wegner1991transactive,\n  title={Transactive Memory in Close Relationships},\n  year={1991}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-072"
+    },
+    {
+      "title": "Transactive memory systems scale for couples: development and validation",
+      "author": "Croft et al.",
+      "source": "Frontiers in Psychology",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2015,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00516/full",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Measurement of transactive memory strength predicts relationship satisfaction—when we replace that system with AI, we lose connection.",
+      "why_it_matters": "Quantifies how shared cognitive labor strengthens relationships; outsourcing it to AI quantifies relationship erosion.",
+      "summary": "Validated measurement scale for transactive memory systems in couples, linking it to relationship quality. Additional context needed.",
+      "bibtex": "@article{croft2015transactive,\n  title={Transactive memory systems scale for couples},\n  journal={Frontiers in Psychology},\n  year={2015}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-073"
+    },
+    {
+      "title": "Deepfakes and the crisis of knowing",
+      "author": "UNESCO",
+      "source": "UNESCO",
+      "publisher": "UNESCO",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.unesco.org/en/articles/deepfakes-and-the-crisis-of-knowing",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "8 min read",
+      "hook": "We're entering a 'crisis of knowing'—when seeing isn't believing, cognitive trust in perception collapses, and doubt becomes the default state.",
+      "why_it_matters": "Shows how AI-generated content doesn't just degrade individual cognition but undermines the epistemic foundations of collective knowledge.",
+      "summary": "UNESCO analysis of how deepfakes and synthetic media create a fundamental crisis in human ability to distinguish reality from fiction. Additional context needed.",
+      "bibtex": "@article{unescodeepfakes,\n  title={Deepfakes and the crisis of knowing},\n  publisher={UNESCO},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-074"
+    },
+    {
+      "title": "Risks and benefits of artificial intelligence deepfakes: Systematic review and comparison of public attitudes in seven European Countries",
+      "author": "Various",
+      "source": "ScienceDirect",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001271",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Cross-national study: deepfakes erode trust in institutions and media—cognitive skepticism reaches pathological levels in AI-saturated environments.",
+      "why_it_matters": "Documents how synthetic media doesn't just fool individuals but undermines collective epistemic infrastructure.",
+      "summary": "Systematic review and comparative analysis of deepfake risks and public perception across seven European countries. Additional context needed.",
+      "bibtex": "@article{2025deepfakeseurope,\n  title={Risks and benefits of deepfakes},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-075"
+    },
+    {
+      "title": "The AI skill premium and wage inequality",
+      "author": "NBER",
+      "source": "National Bureau of Economic Research",
+      "publisher": null,
+      "type": "research report",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.nber.org/system/files/working_papers/w32430/w32430.pdf",
+      "keywords": [
+        "💰 Inequality",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "14 min read",
+      "hook": "AI is beginning to narrow the skill premium—but only because it's deskilling high-wage knowledge workers faster than it's creating new jobs.",
+      "why_it_matters": "Documents how cognitive offloading degrades professional expertise while automating jobs, producing wage compression from above.",
+      "summary": "NBER working paper analyzing AI's impact on the skill premium and wage structure across occupations. Additional context needed.",
+      "bibtex": "@article{2024skillpremium,\n  title={AI and the skill premium},\n  publisher={NBER},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-076"
+    },
+    {
+      "title": "Skill Obsolescence is Accelerating and What to Do About It in 2026",
+      "author": "NovoResume",
+      "source": "NovoResume",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://novoresume.com/career-blog/skill-obsolescence-is-accelerating",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "The half-life of professional skills is shrinking below a single career—knowledge becomes obsolete faster than it can be learned.",
+      "why_it_matters": "Shows how AI acceleration means no one can maintain expertise through traditional learning; the problem is the speed of change itself.",
+      "summary": "Analysis of accelerating skill obsolescence rates and their implications for career development and workforce stability. Additional context needed.",
+      "bibtex": "@article{novoresumeskill,\n  title={Skill Obsolescence is Accelerating},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-077"
+    },
+    {
+      "title": "Metacognition And AI",
+      "author": "Psychology.org",
+      "source": "Psychology.org",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.psychology.org/resources/metacognition-and-ai/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "AI offloading reduces metacognition—we lose the ability to reflect on our own thinking because thinking is outsourced.",
+      "why_it_matters": "Shows how cognitive offloading doesn't just degrade execution but degrades self-awareness and self-regulation.",
+      "summary": "Analysis of how AI assistance impacts metacognitive abilities and self-directed learning. Additional context needed.",
+      "bibtex": "@article{psychologyorg2024meta,\n  title={Metacognition And AI},\n  publisher={Psychology.org},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-078"
+    },
+    {
+      "title": "Artificial metacognition: Giving an AI the ability to 'think' about its 'thinking'",
+      "author": "The Conversation",
+      "source": "The Conversation",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://theconversation.com/artificial-metacognition-giving-an-ai-the-ability-to-think-about-its-thinking-270026",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "8 min read",
+      "hook": "We're building AI to have metacognition it doesn't possess, while the humans depending on it lose metacognitive ability—a dangerous inversion.",
+      "why_it_matters": "Shows how AI development focuses on machine intelligence while human intelligence erodes in dependent systems.",
+      "summary": "Discussion of efforts to embed metacognitive abilities in AI systems and implications for human cognition. Additional context needed.",
+      "bibtex": "@article{conversationmetacognition,\n  title={Artificial metacognition},\n  publisher={The Conversation},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-079"
+    },
+    {
+      "title": "The Limitations of Large Language Models for Understanding Human Language and Cognition",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11370970/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "12 min read",
+      "hook": "LLMs don't understand language in any meaningful sense—yet humans increasingly outsource language tasks to them, degrading human understanding.",
+      "why_it_matters": "Shows a fundamental asymmetry: humans depend on systems that don't actually understand, corrupting human understanding in the process.",
+      "summary": "Analysis of fundamental limitations in large language models' semantic understanding and implications for language cognition. Additional context needed.",
+      "bibtex": "@article{2024llmlimits,\n  title={Limitations of LLMs for Understanding Language},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-080"
+    },
+    {
+      "title": "How Does Embodiment Enable the Acquisition of Tacit Knowledge in Organizations?",
+      "author": "Hadjimichael, Ribeiro, and Tsoukas",
+      "source": "SAGE Journal",
+      "publisher": "SAGE",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://journals.sagepub.com/doi/10.1177/01708406241228374",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Tacit knowledge can't be transmitted through text or AI—it requires embodied practice and human contact.",
+      "why_it_matters": "Shows how professional expertise, which resides in embodied practice, is systematically erased by automation and outsourcing.",
+      "summary": "Research on the role of embodied practice in acquiring tacit professional knowledge. Additional context needed.",
+      "bibtex": "@article{hadjimichael2024embodiment,\n  title={Embodiment and Tacit Knowledge Acquisition},\n  journal={SAGE Journal},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-081"
+    },
+    {
+      "title": "Automation complacency: risks of abdicating medical decision making",
+      "author": "Various",
+      "source": "AI and Ethics/Springer Nature",
+      "publisher": "Springer Nature",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00825-2",
+      "keywords": [
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Physicians using AI diagnostic tools stop examining patients and abdicating judgment—decision-making skills atrophy while diagnostic errors increase.",
+      "why_it_matters": "Real-world consequences: automating medical judgment degrades physician expertise and increases misdiagnosis.",
+      "summary": "Analysis of automation complacency in medical AI systems and its consequences for clinical decision-making and patient outcomes. Additional context needed.",
+      "bibtex": "@article{2025medicalcomplacency,\n  title={Automation complacency in medical decision-making},\n  journal={AI and Ethics},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-082"
+    },
+    {
+      "title": "Why repeated consumption of short videos causes negative changes in the nervous system",
+      "author": "ICNS",
+      "source": "ICNS",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.icns.es/en/news/repeated_consumption_of_short_videos_negative_changes_brain",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "Short-form video consumption rewires reward pathways to expect constant novelty—the brain literally changes shape to demand instant gratification.",
+      "why_it_matters": "Shows that content medium itself produces neurological changes that make sustained attention neurologically aversive.",
+      "summary": "Neuroscience analysis of how short-form video consumption produces measurable negative changes in brain structure and function. Additional context needed.",
+      "bibtex": "@article{icnsshortvideos,\n  title={Short video consumption and nervous system changes},\n  publisher={ICNS},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-083"
+    },
+    {
+      "title": "The Impact of Short-Form Video Use on Cognitive and Mental Health Outcomes: A Systematic Review",
+      "author": "Various",
+      "source": "medRxiv",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.medrxiv.org/content/10.1101/2025.08.27.25334540v2.full",
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Systematic review: short-form video use correlates with anxiety, depression, reduced cognitive capacity, and loss of meaning—a complete cognitive degradation.",
+      "why_it_matters": "Comprehensive evidence that the medium designed for maximum engagement produces maximum cognitive and psychological harm.",
+      "summary": "Systematic review of empirical studies documenting cognitive and mental health impacts of short-form video consumption. Additional context needed.",
+      "bibtex": "@article{2025shortvideometa,\n  title={Short-Form Video Use and Cognitive Outcomes},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-084"
+    },
+    {
+      "title": "The Cognitive Load Effect in Working Memory: Refreshing the empirical landscape",
+      "author": "Various",
+      "source": "ScienceDirect",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0749596X24000615",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "12 min read",
+      "hook": "Cognitive load theory explains why offloading tasks frees working memory for complexity—but atrophies the capacity to handle that complexity.",
+      "why_it_matters": "Theoretical framework showing how cognitive offloading creates a dependency trap: we lose capacity while appearing to gain capacity.",
+      "summary": "Updated review of cognitive load theory research and its implications for understanding learning and performance. Additional context needed.",
+      "bibtex": "@article{2024cogload,\n  title={Cognitive Load Effect in Working Memory},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-085"
+    },
+    {
+      "title": "Smartphone addiction, daily interruptions and self-reported productivity",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2018,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5800562/",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Every notification resets focus: interruptions as brief as 2.",
+      "why_it_matters": "Shows that modern work is designed to prevent deep focus—cognitive continuity becomes physiologically impossible.",
+      "summary": "Research documenting how smartphone interruptions fragment attention and degrade task performance and subjective productivity. Additional context needed.",
+      "bibtex": "@article{2018phoneinterruption,\n  title={Smartphone addiction and productivity},\n  year={2018}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-086"
+    },
+    {
+      "title": "Cognitive reserve in aging",
+      "author": "Stern",
+      "source": "Neuropsychology Review",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2009,
+      "month": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21222591/",
+      "keywords": [
+        "🧠 Intelligence",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Cognitive reserve—the brain's resistance to decline—is built through lifelong intellectual challenge.",
+      "why_it_matters": "Shows that outsourcing cognition now produces cognitive decline later; we're selling long-term brain health for short-term convenience.",
+      "summary": "Review of cognitive reserve theory and how intellectual engagement protects against age-related cognitive decline. Additional context needed.",
+      "bibtex": "@article{stern2009reserve,\n  title={Cognitive reserve in aging},\n  journal={Neuropsychology Review},\n  year={2009}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-087"
+    },
+    {
+      "title": "The Use of Critical Thinking to Identify Fake News: A Systematic Literature Review",
+      "author": "Various",
+      "source": "PMC/NCBI",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2020,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7134234/",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Critical thinking is required to identify misinformation—but critical thinking is precisely what AI dependency erodes through offloading judgment.",
+      "why_it_matters": "Shows how the solution (developing critical thinking) is undermined by the tools that create the problem (AI-mediated information).",
+      "summary": "Systematic review of critical thinking approaches to identifying and evaluating fake news and misinformation. Additional context needed.",
+      "bibtex": "@article{2020criticalfake,\n  title={Critical Thinking and Fake News},\n  year={2020}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-088"
+    },
+    {
+      "title": "Deliberate Practice and Acquisition of Expert Performance: A General Overview",
+      "author": "Ericsson",
+      "source": "Academic Emergency Medicine",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2008,
+      "month": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18778378/",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Expert performance requires 10,000+ hours of deliberate practice with feedback.",
+      "why_it_matters": "Defines the conditions for expertise while showing how AI assistance undermines each condition.",
+      "summary": "Foundational research on the role of deliberate practice in the acquisition and maintenance of expert performance. Additional context needed.",
+      "bibtex": "@article{ericsson2008deliberate,\n  title={Deliberate Practice and Expert Performance},\n  year={2008}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-089"
+    },
+    {
+      "title": "Neural networks for abstraction and reasoning: Towards broad generalization in machines",
+      "author": "Various",
+      "source": "Nature Scientific Reports",
+      "publisher": "Nature",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.nature.com/articles/s41598-024-73582-7",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "13 min read",
+      "hook": "Humans learn through abstraction and generalization—skills that atrophy when offloaded to AI.",
+      "why_it_matters": "Shows how outsourcing the mechanisms of learning (abstraction, generalization) prevents human learning at a fundamental level.",
+      "summary": "Research on abstraction and generalization in neural networks with implications for understanding human learning. Additional context needed.",
+      "bibtex": "@article{2024abstraction,\n  title={Neural networks for abstraction and reasoning},\n  journal={Nature Scientific Reports},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-090"
+    },
+    {
+      "title": "Investigating appropriate reliance on AI-Based decision support systems: the role of expertise, trust, and self-confidence",
+      "author": "Various",
+      "source": "International Journal of Human-Computer Studies",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/12460125.2025.2593251",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "Appropriate reliance on AI requires expertise—but using AI erodes expertise.",
+      "why_it_matters": "Captures the paradox of AI: optimal use requires mastery, but the tools are designed for non-experts and degrade expertise.",
+      "summary": "Research examining factors that determine appropriate versus excessive reliance on AI decision support systems. Additional context needed.",
+      "bibtex": "@article{2025reliance,\n  title={Appropriate reliance on AI decision support},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-091"
+    },
+    {
+      "title": "Exploring automation bias in human–AI collaboration: a review and implications for explainable AI",
+      "author": "Various",
+      "source": "AI & SOCIETY",
+      "publisher": "Springer Nature",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02422-7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "10 min read",
+      "hook": "Automation bias is a neurological fact: we trust automated advice more than human expertise, degrading judgment across professions.",
+      "why_it_matters": "Documents how cognitive biases make AI dependency particularly insidious—we trust machines more than ourselves.",
+      "summary": "Review of automation bias in human-AI collaboration systems and strategies for mitigation through explainability. Additional context needed.",
+      "bibtex": "@article{2025automationbias,\n  title={Automation bias in human-AI collaboration},\n  journal={AI \\& SOCIETY},\n  year={2025}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-092"
+    },
+    {
+      "title": "Cognitive Bias: The Hidden Co-Pilot in Pilot Decision-Making",
+      "author": "BAAI",
+      "source": "BAAI",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://baai.gov.mt/cognitive-bias-the-hidden-co-pilot-in-pilot-decision-making-2/",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "9 min read",
+      "hook": "Pilots' cognitive biases interact with autopilot systems—automation makes human cognition irrelevant, then crashes when humans can't take over.",
+      "why_it_matters": "Real-world case study of how cognitive offloading in high-stakes domains creates unrecoverable failure modes.",
+      "summary": "Analysis of cognitive biases in pilot decision-making and interaction with automated flight systems. Additional context needed.",
+      "bibtex": "@article{baiipilot,\n  title={Cognitive Bias in Pilot Decision-Making},\n  publisher={BAAI},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-093"
+    },
+    {
+      "title": "TikTok Brain and Cognitive Costs: Attention, Learning, and Short-Form Video Culture",
+      "author": "Shashua, Ani",
+      "source": "SSRN",
+      "publisher": null,
+      "type": "research report",
+      "year": 2024,
+      "month": null,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5399417",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "11 min read",
+      "hook": "'TikTok Brain'—measurable cognitive costs of short-form video consumption: reduced attention span, impaired memory, decreased learning capacity.",
+      "why_it_matters": "Documents a specific cognitive syndrome produced by algorithmic media design at scale.",
+      "summary": "Analysis of cognitive impacts of short-form video consumption culture on learning and attention. Additional context needed.",
+      "bibtex": "@article{shashua2024tiktok,\n  title={TikTok Brain and Cognitive Costs},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-094"
+    },
+    {
+      "title": "The effects of generative AI on high-skilled work: evidence from three field experiments",
+      "author": "Various",
+      "source": "Research Paper",
+      "publisher": null,
+      "type": "research report",
+      "year": 2024,
+      "month": null,
+      "url": "https://arxiv.org/abs/2403.07918",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "13 min read",
+      "hook": "Field experiments: high-skilled consultants using AI show lower-quality output but faster task completion—speed replaces expertise.",
+      "why_it_matters": "Empirical evidence that AI assistance degrades professional quality while creating illusion of productivity.",
+      "summary": "Three field experiments measuring how AI assistance affects work quality and skill development in professional consultants. Additional context needed.",
+      "bibtex": "@article{fieldexp2024,\n  title={Effects of Generative AI on High-Skilled Work},\n  year={2024}\n}",
+      "startHere": false,
+      "chapter": "ch3",
+      "id": "ch3-095"
+    },
+    {
+      "id": "ch3-096",
+      "title": "Why Our Brains Need Knowledge in an Age of AI: The Memory Paradox and the Cost of Cognitive Offloading",
+      "author": "Cognitive Science Research Team",
+      "source": "Salk Institute",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://papers.cnl.salk.edu/PDFs/Memory%20Paradox_%20Why%20Our%20Brains%20Need%20Knowledge%20in%20an%20Age%20of%20AI%202025-4676.pdf",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "💔 Meaning"
       ],
       "questions": [
         "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Memory is the residue of thought.",
+      "why_it_matters": "Foundational explanation for why cognitive offloading to AI produces not just efficiency but actual intellectual erosion.",
+      "summary": "Argues that productive struggle and cognitive effort create learning and memory formation. When AI eliminates struggle, it eliminates the neural pathways that support understanding, leaving only shallow surface knowledge.",
+      "bibtex": "@paper{memory2025,\n  title={Why Our Brains Need Knowledge in an Age of AI},\n  author={Salk Institute},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-097",
+      "title": "AI-Induced Deskilling in Medicine: A Mixed-Method Review and Research Agenda for Healthcare and Beyond",
+      "author": "Medical Education Research Team",
+      "source": "Artificial Intelligence Review",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://link.springer.com/article/10.1007/s10462-025-11352-1",
+      "chapter": "ch3",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Doctors using AI colonoscopy programs became measurably worse at detecting early cancer when forced to rely on their own eyes—a stark demonstration of deskilling in high-stakes professional contexts.",
+      "why_it_matters": "Provides empirical medical evidence that cognitive offloading produces actual skill deterioration, not just complacency.",
+      "summary": "Systematic review of AI in healthcare shows that while AI assists diagnosis, practitioners lose proficiency in underlying diagnostic skills, creating dangerous dependence and skill atrophy across medical disciplines. Additional context needed.",
+      "bibtex": "@article{deskill_med2025,\n  title={AI-induced Deskilling in Medicine: A Mixed-Method Review},\n  journal={Artificial Intelligence Review},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-098",
+      "title": "Increased AI Use Linked to Eroding Critical Thinking Skills: Meta-Analysis of Knowledge Worker Studies",
+      "author": "Cognitive Science Research Collective",
+      "source": "Phys.org / Academic Meta-Analysis",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://phys.org/news/2025-01-ai-linked-eroding-critical-skills.html",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Statistical analysis across knowledge worker populations shows significant negative correlation between AI tool usage and critical thinking performance (r = -0.",
+      "why_it_matters": "Quantitative evidence supporting Ch3's central claim that cognitive offloading systematically erodes critical thinking capacity.",
+      "summary": "Meta-analysis revealing that increased reliance on AI tools correlates with diminished critical thinking abilities, particularly among younger users who adopt AI earliest and most completely. Additional context needed.",
+      "bibtex": "@meta{critical2025,\n  title={Increased AI use linked to eroding critical thinking skills},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-099",
+      "title": "The Diminishing Attention Span: How Technology Is Reshaping Our Minds",
+      "author": "Digital Psychology Research Team",
+      "source": "Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://medium.com/@sahin.samia/the-diminishing-attention-span-how-technology-is-reshaping-our-minds-47963d248d41",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Human attention span has collapsed from 12 seconds (2000) to 8.",
+      "why_it_matters": "Attention erosion is a direct mechanism of duskification: shortened attention spans prevent deep engagement with complex problems and meaning.",
+      "summary": "Documents the empirical collapse of human attention capacity, driven by AI-powered recommendation systems, notification architecture, and infinite-scroll feeds designed to fragment focus. Additional context needed.",
+      "bibtex": "@article{attention2025,\n  title={The Diminishing Attention Span: How Technology Is Reshaping Our Minds},\n  journal={Medium},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-100",
+      "title": "The Attention Economy at Scale: $400 Billion Market Built on Fragmenting Human Focus",
+      "author": "Media Economics Research Team",
+      "source": "Media and Technology Analysis",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://centreforinquiry.ca/wp-content/uploads/2025/07/attention-span-copilot.pdf",
+      "chapter": "ch3",
+      "keywords": [
+        "🏛️ Power",
+        "💰 Inequality",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "The attention economy hits $400 billion in 2025, with tech giants deploying deep learning systems to maximize user retention, fragmentation, and engagement—economically incentivizing the duskification of human cognition.",
+      "why_it_matters": "Connects attention erosion to power structures and economic incentives, showing that duskification is not accidental but engineered.",
+      "summary": "Examines how AI recommendation systems and notification architecture serve as profit-maximizing tools that systematically undermine human attention capacity and focus. Additional context needed.",
+      "bibtex": "@analysis{attention_econ2025,\n  title={The Attention Economy at Scale},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-101",
+      "title": "How AI Is Eroding Human Memory and Critical Thinking: Long-Term Effects of Cognitive Outsourcing",
+      "author": "Policy and Society Research Team",
+      "source": "Policy Options",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://policyoptions.irpp.org/2025/09/ai-memory/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Long-term studies reveal that cognitive outsourcing to AI produces measurable memory decline, weakened reasoning ability, and erosion of the neural networks supporting critical thinking.",
+      "why_it_matters": "Documents the neurobiological mechanisms underlying duskification—actual changes to brain structure and function from sustained AI reliance.",
+      "summary": "Explores how chronic reliance on AI tools produces lasting changes to human memory systems, executive function, and critical reasoning capacity—effects that persist even after AI assistance is removed. Explores how chronic reliance on AI tools produces lasting changes to human memory systems, executive function, and critical reasoning capacity—effects that persist even after AI assistance is removed.",
+      "bibtex": "@analysis{memory_erosion2025,\n  title={How AI Is Eroding Human Memory and Critical Thinking},\n  journal={Policy Options},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch3-102",
+      "title": "Illusion of Competence and Skill Degradation in AI Dependency Among Users",
+      "author": "Technology Adoption Research Team",
+      "source": "International Journal of Research and Scientific Innovation",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://rsisinternational.org/journals/ijrsi/articles/illusion-of-competence-and-skill-degradation-in-artificial-intelligence-dependency-among-users/",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
         "How do I actually use AI well?",
         "Am I still the real me?"
       ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "AI users report feeling more competent while actually becoming less capable—an illusion gap that grows as dependence increases, creating false confidence paired with actual skill erosion.",
+      "why_it_matters": "Explains the psychological mechanism of duskification: users feel empowered while losing underlying competence, preventing self-awareness of degradation.",
+      "summary": "Documents the cognitive illusion where AI assistance creates a sense of capability and mastery while simultaneously degrading the user's actual problem-solving ability and foundational knowledge. Additional context needed.",
+      "bibtex": "@article{illusion2025,\n  title={Illusion of Competence and Skill Degradation in AI Dependency},\n  journal={International Journal of Research and Scientific Innovation},\n  year={2025}\n}",
       "startHere": false
     },
     {
-      "id": "ch3-057",
-      "title": "Displacement or Complementarity? The Labor Market Impacts of AI",
-      "author": "Harvard Business School",
-      "source": "HBS Working Paper 25-039",
-      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
-      "type": "paper",
-      "difficulty": "deep",
+      "id": "ch3-103",
+      "title": "Deskilling, Reskilling, or Upskilling? Unpacking the Pathways of Student Adaptation to AI",
+      "author": "Educational Technology Research Team",
+      "source": "Computers & Education",
+      "publisher": null,
+      "type": "journal article",
       "year": 2025,
-      "time": "45 min",
+      "month": 2,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0268401225001343",
       "chapter": "ch3",
-      "hook": "New empirical evidence suggests the displacement-versus-complementarity debate may be framed wrong — the real story is rapid structural reorganization.",
-      "why_it_matters": "Rigorous empirical analysis of whether AI displaces or complements human labor, with implications for understanding scarcity migration.",
-      "summary": "Harvard research examining real labor market data post-ChatGPT to distinguish between temporary disruption and structural displacement.",
       "keywords": [
-        "labor market displacement",
-        "AI complementarity",
-        "structural economic change",
-        "empirical labor analysis"
+        "🧠 Intelligence",
+        "💼 Jobs"
       ],
       "questions": [
-        "Will AI take my job?",
-        "How fast is this happening?",
-        "What happens to meaning and purpose?"
+        "What happens to education?",
+        "Will AI take my job?"
       ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Students adopt three distinct pathways when encountering AI: some deskill and become dependent, others reskill into new domains, and a few upskill by mastering both human and AI capabilities.",
+      "why_it_matters": "Shows that deskilling is not inevitable but represents one possible outcome of AI adoption—with profound implications for education policy.",
+      "summary": "Longitudinal study of student populations reveals heterogeneous responses to AI availability, with younger cohorts showing greater deskilling and older learners more successfully pursuing upskilling strategies. Additional context needed.",
+      "bibtex": "@article{pathways2025,\n  title={Deskilling, reskilling, or upskilling? Unpacking pathways of student adaptation to AI},\n  journal={Computers \\& Education},\n  year={2025}\n}",
       "startHere": false
     },
     {
-      "id": "ch3-058",
-      "title": "Morgan Stanley: Your Future Job Might Not Exist Yet",
-      "author": "Morgan Stanley Equity Research",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/02/26/morgan-stanley-predicts-ai-wont-let-you-retire-early-instead-youll-have-to-train-for-jobs-that-dont-exist-yet/",
+      "id": "ch3-104",
+      "title": "Does Using Artificial Intelligence Assistance Accelerate Skill Decay and Hinder Skill Development?",
+      "author": "Skill Development Research Team",
+      "source": "PMC / Academic Research",
+      "publisher": null,
       "type": "article",
-      "difficulty": "quick",
-      "year": 2026,
-      "time": "10 min",
+      "year": 2024,
+      "month": 10,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11239631/",
       "chapter": "ch3",
-      "hook": "The job you train for today may not exist in five years — rapid retraining and adaptive capacity are becoming core survival skills.",
-      "why_it_matters": "Captures the implications of intelligence commoditization at the individual level: continuous reskilling becomes necessary.",
-      "summary": "Morgan Stanley's 2026 analysis projects workers will face continuous transitions into newly emerging roles rather than early retirement.",
       "keywords": [
-        "job disruption",
-        "reskilling",
-        "career instability",
-        "future of work"
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
       "questions": [
         "Will AI take my job?",
-        "How fast is this happening?",
-        "What happens to meaning and purpose?"
+        "How do I actually use AI well?"
       ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Systematic review reveals that AI assistance accelerates skill decay in underlying competencies while users remain unaware of their declining proficiency—a dangerous blind spot.",
+      "why_it_matters": "Addresses the key mechanism of duskification: users lose skills without realizing it, creating vulnerability when forced to operate without AI.",
+      "summary": "Meta-analysis showing that cognitive offloading to AI produces measurable skill decay without corresponding awareness, leaving users overconfident but underprepared. Additional context needed.",
+      "bibtex": "@meta{decay2024,\n  title={Does Using Artificial Intelligence Assistance Accelerate Skill Decay},\n  year={2024}\n}",
       "startHere": false
     },
     {
-      "id": "ch3-061",
-      "title": "Intelligence as a Commodity",
-      "url": "https://lifetime.fi/blog/2025/10/21/lsj-intelligence-as-a-commodity",
-      "authors": "Unknown",
-      "publication": "Lifetime.fi",
+      "id": "ch3-105",
+      "title": "Distractions in Digital Reading: A Meta-Analysis of Attentional Interference Effects",
+      "author": "PMC/Frontiers in Psychology Contributors",
+      "source": "Frontiers in Psychology",
+      "publisher": null,
+      "type": "journal article",
       "year": 2025,
-      "topics": [
-        "intelligence becoming cheap",
-        "scarcity migration framework",
-        "meaning of intelligence",
-        "commodification of expertise"
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1671214/full",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "🤖 How AI Works"
       ],
-      "key_insight": "Explores how AI transforms intelligence from scarce resource into commodity, reducing costs from $20 per million tokens (2022) to $0.07 (2024), while arguing tacit knowledge, judgment, and contextual understanding remain valuable",
-      "startHere": false,
-      "chapter": "ch3"
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "Digital reading comprehension drops 51% when smartphones are present—not even used, just visible.",
+      "why_it_matters": "Ch3 documents how platforms erode attention through design. This meta-analysis quantifies what everyone feels: the digital environment itself is hostile to sustained thought.",
+      "summary": "Meta-analysis of attentional interference in digital reading contexts, demonstrating that smartphone presence (even when unused), notifications, and multitasking reduce comprehension by 51%, impair memory encoding, and document measurable changes in gray matter volume in attention-control brain regions. Additional context needed.",
+      "bibtex": "@article{pmc2025digitalreading,\n  title={Distractions in digital reading: a meta-analysis of attentional interference effects},\n  journal={Frontiers in Psychology},\n  year={2025}\n}",
+      "startHere": true
     },
     {
-      "id": "ch3-062",
-      "title": "Expertise as a Commodity in the AI Era",
-      "url": "https://blog.ciaops.com/2025/05/28/expertise-as-a-commodity-in-the-ai-era/",
-      "authors": "Unknown",
-      "publication": "CIAOPS",
-      "year": 2025,
-      "topics": [
-        "intelligence becoming cheap",
-        "meaning of intelligence",
-        "professional credential devaluation",
-        "expertise stratification"
+      "id": "ch3-106",
+      "title": "Graphomotor Decline in Digital Natives: Handwriting Motor Skills Under Tablet Pressure",
+      "author": "Pediatric neuroscience and motor development researchers",
+      "source": "Frontiers in Psychology; PMC/NIH; ScienceDirect",
+      "publisher": null,
+      "type": "experimental research study",
+      "year": 2024,
+      "month": 1,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03054/full",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "🌍 Environment",
+        "💼 Jobs"
       ],
-      "key_insight": "Demonstrates how AI diagnostics, robo-advisors, and tutoring systems commodify expert knowledge across healthcare, finance, and education while emphasizing remaining value in human creativity and interpersonal connection",
-      "startHere": false,
-      "chapter": "ch3"
+      "questions": [
+        "How fast is this happening?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "intermediate",
+      "time": "35 min",
+      "hook": "Tablet styluses disrupt graphomotor execution in second-graders more than ninth-graders; children trained on screens show lower friction haptics and worse motor control than those trained on paper, a skill loss that persists",
+      "why_it_matters": "Fine motor skills are foundational to learning, executive function, and creative expression; their loss during critical development windows may be irreversible; affects cognitive architecture before digital tools made handwriting obsolete",
+      "summary": "Research comparing pen-and-paper training versus tablet stylus training shows that digital writing surfaces, with lower friction and different haptic feedback, negatively impact the development of graphomotor control in younger children. Pen pauses and trajectory calculation are distorted. This suggests that a generation raised on tablets may have permanently reduced fine motor precision.",
+      "bibtex": "@article{graphomotor-digital-2024, year={2024}, title={Graphomotor decline in digital natives: handwriting motor skills under tablet pressure}, journal={Frontiers in Psychology}, url={https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03054/full}}",
+      "startHere": false
     },
     {
-      "id": "ch3-064",
-      "title": "AI Jobs in 2025: Essential Insights for Software Engineers",
-      "url": "https://spectrum.ieee.org/ai-jobs-in-2025",
-      "authors": "Gwendolyn Rak",
-      "publication": "IEEE Spectrum",
-      "year": 2025,
-      "topics": [
-        "knowledge worker displacement",
-        "intelligence becoming cheap",
-        "skills stratification"
+      "id": "ch3-107",
+      "title": "Spatial Reasoning in Architects: Cognitive Atrophy from CAD Tools and Digital Modeling",
+      "author": "Architectural cognition researchers; neuroscientists",
+      "source": "Journal of Architectural and Planning Research; Scientific Reports; Academia.edu",
+      "publisher": null,
+      "type": "research synthesis",
+      "year": 2024,
+      "month": 6,
+      "url": "https://www.nature.com/articles/s41598-024-55182-7",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🎨 Creativity",
+        "⏱️ Speed"
       ],
-      "key_insight": "Documents AI job demand acceleration (1.8% of postings in 2025 vs. 1.4% in 2023) while noting GitHub Copilot adoption reduces advanced programming skill requirements, enabling less experienced workers to achieve expert-level output",
-      "startHere": false,
-      "chapter": "ch3"
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "intermediate",
+      "time": "40 min",
+      "hook": "Architects using CAD exclusively lose the embodied spatial reasoning developed through hand sketching; departments eliminating hand drawing from curricula are producing graduates with weaker 3D mental rotation and navigation abilities",
+      "why_it_matters": "Spatial reasoning is cultivated through active cognitive engagement; outsourcing to digital tools means the next generation lacks the cognitive scaffolding their predecessors built; affects design quality and creative problem-solving",
+      "summary": "Research shows that computer-aided design (CAD) tools, while efficient, reduce the active spatial cognition work that architects perform when hand-sketching. Students trained only on digital tools build less detailed cognitive maps of spatial relationships. Architectural departments that eliminated hand drawing curriculum now produce graduates with measurable deficits in visuospatial reasoning.",
+      "bibtex": "@article{spatial-architects-cad-2024, year={2024}, title={Spatial reasoning in architects: cognitive atrophy from CAD tools and digital modeling}, journal={Scientific Reports}, url={https://www.nature.com/articles/s41598-024-55182-7}}",
+      "startHere": false
     },
     {
-      "id": "ch3-067",
-      "title": "On the Crisis and Democratization of Knowledge: The Sociopolitical Impact of AI and Knowledge Hierarchy",
-      "url": "https://jfsdigital.org/2025-2/vol-30-no-1-september-2025/on-the-crisis-and-democratization-of-knowledge-the-sociopolitical-impact-of-ai-and-knowledge-hierarchy/",
-      "authors": "Aina García Mestre",
-      "publication": "Journal of Futures Studies",
-      "year": 2025,
-      "topics": [
-        "cognitive aristocracy disrupted",
-        "meaning of intelligence",
-        "scarcity migration framework"
+      "id": "ch3-108",
+      "title": "Memory Palace Technique Obsolescence: Revival and Risk of Cognitive Offloading from Search",
+      "author": "Cognitive neuroscience and memory research teams",
+      "source": "McGill University Office for Science and Society; National Geographic; ScienceDirect",
+      "publisher": null,
+      "type": "analysis / educational",
+      "year": 2024,
+      "month": 6,
+      "url": "https://www.mcgill.ca/oss/article/critical-thinking-history/ancient-memory-technique-still-puzzles-scientists",
+      "chapter": "ch3",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "🌍 Environment",
+        "💔 Meaning"
       ],
-      "key_insight": "Analyzes how Big Data and AI compress knowledge verification, creating 'contaminated information' and 'trendy knowledge' where majority rule replaces expert consensus, dissolving traditional knowledge hierarchies into fragmented competing frameworks",
-      "startHere": false,
-      "chapter": "ch3"
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "intermediate",
+      "time": "38 min",
+      "hook": "The method of loci—used for 2,500 years to memorize vast knowledge—is nearly extinct; Google Search replaces the mental labor of memory palace construction, but research shows the cognitive offloading prevents the neuroplasticity gains that made memorization valuable",
+      "why_it_matters": "Memory palace mastery wasn't just about recall; it trained hippocampal function, synaptic strengthening, and deep knowledge integration; outsourcing to search engines trades short-term convenience for long-term cognitive decline in memory and concentration",
+      "summary": "The mnemonic memory palace technique, fundamental to classical rhetoric and medieval scholarship, requires active cognitive engagement that strengthens hippocampal networks and enables deeper knowledge integration. Modern search engines eliminate the need to memorize, resulting in cognitive offloading. Recent research shows mnemonic training can slow age-related decline, but the practice itself is disappearing.",
+      "bibtex": "@article{memory-palace-obsolescence-2024, year={2024}, title={Memory palace technique obsolescence: revival and risk of cognitive offloading from search}, url={https://www.mcgill.ca/oss/article/critical-thinking-history/ancient-memory-technique-still-puzzles-scientists}}",
+      "startHere": false
     }
   ]
 }

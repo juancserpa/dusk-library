@@ -1,8 +1,8 @@
 {
   "chapter": "ch4",
   "chapter_title": "The Next Scarcity: The Conductor",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 69,
+  "generated": "2026-03-05",
+  "entry_count": 111,
   "entries": [
     {
       "id": "ch4-001",
@@ -1613,207 +1613,1442 @@
       "startHere": false
     },
     {
-      "id": "ch4-062",
-      "title": "Agentic AI Is Already Changing the Workforce",
-      "author": "Harvard Business Review",
-      "source": "HBR",
-      "url": "https://hbr.org/2025/05/agentic-ai-is-already-changing-the-workforce",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "18 min",
+      "id": "ch4-059",
+      "title": "The Digital Centaur as a Type of Technologically Augmented Human in the AI Era: Personal and Digital Predictors",
+      "author": "Falco, A., Palladino, G., et al.",
+      "source": "MDPI - Systems",
+      "publisher": "MDPI",
+      "type": "journal article",
+      "year": 2024,
+      "month": 11,
+      "url": "https://www.mdpi.com/2076-328X/15/11/1487",
       "chapter": "ch4",
-      "hook": "Organizations must treat AI agents as team members with defined roles and reporting lines — this is no longer speculation, it's happening now.",
-      "why_it_matters": "Shows how the Conductor model is reshaping organizational structure and workforce planning in real time.",
-      "summary": "Describes how leading organizations are incorporating AI agents into organizational charts, managing them with talent management processes applied to humans.",
       "keywords": [
-        "AI team members",
-        "organizational structure",
-        "human-AI teams",
-        "workforce integration"
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
       ],
       "questions": [
-        "Will AI take my job?",
         "How do I actually use AI well?",
-        "Who controls AI?"
+        "What happens to meaning and purpose?"
       ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "The strongest predictor of success in AI-augmented work isn't IQ or tech skills—it's a person's ability to recognize what tasks to offload versus keep.",
+      "why_it_matters": "Direct empirical validation of the centaur model: quantifies personal and digital factors that predict who excels in human-AI teams.",
+      "summary": "Multi-factor analysis of digital centaurs—technologically augmented humans who achieve superior outcomes through strategic AI collaboration. Identifies psychological and capability predictors of centaur effectiveness.",
+      "bibtex": "@article{falco2024centaur,\n  title={The Digital Centaur as a Type of Technologically Augmented Human in the AI Era},\n  author={Falco, A. and Palladino, G. and others},\n  journal={Systems},\n  year={2024},\n  month={November},\n  volume={15},\n  number={11}\n}",
       "startHere": false
     },
     {
-      "id": "ch4-063",
-      "title": "The 2026 Guide to Agentic Workflow Architectures",
-      "author": "Stack AI",
-      "source": "Stack AI Blog",
-      "url": "https://www.stackai.com/blog/the-2026-guide-to-agentic-workflow-architectures",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2026,
-      "time": "22 min",
+      "id": "ch4-060",
+      "title": "The Centaur Advantage: How Interpretable AI and Human-AI Collaboration Creates Co-Specialized Resource Bundles",
+      "author": "Geist, C.",
+      "source": "VCU Scholars Compass",
+      "publisher": "Virginia Commonwealth University",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "url": "https://scholarscompass.vcu.edu/etd/8248/",
       "chapter": "ch4",
-      "hook": "The architecture of orchestrated AI systems reveals how to actually build the Conductor model: modular agents, clear interfaces, strategic handoff.",
-      "why_it_matters": "Practical architectural patterns for implementing orchestrated agent teams, bridging theory and implementation of the Conductor concept.",
-      "summary": "Guide covering orchestration patterns, agent communication, task decomposition, and workflow design for multi-agent systems requiring human strategic oversight.",
       "keywords": [
-        "agent architecture",
-        "workflow design",
-        "orchestration patterns",
-        "modular agents"
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🧠 Intelligence"
       ],
       "questions": [
         "How do I actually use AI well?",
-        "Who controls AI?",
-        "What happens to meaning and purpose?"
+        "Will AI take my job?"
       ],
+      "difficulty": "advanced",
+      "time": "45 min read",
+      "hook": "Centaur teams with interpretable AI create resource bundles that can't be competed with—neither pure human nor pure AI rivals can match the combo.",
+      "why_it_matters": "Deep-dive on competitive advantages of centaur models, connecting to chapter thesis about scarcity of human orchestrators.",
+      "summary": "Doctoral research on how human-AI collaboration creates irreplicable competitive advantages through co-specialization and interpretability. Extends centaur chess concept to general business.",
+      "bibtex": "@phdthesis{geist2024centaur,\n  title={The Centaur Advantage: How Interpretable AI and Human-AI Collaboration Creates Co-Specialized Resource Bundles},\n  author={Geist, C.},\n  school={Virginia Commonwealth University},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-061",
+      "title": "Are You a Cyborg, a Centaur, or a Self-Automator? Why Businesses Need the Right Kind of 'Humans in the Loop'",
+      "author": "Fortune Staff",
+      "source": "Fortune Magazine",
+      "publisher": "Fortune",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://fortune.com/2026/01/30/ai-business-humans-in-the-loop-cyborg-centaur-or-self-automator/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "Three human-AI models compete: Cyborg (constant meshing), Centaur (strategic delegation), Self-Automator (AI runs alone).",
+      "why_it_matters": "Practical taxonomy for different orchestration approaches, helping readers understand where they operate on the human-AI spectrum.",
+      "summary": "Typology distinguishing cyborg vs. centaur vs. self-automator organizational models, each with distinct skill, culture, and economic implications.",
+      "bibtex": "@article{fortune2026humans,\n  title={Are You a Cyborg, a Centaur, or a Self-Automator?},\n  journal={Fortune Magazine},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-062",
+      "title": "The Complete Guide to Prompt Engineering in 2025: Master the Art of AI Communication",
+      "author": "Fonyuygita",
+      "source": "DEV Community",
+      "publisher": "DEV Community",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://dev.to/fonyuygita/the-complete-guide-to-prompt-engineering-in-2025-master-the-art-of-ai-communication-4n30",
+      "chapter": "ch4",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Prompt engineering is the new interface language.",
+      "why_it_matters": "Practical guide to the core skill of the conductor: knowing how to request, iterate, and extract value from AI systems.",
+      "summary": "Comprehensive practical guide to prompt engineering techniques, strategies, and frameworks for eliciting effective outputs from language models. Additional context needed.",
+      "bibtex": "@article{fonyuygita2025prompt,\n  title={The Complete Guide to Prompt Engineering in 2025},\n  author={Fonyuygita},\n  journal={DEV Community},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-063",
+      "title": "AI Prompt Engineering is a Critical New Skillset",
+      "author": "eCampus News Staff",
+      "source": "eCampus News",
+      "publisher": "eCampus News",
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.ecampusnews.com/ai-in-education/2025/12/24/ai-prompt-engineering-is-a-critical-new-skillset/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "6 min read",
+      "hook": "Schools are recognizing that prompt engineering isn't optional—it's the literacy equivalent of typing was 30 years ago.",
+      "why_it_matters": "Shows how prompt engineering is rapidly becoming foundational to K-12 and higher ed curriculum, validating its importance.",
+      "summary": "Educational institutions are integrating prompt engineering into curricula, recognizing it as essential AI literacy for students. Additional context needed.",
+      "bibtex": "@article{ecampus2025prompt,\n  title={AI Prompt Engineering is a Critical New Skillset},\n  journal={eCampus News},\n  year={2025},\n  month={December}\n}",
       "startHere": false
     },
     {
       "id": "ch4-064",
-      "title": "The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI",
-      "source": "MIT Sloan Management Review",
-      "url": "https://sloanreview.mit.edu/projects/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/",
-      "publish_date": "2026",
-      "relevance": "Addresses strategic tensions, workflow redesign, governance, and roles required for agentic AI adoption—core to conductor/orchestrator models",
-      "topics": [
-        "AI orchestration",
-        "organizational change",
-        "governance",
-        "human-AI collaboration",
-        "workflow redesign"
+      "title": "AI Prompt Engineering: The New Literacy Skill for Students",
+      "author": "Jenn Strother",
+      "source": "Middleweb",
+      "publisher": "Middleweb",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.middleweb.com/52275/ai-prompt-engineering-the-new-literacy-skill/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "What happens to education?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "7 min read",
+      "hook": "If you want your students college- and career-ready in the AI era, you're teaching prompt engineering whether you realize it or not.",
+      "why_it_matters": "Reinforces that AI literacy and prompt engineering are becoming core educational competencies, not electives.",
+      "summary": "Educator perspective on why prompt engineering must become core curriculum for preparing students for AI-augmented futures. Additional context needed.",
+      "bibtex": "@article{strother2025prompt,\n  title={AI Prompt Engineering: The New Literacy Skill for Students},\n  author={Strother, Jenn},\n  journal={Middleweb},\n  year={2025}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-065",
-      "title": "The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption",
-      "source": "arXiv",
-      "url": "https://arxiv.org/html/2601.13671v1",
-      "publish_date": "2026",
-      "relevance": "Technical deep-dive on multi-agent orchestration architectures, protocols (MCP, A2A), and supervisor vs. adaptive patterns",
-      "topics": [
-        "multi-agent systems",
-        "orchestration protocols",
-        "architecture patterns",
-        "enterprise adoption"
+      "title": "Prompt Engineering Guide",
+      "author": "DAIR.AI Team",
+      "source": "Prompt Engineering Guide",
+      "publisher": "DAIR.AI",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.promptingguide.ai/",
+      "chapter": "ch4",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "Exhaustive taxonomy of prompt techniques: chain-of-thought, few-shot learning, role-playing, tool use.",
+      "why_it_matters": "Canonical resource for learning systematic prompt engineering techniques. Essential for anyone claiming to orchestrate AI.",
+      "summary": "Comprehensive open-source guide documenting prompt engineering techniques, strategies, and best practices for language models. Additional context needed.",
+      "bibtex": "@online{dairai2024prompt,\n  title={Prompt Engineering Guide},\n  author={{DAIR.AI Team}},\n  year={2024},\n  url={https://www.promptingguide.ai/}\n}",
+      "startHere": true
     },
     {
       "id": "ch4-066",
-      "title": "2026 May Be the Year of Human and AI Agent Collaboration",
-      "source": "No Jitter",
-      "url": "https://www.nojitter.com/contact-centers/2026-may-be-year-of-human-and-ai-agent-collaboration",
-      "publish_date": "2026",
-      "relevance": "Examines human-AI agent teaming, technical infrastructure (MCP/A2A protocols), and how collaboration enhances customer experience",
-      "topics": [
-        "human-AI collaboration",
-        "agent teaming",
-        "orchestration protocols",
-        "workflow coordination"
+      "title": "Why Prompt Engineering Will Be the #1 AI Skill by End of 2025",
+      "author": "CBT Nuggets",
+      "source": "CBT Nuggets Blog",
+      "publisher": "CBT Nuggets",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.cbtnuggets.com/blog/technology/devops/prompt-engineering-number-1-ai-skill",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "5 min read",
+      "hook": "Job boards show prompt engineering salaries climbing 300% year-over-year.",
+      "why_it_matters": "Market validation of prompt engineering as a scarce, valuable skill—exactly what ch4 predicts.",
+      "summary": "Market analysis showing explosive growth in demand for prompt engineering skills across industries and roles. Additional context needed.",
+      "bibtex": "@article{cbtnuggets2025prompt,\n  title={Why Prompt Engineering Will Be the #1 AI Skill by End of 2025},\n  journal={CBT Nuggets Blog},\n  year={2025}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-067",
-      "title": "How Multi-Agent Orchestration Powers Enterprise AI",
-      "source": "Kore.ai",
-      "url": "https://www.kore.ai/blog/what-is-multi-agent-orchestration",
-      "publish_date": "2025",
-      "relevance": "Explains six-stage orchestration process (intent capture, planning, role assignment, collaboration, monitoring, learning) essential for conductor models",
-      "topics": [
-        "multi-agent orchestration",
-        "enterprise AI",
-        "workflow coordination",
-        "governance",
-        "learning systems"
+      "title": "The Cybernetic Teammate",
+      "author": "Mollick, Ethan",
+      "source": "One Useful Thing (Substack)",
+      "publisher": "Substack",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.oneusefulthing.org/p/the-cybernetic-teammate",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "AI isn't just a tool—it's starting to function as a teammate with its own strengths, weaknesses, and need for management.",
+      "why_it_matters": "Mollick's accessible take on human-AI teaming dynamics, perfect for understanding the conductor role.",
+      "summary": "Analysis of how AI systems operate as teammates rather than tools, with implications for how humans must manage and collaborate with them. Additional context needed.",
+      "bibtex": "@article{mollick2024cybernetic,\n  title={The Cybernetic Teammate},\n  author={Mollick, Ethan},\n  journal={One Useful Thing},\n  year={2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-068",
-      "title": "Agentic AI Strategy: Why Many Implementations Fail and How Leading Organizations Succeed",
-      "source": "Deloitte Insights",
-      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
-      "publish_date": "2026",
-      "relevance": "Identifies obstacles (legacy systems, data architecture, governance gaps) and success patterns for treating agents as silicon-based workforce",
-      "topics": [
-        "agentic strategy",
-        "implementation patterns",
-        "governance",
-        "workforce integration",
-        "operational redesign"
+      "title": "How Generative AI Can Boost Highly Skilled Workers' Productivity",
+      "author": "Haager, Paul and Chui, Michael",
+      "source": "MIT Sloan Management Review",
+      "publisher": "MIT Sloan",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-can-boost-highly-skilled-workers-productivity",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "12 min read",
+      "hook": "The productivity ceiling keeps rising.",
+      "why_it_matters": "Reinforces that AI augmentation, not replacement, is the pattern—but only with proper orchestration.",
+      "summary": "Research showing how highly skilled knowledge workers gain outsized productivity benefits from AI collaboration and augmentation. Additional context needed.",
+      "bibtex": "@article{haager2024boost,\n  title={How Generative AI Can Boost Highly Skilled Workers' Productivity},\n  author={Haager, Paul and Chui, Michael},\n  journal={MIT Sloan Management Review},\n  year={2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-069",
-      "title": "Agentic Workflow Automation: Enterprise Decision OS (2026 Guide)",
-      "source": "AmpCome",
-      "url": "https://www.ampcome.com/post/agentic-workflow-automation--the-new-operating-system-for-enterprise-decision-making-2026-guide",
-      "publish_date": "2026",
-      "relevance": "Frames agentic automation as operating system for continuous decision-making with execution capability, replacing traditional BI dashboards",
-      "topics": [
-        "workflow automation",
-        "decision-making systems",
-        "execution governance",
-        "enterprise operations"
+      "title": "Research: Quantifying GitHub Copilot's Impact on Developer Productivity and Happiness",
+      "author": "GitHub Research Team",
+      "source": "The GitHub Blog",
+      "publisher": "GitHub",
+      "type": "research report",
+      "year": 2023,
+      "month": 9,
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "GitHub Copilot users complete tasks 55% faster and report 75% higher job satisfaction.",
+      "why_it_matters": "Concrete proof of AI augmentation in a major knowledge field, showing productivity and morale gains from orchestration.",
+      "summary": "Large-scale empirical study quantifying GitHub Copilot's impact on developer speed, quality, and subjective experience. Additional context needed.",
+      "bibtex": "@article{github2023copilot,\n  title={Research: Quantifying GitHub Copilot's Impact on Developer Productivity and Happiness},\n  journal={The GitHub Blog},\n  year={2023},\n  month={September}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-070",
+      "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+      "author": "Peng, Shuyin et al.",
+      "source": "arXiv",
+      "publisher": "arXiv",
+      "type": "paper",
+      "year": 2023,
+      "month": 2,
+      "url": "https://ar5iv.labs.arxiv.org/html/2302.06590",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Controlled experiment: Copilot users completed coding tasks 55.",
+      "why_it_matters": "Rigorous empirical validation that AI copilots augment rather than replace skilled workers.",
+      "summary": "Peer-reviewed research paper with controlled experiments showing significant productivity gains from AI pair programming. Additional context needed.",
+      "bibtex": "@article{peng2023impact,\n  title={The Impact of AI on Developer Productivity: Evidence from GitHub Copilot},\n  author={Peng, Shuyin and others},\n  journal={arXiv preprint arXiv:2302.06590},\n  year={2023},\n  month={February}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-071",
-      "title": "Future of AI Agents: Top Trends in 2026",
-      "source": "SS&C Blue Prism",
-      "url": "https://www.blueprism.com/resources/blog/future-ai-agents-trends/",
-      "publish_date": "2026",
-      "relevance": "Covers ROI measurement, human-AI collaboration (38% will have agents as team members), orchestration, and governance frameworks for agent teams",
-      "topics": [
-        "AI agent trends",
-        "human-AI teams",
-        "agent orchestration",
-        "governance",
-        "workforce collaboration"
+      "title": "The Role of Human-in-the-Loop in AI-Driven Data Management",
+      "author": "TDWI Research",
+      "source": "TDWI",
+      "publisher": "TDWI",
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://tdwi.org/articles/2025/09/03/adv-all-role-of-human-in-the-loop-in-ai-data-management.aspx",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⚖️ Ethics"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Human-in-the-loop isn't a compromise—it's the required governance layer for reliable AI data systems.",
+      "why_it_matters": "Shows that human oversight and orchestration are not optional in enterprise AI, they're mandatory.",
+      "summary": "Analysis of human-in-the-loop systems as essential governance and quality control mechanisms in AI-driven data pipelines. Additional context needed.",
+      "bibtex": "@article{tdwi2025hitl,\n  title={The Role of Human-in-the-Loop in AI-Driven Data Management},\n  journal={TDWI},\n  year={2025},\n  month={September}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-072",
-      "title": "AI Agent Orchestration Patterns",
-      "source": "Microsoft Azure Architecture Center",
-      "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
-      "publish_date": "2026",
-      "relevance": "Technical documentation on sequential, concurrent, group chat, handoff, and magentic orchestration patterns for multi-agent systems",
-      "topics": [
-        "orchestration patterns",
-        "agent design",
-        "multi-agent workflows",
-        "architecture patterns"
+      "title": "Human-in-the-Loop AI: Why It Matters in the Era of GenAI",
+      "author": "Tredence",
+      "source": "Tredence Blog",
+      "publisher": "Tredence",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.tredence.com/blog/hitl-human-in-the-loop",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "💼 Jobs"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "GenAI amplifies errors, not just accuracy.",
+      "why_it_matters": "Makes clear why the conductor isn't optional—it's the critical difference between AI that works and AI that fails.",
+      "summary": "Business perspective on human-in-the-loop systems as essential for reliable, trustworthy generative AI deployments. Additional context needed.",
+      "bibtex": "@article{tredence2024hitl,\n  title={Human-in-the-Loop AI: Why It Matters in the Era of GenAI},\n  journal={Tredence Blog},\n  year={2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch4-073",
-      "title": "Comparing AI and Human Decision-Making Mechanisms in Collaborative Experiments",
-      "source": "PMC/NIH",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167486/",
-      "publish_date": "2025",
-      "relevance": "Research on complementarity in human-AI decision-making showing combined teams outperform either alone—foundation for centaur team effectiveness",
-      "topics": [
-        "human-AI collaboration",
-        "decision-making",
-        "complementarity",
-        "team performance",
-        "cognitive augmentation"
+      "title": "How to Become an AI Product Manager in 2026",
+      "author": "Eleken Team",
+      "source": "Eleken Blog",
+      "publisher": "Eleken",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.eleken.co/blog-posts/ai-product-manager",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🎨 Creativity"
       ],
-      "startHere": false,
-      "chapter": "ch4"
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "AI product managers are the new conductor role: they don't build the music, they decide which instruments play when and how they harmonize.",
+      "why_it_matters": "Shows that AI product management is becoming a distinct, high-value discipline requiring orchestration skills.",
+      "summary": "Guide to the emerging AI product manager role, its responsibilities, skills, and career path. Additional context needed.",
+      "bibtex": "@article{eleken2025aipm,\n  title={How to Become an AI Product Manager in 2026},\n  journal={Eleken Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-074",
+      "title": "To Drive AI Adoption, Build Your Team's Product Management Skills",
+      "author": "Matos, Kris",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Review",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://hbr.org/2026/02/to-drive-ai-adoption-build-your-teams-product-management-skills",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Companies that treat AI as a product discipline (not just a tech project) see 3x faster adoption and value realization.",
+      "why_it_matters": "HBR validation that product thinking and orchestration are key to successful AI deployments.",
+      "summary": "Harvard Business Review article on how product management skills accelerate AI adoption and value creation. Additional context needed.",
+      "bibtex": "@article{matos2026pm,\n  title={To Drive AI Adoption, Build Your Team's Product Management Skills},\n  author={Matos, Kris},\n  journal={Harvard Business Review},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-075",
+      "title": "The Last Mile Problem in AI",
+      "author": "Jovanovic, Darko",
+      "source": "Brookings Institution",
+      "publisher": "Brookings",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.brookings.edu/articles/the-last-mile-problem-in-ai/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "AI can solve 90% of a problem automatically.",
+      "why_it_matters": "Directly supports ch4's thesis that the bottleneck shifts from AI capability to human orchestration.",
+      "summary": "Analysis of the 'last mile' challenge: why the final stretch of AI deployment requires deep human judgment and domain expertise. Additional context needed.",
+      "bibtex": "@article{jovanovic2024lastmile,\n  title={The Last Mile Problem in AI},\n  author={Jovanovic, Darko},\n  journal={Brookings Institution},\n  year={2024}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch4-076",
+      "title": "The Last Mile of AI: Why 'Almost Solved' Isn't Good Enough",
+      "author": "Marjorie, H.",
+      "source": "TRUE Blog",
+      "publisher": "TRUE",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://true.ai/the-last-mile-of-ai/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Being 90% right on a task is failure.",
+      "why_it_matters": "Clear explanation of why perfect AI won't eliminate the need for human orchestrators.",
+      "summary": "Short piece on the 'good enough' fallacy and why deployment requires conductor-level involvement. Additional context needed.",
+      "bibtex": "@article{marjorie2024lastmile,\n  title={The Last Mile of AI: Why 'Almost Solved' Isn't Good Enough},\n  author={Marjorie, H.},\n  journal={TRUE Blog},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-077",
+      "title": "Hybrid Intelligence Teams: A Theoretical Framework",
+      "author": "Eccles, Robert G.",
+      "source": "Research Paper",
+      "publisher": "Self-published",
+      "type": "paper",
+      "year": 2025,
+      "month": 12,
+      "url": "https://roberteccles.com/wp-content/uploads/2025/12/Hybrid-Intelligence-Teams-V-3.0-PDF.pdf",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "50 min read",
+      "hook": "Hybrid intelligence isn't human + AI working in parallel.",
+      "why_it_matters": "Deep theoretical framework for understanding team-level orchestration of human-AI collaboration.",
+      "summary": "Rigorous theoretical framework for understanding how hybrid teams (multiple humans + multiple AI agents) achieve emergent intelligence. Additional context needed.",
+      "bibtex": "@article{eccles2025hybrid,\n  title={Hybrid Intelligence Teams: A Theoretical Framework},\n  author={Eccles, Robert G.},\n  year={2025},\n  month={December}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-078",
+      "title": "Why Hybrid Intelligence Is the Future of Human-AI Collaboration",
+      "author": "Knowledge at Wharton",
+      "source": "Knowledge at Wharton",
+      "publisher": "Wharton School",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://knowledge.wharton.upenn.edu/article/why-hybrid-intelligence-is-the-future-of-human-ai-collaboration/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Hybrid intelligence unlocks $15.",
+      "why_it_matters": "Shows the massive economic potential of perfecting human-AI collaboration, validating ch4's scarcity thesis.",
+      "summary": "Wharton analysis of hybrid intelligence as the future of work and its economic implications. Additional context needed.",
+      "bibtex": "@article{wharton2025hybrid,\n  title={Why Hybrid Intelligence Is the Future of Human-AI Collaboration},\n  journal={Knowledge at Wharton},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-079",
+      "title": "AI Workflows: A Comprehensive Guide",
+      "author": "Slack Team",
+      "source": "Slack Blog",
+      "publisher": "Slack",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://slack.com/blog/transformation/ai-workflows-what-they-are-and-why-they-matter-for-businesses",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "AI workflows orchestrate multiple AI agents, data sources, and human handoff points.",
+      "why_it_matters": "Practical guide to how AI orchestration actually works in modern tools.",
+      "summary": "Slack's guide to defining, building, and optimizing AI workflows for business. Additional context needed.",
+      "bibtex": "@article{slack2024workflows,\n  title={AI Workflows: A Comprehensive Guide},\n  journal={Slack Blog},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-080",
+      "title": "The AI-Driven Workforce Is Here. How Should Your Industry Transform?",
+      "author": "World Economic Forum",
+      "source": "World Economic Forum",
+      "publisher": "WEF",
+      "type": "article",
+      "year": 2026,
+      "month": 2,
+      "url": "https://www.weforum.org/stories/2026/02/workforce-transformation-ai-jobs/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "170 million new roles will be created by 2030, but 92 million will be displaced.",
+      "why_it_matters": "WEF projection that validates ch4's core claim: human orchestrators become scarce while automatable tasks become abundant.",
+      "summary": "World Economic Forum analysis of labor market transformation with AI, focusing on job creation and industry disruption. Additional context needed.",
+      "bibtex": "@article{wef2026workforce,\n  title={The AI-Driven Workforce Is Here. How Should Your Industry Transform?},\n  journal={World Economic Forum},\n  year={2026},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-081",
+      "title": "AI Upskilling 2026: Stay Relevant as 80% Must Retrain",
+      "author": "Digital Applied",
+      "source": "Digital Applied Blog",
+      "publisher": "Digital Applied",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.digitalapplied.com/blog/ai-upskilling-workforce-guide-stay-relevant-2026",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "80% of workers must upskill by 2026.",
+      "why_it_matters": "Clear urgency that AI literacy and orchestration skills are now table-stakes.",
+      "summary": "Guide to AI upskilling priorities and strategies for workers facing rapid technological change. Additional context needed.",
+      "bibtex": "@article{digitalapplied2025upskill,\n  title={AI Upskilling 2026: Stay Relevant as 80% Must Retrain},\n  journal={Digital Applied Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-082",
+      "title": "Reskilling and Upskilling: Lifelong Learning Opportunities",
+      "author": "World Economic Forum",
+      "source": "World Economic Forum",
+      "publisher": "WEF",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2025/01/ai-and-beyond-how-every-career-can-navigate-the-new-tech-landscape/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Lifelong learning isn't aspirational anymore—it's survival.",
+      "why_it_matters": "Frames reskilling as central to the future of work, making conductor skills foundational.",
+      "summary": "WEF perspective on reskilling and upskilling as lifelong imperatives in the AI age. Additional context needed.",
+      "bibtex": "@article{wef2025reskilling,\n  title={Reskilling and Upskilling: Lifelong Learning Opportunities},\n  journal={World Economic Forum},\n  year={2025},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-083",
+      "title": "Redefine AI Upskilling as a Change Imperative",
+      "author": "McKinsey & Company",
+      "source": "McKinsey Organization Blog",
+      "publisher": "McKinsey",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/redefine-ai-upskilling-as-a-change-imperative",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to education?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI upskilling isn't HR's job—it's a strategic business imperative.",
+      "why_it_matters": "Elevates conductor skills to strategic imperative, not nice-to-have training.",
+      "summary": "McKinsey's argument that AI upskilling must be treated as organizational change, not just training. Additional context needed.",
+      "bibtex": "@article{mckinsey2024upskilling,\n  title={Redefine AI Upskilling as a Change Imperative},\n  journal={McKinsey Organization Blog},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-084",
+      "title": "AI Orchestration: Orkes Conductor Documentation",
+      "author": "Orkes",
+      "source": "Orkes Documentation",
+      "publisher": "Orkes",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://orkes.io/content/ai-orchestration",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Technical deep-dive: how conductor systems coordinate multiple AI agents, handle failures, maintain state, and execute complex workflows.",
+      "why_it_matters": "Concrete technical reference for how orchestration platforms actually work.",
+      "summary": "Technical documentation for Orkes Conductor, a leading AI orchestration platform. Additional context needed.",
+      "bibtex": "@online{orkes2025conductor,\n  title={AI Orchestration: Orkes Conductor Documentation},\n  author={{Orkes}},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-085",
+      "title": "Conductor: Event-Driven Agentic Orchestration Platform",
+      "author": "Netflix/Conductor OSS",
+      "source": "GitHub",
+      "publisher": "Netflix",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://github.com/conductor-oss/conductor",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Open-source orchestration: Netflix's Conductor framework for coordinating AI agents at scale, enabling durable and resilient agentic workflows.",
+      "why_it_matters": "Practical open-source tool that enables developers to build conductor systems.",
+      "summary": "Netflix's open-source event-driven orchestration platform for coordinating complex AI agent workflows. Additional context needed.",
+      "bibtex": "@online{conductor2024oss,\n  title={Conductor: Event-Driven Agentic Orchestration Platform},\n  author={{Netflix/Conductor OSS}},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-086",
+      "title": "Conductors to Orchestrators: The Future of Agentic Coding",
+      "author": "Osmani, Addy",
+      "source": "Addy Osmani's Substack",
+      "publisher": "Substack",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://addyo.substack.com/p/conductors-to-orchestrators-the-future",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Coding's future: developers as orchestrators managing orchestrators.",
+      "why_it_matters": "Direct application of conductor metaphor to software development, showing its power across domains.",
+      "summary": "Osmani's analysis of how software engineers evolve into orchestrators of agentic AI systems. Additional context needed.",
+      "bibtex": "@article{osmani2025conductors,\n  title={Conductors to Orchestrators: The Future of Agentic Coding},\n  author={Osmani, Addy},\n  journal={Addy Osmani's Substack},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-087",
+      "title": "10 Best AI Orchestration Platforms in 2025: Features, Benefits & Use Cases",
+      "author": "Domo",
+      "source": "Domo Blog",
+      "publisher": "Domo",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.domo.com/learn/article/best-ai-orchestration-platforms",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Comparative guide to orchestration platforms: Orkes, Modal, Temporal, LangGraph, and others.",
+      "why_it_matters": "Practical survey of tools available to build conductor systems.",
+      "summary": "Comparative analysis of leading AI orchestration platforms and their features. Additional context needed.",
+      "bibtex": "@article{domo2025platforms,\n  title={10 Best AI Orchestration Platforms in 2025},\n  journal={Domo Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-088",
+      "title": "Agentic AI Trends 2025: From Assistants to Agents",
+      "author": "Svitla Systems",
+      "source": "Svitla Blog",
+      "publisher": "Svitla Systems",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://svitla.com/blog/agentic-ai-trends-2025/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "2025 is the year AI systems became genuinely agentic: autonomous, tool-using, self-directed.",
+      "why_it_matters": "Shows the rapid evolution toward truly autonomous systems that need intelligent orchestration.",
+      "summary": "Analysis of 2025 trends showing shift from AI assistants to autonomous AI agents. Additional context needed.",
+      "bibtex": "@article{svitla2025agentic,\n  title={Agentic AI Trends 2025: From Assistants to Agents},\n  journal={Svitla Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-089",
+      "title": "2025 AI Agent Index - MIT",
+      "author": "MIT Media Lab",
+      "source": "MIT AI Agent Index",
+      "publisher": "MIT",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://aiagentindex.mit.edu/2025/further-details/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Comprehensive index tracking AI agent capabilities, deployment, and impact across industries.",
+      "why_it_matters": "MIT's systematic tracking of the agent landscape helps conductors understand what agents are available and capable.",
+      "summary": "MIT's comprehensive index of AI agent capabilities, deployment, and trends. Additional context needed.",
+      "bibtex": "@techreport{mit2025agents,\n  title={2025 AI Agent Index},\n  author={{MIT Media Lab}},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-090",
+      "title": "Agentic LLMs in 2025: How AI Is Becoming Self-Directed, Tool-Using & Autonomous",
+      "author": "Data Science Dojo",
+      "source": "Data Science Dojo Blog",
+      "publisher": "Data Science Dojo",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://datasciencedojo.com/blog/agentic-llm-in-2025/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Agentic LLMs are self-directed, tool-using, and autonomous.",
+      "why_it_matters": "Explains what agentic AI is and why it requires conductor-level orchestration.",
+      "summary": "Analysis of agentic language models and their autonomous capabilities. Additional context needed.",
+      "bibtex": "@article{datascience2025agentic,\n  title={Agentic LLMs in 2025: How AI Is Becoming Self-Directed, Tool-Using & Autonomous},\n  journal={Data Science Dojo Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-091",
+      "title": "Agentic Engineering: The Complete Guide to AI-First Software Development",
+      "author": "NxCode",
+      "source": "NxCode Blog",
+      "publisher": "NxCode",
+      "type": "article",
+      "year": 2026,
+      "month": null,
+      "url": "https://www.nxcode.io/resources/news/agentic-engineering-complete-guide-vibe-coding-ai-agents-2026",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "50 min read",
+      "hook": "Agentic engineering: beyond vibe coding.",
+      "why_it_matters": "Deep practical guide to building agentic systems, perfect for understanding orchestration in practice.",
+      "summary": "Comprehensive guide to agentic engineering beyond vibe coding, covering orchestration patterns and practices. Additional context needed.",
+      "bibtex": "@article{nxcode2026agentic,\n  title={Agentic Engineering: The Complete Guide to AI-First Software Development},\n  journal={NxCode Blog},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-092",
+      "title": "Best AI Coding Agents for 2026: Real-World Developer Reviews",
+      "author": "Faros AI",
+      "source": "Faros AI Blog",
+      "publisher": "Faros AI",
+      "type": "article",
+      "year": 2026,
+      "month": null,
+      "url": "https://www.faros.ai/blog/best-ai-coding-agents-2026",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Comparative review of coding agents in 2026: Devin, Claude Code, v0, and others.",
+      "why_it_matters": "Practical guide to tools available for agentic coding orchestration.",
+      "summary": "2026 review of available AI coding agents and their capabilities. Additional context needed.",
+      "bibtex": "@article{faros2026agents,\n  title={Best AI Coding Agents for 2026},\n  journal={Faros AI Blog},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-093",
+      "title": "5 Key Trends Shaping Agentic Development in 2026",
+      "author": "The New Stack",
+      "source": "The New Stack",
+      "publisher": "The New Stack",
+      "type": "article",
+      "year": 2026,
+      "month": null,
+      "url": "https://thenewstack.io/5-key-trends-shaping-agentic-development-in-2026/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "2026 agentic trends: multi-agent systems, orchestration frameworks, long-running tasks, safety/monitoring, and the rise of the conductor role.",
+      "why_it_matters": "Quick overview of where agentic development is heading—all pointing toward conductor skills.",
+      "summary": "The New Stack's five key trends in agentic development for 2026. Additional context needed.",
+      "bibtex": "@article{newstack2026agentic,\n  title={5 Key Trends Shaping Agentic Development in 2026},\n  journal={The New Stack},\n  year={2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-094",
+      "title": "AI for Knowledge Workers: How Intelligent Agents Are Transforming Professional Productivity",
+      "author": "Jenova AI",
+      "source": "Jenova AI Resources",
+      "publisher": "Jenova AI",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.jenova.ai/en/resources/ai-for-knowledge-workers",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Knowledge workers augmented by AI agents see 2-3x productivity gains, but only with proper orchestration and change management.",
+      "why_it_matters": "Shows concrete productivity multipliers available to conductors of AI agents.",
+      "summary": "Analysis of how intelligent agents transform knowledge worker productivity and the orchestration required. Additional context needed.",
+      "bibtex": "@article{jenova2025workers,\n  title={AI for Knowledge Workers: How Intelligent Agents Are Transforming Professional Productivity},\n  journal={Jenova AI Resources},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-095",
+      "title": "The Rise of Work AI: Will Knowledge Work Be Fully Automated?",
+      "author": "V7 Labs",
+      "source": "V7 Labs Blog",
+      "publisher": "V7 Labs",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.v7labs.com/blog/rise-of-work-ai",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "No, knowledge work won't be fully automated.",
+      "why_it_matters": "Counterargument to automation panic, validating augmentation-based future.",
+      "summary": "Analysis of whether AI will fully automate knowledge work and what actually happens to knowledge workers. Additional context needed.",
+      "bibtex": "@article{v7labs2024rise,\n  title={The Rise of Work AI: Will Knowledge Work Be Fully Automated?},\n  journal={V7 Labs Blog},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-096",
+      "title": "Generative AI Can Boost Productivity Without Replacing Workers",
+      "author": "Puranam, Phanish et al.",
+      "source": "Stanford Graduate School of Business",
+      "publisher": "Stanford GSB",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.gsb.stanford.edu/insights/generative-ai-can-boost-productivity-without-replacing-workers",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Stanford research: AI augmentation without automation is possible.",
+      "why_it_matters": "Academic validation that augmentation-without-replacement is feasible.",
+      "summary": "Stanford research showing that generative AI can increase productivity while preserving and enhancing worker roles. Additional context needed.",
+      "bibtex": "@article{puranam2024productivity,\n  title={Generative AI Can Boost Productivity Without Replacing Workers},\n  author={Puranam, Phanish and others},\n  journal={Stanford Graduate School of Business},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-097",
+      "title": "New Skills and AI Are Reshaping the Future of Work",
+      "author": "International Monetary Fund",
+      "source": "IMF Blog",
+      "publisher": "IMF",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.imf.org/en/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "IMF perspective: new skills (orchestration, human judgment, domain expertise) are reshaping work faster than old skills disappear.",
+      "why_it_matters": "International institutional validation of conductor skills as central to future of work.",
+      "summary": "IMF analysis of how new skills in the AI era are transforming labor markets and work. Additional context needed.",
+      "bibtex": "@article{imf2026skills,\n  title={New Skills and AI Are Reshaping the Future of Work},\n  journal={IMF Blog},\n  year={2026},\n  month={January}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-098",
+      "title": "Enhance or Eliminate? How AI Will Likely Change These Jobs",
+      "author": "Harvard Business School",
+      "source": "Working Knowledge",
+      "publisher": "HBS",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.library.hbs.edu/working-knowledge/enhance-or-eliminate-how-ai-will-likely-change-these-jobs",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "HBS framework: some jobs get eliminated, some get enhanced.",
+      "why_it_matters": "Shows that the augmentation vs. automation choice is not technological but organizational—conductors make this choice.",
+      "summary": "Harvard Business School framework for distinguishing jobs that will be enhanced vs. eliminated by AI.",
+      "bibtex": "@article{hbs2024enhance,\n  title={Enhance or Eliminate? How AI Will Likely Change These Jobs},\n  journal={Working Knowledge},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-099",
+      "title": "AI Automation vs. Augmentation: A Roadmap for Executives",
+      "author": "Trainer, David and Iansiti, Marco",
+      "source": "California Management Review",
+      "publisher": "UC Berkeley",
+      "type": "journal article",
+      "year": 2025,
+      "month": 7,
+      "url": "https://cmr.berkeley.edu/2025/07/ai-automation-and-augmentation-a-roadmap-for-executives/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Strategic roadmap: Executives must choose between automation (eliminate work) and augmentation (enhance workers).",
+      "why_it_matters": "Shows that automation vs. augmentation is a strategic choice, not a technological inevitability.",
+      "summary": "CMR article providing executives with a strategic framework for choosing between AI automation and augmentation. Additional context needed.",
+      "bibtex": "@article{trainer2025automation,\n  title={AI Automation vs. Augmentation: A Roadmap for Executives},\n  author={Trainer, David and Iansiti, Marco},\n  journal={California Management Review},\n  year={2025},\n  month={July}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-100",
+      "title": "Designing AI for Human Expertise: Preventing Cognitive Shortcuts",
+      "author": "Shneiderman, Ben",
+      "source": "UXmatters",
+      "publisher": "UXmatters",
+      "type": "article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.uxmatters.com/mt/archives/2025/02/designing-ai-for-human-expertise-preventing-cognitive-shortcuts.php",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Critical UX principle: AI systems designed to help experts must enhance their judgment, not replace it.",
+      "why_it_matters": "Design philosophy for building AI systems that properly augment rather than diminish human expertise.",
+      "summary": "Shneiderman's framework for designing AI systems that preserve and enhance human expertise. Additional context needed.",
+      "bibtex": "@article{shneiderman2025expertise,\n  title={Designing AI for Human Expertise: Preventing Cognitive Shortcuts},\n  author={Shneiderman, Ben},\n  journal={UXmatters},\n  year={2025},\n  month={February}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-101",
+      "title": "The $5.5 Trillion Skills Gap: What IDC's New Report Reveals About AI Workforce Readiness",
+      "author": "Workera",
+      "source": "Workera Blog",
+      "publisher": "Workera",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.workera.ai/blog/the-5-5-trillion-skills-gap-what-idcs-new-report-reveals-about-ai-workforce-readiness/",
+      "chapter": "ch4",
+      "keywords": [
+        "💼 Jobs",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to education?"
+      ],
+      "difficulty": "quick",
+      "time": "8 min read",
+      "hook": "$5.",
+      "why_it_matters": "Quantifies the economic cost of not developing conductor skills.",
+      "summary": "IDC research showing massive economic losses from AI workforce readiness gaps. Additional context needed.",
+      "bibtex": "@article{workera2025skills,\n  title={The \\$5.5 Trillion Skills Gap},\n  journal={Workera Blog},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-102",
+      "title": "Human-in-the-Loop Approach: Bridging AI & Human Expertise",
+      "author": "ThoughtSpot",
+      "source": "ThoughtSpot Data Trends",
+      "publisher": "ThoughtSpot",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.thoughtspot.com/data-trends/artificial-intelligence/human-in-the-loop",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "7 min read",
+      "hook": "Human-in-the-loop bridges AI capability with human judgment.",
+      "why_it_matters": "Shows how human-in-the-loop is the practical implementation of conductor oversight.",
+      "summary": "ThoughtSpot's perspective on human-in-the-loop as essential bridge between AI and human expertise. Additional context needed.",
+      "bibtex": "@article{thoughtspot2024hitl,\n  title={Human-in-the-Loop Approach: Bridging AI & Human Expertise},\n  journal={ThoughtSpot},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-103",
+      "title": "CrewAI: The Leading Multi-Agent Platform",
+      "author": "CrewAI Team",
+      "source": "CrewAI",
+      "publisher": "CrewAI",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://crewai.com/",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "30 min exploration",
+      "hook": "Practical platform for building multi-agent systems where specialized AI agents collaborate under orchestration.",
+      "why_it_matters": "Leading open-source tool for building orchestrated multi-agent systems.",
+      "summary": "CrewAI platform enabling easy orchestration of multiple specialized AI agents. Additional context needed.",
+      "bibtex": "@online{crewai2025platform,\n  title={CrewAI: The Leading Multi-Agent Platform},\n  author={{CrewAI Team}},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-104",
+      "title": "Designing Multi-Agent Intelligence",
+      "author": "Microsoft Developer Relations",
+      "source": "Microsoft for Developers Blog",
+      "publisher": "Microsoft",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://developer.microsoft.com/blog/designing-multi-agent-intelligence",
+      "chapter": "ch4",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "25 min read",
+      "hook": "Microsoft's guide to designing systems where multiple AI agents collaborate intelligently under human orchestration.",
+      "why_it_matters": "Industry guidance on multi-agent architecture and orchestration.",
+      "summary": "Microsoft's design patterns for multi-agent intelligence systems. Additional context needed.",
+      "bibtex": "@article{microsoft2024multiagent,\n  title={Designing Multi-Agent Intelligence},\n  journal={Microsoft for Developers},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-105",
+      "title": "AI Transformation and Culture Shifts",
+      "author": "Deloitte",
+      "source": "Deloitte Insights",
+      "publisher": "Deloitte",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/build-ai-ready-culture.html",
+      "chapter": "ch4",
+      "keywords": [
+        "🏛️ Power",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Building AI-ready culture isn't about tools—it's about trust, experimentation, and organizational readiness for conductor-level orchestration.",
+      "why_it_matters": "Shows that orchestration success requires cultural change, not just technical skills.",
+      "summary": "Deloitte's framework for building organizations ready for AI transformation. Additional context needed.",
+      "bibtex": "@article{deloitte2024culture,\n  title={AI Transformation and Culture Shifts},\n  journal={Deloitte Insights},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-106",
+      "title": "Reconfiguring Work: Change Management in the Age of GenAI",
+      "author": "McKinsey & Company",
+      "source": "McKinsey Insights",
+      "publisher": "McKinsey",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reconfiguring-work-change-management-in-the-age-of-gen-ai",
+      "chapter": "ch4",
+      "keywords": [
+        "🏛️ Power",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Change management is 1.",
+      "why_it_matters": "Shows that conductor skills include organizational change management.",
+      "summary": "McKinsey's framework for change management in the generative AI era. Additional context needed.",
+      "bibtex": "@article{mckinsey2024change,\n  title={Reconfiguring Work: Change Management in the Age of GenAI},\n  journal={McKinsey Insights},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-107",
+      "title": "Human Centered AI: Principles, Benefits, Challenges, and Industry Examples",
+      "author": "Tredence",
+      "source": "Tredence Blog",
+      "publisher": "Tredence",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.tredence.com/blog/human-centered-ai",
+      "chapter": "ch4",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Human-centered AI design ensures systems augment rather than replace.",
+      "why_it_matters": "Framework for ethically designing AI systems for human augmentation.",
+      "summary": "Tredence's guide to human-centered AI principles and implementation. Additional context needed.",
+      "bibtex": "@article{tredence2024hcai,\n  title={Human Centered AI: Principles, Benefits, Challenges},\n  journal={Tredence Blog},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-108",
+      "title": "What Is Responsible AI: Principles, Frameworks & Future",
+      "author": "Syracuse University",
+      "source": "Syracuse iSchool",
+      "publisher": "Syracuse iSchool",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://ischool.syracuse.edu/what-is-responsible-ai/",
+      "chapter": "ch4",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Responsible AI requires human oversight, accountability, and governance.",
+      "why_it_matters": "Connects conductor role to responsible AI governance.",
+      "summary": "Syracuse iSchool's framework for responsible AI principles and governance. Additional context needed.",
+      "bibtex": "@article{syracuse2024responsible,\n  title={What Is Responsible AI: Principles, Frameworks & Future},\n  journal={Syracuse iSchool},\n  year={2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-109",
+      "title": "AI Literacy Framework for Primary & Secondary Education",
+      "author": "AILit Team",
+      "source": "AI Literacy Framework",
+      "publisher": "European Commission / OECD",
+      "type": "report",
+      "year": 2025,
+      "month": null,
+      "url": "https://ailiteracyframework.org/",
+      "chapter": "ch4",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?"
+      ],
+      "difficulty": "moderate",
+      "time": "40 min read",
+      "hook": "EC/OECD joint initiative to teach AI literacy globally.",
+      "why_it_matters": "Shows that AI orchestration and literacy are becoming foundational educational goals.",
+      "summary": "European Commission and OECD AI Literacy Framework for K-12 education. Additional context needed.",
+      "bibtex": "@techreport{ailit2025framework,\n  title={AI Literacy Framework for Primary & Secondary Education},\n  author={{AILit Team}},\n  institution={European Commission and OECD},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-110",
+      "title": "Overcoming the Organizational Barriers to AI Adoption",
+      "author": "Harvard Business Review",
+      "source": "Harvard Business Review",
+      "publisher": "HBR",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://hbr.org/2025/11/overcoming-the-organizational-barriers-to-ai-adoption",
+      "chapter": "ch4",
+      "keywords": [
+        "🏛️ Power",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Power struggles, siloed workflows, and fear of change are the real barriers.",
+      "why_it_matters": "Shows that conductor skills include organizational change and political navigation.",
+      "summary": "HBR's analysis of organizational barriers to AI adoption beyond technology. Additional context needed.",
+      "bibtex": "@article{hbr2025barriers,\n  title={Overcoming the Organizational Barriers to AI Adoption},\n  journal={Harvard Business Review},\n  year={2025},\n  month={November}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch4-111",
+      "title": "What Are AI Prompts in Design?",
+      "author": "Interaction Design Foundation",
+      "source": "Interaction Design Foundation",
+      "publisher": "IxDF",
+      "type": "article",
+      "year": 2026,
+      "month": null,
+      "url": "https://ixdf.org/literature/topics/ai-prompts",
+      "chapter": "ch4",
+      "keywords": [
+        "🎨 Creativity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Prompt design in creative fields: how designers orchestrate AI to enhance ideation, prototyping, and iteration.",
+      "why_it_matters": "Shows conductor role extends to creative orchestration, not just engineering.",
+      "summary": "IxDF's guide to using AI prompts effectively in design practice. Additional context needed.",
+      "bibtex": "@article{ixdf2026prompts,\n  title={What Are AI Prompts in Design?},\n  journal={Interaction Design Foundation},\n  year={2026}\n}",
+      "startHere": false
     }
   ]
 }

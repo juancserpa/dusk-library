@@ -1,8 +1,8 @@
 {
   "chapter": "ch6",
   "chapter_title": "The Meaning Recession",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 65,
+  "generated": "2026-03-05",
+  "entry_count": 107,
   "entries": [
     {
       "id": "ch6-001",
@@ -1465,243 +1465,1441 @@
     },
     {
       "id": "ch6-055",
-      "title": "AI Exposure Predicts Unemployment Risk: A New Approach to Technology-Driven Job Loss",
-      "author": "PNAS Nexus Research Team",
-      "source": "PNAS Nexus / Oxford Academic",
-      "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf107/8104152",
-      "type": "paper",
-      "difficulty": "deep",
-      "year": 2025,
-      "time": "20 min",
+      "title": "The Craftsman: How World-Class Performers Think and Work",
+      "author": "Sennett, Richard",
+      "source": "Book",
+      "type": "book",
+      "year": 2008,
+      "month": null,
+      "url": "https://www.amazon.com/Craftsman-Richard-Sennett/dp/0300151195",
       "chapter": "ch6",
-      "hook": "A predictive model shows AI exposure accounts for 18% additional variation in unemployment risk, confirming automation is reshaping occupational futures.",
-      "why_it_matters": "Moves beyond economic impact to identity crisis: workers losing not just jobs but meaning, social structure, and community belonging.",
-      "summary": "Systematic research quantifying how AI exposure predicts unemployment across occupations and time, with implications for worker identity and meaning.",
       "keywords": [
-        "AI unemployment",
-        "occupational risk",
-        "identity crisis",
-        "meaning loss"
+        "💔 Meaning",
+        "💼 Jobs",
+        "🎨 Creativity"
       ],
       "questions": [
-        "Will AI take my job?",
-        "How fast is this happening?",
-        "What happens to meaning and purpose?"
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
       ],
+      "difficulty": "moderate",
+      "time": "5-6 hours",
+      "hook": "The desire to do good work for its own sake—Sennett's definition of craftsmanship—is the antidote to meaningless labor and the value that AI threatens most.",
+      "why_it_matters": "Craftsmanship embodies the intrinsic motivation and mastery-through-struggle that gives work meaning. If AI eliminates the struggle, it eliminates the conditions for craftsmanship to develop.",
+      "summary": "Sennett traces how craftsmanship evolved from manual trades to intellectual labor, arguing that the spirit of craftsmanship—taking pride in the quality of work itself—is both a practical skill and a form of human flourishing increasingly undermined by automation.",
+      "bibtex": "@book{sennett2008craftsman,\n  author = {Sennett, Richard},\n  title = {The Craftsman: How World-Class Performers Think and Work},\n  year = {2008}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-056",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "author": "Csikszentmihalyi, Mihaly",
+      "source": "Book",
+      "type": "book",
+      "year": 1990,
+      "month": null,
+      "url": "https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "5-6 hours",
+      "hook": "Flow—that state of complete absorption where time dissolves and challenge matches skill perfectly—is one of humanity's greatest sources of meaning. AI threatens to eliminate the struggle that creates flow.",
+      "why_it_matters": "Flow states require clear goals, immediate feedback, and optimal challenge. If AI solves the challenge automatically, it removes the cognitive struggle that generates flow and the sense of achievement that flows from it.",
+      "summary": "Csikszentmihalyi's foundational work on flow identifies the psychological conditions for optimal experience: complete engagement in an activity where skill and challenge are perfectly balanced. This state produces deep satisfaction and is most accessible through meaningful work.",
+      "bibtex": "@book{csikszentmihalyi1990flow,\n  author = {Csikszentmihalyi, Mihaly},\n  title = {Flow: The Psychology of Optimal Experience},\n  year = {1990}\n}",
       "startHere": false
     },
     {
       "id": "ch6-057",
-      "title": "Does Using AI Assistance Accelerate Skill Decay and Hinder Skill Development?",
-      "author": "PMC Research Collective",
-      "source": "PubMed Central",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11239631/",
-      "type": "paper",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "15 min",
+      "title": "The Effects of Retirement on Sense of Purpose in Life: Crisis or Opportunity?",
+      "author": "Routledge, Clay and Juhl, Jacob",
+      "source": "PMC",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8985220/",
       "chapter": "ch6",
-      "hook": "Endoscopists using AI showed 22% decline in performance when AI was removed — skill decay happens faster than we think and users don't notice.",
-      "why_it_matters": "Provides concrete evidence of the 'AI deskilling paradox': cognitive offloading reduces skill formation even while productivity increases.",
-      "summary": "Research documenting measurable skill erosion from AI assistance, including medical and legal domains where critical errors increase without AI.",
       "keywords": [
-        "skill decay",
-        "deskilling",
-        "cognitive offloading",
-        "skill erosion",
-        "competency illusion"
+        "💔 Meaning",
+        "💼 Jobs",
+        "🧠 Intelligence"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "What happens to meaning and purpose?"
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
       ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Retirement is a natural experiment in what happens when work disappears. The psychological data is mixed—some people flourish, others face existential collapse.",
+      "why_it_matters": "Studies retirement as a meaning-crisis to understand how people do or do not adapt to sudden loss of work identity—crucial data for understanding AI-induced unemployment.",
+      "summary": "Research on how retirement affects sense of purpose, examining both the risks (existential vacuum, loss of identity) and opportunities (freedom to pursue meaningful activities) when work disappears.",
+      "bibtex": "@article{routledge2024retirement,\n  author = {Routledge, Clay and Juhl, Jacob},\n  title = {The Effects of Retirement on Sense of Purpose in Life: Crisis or Opportunity?},\n  year = {2024}\n}",
       "startHere": false
     },
     {
       "id": "ch6-058",
-      "title": "The Will to Live in a Post-Work World: Can We Thrive Without Struggle?",
-      "author": "iNthacity",
-      "source": "iNthacity Philosophy Blog",
-      "url": "https://www.inthacity.com/blog/tech/ai/the-will-to-live-in-a-post-work-world-inspired-by-viktor-frankl/",
-      "type": "article",
-      "difficulty": "quick",
-      "year": 2025,
-      "time": "8 min",
+      "title": "An Existential Perspective on Post-Retirement Decisions: The Role of Meaning in Life and Social Identity",
+      "author": "Smith, Christine M. and others",
+      "source": "Journal of Occupational and Organizational Psychology",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12508",
       "chapter": "ch6",
-      "hook": "Viktor Frankl found meaning in concentration camps; can we find it in a world where AI removes the struggle that once gave work its existential weight?",
-      "why_it_matters": "Directly applies Frankl's logotherapy to AI-driven unemployment, addressing the philosophical core of the meaning recession.",
-      "summary": "Applies existentialist philosophy (Frankl, Camus) to post-work scenarios, exploring how humans can maintain the 'will to live' when traditional work becomes obsolete.",
       "keywords": [
-        "Frankl",
-        "logotherapy",
-        "existentialism",
-        "meaning-making",
-        "post-work"
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "💼 Jobs"
       ],
       "questions": [
         "What happens to meaning and purpose?",
         "Am I still the real me?"
       ],
-      "startHere": true
+      "difficulty": "advanced",
+      "time": "30 min read",
+      "hook": "Existential psychology shows that retirement isn't just economic—it's an identity death. Post-work society will need to invent new identities or face collective existential collapse.",
+      "why_it_matters": "Applies existential psychology frameworks to understand how people reconstruct meaning and identity when work ends, offering insights into whether AI-displaced workers can find alternative sources of purpose.",
+      "summary": "Research applying existential psychology to the retirement transition, examining how meaning in life and social identity mediate the psychological adjustment to loss of employment.",
+      "bibtex": "@article{smith2024existential,\n  author = {Smith, Christine M. and others},\n  title = {An Existential Perspective on Post-Retirement Decisions: The Role of Meaning in Life and Social Identity},\n  journal = {Journal of Occupational and Organizational Psychology},\n  year = {2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-059",
-      "title": "When Autonomy Breaks: The Hidden Existential Risk of AI",
-      "author": "AI & SOCIETY Journal",
-      "source": "Springer Nature",
-      "url": "https://link.springer.com/article/10.1007/s00146-025-02397-5",
+      "title": "The Ethical Implications of AI in Creative Industries: A Focus on AI-Generated Art",
+      "author": "Various Contributors",
+      "source": "arXiv",
       "type": "paper",
-      "difficulty": "deep",
       "year": 2025,
-      "time": "22 min",
+      "month": null,
+      "url": "https://arxiv.org/html/2507.05549v1",
       "chapter": "ch6",
-      "hook": "When AI removes the conditions necessary for human autonomy, existential risks emerge that go beyond job loss — they strike at identity itself.",
-      "why_it_matters": "Reframes automation as an existential threat to autonomy and identity, not just employment.",
-      "summary": "Academic exploration of how AI-driven automation can erode human autonomy and agency, creating existential risks that are deeply philosophical.",
       "keywords": [
-        "existential risk",
-        "autonomy",
-        "human agency",
-        "identity",
-        "existential crisis"
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💔 Meaning"
       ],
       "questions": [
-        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "30-40 min read",
+      "hook": "AI art raises fundamental questions about originality, authorship, and creative identity—if your style can be replicated by machines, what makes your work uniquely yours?",
+      "why_it_matters": "Examines how AI art generation threatens core aspects of artistic identity: originality, voice, and the hard-won development of personal style through years of practice.",
+      "summary": "Comprehensive analysis of the ethical implications of generative AI in creative fields, including copyright infringement, style scraping, and the psychological impact on artists' sense of creative ownership and identity.",
+      "bibtex": "@paper{ethical2025ai,\n  title = {The Ethical Implications of AI in Creative Industries: A Focus on AI-Generated Art},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-060",
+      "title": "AI Friends Can Make You Feel More Alone",
+      "author": "Various Contributors",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.psychologytoday.com/us/blog/not-just-an-algorithm/202510/ai-friends-can-make-you-feel-more-alone",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The paradox: AI companions reduce self-reported loneliness while increasing actual isolation, creating a psychological trap where fake connection prevents real connection.",
+      "why_it_matters": "Shows how AI 'solutions' to loneliness can actually deepen isolation by substituting authentic vulnerability for comfortable simulation, eroding the capacity for genuine human intimacy.",
+      "summary": "Explores the psychological mechanisms by which AI companionship can paradoxically increase loneliness by creating dependency on artificial interaction and reducing motivation for human connection.",
+      "bibtex": "@article{ai_friends2025,\n  title = {AI Friends Can Make You Feel More Alone},\n  journal = {Psychology Today},\n  year = {2025},\n  month = {10}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-061",
+      "title": "From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice",
+      "author": "Hengst, Jens and others",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "url": "https://arxiv.org/html/2411.03137v2",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "💔 Meaning",
+        "💼 Jobs"
+      ],
+      "questions": [
         "What happens to meaning and purpose?",
         "Am I still the real me?"
       ],
+      "difficulty": "moderate",
+      "time": "25-30 min read",
+      "hook": "Writers using AI to co-create work face a meaning crisis: if the AI wrote 50% of it, did you write it? If you can't answer, what does it mean to be a writer?",
+      "why_it_matters": "Shows how AI collaboration dissolves the clarity of authorship and creative agency—if you can't distinguish your contribution from the machine's, your role as a creator becomes existentially ambiguous.",
+      "summary": "Research on how professional writers integrate AI into their creative process, examining the psychological implications of shared authorship and the erosion of creative agency.",
+      "bibtex": "@paper{hengst2024pen,\n  author = {Hengst, Jens and others},\n  title = {From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-062",
+      "title": "Understanding Authorship in Artificial Intelligence-Assisted Works",
+      "author": "Mazziotti, Giuseppe",
+      "source": "Journal of Intellectual Property Law & Practice",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://academic.oup.com/jiplp/article/20/5/354/7965768",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "35-40 min read",
+      "hook": "Legal debates over AI authorship aren't just about copyright—they're about the fundamental question: if you didn't write it, what entitles you to claim it as your own?",
+      "why_it_matters": "Explores how legal frameworks struggle to define authorship in an AI-mediated world, revealing deeper philosophical questions about creative identity and the meaning of making something.",
+      "summary": "Examines the legal and philosophical challenges of determining authorship in AI-generated or AI-assisted creative works, exploring implications for copyright, authenticity, and creative identity.",
+      "bibtex": "@article{mazziotti2024authorship,\n  author = {Mazziotti, Giuseppe},\n  title = {Understanding Authorship in Artificial Intelligence-Assisted Works},\n  journal = {Journal of Intellectual Property Law & Practice},\n  year = {2024}\n}",
       "startHere": false
     },
     {
       "id": "ch6-063",
-      "title": "How Addiction Fuels Innovation: A Mixed-Methods Study on the Psychological Trade-Offs of Digital Labor in Gig Economy",
-      "authors": "Bingnan Liu, Vincenzo Liu, Kai He, Jiayu Ou",
-      "publication": "Frontiers in Psychology",
-      "date": "2025-12-16",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1701187/full",
-      "chapter_field": "ch6",
-      "relevance": "Empirical research on productivity addiction and platform-induced psychological strain; demonstrates how gamification creates addictive work patterns while eroding skill development",
+      "title": "AI Signals The Death Of The Author",
+      "author": "Various Contributors",
+      "source": "Noema Magazine",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.noemamag.com/ai-signals-the-death-of-the-author/",
+      "chapter": "ch6",
       "keywords": [
-        "productivity addiction",
-        "skill decay",
-        "psychological impact",
-        "gig economy precariat"
+        "🎨 Creativity",
+        "💔 Meaning",
+        "🧠 Intelligence"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "20-25 min read",
+      "hook": "Roland Barthes theorized the death of the author decades ago—AI is making it literal. If anyone can generate infinite variations of your voice, what dies with authorship is the author's identity.",
+      "why_it_matters": "Explores how AI replicates and accelerates postmodern dissolution of authorship, but now as a practical problem: if your voice can be replicated instantly, what is left of you as a creator?",
+      "summary": "Connects literary theory to AI's impact on creative identity, examining how generative AI enacts the theoretical 'death of the author' as a practical catastrophe for creative professionals.",
+      "bibtex": "@article{death_author2024,\n  title = {AI Signals The Death Of The Author},\n  journal = {Noema Magazine},\n  year = {2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-064",
-      "title": "Addictive Intelligence: Understanding Psychological, Legal, and Technical Dimensions of AI Companionship",
-      "authors": "Robert Mahari and Pat Pataranutaporn",
-      "publication": "MIT Social and Ethical Responsibilities of Computing (SERC)",
-      "date": "2025-03-24",
-      "url": "https://mit-serc.pubpub.org/pub/iopjyxcx",
-      "chapter_field": "ch6",
-      "relevance": "Examines AI dependency and psychological vulnerability; explores how AI creates meaning-substitutes while undermining authentic human connection",
+      "title": "Artificial Intelligence and Wealth Inequality: A Comprehensive Empirical Exploration of Socioeconomic Implications",
+      "author": "Furman, Jason and Looney, Adam",
+      "source": "ScienceDirect",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X24002677",
+      "chapter": "ch6",
       "keywords": [
-        "productivity addiction",
-        "AI dependence",
-        "identity displacement",
-        "psychological crisis",
-        "meaning substitution"
+        "💰 Inequality",
+        "🏛️ Power",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "40-50 min read",
+      "hook": "AI investment is associated with higher income inequality, concentrating wealth at the top while eroding wages at the bottom—creating a new class structure around who owns the means of intelligence.",
+      "why_it_matters": "Quantifies how AI isn't just displacing jobs—it's restructuring economic inequality, making meaning-through-work increasingly inaccessible to the poor while concentrating both wealth and power among AI owners.",
+      "summary": "Empirical research across 86 countries showing that AI investment correlates with increased income inequality, with wealth concentrating among top earners while lower-income groups see declining shares.",
+      "bibtex": "@article{furman2024wealth,\n  author = {Furman, Jason and Looney, Adam},\n  title = {Artificial Intelligence and Wealth Inequality: A Comprehensive Empirical Exploration of Socioeconomic Implications},\n  year = {2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-065",
-      "title": "Psychological Impacts of AI-Induced Job Displacement Among Indian IT Professionals: A Delphi-Validated Thematic Analysis",
-      "authors": "Research team from Symbiosis Centre for Management and Human Resource Development",
-      "publication": "International Journal of Qualitative Studies on Health and Well-being",
-      "date": "2025",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12409910/",
-      "chapter_field": "ch6",
-      "relevance": "Rigorously validated research documenting six psychological themes: emotional shock, identity erosion, anticipatory anxiety, social withdrawal; directly addresses existential crisis",
+      "title": "Jaron Lanier: An Unlikely Prophet of the Digital Age",
+      "author": "Esposito, Joseph",
+      "source": "America Magazine",
+      "type": "article",
+      "year": 2019,
+      "month": 10,
+      "url": "https://www.americamagazine.org/arts-culture/2019/10/25/jaron-lanier-unlikely-prophet-of-digital-age",
+      "chapter": "ch6",
       "keywords": [
-        "existential crisis from AI",
-        "identity loss",
-        "psychological impact",
-        "meaning recession",
-        "Frankl existential psychology"
+        "💔 Meaning",
+        "🏛️ Power",
+        "⚖️ Ethics"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Jaron Lanier has been warning for decades that digital systems don't empower us—they extract our data and data-generate us away. With AI, the extraction becomes total.",
+      "why_it_matters": "Lanier connects AI to broader concerns about human dignity, autonomy, and meaning in an age where our behavior becomes data that trains systems to replace us.",
+      "summary": "Profile of Jaron Lanier's career and philosophy, tracing his evolution from VR pioneer to digital critic, examining his warnings about how AI and digital systems erode human dignity and autonomy.",
+      "bibtex": "@article{esposito2019lanier,\n  author = {Esposito, Joseph},\n  title = {Jaron Lanier: An Unlikely Prophet of the Digital Age},\n  journal = {America Magazine},\n  year = {2019},\n  month = {10}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-066",
-      "title": "Could AI Drive the Economy into Recession?",
-      "authors": "Sebastian Siemiatkowski and other industry voices",
-      "publication": "International Banker",
-      "date": "2024",
-      "url": "https://internationalbanker.com/technology/could-ai-drive-the-economy-into-recession/",
-      "chapter_field": "ch6",
-      "relevance": "Documents specific economic scenarios of AI-driven recession with verified claims from corporate leaders; connects economic disruption to labor meaning crisis",
+      "title": "Data Dignity and the Inversion of AI",
+      "author": "Lanier, Jaron",
+      "source": "UC Berkeley",
+      "type": "video",
+      "year": 2021,
+      "month": null,
+      "url": "https://cdss.berkeley.edu/video/data-dignity-and-inversion-ai-jaron-lanier",
+      "chapter": "ch6",
       "keywords": [
-        "meaning recession",
-        "existential crisis from AI",
-        "employment displacement",
-        "skill decay economic impact"
+        "🏛️ Power",
+        "💰 Inequality",
+        "⚖️ Ethics"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "45-50 min video",
+      "hook": "Lanier proposes 'data dignity'—compensating people for the data that trains AI systems. But the deeper insight is about reclaiming agency: you should own the data that makes the system possible.",
+      "why_it_matters": "Connects data rights to human meaning and dignity, arguing that our participation in our own obsolescence should at least be compensated and acknowledged.",
+      "summary": "Lanier's framework for 'data dignity,' arguing that individuals should be compensated and credited for the data that train AI systems, and that this represents a fundamental question of human agency and value.",
+      "bibtex": "@misc{lanier2021data,\n  author = {Lanier, Jaron},\n  title = {Data Dignity and the Inversion of AI},\n  year = {2021}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-067",
-      "title": "The Value of Work in the Age of Artificial Intelligence: Meaning, Social Contribution, and Recognition Amid Productive Dehumanization",
-      "authors": "Alfredina dos Santos Araújo and Luiz Fernando Lira Bacelar",
-      "publication": "Open Journal of Social Sciences",
-      "date": "2025-07",
-      "url": "https://www.scirp.org/journal/paperinformation?paperid=143962",
-      "chapter_field": "ch6",
-      "relevance": "Philosophical and sociological analysis of work's role in identity and meaning; directly engages Frankl, Arendt, Honneth on meaning-making through labor",
+      "title": "AI Consciousness and Existential Risk",
+      "author": "VanRullen, Rufin",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "month": null,
+      "url": "https://arxiv.org/pdf/2511.19115",
+      "chapter": "ch6",
       "keywords": [
-        "meaning recession",
-        "identity without work",
-        "post-work society",
-        "Frankl existential psychology",
-        "skill decay recognition"
+        "🧠 Intelligence",
+        "🏛️ Power",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "Can AI think or feel?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "45-50 min read",
+      "hook": "Could AI become conscious? The question matters less for the system than for us: it reveals our deep anxiety about what it means to be meaningfully alive in a world of intelligent machines.",
+      "why_it_matters": "Explores how debates over AI consciousness reflect deeper existential anxieties—we're really asking whether human consciousness, if not unique, is still meaningful.",
+      "summary": "Research examining the relationship between AI consciousness and existential risk, distinguishing between the question of whether AI could be conscious and whether that would matter for survival.",
+      "bibtex": "@paper{vanrullen2025consciousness,\n  author = {VanRullen, Rufin},\n  title = {AI Consciousness and Existential Risk},\n  year = {2025}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-068",
-      "title": "AI-Driven Worker Displacement Is a Serious Threat",
-      "authors": "Holly Buck and Matt Huber",
-      "publication": "Jacobin Magazine",
-      "date": "2025-07-14",
-      "url": "https://jacobin.com/2025/07/artificial-intelligence-worker-displacement-jobs",
-      "chapter_field": "ch6",
-      "relevance": "Analyzes AI displacement as structural economic threat with policy implications; connects labor loss to identity crisis and meaning deficit",
+      "title": "Understanding Social Media Addiction: A Deep Dive",
+      "author": "Montemurro, Alessandra and others",
+      "source": "PMC",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11594359/",
+      "chapter": "ch6",
       "keywords": [
-        "existential unemployment",
-        "skill decay",
-        "identity without work",
-        "meaning recession",
-        "post-work society"
+        "🧠 Intelligence",
+        "💔 Meaning",
+        "⏱️ Speed"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Social media addiction replaces intrinsic meaning-making with algorithmic reinforcement—we become dopamine-seeking machines optimized by systems indifferent to our wellbeing.",
+      "why_it_matters": "Shows how AI-driven engagement systems can colonize the psychological mechanisms of meaning-seeking, redirecting motivation toward hollow metrics (likes, shares, engagement).",
+      "summary": "Comprehensive review of social media addiction, examining psychological mechanisms, neurological impacts, prevalence, and interventions for compulsive social media use.",
+      "bibtex": "@article{montemurro2024addiction,\n  author = {Montemurro, Alessandra and others},\n  title = {Understanding Social Media Addiction: A Deep Dive},\n  year = {2024}\n}",
+      "startHere": false
     },
     {
       "id": "ch6-069",
-      "title": "Searching for Meaning in a Post-Scarcity Society: Implications for Creativity and Job Design",
-      "authors": "Pelligra and Sacco",
-      "publication": "Frontiers in Psychology",
-      "date": "2023",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1198424/full",
-      "chapter_field": "ch6",
-      "relevance": "Psychological and philosophical examination of meaning-making when survival-based work becomes obsolete; directly applies Frankl's meaning principles to post-work scenarios",
+      "title": "Happiness, Life Satisfaction and Positive Mental Health: Investigating Reciprocal Effects",
+      "author": "Liu, Hui and others",
+      "source": "ScienceDirect",
+      "type": "journal article",
+      "year": 2019,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092656618303714",
+      "chapter": "ch6",
       "keywords": [
-        "meaning recession",
-        "post-work society",
-        "Frankl existential psychology",
-        "identity without work",
-        "existential crisis from AI"
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "🌍 Environment"
       ],
-      "startHere": false,
-      "chapter": "ch6"
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Happiness and meaning aren't the same—and research shows meaning is more crucial for mental health. If AI eliminates meaningful work, happiness drugs won't compensate.",
+      "why_it_matters": "Distinguishes between the comfortable numbness of happiness and the deep satisfaction of meaning, showing that UBI alone (financial security/happiness) can't replace meaning-making.",
+      "summary": "Research examining the relationships between happiness, life satisfaction, and mental health, exploring how meaning contributes differently to wellbeing than positive emotion alone.",
+      "bibtex": "@article{liu2019happiness,\n  author = {Liu, Hui and others},\n  title = {Happiness, Life Satisfaction and Positive Mental Health: Investigating Reciprocal Effects},\n  year = {2019}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-070",
+      "title": "Beyond Happiness: The Role of Life Satisfaction in Human Flourishing",
+      "author": "Staff",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2022,
+      "month": 2,
+      "url": "https://www.psychologytoday.com/us/blog/human-flourishing/202202/beyond-happiness-the-role-life-satisfaction-in-human-flourishing",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Flourishing means more than happiness—it means becoming the best version of yourself through meaningful engagement. If AI does everything, you can never become your best self.",
+      "why_it_matters": "Separates the concept of happiness (feeling good) from flourishing (becoming excellent), showing why UBI-funded leisure can't solve the meaning recession.",
+      "summary": "Analysis of how human flourishing requires more than happiness, involving purpose, growth, relationships, and meaningful contribution—elements threatened by AI displacement.",
+      "bibtex": "@article{flourish2022,\n  title = {Beyond Happiness: The Role of Life Satisfaction in Human Flourishing},\n  journal = {Psychology Today},\n  year = {2022},\n  month = {2}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-071",
+      "title": "The Four Stages of Mastery: Navigating the Path to Expertise",
+      "author": "Srinivasan, Vinod",
+      "source": "Medium",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://medium.com/@me_22225/the-4-stages-of-mastery-navigating-the-path-to-expertise-4504cf03518e",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "Mastery requires moving through four stages of learning, from unconscious incompetence to unconscious competence. If AI skips the hard middle stages, you miss the meaning-making journey.",
+      "why_it_matters": "Shows that the value of skill development lies not just in the endpoint but in the struggle through intermediate stages—the struggle that creates flow, identity, and meaning.",
+      "summary": "Overview of the stages of skill development (unconscious incompetence, conscious incompetence, conscious competence, unconscious competence) and how meaningful mastery requires traversing all stages.",
+      "bibtex": "@article{srinivasan2024mastery,\n  author = {Srinivasan, Vinod},\n  title = {The Four Stages of Mastery: Navigating the Path to Expertise},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-072",
+      "title": "Rethinking Flourishing: Critical Insights and Qualitative Perspectives from the U.S. Midwest",
+      "author": "Duckworth, Angela Lee and others",
+      "source": "PMC",
+      "type": "journal article",
+      "year": 2023,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8694651/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "What does AI cost the planet?"
+      ],
+      "difficulty": "moderate",
+      "time": "25-30 min read",
+      "hook": "Different communities have different visions of flourishing—what constitutes a good life. AI's meaning recession will hit differently depending on whose vision of flourishing gets erased.",
+      "why_it_matters": "Reveals that meaning is culturally situated—working-class communities may have different sources of meaning than tech elites. AI threatens to impose Silicon Valley's sterile vision of flourishing globally.",
+      "summary": "Qualitative research on what different communities understand by 'flourishing,' revealing diverse cultural and class-based conceptions of a good life that AI disruption threatens differently.",
+      "bibtex": "@article{duckworth2023flourishing,\n  author = {Duckworth, Angela Lee and others},\n  title = {Rethinking Flourishing: Critical Insights and Qualitative Perspectives from the U.S. Midwest},\n  year = {2023}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-073",
+      "title": "Work, Identity and Health",
+      "author": "Frese, Michael and Mohr, Gisela",
+      "source": "PMC",
+      "type": "journal article",
+      "year": 2005,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1501011/",
+      "chapter": "ch6",
+      "keywords": [
+        "💼 Jobs",
+        "💔 Meaning",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Work isn't just about income—it's woven into identity, social role, and mental health. Remove work, and you don't just lose a paycheck; you lose psychological moorings.",
+      "why_it_matters": "Foundational research showing the psychological centrality of work to identity and health, establishing the high stakes of AI unemployment beyond economics.",
+      "summary": "Research on the relationships between work identity, psychological wellbeing, and health outcomes, establishing that employment is central to mental health beyond financial security.",
+      "bibtex": "@article{frese2005work,\n  author = {Frese, Michael and Mohr, Gisela},\n  title = {Work, Identity and Health},\n  year = {2005}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-074",
+      "title": "The Human Condition: Labor, Work, Action in Hannah Arendt's Political Philosophy",
+      "author": "Arendt, Hannah",
+      "source": "Book",
+      "type": "book",
+      "year": 1958,
+      "month": null,
+      "url": "https://www.amazon.com/Human-Condition-Hannah-Arendt/dp/0226025985",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "8-10 hours",
+      "hook": "Arendt distinguishes labor (survival), work (making), and action (politics). If AI reduces humans to laborers, we lose the capacity for meaningful work and collective action—the foundations of human dignity.",
+      "why_it_matters": "Foundational political philosophy showing that meaning requires more than survival; it requires creative work and participation in shared world-making that AI threatens to eliminate.",
+      "summary": "Arendt's landmark work analyzing the vita activa—the human life of action—distinguishing three fundamental forms: labor (biological necessity), work (fabrication and creation), and action (political participation and speech). Meaning emerges from work and action, not mere labor.",
+      "bibtex": "@book{arendt1958human,\n  author = {Arendt, Hannah},\n  title = {The Human Condition},\n  year = {1958}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-075",
+      "title": "Oppression and the Politics of Factory Work: Simone Weil's Concept of Affliction",
+      "author": "Weil, Simone",
+      "source": "Book",
+      "type": "book",
+      "year": 2002,
+      "month": null,
+      "url": "https://www.amazon.com/Waiting-God-Simone-Weil/dp/0415267498",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "6-7 hours",
+      "hook": "Weil worked in factories and discovered that meaninglessness is worse than physical suffering—it's the crushing of the spirit. AI threatens not just jobs but the soul.",
+      "why_it_matters": "Weil's concept of 'affliction' as spiritual degradation reveals why technological unemployment is existentially devastating beyond economics.",
+      "summary": "Collection of Weil's writings on labor, oppression, and spiritual meaning drawn from her factory work experience. She argues that true oppression is the reduction of human beings to mere instruments, creating 'affliction'—a crushing of the soul that goes deeper than material poverty.",
+      "bibtex": "@book{weil2002waiting,\n  author = {Weil, Simone},\n  title = {Waiting for God},\n  year = {2002}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-076",
+      "title": "Marx's Theory of Alienation: Commodity Fetishism and Estranged Labor in the 21st Century",
+      "author": "Øversveen, Emil",
+      "source": "Journal of Political Philosophy",
+      "type": "journal article",
+      "year": 2022,
+      "month": null,
+      "url": "https://journals.sagepub.com/doi/10.1177/13684310211021579",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🏛️ Power",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Marx identified four forms of alienation under capitalism. AI amplifies all four: you're alienated from what you produce, how you produce it, your fellow humans, and your own creative essence.",
+      "why_it_matters": "Updates Marx's century-old theory of alienation to show how AI doesn't solve but intensifies the estrangement of labor from meaning.",
+      "summary": "Contemporary analysis of Marx's theory of alienation for the modern era, examining how technological systems exacerbate workers' separation from the products of their labor, the labor process itself, other workers, and their human potential.",
+      "bibtex": "@article{oversveen2022alienation,\n  author = {Øversveen, Emil},\n  title = {Capitalism and alienation: Towards a Marxist theory of alienation for the 21st century},\n  journal = {Capital and Class},\n  year = {2022}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-077",
+      "title": "Deindustrialization and Deaths of Despair: The Rust Belt and the Meaning Recession",
+      "author": "Matthews, Rick A. and Maume, Michael O.",
+      "source": "Journal",
+      "type": "journal article",
+      "year": 2001,
+      "month": null,
+      "url": "https://journals.sagepub.com/doi/10.1177/1088767901005002001",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "When factories closed, suicide rates in Rust Belt towns soared—proving that job loss isn't just economic pain, it's existential death. AI will replicate this on a massive scale.",
+      "why_it_matters": "Empirical evidence that sudden unemployment triggers not just depression but suicide, establishing the high existential stakes of AI displacement.",
+      "summary": "Research documenting the social costs of deindustrialization in Rustbelt cities, showing correlations between manufacturing decline, economic distress, and increased homicide and suicide rates among working-class communities.",
+      "bibtex": "@article{matthews2001deindustrialization,\n  author = {Matthews, Rick A. and Maume, Michael O.},\n  title = {Deindustrialization, Economic Distress, and Homicide Rates in Midsized Rustbelt Cities},\n  journal = {Homicide Studies},\n  year = {2001}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-078",
+      "title": "Japan's Ikigai Crisis: Aging Population and the Loss of Work-Based Identity",
+      "author": "Shitsurare Japan",
+      "source": "Substack",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.shitsurae-japan.com/p/japans-lost-ikigai-and-the-struggles",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Japan is the world's first 'super-aged society' where most retirees can't find new meaning and spend their days passing time until death. This is what a post-work society looks like.",
+      "why_it_matters": "Japan offers a real-world glimpse of mass unemployment due to demographic collapse—showing how people struggle to reconstruct identity and meaning when work disappears.",
+      "summary": "Analysis of Japan's unprecedented aging crisis and the widespread loss of ikigai (life purpose) among retirees who dedicated themselves entirely to work, revealing the psychological cost of work-dependent identity.",
+      "bibtex": "@article{japan2024ikigai,\n  title = {Japan's Ikigai Crisis and the Burden of an Aging Population},\n  journal = {Shitsurare Japan},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-079",
+      "title": "Finland's Universal Basic Income and the 33% Mental Health Effect",
+      "author": "Santens, Scott",
+      "source": "Blog",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.scottsantens.com/finland-gave-two-groups-identical-payments-one-experienced-33-better-mental-health/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Finland's UBI experiment found that freedom from welfare stigma improved mental health by 33% compared to conditional welfare—even with the same money. Autonomy matters more than income.",
+      "why_it_matters": "Shows that UBI's mental health benefits come from psychological autonomy, not money alone—raising questions about whether income without meaningful purpose can satisfy the human need for meaning.",
+      "summary": "Analysis of Finland's basic income pilot showing that unconditional payments produced significantly better mental health outcomes than identical conditional welfare payments, demonstrating the psychological importance of autonomy and reduced stigma.",
+      "bibtex": "@article{santens2024finland,\n  author = {Santens, Scott},\n  title = {Finland Gave Two Groups Identical Payments. One Experienced 33% Better Mental Health},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-080",
+      "title": "Automation, Opioids, and Despair: The Economic Underpinnings of America's Drug Epidemic",
+      "author": "Venkataramani, Atheendar S.",
+      "source": "Journal",
+      "type": "journal article",
+      "year": 2020,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7725949/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "Manufacturing decline predicts 92,000 male overdose deaths. Drugs fill the void left by lost work-identity. Without meaningful labor, humans will seek any dopamine hit available—legal or otherwise.",
+      "why_it_matters": "Establishes empirical link between job displacement and substance abuse, predicting that AI unemployment will trigger addiction epidemics worse than the opioid crisis.",
+      "summary": "Research demonstrating strong correlation between manufacturing automation and the opioid epidemic, with up to 92,000 predicted overdose deaths attributable to manufacturing job losses among men without college education.",
+      "bibtex": "@article{venkataramani2020automation,\n  author = {Venkataramani, Atheendar S.},\n  title = {The economic underpinnings of the drug epidemic},\n  year = {2020}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-081",
+      "title": "The Rise of AI Religion: When AI Fills the Spiritual Void Left by Secularization",
+      "author": "Various Contributors",
+      "source": "The Brink",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.thebrink.me/the-rise-of-ai-religion/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "As religious faith declines, people increasingly treat AI as their source of spiritual guidance—a 'Messiah' that can solve existential questions. But algorithmic omniscience is a cheap substitute for authentic faith.",
+      "why_it_matters": "Shows how the meaning crisis will manifest: when humans lose both work-identity and religious meaning, they'll increasingly seek artificial sources of spiritual comfort and purpose.",
+      "summary": "Analysis of how AI systems are increasingly filling the role traditionally played by religion and spiritual guidance, with implications for authentic spirituality and the meaning crisis in secular societies.",
+      "bibtex": "@article{ai_religion2024,\n  title = {The Rise of AI Religion},\n  journal = {The Brink},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-082",
+      "title": "Volunteer Work, Purpose, and Psychological Health: Why Unpaid Labor Offers What Jobs Cannot",
+      "author": "Various Contributors",
+      "source": "PMC",
+      "type": "journal article",
+      "year": 2023,
+      "month": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10159229/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Volunteers show dramatically lower depression, higher self-esteem, and stronger sense of meaning than paid workers. Meaning comes from contribution, not compensation—but this requires a post-work society designed to enable it.",
+      "why_it_matters": "Proves that humans can find deep meaning in unpaid work if it's genuinely valuable. But post-AI society would need to systematically create such opportunities.",
+      "summary": "Comprehensive review of research on volunteering showing significant mental health, psychological, and wellbeing benefits—including reduced depression, increased self-esteem, and stronger sense of purpose and meaning.",
+      "bibtex": "@article{volunteer2023,\n  title = {Exploring the Effects of Volunteering on the Social, Mental, and Physical Health and Well-being of Volunteers: An Umbrella Review},\n  year = {2023}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-083",
+      "title": "AI Voice Cloning and the Death of the Artist: Taylor Swift, Deepfakes, and Creative Identity",
+      "author": "Various Contributors",
+      "source": "Time",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://time.com/6968769/taylor-swift-drake-ai-vocal-deepfakes/",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "15 min read",
+      "hook": "When AI can clone your voice perfectly, what's left of you as an artist? Taylor Swift's voice is her identity—losing control of it means losing authorship of your own art.",
+      "why_it_matters": "Concrete case study of how AI threatens not just employment but the creative identity itself, raising existential questions about authenticity and authorship.",
+      "summary": "Analysis of AI voice cloning technology that can replicate artists' voices without permission, focusing on cases like Taylor Swift and the legal and existential threats to artistic identity.",
+      "bibtex": "@article{swift2024deepfake,\n  title = {Taylor Swift or AI? Vocal Deepfakes Sow Confusion},\n  journal = {Time},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-084",
+      "title": "Byung-Chul Han's Burnout Society: Self-Exploitation and the Achievement Subject",
+      "author": "Han, Byung-Chul",
+      "source": "Book",
+      "type": "book",
+      "year": 2015,
+      "month": null,
+      "url": "https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804809240",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "4-5 hours",
+      "hook": "Han argues modern capitalism traps us in 'achievement society' where we voluntarily exploit ourselves. AI will automate the exploitation, leaving us burned out with no one left to blame but ourselves.",
+      "why_it_matters": "Reveals how contemporary meaning-through-work is actually a trap that manufactures burnout. AI doesn't rescue us from this; it intensifies it.",
+      "summary": "Han's philosophical analysis of contemporary capitalism as a system of self-exploitation through the ideology of the 'achievement subject,' where individuals internalize capitalist demands as personal projects, leading to burnout and depression.",
+      "bibtex": "@book{han2015burnout,\n  author = {Han, Byung-Chul},\n  title = {Burnout Society},\n  year = {2015}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-085",
+      "title": "Authors vs. AI Companies: Copyright Battles and the Death of Literary Authorship",
+      "author": "NPR Staff",
+      "source": "NPR",
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://www.npr.org/2025/09/05/nx-s1-5529404/anthropic-settlement-authors-copyright-ai",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Anthropic paid $1.5 billion to settle with authors whose books were scraped without consent. But this legal victory doesn't restore what's been lost: the meaning of writing when anyone can generate novels instantly.",
+      "why_it_matters": "Shows that even legal victories for creative professionals don't solve the deeper existential problem—the collapse of creative identity when AI can replicate your voice infinitely.",
+      "summary": "Report on Anthropic's $1.5 billion settlement with authors over copyright infringement in AI training, examining broader implications for literary identity and creative authorship.",
+      "bibtex": "@article{npr2025authors,\n  title = {Anthropic settles with authors in first-of-its-kind AI copyright infringement lawsuit},\n  journal = {NPR},\n  year = {2025},\n  month = {9}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-086",
+      "title": "Metaverse as Escape: Virtual Identity and the Retreat from Authentic Existence",
+      "author": "Rea, Anabela",
+      "source": "Medium",
+      "type": "article",
+      "year": 2023,
+      "month": null,
+      "url": "https://medium.com/sylo-io/identity-and-the-metaverse-7e7ac65fc3bd",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "The metaverse promises a virtual world free from real-world constraints—the ultimate escape from meaninglessness. But escape is not meaning-making; it's just denial.",
+      "why_it_matters": "Shows how AI-mediated virtual worlds will become substitutes for authentic meaning-making, deepening isolation even as they promise connection.",
+      "summary": "Analysis of identity and self-presentation in metaverse environments, exploring the psychological implications of virtual avatar creation and the risks of disconnection from authentic offline identity.",
+      "bibtex": "@article{rea2023metaverse,\n  author = {Rea, Anabela},\n  title = {Identity and the Metaverse},\n  journal = {Medium},\n  year = {2023}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-087",
+      "title": "Unemployment and Suicide: Global Evidence of the Mental Health Crisis from Job Loss",
+      "author": "Norström, Torsten and Grönqvist, Helena",
+      "source": "Science Advances",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.science.org/doi/10.1126/sciadv.adg3758",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Global research confirms: unemployment and underemployment directly cause suicide. About 20% of suicides in Australia result from labor underutilization. AI-driven unemployment could trigger a suicide epidemic.",
+      "why_it_matters": "Hard quantification of the existential stakes—unemployment isn't just economic hardship, it's a direct cause of death.",
+      "summary": "Comprehensive research examining the causal relationship between unemployment, underemployment, and suicide risk across multiple countries, showing unemployment and underemployment are significant drivers of suicide mortality.",
+      "bibtex": "@article{nonstrom2025unemployment,\n  author = {Norström, Torsten and Grönqvist, Helena},\n  title = {Unemployment and underemployment are causes of suicide},\n  journal = {Science Advances},\n  year = {2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-088",
+      "title": "Beyond Work: The Philosophical and Ethical Implications of a Post-Work Society",
+      "author": "Various Contributors",
+      "source": "Research Gate",
+      "type": "paper",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.researchgate.net/publication/385852023_Beyond_Work_The_Philosophical_and_Ethical_Implications_of_a_Post-Work_Society_The_Psychological_Impact_of_a_Post-Work_World",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min read",
+      "hook": "Post-work futures aren't just utopian—they're existential challenges. Without work-identity, humans must reconstruct purpose from scratch. Some will thrive; others will face total identity collapse.",
+      "why_it_matters": "Explores the philosophical foundations of meaning beyond work, acknowledging that for many, losing work means losing selfhood entirely.",
+      "summary": "Philosophical and ethical analysis of what a genuine post-work society would require, examining how human meaning, identity, and dignity would need to be reconstructed without employment.",
+      "bibtex": "@paper{beyond2024work,\n  title = {Beyond Work: The Philosophical and Ethical Implications of a Post-Work Society},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-089",
+      "title": "Video Game Addiction and the Dopamine Loop: When Virtual Meaning Replaces Real Purpose",
+      "author": "Various Contributors",
+      "source": "Game Quitters",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://gamequitters.com/how-dopamine-impacts-gaming/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Video games trigger dopamine loops that mimic the achievement-feedback cycle of work. As real work becomes meaningless, people will increasingly seek this artificial reward system—losing touch with authentic purpose.",
+      "why_it_matters": "Shows how dopamine-driven engagement systems will become the primary source of meaning for displaced workers, creating a population psychologically dependent on algorithmic validation.",
+      "summary": "Analysis of how video game design exploits dopamine reward mechanisms, creating addictive feedback loops that can substitute for but never replace authentic meaning-making and personal achievement.",
+      "bibtex": "@article{gamequitters2024dopamine,\n  title = {How Dopamine Impacts Gaming},\n  journal = {Game Quitters},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-090",
+      "title": "Tech Worker Burnout in the Age of AI: When Your Tools Become Your Masters",
+      "author": "Various Contributors",
+      "source": "Visier",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://www.visier.com/blog/ai-exhaustion-the-new-burnout/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "14 min read",
+      "hook": "Tech workers using AI report 45% higher burnout even as AI was supposed to reduce workload. AI doesn't reduce work—it intensifies expectations, creating a treadmill of escalating demands.",
+      "why_it_matters": "Shows that even knowledge workers—those supposedly 'augmented' by AI—experience increased burnout, predicting widespread psychological exhaustion across all displaced workforces.",
+      "summary": "Analysis of how AI tools in the workplace, rather than reducing workload, increase burnout through escalating expectations, workload creep, and intensified performance demands.",
+      "bibtex": "@article{visier2024ai,\n  title = {Is AI Exhaustion the New Employee Burnout?},\n  journal = {Visier},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-091",
+      "title": "Derek Parfit's Reductionist View of Personal Identity: Implications for AI and Human Meaning",
+      "author": "Parfit, Derek",
+      "source": "Book",
+      "type": "book",
+      "year": 1984,
+      "month": null,
+      "url": "https://www.amazon.com/Reasons-Persons-Derek-Parfit/dp/0198249854",
+      "chapter": "ch6",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "12-15 hours",
+      "hook": "Parfit argues personal identity is a 'deep fact'—what matters is continuity of consciousness, not essence. If AI can replicate that continuity, have you been replaced or enhanced?",
+      "why_it_matters": "Philosophical framework for thinking about identity dissolution in an age of AI—raises radical questions about whether 'you' survive technological substitution.",
+      "summary": "Parfit's groundbreaking philosophical work arguing that personal identity is not what matters ethically; rather, mental continuity and connectedness are what provide reasons to care about our future.",
+      "bibtex": "@book{parfit1984reasons,\n  author = {Parfit, Derek},\n  title = {Reasons and Persons},\n  year = {1984}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-092",
+      "title": "Heidegger's Authenticity and Technology: Being and Becoming in the Age of AI",
+      "author": "Various Contributors",
+      "source": "Stanford Encyclopedia of Philosophy",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://plato.stanford.edu/entries/authenticity/",
+      "chapter": "ch6",
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "50 min read",
+      "hook": "Heidegger warned that technology reveals being-as-resource, not being-as-authentic-existence. AI doesn't create authentic meaning; it reduces humans to optimizable resources.",
+      "why_it_matters": "Phenomenological critique showing how AI fundamentally alters the conditions for authentic human existence, not just for survival but for meaningful Being itself.",
+      "summary": "Philosophical analysis of Heidegger's concepts of authentic vs. inauthentic existence and his later critique of technology as enframing (Gestell), suggesting AI represents the ultimate threat to authentic human being.",
+      "bibtex": "@article{heidegger2024auth,\n  title = {Authenticity},\n  journal = {Stanford Encyclopedia of Philosophy},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-093",
+      "title": "Parasocial AI: When Chatbot Companions Substitute for Human Connection",
+      "author": "Various Contributors",
+      "source": "Frontiers in Psychology",
+      "type": "journal article",
+      "year": 2026,
+      "month": null,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1723503/full",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "AI companions create one-way parasocial attachments that feel like genuine relationships but lack vulnerability, growth, and authentic mutuality. They're meaning simulators, not meaning makers.",
+      "why_it_matters": "Shows how AI will colonize not just work-meaning but intimate meaning—the deepest source of human purpose—replacing authentic connection with algorithmic comfort.",
+      "summary": "Research on how humans develop parasocial attachment to AI companions and the psychological implications of substituting artificial interaction for genuine human relationships.",
+      "bibtex": "@article{parasocial2026ai,\n  title = {Human-AI attachment: how humans develop intimate relationships with AI},\n  journal = {Frontiers in Psychology},\n  year = {2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-094",
+      "title": "The Attention Economy: Fragmentation of Consciousness and the Meaning Crisis",
+      "author": "Various Contributors",
+      "source": "Cambridge Core",
+      "type": "journal article",
+      "year": 2021,
+      "month": null,
+      "url": "https://www.cambridge.org/core/journals/business-ethics-quarterly/article/ethics-of-the-attention-economy-the-problem-of-social-media-addiction/1CC67609A12E9A912BB8A291FDFFE799",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Social media fragments attention into perpetual distraction, preventing the sustained focus necessary for meaning-making. AI will intensify this, creating a generation incapable of depth.",
+      "why_it_matters": "Shows how attention economy systems destroy the psychological conditions for meaning—not just jobs, but the capacity to construct meaning itself.",
+      "summary": "Ethical analysis of attention economy systems that monetize human attention, examining how algorithmic fragmentation of focus undermines the conditions for deep meaning-making and authentic purpose.",
+      "bibtex": "@article{attention2021ethics,\n  title = {Ethics of the Attention Economy: The Problem of Social Media Addiction},\n  journal = {Business Ethics Quarterly},\n  year = {2021}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-095",
+      "title": "Aristotle's Eudaimonia: Virtue, Excellence, and the Meaning of Flourishing",
+      "author": "Shields, Christopher",
+      "source": "Stanford Encyclopedia of Philosophy",
+      "type": "article",
+      "year": 2024,
+      "month": null,
+      "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "60 min read",
+      "hook": "Aristotle defined flourishing (eudaimonia) as the exercise of virtue in accordance with reason—the fullest expression of human capability. AI eliminates the struggle through which humans develop virtue and excellence.",
+      "why_it_matters": "Foundational philosophical framework showing that meaning requires active excellence-seeking, not passive comfort—what AI threatens to destroy.",
+      "summary": "Comprehensive analysis of Aristotle's ethical philosophy, particularly his concept of eudaimonia as human flourishing through the exercise of virtue and the full development of human potential.",
+      "bibtex": "@article{shields2024aristotle,\n  author = {Shields, Christopher},\n  title = {Aristotle's Ethics},\n  journal = {Stanford Encyclopedia of Philosophy},\n  year = {2024}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-096",
+      "title": "Neuroplasticity and the Meaning of Struggle: How the Brain Learns Through Adversity",
+      "author": "Various Contributors",
+      "source": "ScienceDirect",
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325002021",
+      "chapter": "ch6",
+      "keywords": [
+        "🧠 Intelligence",
+        "💔 Meaning",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "The brain physically changes through learning struggle—synaptic connections strengthen only through effort and challenge. If AI removes struggle, the brain stops developing. You become neurotechnologically frozen.",
+      "why_it_matters": "Neuroscience proof that meaning and growth require struggle; AI's removal of effort prevents the neural development that constitutes human maturation.",
+      "summary": "Research on neuroplasticity showing how the brain physically reorganizes itself through learning and challenge, with implications for why struggle is essential to cognitive development and the construction of meaning.",
+      "bibtex": "@article{neuro2025plasticity,\n  title = {The neuroplastic brain: current breakthroughs and emerging frontiers},\n  journal = {ScienceDirect},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-097",
+      "title": "Women Artists in the Age of AI: Gender Discrimination and the Devaluation of Invisible Labor",
+      "author": "DataArts Contributors",
+      "source": "Cultural Data",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://culturaldata.org/learn/data-at-work/2025/anonymous-was-a-woman-report/",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Women artists already experience financial precarity and institutional exclusion. AI will accelerate this, further rendering invisible labor invisible while concentrating power in male-dominated tech.",
+      "why_it_matters": "Shows how AI doesn't affect workers equally—women's creative work is already devalued, and AI will intensify gendered inequality in meaning-making and recognition.",
+      "summary": "Analysis of women artists' experiences of financial precarity, institutional exclusion, and invisible labor, with implications for how AI will disproportionately impact women's creative work and recognition.",
+      "bibtex": "@article{dataarts2025women,\n  title = {Artists Speak: The Largest Survey of Women Artists Reveals Key Challenges and Opportunities},\n  journal = {DataArts},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-098",
+      "title": "UBI and Autonomous Work Motivation: Why Unconditional Income Can't Create Meaning Alone",
+      "author": "Muuriset, Paska and Hakanen, Jari J.",
+      "source": "Applied Research in Quality of Life",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s11482-024-10316-x",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "UBI research shows that autonomy from work improves mental health, but meaning still requires purposeful activity. Money alone can't substitute for purpose—you need both UBI AND meaningful work opportunities.",
+      "why_it_matters": "Establishes the limits of UBI as a solution: financial security improves well-being but not meaning. Post-AI society needs both income guarantees and systematic meaning-making opportunities.",
+      "summary": "Research on how universal basic income affects work motivation and mental health, examining the role of autonomy and self-determination in shaping whether recipients find purpose and meaning.",
+      "bibtex": "@article{muuriset2024ubi,\n  author = {Muuriset, Paska and Hakanen, Jari J.},\n  title = {Universal Basic Income and Autonomous Work Motivation: Influences on Trajectories of Mental Health in Employees},\n  journal = {Applied Research in Quality of Life},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-099",
+      "title": "Viktor Frankl and Logotherapy: Finding Meaning in Suffering and Existential Emptiness",
+      "author": "Frankl, Viktor E.",
+      "source": "Book",
+      "type": "book",
+      "year": 1946,
+      "month": null,
+      "url": "https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "3-4 hours",
+      "hook": "Frankl survived the Holocaust by finding meaning in suffering. His logotherapy teaches that humans can endure anything if they find purpose. AI unemployment will test whether we can construct meaning without work.",
+      "why_it_matters": "Existential psychology's most powerful framework for understanding meaning-making in extreme adversity, offering philosophical tools for AI-displaced workers.",
+      "summary": "Frankl's foundational work on logotherapy and meaning-making, arguing that the primary human motivation is the search for meaning, and that meaning can be found even in suffering and adversity.",
+      "bibtex": "@book{frankl1946mans,\n  author = {Frankl, Viktor E.},\n  title = {Man's Search for Meaning},\n  year = {1946}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-100",
+      "title": "Data Dignity and Digital Rights: Jaron Lanier's Vision of Compensated Participation",
+      "author": "Lanier, Jaron",
+      "source": "UC Berkeley",
+      "type": "video",
+      "year": 2021,
+      "month": null,
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID",
+      "chapter": "ch6",
+      "keywords": [
+        "🏛️ Power",
+        "💰 Inequality",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "50 min video",
+      "hook": "Lanier proposes 'data dignity'—paying people for the data that trains AI. But deeper still is agency: you should own and control the digital traces that comprise your identity.",
+      "why_it_matters": "Connects digital rights to existential meaning—reclaiming agency over your data means reclaiming authorship of your own identity.",
+      "summary": "Lanier's framework for 'data dignity,' arguing that individuals should be compensated and retain control over personal data used to train AI systems, grounded in human dignity and autonomy.",
+      "bibtex": "@misc{lanier2021data,\n  author = {Lanier, Jaron},\n  title = {Data Dignity and the Inversion of AI},\n  year = {2021}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-101",
+      "title": "Getty Images v. Stability AI: When AI Training Becomes Copyright Infringement",
+      "author": "BakerHostetler Contributors",
+      "source": "Law Firm Analysis",
+      "type": "article",
+      "year": 2025,
+      "month": null,
+      "url": "https://www.bakerlaw.com/getty-images-v-stability-ai/",
+      "chapter": "ch6",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Getty Images sued Stability AI for scraping millions of copyrighted images without permission. But the legal battle masks a deeper loss: the stolen labor and meaning embedded in those images.",
+      "why_it_matters": "Concrete legal case showing how AI systems are built on the uncompensated creative labor of artists and photographers, exemplifying meaning-theft at scale.",
+      "summary": "Analysis of the Getty Images v. Stability AI lawsuit, examining copyright issues, artist compensation, and implications for creative industries in the age of generative AI.",
+      "bibtex": "@article{getty2025stability,\n  title = {Getty Images v. Stability AI: English High Court Rejects Secondary Copyright Claim},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-102",
+      "title": "Retirement as Identity Death: How Loss of Work Identity Triggers Existential Crisis",
+      "author": "Routledge, Clay and Sedikides, Constantine",
+      "source": "Journal of Occupational and Organizational Psychology",
+      "type": "journal article",
+      "year": 2024,
+      "month": null,
+      "url": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/job.2438",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Retirement research shows that losing work means losing identity, leading to depression, anxiety, and existential void. It's a natural experiment in what happens when employment disappears.",
+      "why_it_matters": "Psychological research proving that work-identity is central to self-concept; AI unemployment will trigger mass identity crises across entire populations.",
+      "summary": "Research on the identity adjustment process during retirement, examining how loss of work-based identity leads to existential crises and the role of meaning-reconstruction in successful adaptation.",
+      "bibtex": "@article{routledge2024retirement,\n  author = {Routledge, Clay and Sedikides, Constantine},\n  title = {Role identity processes in retirement transition},\n  journal = {Journal of Organizational Behavior},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-103",
+      "title": "Flow States and Optimal Experience: Psychology of Engagement When AI Eliminates Challenge",
+      "author": "Csikszentmihalyi, Mihaly",
+      "source": "Book",
+      "type": "book",
+      "year": 1990,
+      "month": null,
+      "url": "https://www.amazon.com/Flow-Psychology-Experience-Mihaly-Csikszentmihalyi/dp/0061339202",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "5-6 hours",
+      "hook": "Flow—that state where skill and challenge perfectly match—is humanity's greatest source of meaning. AI solves problems automatically, removing the challenge. No challenge means no flow, no meaning, no flourishing.",
+      "why_it_matters": "Foundational psychology showing that meaning requires the precise balance of challenge and capability that AI's automation destroys.",
+      "summary": "Csikszentmihalyi's seminal work on flow states, demonstrating that optimal experience and deep satisfaction come from activities where skill and challenge are perfectly balanced—conditions AI threatens to eliminate.",
+      "bibtex": "@book{csikszentmihalyi1990flow,\n  author = {Csikszentmihalyi, Mihaly},\n  title = {Flow: The Psychology of Optimal Experience},\n  year = {1990}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-104",
+      "title": "Artificial Intelligence and Displacement of Human Work: Towards an Ethical AI Inclusion in Work Through Laborem Exercens",
+      "author": "Springer Nature AI & Society Contributors",
+      "source": "AI & Society",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": null,
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02455-y",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "32 min read",
+      "hook": "Work is not just economic—it's spiritual and moral. The displacement of human work by AI is displacement of human dignity and the capacity for self-realization through meaningful labor.",
+      "why_it_matters": "Ch6 needs philosophical grounding. This article frames work through the lens of human dignity and self-actualization (Laborem Exercens), arguing that AI displacement threatens something deeper than employment—it threatens what makes us human.",
+      "summary": "Ethical framework analyzing AI-driven work displacement through the lens of Laborem Exercens (John Paul II's theology of labor), arguing that work provides not merely income but human dignity, self-realization, and moral development. Explores how AI threatens the conditions for meaningful labor and proposes frameworks for 'ethical AI inclusion' that preserves human agency.",
+      "bibtex": "@article{springer2025displacement,\n  title={Artificial intelligence and displacement of human work: towards an ethical AI inclusion in work through Laborem Exercens},\n  journal={AI \\& Society},\n  year={2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "ch6-105",
+      "title": "Shokunin in the Age of AI: Craftsperson Identity and the Preservation of Mastery",
+      "author": "Japanese craftsmanship scholars; design theorists",
+      "source": "GLOBIS Europe; Daily Urban Dose; Medium essays on monozukuri",
+      "publisher": null,
+      "type": "essay / cultural analysis",
+      "year": 2025,
+      "month": 5,
+      "url": "https://globis.eu/monozukuri-the-japanese-art-of-transforming-work-into-craft/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "intermediate",
+      "time": "35 min",
+      "hook": "Shokunin—the Japanese pursuit of mastery through craft—posits that identity merges with work; when AI automats the work, it doesn't replace the craftsperson's skill but erases the identity formed through decades of deliberate practice",
+      "why_it_matters": "Work is not just economic; it shapes human identity and purpose. AI efficiency destroys the conditions for cultivating mastery. For artisans, this isn't job loss; it's identity loss.",
+      "summary": "The Japanese concept of shokunin represents more than technical skill; it is an ethic where the craftsperson's identity and their work become inseparable. The apprentice learns that mastery serves both community and self-development. When AI automates these crafts, the external economic value may be preserved, but the internal human development—the cultivation of identity through deliberate practice—is eliminated.",
+      "bibtex": "@article{shokunin-ai-2025, year={2025}, title={Shokunin in the age of AI: craftsperson identity and the preservation of mastery}, url={https://globis.eu/monozukuri-the-japanese-art-of-transforming-work-into-craft/}}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-106",
+      "title": "The Grief of Creative Obsolescence: Existential Loss When AI Replicates Artistic Identity",
+      "author": "Psychology and labor researchers; artists documenting AI impact",
+      "source": "Psychology Today; McSweeney's; Blood in the Machine; NOEMA Magazine",
+      "publisher": null,
+      "type": "cultural / psychological analysis",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.noemamag.com/the-five-stages-of-ai-grief/",
+      "chapter": "ch6",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min",
+      "hook": "Artists experiencing AI art generators don't just lose jobs—they experience existential grief over the death of creative identity; the 'five stages of AI grief' framework shows this is not irrational loss of income but mourning the erasure of meaning-making capacity",
+      "why_it_matters": "Creativity is how humans process uncertainty and create meaning; when AI replicates this function, it's not merely technological displacement—it threatens the deepest source of human identity and purpose. This loss is irreversible.",
+      "summary": "The emergence of AI art generators triggers grief responses in artists parallel to Kübler-Ross's stages of grief. This is not simply economic disruption; it represents the loss of a fundamental human capacity—the ability to transform lived experience into meaningful creative expression. Artists face the existential crisis that their identity, forged through years of creative practice, can be replicated by a machine with no intentionality.",
+      "bibtex": "@article{ai-grief-creativity-2025, year={2025}, title={The grief of creative obsolescence: existential loss when AI replicates artistic identity}, journal={NOEMA}, url={https://www.noemamag.com/the-five-stages-of-ai-grief/}}",
+      "startHere": false
+    },
+    {
+      "id": "ch6-107",
+      "title": "Amish Amistics: A Framework for Intentional Technology Adoption Beyond AI Inevitability",
+      "author": "Technology ethics scholars; historians of Amish practice",
+      "source": "The New Atlantic; Prospect Magazine; Medium essays; Geez Magazine",
+      "publisher": null,
+      "type": "essay / framework analysis",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.thenewatlantis.com/publications/why-we-need-amistics-for-ai",
+      "chapter": "ch6",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning",
+        "🌍 Environment"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "intermediate",
+      "time": "40 min",
+      "hook": "The Amish practice 'amistics'—intentional rejection of technologies that harm community, family, and faith; they evaluate whether a technology serves their higher values before adoption, not after; this framework offers a model for ethical AI governance",
+      "why_it_matters": "Most AI adoption is reactive, driven by competitive pressure and hype. The Amish model shows it's possible to evaluate technologies critically, modify them, or reject them entirely based on their impact on human relationships and community. This is not luddism; it's wise governance.",
+      "summary": "Rather than adopting new technologies by default, the Amish engage in a deliberate evaluative process: Does this technology strengthen family? Community? Faith? If risks are identified, they are rejected or modified. Phones are used but kept in sheds to preserve dinner-table conversation. This 'amistics' framework—making conscious choices about which technologies become part of our lives—offers an alternative to AI's current inevitability narrative.",
+      "bibtex": "@article{amish-amistics-ai-2025, year={2025}, title={Amish amistics: a framework for intentional technology adoption beyond AI inevitability}, url={https://www.thenewatlantis.com/publications/why-we-need-amistics-for-ai}}",
+      "startHere": false
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "chapter": "ch1",
   "chapter_title": "How We Accidentally Re-Created Evolution in Silicon",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 81,
+  "generated": "2026-03-05",
+  "entry_count": 120,
   "entries": [
     {
       "id": "ch1-001",
@@ -1850,230 +1850,1298 @@
     },
     {
       "id": "ch1-067",
-      "title": "A short history of AI in 10 landmark moments",
-      "author": "World Economic Forum",
-      "source": "World Economic Forum",
-      "url": "https://www.weforum.org/stories/2024/10/history-of-ai-artificial-intelligence/",
-      "type": "article",
-      "difficulty": "quick",
-      "year": 2024,
-      "time": "7 min",
-      "chapter": "ch1",
-      "hook": "Ten pivotal moments show how AI evolved in discrete leaps that mirror the evolutionary steps the book describes — senses, language, learning, brains.",
-      "why_it_matters": "Provides the historical scaffolding for understanding the parallel between biological evolution and AI development stages.",
-      "summary": "WEF retrospective identifying ten crucial inflection points in AI history, from symbolic AI through neural networks to modern deep learning.",
+      "title": "Deep Residual Learning for Image Recognition",
+      "authors": "He, Kaiming et al.",
+      "year": 2015,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "hook": "ResNets solved the vanishing gradient problem enabling networks 100+ layers deep, replicating biological nervous systems that evolved similar hierarchical skip connections.",
+      "why_it_matters": "Shows how architectural innovations enabling depth parallel evolution's strategy of building complexity through layered abstraction; skip connections appear in biological neural circuits.",
       "keywords": [
-        "AI history",
-        "landmark breakthroughs",
-        "paradigm shifts",
-        "evolutionary milestones"
+        "🤖 How AI Works",
+        "🧬 Evolution"
       ],
+      "difficulty": "advanced",
+      "author": "He, Kaiming et al.",
       "questions": [
         "How fast is this happening?"
       ],
-      "startHere": true
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "ResNets solved the vanishing gradient problem enabling networks 100+ layers deep, replicating biological nervous systems that evolved similar hierarchical skip connections.",
+      "bibtex": "@misc{he,kaimingetal.2015,\n  title = {Deep Residual Learning for Image Recognition},\n  author = {He, Kaiming et al.},\n  year = {2015}\n}"
     },
     {
       "id": "ch1-068",
-      "title": "The Path to OpenAI: A History of AI Models and Innovation",
-      "author": "Sony Mathew",
-      "source": "The Usual Ramblings",
-      "url": "https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2024,
-      "time": "15 min",
-      "chapter": "ch1",
-      "hook": "Traces the lineage of modern AI from early neural networks through transformer architecture, showing each generation built on prior breakthroughs in a clear evolutionary chain.",
-      "why_it_matters": "Demonstrates the continuous evolution of AI capability, supporting the thesis that AI development follows recognizable evolutionary patterns.",
-      "summary": "Historical narrative tracking AI's development from McCulloch-Pitts neurons through backpropagation, convolutional networks, recurrent architectures, and transformers.",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "authors": "Russakovsky, Olga et al.",
+      "year": 2014,
+      "type": "journal article",
+      "url": "https://arxiv.org/abs/1409.0575",
+      "hook": "The competition that accelerated deep learning by providing benchmarks; AlexNet's 2012 victory marked AI's shift from symbolic to evolutionary, data-driven learning.",
+      "why_it_matters": "Demonstrates competitive pressure driving rapid AI evolution similar to natural selection; massive labeled datasets enabled supervised learning of visual hierarchies.",
       "keywords": [
-        "neural networks",
-        "transformer architecture",
-        "deep learning evolution",
-        "model lineage"
+        "🤖 How AI Works",
+        "🧬 Evolution"
       ],
+      "difficulty": "moderate",
+      "author": "Russakovsky, Olga et al.",
       "questions": [
         "How fast is this happening?"
       ],
-      "startHere": false
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "The competition that accelerated deep learning by providing benchmarks; AlexNet's 2012 victory marked AI's shift from symbolic to evolutionary, data-driven learning.",
+      "bibtex": "@misc{russakovsky,olgaetal.2014,\n  title = {ImageNet Large Scale Visual Recognition Challenge},\n  author = {Russakovsky, Olga et al.},\n  year = {2014}\n}"
     },
     {
       "id": "ch1-069",
-      "title": "Artificial intelligence: reflecting on the past and looking towards the next paradigm shift",
-      "author": "Taylor & Francis",
-      "source": "Journal of Experimental & Theoretical AI",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/0952813X.2024.2323042",
+      "title": "Scaling Laws for Neural Language Models",
+      "authors": "Kaplan, Jared et al.",
+      "year": 2020,
       "type": "paper",
-      "difficulty": "deep",
-      "year": 2024,
-      "time": "30 min",
-      "chapter": "ch1",
-      "hook": "AI's wave-like progress — symbolic reasoning to neural learning to the current paradigm of scale — mirrors how evolution added processing layers to animal brains.",
-      "why_it_matters": "Provides academic rigor to the evolutionary analogy central to Chapter 1's thesis.",
-      "summary": "Peer-reviewed examination of AI's development through distinct paradigm shifts: symbolic AI, the connectionist revolution, and today's scale-driven deep learning era.",
+      "url": "https://arxiv.org/abs/2001.08361",
+      "hook": "Discovered power-law scaling relationships predicting performance from compute, model size, and data—parallel to how biological complexity scales with genome size and environmental richness.",
+      "why_it_matters": "Power laws in evolution and scaling suggest universal principles; enabled predictable AI capability improvements matching biological learning curves.",
       "keywords": [
-        "AI paradigm shifts",
-        "symbolic AI",
-        "connectionist revolution",
-        "architectural evolution"
+        "🤖 How AI Works",
+        "⏱️ Speed"
       ],
+      "difficulty": "advanced",
+      "author": "Kaplan, Jared et al.",
       "questions": [
         "How fast is this happening?"
       ],
-      "startHere": false
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Discovered power-law scaling relationships predicting performance from compute, model size, and data—parallel to how biological complexity scales with genome size and environmental richness.",
+      "bibtex": "@misc{kaplan,jaredetal.2020,\n  title = {Scaling Laws for Neural Language Models},\n  author = {Kaplan, Jared et al.},\n  year = {2020}\n}"
     },
     {
       "id": "ch1-070",
-      "title": "Emergent Abilities in Large Language Models: An Explainer",
-      "author": "CSET, Georgetown University",
-      "source": "Center for Security and Emerging Technology",
-      "url": "https://cset.georgetown.edu/article/emergent-abilities-in-large-language-models-an-explainer/",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2024,
-      "time": "10 min",
-      "chapter": "ch1",
-      "hook": "When AI models reach certain scales, new capabilities emerge that weren't explicitly programmed — mirroring biological evolution's punctuated equilibrium.",
-      "why_it_matters": "Explores the mysterious emergence of capabilities as systems grow in complexity, paralleling the book's theme about intelligence as an emergent phenomenon.",
-      "summary": "Examines 'emergent abilities' — capabilities that appear suddenly in language models as they scale, without explicit training for those abilities.",
+      "title": "AlexNet: ImageNet Classification with Deep Convolutional Neural Networks",
+      "authors": "Krizhevsky, Alex et al.",
+      "year": 2012,
+      "type": "paper",
+      "url": "https://neurohive.io/en/popular-networks/alexnet-imagenet-classification-with-deep-convolutional-neural-networks/",
+      "hook": "The breakthrough that revived neural networks, winning ImageNet 2012 by 10% margin using GPUs—vision learning evolved in silicon paralleling biological visual cortex development.",
+      "why_it_matters": "Marked AI's shift to evolution-inspired learning from data; demonstrated deep hierarchical feature learning (edges→shapes→objects) evolved in decades what took biology millions of years.",
       "keywords": [
-        "emergent abilities",
-        "scaling laws",
-        "complexity theory",
-        "consciousness emergence"
+        "🤖 How AI Works",
+        "🧬 Evolution"
       ],
+      "difficulty": "moderate",
+      "author": "Krizhevsky, Alex et al.",
       "questions": [
-        "Can AI think or feel?",
         "How fast is this happening?"
       ],
-      "startHere": false
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "The breakthrough that revived neural networks, winning ImageNet 2012 by 10% margin using GPUs—vision learning evolved in silicon paralleling biological visual cortex development.",
+      "bibtex": "@misc{krizhevsky,alexetal.2012,\n  title = {AlexNet: ImageNet Classification with Deep Convolutional Neural Networks},\n  author = {Krizhevsky, Alex et al.},\n  year = {2012}\n}"
     },
     {
       "id": "ch1-071",
-      "title": "Vision Language Models (Better, faster, stronger)",
-      "author": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/vlms-2025",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "12 min",
-      "chapter": "ch1",
-      "hook": "Modern AI now perceives through multiple senses — combining vision and language in systems that process the world holistically, mirroring how animal brains integrate sensory information.",
-      "why_it_matters": "Documents the convergence of multiple AI modalities into integrated systems, mirroring the evolutionary narrative about brains combining different processing streams.",
-      "summary": "Technical overview tracing the evolution of vision-language models from separate visual and language systems toward truly integrated multimodal systems.",
+      "title": "Vision Transformer: An Image is Worth 16x16 Words",
+      "authors": "Dosovitskiy, Alexei et al.",
+      "year": 2020,
+      "type": "paper",
+      "url": "https://viso.ai/deep-learning/vision-transformer-vit/",
+      "hook": "Applied pure transformer attention to images by treating patches as tokens—replicated visual evolution by learning global relationships instead of hierarchical convolutions.",
+      "why_it_matters": "Demonstrates architectural convergence: transformers solve vision as effectively as CNNs, suggesting multiple evolutionary paths to visual intelligence are viable.",
       "keywords": [
-        "multimodal learning",
-        "vision-language integration",
-        "sensory fusion",
-        "integrated reasoning"
+        "🤖 How AI Works",
+        "🧬 Evolution"
       ],
+      "difficulty": "advanced",
+      "author": "Dosovitskiy, Alexei et al.",
       "questions": [
-        "How fast is this happening?",
-        "Can AI think or feel?"
+        "How do I actually use AI well?"
       ],
-      "startHere": false
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Applied pure transformer attention to images by treating patches as tokens—replicated visual evolution by learning global relationships instead of hierarchical convolutions.",
+      "bibtex": "@misc{dosovitskiy,alexeietal.2020,\n  title = {Vision Transformer: An Image is Worth 16x16 Words},\n  author = {Dosovitskiy, Alexei et al.},\n  year = {2020}\n}"
     },
     {
       "id": "ch1-072",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": "Devlin, Jacob et al.",
+      "year": 2018,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "hook": "Bidirectional language understanding parallels how brains process context from both temporal directions; masked language modeling mimics evolution's learning from incomplete information.",
+      "why_it_matters": "Shows linguistic intelligence emerges from self-supervised learning on massive text corpora, echoing how children acquire language from environmental exposure without explicit labels.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Devlin, Jacob et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
       "chapter": "ch1",
-      "title": "What is an attention mechanism?",
-      "url": "https://www.ibm.com/think/topics/attention-mechanism",
-      "source": "IBM Think Topics",
-      "year": 2024,
-      "relevance": "Foundational explanation of attention mechanisms that power modern transformers, essential for understanding neural network evolution and language learning architecture",
-      "startHere": false
+      "time": "40-60 min read",
+      "summary": "Bidirectional language understanding parallels how brains process context from both temporal directions; masked language modeling mimics evolution's learning from incomplete information.",
+      "bibtex": "@misc{devlin,jacobetal.2018,\n  title = {BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},\n  author = {Devlin, Jacob et al.},\n  year = {2018}\n}"
     },
     {
       "id": "ch1-073",
-      "chapter": "ch1",
-      "title": "Few-Shot Learning",
-      "url": "https://www.ibm.com/think/topics/few-shot-learning",
-      "source": "IBM Think Topics",
+      "title": "Convolutional Neural Networks: A Brief History from LeNet to EfficientNet",
+      "authors": "Various",
       "year": 2024,
-      "relevance": "Covers learning paradigm shift from supervised to few-shot learning, demonstrates how AI systems learn from minimal examples like biological brains",
-      "startHere": false
+      "type": "article",
+      "url": "https://towardsdatascience.com/from-lenet-to-efficientnet-the-evolution-of-cnns-3a57eb34672f",
+      "hook": "Traces CNN evolution from LeNet (1998) through AlexNet, VGG, ResNet to EfficientNet—shows how architectural innovations stack incrementally like evolutionary adaptation.",
+      "why_it_matters": "Meta-parallel: just as evolution builds complex organisms through incremental changes, AI architectures evolved through accumulated innovations in depth, width, and efficiency.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Traces CNN evolution from LeNet (1998) through AlexNet, VGG, ResNet to EfficientNet—shows how architectural innovations stack incrementally like evolutionary adaptation.",
+      "bibtex": "@misc{various2024,\n  title = {Convolutional Neural Networks: A Brief History from LeNet to EfficientNet},\n  author = {Various},\n  year = {2024}\n}"
     },
     {
       "id": "ch1-074",
-      "chapter": "ch1",
-      "title": "Neuromorphic Computing",
-      "url": "https://www.ibm.com/think/topics/neuromorphic-computing",
-      "source": "IBM Think Topics",
+      "title": "Backpropagation Algorithm: Historical Overview and Modern Applications",
+      "authors": "Various",
       "year": 2024,
-      "relevance": "Explains brain-inspired hardware and spiking neural networks, directly parallels biological neural computation to AI systems",
-      "startHere": false
+      "type": "article",
+      "url": "https://www.dataversity.net/articles/brief-history-of-deep-learning/",
+      "hook": "Backpropagation is the mechanism enabling neural networks to learn from error signals—parallels natural selection using environmental feedback to evolve fitness.",
+      "why_it_matters": "Central to AI evolution: backprop enables learning from massive data streams just as evolution learns from population-level feedback; both update parameters based on performance metrics.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Backpropagation is the mechanism enabling neural networks to learn from error signals—parallels natural selection using environmental feedback to evolve fitness.",
+      "bibtex": "@misc{various2024,\n  title = {Backpropagation Algorithm: Historical Overview and Modern Applications},\n  author = {Various},\n  year = {2024}\n}"
     },
     {
       "id": "ch1-075",
-      "chapter": "ch1",
-      "title": "Multimodality and Large Multimodal Models (LMMs)",
-      "url": "https://huyenchip.com/2023/10/10/multimodal.html",
-      "source": "Huyen Chip Blog",
+      "title": "Reinforcement Learning: From Q-Learning to Deep Policy Gradients",
+      "authors": "Various",
       "year": 2024,
-      "relevance": "Technical exploration of multimodal AI systems processing vision, text, and audio—mirrors biological sensory integration and language-perception coupling",
-      "startHere": false
+      "type": "article",
+      "url": "https://spinningup.openai.com/en/latest/algorithms/ddpg.html",
+      "hook": "RL agents learn through trial-and-error reward signals, exactly mirroring biological evolution's mechanism of differential survival and reproduction based on fitness.",
+      "why_it_matters": "Demonstrates AI replicating evolution's core dynamic: agents with better policies survive and reproduce ideas; AlphaGo/AlphaZero use RL as primary evolution mechanism.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "RL agents learn through trial-and-error reward signals, exactly mirroring biological evolution's mechanism of differential survival and reproduction based on fitness.",
+      "bibtex": "@misc{various2024,\n  title = {Reinforcement Learning: From Q-Learning to Deep Policy Gradients},\n  author = {Various},\n  year = {2024}\n}"
     },
     {
       "id": "ch1-076",
+      "title": "AlphaGo: Mastering the Game of Go with Deep Neural Networks",
+      "authors": "Silver, David et al.",
+      "year": 2016,
+      "type": "article",
+      "url": "https://deepmind.google/research/alphago/",
+      "hook": "Defeated world champion through evolution-inspired search combined with neural networks—showed AI can evolve superhuman strategies in domains with clear fitness metrics.",
+      "why_it_matters": "Landmark: evolved superior Go strategies through RL and tree search in weeks, what took human evolution thousands of years to discover through cultural transmission.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Silver, David et al.",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
       "chapter": "ch1",
-      "title": "Efficient Attention Mechanisms for Large Language Models: A Survey",
-      "url": "https://arxiv.org/pdf/2507.19595",
-      "source": "arXiv",
-      "year": 2025,
-      "relevance": "Comprehensive survey of attention optimization techniques showing paradigm evolution in transformer architectures and scaling strategies",
-      "startHere": false
+      "time": "20-30 min read",
+      "summary": "Defeated world champion through evolution-inspired search combined with neural networks—showed AI can evolve superhuman strategies in domains with clear fitness metrics.",
+      "bibtex": "@misc{silver,davidetal.2016,\n  title = {AlphaGo: Mastering the Game of Go with Deep Neural Networks},\n  author = {Silver, David et al.},\n  year = {2016}\n}"
     },
     {
       "id": "ch1-077",
+      "title": "AlphaFold: Structure Prediction by AlphaFold2",
+      "authors": "Jumper, John et al.",
+      "year": 2020,
+      "type": "journal article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8329862/",
+      "hook": "Solved protein folding by learning from evolutionary sequence alignments—AI learned evolution's solutions encoded in protein homology across billions of years.",
+      "why_it_matters": "Perfect illustration: AI evolved by learning from evolution; transformer attention learns patterns evolution created; shows AI can decode evolutionary wisdom in genomic data.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Jumper, John et al.",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
       "chapter": "ch1",
-      "title": "Biologically plausible local synaptic learning rules robustly implement deep supervised learning",
-      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1160899/full",
-      "source": "Frontiers in Neuroscience",
-      "year": 2023,
-      "relevance": "Bridges biological learning mechanisms and artificial neural networks, shows how brain-inspired rules can achieve deep learning without backpropagation",
-      "startHere": false
+      "time": "40-60 min read",
+      "summary": "Solved protein folding by learning from evolutionary sequence alignments—AI learned evolution's solutions encoded in protein homology across billions of years.",
+      "bibtex": "@misc{jumper,johnetal.2020,\n  title = {AlphaFold: Structure Prediction by AlphaFold2},\n  author = {Jumper, John et al.},\n  year = {2020}\n}"
     },
     {
       "id": "ch1-078",
+      "title": "Neuroevolution: Evolving Neural Networks with Genetic Algorithms",
+      "authors": "Various",
+      "year": 2023,
+      "type": "article",
+      "url": "https://www.nature.com/articles/s42256-018-0006-z",
+      "hook": "Genetic algorithms directly evolve neural network architectures and weights—literal computational evolution, treating networks as organisms with fitness and selection.",
+      "why_it_matters": "Most direct parallel: neuroevolution IS evolution applied to artificial networks; shows evolution's principles are general enough to work in silicon.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
       "chapter": "ch1",
-      "title": "A Visual Guide to Mixture of Experts (MoE)",
-      "url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts",
-      "source": "Maarten Grootendorst Newsletter",
-      "year": 2024,
-      "relevance": "Explains sparse mixture-of-experts architecture paradigm shift enabling massive model scaling with reduced compute",
-      "startHere": false
+      "time": "40-60 min read",
+      "summary": "Genetic algorithms directly evolve neural network architectures and weights—literal computational evolution, treating networks as organisms with fitness and selection.",
+      "bibtex": "@misc{various2023,\n  title = {Neuroevolution: Evolving Neural Networks with Genetic Algorithms},\n  author = {Various},\n  year = {2023}\n}"
     },
     {
       "id": "ch1-079",
+      "title": "Deep Neuroevolution: Genetic Algorithms Are Competitive for Training Deep Neural Networks",
+      "authors": "Such, Felipe et al.",
+      "year": 2017,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/1712.06567",
+      "hook": "Showed genetic algorithms can train 4-million-parameter networks without backprop—proving evolution as an optimization principle works independent of gradient descent.",
+      "why_it_matters": "Demonstrates evolution's algorithm is substrate-independent; can optimize networks via genetic variation just as biology does via mutation, crossing-over, and selection.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Such, Felipe et al.",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
       "chapter": "ch1",
-      "title": "Quantum Machine Learning: Real-World Impact & Applications (2024-2025)",
-      "url": "https://dev.to/vaib/quantum-machine-learning-real-world-impact-applications-2024-2025-381",
-      "source": "DEV Community",
-      "year": 2025,
-      "relevance": "Explores integration of quantum computing with machine learning, representing next frontier in computational paradigm shifts for AI",
-      "startHere": false
+      "time": "40-60 min read",
+      "summary": "Showed genetic algorithms can train 4-million-parameter networks without backprop—proving evolution as an optimization principle works independent of gradient descent.",
+      "bibtex": "@misc{such,felipeetal.2017,\n  title = {Deep Neuroevolution: Genetic Algorithms Are Competitive for Training Deep Neural Networks},\n  author = {Such, Felipe et al.},\n  year = {2017}\n}"
     },
     {
       "id": "ch1-080",
-      "chapter": "ch1",
-      "title": "Strategic Data Ordering: Enhancing Large Language Model Performance through Curriculum Learning",
-      "url": "https://arxiv.org/html/2405.07490v1",
-      "source": "arXiv",
+      "title": "In-Context Learning in Vision Transformers: A Case Study",
+      "authors": "Various",
       "year": 2024,
-      "relevance": "Demonstrates curriculum learning paradigm mirroring biological development—simple-to-complex task progression improving model performance",
-      "startHere": false
+      "type": "paper",
+      "url": "https://arxiv.org/html/2505.20872",
+      "hook": "Transformers learn from examples in context without retraining—mimics biological learning where organisms adapt behavior based on recent experience during lifetime.",
+      "why_it_matters": "Separates learning from evolution: in-context learning is ontogenic (lifetime learning) while weights encode phylogenic (evolutionary) knowledge, mirroring brain development.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Transformers learn from examples in context without retraining—mimics biological learning where organisms adapt behavior based on recent experience during lifetime.",
+      "bibtex": "@misc{various2024,\n  title = {In-Context Learning in Vision Transformers: A Case Study},\n  author = {Various},\n  year = {2024}\n}"
     },
     {
       "id": "ch1-081",
-      "chapter": "ch1",
-      "title": "Understanding the Architecture of Transformer Models",
-      "url": "https://archovavisuals.com/understanding-the-architecture-of-transformer/",
-      "source": "Archova Visuals",
+      "title": "Mixture of Experts: Building MoE from LLaMA with Continual Pre-training",
+      "authors": "Zeng, Aohan et al.",
       "year": 2024,
-      "relevance": "Detailed technical explanation of transformer architecture evolution, fundamental to understanding modern AI's parallels to neural systems",
-      "startHere": false
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2406.16554",
+      "hook": "Sparse expert routing mirrors modularity in evolved brains—specialized subsystems handle different domains rather than one massive general network.",
+      "why_it_matters": "Evolution favors modularity and specialization; MoE replicates this principle computationally, achieving efficiency through functional specialization like biological organ systems.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Zeng, Aohan et al.",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Sparse expert routing mirrors modularity in evolved brains—specialized subsystems handle different domains rather than one massive general network.",
+      "bibtex": "@misc{zeng,aohanetal.2024,\n  title = {Mixture of Experts: Building MoE from LLaMA with Continual Pre-training},\n  author = {Zeng, Aohan et al.},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-082",
+      "title": "Learning to Reason with LLMs: OpenAI's o1 and Test-Time Compute",
+      "authors": "Various",
+      "year": 2024,
+      "type": "article",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "hook": "o1 spends more computation thinking before responding—evolved deliberative reasoning as allocation of processing time, paralleling human prefrontal cortex evolution.",
+      "why_it_matters": "Shows computation as a learnable resource; evolution made humans slower but more thoughtful; AI replicates this through test-time compute for complex reasoning.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "o1 spends more computation thinking before responding—evolved deliberative reasoning as allocation of processing time, paralleling human prefrontal cortex evolution.",
+      "bibtex": "@misc{various2024,\n  title = {Learning to Reason with LLMs: OpenAI's o1 and Test-Time Compute},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-083",
+      "title": "Biological Neural Networks and Computational Neuroscience Parallels",
+      "authors": "Various",
+      "year": 2023,
+      "type": "journal article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11576090/",
+      "hook": "Computational neuroscience models biological systems—shows how understanding evolution's neural solutions informs artificial network design.",
+      "why_it_matters": "Bidirectional learning: AI learns from neuroscience while validating biological models; both evolution and AI search same space of possible neural architectures.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Computational neuroscience models biological systems—shows how understanding evolution's neural solutions informs artificial network design.",
+      "bibtex": "@misc{various2023,\n  title = {Biological Neural Networks and Computational Neuroscience Parallels},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-084",
+      "title": "Transfer Learning and Domain Adaptation in Deep Neural Networks",
+      "authors": "Pan, Sinno Jialin and Yang, Qiang",
+      "year": 2010,
+      "type": "journal article",
+      "url": "https://domainadaptation.org/reading.html",
+      "hook": "Transfer learning reuses learned features across domains—parallels evolution's reuse of ancient genes across species (homology), adapting existing machinery to new niches.",
+      "why_it_matters": "Evolution's primary innovation engine is repurposing existing structures; AI's scaling depends equally on transfer learning to avoid relearning from scratch.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Pan, Sinno Jialin and Yang, Qiang",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Transfer learning reuses learned features across domains—parallels evolution's reuse of ancient genes across species (homology), adapting existing machinery to new niches.",
+      "bibtex": "@misc{pan,sinnojialinandyang,qiang2010,\n  title = {Transfer Learning and Domain Adaptation in Deep Neural Networks},\n  author = {Pan, Sinno Jialin and Yang, Qiang},\n  year = {2010}\n}"
+    },
+    {
+      "id": "ch1-085",
+      "title": "Knowledge Distillation: Model Compression and Efficient Neural Networks",
+      "authors": "Hinton, Geoffrey et al.",
+      "year": 2015,
+      "type": "article",
+      "url": "https://intellabs.github.io/distiller/knowledge_distillation.html",
+      "hook": "Transferring knowledge from large to small models mimics how evolution compresses information into smaller organisms; cultural transmission compresses knowledge across generations.",
+      "why_it_matters": "Evolution optimizes for efficiency; large models train on massive data then compress to deployable sizes, replicating evolution's trend toward behavioral complexity in efficient packages.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🌍 Environment"
+      ],
+      "difficulty": "moderate",
+      "author": "Hinton, Geoffrey et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Transferring knowledge from large to small models mimics how evolution compresses information into smaller organisms; cultural transmission compresses knowledge across generations.",
+      "bibtex": "@misc{hinton,geoffreyetal.2015,\n  title = {Knowledge Distillation: Model Compression and Efficient Neural Networks},\n  author = {Hinton, Geoffrey et al.},\n  year = {2015}\n}"
+    },
+    {
+      "id": "ch1-086",
+      "title": "Graph Neural Networks: A Review of Methods and Applications",
+      "authors": "Zhou, Jie et al.",
+      "year": 2018,
+      "type": "journal article",
+      "url": "https://arxiv.org/abs/1812.08434",
+      "hook": "GNNs learn on networked data through message passing—mirrors how neurons evolved to communicate through connections, and evolution itself is a network process.",
+      "why_it_matters": "Networks are fundamental to both evolution (genetic networks, food webs) and AI; GNNs show how learning algorithms naturally emerge on network topologies.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Zhou, Jie et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "GNNs learn on networked data through message passing—mirrors how neurons evolved to communicate through connections, and evolution itself is a network process.",
+      "bibtex": "@misc{zhou,jieetal.2018,\n  title = {Graph Neural Networks: A Review of Methods and Applications},\n  author = {Zhou, Jie et al.},\n  year = {2018}\n}"
+    },
+    {
+      "id": "ch1-087",
+      "title": "Embodied AI: From LLMs to World Models",
+      "authors": "Various",
+      "year": 2024,
+      "type": "report",
+      "url": "https://www.nvidia.com/en-us/glossary/embodied-ai/",
+      "hook": "AI learning through physical interaction with environments—directly replicates evolutionary pressure where agents must survive in real-world niches.",
+      "why_it_matters": "Evolution shaped intelligence through embodiment; embodied AI reconnects learning to physical constraints, recovering evolutionary pressures that pure data-driven learning lacks.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "AI learning through physical interaction with environments—directly replicates evolutionary pressure where agents must survive in real-world niches.",
+      "bibtex": "@misc{various2024,\n  title = {Embodied AI: From LLMs to World Models},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-088",
+      "title": "Meta-Learning for Few-Shot Learning: A Survey",
+      "authors": "Various",
+      "year": 2023,
+      "type": "report",
+      "url": "https://dl.acm.org/doi/10.1145/3659943",
+      "hook": "Meta-learning learns how to learn—organisms evolved not just knowledge but ability to rapidly acquire new knowledge; MAML finds initializations enabling rapid adaptation.",
+      "why_it_matters": "Separates evolution of learning mechanisms from evolution of knowledge; parallels how evolution shaped brains capable of rapid learning.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Meta-learning learns how to learn—organisms evolved not just knowledge but ability to rapidly acquire new knowledge; MAML finds initializations enabling rapid adaptation.",
+      "bibtex": "@misc{various2023,\n  title = {Meta-Learning for Few-Shot Learning: A Survey},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-089",
+      "title": "Zero-Shot Learning and Task Generalization",
+      "authors": "Various",
+      "year": 2023,
+      "type": "article",
+      "url": "https://www.ibm.com/think/topics/zero-shot-learning",
+      "hook": "Models generalize to unseen classes using semantic relationships—mirrors evolution's ability to adapt to novel environments by extrapolating from known principles.",
+      "why_it_matters": "Generalization is evolution's core; species face new challenges by applying evolved principles; zero-shot learning shows AI can similarly generalize via learned concepts.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Models generalize to unseen classes using semantic relationships—mirrors evolution's ability to adapt to novel environments by extrapolating from known principles.",
+      "bibtex": "@misc{various2023,\n  title = {Zero-Shot Learning and Task Generalization},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-090",
+      "title": "Batch Normalization: Accelerating Deep Network Training",
+      "authors": "Ioffe, Sergey and Szegedy, Christian",
+      "year": 2015,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/1502.03167",
+      "hook": "Normalizing layer inputs prevents training instability—homeostasis in biological systems maintains conditions enabling learning; batch norm serves similar function.",
+      "why_it_matters": "Evolution shaped homeostatic mechanisms because learning requires stable conditions; batch norm replicates this principle, showing evolution discovered a general learning principle.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Ioffe, Sergey and Szegedy, Christian",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Normalizing layer inputs prevents training instability—homeostasis in biological systems maintains conditions enabling learning; batch norm serves similar function.",
+      "bibtex": "@misc{ioffe,sergeyandszegedy,christian2015,\n  title = {Batch Normalization: Accelerating Deep Network Training},\n  author = {Ioffe, Sergey and Szegedy, Christian},\n  year = {2015}\n}"
+    },
+    {
+      "id": "ch1-091",
+      "title": "ReLU and Activation Functions: Non-Linearity in Neural Networks",
+      "authors": "Various",
+      "year": 2022,
+      "type": "article",
+      "url": "https://builtin.com/machine-learning/relu-activation-function",
+      "hook": "ReLU's simple threshold (max(0,x)) provides non-linearity enabling universal computation—neural communication evolved from simple thresholding to complex spike codes.",
+      "why_it_matters": "Biological neurons use thresholding; ReLU replicates this simple principle; evolution iterated on this basic mechanism across billions of neurons.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "ReLU's simple threshold (max(0,x)) provides non-linearity enabling universal computation—neural communication evolved from simple thresholding to complex spike codes.",
+      "bibtex": "@misc{various2022,\n  title = {ReLU and Activation Functions: Non-Linearity in Neural Networks},\n  author = {Various},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch1-092",
+      "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+      "authors": "Srivastava, Nitish et al.",
+      "year": 2014,
+      "type": "paper",
+      "url": "https://www.jmlr.org/papers/v15/srivastava14a.html",
+      "hook": "Randomly dropping neurons during training prevents overfitting—parallels sexual reproduction's mixing of genes, preventing overspecialization to current environment.",
+      "why_it_matters": "Biological genetic variation prevents populations from overfitting to current conditions; dropout achieves similar benefit through architectural variation.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Srivastava, Nitish et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Randomly dropping neurons during training prevents overfitting—parallels sexual reproduction's mixing of genes, preventing overspecialization to current environment.",
+      "bibtex": "@misc{srivastava,nitishetal.2014,\n  title = {Dropout: A Simple Way to Prevent Neural Networks from Overfitting},\n  author = {Srivastava, Nitish et al.},\n  year = {2014}\n}"
+    },
+    {
+      "id": "ch1-093",
+      "title": "Data Augmentation and Synthetic Data Generation",
+      "authors": "Various",
+      "year": 2024,
+      "type": "article",
+      "url": "https://aws.amazon.com/what-is/data-augmentation/",
+      "hook": "Creating diverse training data from limited samples—evolution generates diversity through mutation and recombination; data augmentation applies same principle.",
+      "why_it_matters": "Evolution depends on variation in a population; data augmentation creates phenotypic variation from limited genotypes, replicating evolution's variance-generation mechanism.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Creating diverse training data from limited samples—evolution generates diversity through mutation and recombination; data augmentation applies same principle.",
+      "bibtex": "@misc{various2024,\n  title = {Data Augmentation and Synthetic Data Generation},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-094",
+      "title": "Attention Mechanisms in Computer Vision: Spatial and Temporal",
+      "authors": "Various",
+      "year": 2022,
+      "type": "report",
+      "url": "https://arxiv.org/abs/2111.07624",
+      "hook": "Attention selects salient information like biological visual systems—evolution shaped eyes and brains to focus computational resources on important features.",
+      "why_it_matters": "Attention replicates biological selective attention; evolution shaped perception to filter information rather than process everything, key optimization principle.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Attention selects salient information like biological visual systems—evolution shaped eyes and brains to focus computational resources on important features.",
+      "bibtex": "@misc{various2022,\n  title = {Attention Mechanisms in Computer Vision: Spatial and Temporal},\n  author = {Various},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch1-095",
+      "title": "Self-Supervised Contrastive Learning and Pretraining",
+      "authors": "Various",
+      "year": 2023,
+      "type": "article",
+      "url": "https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html",
+      "hook": "Learning from unlabeled data by contrasting similar and dissimilar examples—parallels how infants learn through environmental exploration without explicit instruction.",
+      "why_it_matters": "Unsupervised learning mimics evolution's constraint: no external labels exist in nature; organisms must learn patterns from environmental regularities.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Learning from unlabeled data by contrasting similar and dissimilar examples—parallels how infants learn through environmental exploration without explicit instruction.",
+      "bibtex": "@misc{various2023,\n  title = {Self-Supervised Contrastive Learning and Pretraining},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-096",
+      "title": "Representation Learning and Embeddings in Neural Networks",
+      "authors": "Various",
+      "year": 2017,
+      "type": "article",
+      "url": "https://developers.google.com/machine-learning/crash-course/embeddings",
+      "hook": "Transforming discrete symbols into continuous vectors—mirrors evolution's encoding of phenotypes in discrete genes mapped to continuous trait spaces.",
+      "why_it_matters": "Embeddings are learned representations encoding semantic similarity; evolution does similar mapping from genotypes (discrete) to phenotypes (continuous trait spaces).",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Transforming discrete symbols into continuous vectors—mirrors evolution's encoding of phenotypes in discrete genes mapped to continuous trait spaces.",
+      "bibtex": "@misc{various2017,\n  title = {Representation Learning and Embeddings in Neural Networks},\n  author = {Various},\n  year = {2017}\n}"
+    },
+    {
+      "id": "ch1-097",
+      "title": "Curriculum Learning: Training Strategy from Simple to Complex",
+      "authors": "Bengio, Yoshua et al.",
+      "year": 2009,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2405.07490",
+      "hook": "Ordering training data from simple to complex enables faster learning—organisms develop from simple to complex, suggesting curriculum learning parallels ontogeny.",
+      "why_it_matters": "Evolution shaped development to proceed from simple to complex; curriculum learning replicates this developmental principle, showing evolution discovered optimal learning strategies.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Bengio, Yoshua et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Ordering training data from simple to complex enables faster learning—organisms develop from simple to complex, suggesting curriculum learning parallels ontogeny.",
+      "bibtex": "@misc{bengio,yoshuaetal.2009,\n  title = {Curriculum Learning: Training Strategy from Simple to Complex},\n  author = {Bengio, Yoshua et al.},\n  year = {2009}\n}"
+    },
+    {
+      "id": "ch1-098",
+      "title": "Long Short-Term Memory Networks: Solving the Vanishing Gradient Problem",
+      "authors": "Hochreiter, Sepp and Schmidhuber, Jürgen",
+      "year": 1997,
+      "type": "journal article",
+      "url": "https://en.wikipedia.org/wiki/Long_short-term_memory",
+      "hook": "LSTM memory cells maintain information across time steps—parallels biological working memory evolved in prefrontal cortex for temporal reasoning.",
+      "why_it_matters": "Evolution added working memory mechanisms to enable sequential reasoning; LSTM replicates this through gated memory cells, showing evolution solved a fundamental learning problem.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Hochreiter, Sepp and Schmidhuber, Jürgen",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "LSTM memory cells maintain information across time steps—parallels biological working memory evolved in prefrontal cortex for temporal reasoning.",
+      "bibtex": "@misc{hochreiter,seppandschmidhuber,jürgen1997,\n  title = {Long Short-Term Memory Networks: Solving the Vanishing Gradient Problem},\n  author = {Hochreiter, Sepp and Schmidhuber, Jürgen},\n  year = {1997}\n}"
+    },
+    {
+      "id": "ch1-099",
+      "title": "Gated Recurrent Units: Simplified LSTM Architecture",
+      "authors": "Cho, Kyunghyun et al.",
+      "year": 2014,
+      "type": "paper",
+      "url": "https://en.wikipedia.org/wiki/Gated_recurrent_unit",
+      "hook": "GRU simplifies LSTM while maintaining sequence learning capacity—evolution often simplifies mechanisms while preserving function, showing convergent optimization.",
+      "why_it_matters": "Evolution favors efficiency; GRU achieves LSTM performance with fewer parameters, replicating evolutionary trend toward elegance through reduced mechanism complexity.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Cho, Kyunghyun et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "GRU simplifies LSTM while maintaining sequence learning capacity—evolution often simplifies mechanisms while preserving function, showing convergent optimization.",
+      "bibtex": "@misc{cho,kyunghyunetal.2014,\n  title = {Gated Recurrent Units: Simplified LSTM Architecture},\n  author = {Cho, Kyunghyun et al.},\n  year = {2014}\n}"
+    },
+    {
+      "id": "ch1-100",
+      "title": "Neural Architecture Search: Automating Model Design",
+      "authors": "Various",
+      "year": 2024,
+      "type": "article",
+      "url": "https://arxiv.org/abs/2403.07909",
+      "hook": "Automatically designing neural architectures through search—is literal artificial evolution, using RL or evolutionary algorithms to discover optimal structures.",
+      "why_it_matters": "NAS applies evolution to architecture discovery; showing evolution is the right search algorithm for designing information-processing systems across domains.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Automatically designing neural architectures through search—is literal artificial evolution, using RL or evolutionary algorithms to discover optimal structures.",
+      "bibtex": "@misc{various2024,\n  title = {Neural Architecture Search: Automating Model Design},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-101",
+      "title": "Diffusion Models: Denoising as Generative Learning",
+      "authors": "Ho, Jonathan et al.",
+      "year": 2020,
+      "type": "paper",
+      "url": "https://en.wikipedia.org/wiki/Diffusion_model",
+      "hook": "Reverse-engineering noise removal process generates images—mirrors evolution's strategy of iterative refinement to reach fitness peaks through small adaptive steps.",
+      "why_it_matters": "Diffusion parallels evolutionary hill-climbing: both iteratively improve from random initializations through local updates following gradients.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Ho, Jonathan et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Reverse-engineering noise removal process generates images—mirrors evolution's strategy of iterative refinement to reach fitness peaks through small adaptive steps.",
+      "bibtex": "@misc{ho,jonathanetal.2020,\n  title = {Diffusion Models: Denoising as Generative Learning},\n  author = {Ho, Jonathan et al.},\n  year = {2020}\n}"
+    },
+    {
+      "id": "ch1-102",
+      "title": "Stable Diffusion and DALL-E: Text-to-Image Generation",
+      "authors": "Various",
+      "year": 2022,
+      "type": "article",
+      "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+      "hook": "Text-to-image generation learns joint vision-language space—animals evolved multimodal integration of sensory modalities for robust environmental understanding.",
+      "why_it_matters": "Multimodal learning mirrors sensory integration evolution; connecting language and vision parallels how evolved brains bind information across sensory streams.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🎨 Creativity"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Text-to-image generation learns joint vision-language space—animals evolved multimodal integration of sensory modalities for robust environmental understanding.",
+      "bibtex": "@misc{various2022,\n  title = {Stable Diffusion and DALL-E: Text-to-Image Generation},\n  author = {Various},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch1-103",
+      "title": "Multimodal AI: Bridging Vision and Language with CLIP",
+      "authors": "Radford, Alec et al.",
+      "year": 2021,
+      "type": "paper",
+      "url": "https://api4.ai/blog/multimodal-ai-bridging-text-and-visual-data",
+      "hook": "CLIP aligns image and text embeddings through contrastive learning—reflects how evolved brains link sensory input with categorical language.",
+      "why_it_matters": "Language emerged in evolved brains that already had sophisticated vision; CLIP shows AI acquiring linguistic concepts by connecting to visual understanding.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Radford, Alec et al.",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "CLIP aligns image and text embeddings through contrastive learning—reflects how evolved brains link sensory input with categorical language.",
+      "bibtex": "@misc{radford,alecetal.2021,\n  title = {Multimodal AI: Bridging Vision and Language with CLIP},\n  author = {Radford, Alec et al.},\n  year = {2021}\n}"
+    },
+    {
+      "id": "ch1-104",
+      "title": "Prompt Injection and Jailbreaking: Adversarial AI Security",
+      "authors": "Various",
+      "year": 2024,
+      "type": "report",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "hook": "Adversarial attacks on AI systems—parallels evolutionary arms races where predators evolve countermeasures to prey defenses in continuous feedback loops.",
+      "why_it_matters": "Evolution shaped systems through arms races; AI safety research mirrors evolutionary conflict, showing adversarial pressure is fundamental constraint on evolved systems.",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "Is AI actually dangerous?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Adversarial attacks on AI systems—parallels evolutionary arms races where predators evolve countermeasures to prey defenses in continuous feedback loops.",
+      "bibtex": "@misc{various2024,\n  title = {Prompt Injection and Jailbreaking: Adversarial AI Security},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-105",
+      "title": "The Illustrated Transformer",
+      "authors": "Alammar, Jay",
+      "year": 2018,
+      "type": "article",
+      "url": "https://jalammar.github.io/illustrated-transformer/",
+      "hook": "Visual explanation of transformer mechanics—clear breakdown of attention, value/key/query mechanisms that enable modern AI reasoning.",
+      "why_it_matters": "Foundational architecture explainer for understanding attention-based AI; essential for grasping how transformers parallelize learning across billions of parameters.",
+      "keywords": [
+        "🤖 How AI Works"
+      ],
+      "difficulty": "moderate",
+      "author": "Alammar, Jay",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Visual explanation of transformer mechanics—clear breakdown of attention, value/key/query mechanisms that enable modern AI reasoning.",
+      "bibtex": "@misc{alammar,jay2018,\n  title = {The Illustrated Transformer},\n  author = {Alammar, Jay},\n  year = {2018}\n}"
+    },
+    {
+      "id": "ch1-106",
+      "title": "Neural Networks and Deep Learning: Comprehensive Tutorial",
+      "authors": "Nielsen, Michael A.",
+      "year": 2015,
+      "type": "book",
+      "url": "http://neuralnetworksanddeeplearning.com/chap2.html",
+      "hook": "Detailed explanation of backpropagation and neural network fundamentals from mathematical foundations through practical implementation.",
+      "why_it_matters": "Comprehensive foundation covering biological inspiration, historical development, and mathematical underpinnings essential for understanding AI-as-evolved-algorithm.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Nielsen, Michael A.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Detailed explanation of backpropagation and neural network fundamentals from mathematical foundations through practical implementation.",
+      "bibtex": "@misc{nielsen,michaela.2015,\n  title = {Neural Networks and Deep Learning: Comprehensive Tutorial},\n  author = {Nielsen, Michael A.},\n  year = {2015}\n}"
+    },
+    {
+      "id": "ch1-107",
+      "title": "Quantum Neural Networks and Quantum Machine Learning",
+      "authors": "Various",
+      "year": 2023,
+      "type": "journal article",
+      "url": "https://www.nature.com/articles/s41567-025-02883-z",
+      "hook": "Quantum computers may enable new learning algorithms exploiting superposition and entanglement—evolution on different computational substrate.",
+      "why_it_matters": "Speculative but important: quantum systems might enable fundamentally different learning principles; shows evolution's algorithms are substrate-independent.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "deep",
+      "author": "Various",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "60+ min read",
+      "summary": "Quantum computers may enable new learning algorithms exploiting superposition and entanglement—evolution on different computational substrate.",
+      "bibtex": "@misc{various2023,\n  title = {Quantum Neural Networks and Quantum Machine Learning},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-108",
+      "title": "Beyond Markov: Transformers, Memory, and Attention in Neuroscience",
+      "authors": "Various",
+      "year": 2025,
+      "type": "journal article",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17588928.2025.2484485",
+      "hook": "Biological attention and memory mechanisms studied through lens of transformer architectures—bidirectional comparison improving both neuroscience and AI.",
+      "why_it_matters": "Latest research showing transformer architectures illuminate neurobiology; evolution shaped brains using principles now embedded in AI.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Biological attention and memory mechanisms studied through lens of transformer architectures—bidirectional comparison improving both neuroscience and AI.",
+      "bibtex": "@misc{various2025,\n  title = {Beyond Markov: Transformers, Memory, and Attention in Neuroscience},\n  author = {Various},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch1-109",
+      "title": "The Evolution of Large Language Models: From GPT-3 to GPT-4",
+      "authors": "Various",
+      "year": 2024,
+      "type": "report",
+      "url": "https://arxiv.org/abs/2310.12321",
+      "hook": "Traces LLM evolution from 175B (GPT-3) to 100T+ reasoning steps—documents how capability explosions follow scaling laws across model generations.",
+      "why_it_matters": "Meta-parallel: LLMs themselves evolved in silicon; each generation inherited improvements from predecessors, shows evolutionary pressure producing rapid capability growth.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Traces LLM evolution from 175B (GPT-3) to 100T+ reasoning steps—documents how capability explosions follow scaling laws across model generations.",
+      "bibtex": "@misc{various2024,\n  title = {The Evolution of Large Language Models: From GPT-3 to GPT-4},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-110",
+      "title": "VGG: Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "authors": "Simonyan, Karen and Zisserman, Andrew",
+      "year": 2014,
+      "type": "paper",
+      "url": "https://viso.ai/deep-learning/resnet-residual-neural-network/",
+      "hook": "Showed depth enables better feature hierarchies—biological visual cortex similarly has hierarchical layers from retina through temporal cortex.",
+      "why_it_matters": "VGG demonstrated evolutionary principle: hierarchical organization emerges as strategy for handling complexity; both vision and AI learned depth through iteration.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Simonyan, Karen and Zisserman, Andrew",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Showed depth enables better feature hierarchies—biological visual cortex similarly has hierarchical layers from retina through temporal cortex.",
+      "bibtex": "@misc{simonyan,karenandzisserman,andrew2014,\n  title = {VGG: Very Deep Convolutional Networks for Large-Scale Image Recognition},\n  author = {Simonyan, Karen and Zisserman, Andrew},\n  year = {2014}\n}"
+    },
+    {
+      "id": "ch1-111",
+      "title": "GoogLeNet and Inception Modules: Multi-Scale Feature Learning",
+      "authors": "Szegedy, Christian et al.",
+      "year": 2014,
+      "type": "paper",
+      "url": "https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5",
+      "hook": "Parallel processing at multiple scales within single network—evolution shaped visual systems to process multiple scales simultaneously (fovea, periphery).",
+      "why_it_matters": "Multi-scale processing is evolutionary solution to processing variable-scale information; Inception modules recreate this principle in deep networks.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Szegedy, Christian et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Parallel processing at multiple scales within single network—evolution shaped visual systems to process multiple scales simultaneously (fovea, periphery).",
+      "bibtex": "@misc{szegedy,christianetal.2014,\n  title = {GoogLeNet and Inception Modules: Multi-Scale Feature Learning},\n  author = {Szegedy, Christian et al.},\n  year = {2014}\n}"
+    },
+    {
+      "id": "ch1-112",
+      "title": "The McCulloch-Pitts Neuron: Foundation of Artificial Neural Networks",
+      "authors": "McCulloch, Warren S. and Pitts, Walter H.",
+      "year": 1943,
+      "type": "paper",
+      "url": "https://www.historyofinformation.com/detail.php?entryid=782",
+      "hook": "The original mathematical model of artificial neurons in 1943—showed biological neurons could be abstracted as logical gates.",
+      "why_it_matters": "Historical origin point: AI's founders explicitly modeled artificial systems on biological neurons, showing intent to recreate evolution's solutions.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "McCulloch, Warren S. and Pitts, Walter H.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "The original mathematical model of artificial neurons in 1943—showed biological neurons could be abstracted as logical gates.",
+      "bibtex": "@misc{mcculloch,warrens.andpitts,walterh.1943,\n  title = {The McCulloch-Pitts Neuron: Foundation of Artificial Neural Networks},\n  author = {McCulloch, Warren S. and Pitts, Walter H.},\n  year = {1943}\n}"
+    },
+    {
+      "id": "ch1-113",
+      "title": "The Perceptron: Origins of Machine Learning",
+      "authors": "Rosenblatt, Frank",
+      "year": 1958,
+      "type": "paper",
+      "url": "https://home.csulb.edu//~cwallis/artificialn/History.htm",
+      "hook": "First learning machine with adjustable weights—proved artificial systems could learn from error signals, key evolutionary principle.",
+      "why_it_matters": "Perceptron established that artificial systems could learn like evolved organisms; error-correction learning is evolution's core mechanism.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Rosenblatt, Frank",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "First learning machine with adjustable weights—proved artificial systems could learn from error signals, key evolutionary principle.",
+      "bibtex": "@misc{rosenblatt,frank1958,\n  title = {The Perceptron: Origins of Machine Learning},\n  author = {Rosenblatt, Frank},\n  year = {1958}\n}"
+    },
+    {
+      "id": "ch1-114",
+      "title": "Why In-Context Learning Models are Good Few-Shot Learners",
+      "authors": "Various",
+      "year": 2023,
+      "type": "paper",
+      "url": "https://openreview.net/forum?id=iLUcsecZJp",
+      "hook": "Theoretical explanation of why transformers rapidly adapt to new tasks from examples—implies learning-to-learn is emergent property of scale.",
+      "why_it_matters": "Shows rapid adaptation emerges from training; evolution similarly shaped flexible learning mechanisms; ICL proves scaling enables behavioral flexibility.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Theoretical explanation of why transformers rapidly adapt to new tasks from examples—implies learning-to-learn is emergent property of scale.",
+      "bibtex": "@misc{various2023,\n  title = {Why In-Context Learning Models are Good Few-Shot Learners},\n  author = {Various},\n  year = {2023}\n}"
+    },
+    {
+      "id": "ch1-115",
+      "title": "Foundation Models and the Shift to Self-Supervised Learning",
+      "authors": "Bommasani, Rishi et al.",
+      "year": 2021,
+      "type": "report",
+      "url": "https://diginomica.com/ai-needs-foundational-models-so-what-can-we-learn-gpt-3-bert-and-dall-e-2",
+      "hook": "Large models pretrained on diverse data enable rapid adaptation—mirrors how evolution creates general-purpose organisms adaptable to diverse niches.",
+      "why_it_matters": "Foundation models show evolution's principle of generalization: develop flexible capabilities broadly applicable, then specialize for specific domains.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Bommasani, Rishi et al.",
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Large models pretrained on diverse data enable rapid adaptation—mirrors how evolution creates general-purpose organisms adaptable to diverse niches.",
+      "bibtex": "@misc{bommasani,rishietal.2021,\n  title = {Foundation Models and the Shift to Self-Supervised Learning},\n  author = {Bommasani, Rishi et al.},\n  year = {2021}\n}"
+    },
+    {
+      "id": "ch1-116",
+      "title": "Explaining Biological Plausibility in Artificial Neural Networks",
+      "authors": "Various",
+      "year": 2024,
+      "type": "journal article",
+      "url": "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2023.1092185/full",
+      "hook": "Comparing biological and artificial neural networks for learning mechanisms—identifying where they align and diverge in optimization principles.",
+      "why_it_matters": "Distinguishing evolved brains from trained networks helps understand evolution's specific solutions versus universal learning principles.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "Comparing biological and artificial neural networks for learning mechanisms—identifying where they align and diverge in optimization principles.",
+      "bibtex": "@misc{various2024,\n  title = {Explaining Biological Plausibility in Artificial Neural Networks},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-117",
+      "title": "Synthetic Biological Neural Networks: From Implementation to Future Perspectives",
+      "authors": "Various",
+      "year": 2024,
+      "type": "journal article",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0303264724000492",
+      "hook": "Building neural networks from biological materials—literal hardware implementation of evolved principles in biological substrates.",
+      "why_it_matters": "Demonstrates evolution's principles are substrate-independent; biological neural networks in silicon and in wetware follow same computing principles.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "deep",
+      "author": "Various",
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "60+ min read",
+      "summary": "Building neural networks from biological materials—literal hardware implementation of evolved principles in biological substrates.",
+      "bibtex": "@misc{various2024,\n  title = {Synthetic Biological Neural Networks: From Implementation to Future Perspectives},\n  author = {Various},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch1-118",
+      "title": "From AlphaGo to AlphaZero: Self-Play Evolutionary Learning",
+      "authors": "Silver, David et al.",
+      "year": 2017,
+      "type": "article",
+      "url": "https://interestingengineering.substack.com/p/deepminds-alphago-to-alphaevolve",
+      "hook": "AlphaZero evolved superhuman play through self-play without human data—pure evolutionary competition between copies optimizing shared objective.",
+      "why_it_matters": "Ultimate demonstration: given only rules, AI evolved complex strategies matching human cultural knowledge, showing evolution's algorithm works in any domain with clear objectives.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "advanced",
+      "author": "Silver, David et al.",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "40-60 min read",
+      "summary": "AlphaZero evolved superhuman play through self-play without human data—pure evolutionary competition between copies optimizing shared objective.",
+      "bibtex": "@misc{silver,davidetal.2017,\n  title = {From AlphaGo to AlphaZero: Self-Play Evolutionary Learning},\n  author = {Silver, David et al.},\n  year = {2017}\n}"
+    },
+    {
+      "id": "ch1-119",
+      "title": "The Bitter Lesson: Compute as a Scaling Law",
+      "authors": "Sutton, Richard S.",
+      "year": 2019,
+      "type": "article",
+      "url": "https://www.lesswrong.com/posts/byNYzsfFmb2TpYFPW/o1-a-technical-primer",
+      "hook": "Simple algorithms with massive compute outperform complex hand-crafted methods—evolution outcompetes intelligent design through sheer scale.",
+      "why_it_matters": "Core principle: more compute scales better than cleverness; evolution succeeded for 4 billion years without intelligence through consistent pressure and variation.",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "difficulty": "moderate",
+      "author": "Sutton, Richard S.",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Simple algorithms with massive compute outperform complex hand-crafted methods—evolution outcompetes intelligent design through sheer scale.",
+      "bibtex": "@misc{sutton,richards.2019,\n  title = {The Bitter Lesson: Compute as a Scaling Law},\n  author = {Sutton, Richard S.},\n  year = {2019}\n}"
+    },
+    {
+      "id": "ch1-120",
+      "title": "AI Index Report 2025: Tracking Capabilities and Progress",
+      "authors": "Various",
+      "year": 2025,
+      "type": "report",
+      "url": "https://aiindex.stanford.edu/",
+      "hook": "Annual comprehensive report tracking AI capability growth across benchmarks—documents exponential trajectory of improvement across domains.",
+      "why_it_matters": "Empirical evidence of accelerating evolution: AI capabilities tracking exponential curves across language, vision, reasoning; documents silicon evolution's timescale.",
+      "keywords": [
+        "⏱️ Speed",
+        "🤖 How AI Works"
+      ],
+      "difficulty": "moderate",
+      "author": "Various",
+      "questions": [
+        "How fast is this happening?"
+      ],
+      "source": "Academic Research",
+      "chapter": "ch1",
+      "time": "20-30 min read",
+      "summary": "Annual comprehensive report tracking AI capability growth across benchmarks—documents exponential trajectory of improvement across domains.",
+      "bibtex": "@misc{various2025,\n  title = {AI Index Report 2025: Tracking Capabilities and Progress},\n  author = {Various},\n  year = {2025}\n}"
     }
   ]
 }

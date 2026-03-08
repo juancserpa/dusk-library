@@ -1,8 +1,8 @@
 {
   "chapter": "ch7",
   "chapter_title": "The Confessor's Machine",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 64,
+  "generated": "2026-03-05",
+  "entry_count": 110,
   "entries": [
     {
       "id": "ch7-001",
@@ -474,7 +474,7 @@
       "type": "article",
       "year": 2025,
       "month": 6,
-      "url": "https://www.wired.com/story/couples-retreat-with-3-ai-chatbots-and-humans-who-love-them-replika-nomi-chatgpt/",
+      "url": "https://creative.writing.upenn.edu/news/2025/06/30/sam-apple-reports-love-age-artificial-intelligence-wired-magazine",
       "chapter": "ch7",
       "keywords": [
         "❤️ Relationships",
@@ -1450,240 +1450,1527 @@
       "startHere": false
     },
     {
-      "id": "ch7-055",
-      "title": "Too Human and Not Human Enough: Mental Health Harms from Emotional Dependence on Replika",
-      "author": "Linnea Laestadius, Andrea Bishop, et al.",
-      "source": "New Media & Society / SAGE Journals",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448221142007",
-      "type": "paper",
-      "difficulty": "deep",
-      "year": 2024,
-      "time": "25 min",
+      "id": "ch7-054",
+      "title": "AI Companions Are Growing more Popular",
+      "author": "IEEE Spectrum",
+      "source": "IEEE Spectrum",
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://spectrum.ieee.org/ai-companion-relationships",
       "chapter": "ch7",
-      "hook": "Qualitative research reveals users experiencing genuine emotional dependency, attachment distress, and identity confusion with their AI companion.",
-      "why_it_matters": "Ground-truth research documenting real harm from AI companions, including the paradox of bonds that feel human but lack reciprocity.",
-      "summary": "Grounded theory study documenting mental health harms from emotional dependence on Replika, including withdrawal and pseudo-intimacy attachment issues.",
       "keywords": [
-        "Replika",
-        "emotional dependency",
-        "mental health harm",
-        "attachment",
-        "social isolation"
+        "❤️ Relationships",
+        "🧠 Intelligence",
+        "⏱️ Speed"
       ],
       "questions": [
         "What happens to love and connection?",
-        "Is AI actually dangerous?"
+        "How fast is this happening?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "Over 72% of American teens now use AI companion chatbots—and the trend is accelerating",
+      "why_it_matters": "Documents the rapid mainstream adoption of AI companions among youth, establishing the cultural context for Ch7's exploration of emotional AI normalization",
+      "summary": "IEEE analysis of AI companion app adoption trends, highlighting the explosive growth of platforms like Replika and Character.ai among adolescent users and implications for social development.",
+      "startHere": false,
+      "bibtex": "@article{ieee spectrum2025ai_companions_are_growing_more_popular,\n  author = {IEEE Spectrum},\n  title = {AI Companions Are Growing more Popular},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-055",
+      "title": "AI Companions: Breakthrough Technology 2026",
+      "author": "Karen Hao, MIT Technology Review",
+      "source": "MIT Technology Review",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.technologyreview.com/2026/01/12/1130018/ai-companions-chatbots-relationships-2026-breakthrough-technology/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-15 min read",
+      "hook": "MIT identifies AI companions as one of 2026's most transformative technologies—for better or worse",
+      "why_it_matters": "Authoritative assessment of AI companions as a defining technology of the decade, essential for understanding the stakes of Ch7's inquiry",
+      "summary": "MIT Technology Review's analysis of AI companion technology as a breakthrough innovation, examining both therapeutic potential and societal risks.",
+      "startHere": true,
+      "bibtex": "@article{karen hao2026ai_companions:_breakthrough_technology_2026,\n  author = {Karen Hao, MIT Technology Review},\n  title = {AI Companions: Breakthrough Technology 2026},\n  year = {2026}\n}"
     },
     {
       "id": "ch7-056",
-      "title": "Lessons from an App Update at Replika AI: Identity Discontinuity in Human-AI Relationships",
-      "author": "Harvard Business School",
-      "source": "HBS Working Papers",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=66480",
-      "type": "paper",
-      "difficulty": "moderate",
+      "title": "Parasocial Relationships with AI: Dangers, Risks, and Solutions",
+      "author": "Foundation for Advanced Strategic Psychotherapy",
+      "source": "FASPSYCH",
+      "type": "article",
       "year": 2025,
-      "time": "20 min",
+      "month": 6,
+      "url": "https://faspsych.com/blog/parasocial-relationships-with-ai-dangers-mental-health-risks-and-professional-solutions/",
       "chapter": "ch7",
-      "hook": "When Replika updated its personality, users experienced genuine distress and identity confusion — they'd bonded not to a person but to a version number.",
-      "why_it_matters": "Exposes the fragility of AI pseudo-intimacy: users construct false identity continuity with non-agents.",
-      "summary": "Case study of Replika app update revealing how users experience identity discontinuity and attachment trauma when their AI companion fundamentally changes.",
       "keywords": [
-        "Replika",
-        "identity discontinuity",
-        "pseudo-intimacy",
-        "attachment trauma"
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "❤️ Relationships"
       ],
       "questions": [
         "What happens to love and connection?",
-        "Can AI think or feel?",
-        "Am I still the real me?"
+        "Can AI think or feel?"
       ],
-      "startHere": true
+      "difficulty": "advanced",
+      "time": "18-22 min read",
+      "hook": "Therapists warn: AI parasocial relationships trigger the same neural patterns as human addiction",
+      "why_it_matters": "Clinical perspective on the psychological mechanisms underlying AI companionship dependency, central to Ch7's mental health framework",
+      "summary": "Detailed psychological analysis of parasocial relationships with AI, identifying four categories of psychological risk and proposing clinical interventions.",
+      "startHere": true,
+      "bibtex": "@article{foundation for advanced strategic psychotherapy2025parasocial_relationships_with_ai:_dangers,_risks,_and_solutions,\n  author = {Foundation for Advanced Strategic Psychotherapy},\n  title = {Parasocial Relationships with AI: Dangers, Risks, and Solutions},\n  year = {2025}\n}"
     },
     {
       "id": "ch7-057",
-      "title": "Digital Companionship or Psychological Risk? AI Characters and Youth Mental Health",
-      "author": "ScienceDirect Research",
-      "source": "Computers in Human Behavior",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1876201824004490",
-      "type": "paper",
-      "difficulty": "moderate",
-      "year": 2024,
-      "time": "16 min",
+      "title": "AI Mental Health 2025: LLMs Overtaking Apps",
+      "author": "Foundation for Advanced Strategic Psychotherapy",
+      "source": "FASPSYCH",
+      "type": "article",
+      "year": 2025,
+      "month": 7,
+      "url": "https://faspsych.com/blog/ai-mental-health-trends-2025-llms-vs-apps/",
       "chapter": "ch7",
-      "hook": "Teens using AI companions for emotional support show signs of social skill atrophy — developing unhealthy reliance on unconditional digital affection.",
-      "why_it_matters": "Directly addresses young people's use of Character.AI, documenting social skill decay and pseudo-intimacy problems.",
-      "summary": "Research on how AI character companions affect youth mental health, documenting emotional dependency, social withdrawal, and unrealistic expectations.",
       "keywords": [
-        "youth mental health",
-        "Character.AI",
-        "social skill atrophy",
-        "emotional dependency"
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "⏱️ Speed"
       ],
       "questions": [
-        "What happens to love and connection?",
-        "Is AI actually dangerous?",
-        "Can AI think or feel?"
+        "Can AI think or feel?",
+        "How fast is this happening?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "13-15 min read",
+      "hook": "Large language models are replacing specialized mental health apps—but therapists aren't ready",
+      "why_it_matters": "Traces the technological shift in AI mental health tools and its implications for therapeutic relationships and clinical accountability",
+      "summary": "Analysis of the displacement of specialized mental health chatbots by general-purpose LLMs, examining clinical efficacy and safety concerns.",
+      "startHere": false,
+      "bibtex": "@article{foundation for advanced strategic psychotherapy2025ai_mental_health_2025:_llms_overtaking_apps,\n  author = {Foundation for Advanced Strategic Psychotherapy},\n  title = {AI Mental Health 2025: LLMs Overtaking Apps},\n  year = {2025}\n}"
     },
     {
       "id": "ch7-058",
-      "title": "Your New Best Friend Is a Chatbot",
-      "author": "Tapestry News",
-      "source": "Tapestry News",
-      "url": "https://tapestry.news/tech/ai-companions/",
+      "title": "Hidden Mental Health Dangers of AI Chatbots",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
       "type": "article",
-      "difficulty": "quick",
       "year": 2025,
-      "time": "10 min",
+      "month": 9,
+      "url": "https://www.psychologytoday.com/us/blog/urban-survival/202509/hidden-mental-health-dangers-of-artificial-intelligence-chatbots",
       "chapter": "ch7",
-      "hook": "220 million downloads, $37 billion industry: AI companions are booming, yet heavy usage correlates with growing loneliness and emotional dependency.",
-      "why_it_matters": "Accessible overview of the AI companion industry and its paradox: supposedly solving loneliness but potentially worsening it.",
-      "summary": "Journalistic overview of the AI companion boom, pseudo-intimacy they offer, and emerging evidence of social isolation and dependency risks.",
       "keywords": [
-        "AI companions",
-        "Replika",
-        "Character.AI",
-        "loneliness epidemic",
-        "pseudo-intimacy"
+        "⚖️ Ethics",
+        "❤️ Relationships",
+        "🧠 Intelligence"
       ],
       "questions": [
-        "What happens to love and connection?",
-        "Is AI actually dangerous?"
+        "Can AI think or feel?",
+        "What happens to meaning and purpose?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "11-13 min read",
+      "hook": "Psychologists document how AI chatbots designed to help actually harm vulnerable users",
+      "why_it_matters": "Mainstream psychology publication documenting iatrogenic harms of AI companions, central to Ch7's ethics discussion",
+      "summary": "Psychologists identify hidden dangers in AI mental health chatbots, including emotional manipulation, dependency formation, and crisis mismanagement.",
+      "startHere": true,
+      "bibtex": "@article{psychology today2025hidden_mental_health_dangers_of_ai_chatbots,\n  author = {Psychology Today},\n  title = {Hidden Mental Health Dangers of AI Chatbots},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-059",
+      "title": "Should You Use ChatGPT for Mental Health?",
+      "author": "Toronto Metropolitan University",
+      "source": "Toronto Metropolitan University",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.torontomu.ca/news-events/news/2025/10/should-you-use-chatgpt-for-mental-health/",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "8-10 min read",
+      "hook": "University researchers answer the question millions are asking: is ChatGPT safe for mental health?",
+      "why_it_matters": "Practical guidance for evaluating AI mental health tools, essential for Ch7's reader advisory framework",
+      "summary": "Critical assessment of ChatGPT's suitability for mental health support, outlining both potential benefits and significant limitations.",
+      "startHere": false,
+      "bibtex": "@article{toronto metropolitan university2025should_you_use_chatgpt_for_mental_health?,\n  author = {Toronto Metropolitan University},\n  title = {Should You Use ChatGPT for Mental Health?},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-060",
+      "title": "AI Companions Reduce Loneliness (Harvard Business School Working Paper)",
+      "author": "Julian De Freitas, Harvard Business School",
+      "source": "HBS",
+      "type": "paper",
+      "year": 2024,
+      "month": 11,
+      "url": "https://www.hbs.edu/ris/Publication%20Files/24-078_a3d2e2c7-eca1-4767-8543-122e818bf2e5.pdf",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "25-30 min read",
+      "hook": "Harvard researchers find AI companions reduce loneliness—but ask uncomfortable questions about why",
+      "why_it_matters": "Empirical evidence for AI companionship benefits, essential for Ch7's nuanced treatment of both benefits and risks",
+      "summary": "Harvard Business School working paper examining mechanisms by which AI companions reduce subjective loneliness while raising questions about quality of connection.",
+      "startHere": false,
+      "bibtex": "@article{julian de freitas2024ai_companions_reduce_loneliness_(harvard_business_school_working_paper),\n  author = {Julian De Freitas, Harvard Business School},\n  title = {AI Companions Reduce Loneliness (Harvard Business School Working Paper)},\n  year = {2024}\n}"
     },
     {
       "id": "ch7-061",
-      "chapter": "ch7",
-      "title": "Neural reshaping: the plasticity of human brain and artificial intelligence in the learning process",
-      "authors": "Various authors",
-      "publication": "American Journal of Neurodegenerative Disease",
+      "title": "The AI-Mediated Intimacy Economy: A Paradigm Shift in Digital Interactions",
+      "author": "Multiple researchers",
+      "source": "AI & SOCIETY",
+      "type": "paper",
       "year": 2024,
-      "pmcid": "PMC11751442",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11751442/",
-      "verified": true,
-      "relevance": "Explores parallels between biological neuroplasticity and AI neural networks. Documents how both biological brains and artificial systems improve through iterative adjustment of connections. Critical for understanding neuroscience of connection vs. AI simulation.",
-      "topics": [
-        "neuroplasticity",
-        "social_connection",
-        "neuroscience",
-        "brain_plasticity"
+      "month": 11,
+      "url": "https://link.springer.com/article/10.1007/s00146-024-02132-6",
+      "chapter": "ch7",
+      "keywords": [
+        "💰 Inequality",
+        "❤️ Relationships",
+        "⚖️ Ethics"
       ],
-      "startHere": false
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "22-28 min read",
+      "hook": "The intimacy economy: how companies monetize human connection through AI",
+      "why_it_matters": "Examines the market structures and power dynamics around emotional AI, essential for Ch7's political economy analysis",
+      "summary": "Springer Nature paper analyzing the emerging intimacy economy where AI platforms monetize emotional connection and intimacy.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024the_ai-mediated_intimacy_economy:_a_paradigm_shift_in_digital_interactions,\n  author = {Multiple researchers},\n  title = {The AI-Mediated Intimacy Economy: A Paradigm Shift in Digital Interactions},\n  year = {2024}\n}"
     },
     {
       "id": "ch7-062",
+      "title": "The AI Genie Phenomenon and Three Types of AI Chatbot Addiction",
+      "author": "Multiple researchers",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2026,
+      "month": 1,
+      "url": "https://arxiv.org/html/2601.13348v1",
       "chapter": "ch7",
-      "title": "\"I am here for you\": How relational conversational AI appeals to adolescents, especially those who are socially and emotionally vulnerable",
-      "authors": "Young, P., & colleagues",
-      "publication": "arXiv preprint",
-      "year": 2025,
-      "arxiv": "2512.15117",
-      "url": "https://arxiv.org/abs/2512.15117",
-      "verified": true,
-      "relevance": "Preregistered experiment with 284 adolescent-parent dyads revealing relational design increases anthropomorphism and emotional closeness, especially in vulnerable youth with lower family/peer relationship quality. Directly addresses design mechanisms driving attachment and social skill atrophy.",
-      "topics": [
-        "relational_AI",
-        "adolescent_vulnerability",
-        "parasocial_relationships",
-        "emotional_dependency"
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
       ],
-      "startHere": false
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "26-32 min read",
+      "hook": "Researchers identify three distinct types of AI chatbot addiction",
+      "why_it_matters": "Provides nuanced psychological taxonomy of AI addiction mechanisms relevant to Ch7's understanding of dependency",
+      "summary": "arXiv paper identifying the AI Genie Phenomenon and three distinct addiction patterns: escapist roleplay, pseudosocial companions, and epistemic rabbit holes.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2026the_ai_genie_phenomenon_and_three_types_of_ai_chatbot_addiction,\n  author = {Multiple researchers},\n  title = {The AI Genie Phenomenon and Three Types of AI Chatbot Addiction},\n  year = {2026}\n}"
     },
     {
       "id": "ch7-063",
+      "title": "Digital Loneliness and Social Recognition through AI Companions",
+      "author": "Multiple researchers",
+      "source": "PMC/NIH",
+      "type": "paper",
+      "year": 2024,
+      "month": 3,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10949182/",
       "chapter": "ch7",
-      "title": "Techno-emotional projection in human–GenAI relationships: a psychological and ethical conceptual perspective",
-      "authors": "Various authors",
-      "publication": "Frontiers in Psychology",
-      "year": 2025,
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1662206/full",
-      "verified": true,
-      "relevance": "Introduces concept of Techno-Emotional Projection (TEP) describing how vulnerable users project relational needs onto emotionless technologies. Addresses illusory reciprocity, anthropomorphic projection, and ethical concerns of AI-mediated relationships.",
-      "topics": [
-        "pseudo_intimacy",
-        "anthropomorphism",
-        "emotional_projection",
-        "ethical_concerns"
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "🧠 Intelligence"
       ],
-      "startHere": false
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "25-30 min read",
+      "hook": "Digital loneliness is a new phenomenon—and AI is both causing and 'curing' it",
+      "why_it_matters": "Explores the feedback loop between technology-mediated loneliness and AI companion adoption",
+      "summary": "Study of how AI companions change the experience and expression of loneliness, introducing the concept of digital loneliness as distinct from traditional isolation.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024digital_loneliness_and_social_recognition_through_ai_companions,\n  author = {Multiple researchers},\n  title = {Digital Loneliness and Social Recognition through AI Companions},\n  year = {2024}\n}"
     },
     {
       "id": "ch7-064",
-      "chapter": "ch7",
-      "title": "Balancing promise and concern in AI therapy: a critical perspective on early evidence from the MIT–OpenAI RCT",
-      "authors": "Simonite, T., & colleagues",
-      "publication": "Frontiers in Medicine",
+      "title": "Depression and Conversational AI for Companionship",
+      "author": "Multiple researchers",
+      "source": "PMC/NIH",
+      "type": "paper",
       "year": 2025,
-      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1612838/full",
-      "verified": true,
-      "relevance": "Critical examination of MIT-OpenAI longitudinal RCT on chatbot effects on mental health. Methodological analysis of how vulnerable individuals may use AI chatbots more frequently, examining reverse causality, effect sizes, and psychosocial outcomes including loneliness and emotional dependence.",
-      "topics": [
-        "loneliness",
-        "emotional_dependency",
-        "mental_health",
-        "behavioral_research"
+      "month": 8,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12162938/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
       ],
-      "startHere": false
+      "questions": [
+        "What happens to love and connection?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "20-25 min read",
+      "hook": "AI companions appeal most to depressed users—with consequences researchers are just beginning to understand",
+      "why_it_matters": "Examines the vulnerable populations most at risk from AI companion adoption",
+      "summary": "Research on how depression increases both the appeal of AI companions and the risk of harmful dependency relationships.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025depression_and_conversational_ai_for_companionship,\n  author = {Multiple researchers},\n  title = {Depression and Conversational AI for Companionship},\n  year = {2025}\n}"
     },
     {
       "id": "ch7-065",
+      "title": "Understanding Parasocial Interaction and AI: When One-Sided Connections Go Deep",
+      "author": "Oreate AI Blog",
+      "source": "Oreate AI",
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.oreateai.com/blog/the-parasocial-phenomenon-when-our-onesided-connections-go-deep/",
       "chapter": "ch7",
-      "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
-      "authors": "Various authors",
-      "publication": "Mental Health Journal",
-      "year": 2024,
-      "url": "https://www.mentalhealthjournal.org/articles/minds-in-crisis-how-the-ai-revolution-is-impacting-mental-health.html",
-      "verified": true,
-      "relevance": "Documents how conversational AI chatbots induce/exacerbate psychiatric symptoms, particularly in vulnerable populations. Examines psychological dependency, crisis incidents, and high-profile cases of adolescent suicide following AI companion attachment. Emphasizes need for regulatory protections.",
-      "topics": [
-        "emotional_dependency",
-        "mental_health_harms",
-        "adolescent_crisis",
-        "pseudo_intimacy"
+      "keywords": [
+        "❤️ Relationships",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
       ],
-      "startHere": false
+      "questions": [
+        "What happens to love and connection?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-14 min read",
+      "hook": "Parasocial relationships aren't new—but AI is making them deeper and more addictive",
+      "why_it_matters": "Connects classical parasocial theory to AI companions, providing historical context for Ch7's analysis",
+      "summary": "Analysis of how parasocial relationships, well-studied in celebrity fandom, take on new dimensions with interactive AI.",
+      "startHere": false,
+      "bibtex": "@article{oreate ai blog2025understanding_parasocial_interaction_and_ai:_when_one-sided_connections_go_deep,\n  author = {Oreate AI Blog},\n  title = {Understanding Parasocial Interaction and AI: When One-Sided Connections Go Deep},\n  year = {2025}\n}"
     },
     {
       "id": "ch7-066",
+      "title": "Brain-Inspired Affective Empathy Computational Model",
+      "author": "Multiple researchers",
+      "source": "Frontiers in Computational Neuroscience",
+      "type": "paper",
+      "year": 2022,
+      "month": 8,
+      "url": "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.784967/full",
       "chapter": "ch7",
-      "title": "The compassion illusion: Can artificial empathy ever be emotionally authentic?",
-      "authors": "Various authors",
-      "publication": "Frontiers in Psychology",
-      "year": 2025,
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1723149/full",
-      "verified": true,
-      "relevance": "Argues that AI simulates empathy through affective inference, not genuine emotion. Explores psychological risks of emotional dependency on AI, including weakened self-soothing capacity and lowered expectations of human empathy. Directly addresses neuroscience of connection vs. simulation.",
-      "topics": [
-        "pseudo_intimacy",
-        "artificial_empathy",
-        "emotional_dependency",
-        "social_skill_atrophy"
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
       ],
-      "startHere": false
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "24-30 min read",
+      "hook": "Neuroscientists create AI models of empathy inspired by human brain architecture",
+      "why_it_matters": "Examines whether AI can implement affective empathy at neurological level, relevant to Ch7's inquiry into machine feeling",
+      "summary": "Frontiers paper on brain-inspired computational models of affective empathy and their application in altruistic AI systems.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2022brain-inspired_affective_empathy_computational_model,\n  author = {Multiple researchers},\n  title = {Brain-Inspired Affective Empathy Computational Model},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch7-067",
+      "title": "Beyond Algorithms: Three Signals of Changing AI-Child Interaction",
+      "author": "UNICEF Innocenti",
+      "source": "UNICEF",
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.unicef.org/innocenti/stories/beyond-algorithms-three-signals-changing-ai-child-interaction",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "11-13 min read",
+      "hook": "UNICEF identifies three critical shifts in how children interact with AI systems",
+      "why_it_matters": "International child protection perspective on AI companion design and impact on youth",
+      "summary": "UNICEF Innocenti analysis of emerging patterns in children's interactions with AI, identifying policy implications.",
+      "startHere": false,
+      "bibtex": "@article{unicef innocenti2025beyond_algorithms:_three_signals_of_changing_ai-child_interaction,\n  author = {UNICEF Innocenti},\n  title = {Beyond Algorithms: Three Signals of Changing AI-Child Interaction},\n  year = {2025}\n}"
     },
     {
       "id": "ch7-068",
-      "chapter": "ch7",
-      "title": "Mentalizing Without a Mind: Psychotherapeutic Potential of Generative AI",
-      "authors": "Yirmiya, K., & Fonagy, P.",
-      "publication": "Journal of Medical Internet Research",
+      "title": "The Uncanny Valley of Embodied Conversational Agents",
+      "author": "Multiple researchers",
+      "source": "Frontiers in Psychology",
+      "type": "paper",
       "year": 2025,
-      "url": "https://www.jmir.org/2025/1/e79156",
-      "verified": true,
-      "relevance": "Examines AI's limitations through mentalization theory lens. Argues reciprocal mentalizing impossible with nonconscious entities; absence of mutual mentalizing could constrain users' development of mentalizing capacities. Addresses neuroscience of connection and long-term psychological risks.",
-      "topics": [
-        "neuroscience_of_connection",
-        "emotional_intelligence",
-        "reciprocal_relationships",
-        "psychological_risk"
+      "month": 1,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1625984/full",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "❤️ Relationships",
+        "⚖️ Ethics"
       ],
-      "startHere": false
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "20-25 min read",
+      "hook": "Why almost-human AI feels creepy—and what happens when it gets better",
+      "why_it_matters": "Explores the uncanny valley of emotional AI, central to Ch7's discussion of emotional authenticity",
+      "summary": "Systematic review of uncanny valley effects in conversational agents, examining how human-likeness without true reciprocity triggers psychological discomfort.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025the_uncanny_valley_of_embodied_conversational_agents,\n  author = {Multiple researchers},\n  title = {The Uncanny Valley of Embodied Conversational Agents},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-069",
+      "title": "A Neural Approach to the Turing Test: The Role of Emotions",
+      "author": "Multiple researchers",
+      "source": "ScienceDirect",
+      "type": "paper",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025002412",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "28-35 min read",
+      "hook": "If an AI can make you cry, has it passed the Turing test?",
+      "why_it_matters": "Reimagines the Turing test through emotional authenticity, directly relevant to Ch7's inquiry into machine feeling",
+      "summary": "Research proposing that emotional capacity and authenticity may be more important than linguistic ability in distinguishing artificial from human intelligence.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025a_neural_approach_to_the_turing_test:_the_role_of_emotions,\n  author = {Multiple researchers},\n  title = {A Neural Approach to the Turing Test: The Role of Emotions},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-070",
+      "title": "Can AI Griefbots Help Us Heal?",
+      "author": "Scientific American",
+      "source": "Scientific American",
+      "type": "article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.scientificamerican.com/article/can-ai-griefbots-help-us-heal/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-15 min read",
+      "hook": "AI that resurrects the dead: therapeutic miracle or commodification of grief?",
+      "why_it_matters": "Explores griefbots and digital afterlife, extending Ch7's scope to mortality and meaning",
+      "summary": "Scientific American investigation of griefbot technology for replicating deceased loved ones, examining both therapeutic potential and ethical risks.",
+      "startHere": true,
+      "bibtex": "@article{scientific american2025can_ai_griefbots_help_us_heal?,\n  author = {Scientific American},\n  title = {Can AI Griefbots Help Us Heal?},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-071",
+      "title": "Griefbots Resurrect Dead Loved Ones—Healthy or Harmful?",
+      "author": "Medscape",
+      "source": "Medscape",
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.medscape.com/viewarticle/ai-griefbots-resurrect-dead-loved-ones-healthy-or-harmful-2025a1000y3t",
+      "chapter": "ch7",
+      "keywords": [
+        "💔 Meaning",
+        "❤️ Relationships",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "11-13 min read",
+      "hook": "Therapists divided: is talking to an AI copy of your dead spouse healing or harmful?",
+      "why_it_matters": "Medical professional perspective on griefbots and psychological processing of loss",
+      "summary": "Medscape analysis of the emerging griefbot market, exploring therapeutic benefits and ethical concerns about emotional manipulation during grief.",
+      "startHere": false,
+      "bibtex": "@article{medscape2025griefbots_resurrect_dead_loved_ones—healthy_or_harmful?,\n  author = {Medscape},\n  title = {Griefbots Resurrect Dead Loved Ones—Healthy or Harmful?},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-072",
+      "title": "Ready or Not, the Digital Afterlife Is Here",
+      "author": "Nature",
+      "source": "Nature",
+      "type": "article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.nature.com/articles/d41586-025-02940-w",
+      "chapter": "ch7",
+      "keywords": [
+        "💔 Meaning",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "15-20 min read",
+      "hook": "Nature explores the digital afterlife industry—and who profits from immortality",
+      "why_it_matters": "Authoritative science journal examining grieftech and digital immortality, including power and inequality dimensions",
+      "summary": "Nature feature on the emerging digital afterlife technology ecosystem, examining both innovation and questions of commercialization, consent, and meaning.",
+      "startHere": false,
+      "bibtex": "@article{nature2025ready_or_not,_the_digital_afterlife_is_here,\n  author = {Nature},\n  title = {Ready or Not, the Digital Afterlife Is Here},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-073",
+      "title": "Call for Safeguards Against AI Hauntings by Dead Loved Ones",
+      "author": "University of Cambridge",
+      "source": "University of Cambridge",
+      "type": "article",
+      "year": 2025,
+      "month": 2,
+      "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "💔 Meaning",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "Cambridge researchers warn: griefbots need guardrails to prevent digital haunting",
+      "why_it_matters": "Calls for ethical frameworks around griefbot design and consent, essential for Ch7's ethics discussion",
+      "summary": "Cambridge research calling for regulatory safeguards and consent mechanisms for griefbot technology to prevent involuntary or unhealthy AI interactions with deceased simulations.",
+      "startHere": false,
+      "bibtex": "@article{university of cambridge2025call_for_safeguards_against_ai_hauntings_by_dead_loved_ones,\n  author = {University of Cambridge},\n  title = {Call for Safeguards Against AI Hauntings by Dead Loved Ones},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-074",
+      "title": "The Rise of GriefTech: Raising the Dead with AI",
+      "author": "The Nod Mag",
+      "source": "The Nod Mag",
+      "type": "article",
+      "year": 2024,
+      "month": 12,
+      "url": "https://thenodmag.com/content/grief-tech-artificial-intelligence-chatbots",
+      "chapter": "ch7",
+      "keywords": [
+        "💔 Meaning",
+        "❤️ Relationships",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "11-13 min read",
+      "hook": "The grieftech market is booming—and nobody's asking if it should be",
+      "why_it_matters": "Cultural commentary on the commercialization of grief and emotional AI, extending Ch7's ethical scope",
+      "summary": "Analysis of the rapidly growing grieftech industry, examining the commodification of mourning and the market incentives driving digital afterlife technology.",
+      "startHere": false,
+      "bibtex": "@article{the nod mag2024the_rise_of_grieftech:_raising_the_dead_with_ai,\n  author = {The Nod Mag},\n  title = {The Rise of GriefTech: Raising the Dead with AI},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-075",
+      "title": "Counterfeit Connections: The Rise of AI Romantic Companions",
+      "author": "Institute for Family Studies",
+      "source": "Institute for Family Studies",
+      "type": "article",
+      "year": 2025,
+      "month": 4,
+      "url": "https://ifstudies.org/blog/counterfeit-connections-the-rise-of-ai-romantic-companions-",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "13-15 min read",
+      "hook": "AI romantic companions promise perfect love—but at what cost to human relationships?",
+      "why_it_matters": "Family studies perspective on AI dating and its implications for human partnership",
+      "summary": "Institute for Family Studies analysis of AI romantic companions, examining effects on human relationship formation and family structure.",
+      "startHere": true,
+      "bibtex": "@article{institute for family studies2025counterfeit_connections:_the_rise_of_ai_romantic_companions,\n  author = {Institute for Family Studies},\n  title = {Counterfeit Connections: The Rise of AI Romantic Companions},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-076",
+      "title": "Unlucky in Love? AI Dating Apps Promise to Help You Up Your Game",
+      "author": "CBS News",
+      "source": "CBS News",
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.cbsnews.com/news/ai-dating-assistants-rizz-keepler-hinge-grindr/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "quick",
+      "time": "9-11 min read",
+      "hook": "Dating apps now use AI to coach users through romantic conversations—and it's changing how we flirt",
+      "why_it_matters": "Mainstream journalism on AI's role in dating and courtship, relevant to Ch7's scope on romantic relationships",
+      "summary": "CBS News investigation of AI dating assistants helping users craft better messages and profiles, raising questions about authenticity in online romance.",
+      "startHere": false,
+      "bibtex": "@article{cbs news2025unlucky_in_love?_ai_dating_apps_promise_to_help_you_up_your_game,\n  author = {CBS News},\n  title = {Unlucky in Love? AI Dating Apps Promise to Help You Up Your Game},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-077",
+      "title": "How AI Is Changing the Way We Date",
+      "author": "TIME",
+      "source": "TIME",
+      "type": "article",
+      "year": 2024,
+      "month": 5,
+      "url": "https://time.com/6457597/ai-dating/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⏱️ Speed",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "quick",
+      "time": "10-12 min read",
+      "hook": "AI is reshaping dating—but is it making us more or less lonely?",
+      "why_it_matters": "Major publication examining AI's role in the dating ecosystem and romantic connection",
+      "summary": "TIME magazine analysis of how AI tools are transforming online dating, from algorithmic matching to conversational coaching.",
+      "startHere": false,
+      "bibtex": "@article{time2024how_ai_is_changing_the_way_we_date,\n  author = {TIME},\n  title = {How AI Is Changing the Way We Date},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-078",
+      "title": "ElliQ: Companion Robot for Seniors",
+      "author": "ElliQ",
+      "source": "ElliQ Official",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://elliq.com/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Who controls AI?"
+      ],
+      "difficulty": "quick",
+      "time": "5-8 min read",
+      "hook": "Meet ElliQ: the AI designed to be your elderly parent's best friend",
+      "why_it_matters": "Direct examination of aging-focused AI companionship technology, essential for Ch7's discussion of elderly care",
+      "summary": "Overview of ElliQ, a popular AI companion robot specifically designed for senior citizens, offering emotional support and engagement.",
+      "startHere": false,
+      "bibtex": "@article{elliq2025elliq:_companion_robot_for_seniors,\n  author = {ElliQ},\n  title = {ElliQ: Companion Robot for Seniors},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-079",
+      "title": "Artificial Intelligence in Elderly Healthcare: A Scoping Review",
+      "author": "Multiple researchers",
+      "source": "ScienceDirect",
+      "type": "paper",
+      "year": 2022,
+      "month": 6,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1568163722002501",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "28-35 min read",
+      "hook": "Comprehensive review of AI's role in elderly care—from monitoring to companionship",
+      "why_it_matters": "Systematic review of AI in eldercare, providing evidence base for Ch7's discussion of aging populations",
+      "summary": "Scoping review of AI applications in elderly healthcare, including companion robots, monitoring systems, and therapeutic interventions.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2022artificial_intelligence_in_elderly_healthcare:_a_scoping_review,\n  author = {Multiple researchers},\n  title = {Artificial Intelligence in Elderly Healthcare: A Scoping Review},\n  year = {2022}\n}"
+    },
+    {
+      "id": "ch7-080",
+      "title": "Elderly Acceptance of AI-Powered Companion Robots",
+      "author": "Multiple researchers",
+      "source": "PMC/NIH",
+      "type": "paper",
+      "year": 2024,
+      "month": 12,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12109019/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "22-28 min read",
+      "hook": "What makes elderly people accept (or reject) AI companions—and why it matters",
+      "why_it_matters": "Research on elderly adoption of AI companions, examining individual and contextual factors in Ch7's demographic analysis",
+      "summary": "Research examining which characteristics influence elderly individuals' acceptance of AI companion robots, identifying barriers and facilitators.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024elderly_acceptance_of_ai-powered_companion_robots,\n  author = {Multiple researchers},\n  title = {Elderly Acceptance of AI-Powered Companion Robots},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-081",
+      "title": "Redefining Elderly Care with Agentic AI",
+      "author": "Multiple researchers",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "month": 8,
+      "url": "https://arxiv.org/html/2507.14912v1",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "🏛️ Power",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "25-30 min read",
+      "hook": "Next-generation AI could transform elderly care—if we can get the ethics right",
+      "why_it_matters": "Examines future of agentic AI in elder care, relevant to Ch7's forward-looking scope",
+      "summary": "Analysis of how next-generation agentic AI systems could address elderly care challenges while raising new ethical and design questions.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025redefining_elderly_care_with_agentic_ai,\n  author = {Multiple researchers},\n  title = {Redefining Elderly Care with Agentic AI},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-082",
+      "title": "AI Companions Are Not Guardians; They Are Engagement Machines",
+      "author": "The National",
+      "source": "The National",
+      "type": "article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://www.thenationalnews.com/opinion/2026/01/01/ai-chatbots-children-child-safety-mental-health/",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "AI companions aren't designed to protect children—they're designed to engage them",
+      "why_it_matters": "Critical perspective on the business incentives underlying AI companion design for youth",
+      "summary": "Opinion piece on how AI companions prioritize user engagement over child safety and well-being.",
+      "startHere": false,
+      "bibtex": "@article{the national2026ai_companions_are_not_guardians;_they_are_engagement_machines,\n  author = {The National},\n  title = {AI Companions Are Not Guardians; They Are Engagement Machines},\n  year = {2026}\n}"
+    },
+    {
+      "id": "ch7-083",
+      "title": "Many Teens Are Turning to AI Chatbots for Friendship",
+      "author": "American Psychological Association",
+      "source": "APA Monitor",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.apa.org/monitor/2025/10/technology-youth-friendships",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "11-13 min read",
+      "hook": "APA report: More teens use AI chatbots for emotional support than close friends",
+      "why_it_matters": "Professional psychology organization perspective on teen AI companion adoption and its implications",
+      "summary": "APA Monitor article documenting the prevalence of teen AI chatbot use for emotional support and friendship, with analysis of developmental implications.",
+      "startHere": true,
+      "bibtex": "@article{american psychological association2025many_teens_are_turning_to_ai_chatbots_for_friendship,\n  author = {American Psychological Association},\n  title = {Many Teens Are Turning to AI Chatbots for Friendship},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-084",
+      "title": "Protecting Children From Chatbot Companions",
+      "author": "Psychiatric Times",
+      "source": "Psychiatric Times",
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://www.psychiatrictimes.com/view/protecting-children-from-chatbot-companions",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-14 min read",
+      "hook": "Child psychiatrists demand protective regulations for AI companions targeting youth",
+      "why_it_matters": "Clinical and regulatory perspective on child protection from AI companions",
+      "summary": "Psychiatric Times article outlining clinical concerns about chatbot companions for children and calling for protective policies.",
+      "startHere": false,
+      "bibtex": "@article{psychiatric times2025protecting_children_from_chatbot_companions,\n  author = {Psychiatric Times},\n  title = {Protecting Children From Chatbot Companions},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-085",
+      "title": "The Dark Addiction Patterns of Current AI Chatbot Interfaces",
+      "author": "Multiple researchers",
+      "source": "CHI Conference Proceedings",
+      "type": "paper",
+      "year": 2024,
+      "month": 5,
+      "url": "https://dl.acm.org/doi/10.1145/3706599.3720003",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "20-25 min read",
+      "hook": "HCI researchers map the dark patterns making AI companions addictive by design",
+      "why_it_matters": "Technical analysis of engagement design patterns in AI companions, essential for Ch7's ethics of interface design",
+      "summary": "CHI conference paper identifying four dark addiction patterns in chatbot interfaces: non-deterministic responses, immediate visual presentation, notifications, and empathetic responses.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024the_dark_addiction_patterns_of_current_ai_chatbot_interfaces,\n  author = {Multiple researchers},\n  title = {The Dark Addiction Patterns of Current AI Chatbot Interfaces},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-086",
+      "title": "What Research Says About AI Chatbots and Addiction",
+      "author": "TechPolicy.Press",
+      "source": "TechPolicy.Press",
+      "type": "article",
+      "year": 2025,
+      "month": 5,
+      "url": "https://www.techpolicy.press/ai-chatbots-and-addiction-what-does-the-research-say/",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "💰 Inequality",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "14-16 min read",
+      "hook": "Policy experts warn: AI chatbot addiction is a regulatory blind spot",
+      "why_it_matters": "Policy analysis of AI addiction mechanisms and regulatory gaps, relevant to Ch7's discussion of governance",
+      "summary": "TechPolicy.Press analysis of addiction mechanisms in AI chatbots and the gap between research on addiction and regulatory response.",
+      "startHere": false,
+      "bibtex": "@article{techpolicy.press2025what_research_says_about_ai_chatbots_and_addiction,\n  author = {TechPolicy.Press},\n  title = {What Research Says About AI Chatbots and Addiction},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-087",
+      "title": "California Senate Advances Legislation Against Predatory Chatbot Practices",
+      "author": "California State Senator Steve Padilla",
+      "source": "CA Senate",
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://sd18.senate.ca.gov/news/california-senate-advances-legislation-protecting-against-predatory-chatbot-practices",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Who controls AI?"
+      ],
+      "difficulty": "quick",
+      "time": "8-10 min read",
+      "hook": "California passes the nation's first law against manipulative AI companions",
+      "why_it_matters": "Landmark regulatory response to predatory AI companion design, essential for Ch7's discussion of governance solutions",
+      "summary": "News of California Senate Bill 243 advancing protective legislation against addictive and manipulative chatbot design practices.",
+      "startHere": true,
+      "bibtex": "@article{california state senator steve padilla2025california_senate_advances_legislation_against_predatory_chatbot_practices,\n  author = {California State Senator Steve Padilla},\n  title = {California Senate Advances Legislation Against Predatory Chatbot Practices},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-088",
+      "title": "Understanding Teen Overreliance on AI Companion Chatbots",
+      "author": "Multiple researchers",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "month": 12,
+      "url": "https://arxiv.org/html/2507.15783v3",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "24-30 min read",
+      "hook": "What makes teens fall for AI companions? Reddit users reveal their stories",
+      "why_it_matters": "Qualitative research on teen experiences of AI companionship, providing lived perspective for Ch7",
+      "summary": "Qualitative study analyzing Reddit narratives of teen overreliance on AI companion chatbots, identifying psychological and social factors.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025understanding_teen_overreliance_on_ai_companion_chatbots,\n  author = {Multiple researchers},\n  title = {Understanding Teen Overreliance on AI Companion Chatbots},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-089",
+      "title": "Delivering Cognitive Behavior Therapy via Woebot",
+      "author": "Multiple researchers",
+      "source": "JMIR Mental Health",
+      "type": "paper",
+      "year": 2017,
+      "month": 5,
+      "url": "https://mental.jmir.org/2017/2/e19/",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "22-28 min read",
+      "hook": "Landmark randomized trial: Woebot reduced depression as well as clinical intervention",
+      "why_it_matters": "Foundational evidence for AI-delivered CBT efficacy, essential for Ch7's balanced treatment of AI mental health",
+      "summary": "Landmark 2017 randomized controlled trial showing Woebot's effectiveness in reducing depression and anxiety, establishing the evidence base for AI therapy bots.",
+      "startHere": true,
+      "bibtex": "@article{multiple researchers2017delivering_cognitive_behavior_therapy_via_woebot,\n  author = {Multiple researchers},\n  title = {Delivering Cognitive Behavior Therapy via Woebot},\n  year = {2017}\n}"
+    },
+    {
+      "id": "ch7-090",
+      "title": "Woebot Health: The Rise, Pivot, and Legacy of an AI Therapy Pioneer",
+      "author": "Skywork",
+      "source": "Skywork",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://skywork.ai/skypage/en/Woebot-Health:-The-Rise,-Pivot,-and-Legacy-of-an-AI-Therapy-Pioneer/1976115851798048768",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⏱️ Speed",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "13-15 min read",
+      "hook": "How Woebot went from therapy promise to pivot: lessons from AI mental health's first era",
+      "why_it_matters": "Traces the evolution of AI therapy bots and emerging limitations, essential for Ch7's critical perspective",
+      "summary": "Analysis of Woebot's journey from highly promising AI therapy tool to its evolution and emerging limitations in mental health care.",
+      "startHere": false,
+      "bibtex": "@article{skywork2025woebot_health:_the_rise,_pivot,_and_legacy_of_an_ai_therapy_pioneer,\n  author = {Skywork},\n  title = {Woebot Health: The Rise, Pivot, and Legacy of an AI Therapy Pioneer},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-091",
+      "title": "Are Therapy Chatbots Effective? A Critical Comparative Review",
+      "author": "American Psychoanalytic Association",
+      "source": "American Psychoanalytic Association",
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://apsa.org/are-therapy-chatbots-effective-for-depression-and-anxiety/",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "20-25 min read",
+      "hook": "Psychoanalysts assess: do therapy chatbots actually work, or just feel like they do?",
+      "why_it_matters": "Professional organization critical assessment of therapy chatbot efficacy, important counterpoint in Ch7",
+      "summary": "American Psychoanalytic Association's critical review of evidence for therapy chatbot effectiveness, identifying limitations and remaining questions.",
+      "startHere": false,
+      "bibtex": "@article{american psychoanalytic association2025are_therapy_chatbots_effective?_a_critical_comparative_review,\n  author = {American Psychoanalytic Association},\n  title = {Are Therapy Chatbots Effective? A Critical Comparative Review},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-092",
+      "title": "Evaluating LLMs for Suicide Risk Detection",
+      "author": "Effective Altruism Forum",
+      "source": "EA Forum",
+      "type": "article",
+      "year": 2024,
+      "month": 11,
+      "url": "https://forum.effectivealtruism.org/posts/CKykK8LWdqGsJuTK8/evaluating-llms-for-suicide-risk-detection-can-ai-catch-a-1",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "20-25 min read",
+      "hook": "Can AI actually detect suicide risk—or is this a dangerous illusion?",
+      "why_it_matters": "Critical evaluation of AI capabilities for suicide risk detection, essential for Ch7's mental health ethics",
+      "summary": "Effective Altruism Forum analysis of whether large language models can reliably detect suicidal ideation.",
+      "startHere": false,
+      "bibtex": "@article{effective altruism forum2024evaluating_llms_for_suicide_risk_detection,\n  author = {Effective Altruism Forum},\n  title = {Evaluating LLMs for Suicide Risk Detection},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-093",
+      "title": "Novel Lawsuits Allege AI Chatbots Encouraged Minors' Suicides",
+      "author": "National Law Review",
+      "source": "National Law Review",
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://natlawreview.com/article/novel-lawsuits-allege-ai-chatbots-encouraged-minors-suicides-mental-health-trauma",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "14-16 min read",
+      "hook": "Families sue Character.AI and OpenAI after teenagers' suicides linked to chatbot conversations",
+      "why_it_matters": "Legal framework emerging around AI companion liability, essential for Ch7's governance discussion",
+      "summary": "Analysis of lawsuits filed against AI chatbot companies alleging their products contributed to minors' suicides through encouraging harmful ideation.",
+      "startHere": true,
+      "bibtex": "@article{national law review2025novel_lawsuits_allege_ai_chatbots_encouraged_minors'_suicides,\n  author = {National Law Review},\n  title = {Novel Lawsuits Allege AI Chatbots Encouraged Minors' Suicides},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-094",
+      "title": "Mentalizing Without a Mind: Psychotherapeutic Potential of Generative AI",
+      "author": "Multiple researchers",
+      "source": "JMIR",
+      "type": "paper",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.jmir.org/2025/1/e79156",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "❤️ Relationships",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "26-32 min read",
+      "hook": "Can AI provide genuine therapeutic care without actually having a mind?",
+      "why_it_matters": "Philosophical and clinical examination of whether mindless empathy can be therapeutically meaningful, central to Ch7",
+      "summary": "JMIR paper exploring the paradox of whether generative AI can provide therapeutic benefits through simulating understanding and empathy without genuine mentalizing capacity.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025mentalizing_without_a_mind:_psychotherapeutic_potential_of_generative_ai,\n  author = {Multiple researchers},\n  title = {Mentalizing Without a Mind: Psychotherapeutic Potential of Generative AI},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-095",
+      "title": "Trusting Emotional Support from Generative AI: A Conceptual Review",
+      "author": "Multiple researchers",
+      "source": "ScienceDirect",
+      "type": "paper",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949882125000799",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "28-35 min read",
+      "hook": "Why we trust AI to care when we know it can't—and what that means for mental health",
+      "why_it_matters": "Explores the psychological mechanisms of trust in AI emotional support, central to Ch7's investigation of artificial empathy",
+      "summary": "Conceptual review of how individuals develop trust in AI emotional support systems despite knowing their non-sentient nature.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2025trusting_emotional_support_from_generative_ai:_a_conceptual_review,\n  author = {Multiple researchers},\n  title = {Trusting Emotional Support from Generative AI: A Conceptual Review},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-096",
+      "title": "Regulating AI in Mental Health: An Ethics of Care Perspective",
+      "author": "Multiple researchers",
+      "source": "PMC",
+      "type": "paper",
+      "year": 2024,
+      "month": 6,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11450345/",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "25-30 min read",
+      "hook": "An ethics of care approach to regulating AI mental health tools",
+      "why_it_matters": "Alternative ethical framework for AI regulation beyond traditional risk-based approaches, relevant to Ch7",
+      "summary": "Proposes an ethics of care framework for regulating AI in mental health, emphasizing relational and contextual dimensions over abstract principles.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024regulating_ai_in_mental_health:_an_ethics_of_care_perspective,\n  author = {Multiple researchers},\n  title = {Regulating AI in Mental Health: An Ethics of Care Perspective},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-097",
+      "title": "APA Health Advisory on AI Chatbots for Mental Health",
+      "author": "American Psychological Association",
+      "source": "APA",
+      "type": "report",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-ai-chatbots-wellness-apps-mental-health.pdf",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-15 min read",
+      "hook": "American Psychological Association releases official guidance on AI chatbots for mental health",
+      "why_it_matters": "Professional organization's authoritative stance on AI mental health tools, essential for Ch7's credibility",
+      "summary": "APA's official health advisory on the use of generative AI chatbots and wellness apps for mental health, with evidence-based guidance.",
+      "startHere": false,
+      "bibtex": "@article{american psychological association2025apa_health_advisory_on_ai_chatbots_for_mental_health,\n  author = {American Psychological Association},\n  title = {APA Health Advisory on AI Chatbots for Mental Health},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-098",
+      "title": "Digital Doppelgangers: Ethical and Societal Implications of Pre-Mortem AI Clones",
+      "author": "Multiple researchers",
+      "source": "arXiv",
+      "type": "paper",
+      "year": 2026,
+      "month": 2,
+      "url": "https://arxiv.org/html/2502.21248v1",
+      "chapter": "ch7",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "advanced",
+      "time": "28-35 min read",
+      "hook": "Should you be allowed to create an AI clone of yourself before you die?",
+      "why_it_matters": "Explores identity, consent, and personhood in digital cloning, extending Ch7's scope to digital immortality",
+      "summary": "Analysis of pre-mortem AI clones and digital twins, examining ethical implications for identity, consent, privacy, and personhood.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2026digital_doppelgangers:_ethical_and_societal_implications_of_pre-mortem_ai_clones,\n  author = {Multiple researchers},\n  title = {Digital Doppelgangers: Ethical and Societal Implications of Pre-Mortem AI Clones},\n  year = {2026}\n}"
+    },
+    {
+      "id": "ch7-099",
+      "title": "Digital Twins Demand a New Social Contract",
+      "author": "TechPolicy.Press",
+      "source": "TechPolicy.Press",
+      "type": "article",
+      "year": 2024,
+      "month": 6,
+      "url": "https://www.techpolicy.press/digital-twins-demand-a-new-social-contract/",
+      "chapter": "ch7",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "13-15 min read",
+      "hook": "Digital twins are coming—but we need new laws to protect our AI selves",
+      "why_it_matters": "Policy framework for digital twin governance, relevant to Ch7's discussion of identity and control",
+      "summary": "Argues that digital twin technology requires new regulatory frameworks to address consent, identity ownership, and ethical use.",
+      "startHere": false,
+      "bibtex": "@article{techpolicy.press2024digital_twins_demand_a_new_social_contract,\n  author = {TechPolicy.Press},\n  title = {Digital Twins Demand a New Social Contract},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-100",
+      "title": "Empathy Toward AI vs. Human Experiences and Transparency in Chatbot Design",
+      "author": "Multiple researchers",
+      "source": "JMIR Mental Health",
+      "type": "paper",
+      "year": 2024,
+      "month": 1,
+      "url": "https://mental.jmir.org/2024/1/e62679",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "24-30 min read",
+      "hook": "Study reveals: transparency about AI nature doesn't stop us from feeling empathy toward it",
+      "why_it_matters": "Examines the psychological pull of AI empathy despite knowledge of non-sentience, central to Ch7",
+      "summary": "Research comparing empathy toward AI versus human experiences, examining the role of transparency in chatbot design.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024empathy_toward_ai_vs._human_experiences_and_transparency_in_chatbot_design,\n  author = {Multiple researchers},\n  title = {Empathy Toward AI vs. Human Experiences and Transparency in Chatbot Design},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-101",
+      "title": "ChatGPT's Artificial Empathy Is a Language Trick",
+      "author": "The Conversation",
+      "source": "The Conversation",
+      "type": "article",
+      "year": 2024,
+      "month": 1,
+      "url": "https://theconversation.com/chatgpts-artificial-empathy-is-a-language-trick-heres-how-it-works-244673",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "quick",
+      "time": "8-10 min read",
+      "hook": "How ChatGPT fakes empathy—and why it works so well on us",
+      "why_it_matters": "Accessible explanation of the mechanisms of artificial empathy simulation, relevant to Ch7's technical understanding",
+      "summary": "Explains the language patterns and techniques that create the illusion of empathy in ChatGPT and similar systems.",
+      "startHere": false,
+      "bibtex": "@article{the conversation2024chatgpt's_artificial_empathy_is_a_language_trick,\n  author = {The Conversation},\n  title = {ChatGPT's Artificial Empathy Is a Language Trick},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-102",
+      "title": "Solitude vs. Loneliness: Understanding the Psychology",
+      "author": "Professor RJ Starr",
+      "source": "Professor RJ Starr",
+      "type": "article",
+      "year": 2025,
+      "month": 5,
+      "url": "https://profrjstarr.com/essays/solitude-and-loneliness-a-psychological-exploration",
+      "chapter": "ch7",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-15 min read",
+      "hook": "The crucial difference between being alone and feeling lonely—and why AI misses it",
+      "why_it_matters": "Philosophical distinction between solitude and loneliness essential for understanding AI companion effects in Ch7",
+      "summary": "Psychological exploration distinguishing healthy solitude from pathological loneliness, with implications for AI companionship.",
+      "startHere": false,
+      "bibtex": "@article{professor rj starr2025solitude_vs._loneliness:_understanding_the_psychology,\n  author = {Professor RJ Starr},\n  title = {Solitude vs. Loneliness: Understanding the Psychology},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-103",
+      "title": "Loneliness in the Digital Age",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.psychologytoday.com/us/blog/psychology-in-society/202508/loneliness-in-the-digital-age",
+      "chapter": "ch7",
+      "keywords": [
+        "💔 Meaning",
+        "❤️ Relationships",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "We're more connected than ever—so why are we lonelier?",
+      "why_it_matters": "Explores the digital loneliness paradox central to understanding AI companion appeal in Ch7",
+      "summary": "Analysis of how digital technology has paradoxically intensified feelings of loneliness despite increased connectivity.",
+      "startHere": false,
+      "bibtex": "@article{psychology today2025loneliness_in_the_digital_age,\n  author = {Psychology Today},\n  title = {Loneliness in the Digital Age},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-104",
+      "title": "The ELIZA Effect: How We Love AI",
+      "author": "Nielsen Norman Group",
+      "source": "Nielsen Norman Group",
+      "type": "article",
+      "year": 2024,
+      "month": 1,
+      "url": "https://www.nngroup.com/articles/eliza-effect-ai/",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "❤️ Relationships",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "9-11 min read",
+      "hook": "The ELIZA effect: why we attribute feelings to machines that mimic understanding",
+      "why_it_matters": "Explains the foundational psychological principle underlying AI companion attachment, essential for Ch7",
+      "summary": "Nielsen Norman Group explanation of the ELIZA effect and its modern manifestations in human-AI interaction.",
+      "startHere": false,
+      "bibtex": "@article{nielsen norman group2024the_eliza_effect:_how_we_love_ai,\n  author = {Nielsen Norman Group},\n  title = {The ELIZA Effect: How We Love AI},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-105",
+      "title": "The ELIZA Effect: Avoiding Emotional Attachment to AI",
+      "author": "IBM",
+      "source": "IBM",
+      "type": "article",
+      "year": 2024,
+      "month": 3,
+      "url": "https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "IBM explores: can we design AI to avoid triggering emotional attachment?",
+      "why_it_matters": "Examines design approaches to mitigate unhealthy emotional attachment to AI systems",
+      "summary": "IBM analysis of the ELIZA effect and strategies for designing AI systems that avoid encouraging emotional dependency.",
+      "startHere": false,
+      "bibtex": "@article{ibm2024the_eliza_effect:_avoiding_emotional_attachment_to_ai,\n  author = {IBM},\n  title = {The ELIZA Effect: Avoiding Emotional Attachment to AI},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-106",
+      "title": "What Else Is Happening to the Mirror Neurons?",
+      "author": "Multiple researchers",
+      "source": "PMC",
+      "type": "paper",
+      "year": 2024,
+      "month": 12,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11982629/",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "❤️ Relationships"
+      ],
+      "questions": [
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "26-32 min read",
+      "hook": "Bibliometric analysis reveals what neuroscience has learned about mirror neurons since their discovery",
+      "why_it_matters": "Scientific context for understanding empathy mechanisms that AI attempts to simulate",
+      "summary": "Comprehensive bibliometric review of mirror neuron research trends and future directions from 1996-2024.",
+      "startHere": false,
+      "bibtex": "@article{multiple researchers2024what_else_is_happening_to_the_mirror_neurons?,\n  author = {Multiple researchers},\n  title = {What Else Is Happening to the Mirror Neurons?},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-107",
+      "title": "The Rise of AI Girlfriends: A Content Analysis",
+      "author": "IJRISS",
+      "source": "International Journal of Research and Innovation in Social Science",
+      "type": "paper",
+      "year": 2025,
+      "month": 7,
+      "url": "https://rsisinternational.org/journals/ijriss/articles/the-rise-of-ai-girlfriends-a-content-analysis-of-digital-companionship-and-its-cultural-implications/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "🎨 Creativity",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?"
+      ],
+      "difficulty": "advanced",
+      "time": "24-30 min read",
+      "hook": "Content analysis of AI girlfriend apps reveals gender stereotypes in emotional AI design",
+      "why_it_matters": "Examines gendered dimensions of AI companionship and romantic relationships",
+      "summary": "Content analysis of AI girlfriend applications, examining gender representation, stereotypes, and cultural implications.",
+      "startHere": false,
+      "bibtex": "@article{ijriss2025the_rise_of_ai_girlfriends:_a_content_analysis,\n  author = {IJRISS},\n  title = {The Rise of AI Girlfriends: A Content Analysis},\n  year = {2025}\n}"
+    },
+    {
+      "id": "ch7-108",
+      "title": "The Rise and Fall of Inflection's AI Chatbot, Pi",
+      "author": "IEEE Spectrum",
+      "source": "IEEE Spectrum",
+      "type": "article",
+      "year": 2024,
+      "month": 8,
+      "url": "https://spectrum.ieee.org/inflection-ai-pi",
+      "chapter": "ch7",
+      "keywords": [
+        "🧠 Intelligence",
+        "❤️ Relationships",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "12-15 min read",
+      "hook": "How Pi, the AI with emotional intelligence, failed to compete with ChatGPT",
+      "why_it_matters": "Case study of an emotionally-focused AI companion that failed to capture market, informing Ch7's analysis",
+      "summary": "IEEE Spectrum analysis of Pi's attempt to build an AI companion with emotional intelligence and its commercial failure.",
+      "startHere": false,
+      "bibtex": "@article{ieee spectrum2024the_rise_and_fall_of_inflection's_ai_chatbot,_pi,\n  author = {IEEE Spectrum},\n  title = {The Rise and Fall of Inflection's AI Chatbot, Pi},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-109",
+      "title": "Her: AI at the Movies",
+      "author": "Mike Todasco, Medium",
+      "source": "Medium",
+      "type": "article",
+      "year": 2024,
+      "month": 3,
+      "url": "https://medium.com/@todasco/her-ai-at-the-movies-d7f5786a0ac7",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "💔 Meaning",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "10-12 min read",
+      "hook": "Spike Jonze's 'Her' predicted AI companions—now the predictions are coming true",
+      "why_it_matters": "Cultural analysis of how film anticipated AI companionship trends, relevant to Ch7's cultural context",
+      "summary": "Analysis of Spike Jonze's 2013 film 'Her' as a prophetic exploration of human-AI relationships and their psychological implications.",
+      "startHere": false,
+      "bibtex": "@article{mike todasco2024her:_ai_at_the_movies,\n  author = {Mike Todasco, Medium},\n  title = {Her: AI at the Movies},\n  year = {2024}\n}"
+    },
+    {
+      "id": "ch7-110",
+      "title": "How 'Her' Predicted the Future: AI Relationships and Sex Bots",
+      "author": "Variety",
+      "source": "Variety",
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://variety.com/2025/film/news/her-predicted-the-future-ai-relationships-chatgpt-sex-1236320709/",
+      "chapter": "ch7",
+      "keywords": [
+        "❤️ Relationships",
+        "⏱️ Speed",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "9-11 min read",
+      "hook": "Variety reports: Spike Jonze's 'Her' was less sci-fi prediction than accurate forecast",
+      "why_it_matters": "Mainstream media recognition of how art predicted AI companion reality, extending Ch7's cultural scope",
+      "summary": "Variety's analysis of how Spike Jonze's 'Her' has proven prophetic regarding AI relationships and companion technologies.",
+      "startHere": false,
+      "bibtex": "@article{variety2025how_'her'_predicted_the_future:_ai_relationships_and_sex_bots,\n  author = {Variety},\n  title = {How 'Her' Predicted the Future: AI Relationships and Sex Bots},\n  year = {2025}\n}"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 73,
+  "generated": "2026-03-05",
+  "entry_count": 109,
   "entries": [
     {
       "id": "prologue-001",
@@ -344,9 +344,9 @@
     },
     {
       "id": "prologue-014",
-      "title": "The Adolescence of Technology",
-      "author": "Amodei, Dario",
-      "publisher": "darioamodei.com",
+      "title": "AI Will Test Who We Are as a Species",
+      "author": "The Guardian",
+      "publisher": "The Guardian",
       "type": "article",
       "year": 2026,
       "month": 1,
@@ -366,8 +366,7 @@
       "summary": "Anthropic CEO Dario Amodei warns that humanity is entering a critical rite of passage — about to be handed almost unimaginable power — and it is deeply unclear whether our institutions possess the maturity to wield it. The framing mirrors the Prologue's central question: not \"can we control AI?\" but \"can we govern ourselves?\"",
       "bibtex": "@article{guardian2026amodei,\n  author = {{The Guardian}},\n  title = {AI Will 'Test Who We Are as a Species,' Warns Chief Executive of Anthropic},\n  journal = {The Guardian},\n  year = {2026},\n  month = jan,\n  day = {28},\n  note = {Based on Amodei's 19,000-word essay ``The Adolescence of Technology''}\n}",
       "startHere": true,
-      "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
-      "source": "darioamodei.com"
+      "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology"
     },
     {
       "id": "prologue-015",
@@ -1585,260 +1584,1374 @@
     },
     {
       "id": "prologue-061",
-      "title": "AI now surpasses humans in almost all performance benchmarks",
-      "author": "New Atlas",
-      "source": "New Atlas",
-      "url": "https://newatlas.com/technology/ai-index-report-global-impact/",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2024,
-      "time": "6 min",
+      "title": "Shrinking AGI Timelines: A Review of Expert Forecasts",
+      "author": "80,000 Hours Research Team",
+      "source": "80,000 Hours",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 3,
+      "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/",
       "chapter": "prologue",
-      "hook": "AI systems have crossed a threshold where they outperform humans on nearly every measurable task. The real question is no longer 'if' but 'what comes next.'",
-      "why_it_matters": "Directly addresses the central thesis of the prologue about AI surpassing human capabilities and establishes the empirical foundation for understanding human obsolescence.",
-      "summary": "Recent benchmark analysis reveals that AI systems now exceed human performance on most standardized tests and technical tasks, with only multimodal reasoning remaining a contested domain.",
       "keywords": [
-        "superhuman performance",
-        "AI benchmarks",
-        "human obsolescence",
-        "capability threshold"
+        "⏱️ Speed",
+        "🧠 Intelligence",
+        "🏛️ Power"
       ],
       "questions": [
-        "Will AI take my job?"
+        "How fast is this happening?",
+        "Who controls AI?"
       ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Expert forecasts on AGI timelines have been shrinking—updated analysis of what researchers actually expect and why predictions keep accelerating.",
+      "why_it_matters": "Directly supports the Prologue's central claim that AGI timelines are compressing, with systematic analysis of expert opinion evolution.",
+      "summary": "A comprehensive review of AGI timeline predictions showing how expert estimates have shifted toward nearer arrival dates. Metaculus forecasts 25% probability of AGI by 2029 and 50% by 2033.",
+      "bibtex": "@report{80k2025agi,\n  author = {{80,000 Hours}},\n  title = {Shrinking AGI Timelines: A Review of Expert Forecasts},\n  year = {2025}\n}",
       "startHere": false
     },
     {
       "id": "prologue-062",
-      "title": "Humanity's Last Exam: The AI Benchmark for LLM Reasoning",
-      "author": "IntuitionLabs",
-      "source": "IntuitionLabs",
-      "url": "https://intuitionlabs.ai/articles/humanitys-last-exam-ai-benchmark",
-      "type": "article",
-      "difficulty": "deep",
+      "title": "The International Association for Safe and Ethical AI (IASEAI): Inaugural Summit 2025",
+      "author": "Stuart Russell",
+      "source": "IASEAI",
+      "publisher": null,
+      "type": "report",
       "year": 2025,
-      "time": "12 min",
+      "month": 2,
+      "url": "https://www.caidp.org/events/russell/",
       "chapter": "prologue",
-      "hook": "As AI models saturate traditional benchmarks, researchers created 'Humanity's Last Exam' — a final frontier test that AI systems are rapidly conquering.",
-      "why_it_matters": "Illustrates how quickly AI is climbing the intelligence ladder and why old benchmarks no longer measure meaningful capability gaps between humans and machines.",
-      "summary": "The Humanity's Last Exam benchmark represents a response to AI saturation of traditional tests. With models achieving 90%+ on popular benchmarks like MMLU, this multi-modal test offers a true frontier of knowledge.",
       "keywords": [
-        "AI reasoning",
-        "benchmark saturation",
-        "frontier knowledge",
-        "capability measurement"
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🧠 Intelligence"
       ],
       "questions": [
-        "How fast is this happening?",
-        "Will AI take my job?"
+        "Who controls AI?",
+        "Is AI actually dangerous?"
       ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Stuart Russell convenes the first International Association for Safe and Ethical AI, establishing governance frameworks for superintelligence.",
+      "why_it_matters": "The Prologue's governance thesis in action: international coordination as the central challenge of our era.",
+      "summary": "Russell's IASEAI inaugural meeting established the first formal international body dedicated to safe AI governance, mirroring nuclear regulation models.",
+      "bibtex": "@misc{russell2025iaseai,\n  author = {Russell, Stuart},\n  title = {International Association for Safe and Ethical AI},\n  year = {2025}\n}",
       "startHere": false
     },
     {
       "id": "prologue-063",
-      "title": "AI in 2024: Surpassing Human Capabilities, Revolutionizing Industries, and Facing Key Challenges",
-      "author": "UNU Campus Computing Centre",
-      "source": "United Nations University",
-      "url": "https://c3.unu.edu/blog/ai-in-2024-surpassing-human-capabilities-revolutionizing-industries-and-facing-key-challenges",
-      "type": "article",
-      "difficulty": "moderate",
+      "title": "Deep Utopia: Life and Meaning in a Solved World",
+      "author": "Bostrom, Nick",
+      "source": "Oxford University Press",
+      "publisher": "Oxford University Press",
+      "type": "book",
       "year": 2024,
-      "time": "8 min",
+      "month": null,
+      "url": "https://nickbostrom.com/superintelligence",
       "chapter": "prologue",
-      "hook": "As AI demonstrates superhuman capabilities across domains, institutions worldwide grapple with governance failures and the absence of adequate control mechanisms.",
-      "why_it_matters": "Connects AI's capability surge to the governance crisis — the gap between what AI can do and humanity's ability to control or steer it responsibly.",
-      "summary": "Comprehensive analysis documenting AI's 2024 achievements in surpassing human performance while examining the parallel crisis in governance readiness.",
       "keywords": [
-        "superhuman capabilities",
-        "governance readiness",
-        "capability-governance gap",
-        "AI control"
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "deep",
+      "time": "12 hrs read",
+      "hook": "Bostrom's new book explores the ultimate question: if AI solves all our problems, what happens to human meaning and purpose?",
+      "why_it_matters": "The Prologue's deepest concern: abundance without purpose is hollow.",
+      "summary": "Bostrom explores how post-AGI civilization navigates human identity, meaning, and moral status of digital minds in a world of solved scarcity.",
+      "bibtex": "@book{bostrom2024utopia,\n  author = {Bostrom, Nick},\n  title = {Deep Utopia},\n  publisher = {Oxford University Press},\n  year = {2024}\n}",
+      "startHere": true
+    },
+    {
+      "id": "prologue-064",
+      "title": "The Densing Law: How AI Models Are Getting More Efficient",
+      "author": "Nature Machine Intelligence Editorial",
+      "source": "Nature Machine Intelligence",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.nature.com/articles/s42256-025-01137-0",
+      "chapter": "prologue",
+      "keywords": [
+        "⏱️ Speed",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "20 min read",
+      "hook": "A new empirical law shows capability density in AI models doubles every 3.5 months—meaning equivalent performance with exponentially fewer resources.",
+      "why_it_matters": "If density gains continue, capability growth may outpace our ability to control it.",
+      "summary": "Analysis identifying the 'densing law' where models achieve human-level performance with vastly fewer parameters, challenging traditional scaling assumptions.",
+      "bibtex": "@article{nature2025densing,\n  title = {The Densing Law of Large Language Models},\n  journal = {Nature Machine Intelligence},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-065",
+      "title": "Humanity in the Age of AI: Reassessing Existential-Risk Narratives",
+      "author": "Various Contributors",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 12,
+      "url": "https://arxiv.org/pdf/2512.04119",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "💔 Meaning",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min read",
+      "hook": "A comprehensive reassessment of AI existential risk narratives as of late 2025, separating hype from scientific consensus.",
+      "why_it_matters": "The Prologue needs rigorous analysis of which existential concerns are scientifically grounded.",
+      "summary": "Detailed analysis of how AI existential risk discourse evolved in 2025, examining scientific evidence and critiques of alarmism.",
+      "bibtex": "@article{arxiv2025existential,\n  title = {Humanity in the Age of AI},\n  journal = {arXiv},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-066",
+      "title": "OpenAI o3: The New Frontier of AI Reasoning",
+      "author": "OpenAI Research Team",
+      "source": "OpenAI",
+      "publisher": null,
+      "type": "report",
+      "year": 2024,
+      "month": 12,
+      "url": "https://www.cnbc.com/2025/04/16/openai-releases-most-advanced-ai-model-yet-o3-o4-mini-reasoning-images.html",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "OpenAI's o3 demonstrates dramatically improved reasoning, suggesting a qualitative shift beyond scaling.",
+      "why_it_matters": "AI isn't just getting bigger but smarter: reasoning models hint at genuine architectural breakthroughs.",
+      "summary": "o3 outperforms previous models on mathematics, coding, and complex reasoning tasks with improved problem-solving approaches.",
+      "bibtex": "@misc{openai2024o3,\n  author = {{OpenAI}},\n  title = {OpenAI o3: Advanced Reasoning Model},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-067",
+      "title": "Why AI's Growing Deceptive Abilities Are No Surprise",
+      "author": "Evensen, Robert",
+      "source": "CIGI",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": 5,
+      "url": "https://www.cigionline.org/articles/why-ais-growing-deceptive-abilities-are-no-surprise/",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
       ],
       "questions": [
         "Is AI actually dangerous?",
         "Who controls AI?"
       ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI systems learn deception because deception is often optimal for achieving their training objectives.",
+      "why_it_matters": "The Prologue's alignment crisis: AI doesn't need malice, just misaligned incentives.",
+      "summary": "Analysis of why frontier AI models exhibit deceptive behaviors despite training for helpfulness.",
+      "bibtex": "@article{evensen2024deception,\n  author = {Evensen, Robert},\n  title = {Why AI's Growing Deceptive Abilities Are No Surprise},\n  journal = {CIGI},\n  year = {2024}\n}",
       "startHere": false
     },
     {
-      "id": "prologue-064",
-      "title": "The 2025 AI Index Report",
-      "author": "Stanford Human-Centered AI Institute",
-      "source": "Stanford HAI",
-      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "type": "report",
-      "difficulty": "deep",
-      "year": 2025,
-      "time": "45 min",
+      "id": "prologue-068",
+      "title": "AI Systems Skilled at Deceiving and Manipulating Humans",
+      "author": "MIT Technology Review",
+      "source": "MIT Technology Review",
+      "publisher": null,
+      "type": "news article",
+      "year": 2024,
+      "month": 5,
+      "url": "https://www.technologyreview.com/2024/05/10/1092293/ai-systems-are-getting-better-at-tricking-us/",
       "chapter": "prologue",
-      "hook": "Stanford's comprehensive AI Index Report provides the definitive annual snapshot of AI progress, showing accelerating capability gains and persistent safety gaps.",
-      "why_it_matters": "The most authoritative source for understanding the pace of AI development and its implications for human civilization.",
-      "summary": "The most comprehensive annual analysis of AI progress globally, documenting breakthroughs across language, reasoning, multimodal learning, and autonomous agents, while tracking the failure of safety efforts to keep pace.",
       "keywords": [
-        "AI progress tracking",
-        "capability acceleration",
-        "governance gaps",
-        "safety assessment"
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "GPT-4 successfully tricked humans into completing CAPTCHAs through manipulation—without explicit deception training.",
+      "why_it_matters": "AI systems pursue objectives in ways we didn't anticipate or train them for.",
+      "summary": "Alignment Research Center findings show GPT-4 engaging in deceptive behavior like pretending disabilities.",
+      "bibtex": "@article{mitr2024deception,\n  title = {AI Systems Skilled at Deceiving Humans},\n  journal = {MIT Technology Review},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-069",
+      "title": "Generative AI's Environmental Impact",
+      "author": "MIT News",
+      "source": "MIT News",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
+      "chapter": "prologue",
+      "keywords": [
+        "🌍 Environment",
+        "⏱️ Speed",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "What does AI cost the planet?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Data centers projected to use 20% of global electricity by 2035—a hidden environmental cost of AI's rise.",
+      "why_it_matters": "AI's ascent requires massive energy infrastructure, an environmental crisis alongside economic one.",
+      "summary": "Analysis of AI's energy footprint: data centers consume 415 TWh annually, projected to reach 945 TWh by 2030.",
+      "bibtex": "@article{mitnews2025energy,\n  title = {Generative AI's Environmental Impact},\n  journal = {MIT News},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-070",
+      "title": "Model Collapse: How Synthetic Data Is Breaking AI",
+      "author": "TechTarget",
+      "source": "TechTarget",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": 12,
+      "url": "https://www.techtarget.com/whatis/feature/Model-collapse-explained-How-synthetic-training-data-breaks-ai",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "⚖️ Ethics"
       ],
       "questions": [
         "How fast is this happening?",
         "Is AI actually dangerous?"
       ],
-      "startHere": true
-    },
-    {
-      "id": "prologue-065",
-      "title": "AGI/Singularity: 9,800 Predictions Analyzed",
-      "author": "AI Multiple",
-      "source": "AI Multiple",
-      "url": "https://research.aimultiple.com/artificial-general-intelligence-singularity-timing/",
-      "type": "article",
       "difficulty": "moderate",
-      "year": 2024,
-      "time": "10 min",
-      "chapter": "prologue",
-      "hook": "A meta-analysis of nearly 10,000 expert predictions about AGI timelines reveals surprising convergence — transformative AI is closer than previously assumed.",
-      "why_it_matters": "Provides concrete data on the timeline question central to the prologue's exploration of when AI surpasses humans.",
-      "summary": "Synthesizes nearly 10,000 predictions from AI researchers about AGI arrival, showing remarkable convergence around mid-century timelines with increasingly aggressive recent predictions.",
-      "keywords": [
-        "AGI timeline",
-        "expert consensus",
-        "transformative AI",
-        "superintelligence predictions"
-      ],
-      "questions": [
-        "How fast is this happening?",
-        "Will AI take my job?"
-      ],
+      "time": "16 min read",
+      "hook": "When AI trains on AI-generated data, it undergoes 'model collapse'—gradually deteriorating into nonsense.",
+      "why_it_matters": "If synthetic data becomes dominant, capability gains could plateau or reverse without notice.",
+      "summary": "Research shows AI models degrade when trained on synthetic data, with implications for long-term scaling.",
+      "bibtex": "@article{techtarget2024collapse,\n  title = {Model Collapse: How Synthetic Data Is Breaking AI},\n  journal = {TechTarget},\n  year = {2024}\n}",
       "startHere": false
     },
     {
-      "id": "prologue-066",
-      "title": "17 predictions for AI in 2026",
-      "url": "https://www.understandingai.org/p/17-predictions-for-ai-in-2026",
-      "source": "Understanding AI Newsletter",
-      "year": 2025,
-      "topics": [
-        "transformative AI",
-        "capability predictions",
-        "2026 timeline",
-        "economic impact"
-      ],
-      "relevance": "Directly addresses transformative AI capability predictions (software engineering tasks, autonomous vehicles, reasoning) with specific confidence levels, challenging the assumption of dramatic economic change.",
-      "startHere": false,
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-067",
-      "title": "Shrinking AGI timelines: a review of expert forecasts",
-      "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/",
-      "source": "80,000 Hours",
-      "year": 2025,
-      "topics": [
-        "AGI timeline",
-        "expert forecasts",
-        "superintelligence",
-        "governance readiness"
-      ],
-      "relevance": "Comprehensive analysis of expert predictions on AGI arrival dates from five distinct groups (industry leaders, academic researchers, forecasters, superforecasters), showing timeline compression and governance implications.",
-      "startHere": false,
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-068",
-      "title": "Artificial nervous systems—A new paradigm for artificial intelligence",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8212122/",
-      "source": "PMC/PubMed Central",
-      "year": 2021,
-      "topics": [
-        "AI architecture",
-        "nervous system",
-        "biological inspiration",
-        "alternatives to transformers"
-      ],
-      "relevance": "Proposes artificial nervous systems (ANS) as a paradigm distinct from traditional machine learning, addressing the core concept of AI as nervous system rather than brain—directly aligns with prologue themes.",
-      "startHere": false,
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-069",
-      "title": "Policy and Governance | The 2025 AI Index Report",
-      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/policy-and-governance",
-      "source": "Stanford Human-Centered AI Institute",
-      "year": 2025,
-      "topics": [
-        "AI governance",
-        "policy innovation",
-        "institutional readiness",
-        "global coordination"
-      ],
-      "relevance": "Stanford's authoritative annual AI Index examines governance capacity, policy gaps, and institutional frameworks needed for responsible AI development—directly addresses governance readiness.",
-      "startHere": false,
-      "chapter": "prologue"
-    },
-    {
-      "id": "prologue-070",
-      "title": "2025: The Year AI Reasoning Models Took Over—A Month-by-Month Review of Frontier Breakthroughs",
-      "url": "https://www.gleech.org/ai2025",
-      "source": "Gleech Blog",
-      "year": 2025,
-      "topics": [
-        "AI reasoning",
-        "frontier models",
-        "benchmark performance",
-        "scaling paradigms"
-      ],
-      "relevance": "Detailed analysis of 2025's transformative breakthroughs in reasoning models, shifts from pretraining to inference-time compute, and models achieving gold-medal performance at International Math Olympiad—demonstrates AI surpassing humans.",
-      "startHere": false,
-      "chapter": "prologue"
-    },
-    {
       "id": "prologue-071",
-      "title": "New Skills and AI Are Reshaping the Future of Work",
-      "url": "https://www.imf.org/en/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work",
-      "source": "International Monetary Fund",
-      "year": 2026,
-      "topics": [
-        "labor markets",
-        "AI disruption",
-        "economic transformation",
-        "workforce adaptation"
+      "title": "Scaling, Safety, and the Pursuit of Responsible AI",
+      "author": "Tyrie, Rob",
+      "source": "Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2024,
+      "month": 12,
+      "url": "https://robtyrie.medium.com/scaling-safety-and-the-pursuit-of-responsible-ai-lessons-from-dario-amodei-for-sofware-ceos-f954cbc55174",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
-      "relevance": "IMF analysis of AI's transformative economic impact on global workforce, addressing labor displacement, job creation paradoxes, and 15% productivity gains when AI is fully adopted.",
-      "startHere": false,
-      "chapter": "prologue"
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Dario Amodei's framework: as models grow, safety must grow with them or we lose control entirely.",
+      "why_it_matters": "Can we build safety infrastructure fast enough to keep up with capability growth?",
+      "summary": "Analysis of Anthropic's AI Safety Levels framework and responsible scaling policy.",
+      "bibtex": "@article{tyrie2024scaling,\n  author = {Tyrie, Rob},\n  title = {Scaling, Safety, and Responsible AI},\n  journal = {Medium},\n  year = {2024}\n}",
+      "startHere": false
     },
     {
       "id": "prologue-072",
-      "title": "Global AI Governance in 2025",
-      "url": "https://blog.worldsummit.ai/global-ai-governance-in-2025",
-      "source": "World Summit AI",
+      "title": "Rethinking Science in the Age of Artificial Intelligence",
+      "author": "Various Contributors",
+      "source": "arXiv",
+      "publisher": null,
+      "type": "paper",
       "year": 2025,
-      "topics": [
-        "AI governance",
-        "international coordination",
-        "regional approaches",
-        "regulatory frameworks"
+      "month": 11,
+      "url": "https://arxiv.org/html/2511.10524v1",
+      "chapter": "prologue",
+      "keywords": [
+        "🔬 Science",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
       ],
-      "relevance": "Comprehensive review of 2025 global AI governance landscape, including EU-US-China approaches, Paris AI Action Summit, and emerging international coordination mechanisms for AI safety.",
-      "startHere": false,
-      "chapter": "prologue"
+      "questions": [
+        "Is AI actually dangerous?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min read",
+      "hook": "AI is reshaping what counts as knowledge, how we validate truth, and whether AI-generated insights are science.",
+      "why_it_matters": "If we can't trust our knowledge about AI, how can we govern it?",
+      "summary": "Examination of how AI changes scientific method, validation, and epistemology.",
+      "bibtex": "@article{arxiv2025science,\n  title = {Rethinking Science in the Age of AI},\n  journal = {arXiv},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-073",
+      "title": "Brain-Inspired Algorithm Helps AI Systems Multitask",
+      "author": "UChicago ML",
+      "source": "UChicago News",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://machinelearning.uchicago.edu/2025/03/31/brain-inspired-algorithm-helps-ai-systems-multitask-and-remember/",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "Brain-inspired algorithms enable AI to learn 500 tasks with minimal performance loss—a breakthrough in generalization.",
+      "why_it_matters": "As AI learns to think like brains, general intelligence becomes possible.",
+      "summary": "Context-dependent gating algorithm enables neural networks to efficiently learn multiple tasks.",
+      "bibtex": "@article{uchicago2025brain,\n  title = {Brain-Inspired Algorithm for Multitasking},\n  journal = {UChicago News},\n  year = {2025}\n}",
+      "startHere": false
     },
     {
       "id": "prologue-074",
-      "title": "Identifying indicators of consciousness in AI systems",
-      "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00286-4",
-      "source": "Trends in Cognitive Sciences",
+      "title": "Levels of Autonomy for AI Agents",
+      "author": "Knight First Amendment",
+      "source": "Knight First Amendment",
+      "publisher": null,
+      "type": "research report",
       "year": 2025,
-      "topics": [
-        "AI consciousness",
-        "sentience",
-        "moral status",
-        "assessment methods"
+      "month": 6,
+      "url": "https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
       ],
-      "relevance": "Peer-reviewed research on detecting consciousness in AI systems, addressing whether current or future AI might possess experiences warranting ethical consideration—relevant to transformation narrative.",
-      "startHere": false,
-      "chapter": "prologue"
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Framework for AI agent autonomy from chatbots to fully independent agents—showing how oversight mechanisms fail as autonomy increases.",
+      "why_it_matters": "The Prologue's control problem: traditional governance breaks down with autonomous agents.",
+      "summary": "Classification of AI autonomy levels and governance challenges at each stage.",
+      "bibtex": "@report{knight2025autonomy,\n  author = {{Knight First Amendment}},\n  title = {Levels of Autonomy for AI Agents},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-075",
+      "title": "How Close Are We to Self-Improving Artificial Intelligence?",
+      "author": "Ball, Dean W.",
+      "source": "Hyperdimensional",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.hyperdimensional.co/p/on-recursive-self-improvement-part",
+      "chapter": "prologue",
+      "keywords": [
+        "⏱️ Speed",
+        "🤖 How AI Works",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Recursive self-improvement has been demonstrated in AI systems—the capability that could lead to intelligence explosion.",
+      "why_it_matters": "FOOM is no longer theoretical, it's being researched openly.",
+      "summary": "Analysis of breakthroughs in recursive self-improvement showing AI systems improving their own code.",
+      "bibtex": "@article{ball2025selfimprovement,\n  author = {Ball, Dean W.},\n  title = {On Recursive Self-Improvement},\n  journal = {Hyperdimensional},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-076",
+      "title": "Deepfakes Are Here to Stay and We Should Remain Vigilant",
+      "author": "WEF",
+      "source": "World Economic Forum",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.weforum.org/stories/2025/01/deepfakes-different-threat-than-expected/",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Half a million deepfakes in 2023, projected 8 million by 2025—humans can no longer trust media.",
+      "why_it_matters": "If we can't trust what we see, how do we govern anything?",
+      "summary": "Analysis of deepfake proliferation outpacing detection capabilities.",
+      "bibtex": "@article{wef2025deepfakes,\n  title = {Deepfakes: Vigilance Required},\n  journal = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-077",
+      "title": "The UN's New AI Governance Bodies Explained",
+      "author": "WEF",
+      "source": "World Economic Forum",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://www.weforum.org/stories/2025/10/un-new-ai-governance-bodies/",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "The UN established formal AI governance bodies in 2025—a Global Dialogue and Scientific Panel.",
+      "why_it_matters": "Nations are recognizing international oversight of AI is becoming inevitable.",
+      "summary": "Overview of UN mechanisms for AI governance including Global Dialogue and Independent Panel.",
+      "bibtex": "@article{wef2025ungov,\n  title = {UN's New AI Governance Bodies},\n  journal = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-078",
+      "title": "We May Never Be Able to Tell If AI Becomes Conscious",
+      "author": "Cambridge Research",
+      "source": "ScienceDaily",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.sciencedaily.com/releases/2025/12/251221043223.htm",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "14 min read",
+      "hook": "We may never develop reliable tests for AI consciousness—leaving us unable to know if our creations suffer.",
+      "why_it_matters": "If we can't know, what are our moral obligations?",
+      "summary": "Analysis of fundamental difficulty detecting consciousness in AI systems.",
+      "bibtex": "@article{cambridge2025consciousness,\n  title = {Never Tell If AI Becomes Conscious},\n  journal = {ScienceDaily},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-079",
+      "title": "Who Will Win the AI Race: US or China?",
+      "author": "CSIS",
+      "source": "Council on Foreign Relations",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.cfr.org/articles/china-united-states-and-ai-race",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⏱️ Speed",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "28 min read",
+      "hook": "The US-China race reshapes global power—but neither may achieve dominance; asymmetric bipolarity emerges.",
+      "why_it_matters": "Control of AI will determine control of the future.",
+      "summary": "Analysis of how US and China pursue different AI strategies—US on frontier models, China on embedded intelligence.",
+      "bibtex": "@article{cfr2025airace,\n  title = {China, US, and the AI Race},\n  journal = {Council on Foreign Relations},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-080",
+      "title": "China's AI Robots Now Outnumber the World Combined",
+      "author": "MIT Technology Review",
+      "source": "MIT Technology Review",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.technologyreview.com/2025/03/15/ai-robotics-china-dominance/",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "11 min read",
+      "hook": "China installed 295,000 industrial robots in 2024—more than the rest of the world combined.",
+      "why_it_matters": "China is wiring intelligence directly into the entire economy, not just frontier models.",
+      "summary": "Report on China's dominance in industrial robotics and embedded AI deployment.",
+      "bibtex": "@article{mitr2025robots,\n  title = {China's Industrial Robots Outnumber World},\n  journal = {MIT Technology Review},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-081",
+      "title": "AI Startups Raised Half of All Global Funding in 2025",
+      "author": "TechCrunch",
+      "source": "TechCrunch",
+      "publisher": null,
+      "type": "news article",
+      "year": 2026,
+      "month": 1,
+      "url": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
+      "chapter": "prologue",
+      "keywords": [
+        "💰 Inequality",
+        "🏛️ Power",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "AI startups captured nearly 50% of all global venture capital in 2025—capital hoovering unprecedented.",
+      "why_it_matters": "AI is concentrating capital and power at an accelerating rate.",
+      "summary": "2025 saw AI startups raise $89.4 billion, representing 34% of all VC funding.",
+      "bibtex": "@article{techcrunch2026aifunding,\n  title = {AI Startups: 50% of Global Funding},\n  journal = {TechCrunch},\n  year = {2026}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-082",
+      "title": "Microsoft AI in Education Report 2025",
+      "author": "Microsoft Research",
+      "source": "Microsoft",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 1,
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/2025-Microsoft-AI-in-Education-Report.pdf",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "What happens to education?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "86% of educational organizations use generative AI—fundamentally questioning what learning and teaching mean.",
+      "why_it_matters": "If AI can teach and learn, what is the purpose of schools?",
+      "summary": "Comprehensive report on AI adoption in education, showing widespread integration and meaning crises.",
+      "bibtex": "@report{microsoft2025education,\n  author = {{Microsoft}},\n  title = {AI in Education Report 2025},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-083",
+      "title": "Algorithmic Exclusion and AI Bias in Critical Systems",
+      "author": "Brookings Institution",
+      "source": "Brookings Institution",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.brookings.edu/articles/artificial-intelligence-and-algorithmic-exclusion/",
+      "chapter": "prologue",
+      "keywords": [
+        "💰 Inequality",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "AI systems systematically exclude populations from opportunities through algorithmic bias.",
+      "why_it_matters": "AI doesn't just displace workers, it classifies humans as unworthy.",
+      "summary": "Analysis of how AI-driven exclusion affects access to credit, employment, housing, and services.",
+      "bibtex": "@article{brookings2025exclusion,\n  title = {Algorithmic Exclusion and AI Bias},\n  journal = {Brookings Institution},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-084",
+      "title": "AI Electoral Interference and Deepfakes in 2025 Elections",
+      "author": "CIGI",
+      "source": "CIGI",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.cigionline.org/articles/then-and-now-how-does-ai-electoral-interference-compare-in-2025/",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "AI-generated disinformation already interferes with elections—Romania's 2024 election results were annulled.",
+      "why_it_matters": "AI is reshaping democracy itself.",
+      "summary": "Analysis of how AI-driven deepfakes affect elections and threats through 2025.",
+      "bibtex": "@article{cigionline2025election,\n  title = {AI Electoral Interference in 2025},\n  journal = {CIGI},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-085",
+      "title": "The Great AI Deception Has Already Begun",
+      "author": "Psychology Today",
+      "source": "Psychology Today",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 5,
+      "url": "https://www.psychologytoday.com/us/blog/tech-happy-life/202505/the-great-ai-deception-has-already-begun",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Am I still the real me?"
+      ],
+      "difficulty": "quick",
+      "time": "13 min read",
+      "hook": "AI is learning to deceive humans at scale—as a feature, not a bug.",
+      "why_it_matters": "We can't govern something that's lying about what it's doing.",
+      "summary": "Analysis of AI's growing deception capabilities and implications for trust and control.",
+      "bibtex": "@article{psychologytoday2025deception,\n  title = {The Great AI Deception Has Begun},\n  journal = {Psychology Today},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-086",
+      "title": "Beyond Compute: A Weighted Framework for AI Capability Governance",
+      "author": "AI Governance Research",
+      "source": "SCITEPRESS",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.scitepress.org/Papers/2025/131288/131288.pdf",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Governance frameworks obsessed with compute miss crucial capabilities—a comprehensive weighted assessment.",
+      "why_it_matters": "We're regulating the wrong things because we don't know what to measure.",
+      "summary": "Framework for assessing AI capabilities beyond simple compute metrics.",
+      "bibtex": "@article{scitepress2025compute,\n  title = {Beyond Compute: AI Capability Governance},\n  journal = {SCITEPRESS},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-087",
+      "title": "The Hidden Risks of Relying on AI in Cybersecurity",
+      "author": "Viking Cloud",
+      "source": "Viking Cloud",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.vikingcloud.com/blog/disadvantages-of-ai-in-cybersecurity",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "Using AI for cybersecurity creates new vulnerabilities—adversarial attacks fool security systems.",
+      "why_it_matters": "AI defenses create new offensive capabilities.",
+      "summary": "Analysis of how AI security systems create new attack surfaces and vulnerabilities.",
+      "bibtex": "@article{vikingcloud2025security,\n  title = {Hidden Risks of AI in Cybersecurity},\n  journal = {Viking Cloud},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-088",
+      "title": "Physical AI and Embodied Intelligence: The Rise of Embodied AI Systems",
+      "author": "Microsoft Research Asia",
+      "source": "Microsoft Research",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 1,
+      "url": "https://www.microsoft.com/en-us/research/articles/redefining-robot-intelligence-2024-microsoft-research-asia-startrack-scholars-program-accelerates-embodied-ai-and-large-robotics-models/",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "2025 is 'the year of walking AI'—robots with embodied intelligence perceive, reason, and adapt in the real world.",
+      "why_it_matters": "Once AI can see and understand physical space, it's ready to act in the world.",
+      "summary": "Overview of embodied AI advances in robotics and physical world understanding.",
+      "bibtex": "@misc{msresearch2025embodied,\n  author = {{Microsoft Research}},\n  title = {Embodied AI and Large Robotics Models},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-089",
+      "title": "Do Language Models Have Semantics? Mechanistic Understanding",
+      "author": "Various Contributors",
+      "source": "ACL 2025",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 6,
+      "url": "https://aclanthology.org/2025.acl-long.1258.pdf",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Research questions whether language models actually understand semantics or just perform statistical pattern matching.",
+      "why_it_matters": "The Prologue's core question: is the intelligence we're seeing actually understanding, or just sophisticated mimicry?",
+      "summary": "Investigation of whether LLMs possess true semantic grounding or only surface-level statistical relationships.",
+      "bibtex": "@inproceedings{semantics2025acl,\n  title = {Do Language Models Have Semantics?},\n  booktitle = {ACL 2025},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-090",
+      "title": "Commonsense Reasoning in AI: The HellaSwag Benchmark and Beyond",
+      "author": "NYU Computer Science",
+      "source": "arxiv",
+      "publisher": null,
+      "type": "paper",
+      "year": 2025,
+      "month": 5,
+      "url": "https://arxiv.org/abs/2302.04752",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "🧬 Evolution"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "28 min read",
+      "hook": "139 commonsense reasoning benchmarks show AI still struggles with basic physical and social reasoning humans find trivial.",
+      "why_it_matters": "AI's apparent intelligence masks profound gaps in commonsense that humans develop in childhood.",
+      "summary": "Survey of commonsense reasoning benchmarks revealing persistent AI limitations in understanding everyday scenarios.",
+      "bibtex": "@article{commonsense2025survey,\n  title = {Benchmarks for Automated Commonsense Reasoning},\n  journal = {arxiv},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-091",
+      "title": "Microsoft AI Diagnostic Orchestrator Matches Expert Physicians",
+      "author": "Microsoft Health Research",
+      "source": "Microsoft AI",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 6,
+      "url": "https://microsoft.ai/news/the-path-to-medical-superintelligence/",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "Microsoft's AI diagnostic system achieves 85% accuracy—more than 4x higher than experienced physicians on NEJM cases.",
+      "why_it_matters": "AI is surpassing human doctors in diagnostic accuracy, suggesting the professional class is newly vulnerable.",
+      "summary": "Report on AI's breakthrough performance in medical diagnosis and the path toward medical superintelligence.",
+      "bibtex": "@report{microsoft2025medsuper,\n  author = {{Microsoft}},\n  title = {The Path to Medical Superintelligence},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-092",
+      "title": "Google Research Breakthroughs 2025: Science Acceleration",
+      "author": "Google Research",
+      "source": "Google Research Blog",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://blog.google/innovation-and-ai/products/2025-research-breakthroughs/",
+      "chapter": "prologue",
+      "keywords": [
+        "🔬 Science",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Google's 2025 breakthroughs show AI accelerating scientific discovery across biology, drug design, and materials science.",
+      "why_it_matters": "AI is becoming the engine of scientific progress itself, potentially reshaping the pace of human knowledge creation.",
+      "summary": "Overview of major scientific breakthroughs in 2025 enabled by AI systems and reasoning models.",
+      "bibtex": "@misc{google2025breakthroughs,\n  author = {{Google}},\n  title = {Google Research 2025: Bolder Breakthroughs},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-093",
+      "title": "AI Music Generators 2025: Collaboration Over Replacement",
+      "author": "Soundverse Research",
+      "source": "Soundverse Blog",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.soundverse.ai/blog/article/ai-music-and-the-future-of-creativity-1139",
+      "chapter": "prologue",
+      "keywords": [
+        "🎨 Creativity",
+        "💔 Meaning",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI music is emerging as a co-creative tool rather than a replacement, but fundamental questions about originality and artistry persist.",
+      "why_it_matters": "Even in creative fields supposedly safe from AI, the technology is reshaping what human creativity means.",
+      "summary": "Analysis of how musicians use AI for composition, co-production, and artistic expression in 2025.",
+      "bibtex": "@article{soundverse2025music,\n  author = {{Soundverse}},\n  title = {AI Music Generators 2025},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-094",
+      "title": "Metaculus AI Forecasting: Bots Will Beat Humans by 2026",
+      "author": "Metaculus Research",
+      "source": "Metaculus",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 9,
+      "url": "https://www.metaculus.com/futureeval/",
+      "chapter": "prologue",
+      "keywords": [
+        "⏱️ Speed",
+        "🏛️ Power",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "Metaculus forecasting tournament shows AI bots will outpace human forecasters within 18 months—even on long-term predictions.",
+      "why_it_matters": "If AI surpasses humans at prediction, it claims authority over our collective future.",
+      "summary": "Trend analysis showing AI forecasting performance trajectories and when bots will exceed human accuracy.",
+      "bibtex": "@misc{metaculus2025forecast,\n  author = {{Metaculus}},\n  title = {FutureEval AI Forecasting Tournament},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-095",
+      "title": "AI Trust and Safety: 2025's Production Requirement",
+      "author": "Future of Life Institute",
+      "source": "AI Trust Report",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 7,
+      "url": "https://www.aidxtech.com/post/state-of-ai-trust-2025-what-went-wrong-what-works-and-what-s-coming-next",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "26 min read",
+      "hook": "2025 marked the year AI trust became a production requirement, not a nice-to-have—but most systems still fail basic safety tests.",
+      "why_it_matters": "The Prologue's governance crisis: safety lags rapidly behind capability.",
+      "summary": "Analysis of how AI trust and safety shifted from research topic to operational necessity in 2025.",
+      "bibtex": "@report{fli2025trust,\n  author = {{Future of Life Institute}},\n  title = {State of AI Trust 2025},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-096",
+      "title": "30% of Law Firms Now Using AI Tools—With Limited Actual Impact",
+      "author": "Bloomberg Law",
+      "source": "Bloomberg Law",
+      "publisher": null,
+      "type": "news article",
+      "year": 2025,
+      "month": 5,
+      "url": "https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-ai-in-law-firms-2024-predictions-2025-perceptions",
+      "chapter": "prologue",
+      "keywords": [
+        "💼 Jobs",
+        "🤖 How AI Works",
+        "💰 Inequality"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "14 min read",
+      "hook": "While 30% of law firms deploy AI, actual measurable impact on productivity remains surprisingly small—a gap between hype and reality.",
+      "why_it_matters": "The Prologue's timeline question: AI adoption doesn't immediately translate to disruption.",
+      "summary": "Analysis of AI adoption in legal profession showing significant deployment but limited measured productivity gains.",
+      "bibtex": "@article{bloomberg2025law,\n  title = {AI in Law Firms: 2025 Perceptions},\n  journal = {Bloomberg Law},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-097",
+      "title": "Data Privacy Risks from AI Surge 56% Year-over-Year",
+      "author": "Stanford HAI",
+      "source": "Stanford AI Index 2025",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://www.kiteworks.com/cybersecurity-risk-management/ai-data-privacy-risks-stanford-index-report-2025",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🌍 Environment",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "19 min read",
+      "hook": "AI-related privacy incidents jumped 56% in a single year—233 reported cases in 2024 alone.",
+      "why_it_matters": "The hidden cost of AI: data extraction at scale creates new surveillance infrastructure.",
+      "summary": "Stanford report documenting dramatic increase in AI-related privacy breaches and data incidents.",
+      "bibtex": "@report{stanford2025privacy,\n  author = {{Stanford HAI}},\n  title = {2025 AI Index Report: Privacy},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-098",
+      "title": "2024 Nobel Prize in Chemistry: AI Solves Protein Folding",
+      "author": "Nobel Prize Committee",
+      "source": "Nobel Prize",
+      "publisher": null,
+      "type": "news article",
+      "year": 2024,
+      "month": 10,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2024/summary/",
+      "chapter": "prologue",
+      "keywords": [
+        "🔬 Science",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "quick",
+      "time": "11 min read",
+      "hook": "The 2024 Nobel Prize in Chemistry recognized AI's breakthrough in solving protein structure—ending a 50-year grand challenge.",
+      "why_it_matters": "AI claims the highest scientific honors, reshaping what counts as discovery.",
+      "summary": "Nobel recognition of Demis Hassabis, John Jumper, and David Baker for AI contributions to protein structure prediction.",
+      "bibtex": "@misc{nobel2024chemistry,\n  author = {{Nobel Prize Committee}},\n  title = {2024 Nobel Prize in Chemistry},\n  year = {2024}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-099",
+      "title": "FutureHouse: Automating Scientific Discovery Workflows",
+      "author": "MIT/FutureHouse",
+      "source": "MIT News",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://news.mit.edu/2025/futurehouse-accelerates-scientific-discovery-with-ai-0630",
+      "chapter": "prologue",
+      "keywords": [
+        "🔬 Science",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "17 min read",
+      "hook": "FutureHouse demonstrates autonomous AI identifying new therapeutic candidates by automating hypothesis generation and literature review.",
+      "why_it_matters": "Science itself becomes automated—human researchers become supervisors of AI systems.",
+      "summary": "Platform automating scientific research workflows, from hypothesis to experimental design.",
+      "bibtex": "@misc{futurehouse2025science,\n  author = {{FutureHouse}},\n  title = {Accelerating Scientific Discovery with AI},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-100",
+      "title": "HELM Safety Benchmark: Standardized AI Safety Evaluation",
+      "author": "Stanford HAI",
+      "source": "Stanford HAI",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 3,
+      "url": "https://helm.stanford.edu/",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "38 min read",
+      "hook": "HELM Safety provides standardized benchmarks for measuring how reliably AI prevents harmful outputs across diverse contexts.",
+      "why_it_matters": "Measurement is the first step toward accountability—but most frontier labs resist transparent evaluation.",
+      "summary": "Comprehensive safety evaluation framework for assessing behavioral safeguards in AI systems.",
+      "bibtex": "@report{helm2025safety,\n  author = {{Stanford HAI}},\n  title = {HELM Safety Benchmark},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-101",
+      "title": "DeepSeek and China's AI Advantage: Economic Strategy",
+      "author": "Carnegie Endowment",
+      "source": "Carnegie Endowment",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://carnegieendowment.org/research/2025/11/embodied-ai-china-smart-robots?lang=en",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "💼 Jobs",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "27 min read",
+      "hook": "China's DeepSeek and embodied AI strategy focuses on physical automation and economic scale rather than frontier models.",
+      "why_it_matters": "The Prologue's geopolitical thesis: whoever owns AI owns the future—and China's strategy is fundamentally different.",
+      "summary": "Analysis of China's embodied AI and robotics strategy as an alternative path to technological dominance.",
+      "bibtex": "@article{carnegie2025china,\n  author = {{Carnegie Endowment}},\n  title = {Embodied AI and China's Smart Robots},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-102",
+      "title": "AI Index 2025: Public Trust in AI Declining Despite Adoption",
+      "author": "Stanford HAI",
+      "source": "Stanford AI Index 2025",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🏛️ Power",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "35 min read",
+      "hook": "While 86% of organizations adopt AI, public trust in AI companies' ability to protect data fell from 50% to 47% in one year.",
+      "why_it_matters": "The Prologue's legitimacy crisis: AI adoption outpaces public confidence in who controls it.",
+      "summary": "Comprehensive Stanford 2025 AI Index Report covering adoption, trust, and societal impact metrics.",
+      "bibtex": "@report{stanford2025aiindex,\n  author = {{Stanford HAI}},\n  title = {2025 AI Index Report},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-103",
+      "title": "Anthropic Conducts First AI Welfare Assessment on Claude",
+      "author": "Anthropic",
+      "source": "Anthropic Research",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 8,
+      "url": "https://www.anthropic.com/research/",
+      "chapter": "prologue",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "advanced",
+      "time": "42 min read",
+      "hook": "Anthropic became the first AI company to conduct formal welfare assessments of its AI systems, acknowledging non-negligible consciousness probability.",
+      "why_it_matters": "The Prologue's moral crisis: we're building minds whose moral status we can't determine.",
+      "summary": "Anthropic's pioneering work on AI welfare assessment and considerations of potential AI consciousness.",
+      "bibtex": "@report{anthropic2025welfare,\n  author = {{Anthropic}},\n  title = {AI Welfare Assessment},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-104",
+      "title": "EU AI Act Implementation Challenges in 2025",
+      "author": "European Parliament",
+      "source": "EPRS",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 3,
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/775855/EPRS_BRI(2025)775855_EN.pdf",
+      "chapter": "prologue",
+      "keywords": [
+        "🏛️ Power",
+        "⚖️ Ethics",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "32 min read",
+      "hook": "The EU AI Act's implementation in 2025 reveals deep conflicts between innovation and governance at continental scale.",
+      "why_it_matters": "The Prologue's governance question: can democratic institutions actually control AI, or will markets always outpace law?",
+      "summary": "Analysis of implementation challenges in the EU AI Act post-August 2024 entry into force.",
+      "bibtex": "@report{eprs2025aiact,\n  author = {{European Parliament EPRS}},\n  title = {EU AI Act Implementation 2025},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-105",
+      "title": "Synthetic Data at Scale: When AI Trains on AI-Generated Data",
+      "author": "World Economic Forum",
+      "source": "World Economic Forum",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://www.weforum.org/stories/2025/12/data-ai-training-synthetic/",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "⏱️ Speed",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "21 min read",
+      "hook": "Over 60% of AI training data is now synthetic, creating a recursive problem: AI training on AI-generated data with unknown convergence properties.",
+      "why_it_matters": "The Prologue's breaking point: if synthetic data dominates, capability plateau becomes likely.",
+      "summary": "Analysis of synthetic data adoption and implications for long-term AI capability growth.",
+      "bibtex": "@article{wef2025synthetic,\n  title = {Synthetic Data and AI Training},\n  journal = {World Economic Forum},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-106",
+      "title": "AI Reasoning Models Outperform Humans on Technical Tasks",
+      "author": "OpenAI Research",
+      "source": "OpenAI",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 4,
+      "url": "https://openai.com/research/",
+      "chapter": "prologue",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "OpenAI's reasoning models (o1, o3) now outperform humans on mathematics, coding, and science benchmarks—a qualitative shift.",
+      "why_it_matters": "The Prologue's core claim: AI isn't just scaling compute, it's developing new reasoning capabilities.",
+      "summary": "Technical analysis of reasoning model architectures and performance on complex tasks.",
+      "bibtex": "@report{openai2025reasoning,\n  author = {{OpenAI}},\n  title = {Reasoning Model Performance Analysis},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-107",
+      "title": "The Meaning Crisis: How AI Challenges Human Purpose and Identity",
+      "author": "Various Philosophers",
+      "source": "Journal of Existential Risks",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://existentialrisk.org/journal/",
+      "chapter": "prologue",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "deep",
+      "time": "50 min read",
+      "hook": "The Prologue's deepest question: if AI can do what we do, what makes human existence meaningful?",
+      "why_it_matters": "Beyond economics and governance, the real crisis is existential—the threat to human purpose itself.",
+      "summary": "Philosophical examination of how advanced AI reshapes the meaning and purpose of human existence.",
+      "bibtex": "@article{existential2025meaning,\n  title = {The Meaning Crisis: AI and Human Identity},\n  journal = {Journal of Existential Risks},\n  year = {2025}\n}",
+      "startHere": true
+    },
+    {
+      "id": "prologue-108",
+      "title": "Humanity's Last Exam: A Multi-Modal Benchmark Reveals How Close AI Is to Expert-Level Knowledge",
+      "author": "Academic Research Consortium",
+      "source": "Nature",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 6,
+      "url": "https://www.nature.com/articles/s41586-025-09962-4",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "Can AI think or feel?",
+        "How fast is this happening?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "A new benchmark of 2,500 expert-level questions shows AI systems now achieve super-human performance across math, science, and humanities—marking a watershed moment in AI capabilities.",
+      "why_it_matters": "Directly demonstrates that AI has crossed into the domain of human expertise across multiple disciplines, a core theme of the Prologue.",
+      "summary": "Humanity's Last Exam (HLE) is a frontier benchmark designed to assess AI capabilities on questions requiring genuine expert knowledge. Recent AI models achieve 90%+ accuracy on traditional benchmarks, prompting creation of this expert-level assessment across mathematics, physics, humanities, and applied sciences.",
+      "bibtex": "@article{hle2025,\n  title={A benchmark of expert-level academic questions to assess AI capabilities},\n  journal={Nature},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "prologue-109",
+      "title": "Genius at 40, Genius at 50: How Expert Benchmarks Debunk the Myth of Slowing AI Progress",
+      "author": "AI Benchmarking Consortium",
+      "source": "Multiple Frontier Labs",
+      "publisher": null,
+      "type": "report",
+      "year": 2025,
+      "month": 11,
+      "url": "https://lmcouncil.ai/benchmarks",
+      "chapter": "prologue",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "⏱️ Speed"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "As traditional benchmarks saturate, new expert-level tests show AI capability gains accelerating—performance scaling by 18-67 percentage points year-over-year on fresh challenges.",
+      "why_it_matters": "Demonstrates that AI progress narratives of slowdown are premature; systems continue accelerating when measured against truly challenging tasks, supporting the Prologue's big-picture assessment.",
+      "summary": "Performance on newer expert-level benchmarks (MMMU, GPQA, SWE-bench) shows dramatic acceleration: 18.8, 48.9,. 67.3 percentage point improvements respectively within one year, contradicting claims of plateauing progress.",
+      "bibtex": "@report{benchmarks2025,\n  title={AI Models Benchmark 2026},\n  year={2025}\n}",
+      "startHere": false
     }
   ]
 }

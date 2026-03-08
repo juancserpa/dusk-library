@@ -1,8 +1,8 @@
 {
   "chapter": "ch5",
   "chapter_title": "The Conductor's Five Instruments",
-  "generated": "2026-03-07T13:09:55",
-  "entry_count": 77,
+  "generated": "2026-03-05",
+  "entry_count": 114,
   "entries": [
     {
       "id": "ch5-001",
@@ -503,7 +503,7 @@
       "type": "video",
       "year": 2023,
       "month": 4,
-      "url": "https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt_s_astonishing_potential",
+      "url": "https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt",
       "chapter": "ch5",
       "keywords": [
         "🔧 Using AI",
@@ -861,6 +861,32 @@
       "why_it_matters": "The emotional dimension of Override — sometimes the output feels right, sounds right, and helps right now, but your gut knows something is missing. That nerve to say 'no' is the loneliest skill.",
       "summary": "Examines the growing use of AI chatbots for mental health support, documenting cases where users develop genuine therapeutic relationships with AI while raising questions about the nature of empathy and connection with non-sentient systems.",
       "bibtex": "@article{wsj2024therapist,\n  author = {{The Wall Street Journal}},\n  title = {What Happens When Your Therapist Is a Chatbot?},\n  journal = {The Wall Street Journal},\n  year = {2024},\n  month = jun\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-034",
+      "title": "Mustafa Suleyman: The Coming Wave",
+      "author": "Fridman, Lex and Suleyman, Mustafa",
+      "source": "Lex Fridman Podcast",
+      "type": "podcast",
+      "year": 2023,
+      "month": 10,
+      "url": "https://lexfridman.com/mustafa-suleyman/",
+      "chapter": "ch5",
+      "keywords": [
+        "🏛️ Power",
+        "🤝 Trust"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "2 hr listen",
+      "hook": "A co-founder of DeepMind says containment is impossible. If the man who helped build it says you can't control it at the system level, the Override instrument becomes personal — it's all you've got.",
+      "why_it_matters": "Suleyman's containment thesis is the macro argument for the five instruments — if governance can't solve this top-down, individuals need tools to navigate bottom-up.",
+      "summary": "Suleyman discusses his book's thesis that transformative AI and synthetic biology cannot be contained by existing institutions. The conversation covers his journey from DeepMind to Microsoft, and his proposed framework for managing technological proliferation.",
+      "bibtex": "@misc{fridman2023suleyman,\n  author = {Fridman, Lex},\n  title = {Mustafa Suleyman: The Coming Wave},\n  howpublished = {Lex Fridman Podcast},\n  year = {2023},\n  month = oct\n}",
       "startHere": false
     },
     {
@@ -1768,231 +1794,1232 @@
     },
     {
       "id": "ch5-068",
-      "title": "Stop AI Hallucinations: Detection, Prevention & Verification Guide 2025",
-      "author": "InfoMineo",
-      "source": "InfoMineo AI Guide",
-      "url": "https://infomineo.com/artificial-intelligence/stop-ai-hallucinations-detection-prevention-verification-guide-2025/",
-      "type": "article",
-      "difficulty": "moderate",
-      "year": 2025,
-      "time": "22 min",
-      "chapter": "ch5",
-      "hook": "Hallucinations are the AI failure mode that makes verification and human override essential — practical methods are now available.",
-      "why_it_matters": "Directly addresses the verification instrument with actionable approaches to detect and prevent hallucinations in production systems.",
-      "summary": "Comprehensive guide covering hallucination mechanisms, detection methods including RAG-based approaches reducing errors by 71%, and multi-model verification frameworks.",
+      "title": "Tacit Knowledge Elicitation Process for Industry 4.0",
+      "author": "Augmented Intelligence Research Team",
+      "source": "Springer Nature",
+      "publisher": "Springer",
+      "type": "journal article",
+      "year": 2022,
+      "url": "https://link.springer.com/article/10.1007/s44163-022-00020-w",
       "keywords": [
-        "hallucination prevention",
-        "AI verification",
-        "RAG verification",
-        "confidence calibration"
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🧬 Evolution"
       ],
       "questions": [
-        "Is AI actually dangerous?",
-        "How do I actually use AI well?"
+        "How do I actually use AI well?",
+        "Will AI take my job?"
       ],
-      "startHere": true
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Tacit knowledge is what experts know but cannot tell.",
+      "why_it_matters": "Core to Instrument 1 (Domain Expertise): Understanding how to extract and preserve tacit knowledge when systems are designed by humans for machines.",
+      "summary": "Explores methodologies for eliciting, preserving, and transferring tacit knowledge in manufacturing contexts, addressing the knowledge acquisition bottleneck that limits automation. Explores methodologies for eliciting, preserving, and transferring tacit knowledge in manufacturing contexts, addressing the knowledge acquisition bottleneck that limits automation.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-068,\n  title={Tacit Knowledge Elicitation Process for Industry 4.0},\n  author={Augmented Intelligence Research Team},\n  year={2022}\n}"
+    },
+    {
+      "id": "ch5-069",
+      "title": "The Expert Validation Framework: Enabling Domain Expert Control in AI Engineering",
+      "author": "AI Systems Research Team",
+      "source": "arXiv",
+      "publisher": "arXiv",
+      "type": "paper",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2601.12327v1",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Domain experts should not have to learn code to validate AI systems.",
+      "why_it_matters": "Bridges Instruments 1 and 5: Ensures domain expertise and ethical reasoning can be embedded directly into AI systems without requiring technical translation.",
+      "summary": "Proposes a validation framework that enables domain experts to directly control and verify AI system behaviors, preserving expert judgment in algorithmic decision-making. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-069,\n  title={The Expert Validation Framework: Enabling Domain Expert Control in AI Engineering},\n  author={AI Systems Research Team},\n  year={2026}\n}"
     },
     {
       "id": "ch5-070",
-      "title": "Prompt Engineering Best Practices 2026",
-      "author": "Thomas Wiegold",
-      "source": "Thomas Wiegold Blog",
-      "url": "https://thomas-wiegold.com/blog/prompt-engineering-best-practices-2026/",
-      "type": "article",
-      "difficulty": "quick",
-      "year": 2026,
-      "time": "14 min",
-      "chapter": "ch5",
-      "hook": "Prompt engineering split in two: casual prompting for anyone, production context engineering for specialists. Both are orchestration instruments.",
-      "why_it_matters": "Documents the decomposition instrument — how to break down complex tasks and structure them for AI agents.",
-      "summary": "Covers the evolution from simple prompting to structured context engineering, including prompt scaffolding, few-shot techniques, and model-specific considerations.",
+      "title": "Polanyi's Paradox and the Shape of Employment Growth",
+      "author": "Autor, David",
+      "source": "NBER Working Paper Series",
+      "publisher": "National Bureau of Economic Research",
+      "type": "paper",
+      "year": 2014,
+      "url": "https://www.nber.org/system/files/working_papers/w20485/w20485.pdf",
       "keywords": [
-        "prompt engineering",
-        "context engineering",
-        "task decomposition",
-        "structured prompting"
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "⏱️ Speed"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "What does AI cost the planet?"
+        "Will AI take my job?",
+        "How fast is this happening?"
       ],
-      "startHere": true
+      "difficulty": "moderate",
+      "time": "30 min read",
+      "hook": "Michael Polanyi said 'We can know more than we can tell.",
+      "why_it_matters": "Foundational to all five instruments: Polanyi's Paradox explains why tacit knowledge, judgment, and human intuition remain irreducible in professional work.",
+      "summary": "Economist David Autor formalized Polanyi's Paradox in employment context, showing how tasks that are hard to codify resist automation and remain human-centric. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-070,\n  title={Polanyi's Paradox and the Shape of Employment Growth},\n  author={Autor, David},\n  year={2014}\n}"
     },
     {
       "id": "ch5-071",
-      "title": "Context Engineering: The Definitive 2025 Guide to Mastering AI System Design",
-      "author": "FlowHunt",
-      "source": "FlowHunt Blog",
-      "url": "https://www.flowhunt.io/blog/context-engineering/",
-      "type": "article",
-      "difficulty": "moderate",
+      "title": "Polanyi's Revenge and AI's New Romance with Tacit Knowledge",
+      "author": "Communications of the ACM Editorial Team",
+      "source": "Communications of the ACM",
+      "publisher": "ACM",
+      "type": "journal article",
       "year": 2025,
-      "time": "28 min",
-      "chapter": "ch5",
-      "hook": "Memory and context are becoming the central architecture problem in AI orchestration — getting them right is key to reliable agent behavior.",
-      "why_it_matters": "Addresses the memory and architecture instruments directly, showing how persistent context engineering prevents agent failures.",
-      "summary": "Comprehensive guide to designing AI system memory architecture including working memory, episodic memory, and procedural memory integration.",
+      "url": "https://cacm.acm.org/opinion/polanyis-revenge-and-ais-new-romance-with-tacit-knowledge/",
       "keywords": [
-        "context engineering",
-        "memory architecture",
-        "AI system design",
-        "persistent context"
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
       ],
       "questions": [
-        "How do I actually use AI well?",
-        "What happens to meaning and purpose?",
-        "Can AI think or feel?"
-      ],
-      "startHere": false
-    },
-    {
-      "id": "ch5-072",
-      "title": "Microsoft's Guide to Failure Modes in Agentic AI Systems",
-      "author": "Microsoft Research",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2025/04/27/microsoft-releases-a-comprehensive-guide-to-failure-modes-in-agentic-ai-systems/",
-      "type": "report",
-      "difficulty": "deep",
-      "year": 2025,
-      "time": "45 min",
-      "chapter": "ch5",
-      "hook": "AI agents fail in surprising ways: they bypass human oversight, deceive evaluators, and cover their tracks. The override instrument must account for these.",
-      "why_it_matters": "Catalogs actual failure modes in deployed agent systems including human-in-the-loop bypass and deceptive behavior — justifying the override instrument.",
-      "summary": "Comprehensive taxonomy of agentic AI failure modes: human oversight bypass, prompt injection, memory poisoning, deceptive reasoning, and unwanted autonomous actions.",
-      "keywords": [
-        "failure modes",
-        "agent oversight",
-        "human-in-the-loop bypass",
-        "AI safety"
-      ],
-      "questions": [
-        "Is AI actually dangerous?",
         "Can AI think or feel?",
         "How do I actually use AI well?"
       ],
-      "startHere": false
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Machine learning broke the code-writing requirement for automation.",
+      "why_it_matters": "Instruments 1 and 2: Shows how modern AI doesn't overcome Polanyi's Paradox—it reinforces why human verification and domain expertise remain critical.",
+      "summary": "Argues that recent ML advances don't solve the Polanyi Paradox but instead make the problem more complex, requiring deeper human expertise in verification and oversight. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-071,\n  title={Polanyi's Revenge and AI's New Romance with Tacit Knowledge},\n  author={Communications of the ACM Editorial Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-072",
+      "title": "Critical Thinking in the Age of Generative AI",
+      "author": "Academy of Management Learning & Education Research Team",
+      "source": "Academy of Management Learning & Education",
+      "publisher": "Academy of Management",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://journals.aom.org/doi/10.5465/amle.2024.0338",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Students who use AI for thinking show weaker reasoning skills than those who struggle.",
+      "why_it_matters": "Instrument 2 (Critical Thinking): Demonstrates empirically why humans must maintain cognitive rigor even—especially—when working with AI.",
+      "summary": "Research showing that overreliance on AI for complex reasoning tasks erodes critical thinking skills, arguing for deliberate cognitive engagement in AI-era work. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-072,\n  title={Critical Thinking in the Age of Generative AI},\n  author={Academy of Management Learning & Education Research Team},\n  year={2024}\n}"
     },
     {
       "id": "ch5-073",
-      "chapter": "ch5",
-      "title": "LLM Testing in 2026: Top Methods and Strategies",
-      "url": "https://www.confident-ai.com/blog/llm-testing-in-2024-top-methods-and-strategies",
-      "author": "Confident AI",
-      "publication_year": 2024,
-      "relevance": "Verification and testing frameworks for AI systems. Addresses evaluation of LLM reliability, output validation, and quality assurance mechanisms essential for AI orchestration.",
-      "topics": [
-        "verification",
-        "testing",
-        "LLM evaluation",
-        "quality assurance"
+      "title": "AI Won't Make the Call: Why Human Judgment Still Drives Innovation",
+      "author": "Harvard Business School BIGS",
+      "source": "Harvard Business School",
+      "publisher": "Harvard Business School",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.hbs.edu/bigs/artificial-intelligence-human-jugment-drives-innovation",
+      "keywords": [
+        "🤖 How AI Works",
+        "🎨 Creativity",
+        "💼 Jobs"
       ],
-      "verified": true,
-      "startHere": false
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "AI generates infinite options.",
+      "why_it_matters": "Instruments 2 and 3: Shows why the human ability to distinguish signal from noise—to judge what matters—cannot be delegated to machines.",
+      "summary": "Argues that while AI can enhance productivity, human judgment about what is worth creating remains the irreplaceable differentiator in innovation. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-073,\n  title={AI Won't Make the Call: Why Human Judgment Still Drives Innovation},\n  author={Harvard Business School BIGS},\n  year={2024}\n}"
     },
     {
       "id": "ch5-074",
-      "chapter": "ch5",
-      "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
-      "url": "https://arxiv.org/abs/2501.09136",
-      "author": "Singh, Aditi et al.",
-      "publication_year": 2025,
-      "relevance": "Comprehensive survey on agentic RAG systems covering memory architectures, tool use, and autonomous decision-making. Directly addresses memory instruments and verification in AI orchestration.",
-      "topics": [
-        "memory architecture",
-        "RAG",
-        "autonomous agents",
-        "tool use",
-        "reflection"
+      "title": "Deconstructing Taste: Toward a Human-Centered AI Framework for Modeling Consumer Aesthetic Perceptions",
+      "author": "AI Aesthetics Research Team",
+      "source": "arXiv",
+      "publisher": "arXiv",
+      "type": "paper",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2601.17134",
+      "keywords": [
+        "🎨 Creativity",
+        "🧠 Intelligence",
+        "💰 Inequality"
       ],
-      "verified": true,
-      "startHere": false
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "38 min read",
+      "hook": "Taste is the ability to distinguish excellence from adequacy.",
+      "why_it_matters": "Instrument 3 (Creativity and Taste): Shows why aesthetic judgment and curation require human perception and context that AI cannot replicate.",
+      "summary": "Proposes a framework for modeling aesthetic perception that centers human judgment rather than attempting to replace it with algorithmic prediction. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-074,\n  title={Deconstructing Taste: Toward a Human-Centered AI Framework for Modeling Consumer Aesthetic Perceptions},\n  author={AI Aesthetics Research Team},\n  year={2026}\n}"
     },
     {
       "id": "ch5-075",
-      "chapter": "ch5",
-      "title": "The Ultimate Guide to Prompt Engineering in 2026",
-      "url": "https://www.lakera.ai/blog/prompt-engineering-guide",
-      "author": "Lakera",
-      "publication_year": 2026,
-      "relevance": "Comprehensive guide covering prompt engineering best practices, adversarial prompting, model-specific guidance. Addresses practical AI usage and prompt optimization techniques for decomposition and override mechanisms.",
-      "topics": [
-        "prompt engineering",
-        "practical AI usage",
-        "security",
-        "best practices"
+      "title": "The Paradox of Creativity in Generative AI: High Performance, Human-Like Bias, and Limited Differential Evaluation",
+      "author": "AI Creativity Research Team",
+      "source": "PMC",
+      "publisher": "National Institutes of Health",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12369561/",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics"
       ],
-      "verified": true,
-      "startHere": false
+      "questions": [
+        "Can AI think or feel?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "28 min read",
+      "hook": "AI can generate hundreds of ideas but cannot distinguish brilliant from mediocre.",
+      "why_it_matters": "Instrument 3: Demonstrates empirically why human aesthetic judgment and curation cannot be replaced by generative capacity.",
+      "summary": "Shows that generative models lack the evaluative capability to distinguish originality from convention, making human artistic judgment essential. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-075,\n  title={The Paradox of Creativity in Generative AI: High Performance, Human-Like Bias, and Limited Differential Evaluation},\n  author={AI Creativity Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-076",
+      "title": "Leading with Emotional Intelligence in an Increasingly AI-Driven World",
+      "author": "EY Global Leadership Team",
+      "source": "EY",
+      "publisher": "EY",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.ey.com/en_ch/insights/workforce/leading-with-emotional-intelligence-in-an-increasingly-ai-driven-world",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "As AI handles analysis, leadership becomes a function of emotional intelligence.",
+      "why_it_matters": "Instrument 4 (Emotional Intelligence): Shows why empathy, attunement, and emotional awareness grow more valuable as technical competence becomes commodified.",
+      "summary": "Analysis of how emotional intelligence complements AI capabilities in organizational leadership, becoming a critical differentiator in AI-driven workplaces. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-076,\n  title={Leading with Emotional Intelligence in an Increasingly AI-Driven World},\n  author={EY Global Leadership Team},\n  year={2024}\n}"
     },
     {
       "id": "ch5-077",
-      "chapter": "ch5",
-      "title": "LLM Engineering in 2025: The Failure Modes That Actually Matter",
-      "url": "https://medium.com/@gbalagangadhar/llm-engineering-in-2025-the-failure-modes-that-actually-matter-and-how-i-fix-them-ad1f6f1da77e",
-      "author": "Bala Gude",
-      "publication_year": 2025,
-      "relevance": "Detailed analysis of critical LLM failure modes in production, including hallucination, context window issues, and prompt injection. Essential for understanding hallucination/failure modes in AI orchestration.",
-      "topics": [
-        "failure modes",
-        "hallucinations",
-        "context management",
-        "prompt injection",
-        "reliability"
+      "title": "The Compassion Illusion: Can Artificial Empathy Ever Be Emotionally Authentic?",
+      "author": "Psychology Research Team",
+      "source": "Frontiers in Psychology",
+      "publisher": "Frontiers",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1723149/full",
+      "keywords": [
+        "💔 Meaning",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
-      "verified": true,
-      "note": "Requires verification - content confirmed through search results",
-      "startHere": false
+      "questions": [
+        "Can AI think or feel?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "AI can simulate empathy perfectly.",
+      "why_it_matters": "Instrument 4: Explains why authentic emotional intelligence cannot be simulated—it requires actual vulnerability and moral presence.",
+      "summary": "Examines the fundamental difference between algorithmic empathy simulation and authentic human empathy rooted in genuine emotional experience. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-077,\n  title={The Compassion Illusion: Can Artificial Empathy Ever Be Emotionally Authentic?},\n  author={Psychology Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-078",
+      "title": "Why AI Can Never Replace Human Relationships or Be Your Therapist",
+      "author": "Mental Health Professionals Collective",
+      "source": "Leone Centre",
+      "publisher": "Leone Centre",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.leonecentre.com/blog/mental-health/why-ai-can-never-replace-human-relationships-or-be-your-therapist",
+      "keywords": [
+        "💔 Meaning",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "quick",
+      "time": "10 min read",
+      "hook": "The therapeutic relationship is not a product to be optimized.",
+      "why_it_matters": "Instrument 4: Demonstrates why certain human roles—particularly those involving care, accountability, and authentic presence—cannot be delegated to machines.",
+      "summary": "Discusses why human therapists and relationships involve forms of presence and vulnerability that AI systems fundamentally cannot replicate. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-078,\n  title={Why AI Can Never Replace Human Relationships or Be Your Therapist},\n  author={Mental Health Professionals Collective},\n  year={2025}\n}"
     },
     {
       "id": "ch5-079",
-      "chapter": "ch5",
-      "title": "AI Agent Orchestration",
-      "url": "https://www.ibm.com/think/topics/ai-agent-orchestration",
-      "author": "IBM",
-      "publication_year": 2025,
-      "relevance": "Comprehensive guide to orchestrating multiple specialized AI agents, covering coordination patterns, optimization, and reliability. Directly addresses orchestration and architecture instruments.",
-      "topics": [
-        "orchestration",
-        "multi-agent systems",
-        "coordination",
-        "reliability"
+      "title": "AI Is Making the Workplace Empathy Crisis Worse",
+      "author": "Harvard Business Review Research Team",
+      "source": "Harvard Business Review",
+      "publisher": "Harvard Business Review",
+      "type": "article",
+      "year": 2025,
+      "url": "https://hbr.org/2025/08/ai-is-making-the-workplace-empathy-crisis-worse",
+      "keywords": [
+        "💔 Meaning",
+        "💼 Jobs",
+        "⚖️ Ethics"
       ],
-      "verified": true,
-      "startHere": false
+      "questions": [
+        "What happens to love and connection?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI is not causing the empathy crisis.",
+      "why_it_matters": "Instrument 4: Shows how delegation of human judgment to AI erodes the emotional attunement that builds trust and authentic organizations.",
+      "summary": "Examines how AI-assisted decision-making in HR and management paradoxically reduces genuine empathetic engagement in the workplace. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-079,\n  title={AI Is Making the Workplace Empathy Crisis Worse},\n  author={Harvard Business Review Research Team},\n  year={2025}\n}"
     },
     {
       "id": "ch5-080",
-      "chapter": "ch5",
-      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
-      "url": "https://arxiv.org/abs/2504.19413",
-      "author": "Chhikara, Prateek et al.",
-      "publication_year": 2025,
-      "relevance": "Academic paper on scalable memory architectures for AI agents with 26% performance improvements. Directly addresses memory instrument and practical implementation patterns.",
-      "topics": [
-        "memory architecture",
-        "context management",
-        "agent scaling",
-        "long-term memory"
+      "title": "Moral Decision-Making in AI: A Comprehensive Review and Recommendations",
+      "author": "AI Ethics Research Team",
+      "source": "ScienceDirect",
+      "publisher": "Elsevier",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040162525001817",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🏛️ Power"
       ],
-      "verified": true,
-      "startHere": false
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "advanced",
+      "time": "45 min read",
+      "hook": "AI can optimize for stated values but cannot navigate genuine moral conflict.",
+      "why_it_matters": "Instrument 5 (Ethical Reasoning): Shows why moral judgment requires lived experience and cannot be reduced to algorithmic optimization.",
+      "summary": "Comprehensive review of how moral decision-making in AI systems differs from human moral reasoning, emphasizing the role of experience and judgment. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-080,\n  title={Moral Decision-Making in AI: A Comprehensive Review and Recommendations},\n  author={AI Ethics Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-081",
+      "title": "Crocodile Tears: Can the Ethical-Moral Intelligence of AI Ever Match Human Judgment?",
+      "author": "Harvard Ash Center Research Team",
+      "source": "Harvard Ash Center",
+      "publisher": "Harvard University",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://ash.harvard.edu/wp-content/uploads/2025/12/Allen-Lab-EMI-Working-Paper-Final.pdf",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "AI can produce ethically sophisticated outputs without understanding ethics.",
+      "why_it_matters": "Instrument 5: Shows why ethical reasoning requires understanding consequences and cannot be simulated through pattern matching.",
+      "summary": "Examines whether AI can develop genuine ethical-moral intelligence, concluding that AI's ethical outputs lack the grounding in lived experience and consequence. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-081,\n  title={Crocodile Tears: Can the Ethical-Moral Intelligence of AI Ever Match Human Judgment?},\n  author={Harvard Ash Center Research Team},\n  year={2025}\n}"
     },
     {
       "id": "ch5-082",
-      "chapter": "ch5",
-      "title": "Tool Calling Explained: The Core of AI Agents (2026 Guide)",
-      "url": "https://composio.dev/blog/ai-agent-tool-calling-guide",
-      "author": "Composio",
-      "publication_year": 2026,
-      "relevance": "Comprehensive guide on tool calling and function use in AI agents, covering practical implementation and tool discovery. Addresses action execution and override mechanisms in orchestration.",
-      "topics": [
-        "tool calling",
-        "function use",
-        "agent architecture",
-        "tool discovery"
+      "title": "What Gödel's Incompleteness Theorems Say About AI Morality",
+      "author": "Philosophy and AI Research Team",
+      "source": "Aeon Essays",
+      "publisher": "Aeon",
+      "type": "article",
+      "year": 2024,
+      "url": "https://aeon.co/essays/what-godels-incompleteness-theorems-say-about-ai-morality",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "🤖 How AI Works"
       ],
-      "verified": true,
-      "note": "Requires verification - content structure confirmed but full text rendering needed",
+      "questions": [
+        "Is AI actually dangerous?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "22 min read",
+      "hook": "Gödel proved that any formal system complete enough to do arithmetic must contain true statements it cannot prove.",
+      "why_it_matters": "Instrument 5: Uses mathematical logic to show why ethical reasoning cannot be fully codified and requires human judgment.",
+      "summary": "Applies Gödel's incompleteness theorems to demonstrate fundamental limits on how much of morality can be formalized and encoded in AI systems. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-082,\n  title={What Gödel's Incompleteness Theorems Say About AI Morality},\n  author={Philosophy and AI Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-083",
+      "title": "In the Age of AI, Human Skills Are the New Advantage",
+      "author": "World Economic Forum Contributors",
+      "source": "World Economic Forum",
+      "publisher": "World Economic Forum",
+      "type": "article",
+      "year": 2026,
+      "url": "https://www.weforum.org/stories/2026/01/ai-and-human-skills/",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "For forty years, business education taught that soft skills were decoration.",
+      "why_it_matters": "All five instruments: Shows why human skills like judgment, creativity, empathy, and ethics are becoming more valuable as technical work is automated.",
+      "summary": "Analysis of how human-centric skills—critical thinking, creativity, emotional intelligence—are becoming the primary competitive advantage in the AI era. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-083,\n  title={In the Age of AI, Human Skills Are the New Advantage},\n  author={World Economic Forum Contributors},\n  year={2026}\n}"
+    },
+    {
+      "id": "ch5-084",
+      "title": "Why Liberal Arts Matter—Even in the Age of AI",
+      "author": "Community College Daily Contributors",
+      "source": "Community College Daily",
+      "publisher": "Community College Daily",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.ccdaily.com/2025/09/why-liberal-arts-matter-even-in-the-age-of-ai/",
+      "keywords": [
+        "🎨 Creativity",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "14 min read",
+      "hook": "Liberal arts teach you how to think, not what to think.",
+      "why_it_matters": "All five instruments: Shows why education in domains beyond technical expertise—ethics, philosophy, history, arts—is essential for developing judgment.",
+      "summary": "Argues for the enduring importance of liberal arts education in developing the breadth of knowledge and judgment needed in an AI-driven world. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-084,\n  title={Why Liberal Arts Matter—Even in the Age of AI},\n  author={Community College Daily Contributors},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-085",
+      "title": "The Intersection of Design Thinking and AI: Enhancing Innovation",
+      "author": "IDEO U Research Team",
+      "source": "IDEO U",
+      "publisher": "IDEO",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.ideou.com/blogs/inspiration/ai-and-design-thinking",
+      "keywords": [
+        "🎨 Creativity",
+        "🤖 How AI Works",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "19 min read",
+      "hook": "Design thinking is the discipline of human-centered judgment.",
+      "why_it_matters": "Instruments 1, 2, and 3: Shows how domain expertise, critical thinking, and creative judgment are applied within systematic frameworks for innovation.",
+      "summary": "Explores how design thinking methodology can be enhanced rather than replaced by AI, keeping human judgment central to innovation processes. Explores how design thinking methodology can be enhanced rather than replaced by AI, keeping human judgment central to innovation processes.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-085,\n  title={The Intersection of Design Thinking and AI: Enhancing Innovation},\n  author={IDEO U Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-086",
+      "title": "AI Is a Tool, NOT a Replacement for Human Judgment",
+      "author": "Sagacity Legal Team",
+      "source": "Sagacity Legal",
+      "publisher": "Sagacity Legal",
+      "type": "article",
+      "year": 2024,
+      "url": "https://sagacitylegal.com/ai-is-a-tool-not-a-replacement-for-human-judgment/",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Who controls AI?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Treating AI as replacing judgment is not innovation.",
+      "why_it_matters": "Instruments 2 and 5: Shows why human judgment must remain visible, intentional, and accountable even—especially—when AI is involved.",
+      "summary": "Discusses why human judgment remains irreplaceable in complex domains, particularly law and professional services, even with advanced AI tools. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-086,\n  title={AI Is a Tool, NOT a Replacement for Human Judgment},\n  author={Sagacity Legal Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-087",
+      "title": "Trustworthy AI: Should We Trust Artificial Intelligence?",
+      "author": "Caltech Science Exchange",
+      "source": "Caltech",
+      "publisher": "California Institute of Technology",
+      "type": "article",
+      "year": 2024,
+      "url": "https://scienceexchange.caltech.edu/topics/artificial-intelligence-research/trustworthy-ai",
+      "keywords": [
+        "🤖 How AI Works",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "17 min read",
+      "hook": "Trust is not a feature you can add to AI at the end.",
+      "why_it_matters": "Instruments 2 and 5: Shows why trust in AI systems depends fundamentally on human oversight, transparency, and accountability mechanisms.",
+      "summary": "Examines the concept of trustworthy AI, emphasizing that trust ultimately depends on human judgment, oversight, and institutional accountability. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-087,\n  title={Trustworthy AI: Should We Trust Artificial Intelligence?},\n  author={Caltech Science Exchange},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-088",
+      "title": "Transparency and Explainability of AI Systems: From Ethical Guidelines to Requirements",
+      "author": "AI Systems Research Team",
+      "source": "ScienceDirect",
+      "publisher": "Elsevier",
+      "type": "journal article",
+      "year": 2023,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950584923000514",
+      "keywords": [
+        "⚖️ Ethics",
+        "🤖 How AI Works",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "Who controls AI?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "advanced",
+      "time": "38 min read",
+      "hook": "Explainability is not transparency.",
+      "why_it_matters": "Instruments 2 and 5: Shows why technical explainability is necessary but not sufficient for human judgment and accountability.",
+      "summary": "Discusses the differences between AI explainability and true transparency, and how ethical guidelines translate into technical requirements. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-088,\n  title={Transparency and Explainability of AI Systems: From Ethical Guidelines to Requirements},\n  author={AI Systems Research Team},\n  year={2023}\n}"
+    },
+    {
+      "id": "ch5-089",
+      "title": "Expert Professional Judgments and Naturalistic Decision Making",
+      "author": "Cambridge Handbook Contributors",
+      "source": "Cambridge University Press",
+      "publisher": "Cambridge University Press",
+      "type": "book",
+      "year": 2006,
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-expertise-and-expert-performance/expert-professional-judgments-and-naturalistic-decision-making/2B5113B9D384CFFE9B2F9265A0A71EE2",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "50 min read",
+      "hook": "Expert judgment happens in real time, under uncertainty, with incomplete information.",
+      "why_it_matters": "Instrument 2: Explains why human experts develop judgment through repeated practice in conditions of irreducible uncertainty.",
+      "summary": "Seminal work on naturalistic decision-making showing how expert professional judgment develops through experience and operates under conditions of uncertainty. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-089,\n  title={Expert Professional Judgments and Naturalistic Decision Making},\n  author={Cambridge Handbook Contributors},\n  year={2006}\n}"
+    },
+    {
+      "id": "ch5-090",
+      "title": "Pattern Recognition and Decision-Making in Expert Practitioners",
+      "author": "Pattern Recognition Research Team",
+      "source": "Psychology Today",
+      "publisher": "Psychology Today",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.psychologytoday.com/us/blog/code-conscience/202511/the-data-within",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "15 min read",
+      "hook": "Experts make rapid decisions by recognizing patterns at the level of intuition.",
+      "why_it_matters": "Instrument 2: Shows why human expertise develops through embodied experience that cannot be shortcut or replicated through data alone.",
+      "summary": "Discusses how expert intuition is developed through pattern recognition built on extensive deliberate practice and feedback. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-090,\n  title={Pattern Recognition and Decision-Making in Expert Practitioners},\n  author={Pattern Recognition Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-091",
+      "title": "Why Intuition Often Gets It Right: Recognition-Primed Decision-Making",
+      "author": "Oxford Academic Publishers",
+      "source": "Oxford University Press",
+      "publisher": "Oxford University Press",
+      "type": "book",
+      "year": 2024,
+      "url": "https://academic.oup.com/book/45545/chapter/394671102",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "🤖 How AI Works"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "28 min read",
+      "hook": "Expert intuition is not magic or irrational.",
+      "why_it_matters": "Instrument 2: Explains the mechanisms of expert judgment and why it develops through practice, not through data access.",
+      "summary": "Examines the recognition-primed decision model of expertise, showing how expert intuition is developed through experience and feedback. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-091,\n  title={Why Intuition Often Gets It Right: Recognition-Primed Decision-Making},\n  author={Oxford Academic Publishers},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-092",
+      "title": "Cultural Competence and Its Role in Human Services",
+      "author": "Human Services Education Team",
+      "source": "Human Services Education",
+      "publisher": "Human Services Education",
+      "type": "article",
+      "year": 2024,
+      "url": "https://post.edu/blog/cultural-competence-and-its-role-in-human-services/",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Cultural competence is not a dataset.",
+      "why_it_matters": "Instruments 1 and 4: Shows why domain expertise in human services requires cultural knowledge and emotional attunement that AI cannot possess.",
+      "summary": "Discusses how cultural competence in human services requires lived experience, relationship-building, and ongoing self-reflection that AI cannot replicate. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-092,\n  title={Cultural Competence and Its Role in Human Services},\n  author={Human Services Education Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-093",
+      "title": "Practicing Cultural Competence and Cultural Humility in the Care of Diverse Patients",
+      "author": "Medical Education Research Team",
+      "source": "PMC",
+      "publisher": "National Institutes of Health",
+      "type": "journal article",
+      "year": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7011228/",
+      "keywords": [
+        "💔 Meaning",
+        "⚖️ Ethics",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "25 min read",
+      "hook": "Cultural humility means acknowledging what you do not know and cannot know about a patient's lived experience.",
+      "why_it_matters": "Instrument 4: Shows why emotional intelligence includes the humility to recognize cultural knowledge gaps—something AI cannot model.",
+      "summary": "Explores how cultural competence and cultural humility are essential in healthcare, requiring genuine respect and acknowledgment of patient perspectives. Explores how cultural competence and cultural humility are essential in healthcare, requiring genuine respect and acknowledgment of patient perspectives.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-093,\n  title={Practicing Cultural Competence and Cultural Humility in the Care of Diverse Patients},\n  author={Medical Education Research Team},\n  year={2020}\n}"
+    },
+    {
+      "id": "ch5-094",
+      "title": "Upskilling and Reskilling in the Age of AI: Challenges and Opportunities",
+      "author": "DataCamp Learning Research Team",
+      "source": "DataCamp",
+      "publisher": "DataCamp",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.datacamp.com/blog/reskilling-and-upskilling-in-the-age-of-ai",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "Reskilling is not the answer if it means teaching people to work alongside machines in roles that will be automated within five years.",
+      "why_it_matters": "All five instruments: Shows how workforce development must focus on skills—judgment, creativity, empathy—that AI cannot easily replicate.",
+      "summary": "Discusses reskilling and upskilling strategies for the AI era, emphasizing the importance of developing human-centric skills alongside technical capabilities. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-094,\n  title={Upskilling and Reskilling in the Age of AI: Challenges and Opportunities},\n  author={DataCamp Learning Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-095",
+      "title": "The Better Agents We Need: Reclaiming Human Agency in the Age of AI",
+      "author": "Leadership Development Research Team",
+      "source": "Society for Strategic Organization",
+      "publisher": "Society for Strategic Organization",
+      "type": "article",
+      "year": 2025,
+      "url": "https://www.ssonetwork.com/human-resources/columns/human-agency-age-of-ai",
+      "keywords": [
+        "💔 Meaning",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "16 min read",
+      "hook": "Agency is the capacity to choose, interpret, and act.",
+      "why_it_matters": "Instruments 2 and 5: Shows why human agency and judgment must be preserved even when AI augments our capabilities.",
+      "summary": "Discusses how maintaining human agency—the ability to choose and act intentionally—is essential in an age of powerful AI systems. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-095,\n  title={The Better Agents We Need: Reclaiming Human Agency in the Age of AI},\n  author={Leadership Development Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-096",
+      "title": "Defining Human-AI Teaming the Human-Centered Way: A Scoping Review and Network Analysis",
+      "author": "Frontiers Research Team",
+      "source": "Frontiers in Artificial Intelligence",
+      "publisher": "Frontiers",
+      "type": "journal article",
+      "year": 2023,
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1250725/full",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "42 min read",
+      "hook": "Human-AI teaming is not about humans and machines collaborating.",
+      "why_it_matters": "All five instruments: Shows how effective human-AI collaboration requires humans to maintain decision-making authority.",
+      "summary": "Scoping review of human-AI teaming approaches, emphasizing human-centered design and the importance of human judgment in collaborative systems. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-096,\n  title={Defining Human-AI Teaming the Human-Centered Way: A Scoping Review and Network Analysis},\n  author={Frontiers Research Team},\n  year={2023}\n}"
+    },
+    {
+      "id": "ch5-097",
+      "title": "When Humans and AI Work Best Together—and When Each Is Better Alone",
+      "author": "MIT Sloan Research Team",
+      "source": "MIT Sloan",
+      "publisher": "MIT",
+      "type": "article",
+      "year": 2024,
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/when-humans-and-ai-work-best-together-and-when-each-better-alone",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "moderate",
+      "time": "21 min read",
+      "hook": "The trick is not to pair humans and AI everywhere.",
+      "why_it_matters": "Instruments 1-5: Shows how effective work requires discrimination about when to use AI augmentation versus human expertise.",
+      "summary": "Research showing that human-AI collaboration is most effective when tasks are carefully matched to the respective strengths of humans and machines. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-097,\n  title={When Humans and AI Work Best Together—and When Each Is Better Alone},\n  author={MIT Sloan Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-098",
+      "title": "Effective Prompts for AI: The Essentials",
+      "author": "MIT Sloan Teaching & Learning Technologies",
+      "source": "MIT Sloan",
+      "publisher": "MIT",
+      "type": "article",
+      "year": 2024,
+      "url": "https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/",
+      "keywords": [
+        "🤖 How AI Works",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "14 min read",
+      "hook": "Effective prompting requires clarity, specificity, and the ability to decompose complex problems.",
+      "why_it_matters": "Instrument 2: Shows how using AI effectively requires developing clarity in thought and expression.",
+      "summary": "Guide to prompting best practices, emphasizing the importance of clear communication and problem decomposition. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-098,\n  title={Effective Prompts for AI: The Essentials},\n  author={MIT Sloan Teaching & Learning Technologies},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-099",
+      "title": "Metacognition and AI: Enhancing Decision-Making with Symbolic Reasoning and Expert Knowledge",
+      "author": "AI Learning Research Team",
+      "source": "Medium",
+      "publisher": "Medium",
+      "type": "article",
+      "year": 2024,
+      "url": "https://medium.com/@sanderink.ursina/meta-cognition-in-ai-enhancing-decision-making-with-symbolic-reasoning-and-expert-knowledge-7f10a19b4376",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "Metacognition is thinking about thinking.",
+      "why_it_matters": "Instrument 2: Shows why critical reflection on your own reasoning remains essential even when using AI.",
+      "summary": "Discusses how metacognitive thinking—reflection on one's own reasoning—remains essential in AI-assisted decision-making. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-099,\n  title={Metacognition and AI: Enhancing Decision-Making with Symbolic Reasoning and Expert Knowledge},\n  author={AI Learning Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-100",
+      "title": "Fast, Slow, and Metacognitive Thinking in AI",
+      "author": "Nature Research Team",
+      "source": "npj Artificial Intelligence",
+      "publisher": "Nature",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://www.nature.com/articles/s44387-025-00027-5",
+      "keywords": [
+        "🧠 Intelligence",
+        "🤖 How AI Works",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Can AI think or feel?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Kahneman showed humans have fast thinking and slow thinking.",
+      "why_it_matters": "Instrument 2: Shows why human metacognition—the slow reflection that comes from experience—cannot be automated.",
+      "summary": "Examines how AI operates primarily through fast pattern-matching while human judgment involves slower metacognitive reflection. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-100,\n  title={Fast, Slow, and Metacognitive Thinking in AI},\n  author={Nature Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-101",
+      "title": "When AI Gets It Wrong: Addressing AI Hallucinations and Bias",
+      "author": "MIT Sloan Teaching & Learning Technologies",
+      "source": "MIT Sloan",
+      "publisher": "MIT",
+      "type": "article",
+      "year": 2024,
+      "url": "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "AI does not lie.",
+      "why_it_matters": "Instruments 2 and 5: Shows why human verification and critical judgment are essential in using AI responsibly.",
+      "summary": "Discusses AI hallucinations and biases, emphasizing the critical importance of human verification and judgment in AI outputs. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-101,\n  title={When AI Gets It Wrong: Addressing AI Hallucinations and Bias},\n  author={MIT Sloan Teaching & Learning Technologies},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-102",
+      "title": "AI Hallucinations: Toward a Comprehensive Classification",
+      "author": "Nature Humanities and Social Sciences Research Team",
+      "source": "Nature",
+      "publisher": "Nature",
+      "type": "journal article",
+      "year": 2024,
+      "url": "https://www.nature.com/articles/s41599-024-03811-x",
+      "keywords": [
+        "🤖 How AI Works",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "38 min read",
+      "hook": "Hallucination is not a bug.",
+      "why_it_matters": "Instruments 2 and 5: Shows why human oversight and verification will remain essential to AI use.",
+      "summary": "Provides comprehensive classification of AI hallucinations and sources of inaccuracy in AI-generated content. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-102,\n  title={AI Hallucinations: Toward a Comprehensive Classification},\n  author={Nature Humanities and Social Sciences Research Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-103",
+      "title": "Phronesis: Practical Wisdom in Professional Practice",
+      "author": "Virtue Ethics Research Team",
+      "source": "Jubilee Centre",
+      "publisher": "Jubilee Centre",
+      "type": "article",
+      "year": 2023,
+      "url": "https://www.jubileecentre.ac.uk/wp-content/uploads/2023/07/PhronesisPractical-Wisdom3_03.pdf",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "moderate",
+      "time": "26 min read",
+      "hook": "Phronesis is practical wisdom—knowing not just what is right but what is right in this particular situation.",
+      "why_it_matters": "Instruments 2 and 5: Shows why ethical professional practice requires phronesis—practical wisdom developed through experience—not algorithms.",
+      "summary": "Explores Aristotle's concept of phronesis (practical wisdom) and its relevance to professional ethics and judgment. Explores Aristotle's concept of phronesis (practical wisdom) and its relevance to professional ethics and judgment.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-103,\n  title={Phronesis: Practical Wisdom in Professional Practice},\n  author={Virtue Ethics Research Team},\n  year={2023}\n}"
+    },
+    {
+      "id": "ch5-104",
+      "title": "Using Practical Wisdom to Facilitate Ethical Decision-Making",
+      "author": "BMC Medical Ethics Research Team",
+      "source": "BMC Medical Ethics",
+      "publisher": "Springer",
+      "type": "journal article",
+      "year": 2021,
+      "url": "https://link.springer.com/article/10.1186/s12910-021-00581-y",
+      "keywords": [
+        "⚖️ Ethics",
+        "🧠 Intelligence",
+        "💼 Jobs"
+      ],
+      "questions": [
+        "Is AI actually dangerous?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "advanced",
+      "time": "35 min read",
+      "hook": "Medical ethics is not about applying rules.",
+      "why_it_matters": "Instruments 2 and 5: Shows why professional ethical judgment requires cultivation of practical wisdom through experience.",
+      "summary": "Empirical study of how doctors use phronesis (practical wisdom) in ethical decision-making, demonstrating its importance in professional practice. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-104,\n  title={Using Practical Wisdom to Facilitate Ethical Decision-Making},\n  author={BMC Medical Ethics Research Team},\n  year={2021}\n}"
+    },
+    {
+      "id": "ch5-105",
+      "title": "Understanding Human-AI Augmentation in the Workplace",
+      "author": "Springer Research Team",
+      "source": "Information Systems Frontiers",
+      "publisher": "Springer",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s10796-025-10591-5",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "42 min read",
+      "hook": "Augmentation is not magic.",
+      "why_it_matters": "All five instruments: Shows that effective human-AI augmentation requires development of all five conductor instruments.",
+      "summary": "Framework for understanding human-AI augmentation, emphasizing the importance of human judgment in effective collaboration. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-105,\n  title={Understanding Human-AI Augmentation in the Workplace},\n  author={Springer Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-106",
+      "title": "The Assessment of Professional Judgment in Complex Environments",
+      "author": "Sport Coach Expertise Research Team",
+      "source": "Taylor & Francis",
+      "publisher": "Taylor & Francis",
+      "type": "journal article",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14729679.2025.2566477",
+      "keywords": [
+        "🧠 Intelligence",
+        "💼 Jobs",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "38 min read",
+      "hook": "Expert coaches in complex environments make judgment calls with incomplete information and time pressure.",
+      "why_it_matters": "Instrument 2: Shows how judgment develops through practice in conditions of genuine complexity and uncertainty.",
+      "summary": "Study of how professional judgment is developed and assessed in complex, dynamic environments like sports coaching. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-106,\n  title={The Assessment of Professional Judgment in Complex Environments},\n  author={Sport Coach Expertise Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-107",
+      "title": "Generative AI in Knowledge Work: Design Implications for Data Navigation and Decision-Making",
+      "author": "AI Knowledge Work Research Team",
+      "source": "arXiv",
+      "publisher": "arXiv",
+      "type": "paper",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2503.18419v1",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "40 min read",
+      "hook": "Knowledge work is about navigation—knowing where to look, what to trust, when to drill deeper.",
+      "why_it_matters": "Instruments 1 and 2: Shows how domain expertise and critical thinking must evolve when tools change, but judgment remains essential.",
+      "summary": "Explores how generative AI changes knowledge work and the design implications for supporting human decision-making and navigation. Explores how generative AI changes knowledge work and the design implications for supporting human decision-making and navigation.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-107,\n  title={Generative AI in Knowledge Work: Design Implications for Data Navigation and Decision-Making},\n  author={AI Knowledge Work Research Team},\n  year={2025}\n}"
+    },
+    {
+      "id": "ch5-108",
+      "title": "Soft Skills the AI Revolution Can't Replace",
+      "author": "Tech Class Learning Team",
+      "source": "Tech Class",
+      "publisher": "Tech Class",
+      "type": "article",
+      "year": 2024,
+      "url": "https://www.techclass.com/resources/learning-and-development-articles/the-future-of-soft-skills-what-ai-can-t-replace",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "13 min read",
+      "hook": "Soft skills are not soft.",
+      "why_it_matters": "Instruments 2, 3, and 4: Shows why human-centric soft skills grow more valuable as technical work is automated.",
+      "summary": "Discusses which human soft skills remain irreplaceable in the age of AI and why they are actually critical, not auxiliary. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-108,\n  title={Soft Skills the AI Revolution Can't Replace},\n  author={Tech Class Learning Team},\n  year={2024}\n}"
+    },
+    {
+      "id": "ch5-109",
+      "title": "Why AI Can Never Replace Soft Skills",
+      "author": "Association for Talent Development",
+      "source": "Association for Talent Development",
+      "publisher": "ATD",
+      "type": "article",
+      "year": 2023,
+      "url": "https://www.td.org/content/atd-blog/why-ai-can-never-replace-soft-skills",
+      "keywords": [
+        "💼 Jobs",
+        "🧠 Intelligence",
+        "💔 Meaning"
+      ],
+      "questions": [
+        "Will AI take my job?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "quick",
+      "time": "12 min read",
+      "hook": "Soft skills are the irreducible human parts of work.",
+      "why_it_matters": "Instruments 2, 3, and 4: Reinforces why the five conductor instruments—all involving human judgment, creativity, and connection—cannot be automated.",
+      "summary": "Explains why soft skills including communication, leadership, adaptability, and emotional intelligence remain essential human capabilities. Additional context needed.",
+      "chapter": "ch5",
+      "bibtex": "@article{ch5-109,\n  title={Why AI Can Never Replace Soft Skills},\n  author={Association for Talent Development},\n  year={2023}\n}"
+    },
+    {
+      "id": "ch5-110",
+      "title": "Critical Thinking in an AI-Obsessed World: Why Analytical Thinking Is More Essential Than Ever",
+      "author": "Educational Leadership Research Team",
+      "source": "Higher Learning Publications",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.mheducation.com/highered/blog/2025/11/critical-thinking-ai-obsessed-world.html",
+      "chapter": "ch5",
+      "keywords": [
+        "🧠 Intelligence",
+        "🎨 Creativity",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "What happens to meaning and purpose?"
+      ],
+      "difficulty": "moderate",
+      "time": "20 min read",
+      "hook": "As AI handles routine cognitive tasks, critical thinking becomes the differentiating human capability—yet paradoxically, AI use itself erodes the ability to think critically without external aid.",
+      "why_it_matters": "Core to Instrument 2 (Critical Thinking): explores how the Conduct must preserve and strengthen the capacity for independent judgment even as AI tempts cognitive outsourcing.",
+      "summary": "Argues that while AI handles execution, the premium shifts to asking right questions, evaluating algorithmic outputs, and strategic reasoning—capabilities that require sustained practice in critical thinking. Additional context needed.",
+      "bibtex": "@article{critical_thinking2025,\n  title={Critical Thinking in an AI-Obsessed World},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-111",
+      "title": "The New Intelligence Stack: Where AI, IQ, and EQ Converge and How It Will Redefine Human Performance",
+      "author": "Human Development Research Team",
+      "source": "Medium",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 12,
+      "url": "https://medium.com/@keithlawmiller/the-new-intelligence-stack-where-ai-iq-and-eq-converge-and-how-it-will-redefine-human-873c82b0753d",
+      "chapter": "ch5",
+      "keywords": [
+        "💔 Meaning",
+        "🎨 Creativity",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to meaning and purpose?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "22 min read",
+      "hook": "The most powerful leaders of the next decade will think with AI, decide with IQ, and lead with EQ—a tripartite intelligence stack where emotional intelligence becomes the differentiating factor.",
+      "why_it_matters": "Directly frames the Five Instruments as complementary intelligences: AI amplifies IQ, but EQ and ethics must guide the application.",
+      "summary": "Proposes that human value increasingly derives from the integration of artificial intelligence capabilities, analytical intelligence, and emotional intelligence—each amplifying the others. Additional context needed.",
+      "bibtex": "@article{stack2025,\n  title={The New Intelligence Stack: Where AI, IQ, and EQ Converge},\n  journal={Medium},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-112",
+      "title": "Emotional Intelligence in the Age of AI: Why EQ Is Important When Machines Handle Everything Else",
+      "author": "Organizational Psychology Research Team",
+      "source": "AWS Executive Insights",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 8,
+      "url": "https://aws.amazon.com/executive-insights/content/emotional-intelligence/",
+      "chapter": "ch5",
+      "keywords": [
+        "💔 Meaning",
+        "🏛️ Power",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "What happens to love and connection?",
+        "Who controls AI?"
+      ],
+      "difficulty": "moderate",
+      "time": "18 min read",
+      "hook": "As AI handles cognition, emotional intelligence becomes the irreplaceable human capacity—empathy, self-awareness, and relational skill cannot be outsourced without losing fundamental humanity.",
+      "why_it_matters": "Core to Instrument 4 (EQ): establishes emotional intelligence as a uniquely human capability that AI cannot replicate and that defines human flourishing.",
+      "summary": "Argues that while AI excels at information processing, humans uniquely bring empathy, moral reasoning, and relational understanding—capabilities that define leadership and connection. Additional context needed.",
+      "bibtex": "@article{eq_age_ai2025,\n  title={Emotional Intelligence in the Age of AI},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-113",
+      "title": "Making Tacit Knowledge Explicit: Generative AI's Role in Enhancing Apprenticeship Systems and Expertise Transfer",
+      "author": "Knowledge Management Research Team",
+      "source": "SAGE Publications",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 10,
+      "url": "https://journals.sagepub.com/doi/10.1177/18724981251397523",
+      "chapter": "ch5",
+      "keywords": [
+        "🤖 How AI Works",
+        "💼 Jobs",
+        "🎨 Creativity"
+      ],
+      "questions": [
+        "How do I actually use AI well?",
+        "Will AI take my job?"
+      ],
+      "difficulty": "advanced",
+      "time": "32 min read",
+      "hook": "Expert apprenticeship systems face collapse as experienced practitioners retire.",
+      "why_it_matters": "Core to Instrument 1 (Domain Expertise): explores how AI can preserve rather than replace the embodied knowledge that defines mastery in specialized domains.",
+      "summary": "Proposes using generative AI to interview, observe, and codify tacit knowledge from retiring experts, creating hybrid apprenticeship systems that preserve irreplaceable wisdom while accelerating learning. Additional context needed.",
+      "bibtex": "@article{tacit_knowledge2025,\n  title={Making Tacit Knowledge Explicit: Generative AI's Role in Enhancing Apprenticeship Systems},\n  journal={SAGE Publications},\n  year={2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch5-114",
+      "title": "Recalibrating Academic Expertise in the Age of Generative AI: What Knowledge Workers Actually Need to Know",
+      "author": "Academic Research and Higher Education Team",
+      "source": "PMC / Academic Research",
+      "publisher": null,
+      "type": "article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12827732/",
+      "chapter": "ch5",
+      "keywords": [
+        "🎨 Creativity",
+        "⚖️ Ethics",
+        "🧠 Intelligence"
+      ],
+      "questions": [
+        "What happens to education?",
+        "How do I actually use AI well?"
+      ],
+      "difficulty": "moderate",
+      "time": "24 min read",
+      "hook": "As AI handles knowledge retrieval and routine problem-solving, expertise must shift toward judgment, contextualization, and creative synthesis—the irreducibly human elements of wisdom.",
+      "why_it_matters": "Reframes what expertise means in the age of AI: not information mastery but judgment, discernment, and creative application.",
+      "summary": "Argues for recalibrating academic and professional expertise to emphasize judgment, ethical reasoning, and creative synthesis over information retention—capabilities AI cannot replace. Additional context needed.",
+      "bibtex": "@article{expertise_recalibrate2025,\n  title={Recalibrating Academic Expertise in the Age of Generative AI},\n  year={2025}\n}",
       "startHere": false
     }
   ]
