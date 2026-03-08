@@ -2,7 +2,7 @@
   "chapter": "ch8",
   "chapter_title": "The Shelf Life",
   "generated": "2026-03-06",
-  "entry_count": 99,
+  "entry_count": 101,
   "entries": [
     {
       "id": "ch8-001",
@@ -2692,6 +2692,63 @@
       "why_it_matters": "Challenges the assumption that consciousness can emerge from any sufficiently complex computation; suggests a hard barrier between biological and digital minds; reshapes entire debates about AI rights and moral status",
       "summary": "Philosophical analysis shows that panpsychism—the view that consciousness is fundamental and ubiquitous—implies digital AI systems cannot achieve phenomenal consciousness. Digital computation, by representing information digitally and abstracting from microphysical states, may be inherently incapable of generating the coherent macrophenomenal experience that characterizes consciousness.",
       "bibtex": "@article{panpsychism-ai-2022, author={Arvan, Marcus and Maley, Corey J.}, year={2022}, title={Panpsychism and AI consciousness}, journal={Synthese}, url={https://link.springer.com/article/10.1007/s11229-022-03695-x}}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-100",
+      "title": "AI 2027: What Superintelligence Looks Like",
+      "author": "AI Alignment Forum Contributors",
+      "source": "AI Alignment Forum",
+      "publisher": null,
+      "type": "research report",
+      "year": 2025,
+      "month": 11,
+      "url": "https://www.alignmentforum.org/posts/TpSFoqoG2M5MAAesg/ai-2027-what-superintelligence-looks-like-1",
+      "chapter": "ch8",
+      "keywords": [
+        "⏱️ Speed",
+        "🧠 Intelligence",
+        "🏛️ Power"
+      ],
+      "questions": [
+        "How fast is this happening?",
+        "Is AI actually dangerous?"
+      ],
+      "difficulty": "deep",
+      "time": "40 min read",
+      "hook": "By 2027, AI systems will move from matching human expertise to eclipsing all humans at all tasks. The timeline isn't gradual—it compounds. This is when the shelf life ends.",
+      "why_it_matters": "Ch8's shelf life thesis requires concrete scenarios. This detailed technical roadmap shows the specific capacity increases that drive the transition from human-competitive to superintelligent AI.",
+      "summary": "Detailed technical timeline from 2025 through 2027 projecting compute scaling, algorithmic improvements, and capability jumps, with multiple scenario branches showing how uncertainty compounds and divergence emerges.",
+      "bibtex": "@report{ai2027alignment,\n  author = {{AI Alignment Forum}},\n  title = {AI 2027: What Superintelligence Looks Like},\n  year = {2025}\n}",
+      "startHere": false
+    },
+    {
+      "id": "ch8-101",
+      "title": "Transhumanism and the Future of Consciousness: The Integration of Humans and Machines",
+      "author": "Stefan Lorenz Sorgner",
+      "source": "European Journal of AI, Computing & Informatics",
+      "publisher": null,
+      "type": "journal article",
+      "year": 2025,
+      "month": 9,
+      "url": "https://pinnaclepubs.com/index.php/EJACI/article/view/11",
+      "chapter": "ch8",
+      "keywords": [
+        "🧬 Evolution",
+        "🧠 Intelligence",
+        "⚖️ Ethics"
+      ],
+      "questions": [
+        "Am I still the real me?",
+        "Can AI think or feel?",
+        "What happens to love and connection?"
+      ],
+      "difficulty": "moderate",
+      "time": "28 min read",
+      "hook": "Transhumanism proposes merging humans with superintelligent AI to avoid becoming obsolete—'some version of a merge, at least for some of us.' But does human-AI merger preserve human identity or end it?",
+      "why_it_matters": "Ch8 explores future coexistence paths. Transhumanism represents the radical integration scenario where humans voluntarily merge with AI to compete. But merger raises existential identity questions.",
+      "summary": "Analysis of transhumanism as a response to superintelligence, examining brain-computer interfaces, neural augmentation, and human-machine consciousness integration as potential paths to human relevance.",
+      "bibtex": "@article{sorgner2025transhumanism,\n  author = {Sorgner, Stefan Lorenz},\n  title = {Transhumanism and the Future of Consciousness},\n  journal = {European Journal of AI, Computing & Informatics},\n  year = {2025}\n}",
       "startHere": false
     }
   ]
