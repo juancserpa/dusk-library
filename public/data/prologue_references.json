@@ -2,7 +2,7 @@
   "chapter": "prologue",
   "chapter_title": "Welcome to Second Place",
   "generated": "2026-03-05",
-  "entry_count": 110,
+  "entry_count": 109,
   "entries": [
     {
       "id": "prologue-001",
@@ -2951,34 +2951,6 @@
       "why_it_matters": "Demonstrates that AI progress narratives of slowdown are premature; systems continue accelerating when measured against truly challenging tasks, supporting the Prologue's big-picture assessment.",
       "summary": "Performance on newer expert-level benchmarks (MMMU, GPQA, SWE-bench) shows dramatic acceleration: 18.8, 48.9,. 67.3 percentage point improvements respectively within one year, contradicting claims of plateauing progress.",
       "bibtex": "@report{benchmarks2025,\n  title={AI Models Benchmark 2026},\n  year={2025}\n}",
-      "startHere": false
-    },
-    {
-      "id": "prologue-110",
-      "title": "AI Index 2025: State of AI in 10 Charts",
-      "author": "Stanford HAI Research Team",
-      "source": "Stanford HAI",
-      "publisher": null,
-      "type": "research report",
-      "year": 2025,
-      "month": 4,
-      "url": "https://hai.stanford.edu/news/ai-index-2025-state-of-ai-in-10-charts",
-      "chapter": "prologue",
-      "keywords": [
-        "🤖 How AI Works",
-        "🧠 Intelligence",
-        "⏱️ Speed"
-      ],
-      "questions": [
-        "How fast is this happening?",
-        "Does AI actually work?"
-      ],
-      "difficulty": "moderate",
-      "time": "20 min read",
-      "hook": "The 2025 Stanford AI Index reveals explosive growth: AI systems now score 4x higher than human experts on rapid tasks, but humans outperform AI 2-to-1 when given extended time.",
-      "why_it_matters": "Establishes a critical inflection point for the Prologue: AI dominates speed-constrained reasoning but fails at extended problem-solving, suggesting a race against time for human adaptation.",
-      "summary": "Stanford's comprehensive benchmark analysis shows AI capabilities accelerating across domains, with performance improvements of 18-67 percentage points year-over-year on advanced benchmarks (MMMU, GPQA, SWE-bench), yet human advantages persist in reasoning tasks requiring 32+ hours.",
-      "bibtex": "@report{stanfordhai2025index,\n  author = {{Stanford HAI}},\n  title = {AI Index 2025: State of AI in 10 Charts},\n  year = {2025}\n}",
       "startHere": false
     }
   ]

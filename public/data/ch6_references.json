@@ -2,7 +2,7 @@
   "chapter": "ch6",
   "chapter_title": "The Meaning Recession",
   "generated": "2026-03-05",
-  "entry_count": 108,
+  "entry_count": 107,
   "entries": [
     {
       "id": "ch6-001",
@@ -2899,34 +2899,6 @@
       "why_it_matters": "Most AI adoption is reactive, driven by competitive pressure and hype. The Amish model shows it's possible to evaluate technologies critically, modify them, or reject them entirely based on their impact on human relationships and community. This is not luddism; it's wise governance.",
       "summary": "Rather than adopting new technologies by default, the Amish engage in a deliberate evaluative process: Does this technology strengthen family? Community? Faith? If risks are identified, they are rejected or modified. Phones are used but kept in sheds to preserve dinner-table conversation. This 'amistics' framework—making conscious choices about which technologies become part of our lives—offers an alternative to AI's current inevitability narrative.",
       "bibtex": "@article{amish-amistics-ai-2025, year={2025}, title={Amish amistics: a framework for intentional technology adoption beyond AI inevitability}, url={https://www.thenewatlantis.com/publications/why-we-need-amistics-for-ai}}",
-      "startHere": false
-    },
-    {
-      "id": "ch6-108",
-      "title": "Art, Identity, and AI: Navigating Authenticity in Creative Practice",
-      "author": "Conference on Creativity and Cognition Authors",
-      "source": "ACM Conference Proceedings",
-      "publisher": null,
-      "type": "conference paper",
-      "year": 2025,
-      "month": 6,
-      "url": "https://dl.acm.org/doi/10.1145/3698061.3726959",
-      "chapter": "ch6",
-      "keywords": [
-        "🎨 Creativity",
-        "💔 Meaning",
-        "🤖 How AI Works"
-      ],
-      "questions": [
-        "What happens to meaning and purpose?",
-        "How do I actually use AI well?"
-      ],
-      "difficulty": "moderate",
-      "time": "20 min read",
-      "hook": "AI can generate art instantly, but authenticity still requires human struggle: creative styles reflect a singular finite life, and no AI-generated output can replicate that unrepeatable human singularity.",
-      "why_it_matters": "Ch6 explores meaning recession through creative work. This paper argues authenticity itself—the mark of having lived a singular human life—becomes the final scarce resource when AI can do anything else.",
-      "summary": "Contemporary HCI and artistic research addressing how to preserve human creative agency and attribution when generative AI can replicate style, with focus on documenting human artistic origins and acknowledging unrepeatable human experiences.",
-      "bibtex": "@inproceedings{ccc2025authenticity,\n  title = {Art, Identity, and AI: Navigating Authenticity in Creative Practice},\n  booktitle = {Proceedings of the 2025 Conference on Creativity and Cognition},\n  year = {2025}\n}",
       "startHere": false
     }
   ]

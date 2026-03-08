@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI and the Dusk of Humans — The Research Archive</title>
+    <meta name="description" content="A living database of 10,000+ articles, podcasts, papers, and media sources — the research architecture behind the book by Juan Camilo Serpa." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+      /* Smooth scrolling */
+      html { scroll-behavior: smooth; }
+
+      /* Animations */
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(16px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideDown {
+        from { opacity: 0; max-height: 0; }
+        to { opacity: 1; max-height: 600px; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+      }
+
+      /* Card hover effects */
+      .card-hover { transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important; }
+      .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(42,33,24,0.08), 0 2px 8px rgba(42,33,24,0.04) !important; }
+
+      .start-card-hover { transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important; }
+      .start-card-hover:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(184,58,42,0.1), 0 4px 12px rgba(42,33,24,0.06) !important; border-color: #b83a2a40 !important; }
+
+      /* Button hover effects */
+      .filter-btn { transition: all 0.2s ease !important; }
+      .filter-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(42,33,24,0.08); }
+
+      .pg-btn { transition: all 0.15s ease !important; }
+      .pg-btn:hover { transform: scale(1.08); }
+
+      /* Link button hover */
+      .source-link { transition: all 0.2s ease !important; }
+      .source-link:hover { transform: translateX(2px); }
+
+      /* Question chip hover */
+      .q-chip { transition: all 0.2s ease !important; }
+      .q-chip:hover { transform: translateY(-1px); box-shadow: 0 3px 10px rgba(42,33,24,0.08); }
+
+      /* Chapter tab hover */
+      .ch-tab { transition: all 0.15s ease !important; }
+      .ch-tab:hover { background: rgba(184,58,42,0.06) !important; }
+
+      /* Loading skeleton */
+      .skeleton {
+        background: linear-gradient(90deg, #e8e2d8 25%, #f0ebe3 50%, #e8e2d8 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 6px;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #f7f3eb; }
+      ::-webkit-scrollbar-thumb { background: #bfb5a8; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #9b8d7f; }
+
+      /* Focus styles for accessibility */
+      button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+        outline: 2px solid #b83a2a;
+        outline-offset: 2px;
+      }
+
+      /* Selection color */
+      ::selection { background: rgba(184,58,42,0.15); color: #2a2118; }
+
+      /* Responsive: collapse sidebar on narrow screens */
+      @media (max-width: 1100px) {
+        .dusk-sidebar {
+          display: none !important;
+        }
+      }
+      @media (max-width: 860px) {
+        .sidebar-layout {
+          flex-direction: column !important;
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .sidebar-layout > aside.left-sidebar {
+          display: none !important;
+        }
+        .sidebar-layout > main {
+          width: 100% !important;
+          min-width: 0 !important;
+          overflow-x: hidden !important;
+        }
+        .mobile-search-bar { display: flex !important; }
+      }
+      @media (max-width: 768px) {
+        .q-chips-row, .ch-tabs-row {
+          flex-wrap: nowrap !important;
+          overflow-x: auto !important;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+          padding-bottom: 4px;
+        }
+        .q-chips-row::-webkit-scrollbar, .ch-tabs-row::-webkit-scrollbar { display: none; }
+        .q-chips-row .q-chip { white-space: nowrap; flex-shrink: 0; }
+        .ch-tabs-row .ch-tab { white-space: nowrap; flex-shrink: 0; }
+        .mobile-collapse-section { padding-top: 12px !important; padding-left: 16px !important; padding-right: 16px !important; }
+        .hero-inner { padding: 28px 16px 24px !important; gap: 24px !important; }
+        .hero-cover img { width: 120px !important; }
+        .mobile-collapse-section h2 { margin-bottom: 8px !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
   "chapter": "ch3",
   "chapter_title": "The Dusk of Human Intelligence",
   "generated": "2026-03-05",
-  "entry_count": 109,
+  "entry_count": 108,
   "entries": [
     {
       "title": "AI now beats humans at basic tasks — new benchmarks are needed, says major report",
@@ -2895,34 +2895,6 @@
       "why_it_matters": "Memory palace mastery wasn't just about recall; it trained hippocampal function, synaptic strengthening, and deep knowledge integration; outsourcing to search engines trades short-term convenience for long-term cognitive decline in memory and concentration",
       "summary": "The mnemonic memory palace technique, fundamental to classical rhetoric and medieval scholarship, requires active cognitive engagement that strengthens hippocampal networks and enables deeper knowledge integration. Modern search engines eliminate the need to memorize, resulting in cognitive offloading. Recent research shows mnemonic training can slow age-related decline, but the practice itself is disappearing.",
       "bibtex": "@article{memory-palace-obsolescence-2024, year={2024}, title={Memory palace technique obsolescence: revival and risk of cognitive offloading from search}, url={https://www.mcgill.ca/oss/article/critical-thinking-history/ancient-memory-technique-still-puzzles-scientists}}",
-      "startHere": false
-    },
-    {
-      "id": "ch3-109",
-      "title": "AI Deskilling as a Structural Problem",
-      "author": "AI & SOCIETY Research Collective",
-      "source": "AI & SOCIETY (Springer Nature)",
-      "publisher": null,
-      "type": "journal article",
-      "year": 2025,
-      "month": 3,
-      "url": "https://link.springer.com/article/10.1007/s00146-025-02686-z",
-      "chapter": "ch3",
-      "keywords": [
-        "💼 Jobs",
-        "🤖 How AI Works",
-        "🧠 Intelligence"
-      ],
-      "questions": [
-        "Will AI take my job?",
-        "What happens to education?"
-      ],
-      "difficulty": "moderate",
-      "time": "18 min read",
-      "hook": "Deskilling isn't an individual choice or failure—it's structural. When AI replaces valuable human activity across industries, it systematically erodes the capacity for human expertise even in those who want to maintain it.",
-      "why_it_matters": "Moves Ch3's argument from individual cognitive responsibility to systemic risk. If deskilling is structural, no amount of willpower prevents it; policy and organizational design must change.",
-      "summary": "Springer-published analysis examining deskilling as an emergent property of AI adoption, arguing that widespread automation of decision-making and content generation structurally undermines human capacity development.",
-      "bibtex": "@article{aisociety2025deskilling,\n  author = {{AI & SOCIETY}},\n  title = {AI Deskilling as a Structural Problem},\n  journal = {AI & SOCIETY},\n  publisher = {Springer Nature},\n  year = {2025}\n}",
       "startHere": false
     }
   ]

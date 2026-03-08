@@ -2,7 +2,7 @@
   "chapter": "ch4",
   "chapter_title": "The Next Scarcity: The Conductor",
   "generated": "2026-03-05",
-  "entry_count": 112,
+  "entry_count": 111,
   "entries": [
     {
       "id": "ch4-001",
@@ -3048,34 +3048,6 @@
       "why_it_matters": "Shows conductor role extends to creative orchestration, not just engineering.",
       "summary": "IxDF's guide to using AI prompts effectively in design practice. Additional context needed.",
       "bibtex": "@article{ixdf2026prompts,\n  title={What Are AI Prompts in Design?},\n  journal={Interaction Design Foundation},\n  year={2026}\n}",
-      "startHere": false
-    },
-    {
-      "id": "ch4-112",
-      "title": "Position: AI Should Not Be An Imitation Game: Centaur Evaluations",
-      "author": "Stanford Digital Economy Lab",
-      "source": "Stanford Center on Longevity",
-      "publisher": null,
-      "type": "position paper",
-      "year": 2025,
-      "month": 6,
-      "url": "https://digitaleconomy.stanford.edu/app/uploads/2025/06/CentaurEvaluations.pdf",
-      "chapter": "ch4",
-      "keywords": [
-        "🤖 How AI Works",
-        "💼 Jobs",
-        "🧠 Intelligence"
-      ],
-      "questions": [
-        "How do I actually use AI well?",
-        "Will AI take my job?"
-      ],
-      "difficulty": "moderate",
-      "time": "24 min read",
-      "hook": "Stop evaluating AI as if it should replace humans. Centaur evaluation reframes AI as amplifier: measure not AI performance alone, but human-AI team performance on human-valued outcomes.",
-      "why_it_matters": "Ch4 explores human-AI collaboration. This paper argues our entire evaluation framework is wrong—we should benchmark centaur teams, not AI alone, to understand real augmentation.",
-      "summary": "Proposes new evaluation frameworks specifically designed for human-AI collaboration teams, arguing that AI-alone benchmarks miss the critical dynamics of how humans and systems actually augment each other.",
-      "bibtex": "@report{stanford2025centaur,\n  author = {{Stanford Digital Economy Lab}},\n  title = {Position: AI Should Not Be An Imitation Game: Centaur Evaluations},\n  year = {2025}\n}",
       "startHere": false
     }
   ]
